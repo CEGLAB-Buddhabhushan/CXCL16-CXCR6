@@ -1,0 +1,145 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_000152225.2_Pcap_2.0_genomic.fna
+           65,694 sequences; 3,602,182,911 total letters
+
+
+
+Query= XM_049861831.1 PREDICTED: Elephas maximus indicus C-X-C motif
+chemokine receptor 6 (CXCR6), mRNA
+
+Length=1026
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+KN680047.1 Procavia capensis isolate Dallas Zoo Isis #01D731 unpl...  1286       0.0  
+KN677051.1 Procavia capensis isolate Dallas Zoo Isis #01D731 unpl...  86.0       4e-14
+KN678933.1 Procavia capensis isolate Dallas Zoo Isis #01D731 unpl...  72.5       1e-09
+KN681281.1 Procavia capensis isolate Dallas Zoo Isis #01D731 unpl...  59.9       6e-06
+ABRQ02297477.1 Procavia capensis isolate Dallas Zoo Isis #01D731 ...  52.7       0.001
+KN694552.1 Procavia capensis isolate Dallas Zoo Isis #01D731 unpl...  50.9       0.003
+
+
+
+Query_1  1       ATGGAAGAGTATGACTACACAGATCCTGAGTTTTTTAACACTTCCAGTGACAGCCGACAG  60
+3917     31716   ........T..C.......A...G............C.A.A.............A.....  31657
+
+Query_1  61      GAGCATAACCGCTTCCTGCAGTTCAGCAAGTTCTTCCTGCCCTGCATGTACATGGTGGTG  120
+3917     31656   ..A..CG.G.A...........................T.....................  31597
+921      406026                                 ..........-.....A...TC.C....C  405998
+                                                                 \           
+                                                                 |           
+                                                                 C
+2803     160770                                                         .....  160766
+
+Query_1  121     TTCGTCTGTGGCCTGGTGGGGAACTCCTTGGTGCTGGTCATATACATCTTCTACCAGAAG  180
+3917     31596   ..T.....C.................TC.............C.G................  31537
+921      405997  ...A-......G........A...CTGC........T..GCCCTGGC.AG.AG.......  405938
+                             \                                               
+                             |                                               
+                             A
+921      478652                                                         .....  478656
+2803     160765  ..T...ATC...........C...........C...A..C.---...GCAA...A...G.  160706
+                                         \   \                               
+                                         |   |                               
+                                         A  GG
+2803     337726                                                         .....  337730
+
+Query_1  181     CTGAAGAGCATGACAGACCTGTTCCTGATGAACCTGCCCCTGGCTGACCTGGTGTTTGTC  240
+3917     31536   ............................................................  31477
+921      405937  GCC........C..T...G.C.A...CC........G.....T.G.....CC.C..C..G  405878
+921      478657  ....G......C......G...A...CT........G.....T.G......C.C......  478716
+2803     160705  ..C..A........CAGTG.C.A...CC.C......G..A.TT....T...C.C..CC..  160646
+2803     337731  ..............T...A.C.A....C.C..TT..G.TG.CT........A.....C.T  337790
+
+Query_1  241     TGCACTCTGCCCTTCTGGACCTATGCAAGCATCCATGAGTGGGTGTTTGGCACGTCTATG  300
+3917     31476   ..............T.......................A.....C.....T..A......  31417
+921      405877  GC...CT............                                           405859
+921      478717  .T.T..T.C......CT...GC.CTACC..C.GG.CC.............G.....-...  478776
+                                                                      \      
+                                                                      |      
+                                                                      T
+2803     160645  .T...G.............                                           160627
+2803     337791  .T......C..A......G....-C..T..G..AG..G......C.....            337840
+                                               \                             
+                                               |                             
+                                               T
+
+Query_1  301     TGCAAAATCCTACTGGGCACCTACACTTTGAACTTCTACACATCCATGCTCATCCTTACC  360
+3917     31416   ...........G.......T......C..............G...........G..C...  31357
+921      478777  .....                                                         478781
+
+Query_1  361     TGCATCACAGTGGACCGCTTCCTTGCAGTGGTTCAAGCCACCAAAGCCTACAACCAGCAG  420
+3917     31356   ........C............A....T..C..................C...........  31297
+
+Query_1  421     GCCAAGCGGATGATCTGGGCCAAAGTCATCTGCCTGTCCATGTGGGTGATCTCCCTGCTG  480
+3917     31296   ....GA.T..A........G...G.........A...T...C...A..G...........  31237
+
+Query_1  481     GTTTCCTTGCCACAGATCATCTACGGAAATGTCTCTATTCATGACAAGCTCATCTGTGAT  540
+3917     31236   ......C.....................C.......C...G.......G........C.C  31177
+
+Query_1  541     TACAAAGACGAGAAAATTTCCACTGTGGTCCTTGCTACCCAGATGGCACTGGGGTTCTTC  600
+3917     31176   ..TC.G...C........................GCT.T......A.......T......  31117
+
+Query_1  601     CTGCCGCTGTTCACCATGATCATCTGCTACTCAGTCATAATCAAGACGCTGCTTCATGCA  660
+3917     31116   ..C..A..CA..........TG..........T..............C........A...  31057
+
+Query_1  661     CGCAGTTTCCAGAAGCATAAGTCTCTAAAGATCATCTTCCTGGTGGTGGCTGTGTTCCTG  720
+3917     31056   ...G.C...........C.G....A........G....A.................T...  30997
+
+Query_1  721     CTGACCCAGACACCCTTTAACCTCATGAAGCTCATTCGCAGCACGAGCTGGGAGTACCAT  780
+3917     30996   ...........G..T..C.....G........G..C.....................G..  30937
+
+Query_1  781     GCCATGACCAGCTTTCACTACGCCATCATAGTGACGGAGGCCATTGCTTACCTGCGGGCC  840
+3917     30936   ..............C..T...........C..............C..C.....A......  30877
+5151     63229                    ....A...AA.AC..C..C....T.C.G....TT....ACTG.  63187
+37602    520                                                                .  520
+18448    11254                                                              .  11254
+
+Query_1  841     TGCCTTAACCCTGTGCTCTATGTCTTTGTTGGCCTGAAGTTTCGAAAGAACTTCTGGAAA  900
+3917     30876   ....................C...........TGCC........G........T......  30817
+5151     63186   .....C...........G..C.CT...A......A......C....GCT.....CT...G  63127
+37602    521     .....C......A.T...........C..G....A...T..C.A......            570
+18448    11253   .....C......A.T...........C..G....A...T..C.A.....             11205
+
+Query_1  901     CTTGTGAAAGACATTGGCTGCCTCCCTTACCTGGGGGTCTCAAGTCAATGGAAGTTTTCT  960
+3917     30816   ..CA....G..TGCC.....T...........AA............CC.TT....C....  30751
+                                                               \             
+                                                               |             
+                                                          CCTTTA
+5151     63126   A.CA........                                                  63115
+
+Query_1  961     GAGGACACCTCCAAGATTTCTTCTGCCTCCCACAATGTGGAGGCCACCAGCATGCTCCAA  1020
+3917     30750   ...................................CA....T............TC....  30691
+
+Query_1  1021    ATGTAG  1026
+3917     30690   ..A...  30685
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3574814903937
+
+
+  Database: GCA_000152225.2_Pcap_2.0_genomic.fna
+    Posted date:  Dec 17, 2023  7:40 PM
+  Number of letters in database: 3,602,182,911
+  Number of sequences in database:  65,694
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
