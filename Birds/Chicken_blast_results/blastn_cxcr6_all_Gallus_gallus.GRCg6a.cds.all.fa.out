@@ -1,0 +1,471 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Gallus_gallus.GRCg6a.cds.all.fa
+           28,444 sequences; 53,094,622 total letters
+
+
+
+Query= cxcr6_duck_ncbi_edited
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSGALT00000079183.3 cds chromosome:GRCg6a:2:44348127:44354228:...  57.2    3e-07
+  ENSGALT00000057867.2 cds chromosome:GRCg6a:2:42617494:42623187:...  55.4    1e-06
+  ENSGALT00000098182.1 cds chromosome:GRCg6a:2:42632317:42640047:...  50.0    5e-05
+
+
+
+Query_1  179  AGAAACTGAAGACACTGACAGATATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCT  238
+13456    188  ....GT......GTA....T..C..C.ACC..C.C..T.....C..TT......T.C.T.  247
+13471    185  ....GT......GTA....T..C..C.ACC..C.C..T.....C..TT......T.C.G.  244
+
+Query_1  239  TCCTTTGGACGCTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTG  298
+13456    248  .TA.A.TTT.T..T.....T.....T....A......C..T..C...........       302
+13471    245  .TG.A.TTT.T..T..T..T.....T....A......C..T..C...........       299
+
+Query_1  299  TGACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCGATGTTAACCC  358
+
+Query_1  359  TAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTGCCACCAAAGCACATATGA  418
+
+Query_1  419  GTCAAACCAAACGACTGAAATGGGGCAAATTAATCTGCGGCTTGATCTGGGTGATTTCAG  478
+
+Query_1  479  TAGCATTTGCCACACCACAGCTTATTTTTAGTGATGTGTTTACTATTGATAAGACAATAT  538
+
+Query_1  539  GCCTGGAAAAATACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCC  598
+
+Query_1  599  TTGGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTATTAAAACCT  658
+
+Query_1  659  TACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTaaaaaaaaTATTTTCTGTAGTGG  718
+
+Query_1  719  CCATATTTATTCTTACTCAGTCACCCTACACTTTCTTGAGACTGATGAAGATCATCGACT  778
+
+Query_1  779  GGAGCTTCAACTTGGACAGCAACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTT  838
+14637    865                                           .....T...AG.....GCC  883
+
+Query_1  839  ATTTCCACGGCTGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGA  898
+14637    884  T.......T.T..C..C..T..A..C..C................AA.....T.A....T  943
+
+Query_1  899  AC  900
+14637    944  ..  945
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52821171900
+
+
+Query= cxcr6_anser_cygnoides
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSGALT00000079183.3 cds chromosome:GRCg6a:2:44348127:44354228:...  55.4    1e-06
+  ENSGALT00000057867.2 cds chromosome:GRCg6a:2:42617494:42623187:...  48.2    2e-04
+  ENSGALT00000098182.1 cds chromosome:GRCg6a:2:42632317:42640047:...  44.6    0.002
+
+
+
+Query_2  250  CTGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTGGCATGTCGT  309
+13456    259  ..T.....T.....T....A......C..T..C...........                  302
+13471    256  ..T..T..T.....T....A......C..T..C...........                  299
+
+Query_2  310  ATTATACGGGGCCTGTACAATCTGAACTTGTACACTTCAATGTTAACTCTAACGTCTATT  369
+
+Query_2  370  ACCTTTGACAGACTTATTGCTATTACTTTTGCCACCAAAGCACATATGTGTCAAACCAAA  429
+
+Query_2  430  CGAATGAAATGGGGCAAATTAATCTGCGGCTTGATCTGGGTGATTTCACTCGCATTTGCC  489
+
+Query_2  490  ACACCACAGCTTATTTTTAGTGATGTATTTACTATTGATAAGGCAATATGCCTGGAAAAA  549
+
+Query_2  550  TACCCAAACCACCACACAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTTGGCTACTTT  609
+
+Query_2  610  ATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTATTAAAACCTTACTGCATGCC  669
+
+Query_2  670  AGGAATTTCCAAAGGAACAAATCTCTaaaaaaaaTATTTTCTGTAGTTGTCATATTTATT  729
+
+Query_2  730  CTTACTCAGTCACCCTACACTTTCTTGAGACTGATGAAGATCATAGACTGGAGCTTTAAC  789
+
+Query_2  790  TTGGACAGCAACTTTGACTATGCAATCGTTATAACAGAAGCTCTTGCTTATTTCCACGGC  849
+14637    841        ..G...C.G.........TCTCAA.....T...AGC....GCCT.......T.T  894
+
+Query_2  850  TGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC  900
+14637    895  ..C..C..T..A..C..C................AA.....T.A....T..  945
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52821171900
+
+
+Query= cxcr6_human
+
+Length=1029
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSGALT00000081249.2 cds chromosome:GRCg6a:7:22588095:22590196:...  55.4    1e-06
+  ENSGALT00000008506.4 cds chromosome:GRCg6a:2:2162908:2166703:1 ...  46.4    6e-04
+  ENSGALT00000019167.4 cds chromosome:GRCg6a:2:42654209:42655342:...  44.6    0.002
+  ENSGALT00000004056.6 cds chromosome:GRCg6a:13:2687360:2689815:1...  44.6    0.002
+  ENSGALT00000024646.4 cds chromosome:GRCg6a:2:110144374:11016536...  42.8    0.007
+  ENSGALT00000012443.4 cds chromosome:GRCg6a:24:5596881:5602957:1...  42.8    0.007
+  ENSGALT00000006563.6 cds chromosome:GRCg6a:4:1396625:1409350:1 ...  42.8    0.007
+  ENSGALT00000059797.2 cds chromosome:GRCg6a:4:1395651:1409355:1 ...  42.8    0.007
+
+
+
+Query_3  117  GGTGGTGTTTGTCTGTGGTCTGGTGGGGAACTCTCTGGTGCTGGTCATATCCATCTTCTA  176
+22229    204  ......C.....TGT...CT.......A............A..                   246
+
+Query_3  177  CCATAAGTTGCAGAGCCTGACGGATGTGTTCCTGGTGAACCTACCCCTGGCTGACCTGGT  236
+24617    241                     ..C.....C.A....C.C.....GG.TG....C......C.  281
+
+Query_3  237  GTTTGTCTGCACTCTGCCCTTCTGGGCCTATGCAGGCATCCATGAATGGGTGTTTGGCCA  296
+24617    282  C....C.CT..GC.....GC.........C.A.T..GC-...C..G.....T......AC  341
+                                          \                               
+                                          |                               
+                                          G
+
+Query_3  297  GGTCATGTGCAAGAGCCTACTGGGCATCTACACTATTAACTTCTACACGTCCATGCTCAT  356
+24617    342  C...........-....                                             357
+12284    934                                       ...A.G.....C.....C...T.  956
+14130    312                                                     ......GT.  320
+14129    312                                                     ......GT.  320
+
+Query_3  357  CCTCACCTGCATCACTGTGGATCGTTTCATTGTAGTGGTTAAGGCCACCAAGGCCTACAA  416
+12284    957  .............GGA.....G..                                      980
+14130    321  ..............GC..T..C......C...                              352
+14129    321  ..............GC..T..C......C...                              352
+
+Query_3  417  CCAGCAAGCCAAGAGGATGACCTGGGGCAAGGTCACCAGCTTGCTCATCTGGGTGATATC  476
+
+Query_3  477  CCTGCTGGTTTCCTTGCCCCAAATTATCTATGGCAATGTCTTTAATCTCGACAAGCTCAT  536
+
+Query_3  537  ATGTGGTTACCATGACGAGGCAATTTCCACTGTGGTTCTTGCCACCCAGATGACACTGGG  596
+
+Query_3  597  GTTCTTCTTGCCACTGCTCACCATGATTGTCTGCTATTCAGTCATAATCAAAACACTGCT  656
+
+Query_3  657  TCATGCTGGAGGCTTCCAGAAGCACAGATCTCTAAAGATCATCTTCCTGGTGATGGCTGT  716
+
+Query_3  717  GTTCCTGCTGACCCAGATGCCCTTCAACCTCATGAAGTTCATCCGCAGCACACACTGGGA  776
+
+Query_3  777  ATACTATGCCATGACCAGCTTTCACTACACCATCATGGTGACAGAGGCCATCGCATACCT  836
+19096    905                               ......................T.GC.T.AC  935
+
+Query_3  837  GAGGGCCTGCCTTAACCCTGTGCTCTATGCCTTTGTCAGCCTGAAGTTTCGAAAGAACTT  896
+14002    699        ......C.................T.....                          728
+13490    957        ......C.........A............                           985
+19096    936  .CACTG......C.....CA.CA.T........CA.TG.GG.C.....C..T..CG....  995
+
+Query_3  897  CT  898
+19096    996  ..  997
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52350488190
+
+
+Query= cxcr6_acanthisitha_chloris_duck_edited
+
+Length=1033
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSGALT00000048034.2 cds chromosome:GRCg6a:9:12538281:12559258:...  44.6    0.002
+  ENSGALT00000072703.2 cds chromosome:GRCg6a:27:7287727:7296472:-...  44.6    0.002
+
+
+
+Query_4  182  CTGAAGATACTGACAGACATCTTTTTGCTGAACTTGGCTATGGCTGAGTGGTTCTTCCTT  241
+10071    192                   .......C....A...C....AC.......C.T..GT..T..A  234
+5770     259  .......CCA............AC.........C....CC....A..               305
+
+Query_4  242  TGGATGCTGCCACTCTGGGCA  262
+10071    235  ATA.CT...............  255
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52559680950
+
+
+Query= cxcr6_Aptenodytes_forsteri
+
+Length=1035
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52664277330
+
+
+Query= cxcr6_chlamydotis_macqueenii
+
+Length=1038
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52821171900
+
+
+Query= cxcr6_colius_striatus
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSGALT00000079183.3 cds chromosome:GRCg6a:2:44348127:44354228:...  44.6    0.002
+
+
+
+Query_7  842  TCCACGGCTGTCTCAACCCTATCCTGTATTTCTTCATGGGGGTCAAATT  890
+14637    887  .....T.T..C.....T..AG..A.C................AA.....  935
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52821171900
+
+
+Query= cxcr6_corythaeola_cristata
+
+Length=1035
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52664277330
+
+
+Query= cxcr6_dromaius_novaehollaniae
+
+Length=1035
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSGALT00000079183.3 cds chromosome:GRCg6a:2:44348127:44354228:...  50.0    5e-05
+  ENSGALT00000012443.4 cds chromosome:GRCg6a:24:5596881:5602957:1...  42.8    0.007
+  ENSGALT00000073426.2 cds chromosome:GRCg6a:2:41184789:41205075:...  42.8    0.007
+
+
+
+Query_9  187   ACACTGACAGATGTATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTTCTTTGGACC  246
+12023    1270  .......................                                       1292
+
+Query_9  247   CTGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACTGCGGCATGTCGT  306
+
+Query_9  307   ATTATCCGGGGCTTGTATACTCTGAATGTGTACACGTCAATGTTAACTCTAACCTGTATA  366
+
+Query_9  367   ACCTTCGATCGGCTTATTGCTATTACTTTTGCCACCACAGCACACAGGTGTCAAAGCAAA  426
+
+Query_9  427   CGAATGACATGGGGCAAATTAATCTGCATCTTGATCTGGGTGATTTCACTAGCCTTTGCC  486
+
+Query_9  487   ACACCACAGTTTATTTTTAGTGAGGCATTTCGTATTGATAAGGCAATATGTCAGGAAAAA  546
+
+Query_9  547   TACCCAAACCATCGCACAGAATTTGTTCTTGAGGTAATCCAAGTGGTCCTTGGCTATTTT  606
+
+Query_9  607   ATCCCCATGCTAACCATGACCATCTGCTACTCACTAATCATTAAAACATTACTGCATGCC  666
+
+Query_9  667   AGGAGTTTTCAGAAGCACAAATCTCTGAAAACAATATTTTCTGTAGTTGCCACATTCATT  726
+
+Query_9  727   CTTACTCAGTCACCCTATACTTTCTTGAGACTGATAAAGATCACAGAGTGGAGCTTTAAC  786
+
+Query_9  787   TTGAACCGCAACTTTGAATATGCAATCGTCATAACAGAAGCTTTTGCTTATTTCCATGCC  846
+14637    865                                 .....T.....C..G..C.-......CTGT  894
+                                                      \                    
+                                                      |                    
+                                                      A
+19096    942                                                              .  942
+
+Query_9  847   TGCCTCAACCCTGTCCTGTATTTCTTCATTGGGGTGAAATTCAGGAAG  894
+14637    895   ........T..A...A.C...........G....AA.....T.A....  942
+19096    943   ...........CA..A.T...GC............C..G...        984
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52664277330
+
+
+Query= cxcr6_eurypyga_helias
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSGALT00000079183.3 cds chromosome:GRCg6a:2:44348127:44354228:...  51.8    1e-05
+
+
+
+Query_10  95   TCTTCCTGCCCTGTATGTACTCGGTTGTTTTCATCCTTGGGCTAGCAGGAAACACACTGG  154
+14637     121  ....T..T......T....TA.CC.G..A...C.GA........AT.........C....  181
+                              \                                            
+                              |                                            
+                              C
+
+Query_10  155  TCTTTGTCATACTAGTTTTCTATGAGAAACTGAAGGTGCTGACAGATGTATTTTTGGTGA  214
+14637     182  ..A....GG.C..CT..AAA..CA...G.......AGTA....T..C..G.ACC..C.A.  241
+
+Query_10  215  ACTTGGCTGTAGCTGACTGGGTCTTCCTTTGGACGCTGCCGTTCTGGGCATATTCTGCTG  274
+14637     242  ..C.C..CA.CT.A..T.T.C....TG...TAT.C............T.T....        295
+
+Query_10  275  CTCAGGAGTGGACTTTTGGCACCGTGACCTGCCGTATTATACGGGGCTTATATACTCTCA  334
+
+Query_10  335  ACTTGTACACTTCCATGTTAACTCTAACGTCTATCACATTTGATCGGCTGATTGCTATTA  394
+
+Query_10  395  CTTTTGCCACCAAAGCACGTATGTGTCAAACCAAACGAATGACATGCGGCAAGTTAGTCT  454
+
+Query_10  455  GTGTCTTGATCTGGGTGATCTCACTAGCATTTGCTTCACCGCAGTTTATTTTTAGTGAGG  514
+
+Query_10  515  TGCTAAGTATTGATAAGGCAATATGTCAAGAGGAGTACCCAAACCATCACGCAGAACAGG  574
+
+Query_10  575  TTCTTGAAGTGATCCAAGTGAACCTTGGCTATTTCATTCCCATGCTTGCCATGATCATCT  634
+
+Query_10  635  GCTACTCGCTAATTATTAGAACCTTACTGCAAGCGAGGAGTTTTCAAAAGAACAAATCTC  694
+
+Query_10  695  TaaaaaaaaTATTTTCTGTAGTTGCCGTATTTATTATTACTCAGTCACCCTATACTTTCT  754
+
+Query_10  755  TGAGGCTGATAAAGATCATAGACTGGAGCTTTAACTTGAACAGCAGCTTCGAATACGCAA  814
+
+Query_10  815  TCATTGTAACAGAAGCTCTTGCTTATTTCCACGGCTGTCTTAACCCTGTTCTGTATTTCT  874
+14637     885                           .......T.T..C..C..T..A..CA.C.......  919
+
+Query_10  875  TCATGGGGGTGAAATT  890
+14637     920  .........AA.....  935
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52821171900
+
+
+Query= cxcr6_leptosomus_discolor
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSGALT00000079183.3 cds chromosome:GRCg6a:2:44348127:44354228:...  42.8    0.007
+
+
+
+Query_11  840  TTTCCATGGCTGTCTTAACCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGGAA  899
+14637     885  ......CT.T..C..C..T..A..CA.C................AA.....T.A..A.T.  944
+
+Query_11  900  CCT  902
+14637     945  ...  947
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52821171900
+
+
+Query= cxcr6_malurus_cyaneus_samueli
+
+Length=1003
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50990735250
+
+
+  Database: Gallus_gallus.GRCg6a.cds.all.fa
+    Posted date:  Jun 20, 2022  3:20 PM
+  Number of letters in database: 53,094,622
+  Number of sequences in database:  28,444
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

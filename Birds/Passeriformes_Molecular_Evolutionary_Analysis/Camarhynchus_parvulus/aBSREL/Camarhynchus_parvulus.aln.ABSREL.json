@@ -1,0 +1,405 @@
+{
+ "analysis":{
+   "info":"aBSREL (Adaptive branch-site random effects likelihood)\n                            uses an adaptive random effects branch-site model framework\n                            to test whether each branch has evolved under positive selection,\n                            using a procedure which infers an optimal number of rate categories per branch.",
+   "version":"2.0",
+   "citation":"Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32 (5): 1342-1353",
+   "authors":"Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM / UCSD viral evolution group",
+   "contact":"spond@temple.edu",
+   "requirements":"in-frame codon alignment and a phylogenetic tree"
+  },
+ "input":{
+   "file name":"/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/Passeriformes_selection/Camarhynchus_parvulus/aBSREL/Camarhynchus_parvulus.aln",
+   "number of sequences":8,
+   "number of sites":349,
+   "partition count":1,
+   "trees":{
+     "0":"(((Leptosomus_discolor:65.9115,Colius_striatus:65.9115)Node2:2.56957,Tyto_alba:67.6523)Node1:1.93715,(Haliaeetus_leucocephalus:28.4662,Aquila_chrysaetos:28.4662)Node6:41.952,(Camarhynchus_parvulus:66.0466,(Falco_peregrinus:6.96076,Falco_tinnunculus:6.96076)Node11:59.0859)Node9:4.37159)"
+    }
+  },
+ "fits":{
+   "Nucleotide GTR":{
+     "Log Likelihood":-3104.436358568504,
+     "estimated parameters":21,
+     "AIC-c":6250.983322834877,
+     "Equilibrium frequencies":[
+      [0.2886521012416428],
+      [0.2126014804202483],
+      [0.1893206781279847],
+      [0.3094257402101241]
+      ],
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.2261062307332376,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.1273252657671177,
+       "Substitution rate from nucleotide C to nucleotide G":0.297242058732162,
+       "Substitution rate from nucleotide C to nucleotide T":0.9183971171967802,
+       "Substitution rate from nucleotide G to nucleotide T":0.1309291360286646
+      },
+     "display order":0
+    },
+   "Baseline MG94xREV":{
+     "Log Likelihood":-3007.600007608569,
+     "estimated parameters":40,
+     "AIC-c":6096.392308928516,
+     "Equilibrium frequencies":[
+      [0.02763106300985797],
+      [0.02240606667338807],
+      [0.02040535953953932],
+      [0.02937854559770721],
+      [0.02120619992394679],
+      [0.01719613643585228],
+      [0.01566064011945915],
+      [0.02254735227513667],
+      [0.01358920723155133],
+      [0.01101950667478831],
+      [0.01003554077228887],
+      [0.01444863500714356],
+      [0.03460077270639638],
+      [0.02805781377045358],
+      [0.02555244462248889],
+      [0.03678904348732816],
+      [0.01352177447896935],
+      [0.0109648253637659],
+      [0.009985742124995242],
+      [0.01437693757748616],
+      [0.01037764825860094],
+      [0.008415249124227506],
+      [0.007663825449497784],
+      [0.01103396610016423],
+      [0.00665013124784449],
+      [0.005392600497231139],
+      [0.00491107848615809],
+      [0.007070708210749405],
+      [0.01693253151958176],
+      [0.01373061289902737],
+      [0.01250456391954151],
+      [0.01800340251676783],
+      [0.01847755117420556],
+      [0.01498347144380523],
+      [0.01364555084201371],
+      [0.01964613447957813],
+      [0.01418109191692567],
+      [0.01149946677327325],
+      [0.01047264374609418],
+      [0.01507795249708779],
+      [0.009087427144887273],
+      [0.007369007063725973],
+      [0.006711005585077822],
+      [0.009662147006311839],
+      [0.02313836236128146],
+      [0.01876292959105197],
+      [0.01708752945804668],
+      [0.02460171124956926],
+      [0.01888788683459487],
+      [0.02476555357543134],
+      [0.01787642205095405],
+      [0.01449601501803966],
+      [0.01320162091122318],
+      [0.01900698790200153],
+      [0.009289233941880073],
+      [0.008459769454140105],
+      [0.01217992371920523],
+      [0.02916779141981956],
+      [0.0236522018365631],
+      [0.02154022343198904],
+      [0.03101246194928737]
+      ],
+     "Rate Distributions":{
+       "Per-branch omega":{
+         "Mean":0.5542996097755876,
+         "Median":0.2819274498858771,
+         "2.5%":0,
+         "97.5%":1.98975908152739
+        }
+      },
+     "display order":1
+    },
+   "Full adaptive model":{
+     "Log Likelihood":-3007.599961474965,
+     "estimated parameters":40,
+     "AIC-c":6096.392216661308,
+     "Rate Distributions":{
+      },
+     "display order":2
+    }
+  },
+ "timers":{
+   "Overall":{
+     "timer":218,
+     "order":0
+    },
+   "Preliminary model fitting":{
+     "timer":1,
+     "order":1
+    },
+   "Baseline model fitting":{
+     "timer":14,
+     "order":2
+    },
+   "Complexity analysis":{
+     "timer":198,
+     "order":3
+    },
+   "Full adaptive model fitting":{
+     "timer":1,
+     "order":4
+    },
+   "Testing for selection":{
+     "timer":4,
+     "order":5
+    }
+  },
+ "test results":{
+   "P-value threshold":0.05,
+   "tested":1,
+   "positive test results":0
+  },
+ "tested":{
+   "0":{
+     "Leptosomus_discolor":"background",
+     "Colius_striatus":"background",
+     "Node2":"background",
+     "Tyto_alba":"background",
+     "Node1":"background",
+     "Haliaeetus_leucocephalus":"background",
+     "Aquila_chrysaetos":"background",
+     "Node6":"background",
+     "Camarhynchus_parvulus":"test",
+     "Falco_peregrinus":"background",
+     "Falco_tinnunculus":"background",
+     "Node11":"background",
+     "Node9":"background"
+    }
+  },
+ "data partitions":{
+   "0":{
+     "name":"absrel.filter.default",
+     "coverage":[
+      [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348]
+      ]
+    }
+  },
+ "branch attributes":{
+   "0":{
+     "Camarhynchus_parvulus":{
+       "original name":"Camarhynchus_parvulus",
+       "Nucleotide GTR":0.1497309533019189,
+       "Baseline MG94xREV":0.1497929235011614,
+       "Baseline MG94xREV omega ratio":1.147281445257712,
+       "Rate classes":1,
+       "Full adaptive model":0.1497488281346516,
+       "Rate Distributions":[
+        [1.147148527894972, 1]
+        ],
+       "LRT":0.377729506729338,
+       "Uncorrected P-value":0.3561337164224111,
+       "Corrected P-value":0.3561337164224111
+      },
+     "Falco_peregrinus":{
+       "original name":"Falco_peregrinus",
+       "Nucleotide GTR":0.004876797284900711,
+       "Baseline MG94xREV":0.004921386027236428,
+       "Baseline MG94xREV omega ratio":0.2833061472360638,
+       "Rate classes":1,
+       "Full adaptive model":0.004920952113390471,
+       "Rate Distributions":[
+        [0.2833215011480272, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      },
+     "Falco_tinnunculus":{
+       "original name":"Falco_tinnunculus",
+       "Nucleotide GTR":0.002915382324295479,
+       "Baseline MG94xREV":0.002948009046236693,
+       "Baseline MG94xREV omega ratio":0.1932714406760151,
+       "Rate classes":1,
+       "Full adaptive model":0.002946904498871602,
+       "Rate Distributions":[
+        [0.1932936521166204, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      },
+     "Aquila_chrysaetos":{
+       "original name":"Aquila_chrysaetos",
+       "Nucleotide GTR":0.007801056374326031,
+       "Baseline MG94xREV":0.007867167809617341,
+       "Baseline MG94xREV omega ratio":0.5602481457728342,
+       "Rate classes":1,
+       "Full adaptive model":0.00786547207533443,
+       "Rate Distributions":[
+        [0.5602609445193422, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      },
+     "Haliaeetus_leucocephalus":{
+       "original name":"Haliaeetus_leucocephalus",
+       "Nucleotide GTR":0.007921843437627375,
+       "Baseline MG94xREV":0.008136209149302912,
+       "Baseline MG94xREV omega ratio":0.2819274498858771,
+       "Rate classes":1,
+       "Full adaptive model":0.008132586686286839,
+       "Rate Distributions":[
+        [0.2817201850650707, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      },
+     "Tyto_alba":{
+       "original name":"Tyto_alba",
+       "Nucleotide GTR":0.03306145199414921,
+       "Baseline MG94xREV":0.03465169205538788,
+       "Baseline MG94xREV omega ratio":0.2136297879139334,
+       "Rate classes":1,
+       "Full adaptive model":0.03464424257857038,
+       "Rate Distributions":[
+        [0.2135302252997033, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      },
+     "Leptosomus_discolor":{
+       "original name":"Leptosomus_discolor",
+       "Nucleotide GTR":0.03393131649426261,
+       "Baseline MG94xREV":0.03529680376201524,
+       "Baseline MG94xREV omega ratio":0.2701583637603311,
+       "Rate classes":1,
+       "Full adaptive model":0.0352960448424747,
+       "Rate Distributions":[
+        [0.2702103043655039, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      },
+     "Colius_striatus":{
+       "original name":"Colius_striatus",
+       "Nucleotide GTR":0.09750112588264387,
+       "Baseline MG94xREV":0.1047312889964069,
+       "Baseline MG94xREV omega ratio":0.2027394464736265,
+       "Rate classes":1,
+       "Full adaptive model":0.1047270327750922,
+       "Rate Distributions":[
+        [0.2027779495186246, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      },
+     "Node1":{
+       "Nucleotide GTR":0.001800736183651437,
+       "Baseline MG94xREV":0.001190057424466926,
+       "Baseline MG94xREV omega ratio":1.98975908152739,
+       "Rate classes":1,
+       "Full adaptive model":0.001189544290134196,
+       "Rate Distributions":[
+        [1.991006805155603, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      },
+     "Node11":{
+       "Nucleotide GTR":0.0275524707175271,
+       "Baseline MG94xREV":0.02675591230135916,
+       "Baseline MG94xREV omega ratio":0.8552635325834844,
+       "Rate classes":1,
+       "Full adaptive model":0.02675999656848418,
+       "Rate Distributions":[
+        [0.8558071900291344, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      },
+     "Node2":{
+       "Nucleotide GTR":0,
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Rate classes":1,
+       "Full adaptive model":0,
+       "Rate Distributions":[
+        [1, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      },
+     "Node6":{
+       "Nucleotide GTR":0.02426239150690846,
+       "Baseline MG94xREV":0.02619281733235166,
+       "Baseline MG94xREV omega ratio":0.2083100859953712,
+       "Rate classes":1,
+       "Full adaptive model":0.02619165903004943,
+       "Rate Distributions":[
+        [0.2083434563246077, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      },
+     "Node9":{
+       "Nucleotide GTR":0,
+       "Baseline MG94xREV":0.0002810640803203594,
+       "Baseline MG94xREV omega ratio":0,
+       "Rate classes":1,
+       "Full adaptive model":0.0002822518706097025,
+       "Rate Distributions":[
+        [0, 1]
+        ],
+       "LRT":null,
+       "Uncorrected P-value":null,
+       "Corrected P-value":null
+      }
+    },
+   "attributes":{
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Baseline MG94xREV":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Baseline MG94xREV omega ratio":{
+       "attribute type":"branch label",
+       "display order":1
+      },
+     "Rate classes":{
+       "attribute type":"branch label",
+       "display order":2
+      },
+     "Full adaptive model":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "Rate Distributions":{
+       "attribute type":"branch label",
+       "display order":3
+      },
+     "LRT":{
+       "attribute type":"branch label",
+       "display order":4
+      },
+     "Uncorrected P-value":{
+       "attribute type":"branch label",
+       "display order":5
+      },
+     "Corrected P-value":{
+       "attribute type":"branch label",
+       "display order":6
+      }
+    }
+  }
+}

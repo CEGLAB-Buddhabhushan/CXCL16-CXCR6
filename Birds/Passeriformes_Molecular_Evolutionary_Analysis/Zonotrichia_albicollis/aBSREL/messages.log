@@ -1,0 +1,839 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'BgoJsxTo.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'tiqVkWIB.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'SInutVKf.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'HWPoiurk.model_pi' was not initialized prior to being used
+Model HWPoiurk.model assigned to Leptosomus_discolor
+Model HWPoiurk.model assigned to Colius_striatus
+Model HWPoiurk.model assigned to Node2
+Model HWPoiurk.model assigned to Tyto_alba
+Model HWPoiurk.model assigned to Node1
+Model HWPoiurk.model assigned to Haliaeetus_leucocephalus
+Model HWPoiurk.model assigned to Aquila_chrysaetos
+Model HWPoiurk.model assigned to Node6
+Model HWPoiurk.model assigned to Zonotrichia_albicollis
+Model HWPoiurk.model assigned to Falco_peregrinus
+Model HWPoiurk.model assigned to Falco_tinnunculus
+Model HWPoiurk.model assigned to Node11
+Model HWPoiurk.model assigned to Node9
+The tips of the tree:HWPoiurk.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 990 vs 1706 for 1..k=> a 1.72323 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'HWPoiurk.tree_0.Leptosomus_discolor.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Leptosomus_discolor.t=180.0699896532461
+Variable 'HWPoiurk.tree_0.Colius_striatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Colius_striatus.t=180.0699896532461
+Variable 'HWPoiurk.tree_0.Node2.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Node2.t=7.020056337866559
+Variable 'HWPoiurk.tree_0.Tyto_alba.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Tyto_alba.t=184.825876542306
+Variable 'HWPoiurk.tree_0.Node1.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Node1.t=5.292287088850743
+Variable 'HWPoiurk.tree_0.Haliaeetus_leucocephalus.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Haliaeetus_leucocephalus.t=77.76950514049055
+Variable 'HWPoiurk.tree_0.Aquila_chrysaetos.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Aquila_chrysaetos.t=77.76950514049055
+Variable 'HWPoiurk.tree_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Node6.t=114.6128279394729
+Variable 'HWPoiurk.tree_0.Zonotrichia_albicollis.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Zonotrichia_albicollis.t=180.4391643450957
+Variable 'HWPoiurk.tree_0.Falco_peregrinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Falco_peregrinus.t=19.01677220483117
+Variable 'HWPoiurk.tree_0.Falco_tinnunculus.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Falco_tinnunculus.t=19.01677220483117
+Variable 'HWPoiurk.tree_0.Node11.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Node11.t=161.4223921402645
+Variable 'HWPoiurk.tree_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: HWPoiurk.tree_0.Node9.t=11.94316873486773
+Variable 'HWPoiurk.HWPoiurk.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 3496-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+HWPoiurk.model.theta_GT = 0.25
+HWPoiurk.model.theta_CT = 1
+HWPoiurk.model.theta_AC = 0.25
+HWPoiurk.model.theta_CG = 0.25
+HWPoiurk.model.theta_AT = 0.25
+HWPoiurk.tree_0.Leptosomus_discolor.t = 180.07
+HWPoiurk.tree_0.Colius_striatus.t = 180.07
+HWPoiurk.tree_0.Node2.t = 7.02006
+HWPoiurk.tree_0.Tyto_alba.t = 184.826
+HWPoiurk.tree_0.Node1.t = 5.29229
+HWPoiurk.tree_0.Haliaeetus_leucocephalus.t = 77.7695
+HWPoiurk.tree_0.Aquila_chrysaetos.t = 77.7695
+HWPoiurk.tree_0.Node6.t = 114.613
+HWPoiurk.tree_0.Zonotrichia_albicollis.t = 180.439
+HWPoiurk.tree_0.Falco_peregrinus.t = 19.0168
+HWPoiurk.tree_0.Falco_tinnunculus.t = 19.0168
+HWPoiurk.tree_0.Node11.t = 161.422
+HWPoiurk.tree_0.Node9.t = 11.9432
+Optimization finished in 30 loop passes.
+1597 likelihood evaluation calls and 9151 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'HWPoiurk.option' was not initialized prior to being used
+Variable 'absrel.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'JjJsSVda.initial_value' was not initialized prior to being used
+Variable 'dCKYGIeU.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2976-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.348578
+frequencies._aux.CF3x4.p0_1 = 0.265059
+frequencies._aux.CF3x4.p0_2 = 0.490466
+frequencies._aux.CF3x4.p1_0 = 0.257988
+frequencies._aux.CF3x4.p1_1 = 0.309831
+frequencies._aux.CF3x4.p1_2 = 0.269969
+frequencies._aux.CF3x4.p2_0 = 0.256232
+frequencies._aux.CF3x4.p2_1 = 0.319013
+frequencies._aux.CF3x4.p2_2 = 0.393588
+Optimization finished in 4 loop passes.
+162 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'dCKYGIeU.model_MGREV_pi' was not initialized prior to being used
+Model dCKYGIeU.model_MGREV assigned to Leptosomus_discolor
+Model dCKYGIeU.model_MGREV assigned to Colius_striatus
+Model dCKYGIeU.model_MGREV assigned to Node2
+Model dCKYGIeU.model_MGREV assigned to Tyto_alba
+Model dCKYGIeU.model_MGREV assigned to Node1
+Model dCKYGIeU.model_MGREV assigned to Haliaeetus_leucocephalus
+Model dCKYGIeU.model_MGREV assigned to Aquila_chrysaetos
+Model dCKYGIeU.model_MGREV assigned to Node6
+Model dCKYGIeU.model_MGREV assigned to Zonotrichia_albicollis
+Model dCKYGIeU.model_MGREV assigned to Falco_peregrinus
+Model dCKYGIeU.model_MGREV assigned to Falco_tinnunculus
+Model dCKYGIeU.model_MGREV assigned to Node11
+Model dCKYGIeU.model_MGREV assigned to Node9
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'dCKYGIeU.dCKYGIeU.likelihoodFunction' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Leptosomus_discolor.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Leptosomus_discolor.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Colius_striatus.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Colius_striatus.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Tyto_alba.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Tyto_alba.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Haliaeetus_leucocephalus.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Haliaeetus_leucocephalus.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Aquila_chrysaetos.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Aquila_chrysaetos.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Zonotrichia_albicollis.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Zonotrichia_albicollis.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Falco_peregrinus.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Falco_peregrinus.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Falco_tinnunculus.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Falco_tinnunculus.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Node2.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Node2.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Node1.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Node1.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Node6.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Node11.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Node11.beta' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Node9.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Node9.beta' was not initialized prior to being used
+Site 20 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 20 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 26 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 16-th LF evaluation.
+Initial guess for dCKYGIeU.tree_0.Node2.beta is -0.000900433
+Initial guess for dCKYGIeU.tree_0.Node2.alpha is -0.000337032
+Initial guess for dCKYGIeU.tree_0.Leptosomus_discolor.beta is 0.026665
+Initial guess for dCKYGIeU.tree_0.Leptosomus_discolor.alpha is 0.00731858
+Initial guess for dCKYGIeU.tree_0.Colius_striatus.beta is 0.0614779
+Initial guess for dCKYGIeU.tree_0.Colius_striatus.alpha is 0.0316145
+Initial guess for dCKYGIeU.tree_0.Tyto_alba.beta is 0.0187513
+Initial guess for dCKYGIeU.tree_0.Tyto_alba.alpha is 0.00993105
+Initial guess for dCKYGIeU.tree_0.Node6.beta is -0.00337674
+Initial guess for dCKYGIeU.tree_0.Node6.alpha is -0.000319475
+Initial guess for dCKYGIeU.tree_0.Haliaeetus_leucocephalus.beta is 0.00663803
+Initial guess for dCKYGIeU.tree_0.Haliaeetus_leucocephalus.alpha is 0.000867202
+Initial guess for dCKYGIeU.tree_0.Aquila_chrysaetos.beta is 0.00669815
+Initial guess for dCKYGIeU.tree_0.Aquila_chrysaetos.alpha is 0.00100898
+Initial guess for dCKYGIeU.tree_0.Node9.beta is 0.0169458
+Initial guess for dCKYGIeU.tree_0.Node9.alpha is 0.00480639
+Initial guess for dCKYGIeU.tree_0.Zonotrichia_albicollis.beta is 0.0916791
+Initial guess for dCKYGIeU.tree_0.Zonotrichia_albicollis.alpha is 0.0486056
+Initial guess for dCKYGIeU.tree_0.Node11.beta is 0.00624389
+Initial guess for dCKYGIeU.tree_0.Node11.alpha is 8.23325e-05
+Initial guess for dCKYGIeU.tree_0.Falco_peregrinus.beta is 0.00346863
+Initial guess for dCKYGIeU.tree_0.Falco_peregrinus.alpha is 0.00110647
+Initial guess for dCKYGIeU.tree_0.Falco_tinnunculus.beta is 0.00219229
+Initial guess for dCKYGIeU.tree_0.Falco_tinnunculus.alpha is 0.000769716
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.model_MGREV.theta_GT = 1
+dCKYGIeU.model_MGREV.theta_CT = 1
+dCKYGIeU.model_MGREV.theta_AC = 1
+dCKYGIeU.model_MGREV.theta_CG = 1
+dCKYGIeU.model_MGREV.theta_AT = 1
+dCKYGIeU.tree_0.Leptosomus_discolor.alpha = 0.00731858
+dCKYGIeU.tree_0.Leptosomus_discolor.beta = 0.026665
+dCKYGIeU.tree_0.Colius_striatus.alpha = 0.0316145
+dCKYGIeU.tree_0.Colius_striatus.beta = 0.0614779
+dCKYGIeU.tree_0.Node2.alpha = 0
+dCKYGIeU.tree_0.Node2.beta = 0
+dCKYGIeU.tree_0.Tyto_alba.alpha = 0.00993105
+dCKYGIeU.tree_0.Tyto_alba.beta = 0.0187513
+dCKYGIeU.tree_0.Node1.alpha = 0.1
+dCKYGIeU.tree_0.Node1.beta = 0.1
+dCKYGIeU.tree_0.Haliaeetus_leucocephalus.alpha = 0.000867202
+dCKYGIeU.tree_0.Haliaeetus_leucocephalus.beta = 0.00663803
+dCKYGIeU.tree_0.Aquila_chrysaetos.alpha = 0.00100898
+dCKYGIeU.tree_0.Aquila_chrysaetos.beta = 0.00669815
+dCKYGIeU.tree_0.Node6.alpha = 0
+dCKYGIeU.tree_0.Node6.beta = 0
+dCKYGIeU.tree_0.Zonotrichia_albicollis.alpha = 0.0486056
+dCKYGIeU.tree_0.Zonotrichia_albicollis.beta = 0.0916791
+dCKYGIeU.tree_0.Falco_peregrinus.alpha = 0.00110647
+dCKYGIeU.tree_0.Falco_peregrinus.beta = 0.00346863
+dCKYGIeU.tree_0.Falco_tinnunculus.alpha = 0.000769716
+dCKYGIeU.tree_0.Falco_tinnunculus.beta = 0.00219229
+dCKYGIeU.tree_0.Node11.alpha = 8.23325e-05
+dCKYGIeU.tree_0.Node11.beta = 0.00624389
+dCKYGIeU.tree_0.Node9.alpha = 0.00480639
+dCKYGIeU.tree_0.Node9.beta = 0.0169458
+Optimization finished in 23 loop passes.
+3293 likelihood evaluation calls and 12944 matrix exponentiations calls were made
+
+Variable 'bsrel_mixture_aux_0' was not initialized prior to being used
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 2906-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.348578
+frequencies._aux.CF3x4.p0_1 = 0.265059
+frequencies._aux.CF3x4.p0_2 = 0.490466
+frequencies._aux.CF3x4.p1_0 = 0.257988
+frequencies._aux.CF3x4.p1_1 = 0.309831
+frequencies._aux.CF3x4.p1_2 = 0.269969
+frequencies._aux.CF3x4.p2_0 = 0.256232
+frequencies._aux.CF3x4.p2_1 = 0.319013
+frequencies._aux.CF3x4.p2_2 = 0.393588
+Optimization finished in 4 loop passes.
+163 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.2_pi' was not initialized prior to being used
+Variable 'omega1' was not initialized prior to being used
+Variable 'omega2' was not initialized prior to being used
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Variable 'bsrel_mixture_aux_1' was not initialized prior to being used
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 2890-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.348578
+frequencies._aux.CF3x4.p0_1 = 0.265059
+frequencies._aux.CF3x4.p0_2 = 0.490466
+frequencies._aux.CF3x4.p1_0 = 0.257988
+frequencies._aux.CF3x4.p1_1 = 0.309831
+frequencies._aux.CF3x4.p1_2 = 0.269969
+frequencies._aux.CF3x4.p2_0 = 0.256232
+frequencies._aux.CF3x4.p2_1 = 0.319013
+frequencies._aux.CF3x4.p2_2 = 0.393588
+Optimization finished in 4 loop passes.
+163 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.3_pi' was not initialized prior to being used
+Variable 'omega3' was not initialized prior to being used
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Variable 'bsrel_mixture_aux_2' was not initialized prior to being used
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 2890-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.348578
+frequencies._aux.CF3x4.p0_1 = 0.265059
+frequencies._aux.CF3x4.p0_2 = 0.490466
+frequencies._aux.CF3x4.p1_0 = 0.257988
+frequencies._aux.CF3x4.p1_1 = 0.309831
+frequencies._aux.CF3x4.p1_2 = 0.269969
+frequencies._aux.CF3x4.p2_0 = 0.256232
+frequencies._aux.CF3x4.p2_1 = 0.319013
+frequencies._aux.CF3x4.p2_2 = 0.393588
+Optimization finished in 4 loop passes.
+163 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.4_pi' was not initialized prior to being used
+Variable 'omega4' was not initialized prior to being used
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Variable 'bsrel_mixture_aux_3' was not initialized prior to being used
+Overwritten previously defined function:'NiFkBgmG.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2702-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.348578
+frequencies._aux.CF3x4.p0_1 = 0.265059
+frequencies._aux.CF3x4.p0_2 = 0.490466
+frequencies._aux.CF3x4.p1_0 = 0.257988
+frequencies._aux.CF3x4.p1_1 = 0.309831
+frequencies._aux.CF3x4.p1_2 = 0.269969
+frequencies._aux.CF3x4.p2_0 = 0.256232
+frequencies._aux.CF3x4.p2_1 = 0.319013
+frequencies._aux.CF3x4.p2_2 = 0.393588
+Optimization finished in 4 loop passes.
+162 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.5_pi' was not initialized prior to being used
+Variable 'omega5' was not initialized prior to being used
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Variable 'gHqtcLKD.best_val' was not initialized prior to being used
+Variable 'dCKYGIeU.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 13-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Zonotrichia_albicollis.alpha = 0.46948
+dCKYGIeU.tree_0.Zonotrichia_albicollis.bsrel_mixture_aux_0 = 0.9
+dCKYGIeU.tree_0.Zonotrichia_albicollis.omega1 = 0.6
+dCKYGIeU.tree_0.Zonotrichia_albicollis.omega2 = 9
+dCKYGIeU.tree_0.Zonotrichia_albicollis.beta = 0.470758
+Optimization finished in 11 loop passes.
+398 likelihood evaluation calls and 750 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 16-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Zonotrichia_albicollis.bsrel_mixture_aux_1 = 0.5
+dCKYGIeU.tree_0.Zonotrichia_albicollis.omega1 = 0.4345
+dCKYGIeU.tree_0.Zonotrichia_albicollis.bsrel_mixture_aux_0 = 0.78047
+dCKYGIeU.tree_0.Zonotrichia_albicollis.alpha = 0.449791
+dCKYGIeU.tree_0.Zonotrichia_albicollis.omega2 = 0.8
+dCKYGIeU.tree_0.Zonotrichia_albicollis.omega3 = 9
+Optimization finished in 20 loop passes.
+558 likelihood evaluation calls and 1629 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Variable 'dCKYGIeU.tree_0.Zonotrichia_albicollis.alpha' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Zonotrichia_albicollis.omega1' was not initialized prior to being used
+Variable 'dCKYGIeU.tree_0.Zonotrichia_albicollis.omega2' was not initialized prior to being used
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 8-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Colius_striatus.alpha = 0.776777
+dCKYGIeU.tree_0.Colius_striatus.bsrel_mixture_aux_0 = 0.75
+dCKYGIeU.tree_0.Colius_striatus.omega1 = 0
+dCKYGIeU.tree_0.Colius_striatus.omega2 = 1
+dCKYGIeU.tree_0.Colius_striatus.beta = 0.156682
+Optimization finished in 12 loop passes.
+214 likelihood evaluation calls and 421 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 19-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Leptosomus_discolor.alpha = 0.234789
+dCKYGIeU.tree_0.Leptosomus_discolor.bsrel_mixture_aux_0 = 0.75
+dCKYGIeU.tree_0.Leptosomus_discolor.beta = 0.0630432
+dCKYGIeU.tree_0.Leptosomus_discolor.omega1 = 0.2
+dCKYGIeU.tree_0.Leptosomus_discolor.omega2 = 0.5
+Optimization finished in 23 loop passes.
+739 likelihood evaluation calls and 1427 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 450-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Tyto_alba.beta = 0.0536878
+dCKYGIeU.tree_0.Tyto_alba.omega1 = 0.2
+dCKYGIeU.tree_0.Tyto_alba.omega2 = 0.25
+dCKYGIeU.tree_0.Tyto_alba.alpha = 0.25105
+dCKYGIeU.tree_0.Tyto_alba.bsrel_mixture_aux_0 = 0.75
+Optimization finished in 6 loop passes.
+198 likelihood evaluation calls and 373 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 22-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Node11.omega2 = 9
+dCKYGIeU.tree_0.Node11.beta = 0.0806243
+dCKYGIeU.tree_0.Node11.omega1 = 0.6
+dCKYGIeU.tree_0.Node11.alpha = 0.101227
+dCKYGIeU.tree_0.Node11.bsrel_mixture_aux_0 = 0.98
+Optimization finished in 31 loop passes.
+666 likelihood evaluation calls and 1261 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 28-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Node6.omega2 = 0.25
+dCKYGIeU.tree_0.Node6.alpha = 0.196906
+dCKYGIeU.tree_0.Node6.bsrel_mixture_aux_0 = 0.98
+dCKYGIeU.tree_0.Node6.beta = 0.0388345
+dCKYGIeU.tree_0.Node6.omega1 = 0.2
+Optimization finished in 3 loop passes.
+70 likelihood evaluation calls and 143 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 27-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Haliaeetus_leucocephalus.alpha = 0.0538226
+dCKYGIeU.tree_0.Haliaeetus_leucocephalus.bsrel_mixture_aux_0 = 0.75
+dCKYGIeU.tree_0.Haliaeetus_leucocephalus.beta = 0.0149197
+dCKYGIeU.tree_0.Haliaeetus_leucocephalus.omega1 = 0.2
+dCKYGIeU.tree_0.Haliaeetus_leucocephalus.omega2 = 0.5
+Optimization finished in 3 loop passes.
+121 likelihood evaluation calls and 235 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 164-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Aquila_chrysaetos.beta = 0.0205036
+dCKYGIeU.tree_0.Aquila_chrysaetos.omega1 = 0.6
+dCKYGIeU.tree_0.Aquila_chrysaetos.alpha = 0.0366743
+dCKYGIeU.tree_0.Aquila_chrysaetos.bsrel_mixture_aux_0 = 0.5
+dCKYGIeU.tree_0.Aquila_chrysaetos.omega2 = 0.5
+Optimization finished in 3 loop passes.
+75 likelihood evaluation calls and 135 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 42-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Falco_peregrinus.omega2 = 0.5
+dCKYGIeU.tree_0.Falco_peregrinus.beta = 0.00904471
+dCKYGIeU.tree_0.Falco_peregrinus.omega1 = 0.2
+dCKYGIeU.tree_0.Falco_peregrinus.alpha = 0.03238
+dCKYGIeU.tree_0.Falco_peregrinus.bsrel_mixture_aux_0 = 0.75
+Optimization finished in 3 loop passes.
+127 likelihood evaluation calls and 243 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 294-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Falco_tinnunculus.omega2 = 0.25
+dCKYGIeU.tree_0.Falco_tinnunculus.beta = 0.00427788
+dCKYGIeU.tree_0.Falco_tinnunculus.omega1 = 0.2
+dCKYGIeU.tree_0.Falco_tinnunculus.alpha = 0.0221582
+dCKYGIeU.tree_0.Falco_tinnunculus.bsrel_mixture_aux_0 = 0.98
+Optimization finished in 6 loop passes.
+124 likelihood evaluation calls and 245 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 58-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Node1.alpha = 0
+dCKYGIeU.tree_0.Node1.bsrel_mixture_aux_0 = 0.98
+dCKYGIeU.tree_0.Node1.omega2 = 0.25
+dCKYGIeU.tree_0.Node1.beta = 0.00448597
+dCKYGIeU.tree_0.Node1.omega1 = 0
+Optimization finished in 35 loop passes.
+932 likelihood evaluation calls and 1753 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 703-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Node9.beta = 0.00200835
+dCKYGIeU.tree_0.Node9.omega1 = 0
+dCKYGIeU.tree_0.Node9.omega2 = 0.25
+dCKYGIeU.tree_0.Node9.alpha = 0.00167335
+dCKYGIeU.tree_0.Node9.bsrel_mixture_aux_0 = 0.98
+Optimization finished in 3 loop passes.
+78 likelihood evaluation calls and 139 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 125-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.tree_0.Node2.alpha = 0
+dCKYGIeU.tree_0.Node2.bsrel_mixture_aux_0 = 0.98
+dCKYGIeU.tree_0.Node2.omega2 = 0.25
+dCKYGIeU.tree_0.Node2.beta = 0
+dCKYGIeU.tree_0.Node2.omega1 = 0
+Optimization finished in 3 loop passes.
+137 likelihood evaluation calls and 131 matrix exponentiations calls were made
+
+The tips of the tree:dCKYGIeU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {7,1,6,5,4,0,2,3}
+
+Pseudo-optimal path's cost 2338 vs 3324 for 1..k=> a 1.42173 x improvement
+Variable 'cjNe_myN.dCKYGIeU.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 44-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.model_MGREV.theta_GT = 0.157361
+dCKYGIeU.model_MGREV.theta_CT = 0.798976
+dCKYGIeU.model_MGREV.theta_AC = 0.247203
+dCKYGIeU.model_MGREV.theta_CG = 0.387999
+dCKYGIeU.model_MGREV.theta_AT = 0.144527
+dCKYGIeU.tree_0.Leptosomus_discolor.alpha = 0.234789
+dCKYGIeU.tree_0.Leptosomus_discolor.beta = 0.0630432
+dCKYGIeU.tree_0.Colius_striatus.alpha = 0.776777
+dCKYGIeU.tree_0.Colius_striatus.beta = 0.156682
+dCKYGIeU.tree_0.Node2.alpha = 0
+dCKYGIeU.tree_0.Node2.beta = 0
+dCKYGIeU.tree_0.Tyto_alba.beta = 0.0536878
+dCKYGIeU.tree_0.Tyto_alba.alpha = 0.25105
+dCKYGIeU.tree_0.Node1.beta = 0.00448597
+dCKYGIeU.tree_0.Node1.alpha = 0
+dCKYGIeU.tree_0.Haliaeetus_leucocephalus.alpha = 0.0538226
+dCKYGIeU.tree_0.Haliaeetus_leucocephalus.beta = 0.0149197
+dCKYGIeU.tree_0.Aquila_chrysaetos.beta = 0.0205036
+dCKYGIeU.tree_0.Aquila_chrysaetos.alpha = 0.0366743
+dCKYGIeU.tree_0.Node6.alpha = 0.196906
+dCKYGIeU.tree_0.Node6.beta = 0.0388345
+dCKYGIeU.tree_0.Zonotrichia_albicollis.omega2 = 4.33979
+dCKYGIeU.tree_0.Zonotrichia_albicollis.omega1 = 0.4345
+dCKYGIeU.tree_0.Zonotrichia_albicollis.alpha = 0.449791
+dCKYGIeU.tree_0.Zonotrichia_albicollis.bsrel_mixture_aux_0 = 0.78047
+dCKYGIeU.tree_0.Falco_peregrinus.alpha = 0.03238
+dCKYGIeU.tree_0.Falco_peregrinus.beta = 0.00904471
+dCKYGIeU.tree_0.Falco_tinnunculus.alpha = 0.0221582
+dCKYGIeU.tree_0.Falco_tinnunculus.beta = 0.00427788
+dCKYGIeU.tree_0.Node11.alpha = 0.101227
+dCKYGIeU.tree_0.Node11.beta = 0.0806243
+dCKYGIeU.tree_0.Node9.beta = 0.00200835
+dCKYGIeU.tree_0.Node9.alpha = 0.00133868
+Optimization finished in 12 loop passes.
+1087 likelihood evaluation calls and 4423 matrix exponentiations calls were made
+
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 37-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+dCKYGIeU.model_MGREV.theta_GT = 0.153986
+dCKYGIeU.model_MGREV.theta_CT = 0.794687
+dCKYGIeU.model_MGREV.theta_AC = 0.239783
+dCKYGIeU.model_MGREV.theta_CG = 0.369324
+dCKYGIeU.model_MGREV.theta_AT = 0.120934
+dCKYGIeU.tree_0.Leptosomus_discolor.alpha = 0.238778
+dCKYGIeU.tree_0.Leptosomus_discolor.beta = 0.0655014
+dCKYGIeU.tree_0.Colius_striatus.alpha = 0.791514
+dCKYGIeU.tree_0.Colius_striatus.beta = 0.160276
+dCKYGIeU.tree_0.Node2.alpha = 0
+dCKYGIeU.tree_0.Node2.beta = 0
+dCKYGIeU.tree_0.Tyto_alba.beta = 0.0544079
+dCKYGIeU.tree_0.Tyto_alba.alpha = 0.255534
+dCKYGIeU.tree_0.Node1.beta = 0.00463591
+dCKYGIeU.tree_0.Node1.alpha = 0
+dCKYGIeU.tree_0.Haliaeetus_leucocephalus.beta = 0.0150964
+dCKYGIeU.tree_0.Haliaeetus_leucocephalus.alpha = 0.0547776
+dCKYGIeU.tree_0.Aquila_chrysaetos.alpha = 0.0372006
+dCKYGIeU.tree_0.Aquila_chrysaetos.beta = 0.0212448
+dCKYGIeU.tree_0.Node6.alpha = 0.201251
+dCKYGIeU.tree_0.Node6.beta = 0.0410822
+dCKYGIeU.tree_0.Zonotrichia_albicollis.alpha = 0.456288
+dCKYGIeU.tree_0.Zonotrichia_albicollis.omega1 = 0.432207
+dCKYGIeU.tree_0.Zonotrichia_albicollis.bsrel_mixture_aux_0 = 0.782807
+dCKYGIeU.tree_0.Falco_peregrinus.beta = 0.0093107
+dCKYGIeU.tree_0.Falco_peregrinus.alpha = 0.0328696
+dCKYGIeU.tree_0.Falco_tinnunculus.alpha = 0.0225471
+dCKYGIeU.tree_0.Falco_tinnunculus.beta = 0.00437071
+dCKYGIeU.tree_0.Node11.alpha = 0.102978
+dCKYGIeU.tree_0.Node11.beta = 0.0835885
+dCKYGIeU.tree_0.Node9.beta = 0
+dCKYGIeU.tree_0.Node9.alpha = 0.000742693
+Optimization finished in 16 loop passes.
+1444 likelihood evaluation calls and 6080 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used

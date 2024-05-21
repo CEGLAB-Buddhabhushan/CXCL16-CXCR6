@@ -1,0 +1,43 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: SRR8236591_959225_6_7.fa
+           531,134,810 sequences; 53,113,481,000 total letters
+
+
+
+Query= Anas_platyrhynchos
+
+Length=1038
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 34060613095680
+
+
+  Database: SRR8236591_959225_6_7.fa
+    Posted date:  Sep 27, 2020  3:24 PM
+  Number of letters in database: 53,113,481,000
+  Number of sequences in database:  531,134,810
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

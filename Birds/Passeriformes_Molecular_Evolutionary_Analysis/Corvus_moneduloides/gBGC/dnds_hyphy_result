@@ -1,0 +1,85 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/Passeriformes_selection/Corvus_moneduloides/gBGC/`) 
+
+A tree was found in the data file:
+(((Leptosomus_discolor:65.9115,Colius_striatus:65.9115):2.56957,Tyto_alba:67.65231):1.93715,(Haliaeetus_leucocephalus:28.46618,Aquila_chrysaetos:28.46618):41.95204,(Corvus_moneduloides:66.04663,(Falco_peregrinus:6.96076,Falco_tinnunculus:6.96076):59.08587):4.37159)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1056
+Synonymous  sites      :246.0237373664658
+Nonsynonymous  sites   :771.2116598444397
+
+Total tree lengths:
+	E[syn]        : 0.2028828608388407
+	E[non-syn]    : 0.1935663540191908
+	dS            : 0.8708277637725955
+	dN            : 0.2650453571792419
+
+
+E[Syn subs/nucleotide site] tree: 
+	(((Leptosomus_discolor:0.02216823115846518,Colius_striatus:0.07038006544774414)Node2:0,Tyto_alba:0.0220992565480347)Node1:0,(Haliaeetus_leucocephalus:0.00481239533952818,Aquila_chrysaetos:0.00342354766768603)Node6:0.01678110788986497,(Corvus_moneduloides:0.04803261121097274,(Falco_peregrinus:0.002951869129236117,Falco_tinnunculus:0.002022186538515896)Node11:0.01021158990879274)Node9:0)
+
+E[Non-syn subs/nucleotide site] tree: 
+	(((Leptosomus_discolor:0.0136009799258234,Colius_striatus:0.03462453683998538)Node2:0,Tyto_alba:0.01231321713820394)Node1:0,(Haliaeetus_leucocephalus:0.003291556712256588,Aquila_chrysaetos:0.00460167497100517)Node6:0.01018620498513262,(Corvus_moneduloides:0.09322197569615802,(Falco_peregrinus:0.002016226944536109,Falco_tinnunculus:0.0009453800673222511)Node11:0.01876460073876737)Node9:0)
+
+dS tree: 
+	(((Leptosomus_discolor:0.09515200587522689,Colius_striatus:0.3020901556426325)Node2:0,Tyto_alba:0.09485594831023633)Node1:0,(Haliaeetus_leucocephalus:0.02065609413522568,Aquila_chrysaetos:0.01469478667292706)Node6:0.07202902500949016,(Corvus_moneduloides:0.2061688761488627,(Falco_peregrinus:0.01267021562163385,Falco_tinnunculus:0.008679768088767583)Node11:0.0438308882675927)Node9:0)
+
+dN tree: 
+	(((Leptosomus_discolor:0.01862346687622251,Colius_striatus:0.04741047472026)Node2:0,Tyto_alba:0.01686016689706965)Node1:0,(Haliaeetus_leucocephalus:0.004507042708410391,Aquila_chrysaetos:0.006300953450783715)Node6:0.0139477046631657,(Corvus_moneduloides:0.127646418565559,(Falco_peregrinus:0.002760766938948507,Falco_tinnunculus:0.001294484255196125)Node11:0.0256938781036263)Node9:0)
+
+Estimating pairwise dN/dS: total of 28 analyses

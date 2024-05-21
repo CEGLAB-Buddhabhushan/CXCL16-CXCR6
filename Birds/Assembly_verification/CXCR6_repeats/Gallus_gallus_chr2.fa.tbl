@@ -1,0 +1,59 @@
+==================================================
+file name: Gallus_gallus_chr2.fa    
+sequences:             1
+total length:  149682049 bp  (149178249 bp excl N/X-runs)
+GC level:         40.06 %
+bases masked:   29022493 bp ( 19.39 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements        65854     21560139 bp   14.40 %
+   SINEs:             2074       383877 bp    0.26 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:            54469     17756639 bp   11.86 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex      53805     17592080 bp   11.75 %
+     R1/LOA/Jockey       9         1060 bp    0.00 %
+     R2/R4/NeSL         38        15984 bp    0.01 %
+     RTE/Bov-B          88        14651 bp    0.01 %
+     L1/CIN4            53        14709 bp    0.01 %
+   LTR elements:      9311      3419623 bp    2.28 %
+     BEL/Pao            28         6748 bp    0.00 %
+     Ty1/Copia          74        25193 bp    0.02 %
+     Gypsy/DIRS1       551       211403 bp    0.14 %
+       Retroviral     8339      3106853 bp    2.08 %
+
+DNA transposons      13077      3013907 bp    2.01 %
+   hobo-Activator     3245       971880 bp    0.65 %
+   Tc1-IS630-Pogo     2625      1005031 bp    0.67 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR            36         5981 bp    0.00 %
+   PiggyBac              8         1841 bp    0.00 %
+   Tourist/Harbinger  4058       461624 bp    0.31 %
+   Other (Mirage,        1          394 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles        196        34495 bp    0.02 %
+
+Unclassified:        11597      2081853 bp    1.39 %
+
+Total interspersed repeats:    26655899 bp   17.81 %
+
+
+Small RNA:             495       126973 bp    0.08 %
+
+Satellites:            674       285060 bp    0.19 %
+Simple repeats:      41917      1658794 bp    1.11 %
+Low complexity:       7378       350798 bp    0.23 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be Birds         
+RepeatMasker version 4.1.5 , sensitive mode
+                                      
+run with rmblastn version 2.14.0+
+FamDB: CONS-Dfam_3.7

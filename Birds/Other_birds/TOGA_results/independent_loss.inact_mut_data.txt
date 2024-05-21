@@ -1,0 +1,71 @@
+GENE: Apus_apus
+# Apus_apus	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# Apus_apus	1	1	63	STOP	AAG->TAG	unmasked	STOP_1
+# Apus_apus	1	1	66	FS_DEL	-2	unmasked	FS_1
+# Apus_apus	1	1	118	FS_INS	+2	unmasked	FS_2
+# Apus_apus	1	1	139	ATG	ATG->ATG	masked	ATG_2
+# Apus_apus	1	1	145	ATG	ATG->ATG	masked	ATG_3
+# Apus_apus	1	1	147	STOP	TGG->TGA	unmasked	STOP_2
+# Apus_apus	1	1	206	ATG	ATG->ATG	masked	ATG_4
+# Apus_apus	1	1	209	ATG	ATG->ATG	masked	ATG_5
+# Apus_apus	1	1	224	ATG	AGG->ATG	masked	ATG_6
+# Apus_apus	1	1	293	ATG	ATG->ATG	masked	ATG_7
+# Apus_apus	1	1	295	ATG	GTG->ATG	masked	ATG_8
+# Apus_apus	1	1	310	STOP	TGC->TGA	unmasked	STOP_3
+# Apus_apus	1	1	319	STOP	CAG->TAG	masked	STOP_4
+# Apus_apus	1	1	331	FS_DEL	-2	masked	FS_3
+# Apus_apus	1	INTACT_PERC_IGNORE_M 0.4682080924855491
+# Apus_apus	1	INTACT_PERC_INTACT_M 0.4682080924855491
+# Apus_apus	1	INTACT_CODONS_PROP 0.7398843930635838
+# Apus_apus	1	OUT_OF_CHAIN_PROP 0.0
+# Apus_apus	1	MIDDLE_IS_INTACT FALSE
+# Apus_apus	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: Chaetura_pelagica
+# Chaetura_pelagica	1	1	1	ATG	ATG->ATG	masked	ATG_1
+# Chaetura_pelagica	1	1	16	FS_DEL	-2	unmasked	FS_1
+# Chaetura_pelagica	1	1	89	FS_DEL	-2	unmasked	FS_2
+# Chaetura_pelagica	1	1	100	ATG	ATG->ATG	masked	ATG_2
+# Chaetura_pelagica	1	1	104	ATG	ATT->ATG	masked	ATG_3
+# Chaetura_pelagica	1	1	117	ATG	ATG->ATG	masked	ATG_4
+# Chaetura_pelagica	1	1	139	ATG	ATG->ATG	masked	ATG_5
+# Chaetura_pelagica	1	1	145	ATG	ATG->ATG	masked	ATG_6
+# Chaetura_pelagica	1	1	156	STOP	TGG->TGA	unmasked	STOP_1
+# Chaetura_pelagica	1	1	206	ATG	ATG->ATG	masked	ATG_7
+# Chaetura_pelagica	1	1	209	ATG	ATG->ATG	masked	ATG_8
+# Chaetura_pelagica	1	1	224	ATG	AGG->ATG	masked	ATG_9
+# Chaetura_pelagica	1	1	235	FS_INS	+1	unmasked	FS_3
+# Chaetura_pelagica	1	1	247	STOP	TCA->TAA	unmasked	STOP_2
+# Chaetura_pelagica	1	INTACT_PERC_IGNORE_M 0.2254335260115607
+# Chaetura_pelagica	1	INTACT_PERC_INTACT_M 0.2254335260115607
+# Chaetura_pelagica	1	INTACT_CODONS_PROP 0.6011560693641619
+# Chaetura_pelagica	1	OUT_OF_CHAIN_PROP 0.0
+# Chaetura_pelagica	1	MIDDLE_IS_INTACT FALSE
+# Chaetura_pelagica	1	MIDDLE_IS_PRESENT TRUE
+
+GENE: Cuculus_canorus
+# Cuculus_canorus	3	1	1	ATG	ATG->ATG	masked	ATG_1
+# Cuculus_canorus	3	1	59	FS_INS	+1	unmasked	FS_1
+# Cuculus_canorus	3	1	62	FS_INS	+1	unmasked	FS_2
+# Cuculus_canorus	3	1	117	ATG	ATG->ATG	masked	ATG_2
+# Cuculus_canorus	3	1	120	COMPENSATION	FS_3-4	unmasked	C_1
+# Cuculus_canorus	3	1	120	FS_DEL	-1	masked	FS_3
+# Cuculus_canorus	3	1	131	FS_INS	+1	masked	FS_4
+# Cuculus_canorus	3	1	139	ATG	ATG->ATG	masked	ATG_3
+# Cuculus_canorus	3	1	204	ATG	ATT->ATG	masked	ATG_4
+# Cuculus_canorus	3	1	236	FS_INS	+4	unmasked	FS_5
+# Cuculus_canorus	3	1	236	STOP	TTT->TAA	masked	STOP_1
+# Cuculus_canorus	3	1	293	ATG	ATG->ATG	masked	ATG_5
+# Cuculus_canorus	3	1	294	FS_DEL	-1	unmasked	FS_6
+# Cuculus_canorus	3	1	304	ATG	ATT->ATG	masked	ATG_6
+# Cuculus_canorus	3	1	305	ATG	ATT->ATG	masked	ATG_7
+# Cuculus_canorus	3	1	313	STOP	CGG->TAG	masked	STOP_2
+# Cuculus_canorus	3	1	316	ATG	ATA->ATG	masked	ATG_8
+# Cuculus_canorus	3	1	342	ATG	ATG->ATG	masked	ATG_9
+# Cuculus_canorus	3	INTACT_PERC_IGNORE_M 0.3930635838150289
+# Cuculus_canorus	3	INTACT_PERC_INTACT_M 0.3930635838150289
+# Cuculus_canorus	3	INTACT_CODONS_PROP 0.7716763005780347
+# Cuculus_canorus	3	OUT_OF_CHAIN_PROP 0.0
+# Cuculus_canorus	3	MIDDLE_IS_INTACT FALSE
+# Cuculus_canorus	3	MIDDLE_IS_PRESENT TRUE
+

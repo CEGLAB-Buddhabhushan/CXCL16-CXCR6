@@ -1,0 +1,235 @@
+# circos.conf
+
+
+karyotype = /home/ceglab358/BUDDHA/CXCR6/circos_plot/1kb/circos_data/karyotype.txt
+
+<ideogram>
+
+<spacing>
+default = 0.005r
+</spacing>
+
+radius    = 0.9r
+thickness = 30p
+fill      = yes
+
+</ideogram>
+<ideogram>
+
+<spacing>
+default = 0.005r
+</spacing>
+
+# Ideogram position, fill and outline
+
+radius           = 0.90r
+thickness        = 80p
+fill             = yes
+stroke_color     = dgrey
+stroke_thickness = 2p
+
+# Minimum definition for ideogram labels.
+
+show_label       = yes
+# see etc/fonts.conf for list of font names
+label_font       = default 
+label_radius     = 1r + 55p
+label_size       = 40
+label_parallel   = yes
+
+</ideogram>
+###### plots
+<plots>
+
+### GC content
+<plot>
+show  = yes
+type  = histogram
+file  = /home/ceglab358/BUDDHA/CXCR6/circos_plot/1kb/circos_data/GC_content.txt
+r1    = 0.98r
+r0    = 0.85r
+max   = 1.0
+min   = 0.0
+extend_bin  = no
+glyph            = rectangle
+glyph_size       = 10
+color            = black
+stroke_color     = grey
+stroke_thickness = 2
+<rules>
+use = yes
+<rule>
+condition  = var(value) > 0.50
+fill_color = red
+</rule>
+</rules>
+<backgrounds>
+<background>
+color = lblue
+</background>
+</backgrounds>
+</plot>
+### Repeats
+<plot>
+file = /home/ceglab358/BUDDHA/CXCR6/circos_plot/1kb/circos_data/Repeatmasker.bed
+r1   = 0.83r
+r0   = 0.63r
+orientation = out
+type        = tile
+layers      = 1
+thickness   = 85p
+padding     = 10p
+margin      = 0.001u
+color       = black
+stroke_thickness = 2p
+stroke_color = black
+
+<rules>
+<rule>
+condition    = var(id) =~ /CR1/
+color        = blue
+flow         = continue
+</rule>
+
+<rule>
+condition    = var(id) =~ /Simple_repeat/
+color = red
+</rule>
+
+<rule>
+condition    = var(id) =~ /Low_complexity/
+color        = orange
+</rule>
+
+<rule>
+condition    = var(id) =~ /DNA_IS3EU/
+color        = dgrey
+</rule>
+
+<rule>
+condition    = var(id) =~ /LTR_ERV1/
+color        = lgrey
+</rule>
+</rules>
+<backgrounds>
+<background>
+color = lyellow
+</background>
+</backgrounds>
+</plot>
+###repeat label
+<plot>
+type             = text
+color            = black
+file             = /home/ceglab358/BUDDHA/CXCR6/circos_plot/1kb/circos_data/Repeatmasker.bed.lable.txt
+r1   = 0.80r
+r0   = 0.70r
+label_snuggle    = yes
+max_snuggle_distance            = 3r
+snuggle_sampling                = 1
+snuggle_tolerance               = 0p
+snuggle_link_overlap_test      = yes 
+snuggle_link_overlap_tolerance = 0p
+snuggle_refine                 = yes
+label_parallel = no
+label_size       = 13p
+label_font       = condensed
+show_links       = yes
+link_dims        = 4p,4p,8p,4p,4p
+link_thickness   = 3p
+link_color       = red
+padding          = 2p
+rpadding         = 0.1r
+
+
+</plot>
+
+
+### Gene feature
+
+<plot>
+file        = /home/ceglab358/BUDDHA/CXCR6/circos_plot/1kb/circos_data/Gene_features.txt
+type        = tile
+r1          = 0.60r
+r0          = 0.45r
+orientation = in
+layers      = 5
+margin      = 0.02u
+thickness   = 80
+padding     = 1
+layers_overflow       = collapse
+layers_overflow_color = red
+stroke_thickness = 2
+stroke_color     = dgreen
+color            = green
+
+<backgrounds>
+<background>
+color = vvlgrey
+</background>
+</backgrounds>
+
+</plot>
+### gene lable
+<plot>
+type             = text
+color            = black
+file             = /home/ceglab358/BUDDHA/CXCR6/circos_plot/1kb/circos_data/Gene_features.txt
+
+r0 = 0.45r
+r1 = 0.63r
+label_parallel = no
+
+label_size   = 11p
+label_font   = condensed
+padding  = 0p
+rpadding = 2p
+
+</plot>
+
+</plots>
+
+
+##linking
+<links>
+<link>
+file = /home/ceglab358/BUDDHA/CXCR6/circos_plot/1kb/circos_data/link.blastn.Anas_platyrhynchos.others.txt
+bezier_radius = 0r
+radius        = 0.45r
+crest         = 0.25
+ribbon        = yes
+color     = lgrey
+thickness = 2
+</link>
+<link>
+file = /home/ceglab358/BUDDHA/CXCR6/circos_plot/1kb/circos_data/link.blastn.Anas_platyrhynchos.Gallus_gallus.txt
+bezier_radius = 0r
+radius        = 0.45r
+crest         = 0.25
+ribbon        = yes
+color     = 32,5,137
+thickness = 2
+z         = 15
+
+</link>
+</links>
+################################################################
+# The remaining content is standard and required. It is imported 
+# from default files in the Circos distribution.
+#
+# These should be present in every Circos configuration file and
+# overridden as required. To see the content of these files, 
+# look in etc/ in the Circos distribution.
+
+<image>
+# Included from Circos distribution.
+<<include etc/image.conf>>
+</image>
+
+# RGB/HSV color definitions, color lists, location of fonts, fill patterns.
+# Included from Circos distribution.
+<<include etc/colors_fonts_patterns.conf>>
+
+# Debugging, I/O an dother system parameters
+# Included from Circos distribution.
+<<include etc/housekeeping.conf>>

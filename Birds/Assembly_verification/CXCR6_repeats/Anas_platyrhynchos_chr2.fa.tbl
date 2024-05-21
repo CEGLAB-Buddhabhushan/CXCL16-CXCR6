@@ -1,0 +1,59 @@
+==================================================
+file name: Anas_platyrhynchos_chr2.fa
+sequences:             1
+total length:  164862000 bp  (164412333 bp excl N/X-runs)
+GC level:         39.88 %
+bases masked:   32112460 bp ( 19.48 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements        55486     22708338 bp   13.77 %
+   SINEs:             2903       535650 bp    0.32 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:            41644     16604194 bp   10.07 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex      40543     16197309 bp    9.82 %
+     R1/LOA/Jockey       9         1014 bp    0.00 %
+     R2/R4/NeSL         58         4583 bp    0.00 %
+     RTE/Bov-B         302       220565 bp    0.13 %
+     L1/CIN4            96        26255 bp    0.02 %
+   LTR elements:     10939      5568494 bp    3.38 %
+     BEL/Pao            36         8865 bp    0.01 %
+     Ty1/Copia         102        17795 bp    0.01 %
+     Gypsy/DIRS1       688       283678 bp    0.17 %
+       Retroviral     9645      5155127 bp    3.13 %
+
+DNA transposons      13205      2353502 bp    1.43 %
+   hobo-Activator     2514       500022 bp    0.30 %
+   Tc1-IS630-Pogo      391        65898 bp    0.04 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR            77        51938 bp    0.03 %
+   PiggyBac             16          726 bp    0.00 %
+   Tourist/Harbinger  6128       703742 bp    0.43 %
+   Other (Mirage,        5          488 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles        334        34654 bp    0.02 %
+
+Unclassified:        16011      3292547 bp    2.00 %
+
+Total interspersed repeats:    28354387 bp   17.20 %
+
+
+Small RNA:             656       156999 bp    0.10 %
+
+Satellites:            686       143084 bp    0.09 %
+Simple repeats:      76450      3010515 bp    1.83 %
+Low complexity:      11145       527528 bp    0.32 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be Birds         
+RepeatMasker version 4.1.5 , sensitive mode
+                                      
+run with rmblastn version 2.14.0+
+FamDB: CONS-Dfam_3.7

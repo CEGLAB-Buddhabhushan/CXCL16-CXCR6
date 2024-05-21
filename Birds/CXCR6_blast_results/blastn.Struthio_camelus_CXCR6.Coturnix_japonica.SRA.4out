@@ -1,0 +1,50 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: SRR5460167_8_9_70.fa
+           966,027,326 sequences; 86,942,459,340 total letters
+
+
+
+Query= CXCR6-201_ENSSCUT00000025423.1
+
+Length=1035
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR5460169.4930005 FCC5WBDACXX:6:1114:19758:64572/1                   50.9       0.046
+SRR5460167.80831477 FCC5WBDACXX:7:2305:21093:69103/2                  50.9       0.046
+
+
+
+Query_1    94   TTTCTGCCCTGTATGTATTCATTTGTTTTTATCTT  128
+605627541  1    TTTCTGCCCTGTCTGTATTTATTTGTTTTTCTCTT  35
+319197960  42   TTTCTGTCCTGTCTGTATTTATTTGTTTTTATCTT  76
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 51097049381444
+
+
+  Database: SRR5460167_8_9_70.fa
+    Posted date:  Oct 8, 2020  10:48 AM
+  Number of letters in database: 86,942,459,340
+  Number of sequences in database:  966,027,326
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

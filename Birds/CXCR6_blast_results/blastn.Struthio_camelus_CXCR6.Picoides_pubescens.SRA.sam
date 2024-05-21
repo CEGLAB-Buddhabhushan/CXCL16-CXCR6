@@ -1,0 +1,5 @@
+@HD	VN:1.2	SO:coordinate	GO:reference
+@SQ	SN:Query_1	LN:1035
+@PG	ID:0	VN:2.9.0+	CL:blastn -task blastn -evalue 0.05 -max_target_seqs 5000 -db SRR949787_8_90_91.fa -out /home/neo/bird_db1/buddha/CXCR6/blast_output_SRA/blastn.Struthio_camelus_CXCR6.Picoides_pubescens.SRA.anseriformes.sam -num_threads 4 -outfmt 17 SQ -query /home/neo/bird_db1/buddha/CXCR6/query/Struthio_camelus_Exon.fa 	PN:blastn
+BL_ORD_ID:698662600	0	Query_1	206	255	9H85M6H	*	0	0	TGCTCAACTTGGCAGTTTCTGATTTGCTCTTTATATTTTCTCTCCCCTTCTGGGCTTATTATGCTGCTCATGACTGGGTTTTTGG	*	AS:i:55	EV:f:0.0496526	NM:i:0	PI:f:72.94	BS:f:50.8789
+BL_ORD_ID:516003907	16	Query_1	830	255	5H70M25H	*	0	0	TTGCTTACTCCCACTGCTGCCTCAACCCCGTGCTCTACATGTTCATGGGAGTCAAGTTCAAGAGGCATTT	*	AS:i:55	EV:f:0.0496526	NM:i:0	PI:f:75.71	BS:f:50.8789

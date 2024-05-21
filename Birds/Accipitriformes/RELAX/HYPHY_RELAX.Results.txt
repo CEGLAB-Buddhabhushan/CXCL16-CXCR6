@@ -1,0 +1,7 @@
+test	back	pval	kval
+Accipiter_gentilis	`Harpia_harpyja,Aquila_chrysaetos,Node1,Haliaeetus_leucocephalus,Haliaeetus_albicilla,Node5,Node4,Gymnogyps_californianus`	0.4279	20.52
+Aquila_chrysaetos	`Harpia_harpyja,Node1,Haliaeetus_leucocephalus,Haliaeetus_albicilla,Node5,Accipiter_gentilis,Node4,Gymnogyps_californianus`	0.1855	0.17
+Gymnogyps_californianus	`Harpia_harpyja,Aquila_chrysaetos,Node1,Haliaeetus_leucocephalus,Haliaeetus_albicilla,Node5,Accipiter_gentilis,Node4`	0.7782	1.46
+Haliaeetus_albicilla	`Harpia_harpyja,Aquila_chrysaetos,Node1,Haliaeetus_leucocephalus,Node5,Accipiter_gentilis,Node4,Gymnogyps_californianus`	1.0000	0.88
+Haliaeetus_leucocephalus	`Harpia_harpyja,Aquila_chrysaetos,Node1,Haliaeetus_albicilla,Node5,Accipiter_gentilis,Node4,Gymnogyps_californianus`	1.0000	0.89
+Harpia_harpyja	`Aquila_chrysaetos,Node1,Haliaeetus_leucocephalus,Haliaeetus_albicilla,Node5,Accipiter_gentilis,Node4,Gymnogyps_californianus`	0.8522	0.57

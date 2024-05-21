@@ -1,0 +1,106 @@
+
+Analysis Description
+--------------------
+FEL (Fixed Effects Likelihood) estimates site-wise synonymous (&alpha;)
+and non-synonymous (&beta;) rates, and uses a likelihood ratio test to
+determine if beta &neq; alpha at a site. The estimates aggregate
+information over all branches, so the signal is derived from pervasive
+diversification or conservation. A subset of branches can be selected
+for testing as well, in which case an additional (nuisance) parameter
+will be inferred -- the non-synonymous rate on branches NOT selected for
+testing. Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Not So Different After All: A Comparison of Methods for Detecting Amino
+Acid Sites Under Selection (2005). _Mol Biol Evol_ 22 (5): 1208-1222
+
+- __Written by__: Sergei L Kosakovsky Pond and Simon DW Frost
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.1
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/Passeriformes_selection/Lonchura_striata/FEL/Lonchura_striata_treeLabled.txt
+Lonchura_striata_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **8** sequences, **357** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/Passeriformes_selection/Lonchura_striata/FEL/Lonchura_striata.aln`
+
+>branches –> fg
+
+>srv –> Yes
+Yes
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue –> 0.1
+
+>ci –> No
+
+>[Advanced setting, will result in MUCH SLOWER run time] Perform parametric bootstrap resampling to derive site-level null LRT distributions up to this many replicates per site. Recommended use for small to medium (<30 sequences) datasets (permissible range = [0,1000], default value = 50, integer): 
+>resample –> 100
+
+
+### Branches to include in the FEL analysis
+Selected 1 branches to include in FEL calculations: `Lonchura_striata`
+
+>precision –> standard
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 1 zero-length internal branches: `Node2`
+* Log(L) = -3166.90, AIC-c =  6375.91 (21 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.398
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -3084.90, AIC-c =  6226.38 (28 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.416
+* non-synonymous/synonymous rate ratio for *background* =   0.3390
+* non-synonymous/synonymous rate ratio for *test* =   0.5736
+
+>full-model –> Yes
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -3075.68
+* non-synonymous/synonymous rate ratio for *background* =   0.2677
+* non-synonymous/synonymous rate ratio for *test* =   0.9366
+
+### For partition 1 these sites are significant at p <=0.1
+
+|     Codon      |   Partition    |     alpha      |      beta      |      LRT       |Selection detected?|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:-----------------:|
+[0;32m|       28       |       1        |        8.528   |        0.000   |        2.949   |  Neg. p = 0.0990  |
+[0m[0;32m|       38       |       1        |    10000.000   |        0.000   |        7.322   |  Neg. p = 0.0099  |
+[0m[0;31m|       58       |       1        |        0.000   |       14.729   |        5.019   |  Pos. p = 0.0396  |
+[0m[0;32m|       60       |       1        |       17.051   |        0.000   |        3.469   |  Neg. p = 0.0990  |
+[0m[0;31m|       61       |       1        |        0.000   |       11.533   |        4.716   |  Pos. p = 0.0495  |
+[0m[0;31m|       77       |       1        |        0.000   |     4935.965   |        9.153   |  Pos. p = 0.0099  |
+[0m[0;31m|       92       |       1        |        0.000   |        0.196   |        0.000   |  Pos. p = 0.0099  |
+[0m[0;32m|      105       |       1        |        9.035   |        0.000   |        3.530   |  Neg. p = 0.0495  |
+[0m[0;31m|      112       |       1        |        1.205   |       20.716   |        4.190   |  Pos. p = 0.0594  |
+[0m[0;31m|      119       |       1        |        0.000   |      181.711   |        4.596   |  Pos. p = 0.0396  |
+[0m[0;31m|      146       |       1        |        0.000   |     2187.211   |        5.007   |  Pos. p = 0.0297  |
+[0m[0;31m|      150       |       1        |        0.000   |        4.335   |        2.878   |  Pos. p = 0.0495  |
+[0m[0;32m|      157       |       1        |        0.159   |        0.000   |        0.003   |  Neg. p = 0.0396  |
+[0m[0;31m|      166       |       1        |        0.000   |        7.965   |        4.421   |  Pos. p = 0.0297  |
+[0m[0;31m|      174       |       1        |        0.000   |       14.806   |        4.649   |  Pos. p = 0.0792  |
+[0m[0;31m|      176       |       1        |        0.000   |     3722.671   |        3.652   |  Pos. p = 0.0495  |
+[0m[0;31m|      181       |       1        |        0.000   |       14.894   |        3.218   |  Pos. p = 0.0891  |
+[0m[0;31m|      194       |       1        |        0.000   |        1.407   |        0.332   |  Pos. p = 0.0990  |
+[0m[0;31m|      195       |       1        |        0.000   |        6.615   |        2.789   |  Pos. p = 0.0495  |
+[0m[0;31m|      201       |       1        |        0.000   |        6.220   |        3.236   |  Pos. p = 0.0594  |
+[0m[0;31m|      207       |       1        |        0.000   |    10000.000   |        3.805   |  Pos. p = 0.0396  |
+[0m[0;31m|      253       |       1        |        0.000   |       16.347   |        5.964   |  Pos. p = 0.0099  |
+[0m[0;32m|      265       |       1        |     1796.802   |        0.000   |        6.733   |  Neg. p = 0.0396  |
+[0m[0;31m|      289       |       1        |        0.000   |        4.461   |        2.681   |  Pos. p = 0.0990  |
+[0m[0;31m|      293       |       1        |        0.000   |        0.196   |        0.000   |  Pos. p = 0.0099  |
+[0m[0;31m|      303       |       1        |        0.000   |       12.572   |        3.226   |  Pos. p = 0.0594  |
+[0m[0;32m|      330       |       1        |       10.575   |        0.000   |        3.607   |  Neg. p = 0.0495  |
+[0m
+### ** Found _20_ sites under pervasive positive diversifying and _7_ sites under negative selection at p <= 0.1**
+

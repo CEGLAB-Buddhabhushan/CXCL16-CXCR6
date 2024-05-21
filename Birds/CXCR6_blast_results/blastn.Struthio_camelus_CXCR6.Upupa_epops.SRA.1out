@@ -1,0 +1,78 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: SRR9946892_906_907.fa
+           556,450,182 sequences; 47,383,992,984 total letters
+
+
+
+Query= CXCR6-201_ENSSCUT00000025423.1
+
+Length=1035
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR9946907.48717956 FCC4BF5ACXX:7:2313:13443:34492/2                  115        7e-22
+SRR9946907.48717956 FCC4BF5ACXX:7:2313:13443:34492/1                  111        9e-21
+SRR9946907.33288193 FCC4BF5ACXX:7:2116:11404:93638/1                  53.6       0.002
+SRR9946907.31596111 FCC4BF5ACXX:7:2113:16562:86062/1                  53.6       0.002
+SRR9946907.26922312 FCC4BF5ACXX:7:2105:5275:39869/1                   53.6       0.002
+SRR9946892.45382696 FCC4BF5ACXX:8:2310:8339:55412/1                   50.9       0.025
+
+
+
+Query_1    181  CTGAAGACGCTGACAGACGTGTTTTTGCTGAACTTGTCTGTAGCTGACTGGATCTTTCTT  240
+488333814  2    .......GCA....G..T....ACC....A...C..G.CA.CT.A..T.T.C.....G..  61
+486641732  121  .......GCA....G..T....ACC....A...C..G.CA.CT.A..T.T.C.....G..  62
+481967933  141  .......GCA....G..T....ACC....A...C..G.CA.CT.A..T.T.C.....G..  82
+45382695   41   .......GCA....G..T....ACC....A...C..G.CA.CT.A..T.T.C.....G..  100
+
+Query_1    241  TGGACACTGCCATTCTGGGCATATTCCGCCACTCAGGAGTGGGTTTTTGGCACTGTGGCA  300
+488333814  62   .T.T.CT...........T.T....T.A....AG.CC.A...........G...        115
+486641732  61   .T.T.CT...........T.T....T.A....AG.CC.A...........G...        8
+481967933  81   .T.T.CT...........T.T....T.A....AG.CC.A...........G...        28
+45382695   101  .T.T.CT...........T.T....T.A....AG.CC.A...........            150
+
+Query_1    301  TGTCGTGCTATACGGGGCTTGTATACTCTGAATTTGTACACATCAATGTTAACTCTAACC  360
+
+Query_1    361  TCTATAACCTTCGATCGGCTTATTGCTATTACTTTTGCCACCAAAGCACACACGTGCCAA  420
+
+Query_1    421  ACCAAACGAATGACATGGGGCAAATTAATCTGCATCTTGATCTGGGTGATTTCACTAGCC  480
+554465857  1                   ................CTG................C....A...A  45
+503763577  121                 ................CTG................C....A...A  77
+
+Query_1    481  TTTGCCACACCACAGTTTATTTTTAGTGAGGCATTTAGTATTGATAAGGCAATATGTCAG  540
+554465857  46   .....TGT......C...G.....T.-....-.G...A.T...........G........  103
+503763577  76   .....TGT......C...G.....T.-....-TG...A.T...........G........  19
+
+Query_1    541  GAAAACTACCCAAAC  555
+554465857  104  ...G.A...T.....  118
+503763577  18   ...G.A...T.....  4
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 27324434645568
+
+
+  Database: SRR9946892_906_907.fa
+    Posted date:  May 27, 2022  4:45 PM
+  Number of letters in database: 47,383,992,984
+  Number of sequences in database:  556,450,182
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

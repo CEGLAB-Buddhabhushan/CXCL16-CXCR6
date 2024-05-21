@@ -1,0 +1,161 @@
+from pygenomeviz import GenomeViz
+
+genome_list = (
+    {"name": "Anas_platyrhynchos", "size": 16532, "cds_list": ((150, 300, 1), (500, 700, -1), (750, 950, 1))},
+    {"name": "genome 02", "size": 1300, "cds_list": ((50, 200, 1), (350, 450, 1), (700, 900, -1), (950, 1150, -1))},
+    {"name": "genome 03", "size": 1200, "cds_list": ((150, 300, 1), (350, 450, -1), (500, 700, -1), (700, 900, -1))},
+)
+
+gv = GenomeViz(tick_style="axis")
+for genome in genome_list:
+    name, size, cds_list = genome["name"], genome["size"], genome["cds_list"]
+    track = gv.add_feature_track(name, size)
+    for idx, cds in enumerate(cds_list, 1):
+        start, end, strand = cds
+        track.add_feature(start, end, strand, label=f"gene{idx:02d}", linewidth=1, labelrotation=0, labelvpos="top", labelhpos="center", labelha="center")
+
+# Add links between "genome 01" and "genome 02"
+gv.add_link(("genome 01", 150, 300), ("genome 02", 50, 200))
+gv.add_link(("genome 01", 700, 500), ("genome 02", 900, 700))
+gv.add_link(("genome 01", 750, 950), ("genome 02", 1150, 950))
+# Add links between "genome 02" and "genome 03"
+gv.add_link(("genome 02", 50, 200), ("genome 03", 150, 300), normal_color="skyblue", inverted_color="lime", curve=True)
+gv.add_link(("genome 02", 350, 450), ("genome 03", 450, 350), normal_color="skyblue", inverted_color="lime", curve=True)
+gv.add_link(("genome 02", 900, 700), ("genome 03", 700, 500), normal_color="skyblue", inverted_color="lime", curve=True)
+gv.add_link(("genome 03", 900, 700), ("genome 02", 1150, 950), normal_color="skyblue", inverted_color="lime", curve=True)
+
+gv.savefig("example02.png")
+
+
+from pygenomeviz import GenomeViz
+
+exon_regions1 = [(0, 210), (300, 480), (590, 800), (850, 1000), (1030, 1300)]
+exon_regions2 = [(1500, 1710), (2000, 2480), (2590, 2800)]
+exon_regions3 = [(3000, 3300), (3400, 3690), (3800, 4100), (4200, 4620)]
+
+gv = GenomeViz()
+track = gv.add_feature_track(name=f"Exon Features", size=16532)
+track.add_exon_feature(exon_regions1, strand=1, plotstyle="box", label="box", labelrotation=0, labelha="center")
+track.add_exon_feature(exon_regions2, strand=-1, plotstyle="arrow", label="arrow", labelrotation=0, labelha="center", facecolor="darkgrey", intron_patch_kws={"ec": "red"})
+
+exon_labels = [f"exon{i+1}" for i in range(len(exon_regions3))]
+track.add_exon_feature(exon_regions3, strand=1, plotstyle="bigarrow", label="bigarrow", facecolor="lime", linewidth=1, exon_labels=exon_labels, labelrotation=0, labelha="center", exon_label_kws={"y": 0, "va": "center", "color": "blue"})
+
+gv.savefig("example03.png")
+
+
+##blast
+blastn -task blastn -evalue 0.05 -db Anas_platyrhynchos.fa -out blastn.Anas_platyrhynchos-Gallus_gallus.6out -num_threads 2 -outfmt "6 sseqid sstart send qseqid qstart qend" -query Gallus_gallus.fa
+##chr size
+faidx Anas_platyrhynchos.fa -i chromsizes > Anas_platyrhynchos.sizes.genome
+faidx Gallus_gallus.fa  -i chromsizes > Gallus_gallus.sizes.genome
+##generates links
+awk '{printf "gv.add_link((\"%s\", %s, %s), (\"%s\", %s, %s))\n", $1, $2, $3, $4, $5, $6}' blastn.Anas_platyrhynchos-Gallus_gallus.6out 
+##links
+Anas_platyrhynchos	14304	15689	Gallus_gallus	3841	5253
+Anas_platyrhynchos	870	1567	Gallus_gallus	874	1555
+Anas_platyrhynchos	290	807	Gallus_gallus	358	872
+Anas_platyrhynchos	12640	13619	Gallus_gallus	1845	2801
+Anas_platyrhynchos	1774	2037	Gallus_gallus	1591	1840
+Anas_platyrhynchos	13649	13935	Gallus_gallus	3284	3589
+Anas_platyrhynchos	15696	15818	Gallus_gallus	5988	6098
+
+## python script
+from pygenomeviz import GenomeViz
+exon_CXCR6 = [(5944, 6981)]
+exon_FYCO1_Exon14_15 = [(1000, 1144), (15438, 15532)]
+
+gv = GenomeViz()
+track = gv.add_feature_track(name=f"Exon Features", size=16532)
+track.add_exon_feature(exon_CXCR6, strand=-1, plotstyle="arrow", label="arrow", labelrotation=0, labelha="center", facecolor="darkgrey", intron_patch_kws={"ec": "red"})
+
+exon_labels = [f"exon{i+14}" for i in  range(len(exon_FYCO1_Exon14_15))]
+track.add_exon_feature(exon_FYCO1_Exon14_15, strand=1, plotstyle="bigarrow", label="bigarrow", facecolor="lime", linewidth=1, exon_labels=exon_labels, labelrotation=0, labelha="center", exon_label_kws={"y": 0, "va": "center", "color": "blue"})
+
+gv.savefig("example03.png")
+
+## python script
+from pygenomeviz import GenomeViz
+
+genome_list = (
+    {"name": "Anas platyrhynchos", "size": 16532, "cds_list": ((1000, 1144, -1), (15438, 15532, -1), (5944, 6981, 1))},
+    {"name": "Gallus gallus", "size": 6099, "cds_list": ((1000, 1144, -1), (5005, 5099, -1))},
+)
+
+
+gv = GenomeViz(tick_style="axis")
+for genome in genome_list:
+    name, size, cds_list = genome["name"], genome["size"], genome["cds_list"]
+    track = gv.add_feature_track(name, size)
+    for idx, cds in enumerate(cds_list, 1):
+        start, end, strand = cds
+        track.add_feature(start, end, strand, label=f"gene{idx:02d}", linewidth=1, labelrotation=0, labelvpos="top", labelhpos="center", labelha="center")
+
+# Add links between "genome 01" and "genome 02"
+gv.add_link(("Anas platyrhynchos", 14304, 15689), ("Gallus gallus", 3841, 5253))
+gv.add_link(("Anas platyrhynchos", 870, 1567), ("Gallus gallus", 874, 1555))
+gv.add_link(("Anas platyrhynchos", 290, 807), ("Gallus gallus", 358, 872))
+gv.add_link(("Anas platyrhynchos", 12640, 13619), ("Gallus gallus", 1845, 1845))
+gv.add_link(("Anas platyrhynchos", 1774, 2037), ("Gallus gallus", 1591, 1840))
+gv.add_link(("Anas platyrhynchos", 13649, 13935), ("Gallus gallus", 3284, 3589))
+gv.add_link(("Anas platyrhynchos", 15696, 15818), ("Gallus gallus", 5988, 6098))
+
+
+gv.savefig("example02.png")
+
+##############final
+from pygenomeviz import GenomeViz
+exon_CXCR6 = [(5944, 6981)]
+exon_FYCO1_Exon14_15 = [(1000, 1144), (15438, 15532)]
+
+gv = GenomeViz()
+track = gv.add_feature_track(name=f"Gene Features", size=16532)
+track.add_exon_feature(exon_CXCR6, strand=1, plotstyle="arrow", label="CXCR6", labelrotation=0, labelha="center", facecolor="red")
+
+exon_labels = [f"exon{i+14}" for i in  range(len(exon_FYCO1_Exon14_15))]
+track.add_exon_feature(exon_FYCO1_Exon14_15, strand=-1, plotstyle="bigrbox", label="FYCO1_Intron", labelrotation=0, labelvpos="bottom", labelha="center", facecolor="lime", edgecolor="red", linewidth=3, exon_labels=exon_labels, exon_label_kws={"y": 0, "va": "center", "color": "blue"})
+
+
+
+genome_list = (
+    {"name": "Anas_platyrhynchos", "size": 16532, "cds_list": ((1000, 1144, -1), (15438, 15532, -1), (5944, 6981, 1))},
+    {"name": "Gallus_gallus", "size": 6099, "cds_list": ((1000, 1144, -1), (5005, 5099, -1))},
+    {"name": "Anser_cygnoides", "size": 18058, "cds_list": ((1000, 1144, -1), (16964, 17058, -1), (6240, 7277, 1))},
+    {"name": "Meleagris_gallopavo", "size": 6288, "cds_list": ((1000, 1144, -1), (5194, 5288, -1))}
+)
+
+
+#gv = GenomeViz(tick_style="axis")
+for genome in genome_list:
+    name, size, cds_list = genome["name"], genome["size"], genome["cds_list"]
+    track = gv.add_feature_track(name, size)
+    for idx, cds in enumerate(cds_list, 1):
+        start, end, strand = cds
+        track.add_feature(start, end, strand, plotstyle="bigbox", labelrotation=0, labelha="center", linewidth=3)
+
+# Add links between "Anas platyrhynchos" and "Gallus gallus"
+gv.add_link(("Anas_platyrhynchos", 14304, 15689), ("Gallus_gallus", 3841, 5253))
+gv.add_link(("Anas_platyrhynchos", 870, 1567), ("Gallus_gallus", 874, 1555))
+gv.add_link(("Anas_platyrhynchos", 290, 807), ("Gallus_gallus", 358, 872))
+gv.add_link(("Anas_platyrhynchos", 12640, 13619), ("Gallus_gallus", 1845, 2801))
+gv.add_link(("Anas_platyrhynchos", 1774, 2037), ("Gallus_gallus", 1591, 1840))
+gv.add_link(("Anas_platyrhynchos", 13649, 13935), ("Gallus_gallus", 3284, 3589))
+gv.add_link(("Anas_platyrhynchos", 15696, 15818), ("Gallus_gallus", 5988, 6098))
+
+# Add links between "Gallus_gallus" and "Anser_cygnoides"
+gv.add_link(("Gallus_gallus", 3632, 6048), ("Anser_cygnoides", 15644, 18053))
+gv.add_link(("Gallus_gallus", 872, 1485), ("Anser_cygnoides", 866, 1502))
+gv.add_link(("Gallus_gallus", 358, 835), ("Anser_cygnoides", 285, 765))
+gv.add_link(("Gallus_gallus", 1833, 2801), ("Anser_cygnoides", 13875, 14840))
+gv.add_link(("Gallus_gallus", 3281, 3589), ("Anser_cygnoides", 14867, 15176))
+gv.add_link(("Gallus_gallus", 1591, 1840), ("Anser_cygnoides", 1770, 1991))
+# Add links between "Anser_cygnoides" and "Meleagris_gallopavo"
+gv.add_link(("Anser_cygnoides", 15644, 18040), ("Meleagris_gallopavo", 3825, 6219))
+gv.add_link(("Anser_cygnoides", 323, 1991), ("Meleagris_gallopavo", 332, 2061))
+gv.add_link(("Anser_cygnoides", 13875, 14840), ("Meleagris_gallopavo", 2054, 3001))
+gv.add_link(("Anser_cygnoides", 14837, 15174), ("Meleagris_gallopavo", 3446, 3784))
+
+
+gv.savefig("Final.png")
+
+

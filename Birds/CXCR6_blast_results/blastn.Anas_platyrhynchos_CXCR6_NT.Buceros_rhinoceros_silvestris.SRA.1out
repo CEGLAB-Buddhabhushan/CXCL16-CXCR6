@@ -1,0 +1,56 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: SRR952906_7_8.fa
+           493,986,904 sequences; 49,398,690,400 total letters
+
+
+
+Query= Anas_platyrhynchos
+
+Length=1038
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR952907.53760795 FC81EBCABXX:4:2203:2092:113433/2                   50.9       0.029
+SRR952907.28970183 FC81EBCABXX:4:1207:4001:13992/1                    50.9       0.029
+SRR952907.22529689 FC81EBCABXX:4:1204:2138:8699/1                     50.9       0.029
+SRR952906.74032787 FC81EC2ABXX:8:2201:11437:88357/1                   50.9       0.029
+SRR952906.7402138 FC81EC2ABXX:8:1103:13781:98105/1                    50.9       0.029
+
+
+
+Query_1    841  TTCCACGGCTGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC  900
+306997997  25   ......T....C..C..T..A..C..C..C.............AA.....T.A....T..  84
+216893228  2    ......T....C..C..T..A..C..C..C.............AA.....T.A....T..  61
+210452734  11   ......T....C..C..T..A..C..C..C.............AA.....T.A....T..  70
+74032786   67   ......T....C..C..T..A..C..C..C.............AA.....T.A....T..  8
+7402137    2    ......T....C..C..T..A..C..C..C.............AA.....T.A....T..  61
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 31678392179712
+
+
+  Database: SRR952906_7_8.fa
+    Posted date:  Oct 1, 2020  10:29 AM
+  Number of letters in database: 49,398,690,400
+  Number of sequences in database:  493,986,904
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

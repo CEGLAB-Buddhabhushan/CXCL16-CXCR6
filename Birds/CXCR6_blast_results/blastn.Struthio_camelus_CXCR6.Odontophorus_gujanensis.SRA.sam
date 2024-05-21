@@ -1,0 +1,4 @@
+@HD	VN:1.2	SO:coordinate	GO:reference
+@SQ	SN:Query_1	LN:1035
+@PG	ID:0	VN:2.9.0+	CL:blastn -task blastn -evalue 0.05 -max_target_seqs 5000 -db SRR10019947_8_SRR9946993_5_7_8.fa -out /home/neo/bird_db1/buddha/CXCR6/blast_output_SRA/blastn.Struthio_camelus_CXCR6.Odontophorus_gujanensis.SRA.anseriformes.sam -num_threads 4 -outfmt 17 SQ -query /home/neo/bird_db1/buddha/CXCR6/query/Struthio_camelus_Exon.fa 	PN:blastn
+BL_ORD_ID:68247679	0	Query_1	337	255	27H69M2D17M3I34M	*	0	0	TACACTTCAATGTTAACTCTAATGTCTATCACCTTTGACTGGCTTATTGCTATCACTTTTGCCACTGAAACACATGTGTCAAACCAAACAACAAATGACATGGGGAAAATTAATCTGAGTCTT	*	AS:i:140	EV:f:1.25107e-25	NM:i:5	PI:f:86.67	BS:f:127.522

@@ -1,0 +1,155 @@
+[2J[H     /HYPHY 2.3.14.20230213beta(MP) for Linux on x86_64\     
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Kernel Analysis Tools
+	(12) Molecular Clock
+	(13) Phylogeny Reconstruction
+	(14) Positive Selection
+	(15) Recombination
+	(16) Selection/Recombination
+	(17) Relative Rate
+	(18) Relative Ratio
+	(19) Substitution Rates
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):[2J[H***************** FILES IN 'Selection Analyses' ***************** 
+
+
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.0
+
+
+
+####Choose Genetic Code
+
+1. [**Universal**] Universal code. (Genebank transl_table=1).
+2. [**Vertebrate mtDNA**] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+3. [**Yeast mtDNA**] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+4. [**Mold/Protozoan mtDNA**] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+5. [**Invertebrate mtDNA**] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+6. [**Ciliate Nuclear**] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+7. [**Echinoderm mtDNA**] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+8. [**Euplotid Nuclear**] Euplotid Nuclear code. (Genebank transl_table=10).
+9. [**Alt. Yeast Nuclear**] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+10. [**Ascidian mtDNA**] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+11. [**Flatworm mtDNA**] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+12. [**Blepharisma Nuclear**] Blepharisma Nuclear code. (Genebank transl_table=15).
+13. [**Chlorophycean mtDNA**] Chlorophycean Mitochondrial Code (transl_table=16).
+14. [**Trematode mtDNA**] Trematode Mitochondrial Code (transl_table=21).
+15. [**Scenedesmus obliquus mtDNA**] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+16. [**Thraustochytrium mtDNA**] Thraustochytrium Mitochondrial Code (transl_table=23).
+17. [**Pterobranchia mtDNA**] Pterobranchia Mitochondrial Code (transl_table=24).
+18. [**SR1 and Gracilibacteria**] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+19. [**Pachysolen Nuclear**] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+>Please choose an option (or press q to cancel selection):
+
+>Select a coding sequence alignment file (`/usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/`) 
+
+>Please select a tree file for the data: (`/usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/`) 
+>Loaded a multiple sequence alignment with **8** sequences, **355** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/Passeriformes_selection/Passer_domesticus/aBSREL/Passer_domesticus.aln`
+
+
+####Choose the set of branches to test for selection
+
+1. [**All**] Include all branches in the analysis
+2. [**Internal**] Include all internal branches in the analysis
+3. [**Leaves**] Include all leaf branches in the analysis
+4. [**Unlabeled branches**] Set of 12 unlabeled branches
+5. [**fg**] Set fg with 1 branches
+
+>Please choose an option (or press q to cancel selection):
+
+### * Selected 1 branches for testing: `Passer_domesticus`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+* Log(L) = -3163.20, AIC-c =  6368.51 (21 estimated parameters)
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -3063.38, AIC-c =  6207.93 (40 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.28, and 95% of the weight in  0.00 - 15409315157.52
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|         Passer_domesticus         |   0.16   |    2     |    3.20 (21.93%)   |   -3060.18    |    6205.66    |     6205.66     |
+|         Passer_domesticus         |   0.16   |    3     |    4.14 (14.77%)   |   -3060.17    |    6209.76    |     6205.66     |
+|          Colius_striatus          |   0.11   |    2     |    0.80 (25.06%)   |   -3059.41    |    6208.23    |     6205.66     |
+|        Leptosomus_discolor        |   0.04   |    2     |    0.29 (20.27%)   |   -3060.18    |    6209.78    |     6205.66     |
+|             Tyto_alba             |   0.03   |    2     |    0.23 (27.80%)   |   -3060.18    |    6209.78    |     6205.66     |
+|              Node11               |   0.03   |    2     |    6.99 ( 4.88%)   |   -3059.76    |    6208.93    |     6205.66     |
+|               Node6               |   0.03   |    2     |    0.24 (26.11%)   |   -3060.18    |    6209.78    |     6205.66     |
+|     Haliaeetus_leucocephalus      |   0.01   |    2     |    0.46 (27.63%)   |   -3060.18    |    6209.79    |     6205.66     |
+|         Aquila_chrysaetos         |   0.01   |    2     |    0.59 (42.87%)   |   -3060.18    |    6209.78    |     6205.66     |
+|         Falco_peregrinus          |   0.00   |    2     |    0.50 (25.44%)   |   -3060.18    |    6209.78    |     6205.66     |
+|         Falco_tinnunculus         |   0.00   |    2     |    0.25 ( 0.00%)   |   -3060.18    |    6209.78    |     6205.66     |
+|               Node1               |   0.00   |    2     |    9.23 (51.49%)   |   -3060.19    |    6209.79    |     6205.66     |
+|               Node9               |   0.00   |    2     |    0.25 ( 0.00%)   |   -3060.18    |    6209.78    |     6205.66     |
+|               Node2               |   0.00   |    2     |    0.25 ( 5.70%)   |   -3060.18    |    6209.78    |     6205.66     |
+
+### Rate class analyses summary
+*  1 branches with **2** rate classes
+*  12 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -3060.01, AIC-c =  6205.31 (42 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|         Passer_domesticus         |     2    |    3.90 (17.54%)   |        3.38        |       0.06841      |
+|          Colius_striatus          |     1    |   0.20 (100.00%)   |    Not selected    |    for testing     |
+|        Leptosomus_discolor        |     1    |   0.27 (100.00%)   |    Not selected    |    for testing     |
+|             Tyto_alba             |     1    |   0.21 (100.00%)   |    Not selected    |    for testing     |
+|              Node11               |     1    |   0.83 (100.00%)   |    Not selected    |    for testing     |
+|               Node6               |     1    |   0.21 (100.00%)   |    Not selected    |    for testing     |
+|     Haliaeetus_leucocephalus      |     1    |   0.29 (100.00%)   |    Not selected    |    for testing     |
+|         Aquila_chrysaetos         |     1    |   0.54 (100.00%)   |    Not selected    |    for testing     |
+|         Falco_peregrinus          |     1    |   0.28 (100.00%)   |    Not selected    |    for testing     |
+|         Falco_tinnunculus         |     1    |   0.19 (100.00%)   |    Not selected    |    for testing     |
+|               Node1               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|               Node9               |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|               Node2               |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

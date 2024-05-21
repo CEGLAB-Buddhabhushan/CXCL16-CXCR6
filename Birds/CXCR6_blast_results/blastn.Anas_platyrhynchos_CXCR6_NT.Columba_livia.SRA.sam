@@ -1,0 +1,4 @@
+@HD	VN:1.2	SO:coordinate	GO:reference
+@SQ	SN:Query_1	LN:1038
+@PG	ID:0	VN:2.9.0+	CL:blastn -task blastn -evalue 0.05 -max_target_seqs 5000 -db SRR516967_8_9003408.fa -out /home/neo/bird_db1/buddha/CXCR6/blast_output_SRA/blastn.Anas_platyrhynchos_CXCR6_NT.Columba_livia.SRA.sam -num_threads 4 -outfmt 17 SQ -query /home/neo/bird_db1/buddha/CXCR6/query/Anas_platyrhynchos_CXCR6_NT.fa 	PN:blastn
+BL_ORD_ID:234580391	16	Query_1	840	255	28H61M36H	*	0	0	TTTCCACTGTTGCCTCAACCCGGTCATCTACTTCTTCATGGGGGAAAAATTTAAGAAGTAC	*	AS:i:57	EV:f:0.0237332	NM:i:0	PI:f:78.69	BS:f:52.6823

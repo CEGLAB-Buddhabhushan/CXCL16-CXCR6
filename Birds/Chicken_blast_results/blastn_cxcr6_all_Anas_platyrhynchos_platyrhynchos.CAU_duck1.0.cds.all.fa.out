@@ -1,0 +1,808 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Anas_platyrhynchos_platyrhynchos.CAU_duck1.0.cds.all.fa
+           27,833 sequences; 51,065,557 total letters
+
+
+
+Query= cxcr6_duck_ncbi_edited
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  1198    0.0  
+  ENSAPLT00000042667.1 cds primary_assembly:CAU_duck1.0:2:4516649...  51.8    1e-05
+  ENSAPLT00000001873.2 cds primary_assembly:CAU_duck1.0:7:3461546...  42.8    0.007
+
+
+
+Query_1  1    ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGATCCCAATGAA  60
+9488     1    ............................................................  60
+
+Query_1  61   AACGGAATTGAGAATTTTTACACATTTATAACTATCTTTCTGCCCTGTGTGTATTCGTTT  120
+9488     61   ............................................................  120
+9483     124                                                     .....T..G  132
+
+Query_1  121  GTTTTTATCTTTGGGCTAGCAGGAAATGCTCTGGTCTTTATCATACTGGTCTTCTATGAG  180
+9488     121  ............................................................  180
+9483     133  ..GG.A..A.....C..CA....C........TA..C.....---...A.AAAA..CA..  192
+                                        \    \                            
+                                        |    |                            
+                                       CA    G
+
+Query_1  181  AAACTGAAGACACTGACAGATATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTC  240
+9488     181  ............................................................  240
+9483     193  .G.T......GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..T  252
+
+Query_1  241  CTTTGGACGCTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG  300
+9488     241  ............................................................  300
+9483     253  A.A.TTT.T..T..C..T........C.A.....T...T..C...........         305
+
+Query_1  301  ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCGATGTTAACCCTA  360
+9488     301  ............................................................  360
+
+Query_1  361  ACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTGCCACCAAAGCACATATGAGT  420
+9488     361  ............................................................  420
+
+Query_1  421  CAAACCAAACGACTGAAATGGGGCAAATTAATCTGCGGCTTGATCTGGGTGATTTCAGTA  480
+9488     421  ............................................................  480
+
+Query_1  481  GCATTTGCCACACCACAGCTTATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGC  540
+9488     481  ............................................................  540
+
+Query_1  541  CTGGAAAAATACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT  600
+9488     541  ............................................................  600
+
+Query_1  601  GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTATTAAAACCTTA  660
+9488     601  ............................................................  660
+
+Query_1  661  CTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTaaaaaaaaTATTTTCTGTAGTGGCC  720
+9488     661  ...A...                                                       667
+
+Query_1  721  ATATTTATTCTTACTCAGTCACCCTACACTTTCTTGAGACTGATGAAGATCATCGACTGG  780
+
+Query_1  781  AGCTTCAACTTGGACAGCAACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTAT  840
+1293     814                                         ..T...........A..A.TC  834
+
+Query_1  841  TTCCACGGCTGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGA  895
+1293     835  .....TT....C..G..T..GA..C.C...GC....C....T.CC.......A..  889
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50789095330
+
+
+Query= cxcr6_anser_cygnoides
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  1072    0.0  
+
+
+
+Query_2  1    ATGACAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGATCCCAATGAA  60
+9488     1    ...G........................................................  60
+
+Query_2  61   AACGGAATTGAGAATTTTTACACATTTATAAGTATCTTTCTGCCCTGTATGTATTCGTTT  120
+9488     61   ...............................C................G...........  120
+
+Query_2  121  GTTTTTATCTTAGGGCTAGCAGGAAATGCTCTGGTCTTCATCATACTAGTCTTCTATGAG  180
+9488     121  ...........T..........................T........G............  180
+
+Query_2  181  AAACTGAAGACGCTGACAGATATATTTTTGTTGAACTTGGCTATAGCTGACTGGATCTTC  240
+9488     181  ...........A........................C.............T.........  240
+
+Query_2  241  CTTTGGACACTGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG  300
+9488     241  ........G..............C....................................  300
+
+Query_2  301  GCATGTCGTATTATACGGGGCCTGTACAATCTGAACTTGTACACTTCAATGTTAACTCTA  360
+9488     301  A.......A..C...................................G........C...  360
+
+Query_2  361  ACGTCTATTACCTTTGACAGACTTATTGCTATTACTTTTGCCACCAAAGCACATATGTGT  420
+9488     361  ........C...........G......T.............................A..  420
+
+Query_2  421  CAAACCAAACGAATGAAATGGGGCAAATTAATCTGCGGCTTGATCTGGGTGATTTCACTC  480
+9488     421  ............C............................................G.A  480
+
+Query_2  481  GCATTTGCCACACCACAGCTTATTTTTAGTGATGTATTTACTATTGATAAGGCAATATGC  540
+9488     481  ...................................G...............A........  540
+
+Query_2  541  CTGGAAAAATACCCAAACCACCACACAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT  600
+9488     541  ...............G.........T..................................  600
+
+Query_2  601  GGCTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTATTAAAACCTTA  660
+9488     601  ..T.........................................................  660
+
+Query_2  661  CTGCATG  667
+9488     661  ...A...  667
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50789095330
+
+
+Query= cxcr6_human
+
+Length=1029
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  78.8    9e-14
+  ENSAPLT00000000743.2 cds primary_assembly:CAU_duck1.0:25:559654...  55.4    1e-06
+  ENSAPLT00000035588.1 cds primary_assembly:CAU_duck1.0:PEDO01004...  55.4    1e-06
+  ENSAPLT00000026138.1 cds primary_assembly:CAU_duck1.0:28:377594...  51.8    1e-05
+  ENSAPLT00000010912.2 cds primary_assembly:CAU_duck1.0:3:4389378...  50.0    5e-05
+  ENSAPLT00000030163.1 cds primary_assembly:CAU_duck1.0:3:4389378...  50.0    5e-05
+
+
+
+Query_3  95   TCTTTCTGCCCTGCATGTACCTGGTGGTGTTTGTCTGTGGTCTGGTGGGGAACTCTCTGG  154
+9488     95   .............TG....TTC.T.T..T...A...T...G..A.CA..A..TG......  154
+
+Query_3  155  TGCTGGTCATATCCATCTTCTACCATAAGTTGCAGAGCCTGACGGATGTGTTCCTGGTGA  214
+9488     155  .CT.TA.....CTGG.......TG.G..AC..A...CA.....A...A.A..TT..T...  214
+17403    211                                                    ...G..C...  220
+
+Query_3  215  ACCTACCCCTGGCTGACCTGGTGTTTGTCTGCACTCTGCCCTTCTGGGCCTATGCAGGCA  274
+9488     215  ....GG.TA.A.....TTG.A.C..CC.T..G..G.....A............T.T.CTG  274
+17403    221  ....GG..G....C...G.C..C..C........C.............              268
+
+Query_3  275  TCCATGAATGGGTGTTTGGCCAGGTCATGTGCAAGAGCCTACTGGGCATCTACACTATTA  334
+9488     275  CT..G..G...A.T.......T..A.....CG.--.T.A...G....C.G....A.C.G.  334
+                                  \  \                                    
+                                  |  |                                    
+                                  A  T
+1897     336                                             ......T...G.CC.C.  352
+
+Query_3  335  ACTTCTACACGTCCATGCTCATCCTCACCTGCATCACTGTGGATCGTTTCATTGTAGTGG  394
+9488     335  ....G.....T..G...T.A.C...A..G.CT.....                         371
+1897     353  ........GG.GG.T.C...T...............GC........                398
+
+Query_3  395  TTAAGGCCACCAAGGCCTACAACCAGCAAGCCAAGAGGATGACCTGGGGCAAGGTCACCA  454
+
+Query_3  455  GCTTGCTCATCTGGGTGATATCCCTGCTGGTTTCCTTGCCCCAAATTATCTATGGCAATG  514
+
+Query_3  515  TCTTTAATCTCGACAAGCTCATATGTGGTTACCATGACGAGGCAATTTCCACTGTGGTTC  574
+
+Query_3  575  TTGCCACCCAGATGACACTGGGGTTCTTCTTGCCACTGCTCACCATGATTGTCTGCTATT  634
+
+Query_3  635  CAGTCATAATCAAAACACTGCTTCATGCTGGAGGCTTCCAGAAGCACAGATCTCTAAAGA  694
+
+Query_3  695  TCATCTTCCTGGTGATGGCTGTGTTCCTGCTGACCCAGATGCCCTTCAACCTCATGAAGT  754
+
+Query_3  755  TCATCCGCAGCACACACTGGGAATACTATGCCATGACCAGCTTTCACTACACCATCATGG  814
+19202    905                                                     .........  913
+
+Query_3  815  TGACAGAGGCCATCGCATACCTGAGGGCCTGCCTTAACCCTGTGCTCTATGCCTTTGTCA  874
+19202    914  .................C.....-----......C.....CA.C.....C.....CA..G  973
+                             \    \                                       
+                             |    |                                       
+                          GCTT    A
+5762     904                               .....G.................A...A.TG  934
+5761     904                               .....G.................A...A.TG  934
+
+Query_3  875  GCCTGAAGTTTCGAAAGAACTTCTGGAAACTTGTGAAGGAC  915
+19202    974  .GG.C.....C..T..CG......                   997
+5762     935  .AG........A...GTT....TGT...GA.AA........  975
+5761     935  .AG........A...GTT....TGT...GA.AA........  975
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50336519233
+
+
+Query= cxcr6_acanthisitha_chloris_duck_edited
+
+Length=1033
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  549     2e-155
+  ENSAPLT00000026917.1 cds primary_assembly:CAU_duck1.0:PEDO01006...  42.8    0.007 
+
+
+
+Query_4  1    ATGGCAAGTATAGATGCTGCTGTCTTTTAATAAACCTCTTCCATGACTAAGCCCAAGGAA  60
+9488     1    .......C.GC........T.AC......T.....T...C....---.G.T.....T...  60
+                                              \       \                   
+                                              |       |                   
+                                              T      AG
+
+Query_4  61   AACAGATGCAAGAATTTTCACATTTGCAAGACTCTTTGTGCCCTGTATTTATTTAGTTGT  120
+9488     61   ...G..ATTG...............AT..CTA.....C........G.G....CGT....  122
+                                \                                         
+                                |                                         
+                               TA
+
+Query_4  121  TTTCATCCTTGGCCTAGCAGGAAATACACTGATTTTTGTCATACTAGTTTTTTATGTGAA  180
+9488     123  ...T...T....G............G.T...G.C...A.......G..C..C....A...  182
+
+Query_4  181  ACTGAAGATACTGACAGACATCTTTTTGCTGAACTTGGCTATGGCTGAGTGGTTCTTCCT  240
+9488     183  ........C.........T..A......T.....C.......A.....T...A.......  242
+
+Query_4  241  TTGGATGCTGCCACTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTGAGGTATCATGGC  300
+9488     243  .....C.......T.......C......................T..TT..C.CTG..A.  302
+13784    432       ........-........C.................                      397
+                                      \                                   
+                                      |                                   
+                                     AG
+
+Query_4  301  ATGTCATATTATATGGGGCCCTTATACACTTCAATCTTAACTCTAATGTCTATCACCTTT  360
+9488     303  .....GA..C...C.........G........G..G.....C....C.............  375
+                                  \                                       
+                                  |                                       
+                      TGTACAATCTGAA
+
+Query_4  361  GACCACCTTATTGCCATTGCTTTTGCCACCAAATCACATGTGTCGAACCAAACCAATGAC  420
+9488     376  ...AGG......T.T...A..............G.....A....A........G.C...A  437
+                                                        \                 
+                                                        |                 
+                                                       AG
+
+Query_4  421  ATGGAGAAAATTTATCTGTGTCTCAGTGTGGGTGATCTCACTAGCATTTGCCACACCACA  480
+9488     438  ....G.C.....A.....C.G..TGA.C........T...G...................  497
+
+Query_4  481  GTTTATTTTTAGTGAGGTGTTTAGTATTTATAAGGCAGCATGCCAGAAAGAGTACCCAAA  540
+9488     498  .C.............T.......C....G.....A..AT.....T.G..A.A......G.  557
+
+Query_4  541  CCATTGAACAGACCTGGATCTTGAAGTGATCCAAGTGACCCTTGCTTATTTTATTCCCAT  600
+9488     558  ...CCAC.T...AT...T.........T..T.............G...C...........  617
+
+Query_4  601  CCTAGCCATGACCATCTGCTACTCACTAATTATTAGAACCTTCCTGCATG  650
+9488     618  G...A......T............C..........A......A...A...  667
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50537664165
+
+
+Query= cxcr6_Aptenodytes_forsteri
+
+Length=1035
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  825     0.0  
+
+
+
+Query_5  1    ATGGCAACTACAGATACTAACTTTTATTATAACTTCTCCATCACTGATCCCAACGAAAAC  60
+9488     1    .........G.....G...C..................AGC..T.........T......  63
+                                \                                         
+                                |                                         
+                              GTT
+
+Query_5  61   GAAAGTGAGAATTTTCACACATTTACAAGAGTCTTCCTGCCCTGTACGTACTTGGTTGTT  120
+9488     64   .G..T..........T.........T..CTA....T.........GT...T.C.T.....  123
+
+Query_5  121  TTCATCCTTGGGCTAGCAGGAAACGTGCTGGTCTTTGTCATATTAGTTTTCTATGAGAAA  180
+9488     124  ..T...T................T.CT.........A.....C.G..C............  183
+
+Query_5  181  CTGAAGACACTGACAGATATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTT  240
+9488     184  ...........................T.....C.............T...A........  243
+
+Query_5  241  TGGACGCTGCCATTCTGGGCATATTCTGCTGCTCAAGAGTGGACTTTTGGCACCGTGGCG  300
+9488     244  ....................C..............G.......T.........T...A.A  303
+
+Query_5  301  TGTCGTATTATACGGGGCTTGTATACTCTGAACTTGTACACCTCAATGTTAACTCTAACG  360
+9488     304  .....A..C.........C....C.A...............T..G........C......  363
+
+Query_5  361  TCTATCACCTTTGACCGGCTTATTGCTATTACTTTTGCCACCAAAGCACGTATGTGTCAA  420
+9488     364  ...............A........T........................A....A.....  423
+
+Query_5  421  ACCAAACGAATGACATGGGGCAAATTAATCTGTGTCTTGATCTGGGTGGTCTCACTAGCA  480
+9488     424  .........C...A..................C.G.............A.T...G.....  483
+
+Query_5  481  TTTGCCACGCCACAGTTTATTTTTAGTGAGGTGTTTAGTATTGATAAGGCAATATGTCAG  540
+9488     484  ........A......C.............T.......C..........A.......C.T.  543
+
+Query_5  541  GAAGAATACCCAAACCATCACACAGAACTGGTTCTTGAAGTGATCCGAGTGACCCTTGGC  600
+9488     544  ...A........G....C....T....T.............T..T.A............T  603
+
+Query_5  601  TATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCACTAATTATTAGAACCTTACTG  660
+9488     604  ..C...............A...................C..........A..........  663
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50638236631
+
+
+Query= cxcr6_chlamydotis_macqueenii
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  791     0.0  
+  ENSAPLT00000001951.2 cds primary_assembly:CAU_duck1.0:2:4523656...  44.6    0.002
+
+
+
+Query_6  1    ATGGCAACTATACATGCTGCTGACTTTTATAATAACTTCTCCATCATCAATCCCAACGAC  60
+9488     1    .........GC.G......T.AC.......T..........AGC...TG.......T..A  60
+
+Query_6  61   AATGGAAGTGAGAATTTTCACACATTTATAAGAGTCTTCCTGCCCTGTATGTATTCGGTT  120
+9488     61   ..C....T..........T............CTA....T.........G........T..  120
+
+Query_6  121  GTTTTCATCCTTGGGCTAGCAGGAAATGCACTGGTCTTTGTCATACTAGTTTTCTATGAG  180
+9488     121  .....T...T...................T.........A.......G..C.........  180
+
+Query_6  181  AAACTGAAGATGTTGACAGATATATTTTTGCTGAACTTGGCTATAGCCGACTGGGTCTTC  240
+9488     181  ..........CAC.................T.....C..........T..T...A.....  240
+
+Query_6  241  GTTTGGACGCTGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTCTGGCATTGTG  300
+9488     241  C......................C......................T..T.....C....  300
+
+Query_6  301  GCGTGTCGTATTATACGGGGCTTTACACTCTAAACTTGTACACTTCAATGTTAACGCTAA  360
+9488     301  A.A.....A..C.........C.....A...G..............G........C....  361
+                                     \                                    
+                                     |                                    
+                                     G
+
+Query_6  361  CGTCTATCACCTTTGATCGGCTTATTGCTATTACTTTTGCCACCAAAGCACATATGTGTC  420
+9488     362  ................CA........T.............................A...  421
+
+Query_6  421  AAACCAAACGAATGACATGGGGCAAATTAATTTGTGTCTTGATCTGGGTGATCTCACTAG  480
+9488     422  ...........C...A...............C..C.G...............T...G...  481
+
+Query_6  481  CATTTGCCGCACCACAGTTTATTTTTAGTCACGTGTTTACTATTGATAAGACAGTGTGTC  540
+9488     482  ........A........C...........G.T.....................A.A..C.  541
+
+Query_6  541  ACGAAGAATACCCAAACTATCGCACAGAACTGATTCTTGAAGCAATCCAATTGACCCTTG  600
+9488     542  TG...A........G..C.C.A..T....T..G.........TT..T...G.........  601
+
+Query_6  601  GCTATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCACTAATTATTAGAACCTTAC  660
+9488     602  .T..C...............A...................C..........A........  661
+
+Query_6  661  TGCACACCAGGAGTTTTCAAAAGAACAAACCCCTaaaaaaaaaTATTTTCTGTAGTTGCC  720
+9488     662  ..                                                            663
+
+Query_6  721  GTATTTATTCTTACTCAATCACCTTATACTTTCTTGAGACTGGTAAAGATCATAGACTGG  780
+
+Query_6  781  AGCTTTATCTTGAACAGCCGCTTTGAATATGCAATCATTGTAACAGAAGCTCTGGCTTAT  840
+
+Query_6  841  TTCCATGGCTGTCTTAACCCTGTTCTGTATTTCTTTGTGGGTGTGAAATTCAAGAG  896
+9492     857         ....C..C........G..T...G.A..C..T..A..C...........  905
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50789095330
+
+
+Query= cxcr6_colius_striatus
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  722     0.0  
+
+
+
+Query_7  1    ATGGCAACGACAGACGCAGATAACTTTTATTATAACTTCTCCATCGTTGATCCAGACGAA  60
+9488     1    ........TG....T..T.T..C..................AGC.A.......CA.T...  60
+
+Query_7  61   AATGGAAGTGAGAATTTTCACACGTTTACAAGAGTCTTCCTGCCCTGTACCTACTCGGTT  120
+9488     61   ..C....T..........T....A....T..CTA....T.........GTG..T...T..  120
+
+Query_7  121  GTTTTCATCCTGGGGCTAGCAGGAAACACACTGGTCTTTGTCATACTGGTTTTCTATGAG  180
+9488     121  .....T...T.T..............TG.T.........A..........C.........  180
+
+Query_7  181  AAGCTGAAGATGCTGACAGATATATTTTTGCTGAACTTGGCTGTAGCTGACTGGGTCTTC  240
+9488     181  ..A.......CA..................T.....C.....A.......T...A.....  240
+
+Query_7  241  CTTTGGACGCTGCCATTCTGGGCGCATTCGGCCGCTCAGGAGTGGGCTTTCGGCACGGTG  300
+9488     241  .......................CT....T..T............AT...T.....T...  300
+
+Query_7  301  GCGTGTCGTGTCATACGGGGCTTGTATACGCTGAACTTGTACACTTCCATGTTAACCCTG  360
+9488     301  A.A.....AA...........C....C.AT.................G...........A  360
+
+Query_7  361  ACATCTATCACCTTTGACAGGCTTGTTGCTATTACTTTTGCCACCAAAGCACACATGTGT  420
+9488     361  ..G.....................A..T.........................T...A..  420
+
+Query_7  421  CAAACCAAACGAACGACGTGGGGCAAGGCAGTGTGTGTCTTGATCTGGGTGATCTCACTA  480
+9488     421  ............CT..AA........ATT.A.C..C.G...............T...G..  480
+
+Query_7  481  GGCTTTGCCACACCACAGTTTATTTTTAGTGAGGTGGTTAGCATTGATAAGGCGATATGT  540
+9488     481  .CA...............C.............T...T...CT.........A.A.....C  540
+
+Query_7  541  CACGAAAAATACCCAAACCACGGCACAGAACTGGTTCTTGAAGTGATCCAAGTGACACTT  600
+9488     541  .TG............G.....CA..T....T.............T..T........C...  600
+
+Query_7  601  GGCTATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCACTAATTGTTAGAACCTTA  660
+9488     601  ..T..C...............A...................C......A...A.......  660
+
+Query_7  661  CTG  663
+9488     661  ...  663
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50789095330
+
+
+Query= cxcr6_corythaeola_cristata
+
+Length=1035
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  796     0.0  
+
+
+
+Query_8  1    ATGGCAACTACAGATGCTAACTTTTACTATAACTTCTCCATCATTGGTCCTAACGAAAAT  60
+9488     1    .........G.........C......T...........AGC.....A...C..T.....C  63
+                                \                                         
+                                |                                         
+                              GTT
+
+Query_8  61   GGAAGCGAGAATTTTCACGCATTTACAAGAGTCTTCCTGCCCTGCATGTACTCGGTTGTT  120
+9488     64   ....TT.........T..A......T..CTA....T........TG....T...T.....  123
+
+Query_8  121  TTCATCCTTGGGCTAGCAGGAAATGCGCTGGTCTTTGTCATACTAGTTTTCTATGAGAAA  180
+9488     124  ..T...T...................T.........A.......G..C............  183
+
+Query_8  181  CTGAAGACGCTGACAGATATATTTTTGCTGAACTTGGCCATAGCTGACTGGGTCTTCCTT  240
+9488     184  ........A..................T.....C....T........T...A........  243
+
+Query_8  241  TGGACGCTGCCATTCTGGGCATATTCTGCTACTCAGGAGTGGACTTTCGGCACTGCAGCG  300
+9488     244  ....................C.........G............T...T.......TGA.A  303
+
+Query_8  301  TGTTGTATTATACGGGGCTTGTATACTCTGAACTTGTATACTTCAATGTTAACCCTAACG  360
+9488     304  ...C.A..C.........C....C.A............C.....G...............  363
+
+Query_8  361  ACTATCACCTTTGACCGCCTTATTGCTATTACTTTTGCCACCAAAGCGCGTATGTGTCAA  420
+9488     364  T..............A.G......T......................A.A....A.....  423
+
+Query_8  421  ACCAAACGAATGACACGGGGCAGATTAATCTGTGTCTTGATCTGGGTGATCTCACTAGCA  480
+9488     424  .........C...A.T......A.........C.G...............T...G.....  483
+
+Query_8  481  TTTGCTGCACCACAGTTTATTTTTAGTGAGGTGTTTAGTATTGATAAGGCAATATGTCAG  540
+9488     484  .....CA........C.............T.......C..........A.......C.T.  543
+
+Query_8  541  GAAGAATACCCAAACCATCACACAGAACTGGTTCTTGAAGTGATCCAAGTGACCCTTGGC  600
+9488     544  ...A........G....C....T....T.............T..T..............T  603
+
+Query_8  601  TATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCGCTAATTATTAGAACCTTACTG  660
+9488     604  ..C...............A...................C..........A..........  663
+
+Query_8  661  CATG  664
+9488     664  A...  667
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50638236631
+
+
+Query= cxcr6_dromaius_novaehollaniae
+
+Length=1035
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  791     0.0  
+  ENSAPLT00000008323.2 cds primary_assembly:CAU_duck1.0:28:280319...  55.4    1e-06
+  ENSAPLT00000001951.2 cds primary_assembly:CAU_duck1.0:2:4523656...  50.0    5e-05
+  ENSAPLT00000001191.2 cds primary_assembly:CAU_duck1.0:2:6484494...  46.4    6e-04
+
+
+
+Query_9  1     ATGACAACTACAGATGCTGATAACTTTTATAACTTCTCAGACATTGATCCCAATGAAACT  60
+9488     1     ...G.....G.........T..C.................C.................AC  63
+                                             \                             
+                                             |                             
+                                           TAT
+
+Query_9  61    GGAAGTGACAACTTTTACACATTTACAAGAATCTTTCTGCCCTGTATGTATTCATGCGTT  120
+9488     64    ....T...G..T.............T..CT...............G.......G.TT...  123
+
+Query_9  121   TTTATCTTTGGGCTAGCAGGAAATACTTTGGTCTTTATCATACTAGTATTCTATGAGAAA  180
+9488     124   ........................G..C................G..C............  183
+
+Query_9  181   CTGAAGACACTGACAGATGTATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTTCTT  240
+9488     184   ..................A........T.....C.............T...A....C...  243
+
+Query_9  241   TGGACCCTGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACTGCGGCA  300
+9488     244   .....G..............C......................T...........T.A..  303
+
+Query_9  301   TGTCGTATTATCCGGGGCTTGTATACTCTGAATGTGTACACGTCAATGTTAACTCTAACC  360
+9488     304   .....A..C..A......C....C.A......CT.......T..G........C.....G  363
+
+Query_9  361   TGTATAACCTTCGATCGGCTTATTGCTATTACTTTTGCCACCACAGCACACAGGTGTCAA  420
+9488     364   .C...C.....T..CA........T..................A......T.T.A.....  423
+
+Query_9  421   AGCAAACGAATGACATGGGGCAAATTAATCTGCATCTTGATCTGGGTGATTTCACTAGCC  480
+9488     424   .C.......C...A...................GG...................G....A  483
+
+Query_9  481   TTTGCCACACCACAGTTTATTTTTAGTGAGGCATTTCGTATTGATAAGGCAATATGTCAG  540
+9488     484   ...............C.............T.TG...AC..........A.......C.T.  543
+
+Query_9  541   GAAAAATACCCAAACCATCGCACAGAATTTGTTCTTGAGGTAATCCAAGTGGTCCTTGGC  600
+9488     544   ............G....C.A..T......G........A..T..T......AC......T  603
+20165    669                                               ....A.....T.....  684
+
+Query_9  601   TATTTTATCCCCATGCTAACCATGACCATCTGCTACTCACTAATCATTAAAACATTACTG  660
+9488     604   ..C.....T................T............C.....T........C......  663
+20165    685   .TC..AT.T...C..G.GGT....T.TG...........-.C..T..C...........C  744
+                                                   \                       
+                                                   |                       
+                                                   C
+
+Query_9  661   CATGCCAGGAGTTTTCAGAAGCACAAATCTCTGAAAACAATATTTTCTGTAGTTGCCACA  720
+9488     664   A...                                                          667
+20165    745   ..G...C.C.AC...G.....A.....                                   771
+
+Query_9  721   TTCATTCTTACTCAGTCACCCTATACTTTCTTGAGACTGATAAAGATCACAGAGTGGAGC  780
+
+Query_9  781   TTTAACTTGAACCGCAACTTTGAATATGCAATCGTCATAACAGAAGCTTTTGCTTATTTC  840
+23661    1066                       ..C......T..CAG.....G...A...CG..C.T....  1105
+                                                             \             
+                                                             |             
+                                                             T
+
+Query_9  841   CATGCCTGCCTCAACCCTGTCCTGTATTTCTTCATTGGGGTGAAATTCAGGAAG  894
+9492     858        ...............G..T...G.A...G....A..C.......A..    904
+23661    1106  AC..T-...........A...A.C......C....G..A.AA.....T.A....  1158
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50638236631
+
+
+Query= cxcr6_eurypyga_helias
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  758     0.0  
+
+
+
+Query_10  1    ATGGCAACTACAGATGCTTTTAACTTTTATTATAACTTCTCCATCATTGATCCCAACGAA  60
+9488      1    .........G........G...C..................AGC............T...  60
+
+Query_10  61   AATGGAAGTGAGAATTTTCACACATTTACAAGAGTCTTCCTGCCCTGTATGTACTCGGTT  120
+9488      61   ..C....T..........T.........T..CTA....T.........G....T...T..  120
+
+Query_10  121  GTTTTCATCCTTGGGCTAGCAGGAAACACACTGGTCTTTGTCATACTAGTTTTCTATGAG  180
+9488      121  .....T...T................TG.T.........A.......G..C.........  180
+
+Query_10  181  AAACTGAAGGTGCTGACAGATGTATTTTTGGTGAACTTGGCTGTAGCTGACTGGGTCTTC  240
+9488      181  .........ACA.........A........T.....C.....A.......T...A.....  240
+
+Query_10  241  CTTTGGACGCTGCCGTTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACCGTG  300
+9488      241  ..............A........C......................T.........T...  300
+
+Query_10  301  ACCTGCCGTATTATACGGGGCTTATATACTCTCAACTTGTACACTTCCATGTTAACTCTA  360
+9488      301  ..A..T..A..C.........C.G..C.A...G..............G........C...  360
+
+Query_10  361  ACGTCTATCACATTTGATCGGCTGATTGCTATTACTTTTGCCACCAAAGCACGTATGTGT  420
+9488      361  ...........C.....CA....T...T........................A....A..  420
+
+Query_10  421  CAAACCAAACGAATGACATGCGGCAAGTTAGTCTGTGTCTTGATCTGGGTGATCTCACTA  480
+9488      421  ............C...A...G.....A...A....C.G...............T...G..  480
+
+Query_10  481  GCATTTGCTTCACCGCAGTTTATTTTTAGTGAGGTGCTAAGTATTGATAAGGCAATATGT  540
+9488      481  ........CA....A...C.............T...T.T.C..........A.......C  540
+
+Query_10  541  CAAGAGGAGTACCCAAACCATCACGCAGAACAGGTTCTTGAAGTGATCCAAGTGAACCTT  600
+9488      541  .TG..AA.A......G....C...AT....TT............T..T.......C....  600
+
+Query_10  601  GGCTATTTCATTCCCATGCTTGCCATGATCATCTGCTACTCGCTAATTATTAGAACCTTA  660
+9488      601  ..T..C..T...........AA...................C..........A.......  660
+
+Query_10  661  CTG  663
+9488      661  ...  663
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50789095330
+
+
+Query= cxcr6_leptosomus_discolor
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  818     0.0  
+
+
+
+Query_11  1    ATGGCAACTTCAGATGCCACTAACTTTTATTATAACTTCTCCATCATTGATCCCAACGAA  60
+9488      1    .........G.......TGT..C..................AGC............T...  60
+
+Query_11  61   AACAGAAGCGACAATTTTCACACATTTACAAAAGTCTTCCTGCCCTGTATGTATTTGACT  120
+9488      61   ...G...TT..G......T.........T..CTA....T.........G......C.TT.  120
+
+Query_11  121  GTTTTCATCCTTGGGCTAGCAGGAAATGCGCTGGTCTTTGTCATACTAGTTTTCTACGAG  180
+9488      121  .....T...T...................T.........A.......G..C.....T...  180
+
+Query_11  181  AAACTGAAGATGCTGACAGATATATTTTTGCTGAACTTGGCTACAGCTGACTGGGTCTTC  240
+9488      181  ..........CA..................T.....C......T......T...A.....  240
+
+Query_11  241  CTTTGGACACTTCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACTGTG  300
+9488      241  ........G..G...........C......................T.............  300
+
+Query_11  301  GCATGTCGTATTATACGGGGCTTGTATACTCTAAACTTGTACACTTCAATGTTAACTCTA  360
+9488      301  A.......A..C.........C....C.A...G..............G........C...  360
+
+Query_11  361  ACGTCTATCACCTTTGACCGGCTTATTGCTATTACTTTTGCCACCAAAGCACGTATGTGT  420
+9488      361  ..................A........T........................A....A..  420
+
+Query_11  421  CAAACCAAACGAATGACATGGGGCAAATTAATCTGTGTCTTGATCTGGGTGATCTCACTA  480
+9488      421  ............C...A..................C.G...............T...G..  480
+
+Query_11  481  GCATTTGCTGCACCACAGTTTATTTTTAGTGAGGTGTTCAGTATTGATAAGGCAATATGT  540
+9488      481  ........CA........C.............T.....T.C..........A.......C  540
+
+Query_11  541  GAGGAAGAATACCCAAGCCATCGCACAGAACTGGTTCTTGAGGTGATTCAAGTGACCCTT  600
+9488      541  CT....A........GA...C.A..T....T..........A..T...............  600
+
+Query_11  601  GGCTATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCACTAATTATTAGAACCTTA  660
+9488      601  ..T..C...............A...................C..........A.......  660
+
+Query_11  661  CTG  663
+9488      661  ...  663
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50789095330
+
+
+Query= cxcr6_malurus_cyaneus_samueli
+
+Length=1003
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  ENSAPLT00000001961.2 cds primary_assembly:CAU_duck1.0:2:4518340...  477     1e-133
+
+
+
+Query_12  1    ATGGCAACTACAGATACTGCTAACTTTTATTACAAATTCTCCATCACTGATCCCAATGGA  60
+9488      1    .........G.....G...T..C.........T..C.....AGC..T...........A.  60
+
+Query_12  61   AACAGAAATGAGAATTTTCATATTTATAAGAGTCCCTCTGCCCTGCATGTAGTCAGTTAT  120
+9488      61   ...G...T............C........CTA..TT.........TG....T..GT..G.  122
+                                 \                                         
+                                 |                                         
+                                TA
+
+Query_12  121  TTTCATCCTTGGTCTAGCAGGAAATGTACTGGTCTTTGTCATAATAGTTTTCTACCTGAA  180
+9488      123  ...T...T....G.............CT.........A.....C.G..C.....TGA...  182
+
+Query_12  181  ACTTAAGATACTGATAGAAATAATCTTGCTGAACCTGTCTATAGCTGACTGGGTTTTCCT  240
+9488      183  ...G....C.....C...T...T.T...T........G..........T...A.C.....  242
+
+Query_12  241  CTGGATGCTGCCTCTCCTGGCATCATCTGTTGCTCAGAAGTAGACTTCAGGCTCTGTAGC  300
+9488      243  T....C......AT..TG...C.AT....C.......G...G..T..TT...A....GA.  302
+
+Query_12  301  ATGTCATATTATGGGGCTTGCATACACTTCAATGTAAGTCTTATGTCTATCACCTTTGAC  360
+9488      303  .......CA..C.....C..T.........G......CC..A.C................  378
+                    \                \           \                         
+                    |                |           |                         
+                   GA    CAATCTGAACTTG           T
+
+Query_12  361  CAGCTTACTGCTGTTACTTTTGTCACCAAGACACATGTGTCTAACCAAATGAATGACATG  420
+9488      379  AG.....T.T..A.........C......C...T...A...A.......C..C...A...  440
+                                            \                              
+                                            |                              
+                                           AG
+
+Query_12  421  GGGCAAATTAATCTCTACCTCGTTGATCTTATTAGCATTTGCTGCACCTCACTTTGTTTT  480
+9488      441  .................T..G.G....T.C.G..........CA....A..GC..A....  506
+                             \ \                                           
+                             | |                                           
+                          GCGG TG
+
+Query_12  481  TAGCAAGGTGTTTAGTTTTGATAAGGCAATATGTCAGGAAAAATACCCAAACCATGGCAC  540
+9488      507  ...TG.T.......C.A........A.......C.T.............G....CCA..T  566
+
+Query_12  541  AGAACTTGAAGTGAGTGATCTGAGTGACCCTTGTTTATTTTATTCCCATGCTAGCCATGA  600
+9488      567  ............T.T.C.----...........G...C...............A......  628
+                   \                                                       
+                   |                                                       
+               TTGGTT
+
+Query_12  601  TCATCTGCTACTCACTAATCATTGGAACCTTACTGCATGCTAGAAA  646
+9488      629  .............C.....T...AA..........A...--.....  672
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 49029077175
+
+
+  Database: Anas_platyrhynchos_platyrhynchos.CAU_duck1.0.cds.all.fa
+    Posted date:  Jun 20, 2022  4:04 PM
+  Number of letters in database: 51,065,557
+  Number of sequences in database:  27,833
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

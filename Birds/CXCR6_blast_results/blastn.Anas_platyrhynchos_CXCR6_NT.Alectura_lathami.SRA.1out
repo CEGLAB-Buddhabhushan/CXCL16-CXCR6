@@ -1,0 +1,153 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: SRR10019965_66_68.fa
+           401,176,395 sequences; 39,414,038,629 total letters
+
+
+
+Query= Anas_platyrhynchos
+
+Length=1038
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR10019966.30846267 FCC3J50ACXX:1:2113:5074:70434/1                  106        3e-19
+SRR10019966.30846267 FCC3J50ACXX:1:2113:5074:70434/2                  65.3       1e-06
+SRR10019968.9895926 FCC3JMNACXX:5:1205:9525:93840/1                   55.4       5e-04
+SRR10019966.41382443 FCC3J50ACXX:1:2302:9864:60812/2                  55.4       5e-04
+SRR10019968.11225671 FCC3JMNACXX:5:1208:15111:74923/1                 52.7       0.006
+SRR10019968.41336260 FCC3JMNACXX:5:2302:14796:54875/1                 51.8       0.006
+SRR10019968.35108892 FCC3JMNACXX:5:2207:4850:23171/1                  51.8       0.006
+SRR10019966.45451105 FCC3J50ACXX:1:2310:8607:94967/2                  51.8       0.006
+SRR10019966.47902575 FCC3J50ACXX:1:2315:12328:49768/1                 51.8       0.006
+SRR10019968.21076847 FCC3JMNACXX:5:1312:20599:28917/2                 50.9       0.023
+SRR10019968.40093411 FCC3JMNACXX:5:2216:17808:13407/1                 50.9       0.023
+SRR10019968.33872956 FCC3JMNACXX:5:2204:11951:82480/1                 50.9       0.023
+SRR10019968.6765560 FCC3JMNACXX:5:1115:16301:12861/1                  50.9       0.023
+SRR10019966.48406318 FCC3J50ACXX:1:2316:11744:41795/2                 50.9       0.023
+SRR10019966.44934024 FCC3J50ACXX:1:2309:19212:94937/2                 50.9       0.023
+SRR10019966.39105450 FCC3J50ACXX:1:2214:17403:24167/2                 50.9       0.023
+SRR10019966.36318892 FCC3J50ACXX:1:2208:1601:91668/2                  50.9       0.023
+SRR10019966.22088307 FCC3J50ACXX:1:1312:9047:62796/2                  50.9       0.023
+SRR10019966.20016023 FCC3J50ACXX:1:1308:17268:67488/2                 50.9       0.023
+SRR10019966.42792310 FCC3J50ACXX:1:2305:20132:57749/1                 50.9       0.023
+SRR10019966.18182514 FCC3J50ACXX:1:1304:14262:88710/1                 50.9       0.023
+
+
+
+Query_1    11   CAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGATCCCAATGAAAACGGAATTG  70
+285137641  75   .....A...C..A................A.CAT..C.......T........A...A..  134
+
+Query_1    71   AGAATTTTTACACATTTATAACTATCTTTCTGCCCTGTGTGTATTCGTTTGTTTTTATCT  130
+285137641  135  GA......                                                      142
+
+Query_1    131  TTGGGCTAGCAGGAAATGCTCTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGA  190
+344350488  143                                ....C.....AAAA..CA...G........  114
+338123120  14                                 ....C.....AAAA..CA...G........  43
+299742479  147                                ....C.....AAAA..CA...G........  118
+253471095  137                                ....C.....AAAA..CA...G........  108
+373172158  149                                                  ...G........  138
+343107639  3                                                    ...G........  14
+336887184  136                                                  ...G........  125
+309779788  133                                                  ...G........  122
+299225398  141                                                  ...G........  130
+293396824  11                                                   ...G........  22
+290610266  18                                                   ...G........  29
+276379681  3                                                    ...G........  14
+274307397  8                                                    ...G........  19
+248360830  122                                                  ...G........  111
+223751034  12                                                   ...G........  23
+
+Query_1    191  CACTGACAGATATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC  250
+344350488  113  GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TA.A.TTT.T.  54
+338123120  44   GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TA.A.TTT.T.  103
+299742479  117  GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TG.A.TTT.T.  58
+253471095  107  GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TA.A.TTT.T.  48
+373172158  137  GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TA.A.TTT.T.  78
+343107639  15   GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TA.A.TTT.T.  74
+336887184  124  GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TA.A.TTT.T.  65
+309779788  121  GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TA.A.TTT.T.  62
+299225398  129  GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TG.A.TTT.T.  70
+293396824  23   GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TG.A.TTT.T.  82
+290610266  30   GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TG.A.TTT.T.  89
+276379681  15   GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TG.A.TTT.T.  74
+274307397  20   GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TA.A.TTT.T.  79
+248360830  110  GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TA.A.TTT.T.  51
+223751034  24   GTA....T..C..C.ACC..C.C..T.....A..TT......T.C.G..TG.A.TTT.T.  83
+
+Query_1    251  TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTGACATGTCGAA  310
+236414787  150        .......AA.C...................C..CA....G....-..CA..AT.  98
+344350488  53   .T..T..T.....T....A...C.T...C..C...........                   11
+338123120  104  .T..T..T.....T....A...C.T...C..C...........                   146
+299742479  57   .T..T..T.....T....A...C.T...C..C...........                   15
+253471095  47   .T..T..T.....T....A...C.T...C..C...........                   5
+373172158  77   .T..T..T.....T....A...C.T...C..C...........                   35
+343107639  75   .T..T..T.....T....A...C.T...C..C...........                   117
+336887184  64   .T..T..T.....T....A...C.T...C..C...........                   22
+309779788  61   .T..T..T.....T....A...C.T...C..C...........                   19
+299225398  69   .T..T..T.....T....A...C.T...C..C...........                   27
+293396824  83   .T..T..T.....T....A...C.T...C..C...........                   125
+290610266  90   .T..T..T.....T....A...C.T...C..C...........                   132
+276379681  75   .T..T..T.....T....A...C.T...C..C...........                   117
+274307397  80   .T..T..T.....T....A...C.T...C..C...........                   122
+248360830  50   .T..T..T.....T....A...C.T...C..C...........                   8
+223751034  84   .T..T..T.....T....A...C.T...C..C...........                   126
+
+Query_1    311  TCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAATGTTAACTCTAACGTCTATCA  370
+236414787  97   .T...T.....T....-------------........T........A.CTT-........  52
+
+Query_1    371  CCTTTGACAGGCTTATTTCTATTACTTTTGCCACCAAAGCACATATGAGTCAAACCAAAC  430
+236414787  51   ........CA.......G..G...G...............G...G..               5
+
+Query_1    431  GACTGAAATGGGGCAAATTAATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCA  490
+
+Query_1    491  CACCACAGCTTATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT  550
+
+Query_1    551  ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTTGGTTACTTTA  610
+
+Query_1    611  TTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTATTAAAACCTTACTGCATGCCA  670
+
+Query_1    671  GGAACTTCCAAAAGAACAAATCTCTaaaaaaaaTATTTTCTGTAGTGGCCATATTTATTC  730
+
+Query_1    731  TTACTCAGTCACCCTACACTTTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACT  790
+
+Query_1    791  TGGACAGCAACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT  850
+312910154  31                                 ....T...A....C.GCCT.......T.T.  60
+295673817  124                                ....T...A....C.GCCT.......T.T.  95
+314239899  9                                                     .......T.T.  19
+302697692  90                                 ....T...A....C.GCCT.....C.T.T.  61
+
+Query_1    851  GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC  900
+312910154  61   .C..C..T..A..C..C................AA.....T.A....T..  110
+295673817  94   .C..C..T..A..C..C................AA.....T.A....T..  45
+314239899  20   .C..C..T..A..C..C................AA.....T.A....T..  69
+302697692  60   .C..C..T..A..C..C................AA.....T.A....T..  11
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 25021631785818
+
+
+  Database: SRR10019965_66_68.fa
+    Posted date:  Feb 11, 2022  9:59 PM
+  Number of letters in database: 39,414,038,629
+  Number of sequences in database:  401,176,395
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

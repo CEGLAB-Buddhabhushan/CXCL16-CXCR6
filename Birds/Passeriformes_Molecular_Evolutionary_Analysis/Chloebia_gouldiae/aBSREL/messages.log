@@ -1,0 +1,857 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'mcQMHPDM.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'uPwSRukg.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'pjrP_UhY.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'XOySsfTk.model_pi' was not initialized prior to being used
+Model XOySsfTk.model assigned to Leptosomus_discolor
+Model XOySsfTk.model assigned to Colius_striatus
+Model XOySsfTk.model assigned to Node2
+Model XOySsfTk.model assigned to Tyto_alba
+Model XOySsfTk.model assigned to Node1
+Model XOySsfTk.model assigned to Haliaeetus_leucocephalus
+Model XOySsfTk.model assigned to Aquila_chrysaetos
+Model XOySsfTk.model assigned to Node6
+Model XOySsfTk.model assigned to Chloebia_gouldiae
+Model XOySsfTk.model assigned to Falco_peregrinus
+Model XOySsfTk.model assigned to Falco_tinnunculus
+Model XOySsfTk.model assigned to Node11
+Model XOySsfTk.model assigned to Node9
+The tips of the tree:XOySsfTk.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 989 vs 1707 for 1..k=> a 1.72599 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'XOySsfTk.tree_0.Leptosomus_discolor.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Leptosomus_discolor.t=180.0265977713919
+Variable 'XOySsfTk.tree_0.Colius_striatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Colius_striatus.t=180.0265977713919
+Variable 'XOySsfTk.tree_0.Node2.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Node2.t=7.018364698655555
+Variable 'XOySsfTk.tree_0.Tyto_alba.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Tyto_alba.t=184.7813386233892
+Variable 'XOySsfTk.tree_0.Node1.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Node1.t=5.291011794191482
+Variable 'XOySsfTk.tree_0.Haliaeetus_leucocephalus.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Haliaeetus_leucocephalus.t=77.75076484297946
+Variable 'XOySsfTk.tree_0.Aquila_chrysaetos.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Aquila_chrysaetos.t=77.75076484297946
+Variable 'XOySsfTk.tree_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Node6.t=114.5852094212595
+Variable 'XOySsfTk.tree_0.Chloebia_gouldiae.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Chloebia_gouldiae.t=180.3956835023622
+Variable 'XOySsfTk.tree_0.Falco_peregrinus.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Falco_peregrinus.t=19.01218968925292
+Variable 'XOySsfTk.tree_0.Falco_tinnunculus.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Falco_tinnunculus.t=19.01218968925292
+Variable 'XOySsfTk.tree_0.Node11.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Node11.t=161.3834938131093
+Variable 'XOySsfTk.tree_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: XOySsfTk.tree_0.Node9.t=11.94029076187675
+Variable 'XOySsfTk.XOySsfTk.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 3597-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+XOySsfTk.model.theta_GT = 0.25
+XOySsfTk.model.theta_CT = 1
+XOySsfTk.model.theta_AC = 0.25
+XOySsfTk.model.theta_CG = 0.25
+XOySsfTk.model.theta_AT = 0.25
+XOySsfTk.tree_0.Leptosomus_discolor.t = 180.027
+XOySsfTk.tree_0.Colius_striatus.t = 180.027
+XOySsfTk.tree_0.Node2.t = 7.01836
+XOySsfTk.tree_0.Tyto_alba.t = 184.781
+XOySsfTk.tree_0.Node1.t = 5.29101
+XOySsfTk.tree_0.Haliaeetus_leucocephalus.t = 77.7508
+XOySsfTk.tree_0.Aquila_chrysaetos.t = 77.7508
+XOySsfTk.tree_0.Node6.t = 114.585
+XOySsfTk.tree_0.Chloebia_gouldiae.t = 180.396
+XOySsfTk.tree_0.Falco_peregrinus.t = 19.0122
+XOySsfTk.tree_0.Falco_tinnunculus.t = 19.0122
+XOySsfTk.tree_0.Node11.t = 161.383
+XOySsfTk.tree_0.Node9.t = 11.9403
+Optimization finished in 27 loop passes.
+1714 likelihood evaluation calls and 9233 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'XOySsfTk.option' was not initialized prior to being used
+Variable 'absrel.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'OgUuapsq.initial_value' was not initialized prior to being used
+Variable 'wfNtGxUX.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 3067-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.346677
+frequencies._aux.CF3x4.p0_1 = 0.262353
+frequencies._aux.CF3x4.p0_2 = 0.489996
+frequencies._aux.CF3x4.p1_0 = 0.25749
+frequencies._aux.CF3x4.p1_1 = 0.307826
+frequencies._aux.CF3x4.p1_2 = 0.273869
+frequencies._aux.CF3x4.p2_0 = 0.255079
+frequencies._aux.CF3x4.p2_1 = 0.315613
+frequencies._aux.CF3x4.p2_2 = 0.396319
+Optimization finished in 4 loop passes.
+167 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'wfNtGxUX.model_MGREV_pi' was not initialized prior to being used
+Model wfNtGxUX.model_MGREV assigned to Leptosomus_discolor
+Model wfNtGxUX.model_MGREV assigned to Colius_striatus
+Model wfNtGxUX.model_MGREV assigned to Node2
+Model wfNtGxUX.model_MGREV assigned to Tyto_alba
+Model wfNtGxUX.model_MGREV assigned to Node1
+Model wfNtGxUX.model_MGREV assigned to Haliaeetus_leucocephalus
+Model wfNtGxUX.model_MGREV assigned to Aquila_chrysaetos
+Model wfNtGxUX.model_MGREV assigned to Node6
+Model wfNtGxUX.model_MGREV assigned to Chloebia_gouldiae
+Model wfNtGxUX.model_MGREV assigned to Falco_peregrinus
+Model wfNtGxUX.model_MGREV assigned to Falco_tinnunculus
+Model wfNtGxUX.model_MGREV assigned to Node11
+Model wfNtGxUX.model_MGREV assigned to Node9
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'wfNtGxUX.wfNtGxUX.likelihoodFunction' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Leptosomus_discolor.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Leptosomus_discolor.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Colius_striatus.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Colius_striatus.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Tyto_alba.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Tyto_alba.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Haliaeetus_leucocephalus.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Haliaeetus_leucocephalus.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Aquila_chrysaetos.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Aquila_chrysaetos.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Chloebia_gouldiae.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Chloebia_gouldiae.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Falco_peregrinus.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Falco_peregrinus.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Falco_tinnunculus.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Falco_tinnunculus.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Node2.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Node2.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Node1.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Node1.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Node6.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Node11.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Node11.beta' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Node9.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Node9.beta' was not initialized prior to being used
+Site 29 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 140 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 29 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 270 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 101 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 29 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 29 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 262 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 140 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 135 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 146 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 147 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 220 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 29 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 94 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 144 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 3 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 197 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 29 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 223 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 72 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 117-th LF evaluation.
+Initial guess for wfNtGxUX.tree_0.Node2.beta is 0.000684969
+Initial guess for wfNtGxUX.tree_0.Node2.alpha is -0.000545586
+Initial guess for wfNtGxUX.tree_0.Leptosomus_discolor.beta is 0.0254087
+Initial guess for wfNtGxUX.tree_0.Leptosomus_discolor.alpha is 0.00683958
+Initial guess for wfNtGxUX.tree_0.Colius_striatus.beta is 0.0607895
+Initial guess for wfNtGxUX.tree_0.Colius_striatus.alpha is 0.031313
+Initial guess for wfNtGxUX.tree_0.Tyto_alba.beta is 0.0180119
+Initial guess for wfNtGxUX.tree_0.Tyto_alba.alpha is 0.00965468
+Initial guess for wfNtGxUX.tree_0.Node6.beta is -0.00292069
+Initial guess for wfNtGxUX.tree_0.Node6.alpha is -0.000233424
+Initial guess for wfNtGxUX.tree_0.Haliaeetus_leucocephalus.beta is 0.00635484
+Initial guess for wfNtGxUX.tree_0.Haliaeetus_leucocephalus.alpha is 0.000755418
+Initial guess for wfNtGxUX.tree_0.Aquila_chrysaetos.beta is 0.0067191
+Initial guess for wfNtGxUX.tree_0.Aquila_chrysaetos.alpha is 0.00108452
+Initial guess for wfNtGxUX.tree_0.Node9.beta is 0.0149011
+Initial guess for wfNtGxUX.tree_0.Node9.alpha is 0.00490236
+Initial guess for wfNtGxUX.tree_0.Chloebia_gouldiae.beta is 0.116587
+Initial guess for wfNtGxUX.tree_0.Chloebia_gouldiae.alpha is 0.0631762
+Initial guess for wfNtGxUX.tree_0.Node11.beta is 0.00734269
+Initial guess for wfNtGxUX.tree_0.Node11.alpha is 6.26823e-05
+Initial guess for wfNtGxUX.tree_0.Falco_peregrinus.beta is 0.0033965
+Initial guess for wfNtGxUX.tree_0.Falco_peregrinus.alpha is 0.00108484
+Initial guess for wfNtGxUX.tree_0.Falco_tinnunculus.beta is 0.0021544
+Initial guess for wfNtGxUX.tree_0.Falco_tinnunculus.alpha is 0.000755092
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.model_MGREV.theta_GT = 1
+wfNtGxUX.model_MGREV.theta_CT = 1
+wfNtGxUX.model_MGREV.theta_AC = 1
+wfNtGxUX.model_MGREV.theta_CG = 1
+wfNtGxUX.model_MGREV.theta_AT = 1
+wfNtGxUX.tree_0.Leptosomus_discolor.alpha = 0.00683958
+wfNtGxUX.tree_0.Leptosomus_discolor.beta = 0.0254087
+wfNtGxUX.tree_0.Colius_striatus.alpha = 0.031313
+wfNtGxUX.tree_0.Colius_striatus.beta = 0.0607895
+wfNtGxUX.tree_0.Node2.alpha = 0
+wfNtGxUX.tree_0.Node2.beta = 0.000684969
+wfNtGxUX.tree_0.Tyto_alba.alpha = 0.00965468
+wfNtGxUX.tree_0.Tyto_alba.beta = 0.0180119
+wfNtGxUX.tree_0.Node1.alpha = 0.1
+wfNtGxUX.tree_0.Node1.beta = 0.1
+wfNtGxUX.tree_0.Haliaeetus_leucocephalus.alpha = 0.000755418
+wfNtGxUX.tree_0.Haliaeetus_leucocephalus.beta = 0.00635484
+wfNtGxUX.tree_0.Aquila_chrysaetos.alpha = 0.00108452
+wfNtGxUX.tree_0.Aquila_chrysaetos.beta = 0.0067191
+wfNtGxUX.tree_0.Node6.alpha = 0
+wfNtGxUX.tree_0.Node6.beta = 0
+wfNtGxUX.tree_0.Chloebia_gouldiae.alpha = 0.0631762
+wfNtGxUX.tree_0.Chloebia_gouldiae.beta = 0.116587
+wfNtGxUX.tree_0.Falco_peregrinus.alpha = 0.00108484
+wfNtGxUX.tree_0.Falco_peregrinus.beta = 0.0033965
+wfNtGxUX.tree_0.Falco_tinnunculus.alpha = 0.000755092
+wfNtGxUX.tree_0.Falco_tinnunculus.beta = 0.0021544
+wfNtGxUX.tree_0.Node11.alpha = 6.26823e-05
+wfNtGxUX.tree_0.Node11.beta = 0.00734269
+wfNtGxUX.tree_0.Node9.alpha = 0.00490236
+wfNtGxUX.tree_0.Node9.beta = 0.0149011
+Optimization finished in 25 loop passes.
+3018 likelihood evaluation calls and 12261 matrix exponentiations calls were made
+
+Variable 'bsrel_mixture_aux_0' was not initialized prior to being used
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 2840-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.346677
+frequencies._aux.CF3x4.p0_1 = 0.262353
+frequencies._aux.CF3x4.p0_2 = 0.489996
+frequencies._aux.CF3x4.p1_0 = 0.25749
+frequencies._aux.CF3x4.p1_1 = 0.307826
+frequencies._aux.CF3x4.p1_2 = 0.273869
+frequencies._aux.CF3x4.p2_0 = 0.255079
+frequencies._aux.CF3x4.p2_1 = 0.315613
+frequencies._aux.CF3x4.p2_2 = 0.396319
+Optimization finished in 4 loop passes.
+167 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.2_pi' was not initialized prior to being used
+Variable 'omega1' was not initialized prior to being used
+Variable 'omega2' was not initialized prior to being used
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Variable 'bsrel_mixture_aux_1' was not initialized prior to being used
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 2824-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.346677
+frequencies._aux.CF3x4.p0_1 = 0.262353
+frequencies._aux.CF3x4.p0_2 = 0.489996
+frequencies._aux.CF3x4.p1_0 = 0.25749
+frequencies._aux.CF3x4.p1_1 = 0.307826
+frequencies._aux.CF3x4.p1_2 = 0.273869
+frequencies._aux.CF3x4.p2_0 = 0.255079
+frequencies._aux.CF3x4.p2_1 = 0.315613
+frequencies._aux.CF3x4.p2_2 = 0.396319
+Optimization finished in 4 loop passes.
+167 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.3_pi' was not initialized prior to being used
+Variable 'omega3' was not initialized prior to being used
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Variable 'bsrel_mixture_aux_2' was not initialized prior to being used
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2890-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.346677
+frequencies._aux.CF3x4.p0_1 = 0.262353
+frequencies._aux.CF3x4.p0_2 = 0.489996
+frequencies._aux.CF3x4.p1_0 = 0.25749
+frequencies._aux.CF3x4.p1_1 = 0.307826
+frequencies._aux.CF3x4.p1_2 = 0.273869
+frequencies._aux.CF3x4.p2_0 = 0.255079
+frequencies._aux.CF3x4.p2_1 = 0.315613
+frequencies._aux.CF3x4.p2_2 = 0.396319
+Optimization finished in 4 loop passes.
+166 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.4_pi' was not initialized prior to being used
+Variable 'omega4' was not initialized prior to being used
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Variable 'bsrel_mixture_aux_3' was not initialized prior to being used
+Overwritten previously defined function:'QSgShgyp.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2994-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.346677
+frequencies._aux.CF3x4.p0_1 = 0.262353
+frequencies._aux.CF3x4.p0_2 = 0.489996
+frequencies._aux.CF3x4.p1_0 = 0.25749
+frequencies._aux.CF3x4.p1_1 = 0.307826
+frequencies._aux.CF3x4.p1_2 = 0.273869
+frequencies._aux.CF3x4.p2_0 = 0.255079
+frequencies._aux.CF3x4.p2_1 = 0.315613
+frequencies._aux.CF3x4.p2_2 = 0.396319
+Optimization finished in 4 loop passes.
+166 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.5_pi' was not initialized prior to being used
+Variable 'omega5' was not initialized prior to being used
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Variable '_VSIMVbs.best_val' was not initialized prior to being used
+Variable 'wfNtGxUX.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 25-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Chloebia_gouldiae.alpha = 0.650308
+wfNtGxUX.tree_0.Chloebia_gouldiae.bsrel_mixture_aux_0 = 0.5
+wfNtGxUX.tree_0.Chloebia_gouldiae.omega1 = 0
+wfNtGxUX.tree_0.Chloebia_gouldiae.omega2 = 2
+wfNtGxUX.tree_0.Chloebia_gouldiae.beta = 0.564933
+Optimization finished in 16 loop passes.
+683 likelihood evaluation calls and 1294 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 118-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Chloebia_gouldiae.bsrel_mixture_aux_1 = 0.5
+wfNtGxUX.tree_0.Chloebia_gouldiae.omega1 = 0.502089
+wfNtGxUX.tree_0.Chloebia_gouldiae.bsrel_mixture_aux_0 = 0.845758
+wfNtGxUX.tree_0.Chloebia_gouldiae.alpha = 0.619166
+wfNtGxUX.tree_0.Chloebia_gouldiae.omega2 = 0.8
+wfNtGxUX.tree_0.Chloebia_gouldiae.omega3 = 9
+Optimization finished in 26 loop passes.
+874 likelihood evaluation calls and 2580 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Variable 'wfNtGxUX.tree_0.Chloebia_gouldiae.alpha' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Chloebia_gouldiae.omega1' was not initialized prior to being used
+Variable 'wfNtGxUX.tree_0.Chloebia_gouldiae.omega2' was not initialized prior to being used
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 63-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Colius_striatus.alpha = 0.754321
+wfNtGxUX.tree_0.Colius_striatus.bsrel_mixture_aux_0 = 0.98
+wfNtGxUX.tree_0.Colius_striatus.omega1 = 0.2
+wfNtGxUX.tree_0.Colius_striatus.omega2 = 2
+wfNtGxUX.tree_0.Colius_striatus.beta = 0.15605
+Optimization finished in 23 loop passes.
+460 likelihood evaluation calls and 889 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 15-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Leptosomus_discolor.alpha = 0.237793
+wfNtGxUX.tree_0.Leptosomus_discolor.bsrel_mixture_aux_0 = 0.9
+wfNtGxUX.tree_0.Leptosomus_discolor.beta = 0.0584529
+wfNtGxUX.tree_0.Leptosomus_discolor.omega1 = 0.2
+wfNtGxUX.tree_0.Leptosomus_discolor.omega2 = 0.5
+Optimization finished in 13 loop passes.
+307 likelihood evaluation calls and 605 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 214-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Tyto_alba.beta = 0.0545073
+wfNtGxUX.tree_0.Tyto_alba.omega1 = 0.2
+wfNtGxUX.tree_0.Tyto_alba.omega2 = 0.25
+wfNtGxUX.tree_0.Tyto_alba.alpha = 0.241464
+wfNtGxUX.tree_0.Tyto_alba.bsrel_mixture_aux_0 = 0.5
+Optimization finished in 3 loop passes.
+123 likelihood evaluation calls and 223 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (7) of threads.
+Set GUI update interval to every 66-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Node11.omega2 = 9
+wfNtGxUX.tree_0.Node11.beta = 0.0752365
+wfNtGxUX.tree_0.Node11.omega1 = 0.6
+wfNtGxUX.tree_0.Node11.alpha = 0.104516
+wfNtGxUX.tree_0.Node11.bsrel_mixture_aux_0 = 0.98
+Optimization finished in 27 loop passes.
+618 likelihood evaluation calls and 1207 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 55-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Node6.omega2 = 0.25
+wfNtGxUX.tree_0.Node6.alpha = 0.180292
+wfNtGxUX.tree_0.Node6.bsrel_mixture_aux_0 = 0.9
+wfNtGxUX.tree_0.Node6.beta = 0.0368693
+wfNtGxUX.tree_0.Node6.omega1 = 0.2
+Optimization finished in 3 loop passes.
+122 likelihood evaluation calls and 237 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 52-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Haliaeetus_leucocephalus.alpha = 0.0527107
+wfNtGxUX.tree_0.Haliaeetus_leucocephalus.bsrel_mixture_aux_0 = 0.75
+wfNtGxUX.tree_0.Haliaeetus_leucocephalus.beta = 0.0143293
+wfNtGxUX.tree_0.Haliaeetus_leucocephalus.omega1 = 0.2
+wfNtGxUX.tree_0.Haliaeetus_leucocephalus.omega2 = 0.5
+Optimization finished in 3 loop passes.
+122 likelihood evaluation calls and 237 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 71-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Aquila_chrysaetos.beta = 0.0203024
+wfNtGxUX.tree_0.Aquila_chrysaetos.omega1 = 0.6
+wfNtGxUX.tree_0.Aquila_chrysaetos.alpha = 0.0361214
+wfNtGxUX.tree_0.Aquila_chrysaetos.bsrel_mixture_aux_0 = 0.9
+wfNtGxUX.tree_0.Aquila_chrysaetos.omega2 = 0.25
+Optimization finished in 3 loop passes.
+74 likelihood evaluation calls and 141 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (8) of threads.
+Set GUI update interval to every 80-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Falco_peregrinus.omega2 = 0.5
+wfNtGxUX.tree_0.Falco_peregrinus.beta = 0.00880094
+wfNtGxUX.tree_0.Falco_peregrinus.omega1 = 0.2
+wfNtGxUX.tree_0.Falco_peregrinus.alpha = 0.0318515
+wfNtGxUX.tree_0.Falco_peregrinus.bsrel_mixture_aux_0 = 0.75
+Optimization finished in 3 loop passes.
+118 likelihood evaluation calls and 225 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 41-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Falco_tinnunculus.omega2 = 0.25
+wfNtGxUX.tree_0.Falco_tinnunculus.beta = 0.00421727
+wfNtGxUX.tree_0.Falco_tinnunculus.omega1 = 0.2
+wfNtGxUX.tree_0.Falco_tinnunculus.alpha = 0.0216987
+wfNtGxUX.tree_0.Falco_tinnunculus.bsrel_mixture_aux_0 = 0.98
+Optimization finished in 3 loop passes.
+92 likelihood evaluation calls and 181 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 301-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Node9.omega2 = 0.25
+wfNtGxUX.tree_0.Node9.beta = 0.00679769
+wfNtGxUX.tree_0.Node9.omega1 = 0
+wfNtGxUX.tree_0.Node9.alpha = 0
+wfNtGxUX.tree_0.Node9.bsrel_mixture_aux_0 = 0.98
+Optimization finished in 3 loop passes.
+131 likelihood evaluation calls and 123 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 11-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Node1.alpha = 0.00273229
+wfNtGxUX.tree_0.Node1.bsrel_mixture_aux_0 = 0.9
+wfNtGxUX.tree_0.Node1.omega2 = 9
+wfNtGxUX.tree_0.Node1.beta = 0.0043261
+wfNtGxUX.tree_0.Node1.omega1 = 0.8
+Optimization finished in 3 loop passes.
+107 likelihood evaluation calls and 199 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 303-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.tree_0.Node2.alpha = 0
+wfNtGxUX.tree_0.Node2.bsrel_mixture_aux_0 = 0.98
+wfNtGxUX.tree_0.Node2.beta = 0
+wfNtGxUX.tree_0.Node2.omega1 = 0
+wfNtGxUX.tree_0.Node2.omega2 = 0.25
+Optimization finished in 3 loop passes.
+131 likelihood evaluation calls and 121 matrix exponentiations calls were made
+
+The tips of the tree:wfNtGxUX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {4,5,3,2,1,0,6,7}
+
+Pseudo-optimal path's cost 2400 vs 3372 for 1..k=> a 1.405 x improvement
+Variable 'oEOTrntz.wfNtGxUX.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 27-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.model_MGREV.theta_CT = 0.817354
+wfNtGxUX.model_MGREV.theta_GT = 0.207866
+wfNtGxUX.model_MGREV.theta_CG = 0.363705
+wfNtGxUX.model_MGREV.theta_AC = 0.2445
+wfNtGxUX.model_MGREV.theta_AT = 0.150398
+wfNtGxUX.tree_0.Leptosomus_discolor.beta = 0.0584529
+wfNtGxUX.tree_0.Leptosomus_discolor.alpha = 0.237793
+wfNtGxUX.tree_0.Colius_striatus.alpha = 0.754321
+wfNtGxUX.tree_0.Colius_striatus.beta = 0.15605
+wfNtGxUX.tree_0.Node2.beta = 0
+wfNtGxUX.tree_0.Node2.alpha = 0
+wfNtGxUX.tree_0.Tyto_alba.alpha = 0.241464
+wfNtGxUX.tree_0.Tyto_alba.beta = 0.0545073
+wfNtGxUX.tree_0.Node1.beta = 0.0043261
+wfNtGxUX.tree_0.Node1.alpha = 0.00273229
+wfNtGxUX.tree_0.Haliaeetus_leucocephalus.alpha = 0.0527107
+wfNtGxUX.tree_0.Haliaeetus_leucocephalus.beta = 0.0143293
+wfNtGxUX.tree_0.Aquila_chrysaetos.beta = 0.0203024
+wfNtGxUX.tree_0.Aquila_chrysaetos.alpha = 0.0361214
+wfNtGxUX.tree_0.Node6.alpha = 0.180292
+wfNtGxUX.tree_0.Node6.beta = 0.0368693
+wfNtGxUX.tree_0.Chloebia_gouldiae.alpha = 0.619166
+wfNtGxUX.tree_0.Chloebia_gouldiae.bsrel_mixture_aux_0 = 0.845758
+wfNtGxUX.tree_0.Chloebia_gouldiae.omega2 = 4.94273
+wfNtGxUX.tree_0.Chloebia_gouldiae.omega1 = 0.502089
+wfNtGxUX.tree_0.Falco_peregrinus.beta = 0.00880094
+wfNtGxUX.tree_0.Falco_peregrinus.alpha = 0.0318515
+wfNtGxUX.tree_0.Falco_tinnunculus.alpha = 0.0216987
+wfNtGxUX.tree_0.Falco_tinnunculus.beta = 0.00421727
+wfNtGxUX.tree_0.Node11.beta = 0.0752365
+wfNtGxUX.tree_0.Node11.alpha = 0.104516
+wfNtGxUX.tree_0.Node9.alpha = 0
+wfNtGxUX.tree_0.Node9.beta = 0.00679769
+Optimization finished in 25 loop passes.
+2384 likelihood evaluation calls and 9882 matrix exponentiations calls were made
+
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 80-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+wfNtGxUX.model_MGREV.theta_CT = 0.796883
+wfNtGxUX.model_MGREV.theta_GT = 0.180285
+wfNtGxUX.model_MGREV.theta_CG = 0.349534
+wfNtGxUX.model_MGREV.theta_AC = 0.232665
+wfNtGxUX.model_MGREV.theta_AT = 0.127828
+wfNtGxUX.tree_0.Leptosomus_discolor.beta = 0.0617536
+wfNtGxUX.tree_0.Leptosomus_discolor.alpha = 0.246007
+wfNtGxUX.tree_0.Colius_striatus.alpha = 0.780633
+wfNtGxUX.tree_0.Colius_striatus.beta = 0.16286
+wfNtGxUX.tree_0.Node2.beta = 0
+wfNtGxUX.tree_0.Node2.alpha = 0
+wfNtGxUX.tree_0.Tyto_alba.alpha = 0.248859
+wfNtGxUX.tree_0.Tyto_alba.beta = 0.0561064
+wfNtGxUX.tree_0.Node1.beta = 0.00451412
+wfNtGxUX.tree_0.Node1.alpha = 0.00214936
+wfNtGxUX.tree_0.Haliaeetus_leucocephalus.beta = 0.0149025
+wfNtGxUX.tree_0.Haliaeetus_leucocephalus.alpha = 0.0544605
+wfNtGxUX.tree_0.Aquila_chrysaetos.beta = 0.0211954
+wfNtGxUX.tree_0.Aquila_chrysaetos.alpha = 0.0370975
+wfNtGxUX.tree_0.Node6.alpha = 0.186236
+wfNtGxUX.tree_0.Node6.beta = 0.0382974
+wfNtGxUX.tree_0.Chloebia_gouldiae.omega1 = 0.517967
+wfNtGxUX.tree_0.Chloebia_gouldiae.bsrel_mixture_aux_0 = 0.857437
+wfNtGxUX.tree_0.Chloebia_gouldiae.alpha = 0.639911
+wfNtGxUX.tree_0.Falco_peregrinus.alpha = 0.0328199
+wfNtGxUX.tree_0.Falco_peregrinus.beta = 0.0091663
+wfNtGxUX.tree_0.Falco_tinnunculus.alpha = 0.0223678
+wfNtGxUX.tree_0.Falco_tinnunculus.beta = 0.00440463
+wfNtGxUX.tree_0.Node11.alpha = 0.108567
+wfNtGxUX.tree_0.Node11.beta = 0.0757216
+wfNtGxUX.tree_0.Node9.alpha = 0
+wfNtGxUX.tree_0.Node9.beta = 0.0101277
+Optimization finished in 19 loop passes.
+1588 likelihood evaluation calls and 6521 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used

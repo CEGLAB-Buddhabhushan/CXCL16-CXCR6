@@ -1,0 +1,94 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_020740795.1_bApuApu2.pri.cur_genomic.fna
+           110 sequences; 1,100,378,261 total letters
+
+
+
+Query= XM_010165056.1_Antrostomus_carolinensis_CXCR6
+
+Length=1038
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_067283.1 Apus apus isolate bApuApu2 chromosome 2, bApuApu2.pri...  797        0.0  
+NC_067306.1 Apus apus isolate bApuApu2 chromosome 25, bApuApu2.pr...  50.9       0.001
+
+
+
+Query_1  184       CTGAAGATGCTGACAGATGTATTTTTGTTGAACTTGGCTGTAGCTGACTGGGTCTTCCTT  243
+25       950925    ..C....C.A.......CA.C.A....C...........C.G..A...ATCC.....T.G  950984
+
+Query_1  244       TGGACCCTGCCATTCTGGGCATATTCCGCTGCTCAGGAGTGGACTTTTGGCACCGTGACG  303
+25       950985    CT......C..C........                                          951004
+
+Query_1  304       TGCCGTATTATACGGGGCTTGTACACTCTGAATTTGTACACTTCCATGTTAACTCTAACG  363
+2        45436657                                                             .  45436657
+
+Query_1  364       TCTATCACCTTTGACCGGCTTATTGCTATTACTTTTGCCACCAAAGCACATATGTGTCAA  423
+2        45436656  .......G........AA....C...C....T........................C...  45436597
+
+Query_1  424       ACCAAACGCATGACATGGGGCAAATTAATCTGTGTCTTCATCTGGGTGATCTCACTAGCA  483
+2        45436596  .......AA........A....................G.........T.......T...  45436537
+
+Query_1  484       TTTGCCGCACCACAGTTTATTTTTAGTGAGGTGTTTAGTATTGACAAGGCAATATGTCAG  543
+2        45436536  ...C.T.T........................T.......CCAGT......G........  45436477
+
+Query_1  544       GAAAAATACCCAAACCAGCCCACAGAACTGGTTCTTGAAGTGATCCAAGTGACCCTCGGC  603
+2        45436476  ...G....TG.......T.A....A.G.........A....TTC........T.......  45436417
+
+Query_1  604       TATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCACTAATTATCAGAACCTTACTG  663
+2        45436416  ........................................C......T............  45436357
+
+Query_1  664       CATGCCAGGAGTTTTCAAAAGAACAAATCTCTaaaaaaaaTATTTTCTGTAGTTGCCATA  723
+2        45436356  .......T..A.........T.-..T....T.T..G...C....................  45436297
+                                                           \                   
+                                                           |                   
+                                                           C
+
+Query_1  724       TTTATTCTTACTCAGTCACCCTATACTTTCTTGAGACTAATAAAGATCATAGACTGGAGC  783
+2        45436296  .G....G.....................C.....C...G.C......T.C..........  45436237
+
+Query_1  784       TTTAACTTGAACAGTAGCTTTGAATATGCAATCGTCATAACAGAAGCTCTTGCTTATTTC  843
+2        45436236  ...........T..C..........T...C...A.TG....T..................  45436177
+
+Query_1  844       CATGGCTGTCTTAACCCTGTTCTTTATTTCTTCATGGGGGTGAAATTCAGGAGGAACTTA  903
+2        45436176  ..................A.C..G...............A..........A........T  45436117
+
+Query_1  904       CAGAAAATTATTAAAAACTCAAGATGCACCAAACGGCAAGTTACGGCTAAACAGTGGCAA  963
+2        45436116  ..........................A.T.....A....A...G.......T..CA....  45436057
+
+Query_1  964       ACCACTGAAGAGGAAGGCTCTAAAACTTTTATGGCCTCAAATACTGCAGATGTAACAAGC  1023
+2        45436056  ..A........CA..T..........--...CT......C...A........C.....C.  45435999
+
+Query_1  1024      ATGTACCCACTGTAA  1038
+2        45435998  C......TG......  45435984
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1106976989446
+
+
+  Database: GCF_020740795.1_bApuApu2.pri.cur_genomic.fna
+    Posted date:  May 1, 2024  10:01 PM
+  Number of letters in database: 1,100,378,261
+  Number of sequences in database:  110
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

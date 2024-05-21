@@ -1,0 +1,274 @@
+BLASTN 2.6.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: UCD00_PACKBIO.fa
+           24,650,573 sequences; 169,833,148,751 total letters
+
+
+
+Query= cxcr6_duck_ncbi_edited
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SRR2028220.103953 /1                                                55.4    0.004
+
+
+
+Query_1   820   ATAACAGAAGCCCTTGCTTATTTCCACGGCTGTCTTAACCCTGTTATGTATTTCTTCATG  879
+14699634  3280  .....T...AG........--.G....T.T..C..C..T..A..C..C............  3337
+
+Query_1   880   GGGGTGAAATTCAGGAAGAACT  901
+14699634  3338  ....AA.....T..AG..T...  3359
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168896426977000
+
+
+Query= cxcr6_anser_cygnoides
+
+Length=1038
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  SRR2028195.144285 /1                                                59.0    3e-04
+
+
+
+Query_2   801  CTTTGACTATGCAATCGTTATAACAGAAGCTCTTGCTTATTTCCACGGCTGTCTTAACCC  860
+10162750  603  ...G............TCA.....T........G..C.T.A.....T.T..C..C..T..  542
+                                   \       \                               
+                                   |       |                               
+                                   A       A
+
+Query_2   861  TGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC  900
+10162750  541  A..C..C....A...........AA.....T.A....T..  501
+                                          \            
+                                          |            
+                                          C
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168896426977000
+
+
+Query= cxcr6_human
+
+Length=1029
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 167376359134207
+
+
+Query= cxcr6_acanthisitha_chloris_duck_edited
+
+Length=1033
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168051944842115
+
+
+Query= cxcr6_Aptenodytes_forsteri
+
+Length=1035
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168389737696069
+
+
+Query= cxcr6_chlamydotis_macqueenii
+
+Length=1038
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168896426977000
+
+
+Query= cxcr6_colius_striatus
+
+Length=1038
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168896426977000
+
+
+Query= cxcr6_corythaeola_cristata
+
+Length=1035
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168389737696069
+
+
+Query= cxcr6_dromaius_novaehollaniae
+
+Length=1035
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168389737696069
+
+
+Query= cxcr6_eurypyga_helias
+
+Length=1038
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168896426977000
+
+
+Query= cxcr6_leptosomus_discolor
+
+Length=1038
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 168896426977000
+
+
+Query= cxcr6_malurus_cyaneus_samueli
+
+Length=1003
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 162985052032805
+
+
+  Database: UCD00_PACKBIO.fa
+    Posted date:  Aug 21, 2021  12:17 AM
+  Number of letters in database: 169,833,148,751
+  Number of sequences in database:  24,650,573
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,4 @@
+@HD	VN:1.2	SO:coordinate	GO:reference
+@SQ	SN:Query_1	LN:1035
+@PG	ID:0	VN:2.9.0+	CL:blastn -task blastn -evalue 0.05 -max_target_seqs 5000 -db SRR12103809_SRR1744081_SRR3041423_SRR3954707.fa -out /home/neo/bird_db1/buddha/CXCR6/blast_output_SRA/blastn.Struthio_camelus_CXCR6.Gallus_gallus.SRA.anseriformes.sam -num_threads 4 -outfmt 17 SQ -query /home/neo/bird_db1/buddha/CXCR6/query/Struthio_camelus_Exon.fa 	PN:blastn
+BL_ORD_ID:40657312	0	Query_1	824	255	54H12M1D58M26H	*	0	0	AAGCCTTGGCCTTTTCCACTGTTGCCTCAATCCAGTCCTCTATTTCTTCATGGGGGAAAAATTTAAGAAG	*	AS:i:58	EV:f:0.00510606	NM:i:1	PI:f:78.57	BS:f:53.584

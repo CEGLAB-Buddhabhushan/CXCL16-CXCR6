@@ -1,0 +1,95 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+
+-------
+>[WARNING] This dataset contains 1 duplicate sequence. Identical
+sequences do not contribute any information to the analysis and only
+slow down computation. Please consider removing duplicate or 'nearly'
+duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+/media/morpheus/sagar/BUDDHA/HYPHY_PAML_gBGC/Accipitriformes/aBSREL/Aquila_chrysaetos_treeLabled.txt
+Aquila_chrysaetos_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **6** sequences, **345** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/HYPHY_PAML_gBGC/Accipitriformes/aBSREL/Accipitriformes.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Aquila_chrysaetos`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -1779.40, AIC-c =  3592.90 (17 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.066
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -1733.08, AIC-c =  3531.20 (32 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.37, and 95% of the weight in  0.00 - 10000000000.00
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|      Gymnogyps_californianus      |   0.04   |    2     |    1.18 (27.25%)   |   -1732.46    |    3534.08    |     3531.20     |
+|        Accipiter_gentilis         |   0.01   |    2     |    0.20 (98.00%)   |   -1733.08    |    3535.33    |     3531.20     |
+|         Aquila_chrysaetos         |   0.01   |    2     |    0.76 (48.19%)   |   -1733.08    |    3535.33    |     3531.20     |
+|               Node5               |   0.00   |    2     |    0.20 (75.00%)   |   -1733.08    |    3535.33    |     3531.20     |
+|          Harpia_harpyja           |   0.00   |    2     |    0.75 (10.00%)   |   -1733.08    |    3535.33    |     3531.20     |
+|               Node1               |   0.00   |    2     |    0.00 ( 0.00%)   |   -1733.08    |    3535.33    |     3531.20     |
+|               Node4               |   0.00   |    2     |    0.27 ( 9.84%)   |   -1736.60    |    3542.36    |     3531.20     |
+|     Haliaeetus_leucocephalus      |   0.00   |    2     |    0.28 (12.62%)   |   -1733.08    |    3535.33    |     3531.20     |
+|       Haliaeetus_albicilla        |   0.00   |    2     |    0.27 ( 2.00%)   |   -1733.08    |    3535.33    |     3531.20     |
+
+### Rate class analyses summary
+*  9 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -1732.54, AIC-c =  3530.12 (32 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|      Gymnogyps_californianus      |     1    |   0.29 (100.00%)   |    Not selected    |    for testing     |
+|        Accipiter_gentilis         |     1    |   0.19 (100.00%)   |    Not selected    |    for testing     |
+|         Aquila_chrysaetos         |     1    |   0.65 (100.00%)   |        0.00        |       1.00000      |
+|               Node5               |     1    |   0.14 (100.00%)   |    Not selected    |    for testing     |
+|          Harpia_harpyja           |     1    |   0.41 (100.00%)   |    Not selected    |    for testing     |
+|               Node1               |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|               Node4               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|     Haliaeetus_leucocephalus      |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|       Haliaeetus_albicilla        |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

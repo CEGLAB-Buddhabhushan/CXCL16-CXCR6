@@ -1,0 +1,992 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_003957555.1.fa
+           159 sequences; 1,059,687,259 total letters
+
+
+
+Query= 5'utr_CXCR6
+
+Length=50
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044247.1                                                           39.2       0.040
+
+
+
+Query_1  24       ACAGGCTGCTTTTAAAAAGAAGGCAA  49
+3        2157684  .....A.............T......  2157659
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 24372708218
+
+
+Query= CXCR6
+
+Length=1035
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044272.1                                                           49.1       0.003
+NC_044246.1                                                           48.2       0.003
+NC_044245.1                                                           47.3       0.012
+
+
+
+Query_2  596        TTGGCTATTTCATCCCCATGCTAACCATGACCACCTGCTACTCACTAATCATTAAAACAT  655
+28       1509409    ......TC..AC.T...C....GGT....T.TTT..........-.C.....C.......  1509350
+                                                             \                  
+                                                             |                  
+                                                             C
+
+Query_2  656        TACTGCATGCCAGGAGTTTTCAGAAGCACAAATCTCTGaaaaaaaTATTTTCTGTAGTTG  715
+28       1509349    .......G...C.C.AC...G.....A.T...                              1509318
+1        134155138               ..A...GG..T.T.........A....................      134155095
+                                                      \                         
+                                                      |                         
+                                                      C
+
+Query_2  716        GCACATTTATTCTTACCCAGTCACCCTATACTTTCTTGAGACTGATAAAGATCATAGATT  775
+
+Query_2  776        GGAGCTTTAACTTGAACCGCAACTTTGAATATGCAATCGTCGTGACAGAAGCTTTTGCTT  835
+2        1672803                                                ......A.AA.A..A.  1672818
+1        54790173                                                         ......  54790168
+
+Query_2  836        ATTTCCATGGCTGCCTCAACCCTGTTCTGTATTTCTTCATTGGGGTGAAATTCAGGAAGA  895
+2        1672819    T...A..CT....TG.G........G..C...GCA..............G.....       1672873
+2        86103860                                                     ..T.......  86103869
+1        54790167   TC.C...CT.............C..G..C...G....TG....A..C..G....A..     54790111
+
+Query_2  896        ATTTCCAGAAAATTATTAAAAAGTCAAGATGCATCAA  932
+2        86103870   ----...........GC..C.............A...  86103902
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1062861217513
+
+
+Query= 3'utr_CXCR6
+
+Length=50
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044244.1                                                           44.6       0.001
+NC_044265.1                                                           39.2       0.040
+NC_044257.1                                                           39.2       0.040
+NC_044249.1                                                           39.2       0.040
+NC_044245.1                                                           39.2       0.040
+
+
+
+Query_3  22         ACTATCTGCAGCTTCTTCttttttttttt  50
+0        148493139  ..............G..G...........  148493167
+21       13600200      ...........T..T...........  13600175
+13       15362968      ..T...........T...........  15362993
+5        18314319      ..A...........T...........  18314344
+1        87800780      ..A...........T...........  87800805
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 24372708218
+
+
+Query= FYCO1_EXON1
+
+Length=55
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           73.4       2e-12
+NC_044251.1                                                           39.2       0.048
+
+
+
+Query_4  1         ATGGCAGCAACTAGTGGTGAAAGCCAGCTACAGCGGATTATCAGGGACTTGCAAG  55
+1        54772935  .............................G...A.A...G....A...C......  54772881
+7        43210927  ........C..A..............                               43210902
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 29671123048
+
+
+Query= FYCO1_EXON2
+
+Length=107
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           176        7e-43
+
+
+
+Query_5  1         ATGCTGTGACTGAATTAAGCAAAGAATTTAAAGAAGGAGGGGAACCGATCACAGATGACA  60
+1        54771374  ...................T..........................A.............  54771315
+
+Query_5  61        GTGTCAGCTTGCAAAAATTCTCCTACAAGCTTGAGTACCTTTTACAG  107
+1        54771314  ......A..................................C.....  54771268
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 82655246544
+
+
+Query= FYCO1_EXON3
+
+Length=126
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           187        5e-46
+
+
+
+Query_6  1         TTTGATCAGAAAGaaaaaaaCACATTGCTGGGAAATAGAAAAGACTACTGGGATTATTTC  60
+1        54770201  .....C.......................A..T..C....................C...  54770142
+
+Query_6  61        TGTGACTGTCTGGCAAAGGTCAAAGGAGCTAATGATGGAATCCGCTTTGTTAAGTCTATT  120
+1        54770141  ...........T.....A.....G..........................C.........  54770082
+
+Query_6  121       ACAGAA  126
+1        54770081  ......  54770076
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 102789216856
+
+
+Query= FYCO1_EXON4
+
+Length=28
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           47.3       5e-05
+
+
+
+Query_7  1         CTACGAACATCTCTTGGGAAAGGAAGAG  28
+1        54766851  .................A..........  54766824
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4238733772
+
+
+Query= FYCO1_EXON5
+
+Length=79
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           113        5e-24
+
+
+
+Query_8  3         TTTCTTCGTTACTCCTTGGTTCACCAAAGACTAGCAGACACCTTGCAGCAGTGTTTTATG  62
+1        54766821  ...............C.......T.....G....................A.........  54766762
+
+Query_8  63        AACACCAAAGTGACGAG  79
+1        54766761  ........G.....C..  54766745
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 54043823157
+
+
+Query= FYCO1_EXON6
+
+Length=144
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           211        5e-53
+
+
+
+Query_9  1         TGACTGGTACTACGCGAGAAGTCCATTTCTGAATTCCAAAATGAGTTCTGACATTGTGGG  60
+1        54765939  ............T..A............T.........................C.....  54765880
+
+Query_9  61        TTATCTCTATGAGCTCACTGACGTTCAGTTTGACCTGGCATCAAGAGGCTATGATTTAGA  120
+1        54765879  .C.A........A........T.....A................................  54765820
+
+Query_9  121       TGCTGCGTGGCCAACATTCGCCAG  144
+1        54765819  ......T...........T.....  54765796
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 121863504520
+
+
+Query= FYCO1_EXON7
+
+Length=94
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           148        3e-34
+
+
+
+Query_10  1         GAGAACACTATCCTCCCTTGGATCTTCAGCTTATTTATGGAAGCCCCCAAGTCGCAGTTC  60
+1         54764892  .........G.....A..............A..........................C..  54764833
+
+Query_10  61        CAGCATGAGCAGTTTAGTGAGCAACTATTTGCAG  94
+1         54764832  ........................T.........  54764799
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 69939065262
+
+
+Query= FYCO1_EXON8
+
+Length=2631
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           3109       0.0  
+NC_044254.1                                                           47.3       0.030
+
+
+
+Query_11  1         GCCCAAGAGTTTCCCTCCAGCCCTGATGCAAATAACTCGCTAAATGTTGAACACATTGAG  60
+1         54764376  ..................................G...A...............C....A  54764317
+
+Query_11  61        GGCTTTGAAGAGATGCGTGTAGAACTTGACCAGGCTGAGCTGAGACAGAGAGAGCTTCAG  120
+1         54764316  ..G.........................................G.....G..A......  54764257
+
+Query_11  121       GATCGAATTCACCAGCTACAGATGGAAAACCAGGAGCTGCAGGCAGCCATCAGCCTTCAG  180
+1         54764256  .....T........CT.GG..T................C........TG.T.........  54764197
+
+Query_11  181       AAAGCGCAAGCACAGGTAGAAAAGGAGAAGAGTAGTAACTACAGCGAGGAGAACTCCCGG  240
+1         54764196  ....AA....T...A.................C.A.........T..............A  54764137
+
+Query_11  241       CTGACAAAGATGATCACAGAGTTACAGAAGCAGTGTGAGGTCTCCCATTCCACTCAGAGC  300
+1         54764136  ...........C................................A..C.G..........  54764077
+
+Query_11  301       ACTGTTCACGATCTGCAGAAGTGCCTGCAGTCCCTGGAACTGAATGCAGTGGAGCAACAG  360
+1         54764076  ........T..C..............A.....A.................A.....G...  54764017
+
+Query_11  361       AAAGAGTACTCAACAAAGCTGGAGCAGCTGGAGACCAGCAAGGAGAACTGTGCCTCAAAG  420
+1         54764016  ..G..A..T......................T.........A..AG.......T.....A  54763957
+10        8157487                    ........T...................                 8157460
+
+Query_11  421       CTGCAGTTGTTGAATCAGGAGCTGGAGGCCTCTAGGGCTTTGGTCACTATGAAGGATCTT  480
+1         54763956  A.....G.............A.......................TG..............  54763897
+
+Query_11  481       TGCATTGATGAACTTAAGGCCAAGCTGAGTTCAACGAAACAGAAGAACATGGAGCTCCTG  540
+1         54763896  .A...CA....G..C..A..............C..AG.G.........T.CA.CT....T  54763837
+
+Query_11  541       GCAAAAGTTGATGCCGCCTTGGAGGAGAAAGGACAGCAAGCCACAGCCCACTGTGACTCT  600
+1         54763836  ..............T...........A..G.A............................  54763777
+
+Query_11  601       GCCATACAGATACAAGGACTGTTGGAGAAGCTTCAGGAGAAAGAAAAGGAAAAGGCAGAC  660
+1         54763776  ...C..........G.C......A........C.......C..................T  54763717
+
+Query_11  661       ATGCAAAAACTCAATGACGAACATGCATCTCAGCTAAAAGCAGCAAGAGAGGAGCTACGG  720
+1         54763716  .....G.G.........T.......TG........G...........G........G.A.  54763657
+
+Query_11  721       TTGAAAGAAGAGGTGCAGAAGGAACTGGAATCCAGATACAATCGCCTCACTGCTGACTCT  780
+1         54763656  C...G........CA........G............................T......C  54763597
+
+Query_11  781       AGGGAAGAGAGCGAAAAGCTGCTTGGGAGCCTGGAAACCATGGCAAAGGAAATGGAAGCG  840
+1         54763596  .AA.....A..G..........A............................T.A..T..A  54763537
+
+Query_11  841       CTTCAGAAGGCCCTGACCCTGAAAGGGAAGGAGGTGGCTGATCTCCAGACCCAGGTAATG  900
+1         54763536  ............T...G........AA.CA...A.......G..................  54763477
+
+Query_11  901       GGGTCGCTGGCTCAGGTGGGGTCACTGGaaaaaaaTCTTGAGGAGGCAAGGAAAGAAAAA  960
+1         54763476  ........................A.........G.........A...............  54763417
+
+Query_11  961       GAGAAACTTGAGGAGGAGTGCAGTAGGAGGGAAGGAGCACTGAAGCACAAAGCCCACTCT  1020
+1         54763416  ...................ATG.......A.........T.......GG...T...G..A  54763357
+
+Query_11  1021      CTGGCAGAGCAACTTGAACTACAGGAAGGTCACTTAACAAAGGTGAGTCACACTGTGCAT  1080
+1         54763356  .AA..................G....G....G......T...........G......TG.  54763297
+
+Query_11  1081      AGCCTTGAGGAACAAAAACAGAAAATCTCATCTGAAAAAGAGCACCTCAGCCAGAAAGTC  1140
+1         54763296  .A.........G.....T......C...TG.....G..CA....T........A......  54763237
+
+Query_11  1141      AAGCAGCTGGAGGAGCAGTTGGAGCAGCAAAACTCTGCAGTGAGTGAAAAGGATGAGGAG  1200
+1         54763236  ...G.......A..C..AG..............................T..G.A.....  54763177
+
+Query_11  1201      AATCAGAAGCTGAAATCAGAGAATGCAGATTTGCAGCAGGCCAAGAAAAAGATGGAAGAG  1260
+1         54763176  .GCAG..........G.........AGA...........A.......G..........G.  54763117
+
+Query_11  1261      AAGTTGAAAAATGTGGAAGAGTCCAAAGCCTCCCTGGAAGCAGAGGTGGCCAGGCTGAGA  1320
+1         54763116  ...C......G.T.....AC...T.....T...........T.....A.....T......  54763057
+
+Query_11  1321      GCCTCTGAGAAACAGCTTCAGAGTGAGATAGATGATGCCTTGGTGTCAGTCGATGAAAAA  1380
+1         54763056  ...G................................T..C..........T.........  54762997
+
+Query_11  1381      GAGAAGAAGCTCAGGGGCCAGAACAAACAGCTGGATGAAGACTTGCAGAATGCCAGGAGG  1440
+1         54762996  ............C...ATG.........................................  54762937
+
+Query_11  1441      CAAAGCCAAATTCTGGAGGATAGGTTAGACGCTCTGCACTCAGACTACAAAGAACTGAAG  1500
+1         54762936  .....T....C.........G..A.....G........G........TG....G..A...  54762877
+
+Query_11  1501      CAAAGAGAAGAGGCAACCAAGGAGTCTTGTGCTCTTCTTGAAGGACAGCTGAAGAGAGCC  1560
+1         54762876  ............A.C.................CTCA.......A...A.......CT...  54762817
+
+Query_11  1561      AAACAGGATTGTTTACAAATGGAAAAGAGCTTGGGCTCCTTGAAAGAAAGCGAAGAGTCT  1620
+1         54762816  .........AA.A...T......C..A...A.A...A.......G......A.T....G.  54762757
+
+Query_11  1621      CTCCGATCGCAGCTCACAGAGAAGGAGGCAGAACTGCAAGGCATGGAGAATCAGTACAAG  1680
+1         54762756  ..G.AG..A.....T...........A.TG............C....A.GC.TT.GTG..  54762697
+
+Query_11  1681      CAACTAAGAGCAGAAGCTGAAAGACATAGGAAGAAAGCAGAGATTCTTGAGGTGGAAAAG  1740
+1         54762696  ..........................C..A.............C.T.......A......  54762637
+
+Query_11  1741      CTTAGCATGGAAAAGACATGTCTTCACCAGACAAAGCTGATTGAATCCCTCACAGCAGAG  1800
+1         54762636  ..C..TC.T..G........CA.C..T..A....CA..T...............T....A  54762577
+
+Query_11  1801      AAGAAATCAGTGGAAAAACACCAACTACAGCAGACAGCTTTTCTGGAGAAGGAGGCAAAA  1860
+1         54762576  ......G............T......G....C.G..C...C..............TG..G  54762517
+
+Query_11  1861      GAGCTGGCCTCCAGGCTGATTGTGAGTGAAGAGCAGCTGCAGGTCAACCGAGGAGAAGTG  1920
+1         54762516  ..............AT..GCCA.C............T..G.A.....T.....T......  54762457
+
+Query_11  1921      TCTAGGCTGCAGGCAGAAGTCCTTGACCTGCGAGTCAAGCTTCAACAGACCACTGTTGAG  1980
+1         54762456  ..C........A....................G...........G....TG....A....  54762397
+
+Query_11  1981      AGAGAGCAGATGAGAGGTGAGCTGGCAGTCACAGAGACTGTCTTGGGGGAGCAGAAAGTG  2040
+1         54762396  ....................T..........G........C......T........G.CA  54762337
+
+Query_11  2041      CATGTCCAGCAACTGAAGGAGGAGAGTGAGTCGCTCAACAGAAACCACATGCAAGAACTG  2100
+1         54762336  .T...G.....G.....A...C.A.AC.....A..............TG...........  54762277
+
+Query_11  2101      ATGCAGTATAAAGAGAGAGAAGAAGTGCTGAAAAAAGAGCAGGAGAGGGTGGCCCATCAA  2160
+1         54762276  G....A.G......A............A..................CA.CA.........  54762217
+
+Query_11  2161      AAAGCTGAGCTGGAAAATAATTTGCTGAACCTGAAGGAAGAGCTATCCAAGGTTAAGCAG  2220
+1         54762216  ...................G..........T...............GT..A.........  54762157
+
+Query_11  2221      TACTTGGAAGCTGTTAAAATGGAAAATGAAGAAAACAAAGATCTCCTCCACAGGACCAAC  2280
+1         54762156  ...C.........C..G........................A..................  54762097
+
+Query_11  2281      ACTGATATGGCTGAACTGGGTATTCAGATTTGTGCCGTGACCTCTGAAAAGGTAAATACA  2340
+1         54762096  ..A..............T..C...............T................GG..G..  54762037
+
+Query_11  2341      GAAGAGAAGTTAGCCAAGGCCACAGGGAGGCTCAAAGAACTGGAAGAACGGACTGCGGAG  2400
+1         54762036  ......C........C.A.......AA..A.........T....G....A.T.A..A..A  54761977
+
+Query_11  2401      GAACAGGAGAGGCTGAAGCTTGACATCTCTGCTCTCAGGCAGGAGAACAAGAGCCTGCAA  2460
+1         54761976  C.........AC...........GC.T...AA..................A.....A...  54761917
+
+Query_11  2461      GAAAAATTGGAGGAAGCTCAAGTATGTGCCGCGGCTGTCCCGAGTCTGCAAATGCAGCTG  2520
+1         54761916  ..G...C.A.....G......A..A....T..A........A.........T........  54761857
+
+Query_11  2521      GAGACAGCAAAGAAACAGGCACAGAGCTTCCAAGAGACCAGCCAAGAAGAGCTGTCCGCA  2580
+1         54761856  .......T..........T......AT........A....................A...  54761797
+
+Query_11  2581      ATAAAATTTCAAATGAGCACAGAGATTCTAAATTATCAGACAAAATACAAG  2631
+1         54761796  ..................................G...........T....  54761746
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2753053867176
+
+
+Query= FYCO1_EXON9
+
+Length=93
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           108        3e-22
+NC_044248.1                                                           41.0       0.032
+
+
+
+Query_12  1         GCTGTCAGTGAGGAGTGCAGGAAAGTACAAGAGCAACTTGAGGAGCAGAAGCGACAACGG  60
+1         54760796  ...........A.....TG....CC..AG..G.................G........T.  54760737
+4         43768275                             ......................             43768254
+
+Query_12  61        TGTGCTGCAGAGGAAGAGATTGCAGAGTTACA  92
+1         54760736  CA........................A.....  54760705
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 68879382455
+
+
+Query= FYCO1_EXON10
+
+Length=119
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           139        2e-31
+
+
+
+Query_13  1         GCTGCAAACACAAGTTTGTCTAGCAAGCTGGATGAAGCAAGAGAGCAGCTGGCTGAATCT  60
+1         54759667  ...........G.AC........A...........................T.......A  54759608
+
+Query_13  61        GAATCTGCTCGGCTGCAGAAGGAAGAAGAGGTGATGTCTCTGAAAGGACTTTTAGAAAG  119
+1         54759607  ......A....A..............G.......CAA......G..A...C..G.C...  54759549
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 95371438320
+
+
+Query= FYCO1_EXON11
+
+Length=168
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           199        1e-49
+
+
+
+Query_14  4         CCAAAAGGAAGCTGATGAAGCAAAAGAGCAAGCCCTCGAATACGGTGAGAAGCTCGGCAA  63
+1         54758101  ......A.....................A.GATGA.G..T...A...........A....  54758042
+
+Query_14  64        GGTGGTAGCAGAAAAAGATAGCAGCGACCAGAAGTTGTTTGCCGAGCTGGATGACCTGAC  123
+1         54758041  .....C......C.G.........T...........A.....T..A...........A..  54757982
+
+Query_14  124       GAGAACAAAACAGTTCCTTGAAGAACGTTTGATAGAACTTATCAG  168
+1         54757981  A........G...........G.......................  54757937
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 147295888072
+
+
+Query= FYCO1_EXON12
+
+Length=150
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           208        2e-52
+NC_044274.1                                                           42.8       0.017
+
+
+
+Query_15  1         AGATAAGGATGCCCTGTGGCAAAAATCAGATGCTCTCGAGTTCCAGCAGAAGCTTAGTGC  60
+1         54757513  ............TT......................G.......................  54757454
+30        10451923                                             ......G....G.....  10451939
+
+Query_15  61        AGAGCAGAAGTGGCAGGGAGACACAGAGATTAACCATTGCCTGGACTGCCAGAGAGAGTT  120
+1         54757453  ......A.G......A..G.........G....T..C..T..A.................  54757394
+30        10451940  .......C.........                                             10451957
+                          \                                                     
+                          |                                                     
+                          G
+
+Query_15  121       TTCGTGGATGGTGCGCCGACACCACTGCAG  150
+1         54757393  C..A..........................  54757364
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 128221600408
+
+
+Query= FYCO1_EXON13
+
+Length=206
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           269        3e-70
+
+
+
+Query_16  1         AATGTGTGGTCGCGTTTTCTGCTATTACTGCTGCAACAACTACATGGTGACAAAGCATGC  60
+1         54755987  ............TA..........C...............................C..G  54755928
+
+Query_16  61        CGGGAAGAAGGAGCGTTGCTGCAGAGCTTGCTTTAATAAGCCCAGAGTGGTTGTGGACTA  120
+1         54755927  T..A..A............................C............CA........AG  54755868
+
+Query_16  121       TACAGATGACTCTGGGTCCAGTGCCAACCGGGAAGGATCACCAGCTTCATTGGAATCGCC  180
+1         54755867  .G.............A.............AA....A.....................A..  54755808
+
+Query_16  181       AGTGTCACCAACAGAGATGGCTTTTG  206
+1         54755807  T.........T.C....G........  54755782
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 186504118064
+
+
+Query= FYCO1_EXON14
+
+Length=145
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           199        1e-49
+
+
+
+Query_17  1         TTGCAAGTGAAGCCTCTAAACCACCAGATGATGCAGTGTTTGATATAATCACCGATGAGG  60
+1         54755463  ......A....A.........T..............CA..............T.......  54755404
+
+Query_17  61        AGTTGTGCCAAGTACAGGAATCAGACTCGCTCCACAATGAAAGTCAGATGGAGGGAGAGT  120
+1         54755403  ..C..........G..............T......G.................A....C.  54755344
+
+Query_17  121       CTCTGGATCAAAGTGTGACAGATCT  145
+1         54755343  .........G...C...........  54755319
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 122923187168
+
+
+Query= FYCO1_EXON15
+
+Length=96
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           150        9e-35
+
+
+
+Query_18  2         AACAGCACATGTAATTCTTCAACCTTTGATGAATCAGAAGAGTGGCAAGTTGCTCAAGAT  61
+1         54750803  .........................AC.................................  54750744
+
+Query_18  62        GCTGAGATATGCTTGTTGAAATCAGGAGAAATCAT  96
+1         54750743  ...........T........G..T...........  54750709
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 72058430876
+
+
+Query= FYCO1_EXON16
+
+Length=211
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           300        6e-80
+NC_044251.1                                                           42.8       0.026
+
+
+
+Query_19  1         GATGAAATTGCCCCTTACAGTGGAAGACATCCTAAATTTTGGGGAAGGCAACAGAGAGCT  60
+1         54748847  ...C.....A.................G................................  54748788
+7         10192564                                                        ..T...  10192569
+
+Query_19  61        GTTCATTAAATCCAGCACTTACAGTATCATTCCCATCACTGTGACAGAGACAGGCCTAAC  120
+1         54748787  ..................C..............T........TG......TG..G.....  54748728
+7         10192570  ..C.......A...--...............                               10192598
+
+Query_19  121       AATTAGCTGGATATTTTCATCAGACCCTAAAAGCATATCCTTCAGTGTTGTTTATCAAGA  180
+1         54748727  T...........C..C.............................C........C.....  54748668
+
+Query_19  181       ATCAGAAGAAGCACCACTGGATCACTGCAAA  211
+1         54748667  .........CA.............G......  54748637
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 191802530509
+
+
+Query= FYCO1_EXON17
+
+Length=110
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           154        3e-36
+
+
+
+Query_20  1         GTTCTTATTCCTATGACTCGCTGCAGTTCACATAAGGAAACTATCAGAGGCCAGGTGAAA  60
+1         54746961  .....G...........C.......A...T....................T.........  54746902
+
+Query_20  61        GTCAGAAATTCTGGCATCTACATGCTAATATTTGACAACACATTTTCTAG  110
+1         54746901  ........C.....A.......C...G.................C.....  54746852
+1         67399153                   .....A.....A....AT..............   67399184
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 85834294488
+
+
+Query= FYCO1_EXON18
+
+Length=76
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           113        5e-24
+
+
+
+Query_21  2         TTTATCTCAAAAAGAGTATTTTATCACTTGGCTGTCGAGCGACCTGTCATCTATGATGGA  61
+1         54746443  .................G............A..A.T..A.....................  54746384
+
+Query_21  62        AGTGATTTTCCATAG  76
+1         54746383  ...............  54746369
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50864774736
+
+
+Query= CCR9_CDS
+
+Length=1164
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           1055       0.0  
+NC_044260.1                                                           51.8       3e-04
+NC_044246.1                                                           48.2       0.004
+
+
+
+Query_22  19        GTCACCCACCATGACAGGACCAGCTTGGATTATTATAAGAATGACAGCACTGTGATGTCT  78
+1         54736953  ..........C..GG.A.......C.......C..C.G..........T.....C.....  54737012
+
+Query_22  79        CTGGCTGGAAACGTTTTCAACGGCACAGACTTCACGTGTGACAATAGGCAGGTCAGGCAG  138
+1         54737013  ..TTA.......C.GG.G....A.........G...........A...............  54737072
+
+Query_22  139       TTTGCTAGAGCTTTCCTGCCAGTATTTTTCTGGCTTGTCTTCTCTGTGGGCACGGTGGGA  198
+1         54737073  ......CA..AC..T..C..G..G........C..CA.............T.T.......  54737132
+
+Query_22  199       AACGCCTTAGTCGTGCTTGTCTATTGCAAATACCGCTTCAGGAAGAGCATTGCAGATCGG  258
+1         54737133  ..T.....G.........................T........G.....CAA.G...T..  54737192
+1         55229704                                                      .....GT.  55229697
+2         1672135                                                       .....GT.  1672142
+
+Query_22  259       TACCTGCTACACTTGGCCATTGCTGATCTGCTCCTGCTTTTCACCCTCCCTTTCTGGGCC  318
+1         54737193  ..T.....G...C..........A..C..C.....C..C...........C.........  54737252
+1         55229696  ...A.CA.G..T..A............T.....T....C..T..A........T.....   55229638
+2         1672143   .....C..CA..A.......A..A..CA.A..TT.TG.CC....T.....AC.......A  1672202
+
+Query_22  319       AAAGCTGCCTCTGATGGCTGGGTCTTTAAGAGTTTCATGTGCAAAATTGTCAACAGCATG  378
+1         54737253  ..G.......TC.........A....C...GACA...........G..............  54737312
+2         1672203   G.C.....---...G.AA...A.T...GG.GA............G..GAGT..AG.G..C  1672265
+                     \                                                          
+                     |                                                          
+                    TGTATT
+
+Query_22  379       TATAAGATCAACTTCTATGGCTGCACCTTGTTTCTAACGTGCATCAGTTTTGACAGGTAC  438
+1         54737313  .....A...................G.........T..C........C.....T......  54737372
+16        5723687       ........A.G...A..A...TT..C.....G..A..G..G...........A...  5723632
+2         1672266   ...GCA..........G.......----..C.C..GG.C.T......CG.G.........  1672325
+                                   \     \                                      
+                                   |     |                                      
+                                 AGC     A
+
+Query_22  439       ATCACTGTTGTCCAGGCaaaaaaaGCTAAAAATTCTAAGCAACAAAGGCTCCTGCGCAGC  498
+1         54737373  C.............A....TG..........C...C......AGGCA......C......  54737432
+16        5723631   ..                                                            5723630
+2         1672326   ..TG.CA.C..G.......C...GT..TT...C..AGG....-.G.CA..GGCA.A....  1672385
+                                              \                                 
+                                              |                                 
+                                              A
+
+Query_22  499       AAGCTCATGTGCTTGGCCGTCTGGCTGACATCTGTGAGCCTGTGCATCCCAGAAATTGTG  558
+1         54737433  ..A..............T..............C.......................CA.A  54737492
+2         1672386   ..A.....C..T....G...G...G..T....A..                           1672420
+
+Query_22  559       TACAGTGAAAGTAAGCGAGTTGGTGACATAACAGCTTGTAAAATGACATACCCACCAACC  618
+1         54737493  .....CC....C.T..AG..G....G.T......T...C.....T.............AT  54737552
+
+Query_22  619       ATCAACAGGACCTTCAGAGTTACTGTCCTGGCTTTGAAAATCACAATAGGATTCTTCCTC  678
+1         54737553  G...GT.T..T......T..............C......G.....G.T............  54737612
+
+Query_22  679       CCGCTCCTTGTCATGGTTATTTGTTACACCCTTATCATCAACACCCTCCTTCAAGCCAAA  738
+1         54737613  ..A...T.........CC.........G....C.................G.....T...  54737672
+
+Query_22  739       AGATCCCAAAAGCAGAAATCACTGAAGATCATCACCACCATTATCACCACTTTCCTCCTC  798
+1         54737673  ................GG...................TG..C.....TG.......T...  54737732
+
+Query_22  799       TCTCAGTTCCCATACAACAGTGTTTTGCTGGTCAAAACCATCAACACGTACACCAGCGTC  858
+1         54737733  ..C..............T.T................G.........ACC.......G..G  54737792
+
+Query_22  859       ACGTACAGTTGTCAGGCTGCCGACCGGATGGACATCGGGCTGCAGGTCACCCAGAGCCTT  918
+1         54737793  TT......C..C........T.....AC.......T...........G.........A.C  54737852
+
+Query_22  919       GCCTTCCTGCATAGCTGCCTCAACCCTTTCCTCTANNNNNNNNNNNNNNNNNNNNNNNNN  978
+1         54737853  ..T.....C..C..............A........GAGGTTCAAGACAGCACTGGGCAGG  54737927
+                                                      \                         
+                                                      |                         
+                                        ACGTCTTCGCTGGGG
+
+Query_22  979       NNNNNNNNNNNTGTCTGCTGCTTGAGCAGGGGCCAAGAGCAATGCTCCTCTGCATACGAC  1038
+1         54737928  TTGATGCAGAG..G.A......G........T...........T.........T.GT...  54737990
+                                        \                                       
+                                        |                                       
+                                      CTG
+
+Query_22  1039      AGCCAGGAGCAGAGCTCACACTGGTCCTTTGCGATGCTGGGGAGACGACGGGTAAGAAGC  1098
+1         54737991  G.A........C......G.............C.C.T....C..G..GA....G..G...  54738050
+
+Query_22  1099      TCTCTGACCCTGAGCACCCACTTGAACTTCTCCGTCGTGCCCCCCTCCTGCCA  1151
+1         54738051  ..A........C.A...........TG.C....TCT....A............  54738104
+                                                                    \    
+                                                                    |    
+                                                                    T
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1199560217572
+
+
+Query= XCR1_CDS
+
+Length=927
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_044245.1                                                           695        0.0  
+NC_044244.1                                                           304        2e-80
+NC_044269.1                                                           58.1       6e-06
+NC_044246.1                                                           54.5       7e-05
+
+
+
+Query_23  1         ATGGATGAAGAACATTACCCACCCGCTTCAGATGAGAATTATTCATACGGATACTCTTTT  60
+1         54791014  .....G......T....T...TTTCA......G..T.....C...G.T.......T.A..  54790955
+0         59255974  ...............A.T...T.T.A.........T.....C.....T.A.....T.A..  59255915
+
+Query_23  61        AATGAAAGCAATGTCTGTGAAATGGGTAACTATTTTGTATTTTACACCCATCTGACTACT  120
+1         54790954  .....C....................C..........................C......  54790895
+0         59255914  .....C...........CA........G.........................C.....A  59255855
+
+Query_23  121       GTCCTCTACACTCTGGCATTTTTACTCAGCCTGCTAGGAAACACTCTAGTGCTATGGATC  180
+1         54790894  ...A............TG.....G........T........T.........T........  54790835
+0         59255854  .C.A...................G..T.......C........--......TC.CA...A  59255797
+
+Query_23  181       CTATTCAAATATGAAAACCTTGCATCTTTAACAAGTATCTTCATCATAAATCTTTGTGTC  240
+1         54790834  ..C..................A............A............G.....C......  54790775
+0         59255796  TCC..................A...T..C..TT.AC...........T....--.C....  59255739
+
+Query_23  241       TCTGATTTAGTCTTCTCGTGCATGCTGCCTTTCTGGGCAGTGGAGCAGTCCTTCGGGTGG  300
+1         54790774  .................C......................CA..C........T......  54790715
+0         59255738  .TC..............T..T..T..............T..A..C.T......T......  59255678
+                                                 \                              
+                                                 |                              
+                                                 T
+
+Query_23  301       ATTTTTGTGAATCCCCTTTCAACTCTGAGATCCCAGACACAGTGCTGTGGTTTTCTGGTG  360
+1         54790606        ....CC..T..C......................GA..................  54790553
+1         54790714  ..........G.T..T..G...                                        54790692
+                          \                                                     
+                          |                                                     
+                          G
+0         59255677  .......                                                       59255671
+0         59255568         ....C..T..C......................................A...  59255516
+
+Query_23  361       AGCTTGGCCATTTGGACTTGCAGCATATTAATTGTGGTTCCTGAGGTGATTCACACCACT  420
+1         54790552  ..T.C...TG........G.A..........................A...........A  54790493
+0         59255515  T.......TC........G.T........----..........T.A.......G.....A  59255460
+
+Query_23  421       GTGCAAGAAAGCTTGGACGGCATCAAGACCTGTGATTACGCTGACTGGAAATGGAAGAAG  480
+1         54790492  .....C..GCA...T..T....................T..CAG..............G.  54790433
+0         59255459  .........CA...T..T..GG......G.........T..CTT........A...A.T.  59255400
+
+Query_23  481       ATGGACATTTATCTGAGAAATATCCTTTTCCTGTTTTCCTTTGCAATTATTGTGTTCTGT  540
+1         54790432  G...................C..A..C................GGG.......A......  54790373
+0         59255399  G.T...........A......G.G..C...........T....GGG.......A......  59255339
+                                                          \                     
+                                                          |                     
+                                                          T
+
+Query_23  541       TATGTCAAGATATTGATCATTCTGCTTGGAGCCAAATCTCGCAGAAAGCACAGGACTGTG  600
+1         54790372  ..CT........C...CA..C.....CA....A.G.....A............A......  54790313
+0         59255338  ..CC.T...........A..                                          59255319
+
+Query_23  601       AAACTCATTCTGATTATTGTAGTGGtttttttCCTGAGCTGGGCACCTTACAACATCCTC  660
+1         54790312  ..G.....C..C........G....C.........TT................T......  54790253
+
+Query_23  661       AGTTTTTTGATTACTTTTCCACCACCTACCTGTCAGTATGAAAAGGATGTCAACCTTGCC  720
+1         54790252  ..C...C..................T............C.....A..CTCT..A......  54790193
+
+Query_23  721       TTTCACATCAGCCGTAAAATTGCTTTCTCCCACTGCTGCCTCAACCCTGTGCTCTATGTA  780
+1         54790192  ...............................................C...........C  54790133
+1         54737850                    ..C......CT....A.............AT.C.....C..C  54737891
+1         52760872                               ...T..............CA.CA......C.  52760842
+1         54822188                               ............G.....C...A....C.CC  54822218
+1         54838112                               ......T..TA...........A......C.  54838142
+25        6367983                           ...A.T.................CA.C.......CC  6367948
+2         1672811                    ...A..A..T.TA........TG.G................C.  1672853
+
+Query_23  781       TTTGTTGGAGTCAAGTTCAAGAGGCATTTGTTACATTTACGCAATCAATGTTTACCATGT  840
+1         54790132  .......................T.......C..G....T...G...G.A......C...  54790073
+1         54737892  ..C.C...G.AG.G........                                        54737913
+1         52760841  .....G..T.AG..........A....                                   52760815
+1         54822219  ....C...G..A.C.......                                         54822239
+1         54838143  ..........                                                    54838152
+25        6367947   ..CA..............                                            6367930
+2         1672854   ..CA....G..G.......                                           1672872
+
+Query_23  841       GGCATCGGTCGAGCCTCCAGCCCCAGCATCTGTTCGCAAGGTAAATTCCACTATGAAGAC  900
+1         54790072  ..G.A...C.A..T...........AGT..---..T.....C................GT  54790016
+
+Query_23  901       GCATCCAGCCACGGAAGCAAGGTCTAA  927
+1         54790015  ..G....T.T..T........AC....  54789989
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 948415543045
+
+
+  Database: GCF_003957555.1.fa
+    Posted date:  May 1, 2024  2:28 PM
+  Number of letters in database: 1,059,687,259
+  Number of sequences in database:  159
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
