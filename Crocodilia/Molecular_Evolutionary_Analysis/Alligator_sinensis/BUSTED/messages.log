@@ -1,0 +1,604 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/models/codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Already loaded 'libv3/tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'AVtCNgvt.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'FTbgS_JK.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'RkGWHGiP.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'pEFmUBJU.model_pi' was not initialized prior to being used
+Model pEFmUBJU.model assigned to Alligator_sinensis
+Model pEFmUBJU.model assigned to Pelodiscus_sinensis
+Model pEFmUBJU.model assigned to Trachemys_scripta
+Model pEFmUBJU.model assigned to Chrysemys_picta
+Model pEFmUBJU.model assigned to Node6
+Model pEFmUBJU.model assigned to Terrapene_carolina
+Model pEFmUBJU.model assigned to Node5
+Model pEFmUBJU.model assigned to Mauremys_reevesii
+Model pEFmUBJU.model assigned to Gopherus_evgoodei
+Model pEFmUBJU.model assigned to Chelonoidis_abingdonii
+Model pEFmUBJU.model assigned to Node12
+Model pEFmUBJU.model assigned to Node10
+Model pEFmUBJU.model assigned to Node4
+Model pEFmUBJU.model assigned to Chelonia_mydas
+Model pEFmUBJU.model assigned to Node3
+The tips of the tree:pEFmUBJU.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,8,3,2,4,7,6,5,1}
+
+Pseudo-optimal path's cost 900 vs 1882 for 1..k=> a 2.09111 x improvement
+Partition 0 reversible model flag computed as 1
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'pEFmUBJU.tree_0.Alligator_sinensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Alligator_sinensis.t=954.1974128638702
+Variable 'pEFmUBJU.tree_0.Pelodiscus_sinensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Pelodiscus_sinensis.t=480.199422704254
+Variable 'pEFmUBJU.tree_0.Trachemys_scripta.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Trachemys_scripta.t=71.73131168461708
+Variable 'pEFmUBJU.tree_0.Chrysemys_picta.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Chrysemys_picta.t=71.73131168461708
+Variable 'pEFmUBJU.tree_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Node6.t=31.16856460915162
+Variable 'pEFmUBJU.tree_0.Terrapene_carolina.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Terrapene_carolina.t=102.8998762937687
+Variable 'pEFmUBJU.tree_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Node5.t=105.3288072937079
+Variable 'pEFmUBJU.tree_0.Mauremys_reevesii.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Mauremys_reevesii.t=163.4464104647253
+Variable 'pEFmUBJU.tree_0.Gopherus_evgoodei.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Gopherus_evgoodei.t=138.7243721855598
+Variable 'pEFmUBJU.tree_0.Chelonoidis_abingdonii.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Chelonoidis_abingdonii.t=138.7243721855598
+Variable 'pEFmUBJU.tree_0.Node12.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Node12.t=24.72203827916558
+Variable 'pEFmUBJU.tree_0.Node10.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Node10.t=44.78227312275126
+Variable 'pEFmUBJU.tree_0.Node4.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Node4.t=96.35495024207881
+Variable 'pEFmUBJU.tree_0.Chelonia_mydas.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Chelonia_mydas.t=304.5836338295554
+Variable 'pEFmUBJU.tree_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: pEFmUBJU.tree_0.Node3.t=175.6157888746986
+Variable 'pEFmUBJU.pEFmUBJU.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 3289-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+pEFmUBJU.model.theta_GT = 0.25
+pEFmUBJU.model.theta_CT = 1
+pEFmUBJU.model.theta_CG = 0.25
+pEFmUBJU.model.theta_AT = 0.25
+pEFmUBJU.model.theta_AC = 0.25
+pEFmUBJU.tree_0.Alligator_sinensis.t = 954.197
+pEFmUBJU.tree_0.Pelodiscus_sinensis.t = 480.199
+pEFmUBJU.tree_0.Trachemys_scripta.t = 71.7313
+pEFmUBJU.tree_0.Chrysemys_picta.t = 71.7313
+pEFmUBJU.tree_0.Node6.t = 31.1686
+pEFmUBJU.tree_0.Terrapene_carolina.t = 102.9
+pEFmUBJU.tree_0.Node5.t = 105.329
+pEFmUBJU.tree_0.Mauremys_reevesii.t = 163.446
+pEFmUBJU.tree_0.Gopherus_evgoodei.t = 138.724
+pEFmUBJU.tree_0.Chelonoidis_abingdonii.t = 138.724
+pEFmUBJU.tree_0.Node12.t = 24.722
+pEFmUBJU.tree_0.Node10.t = 44.7823
+pEFmUBJU.tree_0.Node4.t = 96.355
+pEFmUBJU.tree_0.Chelonia_mydas.t = 304.584
+pEFmUBJU.tree_0.Node3.t = 175.616
+Site 32 evaluated to a 0 probability in ComputeLLWithBranchCache
+Site 57 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Optimization finished in 22 loop passes.
+1923 likelihood evaluation calls and 10775 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'pEFmUBJU.option' was not initialized prior to being used
+Variable 'busted.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'CTXCNgNY.initial_value' was not initialized prior to being used
+Variable 'iMIHpeLb.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2857-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.337063
+frequencies._aux.CF3x4.p0_1 = 0.261343
+frequencies._aux.CF3x4.p0_2 = 0.45624
+frequencies._aux.CF3x4.p1_0 = 0.272619
+frequencies._aux.CF3x4.p1_1 = 0.290125
+frequencies._aux.CF3x4.p1_2 = 0.245773
+frequencies._aux.CF3x4.p2_0 = 0.259603
+frequencies._aux.CF3x4.p2_1 = 0.342909
+frequencies._aux.CF3x4.p2_2 = 0.406362
+Optimization finished in 5 loop passes.
+193 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'iMIHpeLb.model_MGREV_pi' was not initialized prior to being used
+Model iMIHpeLb.model_MGREV assigned to Alligator_sinensis
+Model iMIHpeLb.model_MGREV assigned to Pelodiscus_sinensis
+Model iMIHpeLb.model_MGREV assigned to Trachemys_scripta
+Model iMIHpeLb.model_MGREV assigned to Chrysemys_picta
+Model iMIHpeLb.model_MGREV assigned to Node6
+Model iMIHpeLb.model_MGREV assigned to Terrapene_carolina
+Model iMIHpeLb.model_MGREV assigned to Node5
+Model iMIHpeLb.model_MGREV assigned to Mauremys_reevesii
+Model iMIHpeLb.model_MGREV assigned to Gopherus_evgoodei
+Model iMIHpeLb.model_MGREV assigned to Chelonoidis_abingdonii
+Model iMIHpeLb.model_MGREV assigned to Node12
+Model iMIHpeLb.model_MGREV assigned to Node10
+Model iMIHpeLb.model_MGREV assigned to Node4
+Model iMIHpeLb.model_MGREV assigned to Chelonia_mydas
+Model iMIHpeLb.model_MGREV assigned to Node3
+The tips of the tree:iMIHpeLb.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,8,3,2,4,7,6,5,1}
+
+Pseudo-optimal path's cost 2268 vs 4438 for 1..k=> a 1.95679 x improvement
+Partition 0 reversible model flag computed as 1
+Variable 'iMIHpeLb.iMIHpeLb.likelihoodFunction' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Alligator_sinensis.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Pelodiscus_sinensis.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Trachemys_scripta.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Chrysemys_picta.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Terrapene_carolina.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Node5.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Mauremys_reevesii.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Gopherus_evgoodei.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Chelonoidis_abingdonii.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Node12.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Node10.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Node4.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Chelonia_mydas.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Node3.alpha' was not initialized prior to being used
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 140 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 40 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 163 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 181-th LF evaluation.
+Initial guess for iMIHpeLb.tree_0.Pelodiscus_sinensis.alpha is 0.000293557
+Initial guess for iMIHpeLb.tree_0.Node3.alpha is 2.04485e-05
+Initial guess for iMIHpeLb.tree_0.Node4.alpha is 2.40086e-06
+Initial guess for iMIHpeLb.tree_0.Node5.alpha is 5.42084e-06
+Initial guess for iMIHpeLb.tree_0.Node6.alpha is 2.8168e-06
+Initial guess for iMIHpeLb.tree_0.Trachemys_scripta.alpha is 3.70913e-05
+Initial guess for iMIHpeLb.tree_0.Chrysemys_picta.alpha is 3.16352e-06
+Initial guess for iMIHpeLb.tree_0.Terrapene_carolina.alpha is 1.06933e-06
+Initial guess for iMIHpeLb.tree_0.Node10.alpha is 5.61885e-06
+Initial guess for iMIHpeLb.tree_0.Mauremys_reevesii.alpha is 1.41605e-06
+Initial guess for iMIHpeLb.tree_0.Node12.alpha is -1.87063e-06
+Initial guess for iMIHpeLb.tree_0.Gopherus_evgoodei.alpha is 8.52231e-06
+Initial guess for iMIHpeLb.tree_0.Chelonoidis_abingdonii.alpha is 9.4921e-06
+Initial guess for iMIHpeLb.tree_0.Chelonia_mydas.alpha is 5.02066e-06
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+iMIHpeLb.model_MGREV.theta_CT = 1
+iMIHpeLb.model_MGREV.theta_GT = 1
+iMIHpeLb.model_MGREV.theta_CG = 1
+iMIHpeLb.model_MGREV.theta_AC = 1
+iMIHpeLb.model_MGREV.theta_AT = 1
+iMIHpeLb.model_MGREV.omega_0 = 1
+iMIHpeLb.tree_0.Alligator_sinensis.alpha = 0.1
+iMIHpeLb.tree_0.Pelodiscus_sinensis.alpha = 0.000293557
+iMIHpeLb.tree_0.Trachemys_scripta.alpha = 3.70913e-05
+iMIHpeLb.tree_0.Chrysemys_picta.alpha = 3.16352e-06
+iMIHpeLb.tree_0.Node6.alpha = 2.8168e-06
+iMIHpeLb.tree_0.Terrapene_carolina.alpha = 1.06933e-06
+iMIHpeLb.tree_0.Node5.alpha = 5.42084e-06
+iMIHpeLb.tree_0.Mauremys_reevesii.alpha = 1.41605e-06
+iMIHpeLb.tree_0.Gopherus_evgoodei.alpha = 8.52231e-06
+iMIHpeLb.tree_0.Chelonoidis_abingdonii.alpha = 9.4921e-06
+iMIHpeLb.tree_0.Node12.alpha = 0
+iMIHpeLb.tree_0.Node10.alpha = 5.61885e-06
+iMIHpeLb.tree_0.Node4.alpha = 2.40086e-06
+iMIHpeLb.tree_0.Chelonia_mydas.alpha = 5.02066e-06
+iMIHpeLb.tree_0.Node3.alpha = 2.04485e-05
+iMIHpeLb.model_MGREV.omega_1 = 1
+Failing bound checks on iMIHpeLb.tree_0.Mauremys_reevesii.beta =         10002.25595971964
+Optimization finished in 38 loop passes.
+4143 likelihood evaluation calls and 24031 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 2840-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.337063
+frequencies._aux.CF3x4.p0_1 = 0.261343
+frequencies._aux.CF3x4.p0_2 = 0.45624
+frequencies._aux.CF3x4.p1_0 = 0.272619
+frequencies._aux.CF3x4.p1_1 = 0.290125
+frequencies._aux.CF3x4.p1_2 = 0.245773
+frequencies._aux.CF3x4.p2_0 = 0.259603
+frequencies._aux.CF3x4.p2_1 = 0.342909
+frequencies._aux.CF3x4.p2_2 = 0.406362
+Optimization finished in 5 loop passes.
+194 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'iMIHpeLb.model_MGREV_pi' was not initialized prior to being used
+Model iMIHpeLb.model_MGREV assigned to Alligator_sinensis
+Model iMIHpeLb.model_MGREV assigned to Pelodiscus_sinensis
+Model iMIHpeLb.model_MGREV assigned to Trachemys_scripta
+Model iMIHpeLb.model_MGREV assigned to Chrysemys_picta
+Model iMIHpeLb.model_MGREV assigned to Node6
+Model iMIHpeLb.model_MGREV assigned to Terrapene_carolina
+Model iMIHpeLb.model_MGREV assigned to Node5
+Model iMIHpeLb.model_MGREV assigned to Mauremys_reevesii
+Model iMIHpeLb.model_MGREV assigned to Gopherus_evgoodei
+Model iMIHpeLb.model_MGREV assigned to Chelonoidis_abingdonii
+Model iMIHpeLb.model_MGREV assigned to Node12
+Model iMIHpeLb.model_MGREV assigned to Node10
+Model iMIHpeLb.model_MGREV assigned to Node4
+Model iMIHpeLb.model_MGREV assigned to Chelonia_mydas
+Model iMIHpeLb.model_MGREV assigned to Node3
+The tips of the tree:iMIHpeLb.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,8,3,2,4,7,6,5,1}
+
+Pseudo-optimal path's cost 2268 vs 4438 for 1..k=> a 1.95679 x improvement
+Partition 0 reversible model flag computed as 1
+Variable 'iMIHpeLb.tree_0.Node4.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Node10.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Chelonia_mydas.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Node12.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Chelonoidis_abingdonii.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Gopherus_evgoodei.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Alligator_sinensis.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Mauremys_reevesii.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Pelodiscus_sinensis.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Chrysemys_picta.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Node5.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Terrapene_carolina.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Trachemys_scripta.alpha' was not initialized prior to being used
+Variable 'iMIHpeLb.tree_0.Node3.alpha' was not initialized prior to being used
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 140 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 40 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 163 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 300 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 199 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 140 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 240-th LF evaluation.
+Initial guess for iMIHpeLb.tree_0.Pelodiscus_sinensis.alpha is 0.000293557
+Initial guess for iMIHpeLb.tree_0.Node3.alpha is 2.04485e-05
+Initial guess for iMIHpeLb.tree_0.Node4.alpha is 2.40086e-06
+Initial guess for iMIHpeLb.tree_0.Node5.alpha is 5.42084e-06
+Initial guess for iMIHpeLb.tree_0.Node6.alpha is 2.8168e-06
+Initial guess for iMIHpeLb.tree_0.Trachemys_scripta.alpha is 3.70913e-05
+Initial guess for iMIHpeLb.tree_0.Chrysemys_picta.alpha is 3.16352e-06
+Initial guess for iMIHpeLb.tree_0.Terrapene_carolina.alpha is 1.06933e-06
+Initial guess for iMIHpeLb.tree_0.Node10.alpha is 5.61885e-06
+Initial guess for iMIHpeLb.tree_0.Mauremys_reevesii.alpha is 1.41605e-06
+Initial guess for iMIHpeLb.tree_0.Node12.alpha is -1.87063e-06
+Initial guess for iMIHpeLb.tree_0.Gopherus_evgoodei.alpha is 8.52231e-06
+Initial guess for iMIHpeLb.tree_0.Chelonoidis_abingdonii.alpha is 9.4921e-06
+Initial guess for iMIHpeLb.tree_0.Chelonia_mydas.alpha is 5.02066e-06
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+iMIHpeLb.model_MGREV.theta_CT = 1
+iMIHpeLb.model_MGREV.theta_AT = 1
+iMIHpeLb.model_MGREV.theta_CG = 1
+iMIHpeLb.model_MGREV.theta_GT = 1
+iMIHpeLb.model_MGREV.theta_AC = 1
+iMIHpeLb.model_MGREV.omega_0 = 1
+iMIHpeLb.tree_0.Alligator_sinensis.alpha = 0.1
+iMIHpeLb.tree_0.Pelodiscus_sinensis.alpha = 0.000293557
+iMIHpeLb.tree_0.Trachemys_scripta.alpha = 3.70913e-05
+iMIHpeLb.tree_0.Chrysemys_picta.alpha = 3.16352e-06
+iMIHpeLb.tree_0.Node6.alpha = 2.8168e-06
+iMIHpeLb.tree_0.Terrapene_carolina.alpha = 1.06933e-06
+iMIHpeLb.tree_0.Node5.alpha = 5.42084e-06
+iMIHpeLb.tree_0.Mauremys_reevesii.alpha = 1.41605e-06
+iMIHpeLb.tree_0.Gopherus_evgoodei.alpha = 8.52231e-06
+iMIHpeLb.tree_0.Chelonoidis_abingdonii.alpha = 9.4921e-06
+iMIHpeLb.tree_0.Node12.alpha = 0
+iMIHpeLb.tree_0.Node10.alpha = 5.61885e-06
+iMIHpeLb.tree_0.Node4.alpha = 2.40086e-06
+iMIHpeLb.tree_0.Chelonia_mydas.alpha = 5.02066e-06
+iMIHpeLb.tree_0.Node3.alpha = 2.04485e-05
+iMIHpeLb.model_MGREV.omega_1 = 1
+Failing bound checks on iMIHpeLb.tree_0.Mauremys_reevesii.beta =         10002.25595971964
+Optimization finished in 43 loop passes.
+4496 likelihood evaluation calls and 26254 matrix exponentiations calls were made
+
+Overwritten previously defined function:'ErvHFLfM.rate_generator'
+Overwritten previously defined function:'ErvHFLfM.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 2873-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.337063
+frequencies._aux.CF3x4.p0_1 = 0.261343
+frequencies._aux.CF3x4.p0_2 = 0.45624
+frequencies._aux.CF3x4.p1_0 = 0.272619
+frequencies._aux.CF3x4.p1_1 = 0.290125
+frequencies._aux.CF3x4.p1_2 = 0.245773
+frequencies._aux.CF3x4.p2_0 = 0.259603
+frequencies._aux.CF3x4.p2_1 = 0.342909
+frequencies._aux.CF3x4.p2_2 = 0.406362
+Optimization finished in 5 loop passes.
+194 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'busted.test_pi' was not initialized prior to being used
+Overwritten previously defined function:'ErvHFLfM.rate_generator'
+Overwritten previously defined function:'ErvHFLfM.rate_generator'
+Overwritten previously defined function:'ErvHFLfM.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2840-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.337063
+frequencies._aux.CF3x4.p0_1 = 0.261343
+frequencies._aux.CF3x4.p0_2 = 0.45624
+frequencies._aux.CF3x4.p1_0 = 0.272619
+frequencies._aux.CF3x4.p1_1 = 0.290125
+frequencies._aux.CF3x4.p1_2 = 0.245773
+frequencies._aux.CF3x4.p2_0 = 0.259603
+frequencies._aux.CF3x4.p2_1 = 0.342909
+frequencies._aux.CF3x4.p2_2 = 0.406362
+Optimization finished in 5 loop passes.
+193 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'busted.background_pi' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+No nodel was assigned to Alligator_sinensis
+No nodel was assigned to Pelodiscus_sinensis
+No nodel was assigned to Trachemys_scripta
+No nodel was assigned to Chrysemys_picta
+No nodel was assigned to Node6
+No nodel was assigned to Terrapene_carolina
+No nodel was assigned to Node5
+No nodel was assigned to Mauremys_reevesii
+No nodel was assigned to Gopherus_evgoodei
+No nodel was assigned to Chelonoidis_abingdonii
+No nodel was assigned to Node12
+No nodel was assigned to Node10
+No nodel was assigned to Node4
+No nodel was assigned to Chelonia_mydas
+No nodel was assigned to Node3
+The tips of the tree:kpSTOmFy.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {0,8,3,2,4,7,6,5,1}
+
+Pseudo-optimal path's cost 2268 vs 4438 for 1..k=> a 1.95679 x improvement
+Partition 0 is ASSUMED to have a reversible model
+busted.background.theta_AC was already constrained in estimators.SetGlobals2
+busted.background.theta_AG was already constrained in estimators.SetGlobals2
+busted.background.theta_AT was already constrained in estimators.SetGlobals2
+busted.background.theta_CG was already constrained in estimators.SetGlobals2
+busted.background.theta_CT was already constrained in estimators.SetGlobals2
+busted.background.theta_GT was already constrained in estimators.SetGlobals2
+busted.test.theta_AG was already constrained in estimators.SetGlobals2
+Variable 'kpSTOmFy.tree_id_0.Alligator_sinensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Alligator_sinensis.t=3.747736242845452
+Variable 'kpSTOmFy.tree_id_0.Pelodiscus_sinensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Pelodiscus_sinensis.t=0.4749185772792401
+Variable 'kpSTOmFy.tree_id_0.Trachemys_scripta.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Trachemys_scripta.t=0.03973017811868475
+Variable 'kpSTOmFy.tree_id_0.Chrysemys_picta.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Chrysemys_picta.t=0.006396776617526072
+Variable 'kpSTOmFy.tree_id_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Node6.t=0.03316977980417968
+Variable 'kpSTOmFy.tree_id_0.Terrapene_carolina.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Terrapene_carolina.t=0.01314323689928941
+Variable 'kpSTOmFy.tree_id_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Node5.t=0.02900627653229073
+Variable 'kpSTOmFy.tree_id_0.Mauremys_reevesii.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Mauremys_reevesii.t=0.11101116802391
+Variable 'kpSTOmFy.tree_id_0.Gopherus_evgoodei.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Gopherus_evgoodei.t=0.09766884041993341
+Variable 'kpSTOmFy.tree_id_0.Chelonoidis_abingdonii.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Chelonoidis_abingdonii.t=0.06071042672814492
+Variable 'kpSTOmFy.tree_id_0.Node12.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Node12.t=0
+Variable 'kpSTOmFy.tree_id_0.Node10.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Node10.t=0.08544227488282399
+Variable 'kpSTOmFy.tree_id_0.Node4.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Node4.t=0.04208343658493201
+Variable 'kpSTOmFy.tree_id_0.Chelonia_mydas.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Chelonia_mydas.t=0.1628161694565224
+Variable 'kpSTOmFy.tree_id_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: kpSTOmFy.tree_id_0.Node3.t=0.2546913538789279
+Variable 'kpSTOmFy.kpSTOmFy.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 5-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+busted.test.theta_CT = 1.04014
+busted.test.theta_CG = 0.661512
+busted.test.theta_GT = 0.371027
+busted.test.theta_AC = 0.5436
+busted.test.theta_AT = 0.380887
+busted.background.omega3 = 9.52381
+busted.background.omega1 = 0
+busted.background.bsrel_mixture_aux_1 = 0.666667
+busted.background.omega2 = 0.238095
+busted.background.bsrel_mixture_aux_0 = 0.7
+busted.test.bsrel_mixture_aux_1 = 0.666667
+busted.test.omega2 = 0.238095
+busted.test.bsrel_mixture_aux_0 = 0.7
+busted.test.omega1 = 0
+busted.test.omega3 = 9.52381
+kpSTOmFy.tree_id_0.Alligator_sinensis.t = 3.74774
+kpSTOmFy.tree_id_0.Pelodiscus_sinensis.t = 0.474919
+kpSTOmFy.tree_id_0.Trachemys_scripta.t = 0.0397302
+kpSTOmFy.tree_id_0.Chrysemys_picta.t = 0.00639678
+kpSTOmFy.tree_id_0.Node6.t = 0.0331698
+kpSTOmFy.tree_id_0.Terrapene_carolina.t = 0.0131432
+kpSTOmFy.tree_id_0.Node5.t = 0.0290063
+kpSTOmFy.tree_id_0.Mauremys_reevesii.t = 0.111011
+kpSTOmFy.tree_id_0.Gopherus_evgoodei.t = 0.0976688
+kpSTOmFy.tree_id_0.Chelonoidis_abingdonii.t = 0.0607104
+kpSTOmFy.tree_id_0.Node12.t = 0
+kpSTOmFy.tree_id_0.Node10.t = 0.0854423
+kpSTOmFy.tree_id_0.Node4.t = 0.0420834
+kpSTOmFy.tree_id_0.Chelonia_mydas.t = 0.162816
+kpSTOmFy.tree_id_0.Node3.t = 0.254691
+Optimization finished in 138 loop passes.
+12292 likelihood evaluation calls and 274086 matrix exponentiations calls were made
+
+Variable 'cFudCAvz.kpSTOmFy.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (9) of threads.
+Set GUI update interval to every 61-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+busted.test.theta_AC = 0.334061
+busted.test.theta_CT = 0.939551
+busted.test.theta_GT = 0.24577
+busted.test.theta_CG = 0.586398
+busted.test.theta_AT = 0.235493
+busted.background.bsrel_mixture_aux_1 = 0.93236
+busted.background.omega1 = 0.150432
+busted.background.bsrel_mixture_aux_0 = 0.734409
+busted.test.bsrel_mixture_aux_0 = 0.457827
+busted.background.omega2 = 0.717312
+busted.background.omega3 = 6.22883
+busted.test.omega1 = 0.241121
+busted.test.bsrel_mixture_aux_1 = 0.359223
+busted.test.omega2 = 0.257317
+kpSTOmFy.tree_id_0.Alligator_sinensis.t = 1.4469
+kpSTOmFy.tree_id_0.Pelodiscus_sinensis.t = 0.313942
+kpSTOmFy.tree_id_0.Trachemys_scripta.t = 0.0284674
+kpSTOmFy.tree_id_0.Chrysemys_picta.t = 0.00453397
+kpSTOmFy.tree_id_0.Node6.t = 0.0235514
+kpSTOmFy.tree_id_0.Terrapene_carolina.t = 0.00927563
+kpSTOmFy.tree_id_0.Node5.t = 0.0207526
+kpSTOmFy.tree_id_0.Mauremys_reevesii.t = 0.0797641
+kpSTOmFy.tree_id_0.Gopherus_evgoodei.t = 0.0718299
+kpSTOmFy.tree_id_0.Chelonoidis_abingdonii.t = 0.0418868
+kpSTOmFy.tree_id_0.Node12.t = 0
+kpSTOmFy.tree_id_0.Node10.t = 0.0602445
+kpSTOmFy.tree_id_0.Node4.t = 0.0258214
+kpSTOmFy.tree_id_0.Chelonia_mydas.t = 0.121541
+kpSTOmFy.tree_id_0.Node3.t = 0.239964
+Optimization finished in 13 loop passes.
+1474 likelihood evaluation calls and 34056 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used

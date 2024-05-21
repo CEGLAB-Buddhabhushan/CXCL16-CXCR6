@@ -1,0 +1,59 @@
+==================================================
+file name: Gavialis_gangeticus_chr.fa
+sequences:             1
+total length:  217935827 bp  (217896194 bp excl N/X-runs)
+GC level:         44.17 %
+bases masked:  102175750 bp ( 46.88 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements        99808     50633515 bp   23.23 %
+   SINEs:            11952      2076446 bp    0.95 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:            67036     34739249 bp   15.94 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex      47572     28386710 bp   13.03 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL        262       150923 bp    0.07 %
+     RTE/Bov-B        3104      1901764 bp    0.87 %
+     L1/CIN4           292       147563 bp    0.07 %
+   LTR elements:     20820     13817820 bp    6.34 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia           0            0 bp    0.00 %
+     Gypsy/DIRS1     12276      8515793 bp    3.91 %
+       Retroviral     5463      4274183 bp    1.96 %
+
+DNA transposons     168007     48074424 bp   22.06 %
+   hobo-Activator    72870     21298896 bp    9.77 %
+   Tc1-IS630-Pogo    10809      3473842 bp    1.59 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR           163        64963 bp    0.03 %
+   PiggyBac             60        67543 bp    0.03 %
+   Tourist/Harbinger 76576     21265689 bp    9.76 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles       1506       404853 bp    0.19 %
+
+Unclassified:         3874       714905 bp    0.33 %
+
+Total interspersed repeats:    99422844 bp   45.62 %
+
+
+Small RNA:            2344       412831 bp    0.19 %
+
+Satellites:            731       185609 bp    0.09 %
+Simple repeats:      25536      1049826 bp    0.48 %
+Low complexity:       3786      1091130 bp    0.50 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be Crocodylia    
+RepeatMasker version 4.1.5 , sensitive mode
+                                      
+run with rmblastn version 2.14.0+
+FamDB: CONS-Dfam_3.7

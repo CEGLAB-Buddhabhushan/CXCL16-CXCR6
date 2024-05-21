@@ -1,0 +1,130 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Crocodylus_porosus.fa
+           50,335,901 sequences; 7,600,721,051 total letters
+
+
+
+Query= Pelodiscus_sinensis_CXCR6_with_flank
+
+Length=1432
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR8268518.19457193 NS500216:115:H105WBGXX:4:11506:2583:9428/1        115        2e-22
+SRR8268519.24700658 NS500216:115:H105WBGXX:4:23504:13956:5579/1       111        3e-21
+SRR8268519.5261081 NS500216:115:H105WBGXX:1:22308:1866:12107/1        111        3e-21
+SRR8268518.21943908 NS500216:115:H105WBGXX:4:13612:22844:8694/1       106        1e-19
+SRR8268518.7345396 NS500216:115:H105WBGXX:2:11308:1945:14407/1        96.0       2e-16
+SRR8268519.24749344 NS500216:115:H105WBGXX:4:23505:15347:18096/1      91.5       2e-15
+SRR8268519.7285730 NS500216:115:H105WBGXX:2:11304:7746:7424/1         75.2       2e-10
+SRR8268519.926480 NS500216:115:H105WBGXX:1:11308:21748:15240/1        75.2       2e-10
+SRR8268518.18976138 NS500216:115:H105WBGXX:4:11401:5282:4346/1        75.2       2e-10
+SRR8268519.20388393 NS500216:115:H105WBGXX:4:12409:24931:10763/1      59.0       1e-05
+SRR8268519.4625622 NS500216:115:H105WBGXX:1:22112:18567:5983/1        59.0       1e-05
+SRR8268518.1837303 NS500216:115:H105WBGXX:1:12303:16454:12453/1       58.1       5e-05
+SRR8268518.1837313 NS500216:115:H105WBGXX:1:12303:16446:12460/1       53.6       6e-04
+SRR8268518.8632829 NS500216:115:H105WBGXX:2:13105:10305:8827/1        52.7       0.002
+SRR8268519.13597329 NS500216:115:H105WBGXX:3:11512:5138:18537/1       49.1       0.026
+SRR8268518.15674499 NS500216:115:H105WBGXX:3:13607:25932:12548/1      49.1       0.026
+
+
+
+Query_1   150  AAATAATTTTGGATGTGTGTGATTACAGGTAGACTTTAAAAAGAAGACGACATGGAGGAT  209
+15674498  88   ....T...........TCA.AT.....A....CT..............T.......      31
+                          \                                                
+                          |                                                
+                         TT
+
+Query_1   210  CTGGATTGTTATTACCCCGAGCTTAACCTCACGTGCAACGATTATAGTGAGAGTGATGAT  269
+
+Query_1   270  TTTCTCAGGGCCAGCAAAATTTTTCTGCCCTGTATGTATGCATTAGCTTTTGTCTTTGGG  329
+32329259  151                ......C...G......-.......T....T....C..........  107
+25970009  151                ......C...G......-.......T....T....C..........  107
+18976137  151                ......C...G......-.......T....T....C..........  107
+
+Query_1   330  CTGATAGGAAATGCTTTGGTCATTATCATATACATTTTCTGTGAAAAACTGAAGACACTG  389
+32329259  106  .....G.....----C..T..C...A.G.G......C...AA..G...T.T....       56
+25970009  106  .....G.....----C..T..C...A.G.G......C...AA..G...T.T....       56
+18976137  106  .....G.....----C..T..C...A.G.G......C...AA..G...T.T....       56
+
+Query_1   390  ACAGATGTATTTTTAGTGAGCTTGGCTACAGCTGACTTGCTTTTTCTTTCTACCTTGCCA  449
+49744187  151                                              .....AC.T.C.....  136
+30304610  151                                              .....AC.T.C.....  136
+21943907  151                        ...T..AT......C.A..........AC.T.C.....  114
+7345395   64                      ......T..AT......C.A..........AC.T.C.....  104
+49792873  64                      ......T..AT......C.A..........AC.T.C.....  104
+45431922  95                      ......T..AT......C.A..........AC.T.C..A..  135
+29669151  95                      ......T..AT......C.A..........AC.T.C.....  135
+1837302   98                      ......T..AT......C.A..........AC.T.C.....  138
+1837312   98                      ......T..AT......C.A..........AC.T.C.....  138
+38640858  118                                        .......G.A.T.T.TC.A...  97
+
+Query_1   450  TTCTGGGCATATTCTGCTGCTCACGAGTGGATTTTTGGCTCTGTGACGTGTAAAATTATA  509
+19457192  151  .....................T..A..............A.CACA.T....TGT......  92
+49744187  135  .....................T..A..............A.CACA.T....TGT......  76
+30304610  135  .....................T..A..............A.CACA.T....TGT......  76
+21943907  113  .....................T..A..............A.CACA.T....TGT......  54
+7345395   105  .....................T..A..............                       143
+49792873  105  .....................T..A..A...........                       143
+45431922  136  ................                                              151
+29669151  136  ...........A....                                              151
+1837302   139  .............                                                 151
+1837312   139  .......A.....                                                 151
+38640858  96   ...........CCAG..A..A..TA.T...........AGA...A.T..........     40
+
+Query_1   510  CGGGGCCTGTACACTTTGAATCTGTATACATCAATGCTAACCCTCACTTGTATAACTATT  569
+19457192  91   ..AA.TA.T..T.AC...........C..T...G..T.G..AT.A..C.......A....  32
+49744187  75   ..AA.TA.T..T.AC...........C..T...G..T.G..AT.A..C.......A....  16
+30304610  75   ..AA.TA.T..T.AC...........C..T...G..T.G..AT.A..C.......A....  16
+21943907  53   ..AA.TA.T..T.AC...........C..T...G..T.G..AT.A..C.....         1
+
+Query_1   570  GAGAGGTTTATCGCTATTGTCCAAGCCACCAAAGCCCATGTGAATCAAGCCAAAAGAATG  629
+19457192  31   ..C....G...T.......CT.....A....                               1
+49744187  15   ..C....G...T...                                               1
+30304610  15   ..C....G...T...                                               1
+
+Query_1   630  GTGTGGGGGAAAGTTATCTGCATTTTAGTTTGGGTGATGTCAGTAGTATTTGCAATACCA  689
+
+Query_1   690  CAATTTATATATAGTACACAATCCACATATGATAAGTCAATTTGTCATGCAACGTACCCA  749
+
+Query_1   750  TCCCGTCTCGTAGAATTGGTTCTTAAAGTACTTCAAATGACTCTTGGATTCCTTATCCCT  809
+8632828   40                                              ....C..TT........  56
+
+Query_1   810  CTGCTAACAATGATTATCTGCTACTCGATCATTATCAAAACTTTACTACATGCCAGGAGT  869
+8632828   57   .....CTTT......T.T.....TG.AT.....G.......C...G.G..A.....A.--  115
+                                                                    \      
+                                                                    |      
+                                                                    T
+
+Query_1   870  TTCCAAAAG  878
+8632828   116  .........  124
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 8233241982966
+
+
+  Database: Crocodylus_porosus.fa
+    Posted date:  Sep 27, 2023  10:29 AM
+  Number of letters in database: 7,600,721,051
+  Number of sequences in database:  50,335,901
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,82 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_030867095.1_rAllMis1_genomic.fna
+           195 sequences; 2,346,795,873 total letters
+
+
+
+Query= Pelodiscus_sinensis
+
+Length=1032
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_081828.1 Alligator mississippiensis isolate rAllMis1 chromosom...  319        3e-84
+
+
+
+Query_1  82         AGCAAAATTTTTCTGCCCTGTATGTATGCATTAGCTTTTGTCTTTGGGCTGATAGGAAAT  141
+4        137381655  ........C...G....T.-.......T....T....C...............G.....C  137381713
+
+Query_1  142        GCTTTGGTCATTATCATATACATTTTCTGTGAAAAACTGAAGACACTGACAGATGTATTT  201
+4        137381714  ----..C..C...A...G......C...A...G...T.T.....C..AC...........  137381769
+
+Query_1  202        TTAGTGAGCTTGGCTACAGCTGACTTGCTTTTTCTTTCTACCTTGCCATTCTGGGCATAT  261
+4        137381770  ..G..T.......T..AT.A....C.A......T...AC.T.C.........A.A.....  137381836
+                           \                                                    
+                           |                                                    
+                     CCTGCTG
+4        137599146           .......TCT....T.........G.A.T.T.TC.A..............C  137599196
+4        133989671                       ........C...G.....C....C..-......T.C...  133989633
+                                                       \                        
+                                                       |                        
+                                                       G
+
+Query_1  262        TCTGCTGCTCACGAGTGGATTTTTGGCTCTGTGACGTGTAAAATTATACGGGGCCTGTAC  321
+4        137381837  .........T..A............A.A.CACA.T....TGT......T.AA..A.T..T  137381896
+4        137599197  CAG..A..A..TA.T...........AGA...A.T..........                 137599241
+4        133989632  .A...A.TGG..C.A...........GG.A..-TG............               133989586
+                                            \                                   
+                                            |                                   
+                                            G
+
+Query_1  322        ACTTTGAATCTGTATACATCAATGCTAACCCTCACTTGTATAACTATTGAGAGGTTTATC  381
+4        137381897  .AC........C..C..T...G..T.G..AT.A..C.......G..C..TC........T  137381956
+
+Query_1  382        GCTATTGTCCAAGCCACCAAAGCCCATGTGAATCAAGCCAAAAGAATGGTGTGGGGGAAA  441
+4        137381957  .......CT.....A.........A......G...........T............C...  137382016
+
+Query_1  442        GTTATCTGCATTTTAGTTTGGGTGATGTCAGTAGTATTTGCAATACCACAATTTATATAT  501
+4        137382017  .CAG....T.....G..A...A....A.......C......C..GT....G.....T...  137382076
+
+Query_1  502        AGTACACAATCCACAT  517
+4        137382077  ........G.T..A..  137382092
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2344442648562
+
+
+  Database: GCF_030867095.1_rAllMis1_genomic.fna
+    Posted date:  Sep 28, 2023  12:25 PM
+  Number of letters in database: 2,346,795,873
+  Number of sequences in database:  195
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

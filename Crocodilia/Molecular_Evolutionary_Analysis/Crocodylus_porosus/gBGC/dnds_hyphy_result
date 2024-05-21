@@ -1,0 +1,85 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/Crocodylia_selection/Crocodylus_porosus/gBGC/`) 
+
+A tree was found in the data file:
+(Crocodylus_porosus:347.74,Pelodiscus_sinensis:175,((((Trachemys_scripta:26.14118,Chrysemys_picta:26.14118):11.35882,Terrapene_carolina:37.5):38.38518,(Mauremys_reevesii:59.56509,(Gopherus_evgoodei:50.55559,Chelonoidis_abingdonii:50.55559):9.0095):16.32009):35.11482,Chelonia_mydas:111):64)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1038
+Synonymous  sites      :237.0401560830581
+Nonsynonymous  sites   :759.7135331577199
+
+Total tree lengths:
+	E[syn]        : 0.3177229117511539
+	E[non-syn]    : 0.329444241980462
+	dS            : 1.391310180719498
+	dN            : 0.4501211420499027
+
+
+E[Syn subs/nucleotide site] tree: 
+	(Crocodylus_porosus:0.2032258781017006,Pelodiscus_sinensis:0.03799549063529416,((((Trachemys_scripta:0.004174835619155714,Chrysemys_picta:0.001026068637166421)Node6:0.002078736844085273,Terrapene_carolina:0)Node5:0.003556468917645176,(Mauremys_reevesii:0.004896841767949709,(Gopherus_evgoodei:0.009235697982120636,Chelonoidis_abingdonii:0.002905601118207056)Node12:0)Node10:0.006725213888460522)Node4:0.002504370826986352,Chelonia_mydas:0.01652423779385402)Node3:0.02287346961852822)
+
+E[Non-syn subs/nucleotide site] tree: 
+	(Crocodylus_porosus:0.227106790271581,Pelodiscus_sinensis:0.03252175604860492,((((Trachemys_scripta:0.001946691284738316,Chrysemys_picta:0)Node6:0.00292455339510566,Terrapene_carolina:0.001946587315619114)Node5:0.001019673380668603,(Mauremys_reevesii:0.0118664642228114,(Gopherus_evgoodei:0.005816568560567261,Chelonoidis_abingdonii:0.006237571124110597)Node12:0)Node10:0.006175246467969259)Node4:0.002564822998001107,Chelonia_mydas:0.009893717842688873)Node3:0.01942379906799586)
+
+dS tree: 
+	(Crocodylus_porosus:0.8899271117407195,Pelodiscus_sinensis:0.1663824388708887,((((Trachemys_scripta:0.01828162554518903,Chrysemys_picta:0.004493159568311928)Node6:0.009102798782348303,Terrapene_carolina:0)Node5:0.01557379474228055,(Mauremys_reevesii:0.02144329399340573,(Gopherus_evgoodei:0.04044316652441828,Chelonoidis_abingdonii:0.01272364147297524)Node12:0)Node10:0.029449744429699)Node4:0.01096665207012842,Chelonia_mydas:0.07235971792058057)Node3:0.1001630350585533)
+
+dN tree: 
+	(Crocodylus_porosus:0.3102970238295874,Pelodiscus_sinensis:0.04443462082100844,((((Trachemys_scripta:0.002659773013598368,Chrysemys_picta:0)Node6:0.003995830390834242,Terrapene_carolina:0.00265963096012555)Node5:0.001393184302949987,(Mauremys_reevesii:0.01621320316893853,(Gopherus_evgoodei:0.007947203652900291,Chelonoidis_abingdonii:0.008522421339416424)Node12:0)Node10:0.008437266882833541)Node4:0.003504329139510599,Chelonia_mydas:0.01351783096192262)Node3:0.0265388235862767)
+
+Estimating pairwise dN/dS: total of 36 analyses

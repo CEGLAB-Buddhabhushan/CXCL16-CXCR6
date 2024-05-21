@@ -1,0 +1,11 @@
+# BLASTN 2.9.0+
+# Query: Pelodiscus_sinensis
+# Database: Gavialis_gangeticus/GCA_030020295.1_rGavGan2.hap2_genomic.fna
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+Pelodiscus_sinensis	CM057593.1	76.000	425	89	5	82	498	135423891	135424310	8.89e-78	297
+Pelodiscus_sinensis	CM057593.1	68.462	130	41	0	177	306	135620786	135620915	0.002	50.9
+Pelodiscus_sinensis	CM057593.1	75.556	90	14	5	223	308	132151787	132151702	0.007	49.1
+Pelodiscus_sinensis	CM057593.1	72.619	84	23	0	223	306	135651901	135651984	0.007	49.1
+Pelodiscus_sinensis	CM057589.1	74.713	87	19	2	593	678	143489858	143489942	6.01e-04	52.7
+# BLAST processed 1 queries

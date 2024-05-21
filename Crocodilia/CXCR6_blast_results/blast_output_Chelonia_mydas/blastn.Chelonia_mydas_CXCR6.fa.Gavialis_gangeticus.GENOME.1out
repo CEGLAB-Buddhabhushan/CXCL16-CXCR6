@@ -1,0 +1,94 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_030020295.1_rGavGan2.hap2_genomic.fna
+           160 sequences; 2,328,538,659 total letters
+
+
+
+Query= Chelonia_mydas
+
+Length=1032
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM057593.1 Gavialis gangeticus isolate rGavGan2 chromosome 5, who...  306        2e-80
+CM057589.1 Gavialis gangeticus isolate rGavGan2 chromosome 1, who...  47.3       0.026
+CM057592.1 Gavialis gangeticus isolate rGavGan2 chromosome 4, who...  46.4       0.026
+
+
+
+Query_1  82         AGCAAAATCTTTCTGCCCTGTATGTATGCATTTGCTTTTGCCTTCGGGCTGATAGGAAAT  141
+4        135423891  ............G....T.-.......T.........C..T...T........G.....C  135423949
+
+Query_1  142        TCTTTGGTCCTTATCATATACATTTTCTGTGAGAAACTGAAGACGTTGACAGATGTATTT  201
+4        135423950  .G..----.....A.G.G......C...AA......T.T.....CC.AC...C....C..  135424006
+                                                                           \    
+                                                                           |    
+                                                                           G
+0        178640516                    ....A.G....................C..--.......G..  178640477
+3        166452630                                      ..C.....CA..........C.AC  166452653
+
+Query_1  202        TTAGTGAGCTTGGCTACAGCAGACTTGCTTTTCCTTTCCACCTTGCCATTCTGGGCATAT  261
+4        135424007  ..G..T.T.......TG...T...C.A.....T....A..T.C..T..............  135424073
+                              \       \                                         
+                              |       |                                         
+                             GC   TTAAT
+3        166452654  ...C...A.C....CTTG......A.C..C.....C.TG...C.C..C........CACA  166452713
+
+Query_1  262        TCTGCTGCTCGCGAGTGGATTTTTGGCTCCTTGATGTGTAAAATTATACGGGGCCTGTAC  321
+4        135424074  .........TA.A...A..........A..ACA......TGT......T.AA..A.T..T  135424133
+3        166452714  AG......CAAAC.C...........                                    166452739
+
+Query_1  322        ACTTTGAATCTGTACACTTCAATGTTAACACTCACTTGTATAACTATTGACAGATTTATT  381
+4        135424134  .AC.......................G...T.A..C.......G.........G......  135424193
+
+Query_1  382        GCTATTGCCCAAGCCACAAAAGCCCACATGTGTCAAGCCAAAAGAATGGTTTGGGGGAAA  441
+4        135424194  ........T.....A..C....A.A.TG.AA............T.....CG.....C...  135424253
+
+Query_1  442        GTGATCTGCATTTTAGTTTGGGTGATTTCACTAGCATTTGCAACGCCACAATTTAAATAC  501
+4        135424254  .CA.....T.....G..A...A....A...G..........C.T.T....G....       135424308
+
+Query_1  502        AGTACACAATCAAACTATGATAAGTCAGTCTGTCATGCAGTGTATCCTTCAGATCTCACA  561
+
+Query_1  562        GAATTGGTTTTTAAAGTACTTCAAATGACCCTTGGATTCTTTATCCCCATGCTAACCATG  621
+
+Query_1  622        ATTATCTGCTACTCAATAATTATCAAAACTTTACTTCGTGCCAGGAGTTTCCAAAAACAC  681
+
+Query_1  682        AAATCCTTAAAAATAATATTTTCTATAGTAGTGACGTTCATTCTTACTCAGTTACCCTAC  741
+
+Query_1  742        AATTTGTTGATACTCATACGCAATATACATGTGGAATTCAACCTGGACTACAATTTCGAC  801
+
+Query_1  802        TCTGCGGTGGTTATAACAGAAGCAATTGCTTATCTCCATGGCTGTCTCAACCCTGTTCTA  861
+4        132151156                                    .....T.....G....T..A...A..  132151131
+
+Query_1  862        TATTTCTTTATTGGGGTGAAGTTCAGGAAGAAC  894
+4        132151130  ...........G..T.AA..A....A....T..  132151098
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2326204845621
+
+
+  Database: GCA_030020295.1_rGavGan2.hap2_genomic.fna
+    Posted date:  Sep 28, 2023  12:28 PM
+  Number of letters in database: 2,328,538,659
+  Number of sequences in database:  160
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

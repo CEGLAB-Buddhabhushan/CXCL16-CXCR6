@@ -1,0 +1,75 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_030020295.1_rGavGan2.hap2_genomic.fna
+           160 sequences; 2,328,538,659 total letters
+
+
+
+Query= Pogona_vitticeps
+
+Length=1038
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM057593.1 Gavialis gangeticus isolate rGavGan2 chromosome 5, who...  127        1e-26
+
+
+
+Query_1  109        ATGTATTCCACTGCCTGCATCTTTGGGGTGTTAGGAAACGCGTTGGTTCTTATCATTCTC  168
+4        135423911  ........ATT...T.CTG........C..A.G......----..T.C....A.G.GTA.  135423966
+
+Query_1  169        ATTTTCTATGAGAAAATGAAAGCTCTAAGTGATGTATTTTTAGTGAGTTTGGCAGTAGCT  228
+4        135423967  ...C....A......T.T..GA.C...CCA.C....C....G..T.TC......T.....  135424034
+                                                      \              \   \   \  
+                                                      |              |   |   |  
+                                                      G             GC TTG  AT
+
+Query_1  229        GACTTTTGTTTTCTTTGTACATTGCCATTCTGGGCCTATTCTGCTGCCAAAGAGTGGATC  288
+4        135424035  ...C.ACT........--......T..........A...........TT.CA...A...T  135424094
+                                          \                                     
+                                          |                                     
+                                         CC
+
+Query_1  289        TTTCATACTTTGCCATGTAAAATCATCCGAGGCCTATATACTTTAAATCTATATGGTTCT  348
+4        135424095  .....C..AA..TGT....TT..-..--..A..A.T....AC..G.....G..CAC...A  135424154
+                       \  \                                                     
+                       |  |                                                     
+                      GG  C
+
+Query_1  349        ATGCTAACTCTTACCTGCATAACTATTGACAGGTATTTTGCTATTGTCCTAGCTACCAAA  408
+4        135424155  ...T.G..AT.A.....T....G...........T.A.........CT.A...A......  135424214
+
+Query_1  409        GCTTACATAAGTCAAGCCAAAAGAAAAGTCTGGGGTGTTGCAGCTTGTATTTTGGTTTGG  468
+4        135424215  .ACA.TG...............T..TG.CG.....CAAA...ATC...........A...  135424274
+
+Query_1  469        GTGATTTCTCTGGGCTTTGCTTTGCCACAATTTATA  504
+4        135424275  A....A..AG.A.CA.....CA..T....G......  135424310
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2340176045895
+
+
+  Database: GCA_030020295.1_rGavGan2.hap2_genomic.fna
+    Posted date:  Sep 28, 2023  12:28 PM
+  Number of letters in database: 2,328,538,659
+  Number of sequences in database:  160
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

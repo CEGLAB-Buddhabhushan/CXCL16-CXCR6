@@ -1,0 +1,3 @@
+grp_df<- df[df$clade=="grp",]
+grp_df$RELAX_adj.pval <- p.adjust(grp_df$RELAX_pval, method = "fdr")
+write.table(grp_df, file='grp.HYPHY.tsv', quote=T, sep='\t', col.names = NA)

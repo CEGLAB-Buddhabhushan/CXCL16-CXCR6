@@ -1,0 +1,98 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Crocodylus_porosus.fa
+           50,335,901 sequences; 7,600,721,051 total letters
+
+
+
+Query= Pogona_vitticeps
+
+Length=1038
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR8268518.19457193 NS500216:115:H105WBGXX:4:11506:2583:9428/1        63.5       8e-07
+SRR8268519.24700658 NS500216:115:H105WBGXX:4:23504:13956:5579/1       62.6       8e-07
+SRR8268519.5261081 NS500216:115:H105WBGXX:1:22308:1866:12107/1        62.6       8e-07
+SRR8268518.21943908 NS500216:115:H105WBGXX:4:13612:22844:8694/1       55.4       1e-04
+SRR8268518.7345396 NS500216:115:H105WBGXX:2:11308:1945:14407/1        55.4       1e-04
+SRR8268519.24749344 NS500216:115:H105WBGXX:4:23505:15347:18096/1      50.9       0.005
+
+
+
+Query_1   226  GCTGACTTTTGTTTTCTTTGTACATTGCCATTCTGGGCCTATTCTGCTGCCAAAGAGTGG  285
+19457192  151                                ........A...........TT.CA.....  122
+49744187  147                      ..................A...........TT.CA.....  106
+                                        \                                  
+                                        |                                  
+                                       CC
+30304610  147                      ..................A...........TT.CA.....  106
+                                        \                                  
+                                        |                                  
+                                       CC
+21943907  143  ......C.ACT........--.................A...........TT.CA.....  84
+                                        \                                  
+                                        |                                  
+                                       CC
+7345395   75   ......C.ACT........--.................A...........TT.CA.....  134
+                                        \                                  
+                                        |                                  
+                                       CC
+49792873  75   ......C.ACT........--.................A...........TT.CA..A..  134
+                                        \                                  
+                                        |                                  
+                                       CC
+
+Query_1   286  ATCTTTCATACTTTGCCATGTAAAATCATCCGAGGCCTATATACTTTAAATCTATATGGT  345
+19457192  121  ..T.....C..AA..TGT....---.T..A...A.TA.T....AC..G.....G..CAC.  62
+                     \  \                                                  
+                     |  |                                                  
+                    GG  C
+49744187  105  ..T.....C..AA..---...TGT..T..A...A.TA.T....AC..G.....G..CAC.  46
+                     \ \                                                   
+                     | |                                                   
+                    GG C
+30304610  105  ..T.....C..AA..---...TGT..T..A...A.TA.T....AC..G.....G..CAC.  46
+                     \ \                                                   
+                     | |                                                   
+                    GG C
+21943907  83   ..T...                                                        78
+7345395   135  ..T...                                                        140
+49792873  135  ..T...                                                        140
+
+Query_1   346  TCTATGCTAACTCTTACCTGCATAACTATTGACAGGTATTTTGCTATTGTCCTAGCTACC  405
+19457192  61   ..AG..T.G..AT.A.....T....A...........G.A.........CT.A...A...  2
+49744187  45   ..AG..T.G..AT.A.....T....A...........G.A.....                 1
+30304610  45   ..AG..T.G..AT.A.....T....A...........G.A.....                 1
+
+Query_1   406  A  406
+19457192  1    .  1
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 5912857618668
+
+
+  Database: Crocodylus_porosus.fa
+    Posted date:  Sep 27, 2023  10:29 AM
+  Number of letters in database: 7,600,721,051
+  Number of sequences in database:  50,335,901
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

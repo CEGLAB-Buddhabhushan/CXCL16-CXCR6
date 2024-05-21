@@ -1,0 +1,98 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001723895.1_CroPor_comp1_genomic.fna
+           70 sequences; 2,049,536,252 total letters
+
+
+
+Query= Pelodiscus_sinensis
+
+Length=1032
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_017728886.1 Crocodylus porosus isolate Cpor-Errol unplaced gen...  308        4e-81
+NW_017728943.1 Crocodylus porosus isolate Cpor-Errol unplaced gen...  52.7       5e-04
+
+
+
+Query_1  82         AGCAAAATTTTTCTGCCCTGTATGTATGCATTAGCTTTTGTCTTTGGGCTGATAGGAAAT  141
+0        77782835   ........C...G......-.......T....T....C...............G.....C  77782777
+
+Query_1  142        GCTTTGGTCATTATCATATACATTTTCTGTGAAAAACTGAAGACACTGACAGATGTATTT  201
+0        77782776   ----..T..C...A.G.G......C...AA..G...T.T....TC..ACA..C.......  77782720
+                                                                           \    
+                                                                           |    
+                                                                           G
+0        77552702                                      ......A.GCA....T...A.C.A.  77552678
+
+Query_1  202        TTAGTGAGCTTGGCTACAGCTGACTTGCTTTTTCTTTCTACCTTGCCATTCTGGGCATAT  261
+0        77782719   ..G..T.......T..AT......C.A..........AC.T.C.................  77782653
+                           \                                                    
+                           |                                                    
+                     CCTGATG
+0        77552677   ..GC.A.AT.....C.TCT....T.........G.A.T.T.TC.A..............C  77552618
+0        77529374                        ..T.........G.A.T.T.TC.A..............C  77529336
+0        81006673                        ........C...G.....C....C..-......T.C...  81006711
+                                                       \                        
+                                                       |                        
+                                                       G
+
+Query_1  262        TCTGCTGCTCACGAGTGGATTTTTGGCTCTGTGACGTGTAAAATTATACGGGGCCTGTAC  321
+0        77782652   .........T..A..............A.CACA.T....TGT........AA.TA.T..T  77782593
+0        77552617   CAG..A..A..TA.T...........AGA..CA.T...C......                 77552573
+0        77529335   CAG..A..A..TA.T...........AGA...A.T..........                 77529291
+0        81006712   .A...A.TGG..C.A...........GG.A..-TG............               81006758
+                                            \                                   
+                                            |                                   
+                                            G
+
+Query_1  322        ACTTTGAATCTGTATACATCAATGCTAACCCTCACTTGTATAACTATTGAGAGGTTTATC  381
+0        77782592   .AC...........C..T...G..T.G..AT.A..C.......A......C....G...T  77782533
+
+Query_1  382        GCTATTGTCCAAGCCACCAAAGCCCATGTGAATCAAGCCAAAAGAATGGTGTGGGGGAAA  441
+0        77782532   .......CT.....A.........A....A.G...........T.....C......C...  77782473
+
+Query_1  442        GTTATCTGCATTTTAGTTTGGGTGATGTCAGTAGTATTTGCAATACCACAATTTATATAT  501
+0        77782472   .CA.....T.....G..A...A....A..G....C......C..GT.T..G.....T...  77782413
+
+Query_1  502        AGTACACAATCCACATATGATAAGTCAATTTGTCATGCAACGTACCCATCCCGTCTCGTA  561
+0        77782412   ...G....G.T..A..                                              77782397
+
+Query_1  562        GAATTGGTTCTTAAAGTACTTCAAATGACTCTTGGATTCCTTATCCCTCTGCTAACAATG  621
+57       106006512                                 ....C..TT.............CTTT...  106006484
+
+Query_1  622        ATTATCTGCTACTCGATCATTATCAAAACTTTACTACATGCCAGGAGTTTCCAAAAG  678
+57       106006483  ...T.T.....TG.AT.....G.......C...G.G..A.....A.--.........  106006428
+                                                             \               
+                                                             |               
+                                                             T
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2047484408058
+
+
+  Database: GCF_001723895.1_CroPor_comp1_genomic.fna
+    Posted date:  Sep 28, 2023  12:27 PM
+  Number of letters in database: 2,049,536,252
+  Number of sequences in database:  70
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

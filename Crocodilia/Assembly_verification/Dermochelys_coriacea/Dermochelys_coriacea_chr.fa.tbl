@@ -1,0 +1,59 @@
+==================================================
+file name: Dermochelys_coriacea_chr.fa
+sequences:             1
+total length:  272704568 bp  (271475389 bp excl N/X-runs)
+GC level:         42.15 %
+bases masked:  158218756 bp ( 58.02 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       304503     96647292 bp   35.44 %
+   SINEs:            48964      6992162 bp    2.56 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           180476     55240918 bp   20.26 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex     115765     33843995 bp   12.41 %
+     R1/LOA/Jockey     338       259493 bp    0.10 %
+     R2/R4/NeSL        699       304646 bp    0.11 %
+     RTE/Bov-B        3823      1800533 bp    0.66 %
+     L1/CIN4          1268       508085 bp    0.19 %
+   LTR elements:     75063     34414212 bp   12.62 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia          77        18878 bp    0.01 %
+     Gypsy/DIRS1     58027     27727220 bp   10.17 %
+       Retroviral     6664      3416209 bp    1.25 %
+
+DNA transposons     264904     54114536 bp   19.84 %
+   hobo-Activator    97460     23245739 bp    8.52 %
+   Tc1-IS630-Pogo     5790      1428656 bp    0.52 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR           216        32484 bp    0.01 %
+   PiggyBac             89        17382 bp    0.01 %
+   Tourist/Harbinger116498     19466409 bp    7.14 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles       1411       228878 bp    0.08 %
+
+Unclassified:        36137      5861714 bp    2.15 %
+
+Total interspersed repeats:   156623542 bp   57.43 %
+
+
+Small RNA:            7099      1305165 bp    0.48 %
+
+Satellites:           1299       180090 bp    0.07 %
+Simple repeats:      27359       982615 bp    0.36 %
+Low complexity:       3356       153573 bp    0.06 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be Testudines    
+RepeatMasker version 4.1.5 , sensitive mode
+                                      
+run with rmblastn version 2.14.0+
+FamDB: CONS-Dfam_3.7

@@ -1,0 +1,102 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Alligator_sinensis.fa
+           625,098,423 sequences; 30,629,822,727 total letters
+
+
+
+Query= Pelodiscus_sinensis
+
+Length=1032
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR953113.70437026 A819GUABXX:5:2106:16159:148984/1                   66.2       1e-07
+SRR953112.39512657 BB00FCABXX:2:28:18803:49334/1                      66.2       1e-07
+SRR953114.54976002 BB00FCABXX:3:46:14244:114931/1                     60.8       5e-06
+SRR953114.30055762 BB00FCABXX:3:25:4592:11731/1                       60.8       5e-06
+SRR953109.65828863 A819GUABXX:3:2107:10116:65129/1                    54.5       7e-04
+SRR953115.93951753 A819GUABXX:6:2206:5080:107095/1                    53.6       7e-04
+SRR953108.82727831 A819GUABXX:2:2204:7659:163525/1                    52.7       0.002
+SRR953116.60463046 A819GUABXX:7:2103:18213:139403/1                   51.8       0.002
+SRR953115.69064343 A819GUABXX:6:2106:3035:135543/1                    50.0       0.008
+SRR953115.59547748 A819GUABXX:6:2103:3671:157742/1                    50.0       0.008
+SRR953115.28726520 A819GUABXX:6:1202:8986:4620/1                      50.0       0.008
+SRR953115.1042935 A819GUABXX:6:1101:2397:88782/1                      50.0       0.008
+SRR953109.53225913 A819GUABXX:3:2103:7557:40029/1                     50.0       0.008
+SRR953109.82945134 A819GUABXX:3:2205:20708:33638/1                    49.1       0.029
+
+
+
+Query_1    82   AGCAAAATTTTTCTGCCCTGTATGTATGCATTAGCTTTTGTCTTTGGGCTGATAGGAAAT  141
+581749652  49   ........C...G....T.-.......TA...T....C............            1
+
+Query_1    142  GCTTTGGTCATTATCATATACATTTTCTGTGAAAAACTGAAGACACTGACAGATGTATTT  201
+
+Query_1    202  TTAGTGAGCTTGGCTACAGCTGACTTGCTTTTTCTTTCTACCTTGCCATTCTGGGCATAT  261
+513160232  34                                              .................  18
+148836499  36                                         ......................  13
+                                                           \                
+                                                           |                
+                                                          AC
+178555720  31                                              .................  15
+
+Query_1    262  TCTGCTGCTCACGAGTGGATTTTTGGCTCTGTGACGTGTAAAATTATACGGGGCCTGTAC  321
+513160232  17   .........T..A....                                             1
+148836499  12   .........T..                                                  1
+178555720  14   .........T..                                                  3
+
+Query_1    322  ACTTTGAATCTGTATACATCAATGCTAACCCTCACTTGTATAACTATTGAGAGGTTTATC  381
+
+Query_1    382  GCTATTGTCCAAGCCACCAAAGCCCATGTGAATCAAGCCAAAAGAATGGTGTGGGGGAAA  441
+306044198  48                  .........A......G...........T............C...  4
+230063087  48                  .........A......G...........T............C...  4
+394386557  1                      ......A......G...........T............C...  42
+369466317  1                      ......A......G...........T............C...  42
+161439449  47                            ......G...........T............C...  13
+82727830   3                             ......G...........T............C...  37
+488272822  1                                      .........T............C...  26
+478756227  1                                      .........T............C...  26
+447934999  1                                      .........T............C...  26
+420251414  1                                      .........T............C...  26
+
+Query_1    442  GTTATCTGCATTTTAGTTTGG  462
+306044198  3    .                      3
+230063087  3    .                      3
+394386557  43   .                      43
+369466317  43   .                      43
+161439449  12   .CAG....T...           1
+82727830   38   .                      38
+488272822  27   .CAG....T.....G..A...  47
+478756227  27   .CAG....T.....G..A...  47
+447934999  27   .CAG....T.....G..A...  47
+420251414  27   .CAG....T.....G..A...  47
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 9357723392310
+
+
+  Database: Alligator_sinensis.fa
+    Posted date:  Sep 27, 2023  11:48 AM
+  Number of letters in database: 30,629,822,727
+  Number of sequences in database:  625,098,423
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

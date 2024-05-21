@@ -1,0 +1,149 @@
+[2J[H     /HYPHY 2.3.14.20230213beta(MP) for Linux on x86_64\     
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Kernel Analysis Tools
+	(12) Molecular Clock
+	(13) Phylogeny Reconstruction
+	(14) Positive Selection
+	(15) Recombination
+	(16) Selection/Recombination
+	(17) Relative Rate
+	(18) Relative Ratio
+	(19) Substitution Rates
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):[2J[H***************** FILES IN 'Selection Analyses' ***************** 
+
+
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):
+Analysis Description
+--------------------
+BUSTED (branch-site unrestricted statistical test of episodic
+diversification) uses a random effects branch-site model fitted jointly
+to all or a subset of tree branches in order to test for alignment-wide
+evidence of episodic diversifying selection. Assuming there is evidence
+of positive selection (i.e. there is an omega > 1), BUSTED will also
+perform a quick evidence-ratio style analysis to explore which
+individual sites may have been subject to selection.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree (optionally annotated
+with {})
+
+- __Citation__: *Gene-wide identification of episodic selection*, Mol Biol Evol.
+32(5):1365-71
+
+- __Written by__: Sergei L Kosakovsky Pond
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 1.2
+
+
+
+####Choose Genetic Code
+
+1. [**Universal**] Universal code. (Genebank transl_table=1).
+2. [**Vertebrate mtDNA**] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+3. [**Yeast mtDNA**] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+4. [**Mold/Protozoan mtDNA**] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+5. [**Invertebrate mtDNA**] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+6. [**Ciliate Nuclear**] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+7. [**Echinoderm mtDNA**] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+8. [**Euplotid Nuclear**] Euplotid Nuclear code. (Genebank transl_table=10).
+9. [**Alt. Yeast Nuclear**] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+10. [**Ascidian mtDNA**] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+11. [**Flatworm mtDNA**] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+12. [**Blepharisma Nuclear**] Blepharisma Nuclear code. (Genebank transl_table=15).
+13. [**Chlorophycean mtDNA**] Chlorophycean Mitochondrial Code (transl_table=16).
+14. [**Trematode mtDNA**] Trematode Mitochondrial Code (transl_table=21).
+15. [**Scenedesmus obliquus mtDNA**] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+16. [**Thraustochytrium mtDNA**] Thraustochytrium Mitochondrial Code (transl_table=23).
+17. [**Pterobranchia mtDNA**] Pterobranchia Mitochondrial Code (transl_table=24).
+18. [**SR1 and Gracilibacteria**] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+19. [**Pachysolen Nuclear**] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+>Please choose an option (or press q to cancel selection):
+
+>Select a coding sequence alignment file (`/usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/`) 
+
+>Please select a tree file for the data: (`/usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/`) 
+>Loaded a multiple sequence alignment with **10** sequences, **361** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/Crocodylia/BUSTED/Crocodylia.aln`
+
+
+####Choose the set of branches to test for selection
+
+1. [**All**] Include all branches in the analysis
+2. [**Internal**] Include all internal branches in the analysis
+3. [**Leaves**] Include all leaf branches in the analysis
+4. [**Unlabeled branches**] Set of 16 unlabeled branches
+5. [**fg**] Set fg with 1 branches
+
+>Please choose an option (or press q to cancel selection):
+
+### Branches to test for selection in the BUSTED analysis
+* Selected 1 branches to test in the BUSTED analysis: `Gopherus_evgoodei`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+* Log(L) = -3755.80, AIC-c =  7561.71 (25 estimated parameters)
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -3671.24, AIC-c =  7409.11 (33 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.4244
+* non-synonymous/synonymous rate ratio for *test* =   0.2193
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -3671.24, AIC-c =  7409.11 (33 estimated parameters)
+* non-synonymous/synonymous rate ratio for *background* =   0.4246
+* non-synonymous/synonymous rate ratio for *test* =   0.2191
+
+### Performing the full (dN/dS > 1 allowed) branch-site model fit
+* Log(L) = -3622.78, AIC-c =  7328.52 (41 estimated parameters)
+* For *test* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.000     |   10.438    |                                   |
+|        Negative selection         |     0.000     |   85.360    |       Collapsed rate class        |
+|      Diversifying selection       |     8.184     |    4.202    |                                   |
+
+* For *background* branches, the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.155     |   69.004    |                                   |
+|        Negative selection         |     0.165     |   15.150    |                                   |
+|      Diversifying selection       |     3.843     |   15.847    |                                   |
+
+
+### Performing the constrained (dN/dS > 1 not allowed) model fit
+* Log(L) = -3623.23, AIC-c =  7327.37 (40 estimated parameters)
+* For *test* branches under the null (no dN/dS > 1 model), the following rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.000     |   76.306    |                                   |
+|         Neutral evolution         |     1.000     |    6.907    |                                   |
+|         Neutral evolution         |     1.000     |   16.787    |       Collapsed rate class        |
+
+----
+## Branch-site unrestricted statistical test of episodic diversification [BUSTED]
+Likelihood ratio test for episodic diversifying positive selection, **p =   0.6400**.

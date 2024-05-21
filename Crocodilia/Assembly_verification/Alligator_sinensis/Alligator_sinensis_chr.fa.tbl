@@ -1,0 +1,59 @@
+==================================================
+file name: Alligator_sinensis_chr.fa
+sequences:             1
+total length:    3398058 bp  (3291818 bp excl N/X-runs)
+GC level:         42.82 %
+bases masked:    1409250 bp ( 41.47 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements         1537       619339 bp   18.23 %
+   SINEs:              223        37693 bp    1.11 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:              981       360276 bp   10.60 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex        614       270974 bp    7.97 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL          3          358 bp    0.01 %
+     RTE/Bov-B          55        29434 bp    0.87 %
+     L1/CIN4             1          148 bp    0.00 %
+   LTR elements:       333       221370 bp    6.51 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia           0            0 bp    0.00 %
+     Gypsy/DIRS1       177       132700 bp    3.91 %
+       Retroviral      117        75041 bp    2.21 %
+
+DNA transposons       2798       755304 bp   22.23 %
+   hobo-Activator     1225       341868 bp   10.06 %
+   Tc1-IS630-Pogo      165        49464 bp    1.46 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR             9         3036 bp    0.09 %
+   PiggyBac              0            0 bp    0.00 %
+   Tourist/Harbinger  1281       333770 bp    9.82 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles         22         5718 bp    0.17 %
+
+Unclassified:           56        10520 bp    0.31 %
+
+Total interspersed repeats:     1385163 bp   40.76 %
+
+
+Small RNA:              51         9732 bp    0.29 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:        452        16003 bp    0.47 %
+Low complexity:         51         2188 bp    0.06 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be Crocodylia    
+RepeatMasker version 4.1.5 , sensitive mode
+                                      
+run with rmblastn version 2.14.0+
+FamDB: CONS-Dfam_3.7

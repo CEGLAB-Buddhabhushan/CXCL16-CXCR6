@@ -1,0 +1,11 @@
+ALPHABET: A C G T 
+ORDER: 0
+SUBST_MOD: HKY85
+TRAINING_LNL: -3759.417130
+BACKGROUND: 0.295682 0.209536 0.177000 0.317782 
+RATE_MAT:
+  -0.888515    0.193445    0.401690    0.293379 
+   0.272977   -1.157570    0.163408    0.721185 
+   0.671032    0.193445   -1.157856    0.293379 
+   0.272977    0.475527    0.163408   -0.911912 
+TREE: ((Alligator_mississippiensis:0.4598,Pelodiscus_sinensis:0.0638919):0.0209147,((((Trachemys_scripta:0.00585318,Chrysemys_picta:0.00106892):0.00488607,Terrapene_carolina:0.00193868):0.00428549,(Mauremys_reevesii:0.0166301,(Gopherus_evgoodei:0.0146616,Chelonoidis_abingdonii:0.00882976):0.000962784):0.0124726):0.00582439,(Chelonia_mydas:0.00700064,Dermochelys_coriacea:0.213032):0.0172262):0.0209147);

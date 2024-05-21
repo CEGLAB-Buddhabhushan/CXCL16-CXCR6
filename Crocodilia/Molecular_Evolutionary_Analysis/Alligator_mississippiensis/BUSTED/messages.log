@@ -1,0 +1,603 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/models/codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Already loaded 'libv3/tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'Nmfe_jHf.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'jEMhAFHi.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'lIEzOXcL.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'FSacfFdT.model_pi' was not initialized prior to being used
+Model FSacfFdT.model assigned to Alligator_mississippiensis
+Model FSacfFdT.model assigned to Pelodiscus_sinensis
+Model FSacfFdT.model assigned to Trachemys_scripta
+Model FSacfFdT.model assigned to Chrysemys_picta
+Model FSacfFdT.model assigned to Node6
+Model FSacfFdT.model assigned to Terrapene_carolina
+Model FSacfFdT.model assigned to Node5
+Model FSacfFdT.model assigned to Mauremys_reevesii
+Model FSacfFdT.model assigned to Gopherus_evgoodei
+Model FSacfFdT.model assigned to Chelonoidis_abingdonii
+Model FSacfFdT.model assigned to Node12
+Model FSacfFdT.model assigned to Node10
+Model FSacfFdT.model assigned to Node4
+Model FSacfFdT.model assigned to Chelonia_mydas
+Model FSacfFdT.model assigned to Node3
+The tips of the tree:FSacfFdT.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,8,5,4,6,3,2,1,7}
+
+Pseudo-optimal path's cost 888 vs 1874 for 1..k=> a 2.11036 x improvement
+Partition 0 reversible model flag computed as 1
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'FSacfFdT.tree_0.Alligator_mississippiensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Alligator_mississippiensis.t=954.9020630871341
+Variable 'FSacfFdT.tree_0.Pelodiscus_sinensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Pelodiscus_sinensis.t=480.5540376150241
+Variable 'FSacfFdT.tree_0.Trachemys_scripta.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Trachemys_scripta.t=71.78428341154923
+Variable 'FSacfFdT.tree_0.Chrysemys_picta.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Chrysemys_picta.t=71.78428341154923
+Variable 'FSacfFdT.tree_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Node6.t=31.19158179167021
+Variable 'FSacfFdT.tree_0.Terrapene_carolina.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Terrapene_carolina.t=102.9758652032194
+Variable 'FSacfFdT.tree_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Node5.t=105.4065899061684
+Variable 'FSacfFdT.tree_0.Mauremys_reevesii.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Mauremys_reevesii.t=163.5671114308702
+Variable 'FSacfFdT.tree_0.Gopherus_evgoodei.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Gopherus_evgoodei.t=138.8268165629128
+Variable 'FSacfFdT.tree_0.Chelonoidis_abingdonii.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Chelonoidis_abingdonii.t=138.8268165629128
+Variable 'FSacfFdT.tree_0.Node12.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Node12.t=24.74029486795748
+Variable 'FSacfFdT.tree_0.Node10.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Node10.t=44.81534367851759
+Variable 'FSacfFdT.tree_0.Node4.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Node4.t=96.42610589214171
+Variable 'FSacfFdT.tree_0.Chelonia_mydas.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Chelonia_mydas.t=304.8085610015295
+Variable 'FSacfFdT.tree_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: FSacfFdT.tree_0.Node3.t=175.7454766134945
+Variable 'FSacfFdT.FSacfFdT.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 3289-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+FSacfFdT.model.theta_GT = 0.25
+FSacfFdT.model.theta_CT = 1
+FSacfFdT.model.theta_CG = 0.25
+FSacfFdT.model.theta_AT = 0.25
+FSacfFdT.model.theta_AC = 0.25
+FSacfFdT.tree_0.Alligator_mississippiensis.t = 954.902
+FSacfFdT.tree_0.Pelodiscus_sinensis.t = 480.554
+FSacfFdT.tree_0.Trachemys_scripta.t = 71.7843
+FSacfFdT.tree_0.Chrysemys_picta.t = 71.7843
+FSacfFdT.tree_0.Node6.t = 31.1916
+FSacfFdT.tree_0.Terrapene_carolina.t = 102.976
+FSacfFdT.tree_0.Node5.t = 105.407
+FSacfFdT.tree_0.Mauremys_reevesii.t = 163.567
+FSacfFdT.tree_0.Gopherus_evgoodei.t = 138.827
+FSacfFdT.tree_0.Chelonoidis_abingdonii.t = 138.827
+FSacfFdT.tree_0.Node12.t = 24.7403
+FSacfFdT.tree_0.Node10.t = 44.8153
+FSacfFdT.tree_0.Node4.t = 96.4261
+FSacfFdT.tree_0.Chelonia_mydas.t = 304.809
+FSacfFdT.tree_0.Node3.t = 175.745
+Site 96 evaluated to a 0 probability in ComputeLLWithBranchCache
+Site 32 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 32 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Internal error in _LikelihoodFunction::ConjugateGradientDescent. The function evaluated at current parameter values [-6156.05] does not match the last recorded LF maximum [-6156.05]
+Internal error in _LikelihoodFunction::ConjugateGradientDescent. The function evaluated at current parameter values [-6150.26] does not match the last recorded LF maximum [-6150.26]
+Optimization finished in 48 loop passes.
+3558 likelihood evaluation calls and 27326 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'FSacfFdT.option' was not initialized prior to being used
+Variable 'busted.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'rCsOAJNq.initial_value' was not initialized prior to being used
+Variable 'ucFhBmDZ.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2906-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.337588
+frequencies._aux.CF3x4.p0_1 = 0.261423
+frequencies._aux.CF3x4.p0_2 = 0.453069
+frequencies._aux.CF3x4.p1_0 = 0.273683
+frequencies._aux.CF3x4.p1_1 = 0.288825
+frequencies._aux.CF3x4.p1_2 = 0.241374
+frequencies._aux.CF3x4.p2_0 = 0.258269
+frequencies._aux.CF3x4.p2_1 = 0.343002
+frequencies._aux.CF3x4.p2_2 = 0.406755
+Optimization finished in 7 loop passes.
+217 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'ucFhBmDZ.model_MGREV_pi' was not initialized prior to being used
+Model ucFhBmDZ.model_MGREV assigned to Alligator_mississippiensis
+Model ucFhBmDZ.model_MGREV assigned to Pelodiscus_sinensis
+Model ucFhBmDZ.model_MGREV assigned to Trachemys_scripta
+Model ucFhBmDZ.model_MGREV assigned to Chrysemys_picta
+Model ucFhBmDZ.model_MGREV assigned to Node6
+Model ucFhBmDZ.model_MGREV assigned to Terrapene_carolina
+Model ucFhBmDZ.model_MGREV assigned to Node5
+Model ucFhBmDZ.model_MGREV assigned to Mauremys_reevesii
+Model ucFhBmDZ.model_MGREV assigned to Gopherus_evgoodei
+Model ucFhBmDZ.model_MGREV assigned to Chelonoidis_abingdonii
+Model ucFhBmDZ.model_MGREV assigned to Node12
+Model ucFhBmDZ.model_MGREV assigned to Node10
+Model ucFhBmDZ.model_MGREV assigned to Node4
+Model ucFhBmDZ.model_MGREV assigned to Chelonia_mydas
+Model ucFhBmDZ.model_MGREV assigned to Node3
+The tips of the tree:ucFhBmDZ.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,8,5,4,6,3,2,1,7}
+
+Pseudo-optimal path's cost 2238 vs 4290 for 1..k=> a 1.91689 x improvement
+Partition 0 reversible model flag computed as 1
+Variable 'ucFhBmDZ.ucFhBmDZ.likelihoodFunction' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Alligator_mississippiensis.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Pelodiscus_sinensis.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Trachemys_scripta.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Chrysemys_picta.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Terrapene_carolina.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Node5.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Mauremys_reevesii.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Gopherus_evgoodei.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Chelonoidis_abingdonii.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Node12.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Node10.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Node4.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Chelonia_mydas.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Node3.alpha' was not initialized prior to being used
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 64 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 212 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 165 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 187-th LF evaluation.
+Initial guess for ucFhBmDZ.tree_0.Pelodiscus_sinensis.alpha is 0.000288477
+Initial guess for ucFhBmDZ.tree_0.Node3.alpha is 2.18847e-05
+Initial guess for ucFhBmDZ.tree_0.Node4.alpha is 2.87318e-06
+Initial guess for ucFhBmDZ.tree_0.Node5.alpha is 5.86726e-06
+Initial guess for ucFhBmDZ.tree_0.Node6.alpha is 2.97201e-06
+Initial guess for ucFhBmDZ.tree_0.Trachemys_scripta.alpha is 3.66959e-05
+Initial guess for ucFhBmDZ.tree_0.Chrysemys_picta.alpha is 3.13401e-06
+Initial guess for ucFhBmDZ.tree_0.Terrapene_carolina.alpha is 1.19727e-06
+Initial guess for ucFhBmDZ.tree_0.Node10.alpha is 5.44953e-06
+Initial guess for ucFhBmDZ.tree_0.Mauremys_reevesii.alpha is 1.35928e-06
+Initial guess for ucFhBmDZ.tree_0.Node12.alpha is -2.06495e-06
+Initial guess for ucFhBmDZ.tree_0.Gopherus_evgoodei.alpha is 8.87131e-06
+Initial guess for ucFhBmDZ.tree_0.Chelonoidis_abingdonii.alpha is 9.63511e-06
+Initial guess for ucFhBmDZ.tree_0.Chelonia_mydas.alpha is 5.21515e-06
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+ucFhBmDZ.model_MGREV.theta_CT = 1
+ucFhBmDZ.model_MGREV.theta_GT = 1
+ucFhBmDZ.model_MGREV.theta_CG = 1
+ucFhBmDZ.model_MGREV.theta_AC = 1
+ucFhBmDZ.model_MGREV.theta_AT = 1
+ucFhBmDZ.model_MGREV.omega_0 = 1
+ucFhBmDZ.tree_0.Alligator_mississippiensis.alpha = 0.1
+ucFhBmDZ.tree_0.Pelodiscus_sinensis.alpha = 0.000288477
+ucFhBmDZ.tree_0.Trachemys_scripta.alpha = 3.66959e-05
+ucFhBmDZ.tree_0.Chrysemys_picta.alpha = 3.13401e-06
+ucFhBmDZ.tree_0.Node6.alpha = 2.97201e-06
+ucFhBmDZ.tree_0.Terrapene_carolina.alpha = 1.19727e-06
+ucFhBmDZ.tree_0.Node5.alpha = 5.86726e-06
+ucFhBmDZ.tree_0.Mauremys_reevesii.alpha = 1.35928e-06
+ucFhBmDZ.tree_0.Gopherus_evgoodei.alpha = 8.87131e-06
+ucFhBmDZ.tree_0.Chelonoidis_abingdonii.alpha = 9.63511e-06
+ucFhBmDZ.tree_0.Node12.alpha = 0
+ucFhBmDZ.tree_0.Node10.alpha = 5.44953e-06
+ucFhBmDZ.tree_0.Node4.alpha = 2.87318e-06
+ucFhBmDZ.tree_0.Chelonia_mydas.alpha = 5.21515e-06
+ucFhBmDZ.tree_0.Node3.alpha = 2.18847e-05
+ucFhBmDZ.model_MGREV.omega_1 = 1
+Failing bound checks on ucFhBmDZ.tree_0.Mauremys_reevesii.beta =          10002.1727780061
+Optimization finished in 40 loop passes.
+4304 likelihood evaluation calls and 26086 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2906-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.337588
+frequencies._aux.CF3x4.p0_1 = 0.261423
+frequencies._aux.CF3x4.p0_2 = 0.453069
+frequencies._aux.CF3x4.p1_0 = 0.273683
+frequencies._aux.CF3x4.p1_1 = 0.288825
+frequencies._aux.CF3x4.p1_2 = 0.241374
+frequencies._aux.CF3x4.p2_0 = 0.258269
+frequencies._aux.CF3x4.p2_1 = 0.343002
+frequencies._aux.CF3x4.p2_2 = 0.406755
+Optimization finished in 7 loop passes.
+217 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'ucFhBmDZ.model_MGREV_pi' was not initialized prior to being used
+Model ucFhBmDZ.model_MGREV assigned to Alligator_mississippiensis
+Model ucFhBmDZ.model_MGREV assigned to Pelodiscus_sinensis
+Model ucFhBmDZ.model_MGREV assigned to Trachemys_scripta
+Model ucFhBmDZ.model_MGREV assigned to Chrysemys_picta
+Model ucFhBmDZ.model_MGREV assigned to Node6
+Model ucFhBmDZ.model_MGREV assigned to Terrapene_carolina
+Model ucFhBmDZ.model_MGREV assigned to Node5
+Model ucFhBmDZ.model_MGREV assigned to Mauremys_reevesii
+Model ucFhBmDZ.model_MGREV assigned to Gopherus_evgoodei
+Model ucFhBmDZ.model_MGREV assigned to Chelonoidis_abingdonii
+Model ucFhBmDZ.model_MGREV assigned to Node12
+Model ucFhBmDZ.model_MGREV assigned to Node10
+Model ucFhBmDZ.model_MGREV assigned to Node4
+Model ucFhBmDZ.model_MGREV assigned to Chelonia_mydas
+Model ucFhBmDZ.model_MGREV assigned to Node3
+The tips of the tree:ucFhBmDZ.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,8,5,4,6,3,2,1,7}
+
+Pseudo-optimal path's cost 2238 vs 4290 for 1..k=> a 1.91689 x improvement
+Partition 0 reversible model flag computed as 1
+Variable 'ucFhBmDZ.tree_0.Node4.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Node10.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Chelonia_mydas.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Node12.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Chelonoidis_abingdonii.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Gopherus_evgoodei.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Alligator_mississippiensis.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Mauremys_reevesii.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Pelodiscus_sinensis.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Chrysemys_picta.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Node5.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Terrapene_carolina.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Trachemys_scripta.alpha' was not initialized prior to being used
+Variable 'ucFhBmDZ.tree_0.Node3.alpha' was not initialized prior to being used
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 64 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 212 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 165 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 189-th LF evaluation.
+Initial guess for ucFhBmDZ.tree_0.Pelodiscus_sinensis.alpha is 0.000288477
+Initial guess for ucFhBmDZ.tree_0.Node3.alpha is 2.18847e-05
+Initial guess for ucFhBmDZ.tree_0.Node4.alpha is 2.87318e-06
+Initial guess for ucFhBmDZ.tree_0.Node5.alpha is 5.86726e-06
+Initial guess for ucFhBmDZ.tree_0.Node6.alpha is 2.97201e-06
+Initial guess for ucFhBmDZ.tree_0.Trachemys_scripta.alpha is 3.66959e-05
+Initial guess for ucFhBmDZ.tree_0.Chrysemys_picta.alpha is 3.13401e-06
+Initial guess for ucFhBmDZ.tree_0.Terrapene_carolina.alpha is 1.19727e-06
+Initial guess for ucFhBmDZ.tree_0.Node10.alpha is 5.44953e-06
+Initial guess for ucFhBmDZ.tree_0.Mauremys_reevesii.alpha is 1.35928e-06
+Initial guess for ucFhBmDZ.tree_0.Node12.alpha is -2.06495e-06
+Initial guess for ucFhBmDZ.tree_0.Gopherus_evgoodei.alpha is 8.87131e-06
+Initial guess for ucFhBmDZ.tree_0.Chelonoidis_abingdonii.alpha is 9.63511e-06
+Initial guess for ucFhBmDZ.tree_0.Chelonia_mydas.alpha is 5.21515e-06
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+ucFhBmDZ.model_MGREV.theta_CT = 1
+ucFhBmDZ.model_MGREV.theta_AT = 1
+ucFhBmDZ.model_MGREV.theta_CG = 1
+ucFhBmDZ.model_MGREV.theta_GT = 1
+ucFhBmDZ.model_MGREV.theta_AC = 1
+ucFhBmDZ.model_MGREV.omega_0 = 1
+ucFhBmDZ.tree_0.Alligator_mississippiensis.alpha = 0.1
+ucFhBmDZ.tree_0.Pelodiscus_sinensis.alpha = 0.000288477
+ucFhBmDZ.tree_0.Trachemys_scripta.alpha = 3.66959e-05
+ucFhBmDZ.tree_0.Chrysemys_picta.alpha = 3.13401e-06
+ucFhBmDZ.tree_0.Node6.alpha = 2.97201e-06
+ucFhBmDZ.tree_0.Terrapene_carolina.alpha = 1.19727e-06
+ucFhBmDZ.tree_0.Node5.alpha = 5.86726e-06
+ucFhBmDZ.tree_0.Mauremys_reevesii.alpha = 1.35928e-06
+ucFhBmDZ.tree_0.Gopherus_evgoodei.alpha = 8.87131e-06
+ucFhBmDZ.tree_0.Chelonoidis_abingdonii.alpha = 9.63511e-06
+ucFhBmDZ.tree_0.Node12.alpha = 0
+ucFhBmDZ.tree_0.Node10.alpha = 5.44953e-06
+ucFhBmDZ.tree_0.Node4.alpha = 2.87318e-06
+ucFhBmDZ.tree_0.Chelonia_mydas.alpha = 5.21515e-06
+ucFhBmDZ.tree_0.Node3.alpha = 2.18847e-05
+ucFhBmDZ.model_MGREV.omega_1 = 1
+Failing bound checks on ucFhBmDZ.tree_0.Mauremys_reevesii.beta =          10002.1727780061
+Optimization finished in 43 loop passes.
+4311 likelihood evaluation calls and 25633 matrix exponentiations calls were made
+
+Overwritten previously defined function:'vEoErAeE.rate_generator'
+Overwritten previously defined function:'vEoErAeE.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 2873-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.337588
+frequencies._aux.CF3x4.p0_1 = 0.261423
+frequencies._aux.CF3x4.p0_2 = 0.453069
+frequencies._aux.CF3x4.p1_0 = 0.273683
+frequencies._aux.CF3x4.p1_1 = 0.288825
+frequencies._aux.CF3x4.p1_2 = 0.241374
+frequencies._aux.CF3x4.p2_0 = 0.258269
+frequencies._aux.CF3x4.p2_1 = 0.343002
+frequencies._aux.CF3x4.p2_2 = 0.406755
+Optimization finished in 7 loop passes.
+218 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'busted.test_pi' was not initialized prior to being used
+Overwritten previously defined function:'vEoErAeE.rate_generator'
+Overwritten previously defined function:'vEoErAeE.rate_generator'
+Overwritten previously defined function:'vEoErAeE.rate_generator'
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 2688-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.337588
+frequencies._aux.CF3x4.p0_1 = 0.261423
+frequencies._aux.CF3x4.p0_2 = 0.453069
+frequencies._aux.CF3x4.p1_0 = 0.273683
+frequencies._aux.CF3x4.p1_1 = 0.288825
+frequencies._aux.CF3x4.p1_2 = 0.241374
+frequencies._aux.CF3x4.p2_0 = 0.258269
+frequencies._aux.CF3x4.p2_1 = 0.343002
+frequencies._aux.CF3x4.p2_2 = 0.406755
+Optimization finished in 7 loop passes.
+216 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'busted.background_pi' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+No nodel was assigned to Alligator_mississippiensis
+No nodel was assigned to Pelodiscus_sinensis
+No nodel was assigned to Trachemys_scripta
+No nodel was assigned to Chrysemys_picta
+No nodel was assigned to Node6
+No nodel was assigned to Terrapene_carolina
+No nodel was assigned to Node5
+No nodel was assigned to Mauremys_reevesii
+No nodel was assigned to Gopherus_evgoodei
+No nodel was assigned to Chelonoidis_abingdonii
+No nodel was assigned to Node12
+No nodel was assigned to Node10
+No nodel was assigned to Node4
+No nodel was assigned to Chelonia_mydas
+No nodel was assigned to Node3
+The tips of the tree:VTSuKSHs.tree_id_0 were matched with the species names from the data in the following numeric order (0-based) {0,8,5,4,6,3,2,1,7}
+
+Pseudo-optimal path's cost 2238 vs 4290 for 1..k=> a 1.91689 x improvement
+Partition 0 is ASSUMED to have a reversible model
+busted.background.theta_AC was already constrained in estimators.SetGlobals2
+busted.background.theta_AG was already constrained in estimators.SetGlobals2
+busted.background.theta_AT was already constrained in estimators.SetGlobals2
+busted.background.theta_CG was already constrained in estimators.SetGlobals2
+busted.background.theta_CT was already constrained in estimators.SetGlobals2
+busted.background.theta_GT was already constrained in estimators.SetGlobals2
+busted.test.theta_AG was already constrained in estimators.SetGlobals2
+Variable 'VTSuKSHs.tree_id_0.Alligator_mississippiensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Alligator_mississippiensis.t=3.364040717175246
+Variable 'VTSuKSHs.tree_id_0.Pelodiscus_sinensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Pelodiscus_sinensis.t=0.4503284037726277
+Variable 'VTSuKSHs.tree_id_0.Trachemys_scripta.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Trachemys_scripta.t=0.04067476422150942
+Variable 'VTSuKSHs.tree_id_0.Chrysemys_picta.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Chrysemys_picta.t=0.006543466025205177
+Variable 'VTSuKSHs.tree_id_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Node6.t=0.03395876285423312
+Variable 'VTSuKSHs.tree_id_0.Terrapene_carolina.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Terrapene_carolina.t=0.01345240294672513
+Variable 'VTSuKSHs.tree_id_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Node5.t=0.03009983169212892
+Variable 'VTSuKSHs.tree_id_0.Mauremys_reevesii.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Mauremys_reevesii.t=0.1137783886277566
+Variable 'VTSuKSHs.tree_id_0.Gopherus_evgoodei.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Gopherus_evgoodei.t=0.1000560212142048
+Variable 'VTSuKSHs.tree_id_0.Chelonoidis_abingdonii.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Chelonoidis_abingdonii.t=0.06210940018588004
+Variable 'VTSuKSHs.tree_id_0.Node12.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Node12.t=0
+Variable 'VTSuKSHs.tree_id_0.Node10.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Node10.t=0.08711813348336973
+Variable 'VTSuKSHs.tree_id_0.Node4.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Node4.t=0.03928027917970422
+Variable 'VTSuKSHs.tree_id_0.Chelonia_mydas.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Chelonia_mydas.t=0.1706128535786837
+Variable 'VTSuKSHs.tree_id_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: VTSuKSHs.tree_id_0.Node3.t=0.3003764181603213
+Variable 'VTSuKSHs.VTSuKSHs.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 6-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+busted.test.theta_CT = 1.02675
+busted.test.theta_CG = 0.724887
+busted.test.theta_GT = 0.389278
+busted.test.theta_AC = 0.470786
+busted.test.theta_AT = 0.342452
+busted.background.omega3 = 9.52381
+busted.background.omega1 = 0
+busted.background.bsrel_mixture_aux_1 = 0.666667
+busted.background.omega2 = 0.238095
+busted.background.bsrel_mixture_aux_0 = 0.7
+busted.test.bsrel_mixture_aux_1 = 0.666667
+busted.test.omega2 = 0.238095
+busted.test.bsrel_mixture_aux_0 = 0.7
+busted.test.omega1 = 0
+busted.test.omega3 = 9.52381
+VTSuKSHs.tree_id_0.Alligator_mississippiensis.t = 3.36404
+VTSuKSHs.tree_id_0.Pelodiscus_sinensis.t = 0.450328
+VTSuKSHs.tree_id_0.Trachemys_scripta.t = 0.0406748
+VTSuKSHs.tree_id_0.Chrysemys_picta.t = 0.00654347
+VTSuKSHs.tree_id_0.Node6.t = 0.0339588
+VTSuKSHs.tree_id_0.Terrapene_carolina.t = 0.0134524
+VTSuKSHs.tree_id_0.Node5.t = 0.0300998
+VTSuKSHs.tree_id_0.Mauremys_reevesii.t = 0.113778
+VTSuKSHs.tree_id_0.Gopherus_evgoodei.t = 0.100056
+VTSuKSHs.tree_id_0.Chelonoidis_abingdonii.t = 0.0621094
+VTSuKSHs.tree_id_0.Node12.t = 0
+VTSuKSHs.tree_id_0.Node10.t = 0.0871181
+VTSuKSHs.tree_id_0.Node4.t = 0.0392803
+VTSuKSHs.tree_id_0.Chelonia_mydas.t = 0.170613
+VTSuKSHs.tree_id_0.Node3.t = 0.300376
+Optimization finished in 121 loop passes.
+10615 likelihood evaluation calls and 245508 matrix exponentiations calls were made
+
+Variable 'EWHvJiHE.VTSuKSHs.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 57-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+busted.test.theta_AC = 0.353487
+busted.test.theta_CT = 1.01084
+busted.test.theta_GT = 0.282179
+busted.test.theta_CG = 0.530623
+busted.test.theta_AT = 0.24553
+busted.background.bsrel_mixture_aux_1 = 0.953173
+busted.background.omega1 = 0.181484
+busted.background.bsrel_mixture_aux_0 = 0.707088
+busted.test.bsrel_mixture_aux_0 = 0.547989
+busted.background.omega2 = 0.583977
+busted.background.omega3 = 8.70982
+busted.test.omega1 = 0.298321
+busted.test.bsrel_mixture_aux_1 = 0.412782
+busted.test.omega2 = 0.298783
+VTSuKSHs.tree_id_0.Alligator_mississippiensis.t = 1.50942
+VTSuKSHs.tree_id_0.Pelodiscus_sinensis.t = 0.315496
+VTSuKSHs.tree_id_0.Trachemys_scripta.t = 0.0272657
+VTSuKSHs.tree_id_0.Chrysemys_picta.t = 0.004323
+VTSuKSHs.tree_id_0.Node6.t = 0.022451
+VTSuKSHs.tree_id_0.Terrapene_carolina.t = 0.00883134
+VTSuKSHs.tree_id_0.Node5.t = 0.0202642
+VTSuKSHs.tree_id_0.Mauremys_reevesii.t = 0.0760468
+VTSuKSHs.tree_id_0.Gopherus_evgoodei.t = 0.068717
+VTSuKSHs.tree_id_0.Chelonoidis_abingdonii.t = 0.0399439
+VTSuKSHs.tree_id_0.Node12.t = 0
+VTSuKSHs.tree_id_0.Node10.t = 0.05726
+VTSuKSHs.tree_id_0.Node4.t = 0.0239757
+VTSuKSHs.tree_id_0.Chelonia_mydas.t = 0.117451
+VTSuKSHs.tree_id_0.Node3.t = 0.222745
+Optimization finished in 21 loop passes.
+2299 likelihood evaluation calls and 53340 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used

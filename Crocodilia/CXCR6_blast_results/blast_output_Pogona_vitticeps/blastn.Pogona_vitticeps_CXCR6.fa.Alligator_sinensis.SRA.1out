@@ -1,0 +1,43 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: Alligator_sinensis.fa
+           625,098,423 sequences; 30,629,822,727 total letters
+
+
+
+Query= Pogona_vitticeps
+
+Length=1038
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 8777632055766
+
+
+  Database: Alligator_sinensis.fa
+    Posted date:  Sep 27, 2023  11:48 AM
+  Number of letters in database: 30,629,822,727
+  Number of sequences in database:  625,098,423
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

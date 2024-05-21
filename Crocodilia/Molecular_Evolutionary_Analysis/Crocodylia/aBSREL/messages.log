@@ -1,0 +1,975 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'VaheTGom.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'aytmihhG.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'WxopzbOk.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'ZDYrJVlq.model_pi' was not initialized prior to being used
+Model ZDYrJVlq.model assigned to Alligator_mississippiensis
+Model ZDYrJVlq.model assigned to Pelodiscus_sinensis
+Model ZDYrJVlq.model assigned to Trachemys_scripta
+Model ZDYrJVlq.model assigned to Chrysemys_picta
+Model ZDYrJVlq.model assigned to Node6
+Model ZDYrJVlq.model assigned to Terrapene_carolina
+Model ZDYrJVlq.model assigned to Node5
+Model ZDYrJVlq.model assigned to Mauremys_reevesii
+Model ZDYrJVlq.model assigned to Gopherus_evgoodei
+Model ZDYrJVlq.model assigned to Chelonoidis_abingdonii
+Model ZDYrJVlq.model assigned to Node12
+Model ZDYrJVlq.model assigned to Node10
+Model ZDYrJVlq.model assigned to Node4
+Model ZDYrJVlq.model assigned to Chelonia_mydas
+Model ZDYrJVlq.model assigned to Dermochelys_coriacea
+Model ZDYrJVlq.model assigned to Node15
+Model ZDYrJVlq.model assigned to Node3
+The tips of the tree:ZDYrJVlq.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 1434 vs 3326 for 1..k=> a 2.31939 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'ZDYrJVlq.tree_0.Alligator_mississippiensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Alligator_mississippiensis.t=953.2454280081978
+Variable 'ZDYrJVlq.tree_0.Pelodiscus_sinensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Pelodiscus_sinensis.t=479.72033674997
+Variable 'ZDYrJVlq.tree_0.Trachemys_scripta.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Trachemys_scripta.t=71.65974670080904
+Variable 'ZDYrJVlq.tree_0.Chrysemys_picta.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Chrysemys_picta.t=71.65974670080904
+Variable 'ZDYrJVlq.tree_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Node6.t=31.13746831704168
+Variable 'ZDYrJVlq.tree_0.Terrapene_carolina.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Terrapene_carolina.t=102.7972150178507
+Variable 'ZDYrJVlq.tree_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Node5.t=105.2237227189041
+Variable 'ZDYrJVlq.tree_0.Mauremys_reevesii.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Mauremys_reevesii.t=163.2833430476701
+Variable 'ZDYrJVlq.tree_0.Gopherus_evgoodei.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Gopherus_evgoodei.t=138.5859694822481
+Variable 'ZDYrJVlq.tree_0.Chelonoidis_abingdonii.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Chelonoidis_abingdonii.t=138.5859694822481
+Variable 'ZDYrJVlq.tree_0.Node12.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Node12.t=24.69737356542203
+Variable 'ZDYrJVlq.tree_0.Node10.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Node10.t=44.73759468908468
+Variable 'ZDYrJVlq.tree_0.Node4.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Node4.t=96.25881871608335
+Variable 'ZDYrJVlq.tree_0.Chelonia_mydas.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Chelonia_mydas.t=150.7344895278763
+Variable 'ZDYrJVlq.tree_0.Dermochelys_coriacea.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Dermochelys_coriacea.t=150.7344895278763
+Variable 'ZDYrJVlq.tree_0.Node15.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Node15.t=153.5452669249618
+Variable 'ZDYrJVlq.tree_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: ZDYrJVlq.tree_0.Node3.t=175.4405802971319
+Variable 'ZDYrJVlq.ZDYrJVlq.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 3333-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+ZDYrJVlq.model.theta_GT = 0.25
+ZDYrJVlq.model.theta_CG = 0.25
+ZDYrJVlq.model.theta_CT = 1
+ZDYrJVlq.model.theta_AT = 0.25
+ZDYrJVlq.model.theta_AC = 0.25
+ZDYrJVlq.tree_0.Alligator_mississippiensis.t = 953.245
+ZDYrJVlq.tree_0.Pelodiscus_sinensis.t = 479.72
+ZDYrJVlq.tree_0.Trachemys_scripta.t = 71.6597
+ZDYrJVlq.tree_0.Chrysemys_picta.t = 71.6597
+ZDYrJVlq.tree_0.Node6.t = 31.1375
+ZDYrJVlq.tree_0.Terrapene_carolina.t = 102.797
+ZDYrJVlq.tree_0.Node5.t = 105.224
+ZDYrJVlq.tree_0.Mauremys_reevesii.t = 163.283
+ZDYrJVlq.tree_0.Gopherus_evgoodei.t = 138.586
+ZDYrJVlq.tree_0.Chelonoidis_abingdonii.t = 138.586
+ZDYrJVlq.tree_0.Node12.t = 24.6974
+ZDYrJVlq.tree_0.Node10.t = 44.7376
+ZDYrJVlq.tree_0.Node4.t = 96.2588
+ZDYrJVlq.tree_0.Chelonia_mydas.t = 150.734
+ZDYrJVlq.tree_0.Dermochelys_coriacea.t = 150.734
+ZDYrJVlq.tree_0.Node15.t = 153.545
+ZDYrJVlq.tree_0.Node3.t = 175.441
+Site 175 evaluated to a 0 probability in ComputeLLWithBranchCache
+Site 32 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Optimization finished in 45 loop passes.
+4703 likelihood evaluation calls and 28572 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'ZDYrJVlq.option' was not initialized prior to being used
+Variable 'absrel.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'lOLMDIfu.initial_value' was not initialized prior to being used
+Variable 'YXJZmcTA.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6578-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.335457
+frequencies._aux.CF3x4.p0_1 = 0.266778
+frequencies._aux.CF3x4.p0_2 = 0.458215
+frequencies._aux.CF3x4.p1_0 = 0.273961
+frequencies._aux.CF3x4.p1_1 = 0.293018
+frequencies._aux.CF3x4.p1_2 = 0.256881
+frequencies._aux.CF3x4.p2_0 = 0.264266
+frequencies._aux.CF3x4.p2_1 = 0.340361
+frequencies._aux.CF3x4.p2_2 = 0.406393
+Optimization finished in 7 loop passes.
+216 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'YXJZmcTA.model_MGREV_pi' was not initialized prior to being used
+Model YXJZmcTA.model_MGREV assigned to Alligator_mississippiensis
+Model YXJZmcTA.model_MGREV assigned to Pelodiscus_sinensis
+Model YXJZmcTA.model_MGREV assigned to Trachemys_scripta
+Model YXJZmcTA.model_MGREV assigned to Chrysemys_picta
+Model YXJZmcTA.model_MGREV assigned to Node6
+Model YXJZmcTA.model_MGREV assigned to Terrapene_carolina
+Model YXJZmcTA.model_MGREV assigned to Node5
+Model YXJZmcTA.model_MGREV assigned to Mauremys_reevesii
+Model YXJZmcTA.model_MGREV assigned to Gopherus_evgoodei
+Model YXJZmcTA.model_MGREV assigned to Chelonoidis_abingdonii
+Model YXJZmcTA.model_MGREV assigned to Node12
+Model YXJZmcTA.model_MGREV assigned to Node10
+Model YXJZmcTA.model_MGREV assigned to Node4
+Model YXJZmcTA.model_MGREV assigned to Chelonia_mydas
+Model YXJZmcTA.model_MGREV assigned to Dermochelys_coriacea
+Model YXJZmcTA.model_MGREV assigned to Node15
+Model YXJZmcTA.model_MGREV assigned to Node3
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'YXJZmcTA.YXJZmcTA.likelihoodFunction' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Alligator_mississippiensis.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Alligator_mississippiensis.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Pelodiscus_sinensis.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Pelodiscus_sinensis.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Trachemys_scripta.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Trachemys_scripta.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Chrysemys_picta.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Chrysemys_picta.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Terrapene_carolina.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Terrapene_carolina.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Mauremys_reevesii.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Mauremys_reevesii.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Gopherus_evgoodei.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Gopherus_evgoodei.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Chelonoidis_abingdonii.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Chelonoidis_abingdonii.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Chelonia_mydas.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Chelonia_mydas.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Dermochelys_coriacea.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Dermochelys_coriacea.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node6.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node5.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node5.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node12.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node12.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node10.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node10.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node4.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node4.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node15.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node15.beta' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node3.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Node3.beta' was not initialized prior to being used
+Site 102 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 210 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 102 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 225 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 284 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 102 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 102 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 210 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 256 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 208 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 275-th LF evaluation.
+Initial guess for YXJZmcTA.tree_0.Pelodiscus_sinensis.beta is 0.187446
+Initial guess for YXJZmcTA.tree_0.Pelodiscus_sinensis.alpha is 0.225508
+Initial guess for YXJZmcTA.tree_0.Node3.beta is 0.0348616
+Initial guess for YXJZmcTA.tree_0.Node3.alpha is 0.0443899
+Initial guess for YXJZmcTA.tree_0.Node4.beta is -0.0178538
+Initial guess for YXJZmcTA.tree_0.Node4.alpha is -0.023332
+Initial guess for YXJZmcTA.tree_0.Node5.beta is 0.00722041
+Initial guess for YXJZmcTA.tree_0.Node5.alpha is 0.000950787
+Initial guess for YXJZmcTA.tree_0.Node6.beta is 0.00275684
+Initial guess for YXJZmcTA.tree_0.Node6.alpha is 0.00187888
+Initial guess for YXJZmcTA.tree_0.Trachemys_scripta.beta is 0.0348538
+Initial guess for YXJZmcTA.tree_0.Trachemys_scripta.alpha is 0.00641574
+Initial guess for YXJZmcTA.tree_0.Chrysemys_picta.beta is 0.00363001
+Initial guess for YXJZmcTA.tree_0.Chrysemys_picta.alpha is 0.000922753
+Initial guess for YXJZmcTA.tree_0.Terrapene_carolina.beta is 0.00194755
+Initial guess for YXJZmcTA.tree_0.Terrapene_carolina.alpha is 1.46418e-06
+Initial guess for YXJZmcTA.tree_0.Node10.beta is 0.00599302
+Initial guess for YXJZmcTA.tree_0.Node10.alpha is 0.00321426
+Initial guess for YXJZmcTA.tree_0.Mauremys_reevesii.beta is 0.000988408
+Initial guess for YXJZmcTA.tree_0.Mauremys_reevesii.alpha is 0.000901505
+Initial guess for YXJZmcTA.tree_0.Node12.beta is -0.00144718
+Initial guess for YXJZmcTA.tree_0.Node12.alpha is -0.0012439
+Initial guess for YXJZmcTA.tree_0.Gopherus_evgoodei.beta is 0.00424073
+Initial guess for YXJZmcTA.tree_0.Gopherus_evgoodei.alpha is 0.00872809
+Initial guess for YXJZmcTA.tree_0.Chelonoidis_abingdonii.beta is 0.0097928
+Initial guess for YXJZmcTA.tree_0.Chelonoidis_abingdonii.alpha is 0.00473177
+Initial guess for YXJZmcTA.tree_0.Node15.beta is 0.0338468
+Initial guess for YXJZmcTA.tree_0.Node15.alpha is 0.027587
+Initial guess for YXJZmcTA.tree_0.Chelonia_mydas.beta is 0.00533683
+Initial guess for YXJZmcTA.tree_0.Chelonia_mydas.alpha is 0.00271037
+Initial guess for YXJZmcTA.tree_0.Dermochelys_coriacea.beta is -0.00151176
+Initial guess for YXJZmcTA.tree_0.Dermochelys_coriacea.alpha is -0.0130325
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.model_MGREV.theta_GT = 1
+YXJZmcTA.model_MGREV.theta_CT = 1
+YXJZmcTA.model_MGREV.theta_CG = 1
+YXJZmcTA.model_MGREV.theta_AC = 1
+YXJZmcTA.model_MGREV.theta_AT = 1
+YXJZmcTA.tree_0.Alligator_mississippiensis.alpha = 0.1
+YXJZmcTA.tree_0.Alligator_mississippiensis.beta = 0.1
+YXJZmcTA.tree_0.Pelodiscus_sinensis.alpha = 0.225508
+YXJZmcTA.tree_0.Pelodiscus_sinensis.beta = 0.187446
+YXJZmcTA.tree_0.Trachemys_scripta.alpha = 0.00641574
+YXJZmcTA.tree_0.Trachemys_scripta.beta = 0.0348538
+YXJZmcTA.tree_0.Chrysemys_picta.alpha = 0.000922753
+YXJZmcTA.tree_0.Chrysemys_picta.beta = 0.00363001
+YXJZmcTA.tree_0.Node6.alpha = 0.00187888
+YXJZmcTA.tree_0.Node6.beta = 0.00275684
+YXJZmcTA.tree_0.Terrapene_carolina.alpha = 1.46418e-06
+YXJZmcTA.tree_0.Terrapene_carolina.beta = 0.00194755
+YXJZmcTA.tree_0.Node5.alpha = 0.000950787
+YXJZmcTA.tree_0.Node5.beta = 0.00722041
+YXJZmcTA.tree_0.Mauremys_reevesii.alpha = 0.000901505
+YXJZmcTA.tree_0.Mauremys_reevesii.beta = 0.000988408
+YXJZmcTA.tree_0.Gopherus_evgoodei.alpha = 0.00872809
+YXJZmcTA.tree_0.Gopherus_evgoodei.beta = 0.00424073
+YXJZmcTA.tree_0.Chelonoidis_abingdonii.alpha = 0.00473177
+YXJZmcTA.tree_0.Chelonoidis_abingdonii.beta = 0.0097928
+YXJZmcTA.tree_0.Node12.alpha = 0
+YXJZmcTA.tree_0.Node12.beta = 0
+YXJZmcTA.tree_0.Node10.alpha = 0.00321426
+YXJZmcTA.tree_0.Node10.beta = 0.00599302
+YXJZmcTA.tree_0.Node4.alpha = 0
+YXJZmcTA.tree_0.Node4.beta = 0
+YXJZmcTA.tree_0.Chelonia_mydas.alpha = 0.00271037
+YXJZmcTA.tree_0.Chelonia_mydas.beta = 0.00533683
+YXJZmcTA.tree_0.Dermochelys_coriacea.alpha = 0
+YXJZmcTA.tree_0.Dermochelys_coriacea.beta = 0
+YXJZmcTA.tree_0.Node15.alpha = 0.027587
+YXJZmcTA.tree_0.Node15.beta = 0.0338468
+YXJZmcTA.tree_0.Node3.alpha = 0.0443899
+YXJZmcTA.tree_0.Node3.beta = 0.0348616
+Optimization finished in 25 loop passes.
+4743 likelihood evaluation calls and 18529 matrix exponentiations calls were made
+
+Variable 'bsrel_mixture_aux_0' was not initialized prior to being used
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6756-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.335457
+frequencies._aux.CF3x4.p0_1 = 0.266778
+frequencies._aux.CF3x4.p0_2 = 0.458215
+frequencies._aux.CF3x4.p1_0 = 0.273961
+frequencies._aux.CF3x4.p1_1 = 0.293018
+frequencies._aux.CF3x4.p1_2 = 0.256881
+frequencies._aux.CF3x4.p2_0 = 0.264266
+frequencies._aux.CF3x4.p2_1 = 0.340361
+frequencies._aux.CF3x4.p2_2 = 0.406393
+Optimization finished in 7 loop passes.
+216 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.2_pi' was not initialized prior to being used
+Variable 'omega1' was not initialized prior to being used
+Variable 'omega2' was not initialized prior to being used
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Variable 'bsrel_mixture_aux_1' was not initialized prior to being used
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6410-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.335457
+frequencies._aux.CF3x4.p0_1 = 0.266778
+frequencies._aux.CF3x4.p0_2 = 0.458215
+frequencies._aux.CF3x4.p1_0 = 0.273961
+frequencies._aux.CF3x4.p1_1 = 0.293018
+frequencies._aux.CF3x4.p1_2 = 0.256881
+frequencies._aux.CF3x4.p2_0 = 0.264266
+frequencies._aux.CF3x4.p2_1 = 0.340361
+frequencies._aux.CF3x4.p2_2 = 0.406393
+Optimization finished in 7 loop passes.
+216 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.3_pi' was not initialized prior to being used
+Variable 'omega3' was not initialized prior to being used
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Variable 'bsrel_mixture_aux_2' was not initialized prior to being used
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6329-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.335457
+frequencies._aux.CF3x4.p0_1 = 0.266778
+frequencies._aux.CF3x4.p0_2 = 0.458215
+frequencies._aux.CF3x4.p1_0 = 0.273961
+frequencies._aux.CF3x4.p1_1 = 0.293018
+frequencies._aux.CF3x4.p1_2 = 0.256881
+frequencies._aux.CF3x4.p2_0 = 0.264266
+frequencies._aux.CF3x4.p2_1 = 0.340361
+frequencies._aux.CF3x4.p2_2 = 0.406393
+Optimization finished in 7 loop passes.
+216 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.4_pi' was not initialized prior to being used
+Variable 'omega4' was not initialized prior to being used
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Variable 'bsrel_mixture_aux_3' was not initialized prior to being used
+Overwritten previously defined function:'MyRZSCWK.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 6329-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.335457
+frequencies._aux.CF3x4.p0_1 = 0.266778
+frequencies._aux.CF3x4.p0_2 = 0.458215
+frequencies._aux.CF3x4.p1_0 = 0.273961
+frequencies._aux.CF3x4.p1_1 = 0.293018
+frequencies._aux.CF3x4.p1_2 = 0.256881
+frequencies._aux.CF3x4.p2_0 = 0.264266
+frequencies._aux.CF3x4.p2_1 = 0.340361
+frequencies._aux.CF3x4.p2_2 = 0.406393
+Optimization finished in 7 loop passes.
+216 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.5_pi' was not initialized prior to being used
+Variable 'omega5' was not initialized prior to being used
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Variable 'sHQtkqEh.best_val' was not initialized prior to being used
+Variable 'YXJZmcTA.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (10) of threads.
+Set GUI update interval to every 203-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Alligator_mississippiensis.alpha = 1.59696
+YXJZmcTA.tree_0.Alligator_mississippiensis.bsrel_mixture_aux_0 = 0.75
+YXJZmcTA.tree_0.Alligator_mississippiensis.omega1 = 0.2
+YXJZmcTA.tree_0.Alligator_mississippiensis.omega2 = 9
+YXJZmcTA.tree_0.Alligator_mississippiensis.beta = 0.795795
+Optimization finished in 14 loop passes.
+291 likelihood evaluation calls and 568 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 209-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Alligator_mississippiensis.bsrel_mixture_aux_1 = 0.5
+YXJZmcTA.tree_0.Alligator_mississippiensis.omega1 = 0.266558
+YXJZmcTA.tree_0.Alligator_mississippiensis.bsrel_mixture_aux_0 = 0.752338
+YXJZmcTA.tree_0.Alligator_mississippiensis.alpha = 1.36062
+YXJZmcTA.tree_0.Alligator_mississippiensis.omega2 = 0.8
+YXJZmcTA.tree_0.Alligator_mississippiensis.omega3 = 9
+Optimization finished in 15 loop passes.
+450 likelihood evaluation calls and 1330 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Variable 'YXJZmcTA.tree_0.Alligator_mississippiensis.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Alligator_mississippiensis.omega1' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Alligator_mississippiensis.omega2' was not initialized prior to being used
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (7) of threads.
+Set GUI update interval to every 163-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Dermochelys_coriacea.alpha = 0.345845
+YXJZmcTA.tree_0.Dermochelys_coriacea.bsrel_mixture_aux_0 = 0.75
+YXJZmcTA.tree_0.Dermochelys_coriacea.omega1 = 0
+YXJZmcTA.tree_0.Dermochelys_coriacea.omega2 = 28
+YXJZmcTA.tree_0.Dermochelys_coriacea.beta = 0.364185
+Internal error in _LikelihoodFunction::ConjugateGradientDescent. The function evaluated at current parameter values [-3576.55] does not match the last recorded LF maximum [-3576.55]
+Optimization finished in 9 loop passes.
+328 likelihood evaluation calls and 623 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 235-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Dermochelys_coriacea.bsrel_mixture_aux_1 = 0.5
+YXJZmcTA.tree_0.Dermochelys_coriacea.omega1 = 0.152927
+YXJZmcTA.tree_0.Dermochelys_coriacea.bsrel_mixture_aux_0 = 0.804085
+YXJZmcTA.tree_0.Dermochelys_coriacea.alpha = 0.271566
+YXJZmcTA.tree_0.Dermochelys_coriacea.omega2 = 0.8
+YXJZmcTA.tree_0.Dermochelys_coriacea.omega3 = 65
+Optimization finished in 6 loop passes.
+220 likelihood evaluation calls and 656 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Variable 'YXJZmcTA.tree_0.Dermochelys_coriacea.alpha' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Dermochelys_coriacea.omega1' was not initialized prior to being used
+Variable 'YXJZmcTA.tree_0.Dermochelys_coriacea.omega2' was not initialized prior to being used
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 326-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Pelodiscus_sinensis.alpha = 0.260682
+YXJZmcTA.tree_0.Pelodiscus_sinensis.bsrel_mixture_aux_0 = 0.75
+YXJZmcTA.tree_0.Pelodiscus_sinensis.omega1 = 0.4
+YXJZmcTA.tree_0.Pelodiscus_sinensis.omega2 = 0.25
+YXJZmcTA.tree_0.Pelodiscus_sinensis.beta = 0.0936012
+Optimization finished in 10 loop passes.
+302 likelihood evaluation calls and 584 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 1923-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Node3.beta = 0.0501553
+YXJZmcTA.tree_0.Node3.omega1 = 0
+YXJZmcTA.tree_0.Node3.alpha = 0.195328
+YXJZmcTA.tree_0.Node3.bsrel_mixture_aux_0 = 0.75
+YXJZmcTA.tree_0.Node3.omega2 = 1
+Optimization finished in 10 loop passes.
+533 likelihood evaluation calls and 978 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 265-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Node15.omega2 = 9
+YXJZmcTA.tree_0.Node15.alpha = 0.0675403
+YXJZmcTA.tree_0.Node15.bsrel_mixture_aux_0 = 0.98
+YXJZmcTA.tree_0.Node15.beta = 0.0223944
+YXJZmcTA.tree_0.Node15.omega1 = 0.2
+Optimization finished in 76 loop passes.
+1803 likelihood evaluation calls and 3510 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 161-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Mauremys_reevesii.alpha = 0.0365324
+YXJZmcTA.tree_0.Mauremys_reevesii.bsrel_mixture_aux_0 = 0.95
+YXJZmcTA.tree_0.Mauremys_reevesii.beta = 0.0329239
+YXJZmcTA.tree_0.Mauremys_reevesii.omega1 = 0.6
+YXJZmcTA.tree_0.Mauremys_reevesii.omega2 = 9
+Optimization finished in 8 loop passes.
+148 likelihood evaluation calls and 300 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (14) of threads.
+Set GUI update interval to every 3125-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Gopherus_evgoodei.beta = 0.0160938
+YXJZmcTA.tree_0.Gopherus_evgoodei.omega1 = 0
+YXJZmcTA.tree_0.Gopherus_evgoodei.alpha = 0.0516986
+YXJZmcTA.tree_0.Gopherus_evgoodei.bsrel_mixture_aux_0 = 0.95
+YXJZmcTA.tree_0.Gopherus_evgoodei.omega2 = 9
+Optimization finished in 8 loop passes.
+256 likelihood evaluation calls and 458 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (8) of threads.
+Set GUI update interval to every 352-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Node10.omega2 = 0.5
+YXJZmcTA.tree_0.Node10.beta = 0.0172332
+YXJZmcTA.tree_0.Node10.omega1 = 0.2
+YXJZmcTA.tree_0.Node10.alpha = 0.0505839
+YXJZmcTA.tree_0.Node10.bsrel_mixture_aux_0 = 0.5
+Optimization finished in 6 loop passes.
+200 likelihood evaluation calls and 394 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (10) of threads.
+Set GUI update interval to every 346-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Chelonoidis_abingdonii.omega2 = 9
+YXJZmcTA.tree_0.Chelonoidis_abingdonii.alpha = 0.0219892
+YXJZmcTA.tree_0.Chelonoidis_abingdonii.bsrel_mixture_aux_0 = 0.95
+YXJZmcTA.tree_0.Chelonoidis_abingdonii.beta = 0.0175444
+YXJZmcTA.tree_0.Chelonoidis_abingdonii.omega1 = 0.4
+Optimization finished in 7 loop passes.
+210 likelihood evaluation calls and 410 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (14) of threads.
+Set GUI update interval to every 3125-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Chelonia_mydas.beta = 0.00530544
+YXJZmcTA.tree_0.Chelonia_mydas.omega1 = 0
+YXJZmcTA.tree_0.Chelonia_mydas.omega2 = 0.25
+YXJZmcTA.tree_0.Chelonia_mydas.alpha = 0.0513365
+YXJZmcTA.tree_0.Chelonia_mydas.bsrel_mixture_aux_0 = 0.5
+Optimization finished in 4 loop passes.
+131 likelihood evaluation calls and 226 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (13) of threads.
+Set GUI update interval to every 293-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Trachemys_scripta.alpha = 0.0313411
+YXJZmcTA.tree_0.Trachemys_scripta.bsrel_mixture_aux_0 = 0.75
+YXJZmcTA.tree_0.Trachemys_scripta.omega2 = 0.75
+YXJZmcTA.tree_0.Trachemys_scripta.beta = 0.00542505
+YXJZmcTA.tree_0.Trachemys_scripta.omega1 = 0
+Optimization finished in 8 loop passes.
+325 likelihood evaluation calls and 638 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 1661-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Node4.beta = 0.00734901
+YXJZmcTA.tree_0.Node4.omega1 = 0.6
+YXJZmcTA.tree_0.Node4.alpha = 0.0133461
+YXJZmcTA.tree_0.Node4.bsrel_mixture_aux_0 = 0.5
+YXJZmcTA.tree_0.Node4.omega2 = 0.5
+Optimization finished in 7 loop passes.
+158 likelihood evaluation calls and 312 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 251-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Node6.omega2 = 0.25
+YXJZmcTA.tree_0.Node6.alpha = 0.0155902
+YXJZmcTA.tree_0.Node6.bsrel_mixture_aux_0 = 0.75
+YXJZmcTA.tree_0.Node6.beta = 0.00815257
+YXJZmcTA.tree_0.Node6.omega1 = 0.6
+Optimization finished in 3 loop passes.
+71 likelihood evaluation calls and 150 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (7) of threads.
+Set GUI update interval to every 2032-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Node5.beta = 0.00296955
+YXJZmcTA.tree_0.Node5.omega1 = 0
+YXJZmcTA.tree_0.Node5.alpha = 0.0267044
+YXJZmcTA.tree_0.Node5.bsrel_mixture_aux_0 = 0.5
+YXJZmcTA.tree_0.Node5.omega2 = 0.25
+Optimization finished in 6 loop passes.
+152 likelihood evaluation calls and 284 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 382-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Terrapene_carolina.omega2 = 0.25
+YXJZmcTA.tree_0.Terrapene_carolina.alpha = 0
+YXJZmcTA.tree_0.Terrapene_carolina.bsrel_mixture_aux_0 = 0.98
+YXJZmcTA.tree_0.Terrapene_carolina.beta = 0.00542941
+YXJZmcTA.tree_0.Terrapene_carolina.omega1 = 0
+Optimization finished in 65 loop passes.
+1671 likelihood evaluation calls and 3108 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (8) of threads.
+Set GUI update interval to every 298-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Chrysemys_picta.alpha = 0.00771156
+YXJZmcTA.tree_0.Chrysemys_picta.bsrel_mixture_aux_0 = 0.98
+YXJZmcTA.tree_0.Chrysemys_picta.beta = 0
+YXJZmcTA.tree_0.Chrysemys_picta.omega1 = 0
+YXJZmcTA.tree_0.Chrysemys_picta.omega2 = 0.25
+Optimization finished in 6 loop passes.
+181 likelihood evaluation calls and 346 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Auto-benchmarked an optimal number (14) of threads.
+Set GUI update interval to every 3105-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.tree_0.Node12.beta = 0
+YXJZmcTA.tree_0.Node12.omega1 = 0
+YXJZmcTA.tree_0.Node12.omega2 = 0.25
+YXJZmcTA.tree_0.Node12.alpha = 0
+YXJZmcTA.tree_0.Node12.bsrel_mixture_aux_0 = 0.98
+Optimization finished in 3 loop passes.
+146 likelihood evaluation calls and 112 matrix exponentiations calls were made
+
+The tips of the tree:YXJZmcTA.tree_0 were matched with the species names from the data in the following numeric order (0-based) {0,9,5,4,6,3,2,1,7,8}
+
+Pseudo-optimal path's cost 3176 vs 5522 for 1..k=> a 1.73866 x improvement
+Variable 'tynuedLp.YXJZmcTA.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (10) of threads.
+Set GUI update interval to every 117-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+YXJZmcTA.model_MGREV.theta_GT = 0.45383
+YXJZmcTA.model_MGREV.theta_CT = 1.07765
+YXJZmcTA.model_MGREV.theta_CG = 0.782593
+YXJZmcTA.model_MGREV.theta_AT = 0.467027
+YXJZmcTA.model_MGREV.theta_AC = 0.522093
+YXJZmcTA.tree_0.Alligator_mississippiensis.bsrel_mixture_aux_0 = 0.752338
+YXJZmcTA.tree_0.Alligator_mississippiensis.alpha = 1.36062
+YXJZmcTA.tree_0.Alligator_mississippiensis.omega1 = 0.266558
+YXJZmcTA.tree_0.Alligator_mississippiensis.omega2 = 5.51269
+YXJZmcTA.tree_0.Pelodiscus_sinensis.beta = 0.0936012
+YXJZmcTA.tree_0.Pelodiscus_sinensis.alpha = 0.260682
+YXJZmcTA.tree_0.Trachemys_scripta.alpha = 0.0313411
+YXJZmcTA.tree_0.Trachemys_scripta.beta = 0.00542505
+YXJZmcTA.tree_0.Chrysemys_picta.alpha = 0.00771156
+YXJZmcTA.tree_0.Chrysemys_picta.beta = 0
+YXJZmcTA.tree_0.Node6.alpha = 0.0155902
+YXJZmcTA.tree_0.Node6.beta = 0.00815257
+YXJZmcTA.tree_0.Terrapene_carolina.alpha = 0
+YXJZmcTA.tree_0.Terrapene_carolina.beta = 0.00542941
+YXJZmcTA.tree_0.Node5.beta = 0.00296955
+YXJZmcTA.tree_0.Node5.alpha = 0.0267044
+YXJZmcTA.tree_0.Mauremys_reevesii.alpha = 0.0365324
+YXJZmcTA.tree_0.Mauremys_reevesii.beta = 0.0329239
+YXJZmcTA.tree_0.Gopherus_evgoodei.beta = 0.0160938
+YXJZmcTA.tree_0.Gopherus_evgoodei.alpha = 0.0689314
+YXJZmcTA.tree_0.Chelonoidis_abingdonii.alpha = 0.0219892
+YXJZmcTA.tree_0.Chelonoidis_abingdonii.beta = 0.0175444
+YXJZmcTA.tree_0.Node12.beta = 0
+YXJZmcTA.tree_0.Node12.alpha = 0
+YXJZmcTA.tree_0.Node10.alpha = 0.0505839
+YXJZmcTA.tree_0.Node10.beta = 0.0172332
+YXJZmcTA.tree_0.Node4.beta = 0.00734901
+YXJZmcTA.tree_0.Node4.alpha = 0.0177948
+YXJZmcTA.tree_0.Chelonia_mydas.alpha = 0.0342243
+YXJZmcTA.tree_0.Chelonia_mydas.beta = 0.00530544
+YXJZmcTA.tree_0.Dermochelys_coriacea.omega1 = 0.152927
+YXJZmcTA.tree_0.Dermochelys_coriacea.bsrel_mixture_aux_0 = 0.804085
+YXJZmcTA.tree_0.Dermochelys_coriacea.alpha = 0.271566
+YXJZmcTA.tree_0.Dermochelys_coriacea.omega2 = 1e+25
+YXJZmcTA.tree_0.Node15.beta = 0.0223944
+YXJZmcTA.tree_0.Node15.alpha = 0.0900537
+YXJZmcTA.tree_0.Node3.beta = 0.0501553
+YXJZmcTA.tree_0.Node3.alpha = 0.195328
+Optimization finished in 22 loop passes.
+2730 likelihood evaluation calls and 11798 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used

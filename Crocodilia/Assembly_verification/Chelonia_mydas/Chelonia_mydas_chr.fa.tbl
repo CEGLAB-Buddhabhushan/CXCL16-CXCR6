@@ -1,0 +1,59 @@
+==================================================
+file name: Chelonia_mydas_chr.fa    
+sequences:             1
+total length:  262513884 bp  (262495146 bp excl N/X-runs)
+GC level:         42.59 %
+bases masked:  148503485 bp ( 56.57 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       275815     85275392 bp   32.48 %
+   SINEs:            48808      7111505 bp    2.71 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           155356     43537463 bp   16.58 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex     110959     30563949 bp   11.64 %
+     R1/LOA/Jockey     345       256033 bp    0.10 %
+     R2/R4/NeSL        639       232287 bp    0.09 %
+     RTE/Bov-B        3838      1820064 bp    0.69 %
+     L1/CIN4          1310       529512 bp    0.20 %
+   LTR elements:     71651     34626424 bp   13.19 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia          77        15741 bp    0.01 %
+     Gypsy/DIRS1     54669     27496525 bp   10.47 %
+       Retroviral     6998      3862203 bp    1.47 %
+
+DNA transposons     271429     55594059 bp   21.18 %
+   hobo-Activator    97185     23796385 bp    9.06 %
+   Tc1-IS630-Pogo     5757      1409401 bp    0.54 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR           195        34407 bp    0.01 %
+   PiggyBac             97        18260 bp    0.01 %
+   Tourist/Harbinger121358     19942572 bp    7.60 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles       1399       244960 bp    0.09 %
+
+Unclassified:        38047      6161022 bp    2.35 %
+
+Total interspersed repeats:   147030473 bp   56.01 %
+
+
+Small RNA:            7409      1375746 bp    0.52 %
+
+Satellites:           1304       172125 bp    0.07 %
+Simple repeats:      24802       855687 bp    0.33 %
+Low complexity:       3381       150290 bp    0.06 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be Testudines    
+RepeatMasker version 4.1.5 , sensitive mode
+                                      
+run with rmblastn version 2.14.0+
+FamDB: CONS-Dfam_3.7

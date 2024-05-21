@@ -1,0 +1,89 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_001723895.1_CroPor_comp1_genomic.fna
+           70 sequences; 2,049,536,252 total letters
+
+
+
+Query= Chelonia_mydas
+
+Length=1032
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_017728886.1 Crocodylus porosus isolate Cpor-Errol unplaced gen...  312        4e-82
+
+
+
+Query_1  82        AGCAAAATCTTTCTGCCCTGTATGTATGCATTTGCTTTTGCCTTCGGGCTGATAGGAAAT  141
+0        77782835  ............G......-.......T.........C..T...T........G.....C  77782777
+
+Query_1  142       TCTTTGGTCCTTATCATATACATTTTCTGTGAGAAACTGAAGACGTTGACAGATGTATTT  201
+0        77782776  .G..----.....A.G.G......C...AA......T.T....TCC.ACA..C.......  77782720
+                                                                          \    
+                                                                          |    
+                                                                          G
+
+Query_1  202       TTAGTGAGCTTGGCTACAGCAGACTTGCTTTTCCTTTCCACCTTGCCATTCTGGGCATAT  261
+0        77782719  ..G..T.......T..AT..T...C.A.....T....A..T.C.................  77782653
+                          \                                                    
+                          |                                                    
+                    CCTGATG
+
+Query_1  262       TCTGCTGCTCGCGAGTGGATTTTTGGCTCCTTGATGTGTAAAATTATACGGGGCCTGTAC  321
+0        77782652  .........TA.A..............A..ACA......TGT........AA.TA.T..T  77782593
+
+Query_1  322       ACTTTGAATCTGTACACTTCAATGTTAACACTCACTTGTATAACTATTGACAGATTTATT  381
+0        77782592  .AC..................G....G...T.A..C.......A.........G.G....  77782533
+
+Query_1  382       GCTATTGCCCAAGCCACAAAAGCCCACATGTGTCAAGCCAAAAGAATGGTTTGGGGGAAA  441
+0        77782532  ........T.....A..C......A.TG.AA............T.....CG.....C...  77782473
+
+Query_1  442       GTGATCTGCATTTTAGTTTGGGTGATTTCACTAGCATTTGCAACGCCACAATTTAAATAC  501
+0        77782472  .CA.....T.....G..A...A....A..GG..........C.T.T.T..G....TT..T  77782413
+
+Query_1  502       AGTACACAATCAAACTATGATAAGTCAGTCTGTCATGCAGTGTATCCTTCAGATCTCACA  561
+0        77782412  ...G....                                                      77782405
+
+Query_1  562       GAATTGGTTTTTAAAGTACTTCAAATGACCCTTGGATTCTTTATCCCCATGCTAACCATG  621
+
+Query_1  622       ATTATCTGCTACTCAATAATTATCAAAACTTTACTTCGTGCCAGGAGTTTCCAAAAACAC  681
+
+Query_1  682       AAATCCTTAAAAATAATATTTTCTATAGTAGTGACGTTCATTCTTACTCAGTTACCCTAC  741
+
+Query_1  742       AATTTGTTGATACTCATACGCAATATACATGTGGAATTCAACCTGGACTACAATTTCGAC  801
+
+Query_1  802       TCTGCGGTGGTTATAACAGAAGCAATTGCTTATCTCCATGGCTGTCTCAACCCTGTTCTA  861
+0        81007304                                    .....T.....G....T..A...A..  81007329
+
+Query_1  862       TATTTCTTTATTGGGGTGAAGTTCAGGAAGAAC  894
+0        81007330  ...........G..T.AA..A....A....T..  81007362
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2047484408058
+
+
+  Database: GCF_001723895.1_CroPor_comp1_genomic.fna
+    Posted date:  Sep 28, 2023  12:27 PM
+  Number of letters in database: 2,049,536,252
+  Number of sequences in database:  70
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

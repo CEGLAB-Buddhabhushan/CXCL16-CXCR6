@@ -1,0 +1,77 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_009764565.3_rDerCor1.pri.v4_genomic.fna
+           40 sequences; 2,164,762,090 total letters
+
+
+
+Query= Pelodiscus_sinensis
+
+Length=1032
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_050069.1 Dermochelys coriacea isolate rDerCor1 chromosome 2, r...  659        0.0  
+
+
+
+Query_1  453        TTTAGTTTGGGTGATGTCAGTAGTATTTGCAATACCACAATTTATATATAGTACACAATC  512
+1        190429288  ...............T...C...C..A......G..........A...A..C.......A  190429347
+
+Query_1  513        CACATATGATAAGTCAATTTGTCATGCAACGTACCCATCCCGTCTCGTAGAATTGGTTCT  572
+1        190429348  G.AC............G.C.........GT...T..T..AGA....AC..........T.  190429407
+
+Query_1  573        TAAAGTACTTCAAATGACTCTTGGATTCCTTATCCCTCTGCTAACAATGATTATCTGCTA  632
+1        190429408  .........C........C.........T.......CA.......C..............  190429467
+
+Query_1  633        CTCGATCATTATCAAAACTTTACTACATGCCAGGAGTTTCCAAAAGCACAAATCCTTAAA  692
+1        190429468  ...A..A.....T...........T.C..................A..........G...  190429527
+
+Query_1  693        AATAATATTTTCTGTAGTAGTGGTGTTCATTCTTACCCAGTTACCCTATAACTTCCTGAT  752
+1        190429528  ..........A..A........A.....G.......T...........C..T..AT....  190429587
+
+Query_1  753        ACTCTTACGCAATATATACTTAGAATTCTACCTGGACTACAATTATGATGCTGCGGTAGT  812
+1        190429588  ....A...........C.TG.G......A.T.............T...CT.A..A..G..  190429647
+
+Query_1  813        CATAACAGAAGCAATTGCTTATCTCCATGGCTGTCTCAACCCTATTCTGTATTTCTTTAT  872
+1        190429648  ...........................................G....A..........C  190429707
+1        187191830      ......A..C.G....T.T....CT.T........T..C...A.C...........  187191775
+
+Query_1  873        TGGGGCCAAGTTCAGAAAGAACGTTCAGAAAATCATGAAGAACATCAGACATGTTAAGCA  932
+1        190429708  ...A.TG........G......T.C...........C............TG........G  190429767
+1        187191774  G....AA..A....                                                187191761
+
+Query_1  933        CCAAGGCTTCATGAAGCAATGGCAAACCACTGAAGAGGAAGGCTCAAAAACTTGCACTGC  992
+1        190429768  ......TA............................T..GA...TG........T.....  190429827
+
+Query_1  993        TTCCCAGAATGCAGAAGCAACAAGCATGTATCCATTATAA  1032
+1        190429828  C..GTCC....T............................  190429867
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2162596009230
+
+
+  Database: GCF_009764565.3_rDerCor1.pri.v4_genomic.fna
+    Posted date:  Sep 28, 2023  12:27 PM
+  Number of letters in database: 2,164,762,090
+  Number of sequences in database:  40
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

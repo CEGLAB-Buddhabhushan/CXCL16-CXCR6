@@ -1,0 +1,21 @@
+test	back	pval	kval	Inference
+Alligator_mississippiensis	`Pelodiscus_sinensis,Trachemys_scripta,Chrysemys_picta,Node6,Terrapene_carolina,Node5,Mauremys_reevesii,Gopherus_evgoodei,Chelonoidis_abingdonii,Node12,Node10,Node4,Chelonia_mydas,Dermochelys_coriacea,Node15,Node3`	0.0001	0.01	Evidence_for_*relaxation_of_selection*_among_**test**_branches__relative__to_the_**reference**_branches_at_P<=0.05
+Chelonia_mydas	`Alligator_mississippiensis,Pelodiscus_sinensis,Trachemys_scripta,Chrysemys_picta,Node6,Terrapene_carolina,Node5,Mauremys_reevesii,Gopherus_evgoodei,Chelonoidis_abingdonii,Node12,Node10,Node4,Dermochelys_coriacea,Node15,Node3`	0.5582	0.65	No_significant_evidence_for_relaxation_(or_intensification)_of_selection_among_**test**_branches__relative__to_the_**reference**_branches_at_P<=0.05
+Chelonoidis_abingdonii	`Alligator_mississippiensis,Pelodiscus_sinensis,Trachemys_scripta,Chrysemys_picta,Node6,Terrapene_carolina,Node5,Mauremys_reevesii,Gopherus_evgoodei,Node12,Node10,Node4,Chelonia_mydas,Dermochelys_coriacea,Node15,Node3`	0.7818	1.29	No_significant_evidence_for_relaxation_(or_intensification)_of_selection_among_**test**_branches__relative__to_the_**reference**_branches_at_P<=0.05
+Chrysemys_picta	`Alligator_mississippiensis,Pelodiscus_sinensis,Trachemys_scripta,Node6,Terrapene_carolina,Node5,Mauremys_reevesii,Gopherus_evgoodei,Chelonoidis_abingdonii,Node12,Node10,Node4,Chelonia_mydas,Dermochelys_coriacea,Node15,Node3`	0.6831	0.65	No_significant_evidence_for_relaxation_(or_intensification)_of_selection_among_**test**_branches__relative__to_the_**reference**_branches_at_P<=0.05
+Dermochelys_coriacea	`Alligator_mississippiensis,Pelodiscus_sinensis,Trachemys_scripta,Chrysemys_picta,Node6,Terrapene_carolina,Node5,Mauremys_reevesii,Gopherus_evgoodei,Chelonoidis_abingdonii,Node12,Node10,Node4,Chelonia_mydas,Node15,Node3`	0.0000	48.50	Evidence_for_*intensification_of_selection*_among_**test**_branches__relative__to_the_**reference**_branches_at_P<=0.05
+Gopherus_evgoodei	`Alligator_mississippiensis,Pelodiscus_sinensis,Trachemys_scripta,Chrysemys_picta,Node6,Terrapene_carolina,Node5,Mauremys_reevesii,Chelonoidis_abingdonii,Node12,Node10,Node4,Chelonia_mydas,Dermochelys_coriacea,Node15,Node3`	0.5748	0.77	No_significant_evidence_for_relaxation_(or_intensification)_of_selection_among_**test**_branches__relative__to_the_**reference**_branches_at_P<=0.05
+Mauremys_reevesii	`Alligator_mississippiensis,Pelodiscus_sinensis,Trachemys_scripta,Chrysemys_picta,Node6,Terrapene_carolina,Node5,Gopherus_evgoodei,Chelonoidis_abingdonii,Node12,Node10,Node4,Chelonia_mydas,Dermochelys_coriacea,Node15,Node3`	0.3418	1.63	No_significant_evidence_for_relaxation_(or_intensification)_of_selection_among_**test**_branches__relative__to_the_**reference**_branches_at_P<=0.05
+Pelodiscus_sinensis	`Alligator_mississippiensis,Trachemys_scripta,Chrysemys_picta,Node6,Terrapene_carolina,Node5,Mauremys_reevesii,Gopherus_evgoodei,Chelonoidis_abingdonii,Node12,Node10,Node4,Chelonia_mydas,Dermochelys_coriacea,Node15,Node3`	0.0789	0.51	No_significant_evidence_for_relaxation_(or_intensification)_of_selection_among_**test**_branches__relative__to_the_**reference**_branches_at_P<=0.05
+Terrapene_carolina	`Alligator_mississippiensis,Pelodiscus_sinensis,Trachemys_scripta,Chrysemys_picta,Node6,Node5,Mauremys_reevesii,Gopherus_evgoodei,Chelonoidis_abingdonii,Node12,Node10,Node4,Chelonia_mydas,Dermochelys_coriacea,Node15,Node3`	0.1665	4.18	No_significant_evidence_for_relaxation_(or_intensification)_of_selection_among_**test**_branches__relative__to_the_**reference**_branches_at_P<=0.05
+Trachemys_scripta	`Alligator_mississippiensis,Pelodiscus_sinensis,Chrysemys_picta,Node6,Terrapene_carolina,Node5,Mauremys_reevesii,Gopherus_evgoodei,Chelonoidis_abingdonii,Node12,Node10,Node4,Chelonia_mydas,Dermochelys_coriacea,Node15,Node3`	0.4895	0.64	No_significant_evidence_for_relaxation_(or_intensification)_of_selection_among_**test**_branches__relative__to_the_**reference**_branches_at_P<=0.05
+Alligator_mississippiensis	0.0001	0.01
+Chelonia_mydas	0.5582	0.65
+Chelonoidis_abingdonii	0.7818	1.29
+Chrysemys_picta	0.6831	0.65
+Dermochelys_coriacea	0.0000	48.50
+Gopherus_evgoodei	0.5748	0.77
+Mauremys_reevesii	0.3418	1.63
+Pelodiscus_sinensis	0.0789	0.51
+Terrapene_carolina	0.1665	4.18
+Trachemys_scripta	0.4895	0.64

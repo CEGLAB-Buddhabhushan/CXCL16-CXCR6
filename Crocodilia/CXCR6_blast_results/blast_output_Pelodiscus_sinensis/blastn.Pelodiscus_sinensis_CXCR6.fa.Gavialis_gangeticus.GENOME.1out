@@ -1,0 +1,97 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_030020295.1_rGavGan2.hap2_genomic.fna
+           160 sequences; 2,328,538,659 total letters
+
+
+
+Query= Pelodiscus_sinensis
+
+Length=1032
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM057593.1 Gavialis gangeticus isolate rGavGan2 chromosome 5, who...  297        9e-78
+CM057589.1 Gavialis gangeticus isolate rGavGan2 chromosome 1, who...  52.7       6e-04
+
+
+
+Query_1  82         AGCAAAATTTTTCTGCCCTGTATGTATGCATTAGCTTTTGTCTTTGGGCTGATAGGAAAT  141
+4        135423891  ........C...G....T.-.......T....T....C...............G.....C  135423949
+
+Query_1  142        GCTTTGGTCATTATCATATACATTTTCTGTGAAAAACTGAAGACACTGACAGATGTATTT  201
+4        135423950  ----..T..C...A.G.G......C...AA..G...T.T.....C..AC...C....C..  135424006
+                                                                           \    
+                                                                           |    
+                                                                           G
+4        135620786                                     ......A.GCA....T...A.C.A.  135620810
+
+Query_1  202        TTAGTGAGCTTGGCTACAGCTGACTTGCTTTTTCTTTCTACCTTGCCATTCTGGGCATAT  261
+4        135424007  ..G..T.T.......TG.......C.A..........AC.T.C..T..............  135424073
+                              \       \                                         
+                              |       |                                         
+                             GC   TTAAT
+4        135620811  ..GC.A.AT.....C.TCT....T.........G.A.T.T.TC.A..............C  135620870
+4        135651901                       ..T.........G.A.T.T.TC.A..............C  135651939
+4        132151787                       ........C...G.....C....C..-......T.C...  132151749
+                                                       \                        
+                                                       |                        
+                                                       G
+
+Query_1  262        TCTGCTGCTCACGAGTGGATTTTTGGCTCTGTGACGTGTAAAATTATACGGGGCCTGTAC  321
+4        135424074  .........T..A...A..........A.CACA.T....TGT......T.AA..A.T..T  135424133
+4        135620871  CAG..A..A..TA.A...........AGA..CA.T...C......                 135620915
+4        135651940  CAG..A..A..TA.T...........AGA..CA.T..........                 135651984
+4        132151748  .A...A.TGG..C.A............A..-..--............               132151702
+                                            \                                   
+                                            |                                   
+                                          GGG
+
+Query_1  322        ACTTTGAATCTGTATACATCAATGCTAACCCTCACTTGTATAACTATTGAGAGGTTTATC  381
+4        135424134  .AC...........C..T......T.G..AT.A..C.......G......C........T  135424193
+
+Query_1  382        GCTATTGTCCAAGCCACCAAAGCCCATGTGAATCAAGCCAAAAGAATGGTGTGGGGGAAA  441
+4        135424194  .......CT.....A.......A.A....A.G...........T.....C......C...  135424253
+
+Query_1  442        GTTATCTGCATTTTAGTTTGGGTGATGTCAGTAGTATTTGCAATACCACAATTTATATAT  501
+4        135424254  .CA.....T.....G..A...A....A.......C......C..GT....G......     135424310
+
+Query_1  502        AGTACACAATCCACATATGATAAGTCAATTTGTCATGCAACGTACCCATCCCGTCTCGTA  561
+
+Query_1  562        GAATTGGTTCTTAAAGTACTTCAAATGACTCTTGGATTCCTTATCCCTCTGCTAACAATG  621
+0        143489858                                 ....C..TT.............CTTT...  143489886
+
+Query_1  622        ATTATCTGCTACTCGATCATTATCAAAACTTTACTACATGCCAGGAGTTTCCAAAAG  678
+0        143489887  ...T.T.....TG.AT.....G.......C...G.G..A.....A.--.........  143489942
+                                                             \               
+                                                             |               
+                                                             T
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 2326204845621
+
+
+  Database: GCA_030020295.1_rGavGan2.hap2_genomic.fna
+    Posted date:  Sep 28, 2023  12:28 PM
+  Number of letters in database: 2,328,538,659
+  Number of sequences in database:  160
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

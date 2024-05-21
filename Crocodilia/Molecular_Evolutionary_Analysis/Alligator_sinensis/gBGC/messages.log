@@ -1,0 +1,1074 @@
+
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Variable 'skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Overwritten previously defined function:'GaussLaguerreQuardature'
+Overwritten previously defined function:'GammaQuadWeight'
+Variable 'SKIP_HARVEST_FREQ' was not initialized prior to being used
+Variable '_WRAP_PASSTHROUGH_FLAG_' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Model MG94customModel assigned to Alligator_sinensis
+Alligator_sinensis has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Pelodiscus_sinensis
+Pelodiscus_sinensis has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Trachemys_scripta
+Trachemys_scripta has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Chrysemys_picta
+Chrysemys_picta has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Node6
+Node6 has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Terrapene_carolina
+Terrapene_carolina has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Node5
+Node5 has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Mauremys_reevesii
+Mauremys_reevesii has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Gopherus_evgoodei
+Gopherus_evgoodei has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Chelonoidis_abingdonii
+Chelonoidis_abingdonii has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Node12
+Node12 has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Node10
+Node10 has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Node4
+Node4 has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Chelonia_mydas
+Chelonia_mydas has 2 parameters - branch length not assigned
+Model MG94customModel assigned to Node3
+Node3 has 2 parameters - branch length not assigned
+The tips of the tree:givenTree were matched with the species names from the data in the following numeric order (0-based) {0,8,3,2,4,7,6,5,1}
+
+Pseudo-optimal path's cost 2268 vs 4438 for 1..k=> a 1.95679 x improvement
+Partition 0 reversible model flag computed as 1
+Variable 'theLnLik' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Variable 'givenTree.Alligator_sinensis.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Alligator_sinensis.synRate' was not initialized prior to being used
+Variable 'givenTree.Pelodiscus_sinensis.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Pelodiscus_sinensis.synRate' was not initialized prior to being used
+Variable 'givenTree.Trachemys_scripta.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Trachemys_scripta.synRate' was not initialized prior to being used
+Variable 'givenTree.Chrysemys_picta.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Chrysemys_picta.synRate' was not initialized prior to being used
+Variable 'givenTree.Terrapene_carolina.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Terrapene_carolina.synRate' was not initialized prior to being used
+Variable 'givenTree.Mauremys_reevesii.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Mauremys_reevesii.synRate' was not initialized prior to being used
+Variable 'givenTree.Gopherus_evgoodei.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Gopherus_evgoodei.synRate' was not initialized prior to being used
+Variable 'givenTree.Chelonoidis_abingdonii.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Chelonoidis_abingdonii.synRate' was not initialized prior to being used
+Variable 'givenTree.Chelonia_mydas.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Chelonia_mydas.synRate' was not initialized prior to being used
+Variable 'givenTree.Node6.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Node6.synRate' was not initialized prior to being used
+Variable 'givenTree.Node5.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Node5.synRate' was not initialized prior to being used
+Variable 'givenTree.Node12.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Node12.synRate' was not initialized prior to being used
+Variable 'givenTree.Node10.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Node10.synRate' was not initialized prior to being used
+Variable 'givenTree.Node4.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Node4.synRate' was not initialized prior to being used
+Variable 'givenTree.Node3.nonSynRate' was not initialized prior to being used
+Variable 'givenTree.Node3.synRate' was not initialized prior to being used
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 14 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 140 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 105-th LF evaluation.
+Initial guess for givenTree.Pelodiscus_sinensis.nonSynRate is 0.225518
+Initial guess for givenTree.Pelodiscus_sinensis.synRate is 0.275177
+Initial guess for givenTree.Node3.nonSynRate is 0.0168043
+Initial guess for givenTree.Node3.synRate is 0.0184729
+Initial guess for givenTree.Node4.nonSynRate is 0.000953033
+Initial guess for givenTree.Node4.synRate is 0.00202282
+Initial guess for givenTree.Node5.nonSynRate is 0.00632083
+Initial guess for givenTree.Node5.synRate is 0.00256012
+Initial guess for givenTree.Node6.nonSynRate is 0.00281174
+Initial guess for givenTree.Node6.synRate is 0.0021016
+Initial guess for givenTree.Trachemys_scripta.nonSynRate is 0.0447117
+Initial guess for givenTree.Trachemys_scripta.synRate is 0.0213243
+Initial guess for givenTree.Chrysemys_picta.nonSynRate is 0.00397738
+Initial guess for givenTree.Chrysemys_picta.synRate is 0.00106375
+Initial guess for givenTree.Terrapene_carolina.nonSynRate is 0.00177679
+Initial guess for givenTree.Terrapene_carolina.synRate is -0.000110457
+Initial guess for givenTree.Node10.nonSynRate is 0.00739341
+Initial guess for givenTree.Node10.synRate is 0.00170281
+Initial guess for givenTree.Mauremys_reevesii.nonSynRate is 0.00105288
+Initial guess for givenTree.Mauremys_reevesii.synRate is 0.000766512
+Initial guess for givenTree.Node12.nonSynRate is -0.00165325
+Initial guess for givenTree.Node12.synRate is -0.00134075
+Initial guess for givenTree.Gopherus_evgoodei.nonSynRate is 0.00453565
+Initial guess for givenTree.Gopherus_evgoodei.synRate is 0.00906343
+Initial guess for givenTree.Chelonoidis_abingdonii.nonSynRate is 0.0100124
+Initial guess for givenTree.Chelonoidis_abingdonii.synRate is 0.0055115
+Initial guess for givenTree.Chelonia_mydas.nonSynRate is 0.00560424
+Initial guess for givenTree.Chelonia_mydas.synRate is 0.00216637
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+GT = 1
+CT = 1
+AC = 1
+CG = 1
+AT = 1
+givenTree.Alligator_sinensis.synRate = 0.1
+givenTree.Alligator_sinensis.nonSynRate = 0.1
+givenTree.Pelodiscus_sinensis.synRate = 0.275177
+givenTree.Pelodiscus_sinensis.nonSynRate = 0.225518
+givenTree.Trachemys_scripta.synRate = 0.0213243
+givenTree.Trachemys_scripta.nonSynRate = 0.0447117
+givenTree.Chrysemys_picta.synRate = 0.00106375
+givenTree.Chrysemys_picta.nonSynRate = 0.00397738
+givenTree.Node6.synRate = 0.0021016
+givenTree.Node6.nonSynRate = 0.00281174
+givenTree.Terrapene_carolina.synRate = 0
+givenTree.Terrapene_carolina.nonSynRate = 0.00177679
+givenTree.Node5.synRate = 0.00256012
+givenTree.Node5.nonSynRate = 0.00632083
+givenTree.Mauremys_reevesii.synRate = 0.000766512
+givenTree.Mauremys_reevesii.nonSynRate = 0.00105288
+givenTree.Gopherus_evgoodei.synRate = 0.00906343
+givenTree.Gopherus_evgoodei.nonSynRate = 0.00453565
+givenTree.Chelonoidis_abingdonii.synRate = 0.0055115
+givenTree.Chelonoidis_abingdonii.nonSynRate = 0.0100124
+givenTree.Node12.synRate = 0
+givenTree.Node12.nonSynRate = 0
+givenTree.Node10.synRate = 0.00170281
+givenTree.Node10.nonSynRate = 0.00739341
+givenTree.Node4.synRate = 0.00202282
+givenTree.Node4.nonSynRate = 0.000953033
+givenTree.Chelonia_mydas.synRate = 0.00216637
+givenTree.Chelonia_mydas.nonSynRate = 0.00560424
+givenTree.Node3.synRate = 0.0184729
+givenTree.Node3.nonSynRate = 0.0168043
+Site 195 evaluated to a 0 probability in ComputeLLWithBranchCache
+Optimization finished in 25 loop passes.
+3638 likelihood evaluation calls and 14287 matrix exponentiations calls were made
+
+Variable 'lastDepth' was not initialized prior to being used
+No nodel was assigned to Alligator_sinensis
+Alligator_sinensis has 0 parameters - branch length not assigned
+No nodel was assigned to Pelodiscus_sinensis
+Pelodiscus_sinensis has 0 parameters - branch length not assigned
+No nodel was assigned to Trachemys_scripta
+Trachemys_scripta has 0 parameters - branch length not assigned
+No nodel was assigned to Chrysemys_picta
+Chrysemys_picta has 0 parameters - branch length not assigned
+No nodel was assigned to Node6
+Node6 has 0 parameters - branch length not assigned
+No nodel was assigned to Terrapene_carolina
+Terrapene_carolina has 0 parameters - branch length not assigned
+No nodel was assigned to Node5
+Node5 has 0 parameters - branch length not assigned
+No nodel was assigned to Mauremys_reevesii
+Mauremys_reevesii has 0 parameters - branch length not assigned
+No nodel was assigned to Gopherus_evgoodei
+Gopherus_evgoodei has 0 parameters - branch length not assigned
+No nodel was assigned to Chelonoidis_abingdonii
+Chelonoidis_abingdonii has 0 parameters - branch length not assigned
+No nodel was assigned to Node12
+Node12 has 0 parameters - branch length not assigned
+No nodel was assigned to Node10
+Node10 has 0 parameters - branch length not assigned
+No nodel was assigned to Node4
+Node4 has 0 parameters - branch length not assigned
+No nodel was assigned to Chelonia_mydas
+Chelonia_mydas has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+No nodel was assigned to Alligator_sinensis
+Alligator_sinensis has 0 parameters - branch length not assigned
+No nodel was assigned to Pelodiscus_sinensis
+Pelodiscus_sinensis has 0 parameters - branch length not assigned
+No nodel was assigned to Trachemys_scripta
+Trachemys_scripta has 0 parameters - branch length not assigned
+No nodel was assigned to Chrysemys_picta
+Chrysemys_picta has 0 parameters - branch length not assigned
+No nodel was assigned to Node6
+Node6 has 0 parameters - branch length not assigned
+No nodel was assigned to Terrapene_carolina
+Terrapene_carolina has 0 parameters - branch length not assigned
+No nodel was assigned to Node5
+Node5 has 0 parameters - branch length not assigned
+No nodel was assigned to Mauremys_reevesii
+Mauremys_reevesii has 0 parameters - branch length not assigned
+No nodel was assigned to Gopherus_evgoodei
+Gopherus_evgoodei has 0 parameters - branch length not assigned
+No nodel was assigned to Chelonoidis_abingdonii
+Chelonoidis_abingdonii has 0 parameters - branch length not assigned
+No nodel was assigned to Node12
+Node12 has 0 parameters - branch length not assigned
+No nodel was assigned to Node10
+Node10 has 0 parameters - branch length not assigned
+No nodel was assigned to Node4
+Node4 has 0 parameters - branch length not assigned
+No nodel was assigned to Chelonia_mydas
+Chelonia_mydas has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+No nodel was assigned to Alligator_sinensis
+Alligator_sinensis has 0 parameters - branch length not assigned
+No nodel was assigned to Pelodiscus_sinensis
+Pelodiscus_sinensis has 0 parameters - branch length not assigned
+No nodel was assigned to Trachemys_scripta
+Trachemys_scripta has 0 parameters - branch length not assigned
+No nodel was assigned to Chrysemys_picta
+Chrysemys_picta has 0 parameters - branch length not assigned
+No nodel was assigned to Node6
+Node6 has 0 parameters - branch length not assigned
+No nodel was assigned to Terrapene_carolina
+Terrapene_carolina has 0 parameters - branch length not assigned
+No nodel was assigned to Node5
+Node5 has 0 parameters - branch length not assigned
+No nodel was assigned to Mauremys_reevesii
+Mauremys_reevesii has 0 parameters - branch length not assigned
+No nodel was assigned to Gopherus_evgoodei
+Gopherus_evgoodei has 0 parameters - branch length not assigned
+No nodel was assigned to Chelonoidis_abingdonii
+Chelonoidis_abingdonii has 0 parameters - branch length not assigned
+No nodel was assigned to Node12
+Node12 has 0 parameters - branch length not assigned
+No nodel was assigned to Node10
+Node10 has 0 parameters - branch length not assigned
+No nodel was assigned to Node4
+Node4 has 0 parameters - branch length not assigned
+No nodel was assigned to Chelonia_mydas
+Chelonia_mydas has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+No nodel was assigned to Alligator_sinensis
+Alligator_sinensis has 0 parameters - branch length not assigned
+No nodel was assigned to Pelodiscus_sinensis
+Pelodiscus_sinensis has 0 parameters - branch length not assigned
+No nodel was assigned to Trachemys_scripta
+Trachemys_scripta has 0 parameters - branch length not assigned
+No nodel was assigned to Chrysemys_picta
+Chrysemys_picta has 0 parameters - branch length not assigned
+No nodel was assigned to Node6
+Node6 has 0 parameters - branch length not assigned
+No nodel was assigned to Terrapene_carolina
+Terrapene_carolina has 0 parameters - branch length not assigned
+No nodel was assigned to Node5
+Node5 has 0 parameters - branch length not assigned
+No nodel was assigned to Mauremys_reevesii
+Mauremys_reevesii has 0 parameters - branch length not assigned
+No nodel was assigned to Gopherus_evgoodei
+Gopherus_evgoodei has 0 parameters - branch length not assigned
+No nodel was assigned to Chelonoidis_abingdonii
+Chelonoidis_abingdonii has 0 parameters - branch length not assigned
+No nodel was assigned to Node12
+Node12 has 0 parameters - branch length not assigned
+No nodel was assigned to Node10
+Node10 has 0 parameters - branch length not assigned
+No nodel was assigned to Node4
+Node4 has 0 parameters - branch length not assigned
+No nodel was assigned to Chelonia_mydas
+Chelonia_mydas has 0 parameters - branch length not assigned
+No nodel was assigned to Node3
+Node3 has 0 parameters - branch length not assigned
+Variable 'nodeName' was not initialized prior to being used
+Variable 'speciesIndex' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Alligator_sinensis
+Model MG94customModel assigned to Pelodiscus_sinensis
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 'twoLnLik' was not initialized prior to being used
+Variable 't2.Pelodiscus_sinensis.nonSynRate' was not initialized prior to being used
+Variable 't2.Pelodiscus_sinensis.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5208-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Pelodiscus_sinensis.nonSynRate = 0.1
+t2.Pelodiscus_sinensis.synRate = 0.1
+Optimization finished in 6 loop passes.
+226 likelihood evaluation calls and 208 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Alligator_sinensis
+Model MG94customModel assigned to Trachemys_scripta
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Trachemys_scripta.nonSynRate' was not initialized prior to being used
+Variable 't2.Trachemys_scripta.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 4807-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Trachemys_scripta.nonSynRate = 0.1
+t2.Trachemys_scripta.synRate = 0.1
+Optimization finished in 6 loop passes.
+288 likelihood evaluation calls and 269 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Alligator_sinensis
+Model MG94customModel assigned to Chrysemys_picta
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chrysemys_picta.synRate' was not initialized prior to being used
+Variable 't2.Chrysemys_picta.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 5154-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chrysemys_picta.synRate = 0.1
+t2.Chrysemys_picta.nonSynRate = 0.1
+Optimization finished in 6 loop passes.
+206 likelihood evaluation calls and 188 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Alligator_sinensis
+Model MG94customModel assigned to Terrapene_carolina
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Terrapene_carolina.synRate' was not initialized prior to being used
+Variable 't2.Terrapene_carolina.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5617-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Terrapene_carolina.synRate = 0.1
+t2.Terrapene_carolina.nonSynRate = 0.1
+Optimization finished in 6 loop passes.
+241 likelihood evaluation calls and 222 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Alligator_sinensis
+Model MG94customModel assigned to Mauremys_reevesii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Mauremys_reevesii.synRate' was not initialized prior to being used
+Variable 't2.Mauremys_reevesii.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5208-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Mauremys_reevesii.synRate = 0.1
+t2.Mauremys_reevesii.nonSynRate = 0.1
+Optimization finished in 6 loop passes.
+189 likelihood evaluation calls and 173 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Alligator_sinensis
+Model MG94customModel assigned to Gopherus_evgoodei
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Gopherus_evgoodei.nonSynRate' was not initialized prior to being used
+Variable 't2.Gopherus_evgoodei.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 5747-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Gopherus_evgoodei.nonSynRate = 0.1
+t2.Gopherus_evgoodei.synRate = 0.1
+Optimization finished in 6 loop passes.
+305 likelihood evaluation calls and 285 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Alligator_sinensis
+Model MG94customModel assigned to Chelonoidis_abingdonii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonoidis_abingdonii.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonoidis_abingdonii.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (8) of threads.
+Set GUI update interval to every 5555-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonoidis_abingdonii.nonSynRate = 0.1
+t2.Chelonoidis_abingdonii.synRate = 0.1
+Optimization finished in 6 loop passes.
+257 likelihood evaluation calls and 236 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Alligator_sinensis
+Model MG94customModel assigned to Chelonia_mydas
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonia_mydas.synRate' was not initialized prior to being used
+Variable 't2.Chelonia_mydas.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5376-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonia_mydas.synRate = 0.1
+t2.Chelonia_mydas.nonSynRate = 0.1
+Optimization finished in 6 loop passes.
+234 likelihood evaluation calls and 219 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Pelodiscus_sinensis
+Model MG94customModel assigned to Trachemys_scripta
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Trachemys_scripta.nonSynRate' was not initialized prior to being used
+Variable 't2.Trachemys_scripta.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5494-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Trachemys_scripta.nonSynRate = 0.1
+t2.Trachemys_scripta.synRate = 0.1
+Optimization finished in 9 loop passes.
+147 likelihood evaluation calls and 135 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Pelodiscus_sinensis
+Model MG94customModel assigned to Chrysemys_picta
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chrysemys_picta.nonSynRate' was not initialized prior to being used
+Variable 't2.Chrysemys_picta.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5681-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chrysemys_picta.nonSynRate = 0.1
+t2.Chrysemys_picta.synRate = 0.1
+Optimization finished in 6 loop passes.
+196 likelihood evaluation calls and 177 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Pelodiscus_sinensis
+Model MG94customModel assigned to Terrapene_carolina
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Terrapene_carolina.synRate' was not initialized prior to being used
+Variable 't2.Terrapene_carolina.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 5555-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Terrapene_carolina.synRate = 0.1
+t2.Terrapene_carolina.nonSynRate = 0.1
+Optimization finished in 7 loop passes.
+151 likelihood evaluation calls and 138 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Pelodiscus_sinensis
+Model MG94customModel assigned to Mauremys_reevesii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Mauremys_reevesii.nonSynRate' was not initialized prior to being used
+Variable 't2.Mauremys_reevesii.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 5376-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Mauremys_reevesii.nonSynRate = 0.1
+t2.Mauremys_reevesii.synRate = 0.1
+Optimization finished in 7 loop passes.
+91 likelihood evaluation calls and 82 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Pelodiscus_sinensis
+Model MG94customModel assigned to Gopherus_evgoodei
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Gopherus_evgoodei.nonSynRate' was not initialized prior to being used
+Variable 't2.Gopherus_evgoodei.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 5208-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Gopherus_evgoodei.nonSynRate = 0.1
+t2.Gopherus_evgoodei.synRate = 0.1
+Optimization finished in 6 loop passes.
+152 likelihood evaluation calls and 135 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Pelodiscus_sinensis
+Model MG94customModel assigned to Chelonoidis_abingdonii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonoidis_abingdonii.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonoidis_abingdonii.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5813-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonoidis_abingdonii.nonSynRate = 0.1
+t2.Chelonoidis_abingdonii.synRate = 0.1
+Optimization finished in 7 loop passes.
+100 likelihood evaluation calls and 88 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Pelodiscus_sinensis
+Model MG94customModel assigned to Chelonia_mydas
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonia_mydas.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonia_mydas.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5747-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonia_mydas.nonSynRate = 0.1
+t2.Chelonia_mydas.synRate = 0.1
+Optimization finished in 7 loop passes.
+92 likelihood evaluation calls and 82 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Trachemys_scripta
+Model MG94customModel assigned to Chrysemys_picta
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chrysemys_picta.nonSynRate' was not initialized prior to being used
+Variable 't2.Chrysemys_picta.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5555-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chrysemys_picta.nonSynRate = 0.1
+t2.Chrysemys_picta.synRate = 0.1
+Optimization finished in 8 loop passes.
+205 likelihood evaluation calls and 177 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Trachemys_scripta
+Model MG94customModel assigned to Terrapene_carolina
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Terrapene_carolina.nonSynRate' was not initialized prior to being used
+Variable 't2.Terrapene_carolina.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5681-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Terrapene_carolina.nonSynRate = 0.1
+t2.Terrapene_carolina.synRate = 0.1
+Optimization finished in 3 loop passes.
+132 likelihood evaluation calls and 120 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Trachemys_scripta
+Model MG94customModel assigned to Mauremys_reevesii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Mauremys_reevesii.nonSynRate' was not initialized prior to being used
+Variable 't2.Mauremys_reevesii.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5319-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Mauremys_reevesii.nonSynRate = 0.1
+t2.Mauremys_reevesii.synRate = 0.1
+Optimization finished in 5 loop passes.
+157 likelihood evaluation calls and 135 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Trachemys_scripta
+Model MG94customModel assigned to Gopherus_evgoodei
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Gopherus_evgoodei.nonSynRate' was not initialized prior to being used
+Variable 't2.Gopherus_evgoodei.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5494-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Gopherus_evgoodei.nonSynRate = 0.1
+t2.Gopherus_evgoodei.synRate = 0.1
+Optimization finished in 6 loop passes.
+102 likelihood evaluation calls and 91 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Trachemys_scripta
+Model MG94customModel assigned to Chelonoidis_abingdonii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonoidis_abingdonii.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonoidis_abingdonii.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5555-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonoidis_abingdonii.nonSynRate = 0.1
+t2.Chelonoidis_abingdonii.synRate = 0.1
+Optimization finished in 5 loop passes.
+162 likelihood evaluation calls and 147 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Trachemys_scripta
+Model MG94customModel assigned to Chelonia_mydas
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonia_mydas.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonia_mydas.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5813-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonia_mydas.nonSynRate = 0.1
+t2.Chelonia_mydas.synRate = 0.1
+Optimization finished in 8 loop passes.
+153 likelihood evaluation calls and 138 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Chrysemys_picta
+Model MG94customModel assigned to Terrapene_carolina
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Terrapene_carolina.nonSynRate' was not initialized prior to being used
+Variable 't2.Terrapene_carolina.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 5376-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Terrapene_carolina.nonSynRate = 0.1
+t2.Terrapene_carolina.synRate = 0.1
+Optimization finished in 5 loop passes.
+157 likelihood evaluation calls and 136 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Chrysemys_picta
+Model MG94customModel assigned to Mauremys_reevesii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Mauremys_reevesii.nonSynRate' was not initialized prior to being used
+Variable 't2.Mauremys_reevesii.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 5154-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Mauremys_reevesii.nonSynRate = 0.1
+t2.Mauremys_reevesii.synRate = 0.1
+Optimization finished in 8 loop passes.
+125 likelihood evaluation calls and 115 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Chrysemys_picta
+Model MG94customModel assigned to Gopherus_evgoodei
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Gopherus_evgoodei.nonSynRate' was not initialized prior to being used
+Variable 't2.Gopherus_evgoodei.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5813-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Gopherus_evgoodei.nonSynRate = 0.1
+t2.Gopherus_evgoodei.synRate = 0.1
+Optimization finished in 6 loop passes.
+115 likelihood evaluation calls and 105 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Chrysemys_picta
+Model MG94customModel assigned to Chelonoidis_abingdonii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonoidis_abingdonii.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonoidis_abingdonii.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5747-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonoidis_abingdonii.nonSynRate = 0.1
+t2.Chelonoidis_abingdonii.synRate = 0.1
+Optimization finished in 6 loop passes.
+129 likelihood evaluation calls and 118 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Chrysemys_picta
+Model MG94customModel assigned to Chelonia_mydas
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonia_mydas.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonia_mydas.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5747-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonia_mydas.nonSynRate = 0.1
+t2.Chelonia_mydas.synRate = 0.1
+Optimization finished in 10 loop passes.
+150 likelihood evaluation calls and 139 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Terrapene_carolina
+Model MG94customModel assigned to Mauremys_reevesii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Mauremys_reevesii.nonSynRate' was not initialized prior to being used
+Variable 't2.Mauremys_reevesii.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5617-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Mauremys_reevesii.nonSynRate = 0.1
+t2.Mauremys_reevesii.synRate = 0.1
+Optimization finished in 5 loop passes.
+178 likelihood evaluation calls and 164 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Terrapene_carolina
+Model MG94customModel assigned to Gopherus_evgoodei
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Gopherus_evgoodei.nonSynRate' was not initialized prior to being used
+Variable 't2.Gopherus_evgoodei.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5813-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Gopherus_evgoodei.nonSynRate = 0.1
+t2.Gopherus_evgoodei.synRate = 0.1
+Optimization finished in 6 loop passes.
+166 likelihood evaluation calls and 151 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Terrapene_carolina
+Model MG94customModel assigned to Chelonoidis_abingdonii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonoidis_abingdonii.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonoidis_abingdonii.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5813-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonoidis_abingdonii.nonSynRate = 0.1
+t2.Chelonoidis_abingdonii.synRate = 0.1
+Optimization finished in 5 loop passes.
+152 likelihood evaluation calls and 141 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Terrapene_carolina
+Model MG94customModel assigned to Chelonia_mydas
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonia_mydas.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonia_mydas.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 5617-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonia_mydas.nonSynRate = 0.1
+t2.Chelonia_mydas.synRate = 0.1
+Optimization finished in 7 loop passes.
+136 likelihood evaluation calls and 123 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Mauremys_reevesii
+Model MG94customModel assigned to Gopherus_evgoodei
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Gopherus_evgoodei.nonSynRate' was not initialized prior to being used
+Variable 't2.Gopherus_evgoodei.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5882-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Gopherus_evgoodei.nonSynRate = 0.1
+t2.Gopherus_evgoodei.synRate = 0.1
+Optimization finished in 3 loop passes.
+106 likelihood evaluation calls and 97 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Mauremys_reevesii
+Model MG94customModel assigned to Chelonoidis_abingdonii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonoidis_abingdonii.synRate' was not initialized prior to being used
+Variable 't2.Chelonoidis_abingdonii.nonSynRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 5813-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonoidis_abingdonii.synRate = 0.1
+t2.Chelonoidis_abingdonii.nonSynRate = 0.1
+Optimization finished in 8 loop passes.
+137 likelihood evaluation calls and 128 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Mauremys_reevesii
+Model MG94customModel assigned to Chelonia_mydas
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonia_mydas.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonia_mydas.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5813-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonia_mydas.nonSynRate = 0.1
+t2.Chelonia_mydas.synRate = 0.1
+Optimization finished in 7 loop passes.
+140 likelihood evaluation calls and 129 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Gopherus_evgoodei
+Model MG94customModel assigned to Chelonoidis_abingdonii
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonoidis_abingdonii.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonoidis_abingdonii.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 5813-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonoidis_abingdonii.nonSynRate = 0.1
+t2.Chelonoidis_abingdonii.synRate = 0.1
+Optimization finished in 5 loop passes.
+179 likelihood evaluation calls and 165 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Gopherus_evgoodei
+Model MG94customModel assigned to Chelonia_mydas
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Variable 't2.Chelonia_mydas.nonSynRate' was not initialized prior to being used
+Variable 't2.Chelonia_mydas.synRate' was not initialized prior to being used
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 5681-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonia_mydas.nonSynRate = 0.1
+t2.Chelonia_mydas.synRate = 0.1
+Optimization finished in 7 loop passes.
+136 likelihood evaluation calls and 125 matrix exponentiations calls were made
+
+Row and/or column partition is empty. All the data will be used by default.
+Model MG94customModel assigned to Chelonoidis_abingdonii
+Model MG94customModel assigned to Chelonia_mydas
+One branch tree supplied - hopefully this IS what you meant to do.
+Rooted tree. Removing one branch - the left root child has been promoted to be the new root
+Partition 0 reversible model flag computed as 1
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 727-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+t2.Chelonia_mydas.nonSynRate = 0.1
+t2.Chelonia_mydas.synRate = 0.1
+Optimization finished in 6 loop passes.
+178 likelihood evaluation calls and 158 matrix exponentiations calls were made

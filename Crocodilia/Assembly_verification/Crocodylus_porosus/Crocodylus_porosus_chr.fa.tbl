@@ -1,0 +1,59 @@
+==================================================
+file name: Crocodylus_porosus_chr.fa
+sequences:             1
+total length:  270692262 bp  (259015303 bp excl N/X-runs)
+GC level:         43.09 %
+bases masked:  117811319 bp ( 43.52 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       131561     54545557 bp   20.15 %
+   SINEs:            14065      2449509 bp    0.90 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:            90856     36630746 bp   13.53 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex      65928     28855210 bp   10.66 %
+     R1/LOA/Jockey       0            0 bp    0.00 %
+     R2/R4/NeSL        376       183879 bp    0.07 %
+     RTE/Bov-B        3957      2384722 bp    0.88 %
+     L1/CIN4           373       197307 bp    0.07 %
+   LTR elements:     26640     15465302 bp    5.71 %
+     BEL/Pao             0            0 bp    0.00 %
+     Ty1/Copia           0            0 bp    0.00 %
+     Gypsy/DIRS1     15808     10102041 bp    3.73 %
+       Retroviral     7006      4101329 bp    1.52 %
+
+DNA transposons     217733     60746787 bp   22.44 %
+   hobo-Activator    91649     25957679 bp    9.59 %
+   Tc1-IS630-Pogo    14041      4356257 bp    1.61 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR           176        60977 bp    0.02 %
+   PiggyBac             80        81513 bp    0.03 %
+   Tourist/Harbinger102506     27993375 bp   10.34 %
+   Other (Mirage,        0            0 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles       1820       474865 bp    0.18 %
+
+Unclassified:         4678       830452 bp    0.31 %
+
+Total interspersed repeats:   116122796 bp   42.90 %
+
+
+Small RNA:            2873       493645 bp    0.18 %
+
+Satellites:             27         6304 bp    0.00 %
+Simple repeats:      27711       987612 bp    0.36 %
+Low complexity:       4483       193888 bp    0.07 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+The query species was assumed to be Crocodylia    
+RepeatMasker version 4.1.5 , sensitive mode
+                                      
+run with rmblastn version 2.14.0+
+FamDB: CONS-Dfam_3.7
