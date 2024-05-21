@@ -27,7 +27,7 @@ Madhya Pradesh, India
 - **Synteny:**  Contains the NCBI synteny images for _CXCR6_ and _CXCL16_. **(Fig. 1)**
 - **Transcriptome_analysis:** Contains an IGV screenshot for the _CXCR6_ gene. 
 - **Verebrates_MSA:**  Contains the MSA files and region specific screenshot such H3C region and terminal region of _CXCR6_ gene. Also, it contains the output of EMBOSS Pepstats and Pepinfo. **(Fig. 2)**
-- **sc-RNA_seq:** Contains the screenshot from SPEED atlas and Seurat scripts for chicken, mallard, and pigeon single-cell RNA seq comparison.
+- **sc-RNA_seq:** Contains the screenshot from SPEED atlas and Seurat scripts for chicken, mallard, and pigeon single-cell RNA seq comparison. **(Fig. 8)**
 ____________________________________________________________________________________________________________________________________________________
 **Prerequisites:**
 - CSUBST (v1.4.0)
