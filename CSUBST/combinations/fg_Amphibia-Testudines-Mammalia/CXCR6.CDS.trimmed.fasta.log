@@ -1,0 +1,99 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    OptiPlex-5050 (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -s CXCR6.CDS.trimmed.fasta -te tmp.csubst.nwk -m ECMK07+F+R4 --seqtype CODON1 --threads-max 4 -T AUTO --ancestral --rate --redo
+Seed:    356644 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jan  8 13:54:44 2024
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file CXCR6.CDS.trimmed.fasta ... Fasta format detected
+Reading fasta file: done in 0.000448942 secs using 50.12% CPU
+Alignment most likely contains DNA/RNA sequences
+Converting to codon sequences with genetic code 1 ...
+Constructing alignment: done in 0.000739098 secs using 205.1% CPU
+Alignment has 30 sequences with 350 columns, 349 distinct patterns
+338 parsimony-informative, 8 singleton sites, 4 constant sites
+                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.5974e-05 secs using 50.08% CPU
+   1  Sphenodon_punctatus          1.14%    passed     25.82%
+   2  Xenopus_tropicalis           5.71%    failed      0.01%
+   3  Latimeria_chalumnae          2.57%    failed      3.93%
+   4  Homo_sapiens                 2.57%    passed     20.34%
+   5  Mus_musculus                 0.86%    passed     30.76%
+   6  Pan_troglodytes              2.57%    passed     24.92%
+   7  Bos_taurus                   2.86%    failed      0.00%
+   8  Canis_lupus                  2.57%    failed      0.21%
+   9  Equus_caballus               2.86%    failed      0.08%
+  10  Tursiops_truncatus           2.57%    failed      0.00%
+  11  Anas_platyrhynchos           1.43%    passed     91.14%
+  12  Loxodonta_africana           2.57%    failed      1.01%
+  13  Chelonia_mydas               2.00%    passed     64.75%
+  14  Panthera_tigris              2.57%    failed      0.00%
+  15  Anolis_carolinensis          1.43%    passed     22.50%
+  16  Gopherus_flavomarginatus     2.00%    passed     61.96%
+  17  Struthio_camelus             1.71%    passed     25.49%
+  18  Tyto_alba                    1.43%    passed     39.27%
+  19  Anser_cygnoides              1.43%    passed     60.37%
+  20  Pogona_vitticeps             1.43%    failed      0.29%
+  21  Phascolarctos_cinereus       2.57%    passed     72.71%
+  22  Aquila_chrysaetos            1.43%    failed      3.72%
+  23  Geotrypetes_seraphini        0.29%    passed     16.04%
+  24  Myotis_myotis                3.14%    failed      0.00%
+  25  Crotalus_tigris              2.29%    passed     26.18%
+  26  Mauremys_reevesii            2.00%    passed     65.27%
+  27  Bufo_gargarizans             4.86%    passed     36.55%
+  28  Sphaerodactylus_townsendi    2.00%    passed     81.78%
+  29  Caretta_caretta              2.00%    passed     34.72%
+  30  Spea_bombifrons              5.43%    failed      0.64%
+****  TOTAL                        2.34%  12 sequences failed composition chi2 test (p-value<5%; df=60)
+Reading input tree file tmp.csubst.nwk ... rooted tree
+
+NOTE: 23 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 4 CPU cores
+Increase to 10 rounds for branch lengths
+9 trees examined
+Threads: 1 / Time: 4.191 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -23184
+Threads: 2 / Time: 2.687 sec / Speedup: 1.560 / Efficiency: 78% / LogL: -23184
+Threads: 3 / Time: 2.116 sec / Speedup: 1.981 / Efficiency: 66% / LogL: -23184
+Threads: 4 / Time: 1.898 sec / Speedup: 2.209 / Efficiency: 55% / LogL: -23184
+Determining AUTO threadcount: done in 10.8937 secs using 219.5% CPU
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -38776.852
+2. Current log-likelihood: -18356.616
+3. Current log-likelihood: -17314.529
+4. Current log-likelihood: -17302.831
+5. Current log-likelihood: -17296.874
+6. Current log-likelihood: -17291.272
+7. Current log-likelihood: -17287.213
+8. Current log-likelihood: -17287.018
+9. Current log-likelihood: -17286.975
+Optimal log-likelihood: -17286.966
+Nonsynonymous/synonymous ratio (omega): 1.000
+Transition/transversion ratio (kappa): 1.000
+Site proportion and rates:  (0.439,0.512) (0.399,0.997) (0.145,2.323) (0.018,2.335)
+Parameters optimization took 9 rounds (6.347 sec)
+Wrote distance file to... 
+BEST SCORE FOUND : -17286.966
+Ancestral state probabilities printed to CXCR6.CDS.trimmed.fasta.state
+Empirical proportions for each category: 0.446 0.394 0.160 0.000
+Site rates printed to CXCR6.CDS.trimmed.fasta.rate
+Total tree length: 18.813
+
+Total number of iterations: 0
+CPU time used for tree search: 0.000 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.000 sec (0h:0m:0s)
+Total CPU time used: 50.046 sec (0h:0m:50s)
+Total wall-clock time used: 17.566 sec (0h:0m:17s)
+
+Analysis results written to: 
+  IQ-TREE report:                CXCR6.CDS.trimmed.fasta.iqtree
+  Maximum-likelihood tree:       CXCR6.CDS.trimmed.fasta.treefile
+  Site-specific rates:           CXCR6.CDS.trimmed.fasta.rate
+  Ancestral state:               CXCR6.CDS.trimmed.fasta.state
+  Screen log file:               CXCR6.CDS.trimmed.fasta.log
+
+Date and Time: Mon Jan  8 13:55:01 2024

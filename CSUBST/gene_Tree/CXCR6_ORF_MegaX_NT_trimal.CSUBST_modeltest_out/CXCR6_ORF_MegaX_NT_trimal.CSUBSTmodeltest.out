@@ -1,0 +1,180 @@
+--------------------------------------------------------------------------------
+ModelTest-NG v0.2.0
+
+Input data:
+  MSA:        CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            30
+  #sites:           1017
+  #patterns:        838
+  Max. thread mem:  11 MB
+
+Output:
+  Log:           CXCR6_ORF_MegaX_NT_trimal.CSUBSTmodeltest.log
+  Starting tree: CXCR6_ORF_MegaX_NT_trimal.CSUBSTmodeltest.tree
+  Results:       CXCR6_ORF_MegaX_NT_trimal.CSUBSTmodeltest.out
+
+Selection options:
+  # dna schemes:      11
+  # dna models:       88
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     true
+    estimated freqs: true
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          1/4
+  RNG seed:         12345
+  subtree repeats:  enabled
+--------------------------------------------------------------------------------
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TPM3uf+I+G4        7    -17136.8540     34716.8832         0.0000    0.9657
+       2  TIM3+I+G4          8    -17136.7868     34723.6734         6.7901    0.0324
+       3  TVM+I+G4           9    -17136.1938     34729.4120        12.5288    0.0018
+       4  GTR+I+G4          10    -17136.1966     34736.3423        19.4591    0.0001
+       5  HKY+I+G4           6    -17155.1784     34746.6074        29.7241    0.0000
+       6  TPM1uf+I+G4        7    -17153.3607     34749.8966        33.0133    0.0000
+       7  TrN+I+G4           7    -17155.2374     34753.6500        36.7667    0.0000
+       8  TPM2uf+I+G4        7    -17155.2625     34753.7001        36.8169    0.0000
+       9  TIM1+I+G4          8    -17153.3476     34756.7949        39.9117    0.0000
+      10  TIM2+I+G4          8    -17155.2263     34760.5525        43.6692    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              TPM3uf+I+G4
+lnL:                -17136.8540
+Frequencies:        0.2774 0.2336 0.1968 0.2922
+Subst. Rates:       1.7022 4.6886 1.0000 1.7022 4.6886 1.0000 
+Inv. sites prop:    0.1418
+Gamma shape:        1.8206
+Score:              34716.8832
+Weight:             0.9657
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.1666
+Alpha:              0.8736
+Alpha-P.Inv:        1.8181
+P.Inv-Alpha:        0.1417
+Frequencies:        0.2774 0.2336 0.1968 0.2922 
+
+Commands:
+  > phyml  -i CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln -m 012012 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln --model TPM3uf+I+G4
+  > paup -s CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln
+  > iqtree -s CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln -m TPM3uf+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TPM3uf+I+G4        7    -17136.8540     34401.7081         0.0000    0.5710
+       2  TIM3+I+G4          8    -17136.7868     34403.5736         1.8655    0.2247
+       3  TVM+I+G4           9    -17136.1938     34404.3876         2.6796    0.1495
+       4  GTR+I+G4          10    -17136.1966     34406.3933         4.6852    0.0549
+       5  TPM1uf+I+G4        7    -17153.3607     34434.7214        33.0133    0.0000
+       6  HKY+I+G4           6    -17155.1784     34436.3568        34.6488    0.0000
+       7  TIM1+I+G4          8    -17153.3476     34436.6951        34.9871    0.0000
+       8  TrN+I+G4           7    -17155.2374     34438.4748        36.7667    0.0000
+       9  TPM2uf+I+G4        7    -17155.2625     34438.5249        36.8169    0.0000
+      10  TIM2+I+G4          8    -17155.2263     34440.4527        38.7446    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              TPM3uf+I+G4
+lnL:                -17136.8540
+Frequencies:        0.2774 0.2336 0.1968 0.2922
+Subst. Rates:       1.7022 4.6886 1.0000 1.7022 4.6886 1.0000 
+Inv. sites prop:    0.1418
+Gamma shape:        1.8206
+Score:              34401.7081
+Weight:             0.5710
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.1655
+Alpha:              0.8823
+Alpha-P.Inv:        1.7751
+P.Inv-Alpha:        0.1396
+Frequencies:        0.2776 0.2334 0.1967 0.2924 
+
+Commands:
+  > phyml  -i CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln -m 012012 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln --model TPM3uf+I+G4
+  > paup -s CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln
+  > iqtree -s CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln -m TPM3uf+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  TPM3uf+I+G4        7    -17136.8540     34409.7081         0.0000    0.6869
+       2  TIM3+I+G4          8    -17136.7868     34412.5736         2.8655    0.1639
+       3  TVM+I+G4           9    -17136.1938     34413.3876         3.6796    0.1091
+       4  GTR+I+G4          10    -17136.1966     34415.3933         5.6852    0.0400
+       5  TPM1uf+I+G4        7    -17153.3607     34442.7214        33.0133    0.0000
+       6  HKY+I+G4           6    -17155.1784     34444.3568        34.6488    0.0000
+       7  TIM1+I+G4          8    -17153.3476     34445.6951        35.9871    0.0000
+       8  TrN+I+G4           7    -17155.2374     34446.4748        36.7667    0.0000
+       9  TPM2uf+I+G4        7    -17155.2625     34446.5249        36.8169    0.0000
+      10  TIM2+I+G4          8    -17155.2263     34449.4527        39.7446    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              TPM3uf+I+G4
+lnL:                -17136.8540
+Frequencies:        0.2774 0.2336 0.1968 0.2922
+Subst. Rates:       1.7022 4.6886 1.0000 1.7022 4.6886 1.0000 
+Inv. sites prop:    0.1418
+Gamma shape:        1.8206
+Score:              34409.7081
+Weight:             0.6869
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.1656
+Alpha:              0.8794
+Alpha-P.Inv:        1.7874
+P.Inv-Alpha:        0.1402
+Frequencies:        0.2775 0.2335 0.1967 0.2923 
+
+Commands:
+  > phyml  -i CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln -m 012012 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln --model TPM3uf+I+G4
+  > paup -s CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln
+  > iqtree -s CXCR6_ORF_MegaX_NT_trimal.CSUBST.aln -m TPM3uf+I+G4
+Done
