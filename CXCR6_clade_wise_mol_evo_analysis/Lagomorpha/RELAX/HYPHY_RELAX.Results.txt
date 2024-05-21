@@ -1,0 +1,7 @@
+test	back	pval	kval
+Lepus_americanus	`Sylvilagus_bachmani,Oryctolagus_cuniculus,Node1,Lepus_timidus,Node4,Ochotona_princeps,Ochotona_curzoniae,Node7`	0.5503	0.58
+Lepus_timidus	`Sylvilagus_bachmani,Oryctolagus_cuniculus,Node1,Lepus_americanus,Node4,Ochotona_princeps,Ochotona_curzoniae,Node7`	0.3422	0.19
+Ochotona_curzoniae	`Sylvilagus_bachmani,Oryctolagus_cuniculus,Node1,Lepus_timidus,Lepus_americanus,Node4,Ochotona_princeps,Node7`	0.4395	1.32
+Ochotona_princeps	`Sylvilagus_bachmani,Oryctolagus_cuniculus,Node1,Lepus_timidus,Lepus_americanus,Node4,Ochotona_curzoniae,Node7`	0.4125	0.68
+Oryctolagus_cuniculus	`Sylvilagus_bachmani,Node1,Lepus_timidus,Lepus_americanus,Node4,Ochotona_princeps,Ochotona_curzoniae,Node7`	0.0066	50.00
+Sylvilagus_bachmani	`Oryctolagus_cuniculus,Node1,Lepus_timidus,Lepus_americanus,Node4,Ochotona_princeps,Ochotona_curzoniae,Node7`	1.0000	0.00

@@ -1,0 +1,210 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+
+-------
+>[WARNING] This dataset contains 1 duplicate sequence. Identical
+sequences do not contribute any information to the analysis and only
+slow down computation. Please consider removing duplicate or 'nearly'
+duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Squamata/aBSREL/Sphaerodactylus_townsendi_treeLabled.txt
+Sphaerodactylus_townsendi_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **31** sequences, **410** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Squamata/aBSREL/Squamata.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Sphaerodactylus_townsendi`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 3 zero-length internal branches: `Node20, Node21, Node25`
+* Log(L) = -11852.24, AIC-c = 23838.72 (67 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  2.528
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -11421.81, AIC-c = 23098.16 (126 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.32, and 95% of the weight in  0.10 -  2.06
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|        Sphenodon_punctatus        |   0.30   |    2     |    4.09 (23.00%)   |   -11403.52   |   23065.66    |    23065.66     |
+|        Sphenodon_punctatus        |   0.30   |    3     |    7.41 (11.07%)   |   -11403.16   |   23069.03    |    23065.66     |
+|              Node14               |   0.18   |    2     |    3.25 ( 8.78%)   |   -11397.91   |   23058.53    |    23058.53     |
+|              Node14               |   0.18   |    3     |    3.23 ( 8.87%)   |   -11397.91   |   23062.61    |    23058.53     |
+|        Varanus_komodoensis        |   0.17   |    2     |  588.23 ( 2.87%)   |   -11393.86   |   23054.51    |    23054.51     |
+|        Varanus_komodoensis        |   0.17   |    3     |   >1000 ( 2.82%)   |   -11393.84   |   23058.56    |    23054.51     |
+|         Pogona_vitticeps          |   0.16   |    2     |    2.25 (26.81%)   |   -11384.02   |   23038.91    |    23038.91     |
+|         Pogona_vitticeps          |   0.16   |    3     |    2.43 (22.68%)   |   -11384.02   |   23043.00    |    23038.91     |
+|       Hemicordylus_capensis       |   0.16   |    2     |  464.93 ( 3.31%)   |   -11378.52   |   23032.00    |    23032.00     |
+|       Hemicordylus_capensis       |   0.16   |    3     |  491.20 ( 3.30%)   |   -11378.51   |   23036.08    |    23032.00     |
+|              Node52               |   0.14   |    2     |    3.80 (19.18%)   |   -11367.95   |   23014.94    |    23014.94     |
+|              Node52               |   0.14   |    3     |    3.81 (19.09%)   |   -11367.95   |   23019.03    |    23014.94     |
+|               Node1               |   0.13   |    2     |    2.00 (27.32%)   |   -11363.39   |   23009.93    |    23009.93     |
+|               Node1               |   0.13   |    3     |    2.01 (27.32%)   |   -11363.39   |   23014.02    |    23009.93     |
+|        Anolis_carolinensis        |   0.13   |    2     |   47.32 ( 3.46%)   |   -11353.46   |   22994.15    |    22994.15     |
+|        Anolis_carolinensis        |   0.13   |    3     |   49.91 ( 3.39%)   |   -11353.44   |   22998.20    |    22994.15     |
+|              Node49               |   0.11   |    2     |   18.16 ( 3.62%)   |   -11344.58   |   22980.48    |    22980.48     |
+|              Node49               |   0.11   |    3     |   18.67 ( 3.50%)   |   -11344.54   |   22984.51    |    22980.48     |
+|          Paroedura_picta          |   0.10   |    2     |    1.16 (28.93%)   |   -11342.34   |   22980.09    |    22980.09     |
+|          Paroedura_picta          |   0.10   |    3     |    1.55 ( 6.99%)   |   -11342.34   |   22984.19    |    22980.09     |
+|      Aspidoscelis_marmoratus      |   0.09   |    2     |   32.65 ( 1.63%)   |   -11337.22   |   22973.94    |    22973.94     |
+|      Aspidoscelis_marmoratus      |   0.09   |    3     |   33.82 ( 1.57%)   |   -11337.21   |   22978.03    |    22973.94     |
+|      Eublepharis_macularius       |   0.08   |    2     |    0.67 (31.69%)   |   -11336.63   |   22976.87    |    22973.94     |
+|         Salvator_merianae         |   0.07   |    2     |   >1000 ( 2.13%)   |   -11329.32   |   22962.24    |    22962.24     |
+|         Salvator_merianae         |   0.07   |    3     |   >1000 ( 2.07%)   |   -11329.28   |   22966.26    |    22962.24     |
+|              Node42               |   0.07   |    2     |    2.41 (15.29%)   |   -11326.74   |   22961.18    |    22961.18     |
+|              Node42               |   0.07   |    3     |    2.44 (15.17%)   |   -11326.74   |   22965.28    |    22961.18     |
+|     Sphaerodactylus_townsendi     |   0.07   |    2     |    1.93 ( 9.08%)   |   -11326.27   |   22964.35    |    22961.18     |
+|              Node18               |   0.06   |    2     |    0.26 (49.25%)   |   -11326.72   |   22965.24    |    22961.18     |
+|         Euleptes_europaea         |   0.05   |    2     |    0.62 (48.22%)   |   -11326.70   |   22965.21    |    22961.18     |
+|              Node15               |   0.05   |    2     |    2.04 (27.45%)   |   -11325.81   |   22963.43    |    22961.18     |
+|              Node12               |   0.04   |    2     |    5.77 ( 7.71%)   |   -11323.65   |   22959.10    |    22959.10     |
+|              Node12               |   0.04   |    3     |    5.72 ( 7.70%)   |   -11323.65   |   22963.20    |    22959.10     |
+|       Sceloporus_undulatus        |   0.04   |    2     |    2.05 (18.79%)   |   -11323.38   |   22962.66    |    22959.10     |
+|          Gekko_japonicus          |   0.04   |    2     |    0.67 (81.48%)   |   -11323.64   |   22963.19    |    22959.10     |
+|              Node32               |   0.03   |    2     |    0.46 ( 0.00%)   |   -11323.65   |   22963.20    |    22959.10     |
+|              Node44               |   0.03   |    2     |    8.54 (10.60%)   |   -11323.07   |   22962.04    |    22959.10     |
+|              Node29               |   0.03   |    2     |    0.28 (74.25%)   |   -11323.65   |   22963.20    |    22959.10     |
+|              Node13               |   0.03   |    2     |   >1000 ( 0.80%)   |   -11321.51   |   22958.93    |    22958.93     |
+|              Node13               |   0.03   |    3     |   >1000 ( 0.80%)   |   -11321.42   |   22962.85    |    22958.93     |
+|               Node3               |   0.03   |    2     |    0.33 (55.84%)   |   -11321.51   |   22963.03    |    22958.93     |
+|         Zootoca_vivipara          |   0.02   |    2     |   44.14 ( 1.11%)   |   -11317.01   |   22954.03    |    22954.03     |
+|         Zootoca_vivipara          |   0.02   |    3     |   44.03 ( 1.11%)   |   -11317.01   |   22958.13    |    22954.03     |
+|              Node48               |   0.02   |    2     |   15.04 ( 8.31%)   |   -11315.28   |   22954.67    |    22954.03     |
+|              Node41               |   0.02   |    2     |   52.56 ( 4.76%)   |   -11310.65   |   22945.41    |    22945.41     |
+|              Node41               |   0.02   |    3     |   54.88 ( 4.57%)   |   -11310.65   |   22949.51    |    22945.41     |
+|      Phrynosoma_platyrhinos       |   0.02   |    2     |    0.23 (49.59%)   |   -11310.65   |   22949.50    |    22945.41     |
+|           Vipera_berus            |   0.02   |    2     |    2.04 ( 0.00%)   |   -11310.65   |   22949.51    |    22945.41     |
+|               Node6               |   0.02   |    2     |    0.14 (46.40%)   |   -11310.64   |   22949.50    |    22945.41     |
+|          Lacerta_agilis           |   0.02   |    2     |    0.29 (11.90%)   |   -11310.65   |   22949.50    |    22945.41     |
+|         Podarcis_muralis          |   0.02   |    2     |    0.24 (49.99%)   |   -11310.65   |   22949.51    |    22945.41     |
+|              Node10               |   0.02   |    2     |    0.27 (15.30%)   |   -11311.22   |   22950.65    |    22945.41     |
+|         Ahaetulla_prasina         |   0.02   |    2     |    0.24 ( 9.81%)   |   -11310.65   |   22949.51    |    22945.41     |
+|               Node2               |   0.02   |    2     |    8.07 ( 1.44%)   |   -11310.42   |   22949.05    |    22945.41     |
+|              Node54               |   0.02   |    2     |    0.22 (10.41%)   |   -11310.65   |   22949.51    |    22945.41     |
+|              Node24               |   0.01   |    2     |    0.52 (65.37%)   |   -11310.65   |   22949.51    |    22945.41     |
+|         Podarcis_raffonei         |   0.01   |    2     |    0.19 (10.76%)   |   -11310.65   |   22949.51    |    22945.41     |
+|           Ptyas_mucosa            |   0.01   |    2     |   0.19 (100.00%)   |   -11310.65   |   22949.51    |    22945.41     |
+|              Node22               |   0.01   |    2     |   89.43 ( 0.51%)   |   -11308.45   |   22945.11    |    22945.11     |
+|              Node22               |   0.01   |    3     |   95.51 ( 0.50%)   |   -11308.46   |   22949.23    |    22945.11     |
+|          Crotalus_tigris          |   0.01   |    2     |    0.51 (49.25%)   |   -11308.45   |   22949.22    |    22945.11     |
+|         Bothrops_jararaca         |   0.01   |    2     |    0.47 (11.49%)   |   -11308.45   |   22949.22    |    22945.11     |
+|              Node39               |   0.01   |    2     |    0.27 (13.05%)   |   -11310.03   |   22952.37    |    22945.11     |
+|              Node34               |   0.00   |    2     |   2.05 (100.00%)   |   -11308.45   |   22949.22    |    22945.11     |
+|        Pituophis_catenifer        |   0.00   |    2     |    0.00 ( 5.00%)   |   -11308.45   |   22949.22    |    22945.11     |
+|   Protobothrops_mucrosquamatus    |   0.00   |    2     |    0.40 (75.00%)   |   -11308.45   |   22949.22    |    22945.11     |
+|              Node53               |   0.00   |    2     |    0.25 ( 9.84%)   |   -11310.95   |   22954.21    |    22945.11     |
+|        Thamnophis_sirtalis        |   0.00   |    2     |    0.00 ( 5.00%)   |   -11308.45   |   22949.22    |    22945.11     |
+|              Node35               |   0.00   |    2     |    0.00 ( 0.00%)   |   -11308.45   |   22949.22    |    22945.11     |
+|      Pantherophis_obsoletus       |   0.00   |    2     |    0.00 ( 5.00%)   |   -11308.45   |   22949.22    |    22945.11     |
+|       Pantherophis_guttatus       |   0.00   |    2     |   0.80 (100.00%)   |   -11308.85   |   22950.02    |    22945.11     |
+|          Python_molurus           |   0.00   |    2     |    0.27 (10.50%)   |   -11308.45   |   22949.22    |    22945.11     |
+|        Thamnophis_elegans         |   0.00   |    2     |    0.27 (15.28%)   |   -11308.45   |   22949.22    |    22945.11     |
+|         Python_bivittatus         |   0.00   |    2     |    0.27 (10.50%)   |   -11308.45   |   22949.22    |    22945.11     |
+
+### Rate class analyses summary
+*  18 branches with **2** rate classes
+*  38 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -11298.76, AIC-c = 22925.73 (162 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|        Sphenodon_punctatus        |     2    |    3.80 (21.76%)   |    Not selected    |    for testing     |
+|              Node14               |     2    |    3.06 ( 9.18%)   |    Not selected    |    for testing     |
+|        Varanus_komodoensis        |     2    |  841.72 ( 2.88%)   |    Not selected    |    for testing     |
+|         Pogona_vitticeps          |     2    |    2.35 (21.53%)   |    Not selected    |    for testing     |
+|       Hemicordylus_capensis       |     2    |   >1000 ( 3.12%)   |    Not selected    |    for testing     |
+|              Node52               |     2    |    3.45 (18.33%)   |    Not selected    |    for testing     |
+|               Node1               |     2    |    1.77 (29.62%)   |    Not selected    |    for testing     |
+|        Anolis_carolinensis        |     2    |   45.35 ( 3.30%)   |    Not selected    |    for testing     |
+|              Node49               |     2    |   19.49 ( 2.87%)   |    Not selected    |    for testing     |
+|          Paroedura_picta          |     2    |    1.07 (29.55%)   |    Not selected    |    for testing     |
+|      Aspidoscelis_marmoratus      |     2    |   25.03 ( 1.25%)   |    Not selected    |    for testing     |
+|      Eublepharis_macularius       |     1    |   0.19 (100.00%)   |    Not selected    |    for testing     |
+|         Salvator_merianae         |     2    |   >1000 ( 2.15%)   |    Not selected    |    for testing     |
+|              Node42               |     2    |    1.93 (17.62%)   |    Not selected    |    for testing     |
+|     Sphaerodactylus_townsendi     |     1    |   0.30 (100.00%)   |        0.00        |       1.00000      |
+|              Node18               |     1    |   0.23 (100.00%)   |    Not selected    |    for testing     |
+|         Euleptes_europaea         |     1    |   0.27 (100.00%)   |    Not selected    |    for testing     |
+|              Node15               |     1    |   0.47 (100.00%)   |    Not selected    |    for testing     |
+|              Node12               |     2    |    4.93 ( 8.12%)   |    Not selected    |    for testing     |
+|       Sceloporus_undulatus        |     1    |   0.30 (100.00%)   |    Not selected    |    for testing     |
+|          Gekko_japonicus          |     1    |   0.62 (100.00%)   |    Not selected    |    for testing     |
+|              Node32               |     1    |   0.24 (100.00%)   |    Not selected    |    for testing     |
+|              Node44               |     1    |   1.11 (100.00%)   |    Not selected    |    for testing     |
+|              Node29               |     1    |   0.26 (100.00%)   |    Not selected    |    for testing     |
+|              Node13               |     2    |   >1000 ( 0.83%)   |    Not selected    |    for testing     |
+|               Node3               |     1    |   0.31 (100.00%)   |    Not selected    |    for testing     |
+|         Zootoca_vivipara          |     2    |   37.90 ( 1.12%)   |    Not selected    |    for testing     |
+|              Node48               |     1    |   0.89 (100.00%)   |    Not selected    |    for testing     |
+|              Node41               |     2    |   43.25 ( 4.29%)   |    Not selected    |    for testing     |
+|      Phrynosoma_platyrhinos       |     1    |   0.21 (100.00%)   |    Not selected    |    for testing     |
+|           Vipera_berus            |     1    |   0.80 (100.00%)   |    Not selected    |    for testing     |
+|               Node6               |     1    |   0.13 (100.00%)   |    Not selected    |    for testing     |
+|          Lacerta_agilis           |     1    |   0.25 (100.00%)   |    Not selected    |    for testing     |
+|         Podarcis_muralis          |     1    |   0.22 (100.00%)   |    Not selected    |    for testing     |
+|              Node10               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|         Ahaetulla_prasina         |     1    |   0.22 (100.00%)   |    Not selected    |    for testing     |
+|               Node2               |     1    |   0.05 (100.00%)   |    Not selected    |    for testing     |
+|              Node54               |     1    |   0.20 (100.00%)   |    Not selected    |    for testing     |
+|              Node24               |     1    |   0.49 (100.00%)   |    Not selected    |    for testing     |
+|         Podarcis_raffonei         |     1    |   0.17 (100.00%)   |    Not selected    |    for testing     |
+|           Ptyas_mucosa            |     1    |   0.18 (100.00%)   |    Not selected    |    for testing     |
+|              Node22               |     2    |  101.08 ( 0.47%)   |    Not selected    |    for testing     |
+|          Crotalus_tigris          |     1    |   0.44 (100.00%)   |    Not selected    |    for testing     |
+|         Bothrops_jararaca         |     1    |   0.39 (100.00%)   |    Not selected    |    for testing     |
+|              Node39               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node34               |     1    |   1.88 (100.00%)   |    Not selected    |    for testing     |
+|        Pituophis_catenifer        |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|   Protobothrops_mucrosquamatus    |     1    |   0.35 (100.00%)   |    Not selected    |    for testing     |
+|              Node53               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|        Thamnophis_sirtalis        |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|              Node35               |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|      Pantherophis_obsoletus       |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|       Pantherophis_guttatus       |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|          Python_molurus           |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|        Thamnophis_elegans         |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|         Python_bivittatus         |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

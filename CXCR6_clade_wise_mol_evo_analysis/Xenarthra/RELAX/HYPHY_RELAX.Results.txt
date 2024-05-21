@@ -1,0 +1,6 @@
+test	back	pval	kval
+Choloepus_didactylus	`Dasypus_novemcinctus,Tamandua_tetradactyla,Myrmecophaga_tridactyla,Node2,Choloepus_hoffmanni,Node5`		50.00
+Choloepus_hoffmanni	`Dasypus_novemcinctus,Tamandua_tetradactyla,Myrmecophaga_tridactyla,Node2,Choloepus_didactylus,Node5`	0.8214	1.74
+Dasypus_novemcinctus	`Tamandua_tetradactyla,Myrmecophaga_tridactyla,Node2,Choloepus_hoffmanni,Choloepus_didactylus,Node5`	0.2017	1.35
+Myrmecophaga_tridactyla	`Dasypus_novemcinctus,Tamandua_tetradactyla,Node2,Choloepus_hoffmanni,Choloepus_didactylus,Node5`	0.5972	2.40
+Tamandua_tetradactyla	`Dasypus_novemcinctus,Myrmecophaga_tridactyla,Node2,Choloepus_hoffmanni,Choloepus_didactylus,Node5`		50.00

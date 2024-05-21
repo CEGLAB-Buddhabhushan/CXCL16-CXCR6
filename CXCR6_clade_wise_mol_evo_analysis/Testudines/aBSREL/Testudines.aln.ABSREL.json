@@ -1,0 +1,558 @@
+{
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM / UCSD viral evolution group",
+   "citation":"Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32 (5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds support for SRV",
+   "contact":"spond@temple.edu",
+   "info":"aBSREL (Adaptive branch-site random effects likelihood)\n                            uses an adaptive random effects branch-site model framework\n                            to test whether each branch has evolved under positive selection,\n                            using a procedure which infers an optimal number of rate categories per branch.",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"2.3"
+  },
+ "branch attributes":{
+   "0":{
+     "Caretta_caretta":{
+       "Baseline MG94xREV":0.006905996626974237,
+       "Baseline MG94xREV omega ratio":0.2898995692124636,
+       "Corrected P-value":null,
+       "Full adaptive model":0.006789770236169164,
+       "Full adaptive model (non-synonymous subs/site)":0.002913296091228292,
+       "Full adaptive model (synonymous subs/site)":0.003876474144940871,
+       "LRT":null,
+       "Nucleotide GTR":0.006828321680671614,
+       "Rate Distributions":        [
+[0.3103807519816451, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Caretta_caretta"
+      },
+     "Chelonia_mydas":{
+       "Baseline MG94xREV":0.005033479990512304,
+       "Baseline MG94xREV omega ratio":0.2472504695291602,
+       "Corrected P-value":1,
+       "Full adaptive model":0.00515371397491884,
+       "Full adaptive model (non-synonymous subs/site)":0.001922653792913665,
+       "Full adaptive model (synonymous subs/site)":0.003231060182005176,
+       "LRT":0,
+       "Nucleotide GTR":0.004903217152385072,
+       "Rate Distributions":        [
+[0.2457554106826557, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"Chelonia_mydas"
+      },
+     "Chelonoidis_abingdonii":{
+       "Baseline MG94xREV":0.01152111073494025,
+       "Baseline MG94xREV omega ratio":1.865927257718832,
+       "Corrected P-value":null,
+       "Full adaptive model":0.01148660167944925,
+       "Full adaptive model (non-synonymous subs/site)":0.009450714069051758,
+       "Full adaptive model (synonymous subs/site)":0.002035887610397503,
+       "LRT":null,
+       "Nucleotide GTR":0.01144331846112868,
+       "Rate Distributions":        [
+[1.91715784437607, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Chelonoidis_abingdonii"
+      },
+     "Chrysemys_picta":{
+       "Baseline MG94xREV":0.001010875106537335,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":null,
+       "Full adaptive model":0.00100831870032914,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.00100831870032914,
+       "LRT":null,
+       "Nucleotide GTR":0.0009708874391481329,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Chrysemys_picta"
+      },
+     "Dermochelys_coriacea":{
+       "Baseline MG94xREV":0.2231041263255712,
+       "Baseline MG94xREV omega ratio":0.6498622520590924,
+       "Corrected P-value":null,
+       "Full adaptive model":1337.679251036865,
+       "Full adaptive model (non-synonymous subs/site)":1337.651976794015,
+       "Full adaptive model (synonymous subs/site)":0.02727424284979008,
+       "LRT":null,
+       "Nucleotide GTR":0.2163372361365061,
+       "Rate Distributions":        [
+[0.2818715321046074, 0.7974498078297761],
+        [100000, 0.2025501921702239] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"Dermochelys_coriacea"
+      },
+     "Gopherus_flavomarginatus":{
+       "Baseline MG94xREV":0.01051609494411967,
+       "Baseline MG94xREV omega ratio":0.4237222471968742,
+       "Corrected P-value":null,
+       "Full adaptive model":0.01057473509774097,
+       "Full adaptive model (non-synonymous subs/site)":0.005480310517351201,
+       "Full adaptive model (synonymous subs/site)":0.005094424580389775,
+       "LRT":null,
+       "Nucleotide GTR":0.01044667654540019,
+       "Rate Distributions":        [
+[0.4442803198826267, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Gopherus_flavomarginatus"
+      },
+     "Malaclemys_terrapin":{
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
+       "Corrected P-value":null,
+       "Full adaptive model":0,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0,
+       "Rate Distributions":        [
+[1, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Malaclemys_terrapin"
+      },
+     "Mauremys_mutica":{
+       "Baseline MG94xREV":0.004975096399536439,
+       "Baseline MG94xREV omega ratio":0.09594555547688968,
+       "Corrected P-value":null,
+       "Full adaptive model":0.004970977780811931,
+       "Full adaptive model (non-synonymous subs/site)":0.0009641070277543727,
+       "Full adaptive model (synonymous subs/site)":0.004006870753057558,
+       "LRT":null,
+       "Nucleotide GTR":0.004866606880439793,
+       "Rate Distributions":        [
+[0.09937267054636022, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Mauremys_mutica"
+      },
+     "Mauremys_reevesii":{
+       "Baseline MG94xREV":0.002946083888097267,
+       "Baseline MG94xREV omega ratio":0.776612901786205,
+       "Corrected P-value":null,
+       "Full adaptive model":0.002949311228866055,
+       "Full adaptive model (non-synonymous subs/site)":0.001949924276017721,
+       "Full adaptive model (synonymous subs/site)":0.0009993869528483335,
+       "LRT":null,
+       "Nucleotide GTR":0.002925199518237632,
+       "Rate Distributions":        [
+[0.8058071513371574, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Mauremys_reevesii"
+      },
+     "Node10":{
+       "Baseline MG94xREV":0.01016764379671904,
+       "Baseline MG94xREV omega ratio":0.3018111770821773,
+       "Corrected P-value":null,
+       "Full adaptive model":0.01029768705901273,
+       "Full adaptive model (non-synonymous subs/site)":0.004466045417147404,
+       "Full adaptive model (synonymous subs/site)":0.005831641641865328,
+       "LRT":null,
+       "Nucleotide GTR":0.01025687052594828,
+       "Rate Distributions":        [
+[0.3162855517570436, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node11":{
+       "Baseline MG94xREV":0.00364868079601697,
+       "Baseline MG94xREV omega ratio":1.093997992126944,
+       "Corrected P-value":null,
+       "Full adaptive model":0.003696816925997621,
+       "Full adaptive model (non-synonymous subs/site)":0.002716528742603979,
+       "Full adaptive model (synonymous subs/site)":0.0009802881833936405,
+       "LRT":null,
+       "Nucleotide GTR":0.003527226047836967,
+       "Rate Distributions":        [
+[1.144478354920477, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node14":{
+       "Baseline MG94xREV":0.008392076297330037,
+       "Baseline MG94xREV omega ratio":0.4952043695641251,
+       "Corrected P-value":null,
+       "Full adaptive model":0.009929088566199288,
+       "Full adaptive model (non-synonymous subs/site)":0.006858482107529155,
+       "Full adaptive model (synonymous subs/site)":0.003070606458670136,
+       "LRT":null,
+       "Nucleotide GTR":0.008317015505659983,
+       "Rate Distributions":        [
+[0, 0.976650932408854],
+        [39.50766431726979, 0.02334906759114597] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null
+      },
+     "Node17":{
+       "Baseline MG94xREV":0.02139568210286011,
+       "Baseline MG94xREV omega ratio":0.2305000684796827,
+       "Corrected P-value":null,
+       "Full adaptive model":0.01766116657160776,
+       "Full adaptive model (non-synonymous subs/site)":0.006767181403414231,
+       "Full adaptive model (synonymous subs/site)":0.01089398516819352,
+       "LRT":null,
+       "Nucleotide GTR":0.01834217217911258,
+       "Rate Distributions":        [
+[0.2565476763007792, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node18":{
+       "Baseline MG94xREV":0.0006948357433100308,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":null,
+       "Full adaptive model":0.004257542284488029,
+       "Full adaptive model (non-synonymous subs/site)":0.00108956004363937,
+       "Full adaptive model (synonymous subs/site)":0.003167982240848661,
+       "LRT":null,
+       "Nucleotide GTR":0.001506267346698792,
+       "Rate Distributions":        [
+[0.1420415741312365, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node2":{
+       "Baseline MG94xREV":0.003823136043648928,
+       "Baseline MG94xREV omega ratio":0.7896873940472957,
+       "Corrected P-value":null,
+       "Full adaptive model":0.004071283129055934,
+       "Full adaptive model (non-synonymous subs/site)":0.002556322533779322,
+       "Full adaptive model (synonymous subs/site)":0.001514960595276611,
+       "LRT":null,
+       "Nucleotide GTR":0.005110217034153446,
+       "Rate Distributions":        [
+[0.6968853872226616, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node3":{
+       "Baseline MG94xREV":0.004490255227307045,
+       "Baseline MG94xREV omega ratio":0.123214018085244,
+       "Corrected P-value":null,
+       "Full adaptive model":0.004405101430251608,
+       "Full adaptive model (non-synonymous subs/site)":0.001019714464979251,
+       "Full adaptive model (synonymous subs/site)":0.003385386965272354,
+       "LRT":null,
+       "Nucleotide GTR":0.004195168638494011,
+       "Rate Distributions":        [
+[0.1243991201732848, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node4":{
+       "Baseline MG94xREV":0.004928896036349955,
+       "Baseline MG94xREV omega ratio":0.571817672478103,
+       "Corrected P-value":null,
+       "Full adaptive model":0.004928220366893213,
+       "Full adaptive model (non-synonymous subs/site)":0.002906183918694672,
+       "Full adaptive model (synonymous subs/site)":0.002022036448198547,
+       "LRT":null,
+       "Nucleotide GTR":0.004877601046197896,
+       "Rate Distributions":        [
+[0.5935826004927058, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Pelodiscus_sinensis":{
+       "Baseline MG94xREV":0.1124125114835524,
+       "Baseline MG94xREV omega ratio":0.3383722519097714,
+       "Corrected P-value":null,
+       "Full adaptive model":0.1130496368871482,
+       "Full adaptive model (non-synonymous subs/site)":0.05192198557036801,
+       "Full adaptive model (synonymous subs/site)":0.06112765131678024,
+       "LRT":null,
+       "Nucleotide GTR":0.1066182832072439,
+       "Rate Distributions":        [
+[0.3508008437669185, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Pelodiscus_sinensis"
+      },
+     "Terrapene_carolina":{
+       "Baseline MG94xREV":0.001933537672828538,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001934545247483915,
+       "Full adaptive model (non-synonymous subs/site)":0.001934545247483915,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":null,
+       "Nucleotide GTR":0.001944576752130727,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Terrapene_carolina"
+      },
+     "Trachemys_scripta":{
+       "Baseline MG94xREV":0.006001743348362519,
+       "Baseline MG94xREV omega ratio":0.1894729428930196,
+       "Corrected P-value":null,
+       "Full adaptive model":0.005996006434908639,
+       "Full adaptive model (non-synonymous subs/site)":0.001934035261159021,
+       "Full adaptive model (synonymous subs/site)":0.004061971173749615,
+       "LRT":null,
+       "Nucleotide GTR":0.005848923637449052,
+       "Rate Distributions":        [
+[0.1966412368927355, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Trachemys_scripta"
+      }
+    },
+   "attributes":{
+     "Baseline MG94xREV":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Baseline MG94xREV omega ratio":{
+       "attribute type":"branch label",
+       "display order":1
+      },
+     "Corrected P-value":{
+       "attribute type":"branch label",
+       "display order":6
+      },
+     "Full adaptive model":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "Full adaptive model (non-synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":10
+      },
+     "Full adaptive model (synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":9
+      },
+     "LRT":{
+       "attribute type":"branch label",
+       "display order":4
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Rate Distributions":{
+       "attribute type":"branch label",
+       "display order":3
+      },
+     "Rate classes":{
+       "attribute type":"branch label",
+       "display order":2
+      },
+     "Uncorrected P-value":{
+       "attribute type":"branch label",
+       "display order":5
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357] 
+      ],
+     "name":"absrel.filter.default"
+    }
+  },
+ "fits":{
+   "Baseline MG94xREV":{
+     "AIC-c":6164.116191803892,
+     "Equilibrium frequencies":      [
+[0.03009010664288712],
+      [0.02507350681826848],
+      [0.02111073077994721],
+      [0.02839346956881929],
+      [0.01937788625699886],
+      [0.01614721971426929],
+      [0.01359521070200803],
+      [0.01828526001173876],
+      [0.01231598204947817],
+      [0.01026267083583967],
+      [0.00864069324920975],
+      [0.0116215427775709],
+      [0.03645712020222963],
+      [0.03037901669189066],
+      [0.02557772422462902],
+      [0.03440147771206013],
+      [0.01515281607139813],
+      [0.01262655003490924],
+      [0.01063096998750452],
+      [0.01429842130874806],
+      [0.009758341829412801],
+      [0.008131438459112749],
+      [0.006846294353965944],
+      [0.00920811564624564],
+      [0.006202098681444803],
+      [0.005168089479454877],
+      [0.004351291841153945],
+      [0.005852392025870225],
+      [0.01835912525912648],
+      [0.0152983057795499],
+      [0.01288046450949901],
+      [0.01732394206978899],
+      [0.0196191112853097],
+      [0.01634822788828048],
+      [0.01376445026936793],
+      [0.0185128835154328],
+      [0.01263461480752189],
+      [0.01052818138142031],
+      [0.008864240824250431],
+      [0.01192220935966432],
+      [0.008030168363451332],
+      [0.006691384766508822],
+      [0.005633835880024811],
+      [0.007577385609367649],
+      [0.02377048067254132],
+      [0.01980748411064114],
+      [0.01667698369911161],
+      [0.02243017705527316],
+      [0.02373581350843929],
+      [0.02687865337017831],
+      [0.01834405923820579],
+      [0.01528575155424381],
+      [0.01286989443358148],
+      [0.01730972554966789],
+      [0.009715148456238604],
+      [0.008179704778967824],
+      [0.01100152340269337],
+      [0.03451210125678924],
+      [0.02875826983416262],
+      [0.02421313047936905],
+      [0.03256612907426482] 
+      ],
+     "Log Likelihood":-3027.357789370468,
+     "Rate Distributions":{
+       "Per-branch omega":{
+         "2.5%":0,
+         "97.5%":10000000000,
+         "Mean":526315789.9728051,
+         "Median":0.4237222471968742
+        }
+      },
+     "display order":1,
+     "estimated parameters":54
+    },
+   "Full adaptive model":{
+     "AIC-c":6012.849075704657,
+     "Log Likelihood":-2947.616890932338,
+     "Rate Distributions":{
+      },
+     "display order":2,
+     "estimated parameters":58
+    },
+   "Nucleotide GTR":{
+     "AIC-c":6265.323364784803,
+     "Equilibrium frequencies":      [
+[0.294238683127572],
+      [0.2117695473251029],
+      [0.1792592592592593],
+      [0.3147325102880659] 
+      ],
+     "Log Likelihood":-3103.594020236545,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.3745478579828429,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.3044476565648521,
+       "Substitution rate from nucleotide C to nucleotide G":0.4784389304059652,
+       "Substitution rate from nucleotide C to nucleotide T":1.011115548358358,
+       "Substitution rate from nucleotide G to nucleotide T":0.3073865157728748
+      },
+     "display order":0,
+     "estimated parameters":29
+    }
+  },
+ "input":{
+   "file name":"/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Testudines/aBSREL/Testudines.aln",
+   "number of sequences":12,
+   "number of sites":358,
+   "partition count":1,
+   "trees":{
+     "0":"(Pelodiscus_sinensis,(((Chrysemys_picta,Malaclemys_terrapin,Trachemys_scripta)Node4,Terrapene_carolina)Node3,((Mauremys_mutica,Mauremys_reevesii)Node11,(Gopherus_flavomarginatus,Chelonoidis_abingdonii)Node14)Node10)Node2,((Caretta_caretta,Chelonia_mydas)Node18,Dermochelys_coriacea)Node17)"
+    }
+  },
+ "runtime":"2.5.48",
+ "test results":{
+   "P-value threshold":0.05,
+   "positive test results":0,
+   "tested":1
+  },
+ "tested":{
+   "0":{
+     "Caretta_caretta":"background",
+     "Chelonia_mydas":"test",
+     "Chelonoidis_abingdonii":"background",
+     "Chrysemys_picta":"background",
+     "Dermochelys_coriacea":"background",
+     "Gopherus_flavomarginatus":"background",
+     "Malaclemys_terrapin":"background",
+     "Mauremys_mutica":"background",
+     "Mauremys_reevesii":"background",
+     "Node10":"background",
+     "Node11":"background",
+     "Node14":"background",
+     "Node17":"background",
+     "Node18":"background",
+     "Node2":"background",
+     "Node3":"background",
+     "Node4":"background",
+     "Pelodiscus_sinensis":"background",
+     "Terrapene_carolina":"background",
+     "Trachemys_scripta":"background"
+    }
+  },
+ "timers":{
+   "Baseline model fitting":{
+     "order":2,
+     "timer":1
+    },
+   "Complexity analysis":{
+     "order":3,
+     "timer":34
+    },
+   "Full adaptive model fitting":{
+     "order":4,
+     "timer":5
+    },
+   "Overall":{
+     "order":0,
+     "timer":41
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":1
+    },
+   "Testing for selection":{
+     "order":5,
+     "timer":0
+    }
+  }
+}

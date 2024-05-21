@@ -1,0 +1,100 @@
+
+Analysis Description
+--------------------
+FEL (Fixed Effects Likelihood) estimates site-wise synonymous (&alpha;)
+and non-synonymous (&beta;) rates, and uses a likelihood ratio test to
+determine if beta &neq; alpha at a site. The estimates aggregate
+information over all branches, so the signal is derived from pervasive
+diversification or conservation. A subset of branches can be selected
+for testing as well, in which case an additional (nuisance) parameter
+will be inferred -- the non-synonymous rate on branches NOT selected for
+testing. Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Not So Different After All: A Comparison of Methods for Detecting Amino
+Acid Sites Under Selection (2005). _Mol Biol Evol_ 22 (5): 1208-1222
+
+- __Written by__: Sergei L Kosakovsky Pond and Simon DW Frost
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.1
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Chiroptera/FEL/Rousettus_aegyptiacus_treeLabled.txt
+Rousettus_aegyptiacus_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **22** sequences, **554** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Chiroptera/FEL/Chiroptera.aln`
+
+>branches –> fg
+
+>srv –> Yes
+Yes
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue –> 0.1
+
+>ci –> No
+
+>[Advanced setting, will result in MUCH SLOWER run time] Perform parametric bootstrap resampling to derive site-level null LRT distributions up to this many replicates per site. Recommended use for small to medium (<30 sequences) datasets (permissible range = [0,1000], default value = 50, integer): 
+>resample –> 10
+
+
+### Branches to include in the FEL analysis
+Selected 1 branches to include in FEL calculations: `Rousettus_aegyptiacus`
+
+>precision –> standard
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -7925.01, AIC-c = 15948.16 (49 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  1.157
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -7719.43, AIC-c = 15553.41 (57 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  1.204
+* non-synonymous/synonymous rate ratio for *background* =   0.3604
+* non-synonymous/synonymous rate ratio for *test* =   0.3248
+
+>full-model –> Yes
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -7691.64
+* non-synonymous/synonymous rate ratio for *background* =   0.3188
+* non-synonymous/synonymous rate ratio for *test* =   0.2251
+
+### For partition 1 these sites are significant at p <=0.1
+
+|     Codon      |   Partition    |     alpha      |      beta      |      LRT       |Selection detected?|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:-----------------:|
+[0;31m|      215       |       1        |        0.303   |     1043.593   |        5.193   |  Pos. p = 0.0909  |
+[0m[0;32m|      221       |       1        |       70.509   |        0.000   |        4.704   |  Neg. p = 0.0909  |
+[0m[0;32m|      234       |       1        |        0.000   |        0.000   |       -0.000   |  Neg. p = 0.0909  |
+[0m[0;32m|      252       |       1        |        3.974   |        0.000   |        2.169   |  Neg. p = 0.0909  |
+[0m[0;31m|      256       |       1        |        0.786   |      833.183   |        4.218   |  Pos. p = 0.0909  |
+[0m[0;32m|      288       |       1        |        5.538   |        0.000   |        2.822   |  Neg. p = 0.0909  |
+[0m[0;31m|      345       |       1        |        0.000   |        4.417   |        3.714   |  Pos. p = 0.0909  |
+[0m[0;32m|      353       |       1        |       67.969   |        0.000   |        4.172   |  Neg. p = 0.0909  |
+[0m[0;32m|      364       |       1        |       60.917   |        0.000   |        6.065   |  Neg. p = 0.0909  |
+[0m[0;31m|      379       |       1        |        0.000   |        0.258   |        0.004   |  Pos. p = 0.0909  |
+[0m[0;32m|      382       |       1        |        3.509   |        0.000   |        2.150   |  Neg. p = 0.0909  |
+[0m[0;32m|      394       |       1        |        0.000   |        0.000   |       -0.000   |  Neg. p = 0.0909  |
+[0m[0;32m|      429       |       1        |       18.816   |        0.000   |        4.202   |  Neg. p = 0.0909  |
+[0m[0;32m|      461       |       1        |        5.898   |        0.000   |        1.483   |  Neg. p = 0.0909  |
+[0m[0;31m|      469       |       1        |        0.000   |        8.726   |        3.211   |  Pos. p = 0.0909  |
+[0m[0;32m|      479       |       1        |       10.134   |        0.000   |        2.411   |  Neg. p = 0.0909  |
+[0m[0;32m|      483       |       1        |        5.249   |        0.000   |        2.254   |  Neg. p = 0.0909  |
+[0m[0;31m|      484       |       1        |        0.715   |     4167.783   |        4.178   |  Pos. p = 0.0909  |
+[0m[0;32m|      485       |       1        |        7.709   |        0.000   |        3.417   |  Neg. p = 0.0909  |
+[0m[0;32m|      488       |       1        |        2.629   |        0.000   |        1.312   |  Neg. p = 0.0909  |
+[0m[0;32m|      501       |       1        |        0.567   |        0.000   |        0.380   |  Neg. p = 0.0909  |
+[0m[0;31m|      525       |       1        |        0.528   |        7.731   |        5.089   |  Pos. p = 0.0909  |
+[0m[0;32m|      547       |       1        |        8.071   |        0.000   |        2.562   |  Neg. p = 0.0909  |
+[0m
+### ** Found _7_ sites under pervasive positive diversifying and _16_ sites under negative selection at p <= 0.1**
+

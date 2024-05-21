@@ -1,0 +1,133 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+
+-------
+>[WARNING] This dataset contains 2 duplicate sequences. Identical
+sequences do not contribute any information to the analysis and only
+slow down computation. Please consider removing duplicate or 'nearly'
+duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Birds2/aBSREL/Accipiter_gentilis_treeLabled.txt
+Accipiter_gentilis_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **17** sequences, **345** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Birds2/aBSREL/Birds2.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Accipiter_gentilis`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 5 zero-length internal branches: `Node14, Node26, Node27, Node7, Node8`
+* Log(L) = -3558.60, AIC-c =  7195.38 (39 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.415
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -3425.66, AIC-c =  6984.84 (66 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.30, and 95% of the weight in  0.00 - 10000000000.00
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|          Colius_striatus          |   0.10   |    2     |    5.13 ( 2.01%)   |   -3424.84    |    6987.29    |     6984.84     |
+|     Antrostomus_carolinensis      |   0.04   |    2     |    3.07 (12.18%)   |   -3423.71    |    6985.03    |     6984.84     |
+|        Leptosomus_discolor        |   0.04   |    2     |    0.33 (55.59%)   |   -3425.66    |    6988.93    |     6984.84     |
+|        Athene_cunicularia         |   0.03   |    2     |    0.63 (11.51%)   |   -3425.66    |    6988.93    |     6984.84     |
+|              Node23               |   0.03   |    2     |    2.77 (21.02%)   |   -3425.02    |    6987.65    |     6984.84     |
+|              Node15               |   0.03   |    2     |    0.28 (73.15%)   |   -3425.66    |    6988.93    |     6984.84     |
+|             Tyto_alba             |   0.03   |    2     |    0.19 (12.68%)   |   -3425.66    |    6988.93    |     6984.84     |
+|       Tauraco_erythrolophus       |   0.02   |    2     |   0.14 (100.00%)   |   -3425.66    |    6988.93    |     6984.84     |
+|               Node1               |   0.02   |    2     |    0.54 (46.71%)   |   -3425.66    |    6988.93    |     6984.84     |
+|       Corythaeola_cristata        |   0.02   |    2     |    0.46 ( 0.26%)   |   -3425.66    |    6988.93    |     6984.84     |
+|      Gymnogyps_californianus      |   0.01   |    2     |    8.15 ( 4.19%)   |   -3423.32    |    6984.27    |     6984.27     |
+|      Gymnogyps_californianus      |   0.01   |    3     |    9.01 ( 3.44%)   |   -3423.34    |    6988.40    |     6984.27     |
+|              Node11               |   0.01   |    2     |    0.31 (18.20%)   |   -3423.32    |    6988.36    |     6984.27     |
+|         Aquila_chrysaetos         |   0.01   |    2     |    0.77 (93.61%)   |   -3423.32    |    6988.36    |     6984.27     |
+|        Accipiter_gentilis         |   0.01   |    2     |    0.19 (95.57%)   |   -3423.32    |    6988.36    |     6984.27     |
+|              Node17               |   0.01   |    2     |    0.19 (78.32%)   |   -3423.32    |    6988.36    |     6984.27     |
+|          Falco_naumanni           |   0.00   |    2     |    0.25 (45.00%)   |   -3423.32    |    6988.36    |     6984.27     |
+|              Node24               |   0.00   |    2     |    0.00 ( 5.00%)   |   -3423.32    |    6988.36    |     6984.27     |
+|               Node5               |   0.00   |    2     |    0.25 ( 5.00%)   |   -3423.32    |    6988.36    |     6984.27     |
+|         Falco_peregrinus          |   0.00   |    2     |   1.00 (100.00%)   |   -3424.07    |    6989.86    |     6984.27     |
+|              Node16               |   0.00   |    2     |    0.59 (89.32%)   |   -3423.32    |    6988.36    |     6984.27     |
+|               Node6               |   0.00   |    2     |    0.60 (95.00%)   |   -3423.32    |    6988.36    |     6984.27     |
+|          Falco_biarmicus          |   0.00   |    2     |    0.00 ( 0.00%)   |   -3423.32    |    6988.36    |     6984.27     |
+|     Haliaeetus_leucocephalus      |   0.00   |    2     |    0.27 (10.50%)   |   -3423.32    |    6988.36    |     6984.27     |
+|       Haliaeetus_albicilla        |   0.00   |    2     |    0.27 (10.50%)   |   -3423.32    |    6988.36    |     6984.27     |
+|           Falco_cherrug           |   0.00   |    2     |    0.27 (15.28%)   |   -3423.32    |    6988.36    |     6984.27     |
+|         Falco_rusticolus          |   0.00   |    2     |    0.28 (15.28%)   |   -3423.32    |    6988.36    |     6984.27     |
+
+### Rate class analyses summary
+*  25 branches with **1** rate classes
+*  1 branches with **2** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -3419.40, AIC-c =  6976.42 (68 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|          Colius_striatus          |     1    |   0.20 (100.00%)   |    Not selected    |    for testing     |
+|     Antrostomus_carolinensis      |     1    |   0.28 (100.00%)   |    Not selected    |    for testing     |
+|        Leptosomus_discolor        |     1    |   0.30 (100.00%)   |    Not selected    |    for testing     |
+|        Athene_cunicularia         |     1    |   0.58 (100.00%)   |    Not selected    |    for testing     |
+|              Node23               |     1    |   0.58 (100.00%)   |    Not selected    |    for testing     |
+|              Node15               |     1    |   0.26 (100.00%)   |    Not selected    |    for testing     |
+|             Tyto_alba             |     1    |   0.16 (100.00%)   |    Not selected    |    for testing     |
+|       Tauraco_erythrolophus       |     1    |   0.13 (100.00%)   |    Not selected    |    for testing     |
+|               Node1               |     1    |   0.50 (100.00%)   |    Not selected    |    for testing     |
+|       Corythaeola_cristata        |     1    |   0.37 (100.00%)   |    Not selected    |    for testing     |
+|      Gymnogyps_californianus      |     2    |    7.76 ( 4.09%)   |    Not selected    |    for testing     |
+|              Node11               |     1    |   0.25 (100.00%)   |    Not selected    |    for testing     |
+|         Aquila_chrysaetos         |     1    |   0.70 (100.00%)   |    Not selected    |    for testing     |
+|        Accipiter_gentilis         |     1    |   0.17 (100.00%)   |        0.00        |       1.00000      |
+|              Node17               |     1    |   0.14 (100.00%)   |    Not selected    |    for testing     |
+|          Falco_naumanni           |     1    |   0.21 (100.00%)   |    Not selected    |    for testing     |
+|              Node24               |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|               Node5               |     1    |   0.21 (100.00%)   |    Not selected    |    for testing     |
+|         Falco_peregrinus          |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node16               |     1    |   0.50 (100.00%)   |    Not selected    |    for testing     |
+|               Node6               |     1    |   0.46 (100.00%)   |    Not selected    |    for testing     |
+|          Falco_biarmicus          |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|     Haliaeetus_leucocephalus      |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|       Haliaeetus_albicilla        |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|           Falco_cherrug           |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|         Falco_rusticolus          |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

@@ -1,0 +1,107 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Afrotheria/aBSREL/Dugong_dugon_treeLabled.txt
+Dugong_dugon_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **10** sequences, **398** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Afrotheria/aBSREL/Afrotheria.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Dugong_dugon`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 1 zero-length internal branches: `Node13`
+* Log(L) = -4418.17, AIC-c =  8886.44 (25 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.667
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -4178.57, AIC-c =  8450.24 (46 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.27, and 95% of the weight in  0.00 -  1.31
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|       Elephantulus_edwardii       |   0.19   |    2     |    0.73 (49.39%)   |   -4176.11    |    8449.42    |     8449.42     |
+|       Elephantulus_edwardii       |   0.19   |    3     |    0.77 ( 0.00%)   |   -4176.11    |    8453.52    |     8449.42     |
+|         Echinops_telfairi         |   0.16   |    2     |    0.63 (42.69%)   |   -4174.31    |    8449.93    |     8449.42     |
+|               Node2               |   0.11   |    2     |    1.22 (26.03%)   |   -4172.08    |    8445.45    |     8445.45     |
+|               Node2               |   0.11   |    3     |    1.36 (14.25%)   |   -4172.08    |    8449.56    |     8445.45     |
+|      Chrysochloris_asiatica       |   0.09   |    2     |    0.41 (76.91%)   |   -4172.07    |    8449.54    |     8445.45     |
+|         Orycteropus_afer          |   0.04   |    2     |    2.03 (14.55%)   |   -4170.35    |    8446.09    |     8445.45     |
+|               Node8               |   0.03   |    2     |    2.57 ( 8.96%)   |   -4171.52    |    8448.45    |     8445.45     |
+|               Node5               |   0.03   |    2     |   13.62 ( 4.26%)   |   -4167.18    |    8439.75    |     8439.75     |
+|               Node5               |   0.03   |    3     |   13.39 ( 4.22%)   |   -4167.18    |    8443.86    |     8439.75     |
+|              Node11               |   0.03   |    2     |  100.67 ( 0.54%)   |   -4165.84    |    8441.18    |     8439.75     |
+|              Node12               |   0.02   |    2     |   37.11 ( 3.48%)   |   -4159.45    |    8428.42    |     8428.42     |
+|              Node12               |   0.02   |    3     |   36.72 ( 3.51%)   |   -4159.45    |    8432.53    |     8428.42     |
+|           Dugong_dugon            |   0.01   |    2     |    0.50 (23.30%)   |   -4159.45    |    8432.53    |     8428.42     |
+|        Heterohyrax_brucei         |   0.01   |    2     |    0.20 (90.00%)   |   -4159.45    |    8432.53    |     8428.42     |
+|        Trichechus_manatus         |   0.01   |    2     |    0.72 ( 3.24%)   |   -4159.45    |    8432.53    |     8428.42     |
+|               Node1               |   0.01   |    2     |    0.18 (86.36%)   |   -4159.44    |    8432.52    |     8428.42     |
+|        Loxodonta_africana         |   0.00   |    2     |    0.00 ( 5.00%)   |   -4159.45    |    8432.53    |     8428.42     |
+|          Elephas_maximus          |   0.00   |    2     |    0.25 ( 2.00%)   |   -4159.45    |    8432.53    |     8428.42     |
+|         Procavia_capensis         |   0.00   |    2     |    0.00 ( 5.00%)   |   -4159.45    |    8432.53    |     8428.42     |
+
+### Rate class analyses summary
+*  4 branches with **2** rate classes
+*  12 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -4148.49, AIC-c =  8406.49 (54 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|       Elephantulus_edwardii       |     2    |    0.66 (47.41%)   |    Not selected    |    for testing     |
+|         Echinops_telfairi         |     1    |   0.21 (100.00%)   |    Not selected    |    for testing     |
+|               Node2               |     2    |    1.21 (24.15%)   |    Not selected    |    for testing     |
+|      Chrysochloris_asiatica       |     1    |   0.32 (100.00%)   |    Not selected    |    for testing     |
+|         Orycteropus_afer          |     1    |   0.23 (100.00%)   |    Not selected    |    for testing     |
+|               Node8               |     1    |   0.30 (100.00%)   |    Not selected    |    for testing     |
+|               Node5               |     2    |   19.65 ( 2.87%)   |    Not selected    |    for testing     |
+|              Node11               |     1    |   1.24 (100.00%)   |    Not selected    |    for testing     |
+|              Node12               |     2    |   36.37 ( 3.46%)   |    Not selected    |    for testing     |
+|           Dugong_dugon            |     1    |   0.24 (100.00%)   |        0.00        |       1.00000      |
+|        Heterohyrax_brucei         |     1    |   0.17 (100.00%)   |    Not selected    |    for testing     |
+|        Trichechus_manatus         |     1    |   0.39 (100.00%)   |    Not selected    |    for testing     |
+|               Node1               |     1    |   0.12 (100.00%)   |    Not selected    |    for testing     |
+|        Loxodonta_africana         |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|          Elephas_maximus          |     1    |   0.19 (100.00%)   |    Not selected    |    for testing     |
+|         Procavia_capensis         |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

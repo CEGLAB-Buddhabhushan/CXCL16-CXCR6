@@ -1,0 +1,342 @@
+{
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM / UCSD viral evolution group",
+   "citation":"Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32 (5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds support for SRV",
+   "contact":"spond@temple.edu",
+   "info":"aBSREL (Adaptive branch-site random effects likelihood)\n                            uses an adaptive random effects branch-site model framework\n                            to test whether each branch has evolved under positive selection,\n                            using a procedure which infers an optimal number of rate categories per branch.",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"2.3"
+  },
+ "branch attributes":{
+   "0":{
+     "Choloepus_didactylus":{
+       "Baseline MG94xREV":0.004544484604882898,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":null,
+       "Full adaptive model":0.004771312243800057,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.004771312243800057,
+       "LRT":null,
+       "Nucleotide GTR":0.003592602225612659,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Choloepus_didactylus"
+      },
+     "Choloepus_hoffmanni":{
+       "Baseline MG94xREV":0.002102369319795713,
+       "Baseline MG94xREV omega ratio":0.3071980107273234,
+       "Corrected P-value":null,
+       "Full adaptive model":0.001883651162670579,
+       "Full adaptive model (non-synonymous subs/site)":0.0009861785040039294,
+       "Full adaptive model (synonymous subs/site)":0.0008974726586666511,
+       "LRT":null,
+       "Nucleotide GTR":0.003287440166140649,
+       "Rate Distributions":        [
+[0.3260922308522644, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Choloepus_hoffmanni"
+      },
+     "Dasypus_novemcinctus":{
+       "Baseline MG94xREV":0.2118189692399187,
+       "Baseline MG94xREV omega ratio":0.1956793902001704,
+       "Corrected P-value":null,
+       "Full adaptive model":0.2423430048911789,
+       "Full adaptive model (non-synonymous subs/site)":0.09881819174318984,
+       "Full adaptive model (synonymous subs/site)":0.1435248131479891,
+       "LRT":null,
+       "Nucleotide GTR":0.1647575749042663,
+       "Rate Distributions":        [
+[0.0780731780769723, 0.8630593496347078],
+        [1, 0.1369406503652922] 
+        ],
+       "Rate classes":2,
+       "Uncorrected P-value":null,
+       "original name":"Dasypus_novemcinctus"
+      },
+     "Myrmecophaga_tridactyla":{
+       "Baseline MG94xREV":0.003602174746912748,
+       "Baseline MG94xREV omega ratio":0.4253266529534208,
+       "Corrected P-value":null,
+       "Full adaptive model":0.003803968683950284,
+       "Full adaptive model (non-synonymous subs/site)":0.001980740018759381,
+       "Full adaptive model (synonymous subs/site)":0.001823228665190895,
+       "LRT":null,
+       "Nucleotide GTR":0.005857544068874355,
+       "Rate Distributions":        [
+[0.3223981065968042, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null,
+       "original name":"Myrmecophaga_tridactyla"
+      },
+     "Node2":{
+       "Baseline MG94xREV":0.08410390091780336,
+       "Baseline MG94xREV omega ratio":0.2687450691096,
+       "Corrected P-value":null,
+       "Full adaptive model":0.08347658727759942,
+       "Full adaptive model (non-synonymous subs/site)":0.03710268235118858,
+       "Full adaptive model (synonymous subs/site)":0.04637390492641073,
+       "LRT":null,
+       "Nucleotide GTR":0.0754597347342591,
+       "Rate Distributions":        [
+[0.2374312000963597, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Node5":{
+       "Baseline MG94xREV":0.05227499560394171,
+       "Baseline MG94xREV omega ratio":0.5786869867343384,
+       "Corrected P-value":null,
+       "Full adaptive model":0.05382396681110618,
+       "Full adaptive model (non-synonymous subs/site)":0.03315507564793482,
+       "Full adaptive model (synonymous subs/site)":0.02066889116317139,
+       "LRT":null,
+       "Nucleotide GTR":0.05806288920593874,
+       "Rate Distributions":        [
+[0.4760351167930416, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":null
+      },
+     "Tamandua_tetradactyla":{
+       "Baseline MG94xREV":0.008747314087959687,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.008447589644125994,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.008447589644125994,
+       "LRT":0,
+       "Nucleotide GTR":0.006923445545871189,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1,
+       "original name":"Tamandua_tetradactyla"
+      }
+    },
+   "attributes":{
+     "Baseline MG94xREV":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Baseline MG94xREV omega ratio":{
+       "attribute type":"branch label",
+       "display order":1
+      },
+     "Corrected P-value":{
+       "attribute type":"branch label",
+       "display order":6
+      },
+     "Full adaptive model":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "Full adaptive model (non-synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":10
+      },
+     "Full adaptive model (synonymous subs/site)":{
+       "attribute type":"branch label",
+       "display order":9
+      },
+     "LRT":{
+       "attribute type":"branch label",
+       "display order":4
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Rate Distributions":{
+       "attribute type":"branch label",
+       "display order":3
+      },
+     "Rate classes":{
+       "attribute type":"branch label",
+       "display order":2
+      },
+     "Uncorrected P-value":{
+       "attribute type":"branch label",
+       "display order":5
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260, 261, 262, 263, 264, 265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380] 
+      ],
+     "name":"absrel.filter.default"
+    }
+  },
+ "fits":{
+   "Baseline MG94xREV":{
+     "AIC-c":5312.586180380452,
+     "Equilibrium frequencies":      [
+[0.007209892602697688],
+      [0.03268613556258344],
+      [0.02631134152891847],
+      [0.01429881581271731],
+      [0.005214398695444423],
+      [0.02363953973085293],
+      [0.01902910799149082],
+      [0.01034130889721376],
+      [0.003704335016054884],
+      [0.01679364772488991],
+      [0.01351837386710634],
+      [0.007346517766901189],
+      [0.009774415579926228],
+      [0.04431243158475831],
+      [0.03567015498577521],
+      [0.01938483355522181],
+      [0.005378636204318356],
+      [0.02438411246935749],
+      [0.01962846632121461],
+      [0.01066702829670234],
+      [0.003889982160978905],
+      [0.01763528130810343],
+      [0.01419586321447011],
+      [0.007714697222227914],
+      [0.002763462859741081],
+      [0.01252819239247257],
+      [0.01008481250856963],
+      [0.005480559644111473],
+      [0.007291790379037496],
+      [0.03305742012495202],
+      [0.02661021426981469],
+      [0.01446123726389342],
+      [0.006594302335499983],
+      [0.02989534961979388],
+      [0.02406484402130558],
+      [0.01307796380675707],
+      [0.004769186365235377],
+      [0.02162116423190284],
+      [0.01740437731677414],
+      [0.009458354121323214],
+      [0.003388053941150965],
+      [0.01535978363566326],
+      [0.01236415703760506],
+      [0.006719262260569897],
+      [0.008939862913178206],
+      [0.04052897694782866],
+      [0.03262458947617789],
+      [0.01772973055640917],
+      [0.0298901972870237],
+      [0.01307570987688685],
+      [0.004768364416821687],
+      [0.02161743791880003],
+      [0.01740137774845552],
+      [0.009456724015353187],
+      [0.01535713644412426],
+      [0.01236202612920992],
+      [0.006718104225103616],
+      [0.008938322166900464],
+      [0.04052199195589092],
+      [0.03261896677085383],
+      [0.01772667491488251] 
+      ],
+     "Log Likelihood":-2627.860254369331,
+     "Rate Distributions":{
+       "Per-branch omega":{
+         "2.5%":0,
+         "97.5%":0.5786869867343384,
+         "Mean":0.2959393516208088,
+         "Median":0.2879715399184617
+        }
+      },
+     "display order":1,
+     "estimated parameters":28
+    },
+   "Full adaptive model":{
+     "AIC-c":5293.89473313739,
+     "Log Likelihood":-2616.451101894202,
+     "Rate Distributions":{
+      },
+     "display order":2,
+     "estimated parameters":30
+    },
+   "Nucleotide GTR":{
+     "AIC-c":5638.071604692177,
+     "Equilibrium frequencies":      [
+[0.2096003059858481],
+      [0.2813157391470644],
+      [0.2409638554216867],
+      [0.2681200994454006] 
+      ],
+     "Log Likelihood":-2803.993689694746,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.2829265001340917,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.147346566074149,
+       "Substitution rate from nucleotide C to nucleotide G":0.1912867143708508,
+       "Substitution rate from nucleotide C to nucleotide T":0.7311426832667998,
+       "Substitution rate from nucleotide G to nucleotide T":0.22791558297274
+      },
+     "display order":0,
+     "estimated parameters":15
+    }
+  },
+ "input":{
+   "file name":"/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Xenarthra/aBSREL/Xenarthra.aln",
+   "number of sequences":5,
+   "number of sites":381,
+   "partition count":1,
+   "trees":{
+     "0":"(Dasypus_novemcinctus:78.1855,(Tamandua_tetradactyla:12.95,Myrmecophaga_tridactyla:12.95)Node2:44.3217,(Choloepus_hoffmanni:7.83886,Choloepus_didactylus:7.83886)Node5:49.43284)"
+    }
+  },
+ "runtime":"2.5.48",
+ "test results":{
+   "P-value threshold":0.05,
+   "positive test results":0,
+   "tested":1
+  },
+ "tested":{
+   "0":{
+     "Choloepus_didactylus":"background",
+     "Choloepus_hoffmanni":"background",
+     "Dasypus_novemcinctus":"background",
+     "Myrmecophaga_tridactyla":"background",
+     "Node2":"background",
+     "Node5":"background",
+     "Tamandua_tetradactyla":"test"
+    }
+  },
+ "timers":{
+   "Baseline model fitting":{
+     "order":2,
+     "timer":1
+    },
+   "Complexity analysis":{
+     "order":3,
+     "timer":11
+    },
+   "Full adaptive model fitting":{
+     "order":4,
+     "timer":10
+    },
+   "Overall":{
+     "order":0,
+     "timer":22
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":0
+    },
+   "Testing for selection":{
+     "order":5,
+     "timer":0
+    }
+  }
+}

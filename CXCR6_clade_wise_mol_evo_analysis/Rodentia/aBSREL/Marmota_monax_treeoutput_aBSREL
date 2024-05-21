@@ -1,0 +1,250 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Rodentia/aBSREL/Marmota_monax_treeLabled.txt
+Marmota_monax_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **43** sequences, **386** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Rodentia/aBSREL/Rodentia.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Marmota_monax`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 1 zero-length internal branches: `Node50`
+* Log(L) = -11878.77, AIC-c = 23939.89 (91 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  2.294
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -11418.09, AIC-c = 23196.07 (178 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.36, and 95% of the weight in  0.05 - 10000000000.00
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|              Node70               |   0.35   |    2     |    0.67 (49.31%)   |   -11414.60   |   23193.17    |    23193.17     |
+|              Node70               |   0.35   |    3     |    0.81 ( 4.64%)   |   -11414.60   |   23197.26    |    23193.17     |
+|       Dipodomys_spectabilis       |   0.15   |    2     |    9.99 ( 9.13%)   |   -11404.58   |   23177.23    |    23177.23     |
+|       Dipodomys_spectabilis       |   0.15   |    3     |   10.11 ( 9.07%)   |   -11404.58   |   23181.32    |    23177.23     |
+|              Node73               |   0.15   |    2     |  745.64 ( 6.58%)   |   -11391.07   |   23154.29    |    23154.29     |
+|              Node73               |   0.15   |    3     |  297.91 ( 5.36%)   |   -11390.18   |   23156.59    |    23154.29     |
+|          Jaculus_jaculus          |   0.11   |    2     |    8.83 ( 2.65%)   |   -11387.29   |   23150.82    |    23150.82     |
+|          Jaculus_jaculus          |   0.11   |    3     |    8.91 ( 2.52%)   |   -11387.32   |   23154.97    |    23150.82     |
+|              Node81               |   0.09   |    2     |    0.72 (20.42%)   |   -11387.24   |   23154.82    |    23150.82     |
+|          Acomys_russatus          |   0.08   |    2     |    1.80 (32.16%)   |   -11384.44   |   23149.20    |    23149.20     |
+|          Acomys_russatus          |   0.08   |    3     |    1.78 (32.33%)   |   -11384.44   |   23153.30    |    23149.20     |
+|           Octodon_degus           |   0.08   |    2     |    0.39 ( 5.49%)   |   -11384.44   |   23153.29    |    23149.20     |
+|         Castor_canadensis         |   0.08   |    2     |  905.98 ( 0.81%)   |   -11381.02   |   23146.47    |    23146.47     |
+|         Castor_canadensis         |   0.08   |    3     |   >1000 ( 0.82%)   |   -11381.03   |   23150.57    |    23146.47     |
+|     Perognathus_longimembris      |   0.07   |    2     |  238.40 ( 3.45%)   |   -11374.35   |   23137.23    |    23137.23     |
+|     Perognathus_longimembris      |   0.07   |    3     |  238.62 ( 3.48%)   |   -11374.36   |   23141.33    |    23137.23     |
+|        Nannospalax_galili         |   0.07   |    2     |    1.89 (11.83%)   |   -11371.25   |   23135.12    |    23135.12     |
+|        Nannospalax_galili         |   0.07   |    3     |    2.33 ( 7.15%)   |   -11371.28   |   23139.27    |    23135.12     |
+|         Rattus_norvegicus         |   0.06   |    2     |    3.57 (19.40%)   |   -11366.45   |   23129.60    |    23129.60     |
+|         Rattus_norvegicus         |   0.06   |    3     |    3.55 (19.49%)   |   -11366.45   |   23133.70    |    23129.60     |
+|        Fukomys_damarensis         |   0.06   |    2     |    0.66 (25.83%)   |   -11366.26   |   23133.32    |    23129.60     |
+|       Heterocephalus_glaber       |   0.05   |    2     |    2.12 (10.18%)   |   -11366.07   |   23132.94    |    23129.60     |
+|              Node13               |   0.05   |    2     |    0.29 (19.61%)   |   -11366.45   |   23133.70    |    23129.60     |
+|       Phodopus_roborovskii        |   0.05   |    2     |    1.42 (24.97%)   |   -11365.53   |   23131.86    |    23129.60     |
+|              Node77               |   0.05   |    2     |   21.01 ( 1.93%)   |   -11365.37   |   23131.54    |    23129.60     |
+|        Chinchilla_lanigera        |   0.05   |    2     |    3.32 (19.05%)   |   -11365.41   |   23131.63    |    23129.60     |
+|              Node27               |   0.05   |    2     |    2.01 (30.42%)   |   -11365.34   |   23131.49    |    23129.60     |
+|          Mastomys_coucha          |   0.05   |    2     |    2.73 (19.35%)   |   -11364.14   |   23129.08    |    23129.08     |
+|          Mastomys_coucha          |   0.05   |    3     |   11.27 ( 2.47%)   |   -11364.00   |   23132.91    |    23129.08     |
+|              Node16               |   0.05   |    2     |    1.88 (24.30%)   |   -11363.08   |   23131.07    |    23129.08     |
+|              Node17               |   0.04   |    2     |    0.13 (99.21%)   |   -11364.08   |   23133.07    |    23129.08     |
+|              Node63               |   0.04   |    2     |    4.36 ( 8.08%)   |   -11361.15   |   23127.20    |    23127.20     |
+|              Node63               |   0.04   |    3     |    4.35 ( 8.07%)   |   -11361.15   |   23131.30    |    23127.20     |
+|       Mesocricetus_auratus        |   0.04   |    2     |    4.48 ( 5.39%)   |   -11360.61   |   23130.23    |    23127.20     |
+|               Node1               |   0.04   |    2     |    2.16 ( 8.26%)   |   -11361.01   |   23131.01    |    23127.20     |
+|              Node74               |   0.04   |    2     |   38.74 (10.30%)   |   -11357.77   |   23124.53    |    23124.53     |
+|              Node74               |   0.04   |    3     |   41.10 ( 9.65%)   |   -11357.76   |   23128.63    |    23124.53     |
+|              Node15               |   0.04   |    2     |    9.91 ( 6.85%)   |   -11354.04   |   23121.18    |    23121.18     |
+|              Node15               |   0.04   |    3     |   10.15 ( 6.77%)   |   -11354.04   |   23125.28    |    23121.18     |
+|       Sciurus_carolinensis        |   0.04   |    2     |    0.24 (47.57%)   |   -11354.01   |   23125.23    |    23121.18     |
+|        Grammomys_surdaster        |   0.03   |    2     |    0.50 ( 0.00%)   |   -11354.04   |   23125.28    |    23121.18     |
+|        Apodemus_sylvaticus        |   0.03   |    2     |    0.28 (22.72%)   |   -11354.04   |   23125.28    |    23121.18     |
+|        Cricetulus_griseus         |   0.03   |    2     |    0.23 (46.61%)   |   -11354.04   |   23125.28    |    23121.18     |
+|       Arvicanthis_niloticus       |   0.03   |    2     |    0.44 (10.07%)   |   -11354.04   |   23125.28    |    23121.18     |
+|              Node14               |   0.03   |    2     |    5.00 ( 3.37%)   |   -11353.81   |   23124.82    |    23121.18     |
+|              Node19               |   0.02   |    2     |    0.36 (81.37%)   |   -11354.04   |   23125.28    |    23121.18     |
+|        Arvicola_amphibius         |   0.02   |    2     |    7.18 ( 5.60%)   |   -11352.55   |   23122.31    |    23121.18     |
+|              Node42               |   0.02   |    2     |    9.88 (12.22%)   |   -11352.09   |   23121.39    |    23121.18     |
+|            Mus_pahari             |   0.01   |    2     |    0.40 ( 0.87%)   |   -11354.04   |   23125.28    |    23121.18     |
+|              Node36               |   0.01   |    2     |    0.25 ( 2.00%)   |   -11354.04   |   23125.28    |    23121.18     |
+|        Onychomys_torridus         |   0.01   |    2     |    0.53 (78.03%)   |   -11354.04   |   23125.28    |    23121.18     |
+|              Node18               |   0.01   |    2     |    0.26 (49.21%)   |   -11354.04   |   23125.28    |    23121.18     |
+|              Node44               |   0.01   |    2     |    0.67 (13.97%)   |   -11354.03   |   23125.26    |    23121.18     |
+|              Node61               |   0.01   |    2     |    8.94 ( 6.65%)   |   -11353.87   |   23124.95    |    23121.18     |
+|      Peromyscus_californicus      |   0.01   |    2     |    0.49 ( 9.80%)   |   -11354.05   |   23125.30    |    23121.18     |
+|         Microtus_oregoni          |   0.01   |    2     |    0.49 (10.17%)   |   -11354.04   |   23125.29    |    23121.18     |
+|    Ictidomys_tridecemlineatus     |   0.01   |    2     |    0.28 ( 4.14%)   |   -11354.04   |   23125.28    |    23121.18     |
+|              Node78               |   0.01   |    2     |    0.26 (14.37%)   |   -11358.55   |   23134.31    |    23121.18     |
+|              Node28               |   0.01   |    2     |   20.29 ( 2.51%)   |   -11353.51   |   23124.23    |    23121.18     |
+|              Node47               |   0.01   |    2     |    1.96 (25.38%)   |   -11354.04   |   23125.29    |    23121.18     |
+|              Node29               |   0.01   |    2     |    0.39 (50.59%)   |   -11354.04   |   23125.28    |    23121.18     |
+|              Node26               |   0.01   |    2     |  610.91 ( 2.86%)   |   -11351.33   |   23119.86    |    23119.86     |
+|              Node26               |   0.01   |    3     |  410.61 ( 2.83%)   |   -11351.32   |   23123.95    |    23119.86     |
+|       Microtus_ochrogaster        |   0.01   |    2     |    0.11 (15.73%)   |   -11351.33   |   23123.96    |    23119.86     |
+|              Node68               |   0.01   |    2     |    0.27 ( 2.00%)   |   -11353.34   |   23127.98    |    23119.86     |
+|       Meriones_unguiculatus       |   0.01   |    2     |    0.10 (26.61%)   |   -11351.32   |   23123.94    |    23119.86     |
+|         Chionomys_nivalis         |   0.01   |    2     |    0.40 (75.75%)   |   -11351.33   |   23123.96    |    23119.86     |
+|              Node58               |   0.01   |    2     |    1.88 (10.59%)   |   -11351.33   |   23123.96    |    23119.86     |
+|       Spermophilus_dauricus       |   0.01   |    2     |    0.40 (95.00%)   |   -11351.33   |   23123.96    |    23119.86     |
+|        Peromyscus_leucopus        |   0.01   |    2     |    0.18 (48.93%)   |   -11351.33   |   23123.96    |    23119.86     |
+|        Urocitellus_parryii        |   0.01   |    2     |    0.38 ( 7.43%)   |   -11351.33   |   23123.96    |    23119.86     |
+|              Node20               |   0.00   |    2     |    0.20 (50.00%)   |   -11351.33   |   23123.96    |    23119.86     |
+|       Marmota_flaviventris        |   0.00   |    2     |    0.19 (49.03%)   |   -11351.33   |   23123.96    |    23119.86     |
+|            Mus_spretus            |   0.00   |    2     |    0.18 (49.23%)   |   -11351.33   |   23123.96    |    23119.86     |
+|              Node45               |   0.00   |    2     |   89.46 ( 1.06%)   |   -11348.93   |   23119.17    |    23119.17     |
+|              Node45               |   0.00   |    3     |   90.59 ( 1.03%)   |   -11348.94   |   23123.29    |    23119.17     |
+|          Microtus_fortis          |   0.00   |    2     |    1.91 (23.56%)   |   -11348.93   |   23123.27    |    23119.17     |
+|              Node41               |   0.00   |    2     |    0.38 (73.35%)   |   -11348.89   |   23123.19    |    23119.17     |
+|           Mus_musculus            |   0.00   |    2     |    0.75 ( 5.00%)   |   -11348.93   |   23123.27    |    23119.17     |
+|            Mus_caroli             |   0.00   |    2     |    0.53 (24.00%)   |   -11348.93   |   23123.27    |    23119.17     |
+|         Psammomys_obesus          |   0.00   |    2     |    0.75 (20.00%)   |   -11348.93   |   23123.26    |    23119.17     |
+|      Peromyscus_maniculatus       |   0.00   |    2     |    0.19 (89.12%)   |   -11348.93   |   23123.27    |    23119.17     |
+|              Node37               |   0.00   |    2     |    9.20 (12.50%)   |   -11348.93   |   23123.26    |    23119.17     |
+|          Marmota_marmota          |   0.00   |    2     |    0.20 (98.00%)   |   -11348.93   |   23123.27    |    23119.17     |
+|          Mus_spicilegus           |   0.00   |    2     |   >1000 (69.57%)   |   -11348.93   |   23123.28    |    23119.17     |
+|              Node48               |   0.00   |    2     |    0.27 ( 9.84%)   |   -11354.71   |   23134.84    |    23119.17     |
+|               Node7               |   0.00   |    2     |   1.00 (100.00%)   |   -11349.55   |   23124.51    |    23119.17     |
+|           Marmota_monax           |   0.00   |    2     |    0.40 (98.00%)   |   -11348.93   |   23123.27    |    23119.17     |
+|               Node8               |   0.00   |    2     |    0.75 ( 5.00%)   |   -11348.93   |   23123.27    |    23119.17     |
+|              Node49               |   0.00   |    2     |    0.40 (98.00%)   |   -11348.93   |   23123.27    |    23119.17     |
+|              Node30               |   0.00   |    2     |    0.60 (76.30%)   |   -11348.93   |   23123.27    |    23119.17     |
+|          Cavia_porcellus          |   0.00   |    2     |    0.40 (90.00%)   |   -11348.93   |   23123.27    |    23119.17     |
+|              Node46               |   0.00   |    2     |    0.60 (50.00%)   |   -11348.93   |   23123.27    |    23119.17     |
+|           Cavia_aperea            |   0.00   |    2     |    0.26 ( 9.84%)   |   -11351.14   |   23127.69    |    23119.17     |
+|               Node4               |   0.00   |    2     |    0.00 ( 1.56%)   |   -11348.93   |   23123.27    |    23119.17     |
+|               Node2               |   0.00   |    2     |    0.00 ( 5.00%)   |   -11348.93   |   23123.27    |    23119.17     |
+|              Node21               |   0.00   |    2     |    0.00 ( 3.22%)   |   -11348.92   |   23123.25    |    23119.17     |
+
+### Rate class analyses summary
+*  15 branches with **2** rate classes
+*  67 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -11326.90, AIC-c = 23075.10 (208 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|              Node70               |     2    |    0.48 (59.27%)   |    Not selected    |    for testing     |
+|       Dipodomys_spectabilis       |     2    |    9.28 ( 7.50%)   |    Not selected    |    for testing     |
+|              Node73               |     2    |   >1000 ( 6.62%)   |    Not selected    |    for testing     |
+|          Jaculus_jaculus          |     2    |   11.69 ( 2.20%)   |    Not selected    |    for testing     |
+|              Node81               |     1    |   0.28 (100.00%)   |    Not selected    |    for testing     |
+|          Acomys_russatus          |     2    |    1.82 (30.87%)   |    Not selected    |    for testing     |
+|           Octodon_degus           |     1    |   0.36 (100.00%)   |    Not selected    |    for testing     |
+|         Castor_canadensis         |     2    |   >1000 ( 0.87%)   |    Not selected    |    for testing     |
+|     Perognathus_longimembris      |     2    |  314.73 ( 4.03%)   |    Not selected    |    for testing     |
+|        Nannospalax_galili         |     2    |    1.72 (12.83%)   |    Not selected    |    for testing     |
+|         Rattus_norvegicus         |     2    |    3.11 (20.88%)   |    Not selected    |    for testing     |
+|        Fukomys_damarensis         |     1    |   0.16 (100.00%)   |    Not selected    |    for testing     |
+|       Heterocephalus_glaber       |     1    |   0.34 (100.00%)   |    Not selected    |    for testing     |
+|              Node13               |     1    |   0.25 (100.00%)   |    Not selected    |    for testing     |
+|       Phodopus_roborovskii        |     1    |   0.30 (100.00%)   |    Not selected    |    for testing     |
+|              Node77               |     1    |   0.66 (100.00%)   |    Not selected    |    for testing     |
+|        Chinchilla_lanigera        |     1    |   0.40 (100.00%)   |    Not selected    |    for testing     |
+|              Node27               |     1    |   0.54 (100.00%)   |    Not selected    |    for testing     |
+|          Mastomys_coucha          |     2    |    2.58 (19.46%)   |    Not selected    |    for testing     |
+|              Node16               |     1    |   0.37 (100.00%)   |    Not selected    |    for testing     |
+|              Node17               |     1    |   0.12 (100.00%)   |    Not selected    |    for testing     |
+|              Node63               |     2    |    4.36 ( 8.02%)   |    Not selected    |    for testing     |
+|       Mesocricetus_auratus        |     1    |   0.50 (100.00%)   |    Not selected    |    for testing     |
+|               Node1               |     1    |   0.30 (100.00%)   |    Not selected    |    for testing     |
+|              Node74               |     2    |   38.78 ( 9.16%)   |    Not selected    |    for testing     |
+|              Node15               |     2    |    9.86 ( 6.89%)   |    Not selected    |    for testing     |
+|       Sciurus_carolinensis        |     1    |   0.20 (100.00%)   |    Not selected    |    for testing     |
+|        Grammomys_surdaster        |     1    |   0.38 (100.00%)   |    Not selected    |    for testing     |
+|        Apodemus_sylvaticus        |     1    |   0.24 (100.00%)   |    Not selected    |    for testing     |
+|        Cricetulus_griseus         |     1    |   0.22 (100.00%)   |    Not selected    |    for testing     |
+|       Arvicanthis_niloticus       |     1    |   0.39 (100.00%)   |    Not selected    |    for testing     |
+|              Node14               |     1    |   0.09 (100.00%)   |    Not selected    |    for testing     |
+|              Node19               |     1    |   0.33 (100.00%)   |    Not selected    |    for testing     |
+|        Arvicola_amphibius         |     1    |   0.25 (100.00%)   |    Not selected    |    for testing     |
+|              Node42               |     1    |   0.89 (100.00%)   |    Not selected    |    for testing     |
+|            Mus_pahari             |     1    |   0.28 (100.00%)   |    Not selected    |    for testing     |
+|              Node36               |     1    |   0.19 (100.00%)   |    Not selected    |    for testing     |
+|        Onychomys_torridus         |     1    |   0.48 (100.00%)   |    Not selected    |    for testing     |
+|              Node18               |     1    |   0.21 (100.00%)   |    Not selected    |    for testing     |
+|              Node44               |     1    |   0.59 (100.00%)   |    Not selected    |    for testing     |
+|              Node61               |     1    |   0.58 (100.00%)   |    Not selected    |    for testing     |
+|      Peromyscus_californicus      |     1    |   0.05 (100.00%)   |    Not selected    |    for testing     |
+|         Microtus_oregoni          |     1    |   0.05 (100.00%)   |    Not selected    |    for testing     |
+|    Ictidomys_tridecemlineatus     |     1    |   0.19 (100.00%)   |    Not selected    |    for testing     |
+|              Node78               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node28               |     1    |   0.24 (100.00%)   |    Not selected    |    for testing     |
+|              Node47               |     1    |   1.04 (100.00%)   |    Not selected    |    for testing     |
+|              Node29               |     1    |   0.29 (100.00%)   |    Not selected    |    for testing     |
+|              Node26               |     2    |   >1000 ( 3.00%)   |    Not selected    |    for testing     |
+|       Microtus_ochrogaster        |     1    |   0.07 (100.00%)   |    Not selected    |    for testing     |
+|              Node68               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|       Meriones_unguiculatus       |     1    |   0.08 (100.00%)   |    Not selected    |    for testing     |
+|         Chionomys_nivalis         |     1    |   0.35 (100.00%)   |    Not selected    |    for testing     |
+|              Node58               |     1    |   0.87 (100.00%)   |    Not selected    |    for testing     |
+|       Spermophilus_dauricus       |     1    |   0.37 (100.00%)   |    Not selected    |    for testing     |
+|        Peromyscus_leucopus        |     1    |   0.08 (100.00%)   |    Not selected    |    for testing     |
+|        Urocitellus_parryii        |     1    |   0.24 (100.00%)   |    Not selected    |    for testing     |
+|              Node20               |     1    |   0.10 (100.00%)   |    Not selected    |    for testing     |
+|       Marmota_flaviventris        |     1    |   0.09 (100.00%)   |    Not selected    |    for testing     |
+|            Mus_spretus            |     1    |   0.10 (100.00%)   |    Not selected    |    for testing     |
+|              Node45               |     2    |   91.04 ( 1.03%)   |    Not selected    |    for testing     |
+|          Microtus_fortis          |     1    |   1.04 (100.00%)   |    Not selected    |    for testing     |
+|              Node41               |     1    |   0.29 (100.00%)   |    Not selected    |    for testing     |
+|           Mus_musculus            |     1    |   0.40 (100.00%)   |    Not selected    |    for testing     |
+|            Mus_caroli             |     1    |   0.41 (100.00%)   |    Not selected    |    for testing     |
+|         Psammomys_obesus          |     1    |   0.59 (100.00%)   |    Not selected    |    for testing     |
+|      Peromyscus_maniculatus       |     1    |   0.15 (100.00%)   |    Not selected    |    for testing     |
+|              Node37               |     1    |   1.88 (100.00%)   |    Not selected    |    for testing     |
+|          Marmota_marmota          |     1    |   0.18 (100.00%)   |    Not selected    |    for testing     |
+|          Mus_spicilegus           |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node48               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|               Node7               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|           Marmota_monax           |     1    |   0.37 (100.00%)   |        0.00        |       1.00000      |
+|               Node8               |     1    |   0.39 (100.00%)   |    Not selected    |    for testing     |
+|              Node49               |     1    |   0.38 (100.00%)   |    Not selected    |    for testing     |
+|              Node30               |     1    |   0.53 (100.00%)   |    Not selected    |    for testing     |
+|          Cavia_porcellus          |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node46               |     1    |   0.52 (100.00%)   |    Not selected    |    for testing     |
+|           Cavia_aperea            |     1    |   0.41 (100.00%)   |    Not selected    |    for testing     |
+|               Node4               |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|               Node2               |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|              Node21               |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

@@ -1,0 +1,85 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Birds1/gBGC/`) 
+
+A tree was found in the data file:
+(Struthio_camelus:65.07832,(((Nothoprocta_perdicaria:42.1323,Tinamus_guttatus:42.1323):20.2215,((Apteryx_mantelli:3.8,Apteryx_rowi:3.8):57.49895,(Casuarius_casuarius:32.5,Dromaius_novaehollandiae:32.5):28.79895):1.05485):2.72452,Rhea_americana:65.07832):0,(Anseranas_semipalmata:66,(((Anas_platyrhynchos:10.52724,(Aythya_fuligula:9.14705,Asarcornis_scutulata:9.14705):1.38019):23.8111,(((Branta_canadensis:14.905,((Anser_cygnoides:0.68438,Anser_brachyrhynchus:0.68438):3.55516,Anser_indicus:4.23954):10.66546):5.925,(Cygnus_olor:0,Cygnus_atratus:0):20.83):13.21907,Oxyura_jamaicensis:34.04907):0.28927):1.13981,Cairina_moschata:35.47815):30.52185):84.08532)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1035
+Synonymous  sites      :236.8284646284877
+Nonsynonymous  sites   :759.7827904636163
+
+Total tree lengths:
+	E[syn]        : 0.2464724971227592
+	E[non-syn]    : 0.2144630549792505
+	dS            : 1.077146849396795
+	dN            : 0.2921483148730963
+
+
+E[Syn subs/nucleotide site] tree: 
+	(Struthio_camelus:0.01359669725982695,(((Nothoprocta_perdicaria:0.02014831135379261,Tinamus_guttatus:0.01689722035537999)Node4:0.01205189502569669,((Apteryx_mantelli:0,Apteryx_rowi:0)Node8:0.008553963737762118,(Casuarius_casuarius:0.003967783931745411,Dromaius_novaehollandiae:0.002315071379526269)Node11:0.004866306035346871)Node7:0)Node3:0,Rhea_americana:0.01853593332434493)Node2:0.001370396718003844,(Anseranas_semipalmata:0.01244204987565329,(((Anas_platyrhynchos:0.002959040307916108,(Aythya_fuligula:0.004972635540413156,Asarcornis_scutulata:0.004960563714733238)Node21:0)Node19:0,(((Branta_canadensis:0.004049449356617421,((Anser_cygnoides:0,Anser_brachyrhynchus:0.001002248365443263)Node29:0,Anser_indicus:2.580948311519348e-20)Node28:0.002028249648981306)Node26:0.001197317155936461,(Cygnus_olor:0.001008036650717105,Cygnus_atratus:0.001005942651110602)Node33:0.003885891560628881)Node25:0.005085359568842928,Oxyura_jamaicensis:0.008557938332831)Node24:0.0134691635527739)Node18:0.0003536177936344679,Cairina_moschata:0.01069257196198106)Node17:0.03141610978084544)Node15:0.03508273218227387)
+
+E[Non-syn subs/nucleotide site] tree: 
+	(Struthio_camelus:0.01726541393675578,(((Nothoprocta_perdicaria:0.01076586038224756,Tinamus_guttatus:0.01029912188357501)Node4:0.02234394165106404,((Apteryx_mantelli:0,Apteryx_rowi:0)Node8:0.01610526130659695,(Casuarius_casuarius:0.003579037996404937,Dromaius_novaehollandiae:0.004338122120579597)Node11:0.01084657343296497)Node7:0)Node3:0.001053354888822221,Rhea_americana:0.01622432319167048)Node2:0.008061492554069941,(Anseranas_semipalmata:0.009534178348672427,(((Anas_platyrhynchos:0.005889428752961764,(Aythya_fuligula:0.000982700735223066,Asarcornis_scutulata:0.0009816189515453014)Node21:0.001041501445871623)Node19:0.001087869218343582,(((Branta_canadensis:0.0009805393895343699,((Anser_cygnoides:0,Anser_brachyrhynchus:0)Node29:0,Anser_indicus:0)Node28:0)Node26:0.0009822114370199306,(Cygnus_olor:0,Cygnus_atratus:0.0009814063300159521)Node33:0.000980710474784376)Node25:0.00395870281120126,Oxyura_jamaicensis:0.002947267065770493)Node24:0.009934993526412984)Node18:0,Cairina_moschata:0.002006704424505498)Node17:0.01750986700208635)Node15:0.03378085172055009)
+
+dS tree: 
+	(Struthio_camelus:0.05942098930547274,(((Nothoprocta_perdicaria:0.08805319193319178,Tinamus_guttatus:0.07384510597259775)Node4:0.05266981471658638,((Apteryx_mantelli:0,Apteryx_rowi:0)Node8:0.03738297456123792,(Casuarius_casuarius:0.01734021447041259,Dromaius_novaehollandiae:0.01011744463051958)Node11:0.02126698222059142)Node7:0)Node3:0,Rhea_americana:0.08100669410998371)Node2:0.005988978585656744,(Anseranas_semipalmata:0.05437488961262361,(((Anas_platyrhynchos:0.01293175093415175,(Aythya_fuligula:0.0217316689207997,Asarcornis_scutulata:0.02167891200410763)Node21:0)Node19:0,(((Branta_canadensis:0.01769711293223864,((Anser_cygnoides:0,Anser_brachyrhynchus:0.004380077622261451)Node29:0,Anser_indicus:1.127939374438355e-19)Node28:0.008863961475191431)Node26:0.005232577335406889,(Cygnus_olor:0.004405373885815854,Cygnus_atratus:0.004396222580477071)Node33:0.01698232419637578)Node25:0.02222430129760386,Oxyura_jamaicensis:0.03740034454209198)Node24:0.05886363490549814)Node18:0.001545398763555761,Cairina_moschata:0.04672923078740085)Node17:0.1372963071570907)Node15:0.1533203699378529)
+
+dN tree: 
+	(Struthio_camelus:0.02351948958153977,(((Nothoprocta_perdicaria:0.01466559342417721,Tinamus_guttatus:0.01402978756993917)Node4:0.03043761967119564,((Apteryx_mantelli:0,Apteryx_rowi:0)Node8:0.02193909320077719,(Casuarius_casuarius:0.00487547806132692,Dromaius_novaehollandiae:0.005909526316146396)Node11:0.01477554327897919)Node7:0)Node3:0.001434913140459195,Rhea_americana:0.02210128304318716)Node2:0.01098161856018235,(Anseranas_semipalmata:0.0129877574416428,(((Anas_platyrhynchos:0.008022764974178925,(Aythya_fuligula:0.001338665831500666,Asarcornis_scutulata:0.001337192191770286)Node21:0.001418766007873602)Node19:0.001481929645048371,(((Branta_canadensis:0.001335721578464301,((Anser_cygnoides:0,Anser_brachyrhynchus:0)Node29:0,Anser_indicus:0)Node28:0)Node26:0.001337999294107872,(Cygnus_olor:0,Cygnus_atratus:0.001336902552039512)Node33:0.001335954636169712)Node25:0.005392669406335427,Oxyura_jamaicensis:0.004014859840680395)Node24:0.01353376047588939)Node18:0,Cairina_moschata:0.002733595845328177)Node17:0.02385249123121224)Node15:0.04601733807294444)
+
+Estimating pairwise dN/dS: total of 190 analyses

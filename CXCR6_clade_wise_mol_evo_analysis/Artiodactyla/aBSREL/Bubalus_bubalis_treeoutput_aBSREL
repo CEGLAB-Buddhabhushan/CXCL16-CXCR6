@@ -1,0 +1,215 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+
+-------
+>[WARNING] This dataset contains 1 duplicate sequence. Identical
+sequences do not contribute any information to the analysis and only
+slow down computation. Please consider removing duplicate or 'nearly'
+duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Artiodactyla/aBSREL/Bubalus_bubalis_treeLabled.txt
+Bubalus_bubalis_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **37** sequences, **370** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Artiodactyla/aBSREL/Artiodactyla.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Bubalus_bubalis`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 4 zero-length internal branches: `Node27, Node4, Node41, Node44`
+* Log(L) = -5129.93, AIC-c = 10418.18 (79 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.632
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -4900.19, AIC-c = 10099.63 (148 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.36, and 95% of the weight in  0.04 - 10000000000.00
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|               Node7               |   0.08   |    2     |    1.54 (22.89%)   |   -4897.09    |   10097.53    |    10097.53     |
+|               Node7               |   0.08   |    3     |    1.75 (15.26%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node34               |   0.05   |    2     |    1.98 (11.47%)   |   -4896.25    |   10099.93    |    10097.53     |
+|      Hippopotamus_amphibius       |   0.04   |    2     |    0.44 (45.82%)   |   -4897.09    |   10101.62    |    10097.53     |
+|         Catagonus_wagneri         |   0.04   |    2     |    0.27 ( 3.99%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node67               |   0.04   |    2     |    1.64 (10.49%)   |   -4896.50    |   10100.43    |    10097.53     |
+|              Node68               |   0.04   |    2     |    2.00 (25.16%)   |   -4896.89    |   10101.21    |    10097.53     |
+|        Moschus_berezovskii        |   0.04   |    2     |    0.69 (53.80%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node57               |   0.04   |    2     |    1.26 (32.23%)   |   -4896.61    |   10100.65    |    10097.53     |
+|      Giraffa_camelopardalis       |   0.02   |    2     |    0.42 (75.85%)   |   -4897.09    |   10101.62    |    10097.53     |
+|            Oryx_dammah            |   0.02   |    2     |    7.99 ( 5.62%)   |   -4896.23    |   10099.89    |    10097.53     |
+|         Physeter_catodon          |   0.01   |    2     |    0.48 (49.56%)   |   -4897.09    |   10101.62    |    10097.53     |
+|               Node8               |   0.01   |    2     |    7.38 ( 1.36%)   |   -4896.95    |   10101.34    |    10097.53     |
+|              Node10               |   0.01   |    2     |    0.12 (85.83%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node50               |   0.01   |    2     |   0.39 (100.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node47               |   0.01   |    2     |    0.25 (45.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|        Lipotes_vexillifer         |   0.01   |    2     |    1.56 ( 0.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|           Vicugna_pacos           |   0.01   |    2     |    0.10 (49.61%)   |   -4897.08    |   10101.60    |    10097.53     |
+|              Node40               |   0.01   |    2     |    0.06 ( 6.21%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node38               |   0.01   |    2     |    0.40 (98.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node63               |   0.01   |    2     |    0.26 (49.08%)   |   -4897.09    |   10101.62    |    10097.53     |
+|      Odocoileus_virginianus       |   0.01   |    2     |    0.48 (47.74%)   |   -4897.09    |   10101.62    |    10097.53     |
+|           Axis_porcinus           |   0.01   |    2     |    0.25 (22.74%)   |   -4897.09    |   10101.62    |    10097.53     |
+|           Capra_hircus            |   0.01   |    2     |    0.19 (89.34%)   |   -4897.09    |   10101.62    |    10097.53     |
+|               Node9               |   0.01   |    2     |   43.01 ( 2.65%)   |   -4896.74    |   10100.92    |    10097.53     |
+|              Node23               |   0.01   |    2     |    0.74 (51.18%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node39               |   0.01   |    2     |    0.71 (22.68%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node16               |   0.01   |    2     |    0.39 (76.63%)   |   -4897.09    |   10101.62    |    10097.53     |
+|      Phacochoerus_africanus       |   0.01   |    2     |    0.20 (89.66%)   |   -4897.09    |   10101.62    |    10097.53     |
+|        Budorcas_taxicolor         |   0.01   |    2     |    0.74 ( 8.49%)   |   -4897.09    |   10101.62    |    10097.53     |
+|            Ovis_aries             |   0.00   |    2     |    0.25 (25.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node13               |   0.00   |    2     |    1.65 (50.83%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node59               |   0.00   |    2     |    0.60 (75.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node20               |   0.00   |    2     |    0.59 (76.52%)   |   -4897.09    |   10101.62    |    10097.53     |
+|         Rangifer_tarandus         |   0.00   |    2     |    0.17 (50.90%)   |   -4897.09    |   10101.62    |    10097.53     |
+|               Node2               |   0.00   |    2     |    0.73 (47.29%)   |   -4897.08    |   10101.60    |    10097.53     |
+|    Balaenoptera_acutorostrata     |   0.00   |    2     |    0.21 (50.90%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node58               |   0.00   |    2     |    1.94 (25.51%)   |   -4897.09    |   10101.62    |    10097.53     |
+|        Globicephala_melas         |   0.00   |    2     |   1.00 (100.00%)   |   -4898.27    |   10103.98    |    10097.53     |
+|              Node36               |   0.00   |    2     |    0.27 (49.09%)   |   -4897.09    |   10101.62    |    10097.53     |
+|           Orcinus_orca            |   0.00   |    2     |    1.24 (39.17%)   |   -4897.09    |   10101.62    |    10097.53     |
+|       Delphinapterus_leucas       |   0.00   |    2     |    1.11 (33.45%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node30               |   0.00   |    2     |    1.99 (50.90%)   |   -4897.09    |   10101.62    |    10097.53     |
+|       Balaenoptera_musculus       |   0.00   |    2     |    2.09 (50.34%)   |   -4897.09    |   10101.62    |    10097.53     |
+|             Bos_mutus             |   0.00   |    2     |  >1000 (100.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|            Bison_bison            |   0.00   |    2     |    0.19 (88.66%)   |   -4897.09    |   10101.62    |    10097.53     |
+|            Bos_indicus            |   0.00   |    2     |    0.75 (45.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|            Bos_taurus             |   0.00   |    2     |    9.46 ( 1.99%)   |   -4897.08    |   10101.60    |    10097.53     |
+|              Node53               |   0.00   |    2     |    0.19 (88.62%)   |   -4897.09    |   10101.62    |    10097.53     |
+|            Sus_scrofa             |   0.00   |    2     |    0.00 ( 5.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node52               |   0.00   |    2     |    0.25 (25.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node11               |   0.00   |    2     |    0.00 ( 0.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|        Camelus_bactrianus         |   0.00   |    2     |  378.83 ( 0.38%)   |   -4896.80    |   10101.03    |    10097.53     |
+|          Bubalus_bubalis          |   0.00   |    2     |    0.00 ( 5.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node15               |   0.00   |    2     |    0.27 ( 8.27%)   |   -4901.90    |   10111.24    |    10097.53     |
+|        Camelus_dromedarius        |   0.00   |    2     |    0.00 ( 0.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|        Tursiops_truncatus         |   0.00   |    2     |    0.48 (49.34%)   |   -4897.09    |   10101.62    |    10097.53     |
+|    Lagenorhynchus_obliquidens     |   0.00   |    2     |  259.57 ( 0.38%)   |   -4896.93    |   10101.30    |    10097.53     |
+|              Node25               |   0.00   |    2     |    0.71 (24.57%)   |   -4897.09    |   10101.62    |    10097.53     |
+|         Monodon_monoceros         |   0.00   |    2     |  >1000 (100.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|       Bubalus_carabanensis        |   0.00   |    2     |   1.00 (100.00%)   |   -4897.35    |   10102.14    |    10097.53     |
+|              Node17               |   0.00   |    2     |    0.00 ( 5.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|          Cervus_elaphus           |   0.00   |    2     |    0.00 ( 5.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|         Cervus_canadensis         |   0.00   |    2     |    0.00 ( 5.00%)   |   -4897.09    |   10101.62    |    10097.53     |
+|          Phocoena_sinus           |   0.00   |    2     |    0.27 (10.50%)   |   -4897.09    |   10101.62    |    10097.53     |
+|              Node35               |   0.00   |    2     |    0.27 (15.27%)   |   -4897.09    |   10101.62    |    10097.53     |
+|    Neophocaena_asiaeorientalis    |   0.00   |    2     |    0.27 (10.50%)   |   -4897.09    |   10101.62    |    10097.53     |
+|           Camelus_ferus           |   0.00   |    2     |    0.27 (10.50%)   |   -4897.09    |   10101.62    |    10097.53     |
+
+### Rate class analyses summary
+*  1 branches with **2** rate classes
+*  66 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -4886.21, AIC-c = 10075.76 (150 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|               Node7               |     2    |    1.48 (22.04%)   |    Not selected    |    for testing     |
+|              Node34               |     1    |   0.15 (100.00%)   |    Not selected    |    for testing     |
+|      Hippopotamus_amphibius       |     1    |   0.39 (100.00%)   |    Not selected    |    for testing     |
+|         Catagonus_wagneri         |     1    |   0.24 (100.00%)   |    Not selected    |    for testing     |
+|              Node67               |     1    |   0.13 (100.00%)   |    Not selected    |    for testing     |
+|              Node68               |     1    |   0.56 (100.00%)   |    Not selected    |    for testing     |
+|        Moschus_berezovskii        |     1    |   0.62 (100.00%)   |    Not selected    |    for testing     |
+|              Node57               |     1    |   0.35 (100.00%)   |    Not selected    |    for testing     |
+|      Giraffa_camelopardalis       |     1    |   0.39 (100.00%)   |    Not selected    |    for testing     |
+|            Oryx_dammah            |     1    |   0.32 (100.00%)   |    Not selected    |    for testing     |
+|         Physeter_catodon          |     1    |   0.42 (100.00%)   |    Not selected    |    for testing     |
+|               Node8               |     1    |   0.06 (100.00%)   |    Not selected    |    for testing     |
+|              Node10               |     1    |   0.11 (100.00%)   |    Not selected    |    for testing     |
+|              Node50               |     1    |   0.35 (100.00%)   |    Not selected    |    for testing     |
+|              Node47               |     1    |   0.20 (100.00%)   |    Not selected    |    for testing     |
+|        Lipotes_vexillifer         |     1    |   0.77 (100.00%)   |    Not selected    |    for testing     |
+|           Vicugna_pacos           |     1    |   0.09 (100.00%)   |    Not selected    |    for testing     |
+|              Node40               |     1    |   0.03 (100.00%)   |    Not selected    |    for testing     |
+|              Node38               |     1    |   0.36 (100.00%)   |    Not selected    |    for testing     |
+|              Node63               |     1    |   0.20 (100.00%)   |    Not selected    |    for testing     |
+|      Odocoileus_virginianus       |     1    |   0.40 (100.00%)   |    Not selected    |    for testing     |
+|           Axis_porcinus           |     1    |   0.05 (100.00%)   |    Not selected    |    for testing     |
+|           Capra_hircus            |     1    |   0.16 (100.00%)   |    Not selected    |    for testing     |
+|               Node9               |     1    |   0.64 (100.00%)   |    Not selected    |    for testing     |
+|              Node23               |     1    |   0.62 (100.00%)   |    Not selected    |    for testing     |
+|              Node39               |     1    |   0.43 (100.00%)   |    Not selected    |    for testing     |
+|              Node16               |     1    |   0.33 (100.00%)   |    Not selected    |    for testing     |
+|      Phacochoerus_africanus       |     1    |   0.16 (100.00%)   |    Not selected    |    for testing     |
+|        Budorcas_taxicolor         |     1    |   0.22 (100.00%)   |    Not selected    |    for testing     |
+|            Ovis_aries             |     1    |   0.06 (100.00%)   |    Not selected    |    for testing     |
+|              Node13               |     1    |   1.21 (100.00%)   |    Not selected    |    for testing     |
+|              Node59               |     1    |   0.45 (100.00%)   |    Not selected    |    for testing     |
+|              Node20               |     1    |   0.47 (100.00%)   |    Not selected    |    for testing     |
+|         Rangifer_tarandus         |     1    |   0.08 (100.00%)   |    Not selected    |    for testing     |
+|               Node2               |     1    |   0.67 (100.00%)   |    Not selected    |    for testing     |
+|    Balaenoptera_acutorostrata     |     1    |   0.10 (100.00%)   |    Not selected    |    for testing     |
+|              Node58               |     1    |   1.07 (100.00%)   |    Not selected    |    for testing     |
+|        Globicephala_melas         |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node36               |     1    |   0.12 (100.00%)   |    Not selected    |    for testing     |
+|           Orcinus_orca            |     1    |   0.97 (100.00%)   |    Not selected    |    for testing     |
+|       Delphinapterus_leucas       |     1    |   0.95 (100.00%)   |    Not selected    |    for testing     |
+|              Node30               |     1    |   1.59 (100.00%)   |    Not selected    |    for testing     |
+|       Balaenoptera_musculus       |     1    |   1.35 (100.00%)   |    Not selected    |    for testing     |
+|             Bos_mutus             |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|            Bison_bison            |     1    |   0.15 (100.00%)   |    Not selected    |    for testing     |
+|            Bos_indicus            |     1    |   0.60 (100.00%)   |    Not selected    |    for testing     |
+|            Bos_taurus             |     1    |   0.15 (100.00%)   |    Not selected    |    for testing     |
+|              Node53               |     1    |   0.15 (100.00%)   |    Not selected    |    for testing     |
+|            Sus_scrofa             |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|              Node52               |     1    |   0.19 (100.00%)   |    Not selected    |    for testing     |
+|              Node11               |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|        Camelus_bactrianus         |     1    |   0.31 (100.00%)   |    Not selected    |    for testing     |
+|          Bubalus_bubalis          |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|              Node15               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|        Camelus_dromedarius        |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|        Tursiops_truncatus         |     1    |   0.32 (100.00%)   |    Not selected    |    for testing     |
+|    Lagenorhynchus_obliquidens     |     1    |   0.32 (100.00%)   |    Not selected    |    for testing     |
+|              Node25               |     1    |   0.31 (100.00%)   |    Not selected    |    for testing     |
+|         Monodon_monoceros         |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|       Bubalus_carabanensis        |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|              Node17               |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|          Cervus_elaphus           |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|         Cervus_canadensis         |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|          Phocoena_sinus           |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|              Node35               |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|    Neophocaena_asiaeorientalis    |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+|           Camelus_ferus           |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

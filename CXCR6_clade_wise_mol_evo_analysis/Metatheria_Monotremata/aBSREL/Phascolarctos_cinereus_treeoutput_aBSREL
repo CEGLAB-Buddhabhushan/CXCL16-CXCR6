@@ -1,0 +1,106 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Metatheria_Monotremata/aBSREL/Phascolarctos_cinereus_treeLabled.txt
+Phascolarctos_cinereus_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **10** sequences, **377** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Metatheria_Monotremata/aBSREL/Metatheria_Monotremata.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Phascolarctos_cinereus`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -5141.27, AIC-c = 10332.65 (25 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.888
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -4899.10, AIC-c =  9895.46 (48 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.28, and 95% of the weight in  0.15 -  4.10
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|              Node15               |   0.37   |    2     |    4.36 (15.98%)   |   -4877.65    |    9856.67    |     9856.67     |
+|              Node15               |   0.37   |    3     |  174.68 ( 7.37%)   |   -4876.64    |    9858.77    |     9856.67     |
+|              Node12               |   0.08   |    2     |    0.45 (54.88%)   |   -4877.61    |    9860.70    |     9856.67     |
+|               Node3               |   0.07   |    2     |   11.26 ( 1.64%)   |   -4876.08    |    9857.64    |     9856.67     |
+|       Dromiciops_gliroides        |   0.06   |    2     |    1.21 (25.01%)   |   -4876.70    |    9858.89    |     9856.67     |
+|     Ornithorhynchus_anatinus      |   0.05   |    2     |    0.29 (71.02%)   |   -4877.65    |    9860.78    |     9856.67     |
+|        Gracilinanus_agilis        |   0.04   |    2     |    3.95 ( 6.31%)   |   -4873.48    |    9852.45    |     9852.45     |
+|        Gracilinanus_agilis        |   0.04   |    3     |    3.89 ( 6.32%)   |   -4873.48    |    9856.57    |     9852.45     |
+|       Trichosurus_vulpecula       |   0.04   |    2     |    0.23 (48.20%)   |   -4873.48    |    9856.56    |     9852.45     |
+|      Thylacinus_cynocephalus      |   0.04   |    2     |    1.53 (31.10%)   |   -4873.17    |    9855.93    |     9852.45     |
+|        Antechinus_flavipes        |   0.04   |    2     |   31.50 ( 0.73%)   |   -4872.84    |    9855.27    |     9852.45     |
+|       Monodelphis_domestica       |   0.03   |    2     |    0.27 ( 5.97%)   |   -4873.48    |    9856.57    |     9852.45     |
+|         Vombatus_ursinus          |   0.03   |    2     |    0.62 (89.91%)   |   -4873.48    |    9856.57    |     9852.45     |
+|      Tachyglossus_aculeatus       |   0.03   |    2     |    2.35 ( 7.03%)   |   -4872.32    |    9854.24    |     9852.45     |
+|      Phascolarctos_cinereus       |   0.02   |    2     |    4.30 ( 5.14%)   |   -4872.69    |    9854.97    |     9852.45     |
+|               Node2               |   0.02   |    2     |    4.81 ( 7.87%)   |   -4872.73    |    9855.05    |     9852.45     |
+|               Node8               |   0.02   |    2     |    0.16 (78.01%)   |   -4873.48    |    9856.56    |     9852.45     |
+|               Node6               |   0.02   |    2     |  119.25 ( 4.52%)   |   -4866.17    |    9841.93    |     9841.93     |
+|               Node6               |   0.02   |    3     |  164.76 ( 3.16%)   |   -4866.12    |    9845.96    |     9841.93     |
+|               Node1               |   0.01   |    2     |   20.03 ( 8.68%)   |   -4866.13    |    9845.97    |     9841.93     |
+
+### Rate class analyses summary
+*  3 branches with **2** rate classes
+*  14 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -4856.25, AIC-c =  9822.10 (54 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|              Node15               |     2    |    3.75 (17.53%)   |    Not selected    |    for testing     |
+|              Node12               |     1    |   0.24 (100.00%)   |    Not selected    |    for testing     |
+|               Node3               |     1    |   0.34 (100.00%)   |    Not selected    |    for testing     |
+|       Dromiciops_gliroides        |     1    |   0.24 (100.00%)   |    Not selected    |    for testing     |
+|     Ornithorhynchus_anatinus      |     1    |   0.29 (100.00%)   |    Not selected    |    for testing     |
+|        Gracilinanus_agilis        |     2    |    4.24 ( 5.82%)   |    Not selected    |    for testing     |
+|       Trichosurus_vulpecula       |     1    |   0.21 (100.00%)   |    Not selected    |    for testing     |
+|      Thylacinus_cynocephalus      |     1    |   0.41 (100.00%)   |    Not selected    |    for testing     |
+|        Antechinus_flavipes        |     1    |   0.76 (100.00%)   |    Not selected    |    for testing     |
+|       Monodelphis_domestica       |     1    |   0.23 (100.00%)   |    Not selected    |    for testing     |
+|         Vombatus_ursinus          |     1    |   0.59 (100.00%)   |    Not selected    |    for testing     |
+|      Tachyglossus_aculeatus       |     1    |   0.12 (100.00%)   |    Not selected    |    for testing     |
+|      Phascolarctos_cinereus       |     1    |   0.13 (100.00%)   |        0.00        |       1.00000      |
+|               Node2               |     1    |   0.33 (100.00%)   |    Not selected    |    for testing     |
+|               Node8               |     1    |   0.15 (100.00%)   |    Not selected    |    for testing     |
+|               Node6               |     2    |  156.51 ( 3.27%)   |    Not selected    |    for testing     |
+|               Node1               |     1    |   0.41 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

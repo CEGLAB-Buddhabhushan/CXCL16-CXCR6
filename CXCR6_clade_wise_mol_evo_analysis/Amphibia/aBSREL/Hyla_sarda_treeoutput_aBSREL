@@ -1,0 +1,108 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Amphibia/aBSREL/Hyla_sarda_treeLabled.txt
+Hyla_sarda_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **8** sequences, **424** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Amphibia/aBSREL/Amphibia.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Hyla_sarda`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -7999.74, AIC-c = 16041.57 (21 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site) 280.375
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -7662.24, AIC-c = 15405.45 (40 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.28, and 95% of the weight in  0.04 - 428.02
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|          Spea_bombifrons          |2901.23...|    2     |    0.87 (42.53%)   |   -7178.52    |   14442.11    |    14442.11     |
+|          Spea_bombifrons          |2901.23...|    3     |    0.89 ( 2.33%)   |   -7178.52    |   14446.21    |    14442.11     |
+|               Node3               |   0.40   |    2     |    1.00 (41.33%)   |   -7161.69    |   14412.57    |    14412.57     |
+|               Node3               |   0.40   |    3     |    1.00 (41.33%)   |   -7161.69    |   14416.68    |    14412.57     |
+|               Node7               |   0.39   |    2     |    0.81 (28.79%)   |   -7141.43    |   14376.15    |    14376.15     |
+|               Node7               |   0.39   |    3     |   78.97 ( 3.00%)   |   -7141.29    |   14379.98    |    14376.15     |
+|              Node10               |   0.31   |    2     |    1.33 (19.46%)   |   -7128.23    |   14353.87    |    14353.87     |
+|              Node10               |   0.31   |    3     |    4.73 ( 7.74%)   |   -7127.85    |   14357.23    |    14353.87     |
+|          Bombina_bombina          |   0.27   |    2     |    3.35 (13.63%)   |   -7121.08    |   14343.68    |    14343.68     |
+|          Bombina_bombina          |   0.27   |    3     |  199.39 ( 4.23%)   |   -7120.38    |   14346.41    |    14343.68     |
+|         Bufo_gargarizans          |   0.20   |    2     |    8.92 (10.24%)   |   -7104.34    |   14314.33    |    14314.33     |
+|         Bufo_gargarizans          |   0.20   |    3     |   18.48 ( 7.46%)   |   -7104.22    |   14318.23    |    14314.33     |
+|       Rhinatrema_bivittatum       |   0.14   |    2     |    2.00 (14.91%)   |   -7097.48    |   14304.74    |    14304.74     |
+|       Rhinatrema_bivittatum       |   0.14   |    3     |    2.00 (14.91%)   |   -7097.48    |   14308.87    |    14304.74     |
+|        Xenopus_tropicalis         |   0.11   |    2     |   42.10 ( 5.45%)   |   -7087.94    |   14289.80    |    14289.80     |
+|        Xenopus_tropicalis         |   0.11   |    3     |   42.40 ( 5.40%)   |   -7087.94    |   14293.93    |    14289.80     |
+|          Xenopus_laevis           |   0.10   |    2     |    1.00 (39.83%)   |   -7086.85    |   14291.75    |    14289.80     |
+|            Hyla_sarda             |   0.10   |    2     |  766.32 ( 4.06%)   |   -7077.43    |   14272.91    |    14272.91     |
+|            Hyla_sarda             |   0.10   |    3     |  279.20 ( 4.04%)   |   -7077.43    |   14277.06    |    14272.91     |
+|       Geotrypetes_seraphini       |   0.09   |    2     |    1.87 (42.46%)   |   -7076.28    |   14274.77    |    14272.91     |
+|               Node5               |   0.06   |    2     |    0.26 ( 2.00%)   |   -7071.10    |   14264.39    |    14264.39     |
+|               Node5               |   0.06   |    3     |  290.18 (100.00%)  |   -7067.79    |   14261.93    |    14261.93     |
+|               Node5               |   0.06   |    4     |   56.42 (50.28%)   |   -7067.83    |   14266.16    |    14261.93     |
+|               Node4               |   0.05   |    2     |  456.01 ( 0.89%)   |   -7067.24    |   14264.97    |    14261.93     |
+
+### Rate class analyses summary
+*  9 branches with **2** rate classes
+*  3 branches with **1** rate classes
+*  1 branches with **3** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -7057.94, AIC-c = 14242.23 (62 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|          Spea_bombifrons          |     2    |    0.69 (44.57%)   |    Not selected    |    for testing     |
+|               Node3               |     2    |    0.95 (40.55%)   |    Not selected    |    for testing     |
+|               Node7               |     2    |    0.73 (24.20%)   |    Not selected    |    for testing     |
+|              Node10               |     2    |    1.99 (12.71%)   |    Not selected    |    for testing     |
+|          Bombina_bombina          |     2    |    1.81 (26.73%)   |    Not selected    |    for testing     |
+|         Bufo_gargarizans          |     2    |    3.89 (10.79%)   |    Not selected    |    for testing     |
+|       Rhinatrema_bivittatum       |     2    |    1.65 (16.12%)   |    Not selected    |    for testing     |
+|        Xenopus_tropicalis         |     2    |   13.16 ( 9.07%)   |    Not selected    |    for testing     |
+|          Xenopus_laevis           |     1    |   0.29 (100.00%)   |    Not selected    |    for testing     |
+|            Hyla_sarda             |     2    |  883.54 ( 4.33%)   |       11.56        |       0.00106      |
+|       Geotrypetes_seraphini       |     1    |   0.77 (100.00%)   |    Not selected    |    for testing     |
+|               Node5               |     3    |  290.18 (100.00%)  |    Not selected    |    for testing     |
+|               Node4               |     1    |   0.01 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **1** branches under selection among **1** tested.
+
+* Hyla_sarda, p-value =  0.00106

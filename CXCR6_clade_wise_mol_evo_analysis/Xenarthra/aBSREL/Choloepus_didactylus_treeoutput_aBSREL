@@ -1,0 +1,84 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Xenarthra/aBSREL/Choloepus_didactylus_treeLabled.txt
+Choloepus_didactylus_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **5** sequences, **381** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Xenarthra/aBSREL/Xenarthra.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Choloepus_didactylus`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -2803.99, AIC-c =  5638.07 (15 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.318
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -2627.86, AIC-c =  5312.59 (28 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.29, and 95% of the weight in  0.00 -  0.58
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|       Dasypus_novemcinctus        |   0.21   |    2     |    0.64 (38.49%)   |   -2624.24    |    5309.48    |     5309.48     |
+|       Dasypus_novemcinctus        |   0.21   |    3     |    1.00 (18.91%)   |   -2624.06    |    5313.25    |     5309.48     |
+|               Node2               |   0.08   |    2     |    0.27 (21.22%)   |   -2624.24    |    5313.61    |     5309.48     |
+|               Node5               |   0.05   |    2     |    2.42 (28.46%)   |   -2623.17    |    5311.48    |     5309.48     |
+|       Tamandua_tetradactyla       |   0.01   |    2     |    0.00 ( 5.00%)   |   -2624.24    |    5313.61    |     5309.48     |
+|       Choloepus_didactylus        |   0.00   |    2     |    0.00 ( 5.00%)   |   -2624.24    |    5313.61    |     5309.48     |
+|      Myrmecophaga_tridactyla      |   0.00   |    2     |    0.50 (25.00%)   |   -2624.24    |    5313.61    |     5309.48     |
+|        Choloepus_hoffmanni        |   0.00   |    2     |    0.40 (73.23%)   |   -2624.24    |    5313.61    |     5309.48     |
+
+### Rate class analyses summary
+*  1 branches with **2** rate classes
+*  6 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -2616.45, AIC-c =  5293.89 (30 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|       Dasypus_novemcinctus        |     2    |    1.00 (13.69%)   |    Not selected    |    for testing     |
+|               Node2               |     1    |   0.24 (100.00%)   |    Not selected    |    for testing     |
+|               Node5               |     1    |   0.48 (100.00%)   |    Not selected    |    for testing     |
+|       Tamandua_tetradactyla       |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|       Choloepus_didactylus        |     1    |   0.00 (100.00%)   |        0.00        |       1.00000      |
+|      Myrmecophaga_tridactyla      |     1    |   0.32 (100.00%)   |    Not selected    |    for testing     |
+|        Choloepus_hoffmanni        |     1    |   0.33 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

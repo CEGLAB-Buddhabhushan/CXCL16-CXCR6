@@ -1,0 +1,91 @@
+
+Analysis Description
+--------------------
+MEME (Mixed Effects Model of Evolution) estimates a site-wise synonymous
+(&alpha;) and a two-category mixture of non-synonymous (&beta;-, with
+proportion p-, and &beta;+ with proportion [1-p-]) rates, and uses a
+likelihood ratio test to determine if &beta;+ > &alpha; at a site. The
+estimates aggregate information over a proportion of branches at a site,
+so the signal is derived from episodic diversification, which is a
+combination of strength of selection [effect size] and the proportion of
+the tree affected. A subset of branches can be selected for testing as
+well, in which case an additional (nuisance) parameter will be inferred
+-- the non-synonymous rate on branches NOT selected for testing.
+Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. Version 3.0 adds a different format for
+ancestral state reconstruction, branch-site posterior storage, and
+site-level heterogeneity testing. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Detecting Individual Sites Subject to Episodic Diversifying Selection.
+_PLoS Genet_ 8(7): e1002764.
+
+- __Written by__: Sergei L. Kosakovsky Pond, Steven Weaver
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 3.0
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Rodentia/MEME/Heterocephalus_glaber_treeLabled.txt
+Heterocephalus_glaber_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **43** sequences, **386** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Rodentia/MEME/Rodentia.aln`
+
+>branches –> fg
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue –> 0.1
+
+>[Advanced setting, will result in MUCH SLOWER run time] Perform parametric bootstrap resampling to derive site-level null LRT distributions up to this many replicates per site. Recommended use for small to medium (<30 sequences) datasets (permissible range = [0,1000], default value = 50, integer): 
+>resample –> 10
+
+
+### Branches to include in the MEME analysis
+Selected 1 branches to include in the MEME analysis: `Heterocephalus_glaber`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 1 zero-length internal branches: `Node50`
+* Log(L) = -11878.77, AIC-c = 23939.89 (91 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  2.294
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -11487.09, AIC-c = 23171.36 (98 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  2.433
+* non-synonymous/synonymous rate ratio for *background* =   0.3681
+* non-synonymous/synonymous rate ratio for *test* =   0.3673
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+
+>full-model –> Yes
+* Log(L) = -11457.40
+* non-synonymous/synonymous rate ratio for *background* =   0.3317
+* non-synonymous/synonymous rate ratio for *test* =   0.3182
+
+### For partition 1 these sites are significant at p <=0.1
+
+|   Codon    | Partition  |   alpha    |   beta+    |     p+     |    LRT     |Episodic selection detected?| # branches |Most common codon substitutions at this site|
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:--------------------------:|:----------:|:------------------------------------------:|
+|     93     |     1      |    1.992   |   21.269   |    1.000   |    4.248   |      Yes, p =  0.0909      |     1      |[2]tcC>tcT|[1]gcC>gcG,gCg>gTg,GCg>TTg,Tcc...|
+|    101     |     1      |    0.000   |   11.666   |    1.000   |    3.996   |      Yes, p =  0.0909      |     0      |     [1]Gtc>Atc,gTc>gGc,TTc>CGc,Ttc>Gtc     |
+|    106     |     1      |    2.989   |    6.466   |    1.000   |    0.328   |      Yes, p =  0.0909      |     0      |[2]aAg>aGg|[1]AAg>CGg,aGg>aAg,AgG>CgC,cGg...|
+|    114     |     1      |    0.000   |  182.680   |    1.000   |    7.830   |      Yes, p =  0.0909      |     1      |[3]Gtg>Atg,gTg>gCg|[1]CTc>GCc,GtG>CtC,Gtg...|
+|    123     |     1      |    0.917   |  2781.619  |    1.000   |    3.999   |      Yes, p =  0.0909      |     1      |       [3]ttT>ttC|[1]Ttc>Ctc,tTT>tAC        |
+|    182     |     1      |    0.853   |    5.719   |    1.000   |    1.481   |      Yes, p =  0.0909      |     0      |[2]aaC>aaG,aaC>aaT,aAc>aGc|[1]aAc>aCc,AAc...|
+|    195     |     1      |    0.915   |   13.546   |    1.000   |    2.621   |      Yes, p =  0.0909      |     0      |[1]Ctg>Gtg,Tgc>Ggc,tGC>tTG,Ttg>Ctg,ttG>tt...|
+|    203     |     1      |    0.477   |   13.793   |    1.000   |    3.975   |      Yes, p =  0.0909      |     0      |   [2]Ctg>Gtg|[1]ctG>ctC,ctG>ctT,Ctg>Ttg    |
+|    218     |     1      |    0.954   |   13.105   |    1.000   |    3.040   |      Yes, p =  0.0909      |     0      |[2]cTc>cAc,Ttt>Att|[1]cAC>cGA,cAc>cTc,CaC...|
+|    278     |     1      |    0.541   |   13.668   |    1.000   |    3.694   |      Yes, p =  0.0909      |     0      |[2]Ctg>Gtg|[1]ctC>ctG,ctG>ctT,Ctt>Gtt,Gtt...|
+|    315     |     1      |    0.000   |    5.702   |    1.000   |    5.948   |      Yes, p =  0.0909      |     1      |                 [1]gTg>gCg                 |
+|    320     |     1      |    0.822   |  182.021   |    1.000   |    6.096   |      Yes, p =  0.0909      |     1      |   [2]gcA>gcG|[1]gcA>gcC,GcA>TcC,TcC>GcA    |
+|    373     |     1      |    0.489   |    7.255   |    1.000   |    2.853   |      Yes, p =  0.0909      |     0      |[1]Acc>Gcc,Acc>Tcc,gcC>gcT,Gct>Cct,gcT>gc...|
+|    379     |     1      |    0.550   |   10.613   |    1.000   |    2.871   |      Yes, p =  0.0909      |     0      |[2]gcC>gcT,gCc>gGc|[1]Acc>Gcc,Ccc>Tcc,Gcc...|
+
+### ** Found _14_ sites under episodic diversifying positive selection at p <= 0.1**
+

@@ -1,0 +1,106 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Eulipotyphla/aBSREL/Sorex_fumeus_treeLabled.txt
+Sorex_fumeus_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **9** sequences, **364** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Eulipotyphla/aBSREL/Eulipotyphla.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Sorex_fumeus`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -5474.78, AIC-c = 10995.68 (23 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  1.022
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -5219.68, AIC-c = 10528.58 (44 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.34, and 95% of the weight in  0.02 - 10000000000.00
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|        Erinaceus_europaeus        |   0.28   |    2     |    0.74 (42.73%)   |   -5212.77    |   10518.88    |    10518.88     |
+|        Erinaceus_europaeus        |   0.28   |    3     |    0.74 (42.71%)   |   -5212.77    |   10522.99    |    10518.88     |
+|        Uropsilus_gracilis         |   0.11   |    2     |   10.51 ( 4.86%)   |   -5206.98    |   10511.42    |    10511.42     |
+|        Uropsilus_gracilis         |   0.11   |    3     |   10.69 ( 4.74%)   |   -5207.00    |   10515.58    |    10511.42     |
+|          Suncus_etruscus          |   0.11   |    2     |    7.50 ( 3.90%)   |   -5203.95    |   10509.48    |    10509.48     |
+|          Suncus_etruscus          |   0.11   |    3     |  935.78 ( 2.83%)   |   -5203.52    |   10512.75    |    10509.48     |
+|        Solenodon_paradoxus        |   0.11   |    2     |  448.43 ( 1.47%)   |   -5197.41    |   10500.52    |    10500.52     |
+|        Solenodon_paradoxus        |   0.11   |    3     |  685.04 ( 1.45%)   |   -5197.41    |   10504.66    |    10500.52     |
+|        Condylura_cristata         |   0.08   |    2     |    0.91 (45.33%)   |   -5196.80    |   10503.45    |    10500.52     |
+|        Galemys_pyrenaicus         |   0.08   |    2     |    0.89 (32.05%)   |   -5196.32    |   10502.49    |    10500.52     |
+|               Node3               |   0.07   |    2     |    9.22 ( 6.44%)   |   -5190.09    |   10490.02    |    10490.02     |
+|               Node3               |   0.07   |    3     |    9.46 ( 6.11%)   |   -5190.09    |   10494.17    |    10490.02     |
+|               Node5               |   0.07   |    2     |   13.35 ( 2.17%)   |   -5186.85    |   10487.69    |    10487.69     |
+|               Node5               |   0.07   |    3     |   13.90 ( 2.09%)   |   -5186.85    |   10491.83    |    10487.69     |
+|        Talpa_occidentalis         |   0.06   |    2     |    6.92 ( 2.41%)   |   -5186.24    |   10490.60    |    10487.69     |
+|           Sorex_araneus           |   0.05   |    2     |   0.20 (100.00%)   |   -5186.85    |   10491.83    |    10487.69     |
+|           Sorex_fumeus            |   0.03   |    2     |   20.31 ( 0.94%)   |   -5185.02    |   10488.16    |    10487.69     |
+|              Node11               |   0.03   |    2     |   45.53 ( 1.52%)   |   -5182.57    |   10483.26    |    10483.26     |
+|              Node11               |   0.03   |    3     |   42.48 ( 1.58%)   |   -5182.57    |   10487.41    |    10483.26     |
+|               Node9               |   0.02   |    2     |    0.30 ( 5.34%)   |   -5182.57    |   10487.41    |    10483.26     |
+|              Node12               |   0.01   |    2     |    9.97 (10.31%)   |   -5182.47    |   10487.21    |    10483.26     |
+|               Node2               |   0.01   |    2     |    0.27 ( 9.07%)   |   -5185.23    |   10492.73    |    10483.26     |
+
+### Rate class analyses summary
+*  7 branches with **2** rate classes
+*  8 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -5169.56, AIC-c = 10457.24 (58 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|        Erinaceus_europaeus        |     2    |    0.94 (30.53%)   |    Not selected    |    for testing     |
+|        Uropsilus_gracilis         |     2    |   10.28 ( 4.52%)   |    Not selected    |    for testing     |
+|          Suncus_etruscus          |     2    |    9.43 ( 3.27%)   |    Not selected    |    for testing     |
+|        Solenodon_paradoxus        |     2    |   >1000 ( 1.50%)   |    Not selected    |    for testing     |
+|        Condylura_cristata         |     1    |   0.35 (100.00%)   |    Not selected    |    for testing     |
+|        Galemys_pyrenaicus         |     1    |   0.24 (100.00%)   |    Not selected    |    for testing     |
+|               Node3               |     2    |    5.81 ( 9.49%)   |    Not selected    |    for testing     |
+|               Node5               |     2    |   16.32 ( 2.23%)   |    Not selected    |    for testing     |
+|        Talpa_occidentalis         |     1    |   0.45 (100.00%)   |    Not selected    |    for testing     |
+|           Sorex_araneus           |     1    |   0.18 (100.00%)   |    Not selected    |    for testing     |
+|           Sorex_fumeus            |     1    |   0.26 (100.00%)   |        0.00        |       1.00000      |
+|              Node11               |     2    |   32.09 ( 2.15%)   |    Not selected    |    for testing     |
+|               Node9               |     1    |   0.02 (100.00%)   |    Not selected    |    for testing     |
+|              Node12               |     1    |   3.36 (100.00%)   |    Not selected    |    for testing     |
+|               Node2               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

@@ -1,0 +1,181 @@
+[2J[H            /HYPHY 2.5.48(MP) for Linux on x86_64\            
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Molecular Clock
+	(12) Phylogeny Reconstruction
+	(13) Positive Selection
+	(14) Recombination
+	(15) Selection/Recombination
+	(16) Relative Rate
+	(17) Relative Ratio
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):[2J[H***************** FILES IN 'Selection Analyses' ***************** 
+
+
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):
+Analysis Description
+--------------------
+RELAX (a random effects test of selection relaxation) uses a random
+effects branch-site model framework to test whether a set of 'Test'
+branches evolves under relaxed selection relative to a set of
+'Reference' branches (R), as measured by the relaxation parameter (K).
+Version 2.1 adds a check for stability in K estimates to try to mitigate
+convergence problems. Version 3 provides support for >2 branch sets.
+Version 3.1 adds LHC + Nedler-Mead initial fit phase and keyword
+support. Version 3.1.1 adds some bug fixes for better convergence.
+Version 4.0 adds support for synonymous rate variation. Version 4.1 adds
+further support for multiple hit models
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree, with at least two
+groups of branches defined using the {} notation (one group can be
+defined as all unlabeled branches)
+
+- __Citation__: RELAX: Detecting Relaxed Selection in a Phylogenetic Framework (2015).
+Mol Biol Evol 32 (3): 820-832
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution g
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 3.1.1
+
+
+>code –> Universal
+
+
+>Select a coding sequence alignment file (`/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Xenarthra/RELAX/`) 
+
+>Select a coding sequence alignment file (`/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Xenarthra/RELAX/`) 
+
+>Please select a tree file for the data: (`/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Xenarthra/RELAX/`) /media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Xenarthra/RELAX/Choloepus_didactylus_treeLabled.txt
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Xenarthra/RELAX/Choloepus_didactylus_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **5** sequences, **381** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Xenarthra/RELAX/Xenarthra.aln`
+
+
+####Choose the set of branches to use as the _test_ set
+
+1. [**Unlabeled branches**] Set of 6 unlabeled branches
+2. [**fg**] Set fg with 1 branches
+
+>Please choose an option (or press q to cancel selection):The number of points in the initial distributional guess for likelihood fitting (permissible range = [1,10000], default value = 250, integer): 
+>grid-size –> 250
+The number of initial random guesses to 'seed' rate values optimization (permissible range = [1,25], default value = 1, integer): 
+>starting-points –> 1
+
+
+### Branch sets for RELAX analysis
+
+>multiple-hits –> None
+
+* Selected 6 branches as the _Reference_ set: `Dasypus_novemcinctus, Tamandua_tetradactyla, Myrmecophaga_tridactyla, Node2, Choloepus_hoffmanni, Node5`
+
+* Selected 1 branches as the _Test_ set: `Choloepus_didactylus`
+The number omega rate classes to include in the model (permissible range = [2,10], default value = 3, integer): 
+>rates –> 3
+
+>models –> All
+
+>srv –> No
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+* Log(L) = -2803.99, AIC-c =  5638.07 (15 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.318
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -2636.56, AIC-c =  5319.71 (23 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.354
+* non-synonymous/synonymous rate ratio for *Reference* =   0.2551
+* non-synonymous/synonymous rate ratio for *Test* =   0.0000
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+* Log(L) = -2627.80, AIC-c =  5302.18 (23 estimated parameters)
+* non-synonymous/synonymous rate ratio for *Reference* =   0.2113
+* non-synonymous/synonymous rate ratio for *Test* =   0.0000
+
+### Fitting the general descriptive (separate k per branch) model
+
+### * Log(L) = -2617.42, AIC-c =  5302.05 (33 estimated parameters)
+* The following baseline rate distribution for branch-site combinations was inferred
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.000     |   88.811    |                                   |
+|        Negative selection         |     0.867     |   11.067    |                                   |
+|      Diversifying selection       |    744.162    |    0.121    |                                   |
+
+* Branch-level relaxation or intensification parameter distribution has mean  8.44, median  0.12, and 95% of the weight in  0.09 - 50.00
+
+### Fitting the alternative model to test K != 1
+* Log(L) = -2623.05, AIC-c =  5300.91 (27 estimated parameters)
+* Relaxation/intensification parameter (K) =    50.00
+* The following rate distribution was inferred for **test** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.000     |   73.793    |                                   |
+|        Negative selection         |     0.000     |   26.207    |                                   |
+|      Diversifying selection       |380508531621...|    0.000    |       Not supported by data       |
+
+* The following rate distribution was inferred for **reference** branches
+
+|          Selection mode           |     dN/dS     |Proportion, %|               Notes               |
+|-----------------------------------|---------------|-------------|-----------------------------------|
+|        Negative selection         |     0.049     |   73.793    |                                   |
+|        Negative selection         |     0.797     |   26.207    |                                   |
+|      Diversifying selection       |     6.189     |    0.000    |       Not supported by data       |
+
+
+### * Potential convergence issues due to flat likelihood surfaces; checking to see whether K > 1 or K < 1 is robustly inferred
+Error:
+Insufficient number of arguments for a call to Operation - with 2 arguments while converting '0.0177273339538668|t|*|relax.test.theta_GT|*|0.09509228513278636|t|*|relax.test.theta_GT|*|relax.test.omega3|*|+|0.09509228513278636|-|t|*|relax.test.theta_GT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.09509228513278636|t|*|relax.test.theta_GT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.05549204757034949|t|*|relax.test.theta_CT|*|+|0.07864259908043283|t|*|relax.test.theta_CT|*|relax.test.omega3|*|+|0.07864259908043283|-|t|*|relax.test.theta_CT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.07864259908043283|t|*|relax.test.theta_CT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.04052349847488267|t|*|relax.test.theta_CG|*|+|0.1006288587454654|t|*|relax.test.theta_CG|*|relax.test.omega3|*|+|0.1006288587454654|-|t|*|relax.test.theta_CG|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.1006288587454654|t|*|relax.test.theta_CG|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.00601504871407163|t|*|relax.test.theta_AT|*|+|0.111435195850825|t|*|relax.test.theta_AT|*|relax.test.omega3|*|+|0.111435195850825|-|t|*|relax.test.theta_AT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.111435195850825|t|*|relax.test.theta_AT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.01587287356456056|t|*|relax.test.theta_AG|*|+|0.07597743848414479|t|*|relax.test.theta_AG|*|relax.test.omega3|*|+|0.07597743848414479|-|t|*|relax.test.theta_AG|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.07597743848414479|t|*|relax.test.theta_AG|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.01614588875990056|t|*|relax.test.theta_AC|*|+|0.0809665630827071|t|*|relax.test.theta_AC|*|relax.test.omega3|*|+|0.0809665630827071|-|t|*|relax.test.theta_AC|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.0809665630827071|t|*|relax.test.theta_AC|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.09509228513278636|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_GT|*|relax.test.omega3|*|+|0.09509228513278636|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_GT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.09509228513278636|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_GT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.07864259908043283|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_CT|*|relax.test.omega3|*|+|0.07864259908043283|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_CT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.07864259908043283|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_CT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.1006288587454654|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_CG|*|relax.test.omega3|*|+|0.1006288587454654|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_CG|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.1006288587454654|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_CG|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.111435195850825|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_AT|*|relax.test.omega3|*|+|0.111435195850825|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_AT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.111435195850825|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_AT|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.07597743848414479|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_AG|*|relax.test.omega3|*|+|0.07597743848414479|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_AG|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.07597743848414479|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_AG|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.0809665630827071|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_AC|*|relax.test.omega3|*|+|0.0809665630827071|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_AC|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega3|*|+|0.0809665630827071|-|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.theta_AC|*|relax.test.bsrel_mixture_aux_1|*|relax.test.omega2|*|+|0.09509228513278636|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.omega1|*|relax.test.theta_GT|*|+|0.07864259908043283|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.omega1|*|relax.test.theta_CT|*|+|0.1006288587454654|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.omega1|*|relax.test.theta_CG|*|+|0.111435195850825|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.omega1|*|relax.test.theta_AT|*|+|0.07597743848414479|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.omega1|*|relax.test.theta_AG|*|+|0.0809665630827071|t|*|relax.test.bsrel_mixture_aux_0|*|relax.test.omega1|*|relax.test.theta_AC|*|+|-|1.92208765172694e-08|-' to a parse tree
+
+Function call stack
+1 :  FindRoot(models.generic.SetBranchLength.t, (0.0177273339538668*t*relax.test.theta_GT+0.09509228513278636*t*relax.test.theta_GT*relax.test.omega3+(-0.09509228513278636)*t*relax.test.theta_GT*relax.test.bsrel_mixture_aux_1*relax.test.omega3+0.09509228513278636*t*relax.test.theta_GT*relax.test.bsrel_mixture_aux_1*relax.test.omega2+0.05549204757034949*t*relax.test.theta_CT+0.07864259908043283*t*relax.test.theta_CT*relax.test.omega3+(-0.07864259908043283)*t*relax.test.theta_CT*relax.test.bsrel_mixture_aux_1*relax.test.omega3+0.07864259908043283*t*relax.test.theta_CT*relax.test.bsrel_mixture_aux_1*relax.test.omega2+0.04052349847488267*t*relax.test.theta_CG+0.1006288587454654*t*relax.test.theta_CG*relax.test.omega3+(-0.1006288587454654)*t*relax.test.theta_CG*relax.test.bsrel_mixture_aux_1*relax.test.omega3+0.1006288587454654*t*relax.test.theta_CG*relax.test.bsrel_mixture_aux_1*relax.test.omega2+0.00601504871407163*t*relax.test.theta_AT+0.111435195850825*t*relax.test.theta_AT*relax.test.omega3+(-0.111435195850825)*t*relax.test.theta_AT*relax.test.bsrel_mixture_aux_1*relax.test.omega3+0.111435195850825*t*relax.test.theta_AT*relax.test.bsrel_mixture_aux_1*relax.test.omega2+0.01587287356456056*t*relax.test.theta_AG+0.07597743848414479*t*relax.test.theta_AG*relax.test.omega3+(-0.07597743848414479)*t*relax.test.theta_AG*relax.test.bsrel_mixture_aux_1*relax.test.omega3+0.07597743848414479*t*relax.test.theta_AG*relax.test.bsrel_mixture_aux_1*relax.test.omega2+0.01614588875990056*t*relax.test.theta_AC+0.0809665630827071*t*relax.test.theta_AC*relax.test.omega3+(-0.0809665630827071)*t*relax.test.theta_AC*relax.test.bsrel_mixture_aux_1*relax.test.omega3+0.0809665630827071*t*relax.test.theta_AC*relax.test.bsrel_mixture_aux_1*relax.test.omega2+(-0.09509228513278636)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_GT*relax.test.omega3+0.09509228513278636*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_GT*relax.test.bsrel_mixture_aux_1*relax.test.omega3+(-0.09509228513278636)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_GT*relax.test.bsrel_mixture_aux_1*relax.test.omega2+(-0.07864259908043283)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_CT*relax.test.omega3+0.07864259908043283*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_CT*relax.test.bsrel_mixture_aux_1*relax.test.omega3+(-0.07864259908043283)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_CT*relax.test.bsrel_mixture_aux_1*relax.test.omega2+(-0.1006288587454654)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_CG*relax.test.omega3+0.1006288587454654*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_CG*relax.test.bsrel_mixture_aux_1*relax.test.omega3+(-0.1006288587454654)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_CG*relax.test.bsrel_mixture_aux_1*relax.test.omega2+(-0.111435195850825)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_AT*relax.test.omega3+0.111435195850825*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_AT*relax.test.bsrel_mixture_aux_1*relax.test.omega3+(-0.111435195850825)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_AT*relax.test.bsrel_mixture_aux_1*relax.test.omega2+(-0.07597743848414479)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_AG*relax.test.omega3+0.07597743848414479*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_AG*relax.test.bsrel_mixture_aux_1*relax.test.omega3+(-0.07597743848414479)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_AG*relax.test.bsrel_mixture_aux_1*relax.test.omega2+(-0.0809665630827071)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_AC*relax.test.omega3+0.0809665630827071*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_AC*relax.test.bsrel_mixture_aux_1*relax.test.omega3+(-0.0809665630827071)*t*relax.test.bsrel_mixture_aux_0*relax.test.theta_AC*relax.test.bsrel_mixture_aux_1*relax.test.omega2+0.09509228513278636*t*relax.test.bsrel_mixture_aux_0*relax.test.omega1*relax.test.theta_GT+0.07864259908043283*t*relax.test.bsrel_mixture_aux_0*relax.test.omega1*relax.test.theta_CT+0.1006288587454654*t*relax.test.bsrel_mixture_aux_0*relax.test.omega1*relax.test.theta_CG+0.111435195850825*t*relax.test.bsrel_mixture_aux_0*relax.test.omega1*relax.test.theta_AT+0.07597743848414479*t*relax.test.bsrel_mixture_aux_0*relax.test.omega1*relax.test.theta_AG+0.0809665630827071*t*relax.test.bsrel_mixture_aux_0*relax.test.omega1*relax.test.theta_AC)--1.92208765172694e-08, t, 0, 10000);
+-------
+2 :  ExecuteCommands("FindRoot (models.generic.SetBranchLength.t,("+models.generic.SetBranchLength.expression+")-"+value+","+models.generic.SetBranchLength.bl+",0,10000)", /usr/local/share/hyphy/TemplateBatchFiles/libv3/models/);
+-------
+3 :  [namespace = ZihVZVpc] Branch under condition 'Type(value)=="Number"'
+	to
+		<END EXECUTION>
+	else
+		<END EXECUTION>
+-------
+4 :  return Call(model[terms.model.set_branch_length],model,length,tree+"."+node);
+-------
+5 :  estimators.ApplyExistingEstimatesToTree.constraint_count+=estimators.applyBranchLength(_tree_name,_branch_name,model_descriptions[estimators.ApplyExistingEstimatesToTree.map[_branch_name]],_set_branch_length_to);
+-------
+6 :  estimators.ApplyExistingEstimates.df_correction+=estimators.ApplyExistingEstimatesToTree((estimators.ApplyExistingEstimates.lfInfo[terms.fit.trees])[estimators.ApplyExistingEstimates.i],model_descriptions,(initial_values[terms.branch_length])[estimators.ApplyExistingEstimates.i],_application_type,estimators.ApplyExistingEstimates.keep_track_of_proportional_scalers);
+-------
+7 :  [namespace = nSLjGkGm] df=estimators.ApplyExistingEstimates("`&likelihoodFunction`",model_objects,initial_values,run_options[utility.getGlobalValue("terms.run_options.proportional_branch_length_scaler")]);
+-------
+8 :  relax.alternative_model.fit.take2=estimators.FitLF(relax.filter_names,relax.trees,{"0":relax.model_map},relax.alternative_model.fit,relax.model_object_map,{terms.run_options.retain_lf_object:TRUE,terms.run_options.optimization_log:relax.optimization_log_file("MainALT-redo-log.json")});
+-------
+9 :  relax.FitMainTestPair();
+-------
+

@@ -1,0 +1,11 @@
+ALPHABET: A C G T 
+ORDER: 0
+SUBST_MOD: HKY85
+TRAINING_LNL: -3105.390089
+BACKGROUND: 0.294326 0.211694 0.179119 0.314861 
+RATE_MAT:
+  -0.878869    0.178561    0.434728    0.265581 
+   0.248260   -1.163521    0.151085    0.764176 
+   0.714339    0.178561   -1.158480    0.265581 
+   0.248260    0.513787    0.151085   -0.913132 
+TREE: ((Pelodiscus_sinensis:0.106676,((((Malaclemys_terrapin:1.31623e-16,Trachemys_scripta:0.00584639):1.79954e-18,Chrysemys_picta:0.00101939):0.00487966,Terrapene_carolina:0.00194448):0.00419873,((Mauremys_mutica:0.00487394,Mauremys_reevesii:0.00292634):0.00352091,(Gopherus_flavomarginatus:0.0103813,Chelonoidis_abingdonii:0.0114846):0.00832854):0.0102996):0.00501059):0.00917333,((Caretta_caretta:0.00682378,Chelonia_mydas:0.00490624):0.0016347,Dermochelys_coriacea:0.21541):0.00917333);

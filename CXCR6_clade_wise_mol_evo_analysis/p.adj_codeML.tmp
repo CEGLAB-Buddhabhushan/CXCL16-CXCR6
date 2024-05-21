@@ -1,0 +1,4 @@
+grp_df<- df[df$Group=="grp",]
+grp_df$adjusted_pvalm0_bfree <- p.adjust(grp_df$pvalm0_bfree, method = "fdr")
+grp_df$adjusted_pavalbne_bfree <- p.adjust(grp_df$pavalbne_bfree, method = "fdr")
+write.table(grp_df, file='grp.PAML-codeML.tsv', quote=T, sep='\t', col.names = NA)

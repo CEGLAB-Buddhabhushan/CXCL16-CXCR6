@@ -1,0 +1,136 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Birds3/aBSREL/Pygoscelis_adeliae_treeLabled.txt
+Pygoscelis_adeliae_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **19** sequences, **345** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Birds3/aBSREL/Birds3.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Pygoscelis_adeliae`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 4 zero-length internal branches: `Node12, Node2, Node32, Node6`
+* Log(L) = -6061.70, AIC-c = 12209.59 (43 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site) 3113.804
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -4701.25, AIC-c =  9556.32 (76 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.35, and 95% of the weight in  0.00 -  4.11
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|        Mesitornis_unicolor        |   0.05   |    2     |   0.40 (100.00%)   |   -4701.25    |    9560.41    |     9556.32     |
+|          Calidris_pugnax          |   0.04   |    2     |  128.69 ( 1.02%)   |   -4697.94    |    9553.78    |     9553.78     |
+|          Calidris_pugnax          |   0.04   |    3     |  127.04 ( 1.04%)   |   -4697.93    |    9557.87    |     9553.78     |
+|         Pelecanus_crispus         |   0.04   |    2     |   13.02 ( 1.84%)   |   -4696.66    |    9555.32    |     9553.78     |
+|        Fulmarus_glacialis         |   0.04   |    2     |    0.44 (23.87%)   |   -4697.94    |    9557.88    |     9553.78     |
+|       Pterocles_gutturalis        |   0.04   |    2     |    0.29 (24.43%)   |   -4697.94    |    9557.88    |     9553.78     |
+|          Nipponia_nippon          |   0.04   |    2     |    0.47 (26.25%)   |   -4697.94    |    9557.88    |     9553.78     |
+|        Opisthocomus_hoazin        |   0.03   |    2     |    0.28 (24.37%)   |   -4697.94    |    9557.88    |     9553.78     |
+|         Egretta_garzetta          |   0.03   |    2     |    0.71 (36.79%)   |   -4697.90    |    9557.79    |     9553.78     |
+|              Node24               |   0.03   |    2     |    0.35 (20.00%)   |   -4697.94    |    9557.88    |     9553.78     |
+|       Charadrius_vociferus        |   0.03   |    2     |    0.45 (55.85%)   |   -4697.94    |    9557.88    |     9553.78     |
+|         Phaethon_lepturus         |   0.03   |    2     |   >1000 ( 0.56%)   |   -4695.46    |    9552.92    |     9552.92     |
+|         Phaethon_lepturus         |   0.03   |    3     |   >1000 ( 0.56%)   |   -4695.42    |    9556.95    |     9552.92     |
+|          Gavia_stellata           |   0.03   |    2     |    0.29 (74.11%)   |   -4695.46    |    9557.02    |     9552.92     |
+|          Eurypyga_helias          |   0.03   |    2     |    0.25 (50.76%)   |   -4695.46    |    9557.02    |     9552.92     |
+|        Rhynochetos_jubatus        |   0.03   |    2     |    3.89 ( 6.95%)   |   -4694.85    |    9555.81    |     9552.92     |
+|              Node20               |   0.02   |    2     |    0.39 (91.70%)   |   -4695.46    |    9557.02    |     9552.92     |
+|         Rissa_tridactyla          |   0.02   |    2     |    0.52 (23.41%)   |   -4695.46    |    9557.02    |     9552.92     |
+|        Balearica_regulorum        |   0.02   |    2     |    0.28 (16.37%)   |   -4695.46    |    9557.02    |     9552.92     |
+|        Spheniscus_demersus        |   0.01   |    2     |    0.78 (92.28%)   |   -4695.46    |    9557.02    |     9552.92     |
+|        Pygoscelis_adeliae         |   0.01   |    2     |    1.35 (24.02%)   |   -4695.46    |    9557.02    |     9552.92     |
+|       Aptenodytes_forsteri        |   0.01   |    2     |    0.30 (24.72%)   |   -4695.46    |    9557.02    |     9552.92     |
+|              Node27               |   0.01   |    2     |   25.15 ( 5.06%)   |   -4693.33    |    9552.76    |     9552.76     |
+|              Node27               |   0.01   |    3     |   31.30 ( 3.72%)   |   -4693.33    |    9556.88    |     9552.76     |
+|              Node28               |   0.01   |    2     |   27.59 ( 1.64%)   |   -4691.37    |    9552.96    |     9552.76     |
+|          Grus_americana           |   0.01   |    2     |    0.19 (89.87%)   |   -4693.33    |    9556.87    |     9552.76     |
+|              Node19               |   0.01   |    2     |    0.28 (23.05%)   |   -4693.32    |    9556.85    |     9552.76     |
+|              Node11               |   0.00   |    2     |   4.20 (100.00%)   |   -4693.33    |    9556.86    |     9552.76     |
+|               Node7               |   0.00   |    2     |    0.18 (50.13%)   |   -4693.33    |    9556.87    |     9552.76     |
+|               Node5               |   0.00   |    2     |    0.27 ( 9.84%)   |   -4699.96    |    9570.12    |     9552.76     |
+|               Node4               |   0.00   |    2     |    0.40 (55.00%)   |   -4693.33    |    9556.86    |     9552.76     |
+|               Node1               |   0.00   |    2     |    0.00 ( 0.00%)   |   -4693.33    |    9556.86    |     9552.76     |
+|              Node13               |   0.00   |    2     |    0.00 ( 2.40%)   |   -4693.33    |    9556.86    |     9552.76     |
+|               Node3               |   0.00   |    2     |    0.27 ( 2.00%)   |   -4693.82    |    9557.86    |     9552.76     |
+
+### Rate class analyses summary
+*  28 branches with **1** rate classes
+*  3 branches with **2** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -4690.57, AIC-c =  9547.24 (82 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|        Mesitornis_unicolor        |     1    |   0.38 (100.00%)   |    Not selected    |    for testing     |
+|          Calidris_pugnax          |     2    |  111.13 ( 0.99%)   |    Not selected    |    for testing     |
+|         Pelecanus_crispus         |     1    |   0.58 (100.00%)   |    Not selected    |    for testing     |
+|        Fulmarus_glacialis         |     1    |   0.41 (100.00%)   |    Not selected    |    for testing     |
+|       Pterocles_gutturalis        |     1    |   0.27 (100.00%)   |    Not selected    |    for testing     |
+|          Nipponia_nippon          |     1    |   0.45 (100.00%)   |    Not selected    |    for testing     |
+|        Opisthocomus_hoazin        |     1    |   0.26 (100.00%)   |    Not selected    |    for testing     |
+|         Egretta_garzetta          |     1    |   0.24 (100.00%)   |    Not selected    |    for testing     |
+|              Node24               |     1    |   0.34 (100.00%)   |    Not selected    |    for testing     |
+|       Charadrius_vociferus        |     1    |   0.43 (100.00%)   |    Not selected    |    for testing     |
+|         Phaethon_lepturus         |     2    |   >1000 ( 0.56%)   |    Not selected    |    for testing     |
+|          Gavia_stellata           |     1    |   0.27 (100.00%)   |    Not selected    |    for testing     |
+|          Eurypyga_helias          |     1    |   0.22 (100.00%)   |    Not selected    |    for testing     |
+|        Rhynochetos_jubatus        |     1    |   0.19 (100.00%)   |    Not selected    |    for testing     |
+|              Node20               |     1    |   0.37 (100.00%)   |    Not selected    |    for testing     |
+|         Rissa_tridactyla          |     1    |   0.40 (100.00%)   |    Not selected    |    for testing     |
+|        Balearica_regulorum        |     1    |   0.27 (100.00%)   |    Not selected    |    for testing     |
+|        Spheniscus_demersus        |     1    |   0.71 (100.00%)   |    Not selected    |    for testing     |
+|        Pygoscelis_adeliae         |     1    |   1.05 (100.00%)   |        0.01        |       0.48609      |
+|       Aptenodytes_forsteri        |     1    |   0.26 (100.00%)   |    Not selected    |    for testing     |
+|              Node27               |     2    |   24.14 ( 5.01%)   |    Not selected    |    for testing     |
+|              Node28               |     1    |   0.22 (100.00%)   |    Not selected    |    for testing     |
+|          Grus_americana           |     1    |   0.17 (100.00%)   |    Not selected    |    for testing     |
+|              Node19               |     1    |   0.26 (100.00%)   |    Not selected    |    for testing     |
+|              Node11               |     1    |   4.22 (100.00%)   |    Not selected    |    for testing     |
+|               Node7               |     1    |   0.09 (100.00%)   |    Not selected    |    for testing     |
+|               Node5               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|               Node4               |     1    |   0.32 (100.00%)   |    Not selected    |    for testing     |
+|               Node1               |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|              Node13               |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|               Node3               |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

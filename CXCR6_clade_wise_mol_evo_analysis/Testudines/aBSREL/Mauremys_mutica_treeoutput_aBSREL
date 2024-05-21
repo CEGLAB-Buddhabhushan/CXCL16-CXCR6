@@ -1,0 +1,113 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Testudines/aBSREL/Mauremys_mutica_treeLabled.txt
+Mauremys_mutica_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **12** sequences, **358** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Testudines/aBSREL/Testudines.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Mauremys_mutica`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 1 zero-length internal branches: `Node5`
+* Log(L) = -3103.59, AIC-c =  6265.32 (29 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  0.429
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -3027.36, AIC-c =  6164.12 (54 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.42, and 95% of the weight in  0.00 - 10000000000.00
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|       Dermochelys_coriacea        |   0.22   |    2     |   >1000 (19.88%)   |   -2952.82    |    6019.14    |     6019.14     |
+|       Dermochelys_coriacea        |   0.22   |    3     |  746.58 (19.84%)   |   -2952.82    |    6023.25    |     6019.14     |
+|        Pelodiscus_sinensis        |   0.11   |    2     |    0.65 (54.56%)   |   -2952.27    |    6022.15    |     6019.14     |
+|              Node17               |   0.02   |    2     |    0.49 ( 9.81%)   |   -2952.81    |    6023.24    |     6019.14     |
+|      Chelonoidis_abingdonii       |   0.01   |    2     |   1.88 (100.00%)   |   -2952.82    |    6023.25    |     6019.14     |
+|     Gopherus_flavomarginatus      |   0.01   |    2     |    0.47 (23.20%)   |   -2952.82    |    6023.25    |     6019.14     |
+|              Node10               |   0.01   |    2     |    0.34 (19.93%)   |   -2952.82    |    6023.25    |     6019.14     |
+|              Node14               |   0.01   |    2     |   39.34 ( 2.11%)   |   -2950.73    |    6019.08    |     6019.08     |
+|              Node14               |   0.01   |    3     |   43.96 ( 1.73%)   |   -2950.74    |    6023.21    |     6019.08     |
+|          Caretta_caretta          |   0.01   |    2     |    0.31 (88.74%)   |   -2950.73    |    6023.19    |     6019.08     |
+|         Trachemys_scripta         |   0.01   |    2     |    0.20 (95.00%)   |   -2950.73    |    6023.19    |     6019.08     |
+|          Chelonia_mydas           |   0.01   |    2     |    0.38 ( 3.64%)   |   -2950.73    |    6023.18    |     6019.08     |
+|          Mauremys_mutica          |   0.00   |    2     |    0.19 (49.59%)   |   -2950.73    |    6023.19    |     6019.08     |
+|               Node4               |   0.00   |    2     |    0.60 (75.00%)   |   -2950.73    |    6023.19    |     6019.08     |
+|               Node3               |   0.00   |    2     |    0.24 (49.75%)   |   -2950.73    |    6023.19    |     6019.08     |
+|               Node2               |   0.00   |    2     |    0.81 (77.96%)   |   -2950.73    |    6023.19    |     6019.08     |
+|              Node11               |   0.00   |    2     |    1.94 (24.40%)   |   -2950.73    |    6023.19    |     6019.08     |
+|         Mauremys_reevesii         |   0.00   |    2     |    0.80 (55.00%)   |   -2950.73    |    6023.19    |     6019.08     |
+|        Terrapene_carolina         |   0.00   |    2     |  >1000 (100.00%)   |   -2950.73    |    6023.19    |     6019.08     |
+|          Chrysemys_picta          |   0.00   |    2     |    0.00 ( 5.00%)   |   -2950.73    |    6023.19    |     6019.08     |
+|              Node18               |   0.00   |    2     |    0.37 ( 6.22%)   |   -2949.54    |    6020.82    |     6019.08     |
+|        Malaclemys_terrapin        |   0.00   |    2     |    0.28 (12.62%)   |   -2950.73    |    6023.19    |     6019.08     |
+
+### Rate class analyses summary
+*  2 branches with **2** rate classes
+*  18 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -2947.62, AIC-c =  6012.85 (58 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|       Dermochelys_coriacea        |     2    |   >1000 (20.26%)   |    Not selected    |    for testing     |
+|        Pelodiscus_sinensis        |     1    |   0.35 (100.00%)   |    Not selected    |    for testing     |
+|              Node17               |     1    |   0.26 (100.00%)   |    Not selected    |    for testing     |
+|      Chelonoidis_abingdonii       |     1    |   1.92 (100.00%)   |    Not selected    |    for testing     |
+|     Gopherus_flavomarginatus      |     1    |   0.44 (100.00%)   |    Not selected    |    for testing     |
+|              Node10               |     1    |   0.32 (100.00%)   |    Not selected    |    for testing     |
+|              Node14               |     2    |   39.51 ( 2.33%)   |    Not selected    |    for testing     |
+|          Caretta_caretta          |     1    |   0.31 (100.00%)   |    Not selected    |    for testing     |
+|         Trachemys_scripta         |     1    |   0.20 (100.00%)   |    Not selected    |    for testing     |
+|          Chelonia_mydas           |     1    |   0.25 (100.00%)   |    Not selected    |    for testing     |
+|          Mauremys_mutica          |     1    |   0.10 (100.00%)   |        0.00        |       1.00000      |
+|               Node4               |     1    |   0.59 (100.00%)   |    Not selected    |    for testing     |
+|               Node3               |     1    |   0.12 (100.00%)   |    Not selected    |    for testing     |
+|               Node2               |     1    |   0.70 (100.00%)   |    Not selected    |    for testing     |
+|              Node11               |     1    |   1.14 (100.00%)   |    Not selected    |    for testing     |
+|         Mauremys_reevesii         |     1    |   0.81 (100.00%)   |    Not selected    |    for testing     |
+|        Terrapene_carolina         |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|          Chrysemys_picta          |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|              Node18               |     1    |   0.14 (100.00%)   |    Not selected    |    for testing     |
+|        Malaclemys_terrapin        |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

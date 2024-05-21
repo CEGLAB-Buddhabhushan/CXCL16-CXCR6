@@ -1,0 +1,85 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Metatheria_Monotremata/gBGC/`) 
+
+A tree was found in the data file:
+((((Thylacinus_cynocephalus:38.47,Antechinus_flavipes:38.47):22.30164,(Trichosurus_vulpecula:52.64,(Phascolarctos_cinereus:34.87318,Vombatus_ursinus:34.87318):17.76682):8.13164):2.22836,Dromiciops_gliroides:63):15.1868,(Monodelphis_domestica:29.14096,Gracilinanus_agilis:29.14096):49.04584,(Tachyglossus_aculeatus:46.7284,Ornithorhynchus_anatinus:46.7284):235.217)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1131
+Synonymous  sites      :258.4242997677213
+Nonsynonymous  sites   :834.5748033268445
+
+Total tree lengths:
+	E[syn]        : 0.5494869328939364
+	E[non-syn]    : 0.4383410309323064
+	dS            : 2.4048424303041
+	dN            : 0.5940314804714786
+
+
+E[Syn subs/nucleotide site] tree: 
+	((((Thylacinus_cynocephalus:0.01709011836280197,Antechinus_flavipes:0.01179980464999535)Node3:0.03862012401330072,(Trichosurus_vulpecula:0.02413565836239087,(Phascolarctos_cinereus:0.01767917150685546,Vombatus_ursinus:0.01241563178898955)Node8:0.01426288945798493)Node6:0.001493810766462078)Node2:0.01309239805001662,Dromiciops_gliroides:0.03934624807970873)Node1:0.003796655356484532,(Monodelphis_domestica:0.02211780692067778,Gracilinanus_agilis:0.02972118778598368)Node12:0.0481321150645406,(Tachyglossus_aculeatus:0.02291709000690087,Ornithorhynchus_anatinus:0.03083298079846501)Node15:0.2020332419223776)
+
+E[Non-syn subs/nucleotide site] tree: 
+	((((Thylacinus_cynocephalus:0.01908618659873706,Antechinus_flavipes:0.02374204679024791)Node3:0.03596944494601266,(Trichosurus_vulpecula:0.01326934405054319,(Phascolarctos_cinereus:0.00660630477269103,Vombatus_ursinus:0.0189718619259321)Node8:0.005784925551697392)Node6:0.0145491130354834)Node2:0.01010990248294451,Dromiciops_gliroides:0.0256819057440651)Node1:0.005995897364588916,(Monodelphis_domestica:0.01362353082724101,Gracilinanus_agilis:0.01404153379405258)Node12:0.02989722743948912,(Tachyglossus_aculeatus:0.009181895487421066,Ornithorhynchus_anatinus:0.02240256196886435)Node15:0.169427348152295)
+
+dS tree: 
+	((((Thylacinus_cynocephalus:0.07479530325012929,Antechinus_flavipes:0.0516421213916033)Node3:0.1690218771930631,(Trichosurus_vulpecula:0.1056302740585918,(Phascolarctos_cinereus:0.07737330813017854,Vombatus_ursinus:0.05433730328753363)Node8:0.06242186973701863)Node6:0.006537697803136848)Node2:0.05729918667818073,Dromiciops_gliroides:0.1721997761748756)Node1:0.01661615108193612,(Monodelphis_domestica:0.09679909996765373,Gracilinanus_agilis:0.1300754743890621)Node12:0.2106513287911595,(Tachyglossus_aculeatus:0.100297181113006,Ornithorhynchus_anatinus:0.1349412625453872)Node15:0.8842032147115836)
+
+dN tree: 
+	((((Thylacinus_cynocephalus:0.02586523934957297,Antechinus_flavipes:0.03217477308532431)Node3:0.04874511196812187,(Trichosurus_vulpecula:0.01798236426661795,(Phascolarctos_cinereus:0.008952739368753026,Vombatus_ursinus:0.02571030871372466)Node8:0.007839621772534408)Node6:0.01971668300736781)Node2:0.01370074876767184,Dromiciops_gliroides:0.03480363327619208)Node1:0.008125526785996533,(Monodelphis_domestica:0.01846235149226674,Gracilinanus_agilis:0.01902882121263131)Node12:0.04051615756822664,(Tachyglossus_aculeatus:0.01244313122667598,Ornithorhynchus_anatinus:0.03035952857165607)Node15:0.2296047400381444)
+
+Estimating pairwise dN/dS: total of 45 analyses

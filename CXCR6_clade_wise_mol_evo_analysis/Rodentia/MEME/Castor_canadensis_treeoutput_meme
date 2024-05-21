@@ -1,0 +1,91 @@
+
+Analysis Description
+--------------------
+MEME (Mixed Effects Model of Evolution) estimates a site-wise synonymous
+(&alpha;) and a two-category mixture of non-synonymous (&beta;-, with
+proportion p-, and &beta;+ with proportion [1-p-]) rates, and uses a
+likelihood ratio test to determine if &beta;+ > &alpha; at a site. The
+estimates aggregate information over a proportion of branches at a site,
+so the signal is derived from episodic diversification, which is a
+combination of strength of selection [effect size] and the proportion of
+the tree affected. A subset of branches can be selected for testing as
+well, in which case an additional (nuisance) parameter will be inferred
+-- the non-synonymous rate on branches NOT selected for testing.
+Multiple partitions within a NEXUS file are also supported for
+recombination - aware analysis. Version 3.0 adds a different format for
+ancestral state reconstruction, branch-site posterior storage, and
+site-level heterogeneity testing. 
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Detecting Individual Sites Subject to Episodic Diversifying Selection.
+_PLoS Genet_ 8(7): e1002764.
+
+- __Written by__: Sergei L. Kosakovsky Pond, Steven Weaver
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 3.0
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Rodentia/MEME/Castor_canadensis_treeLabled.txt
+Castor_canadensis_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **43** sequences, **386** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Rodentia/MEME/Rodentia.aln`
+
+>branches –> fg
+
+>Select the p-value threshold to use when testing for selection (permissible range = [0,1], default value = 0.1): 
+>pvalue –> 0.1
+
+>[Advanced setting, will result in MUCH SLOWER run time] Perform parametric bootstrap resampling to derive site-level null LRT distributions up to this many replicates per site. Recommended use for small to medium (<30 sequences) datasets (permissible range = [0,1000], default value = 50, integer): 
+>resample –> 10
+
+
+### Branches to include in the MEME analysis
+Selected 1 branches to include in the MEME analysis: `Castor_canadensis`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 1 zero-length internal branches: `Node50`
+* Log(L) = -11878.77, AIC-c = 23939.89 (91 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  2.294
+
+### Obtaining the global omega estimate based on relative GTR branch lengths and nucleotide substitution biases
+* Log(L) = -11487.12, AIC-c = 23171.42 (98 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site)  2.431
+* non-synonymous/synonymous rate ratio for *background* =   0.3683
+* non-synonymous/synonymous rate ratio for *test* =   0.3601
+
+### Improving branch lengths, nucleotide substitution biases, and global dN/dS ratios under a full codon model
+
+>full-model –> Yes
+* Log(L) = -11457.29
+* non-synonymous/synonymous rate ratio for *background* =   0.3296
+* non-synonymous/synonymous rate ratio for *test* =   0.3801
+
+### For partition 1 these sites are significant at p <=0.1
+
+|   Codon    | Partition  |   alpha    |   beta+    |     p+     |    LRT     |Episodic selection detected?| # branches |Most common codon substitutions at this site|
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:--------------------------:|:----------:|:------------------------------------------:|
+|     21     |     1      |    0.664   |    4.370   |    1.000   |    1.221   |      Yes, p =  0.0909      |     0      |     [1]GAg>ACg,gaG>gaC,gAG>gCA,gAg>gTg     |
+|     47     |     1      |    0.277   |  987.302   |    1.000   |    8.887   |      Yes, p =  0.0909      |     1      |[2]cCc>cTc,Ctc>Ttc|[1]CCc>AAc,CcC>AcA,CCc...|
+|     52     |     1      |    2.310   |   17.745   |    1.000   |    1.653   |      Yes, p =  0.0909      |     0      |[1]Ctc>Ttc,TGg>GAg,TgG>GgC,tGg>tTg,Ttg>At...|
+|     53     |     1      |    0.000   |    1.014   |    0.990   |    0.053   |      Yes, p =  0.0909      |     0      |           [2]Ttc>Ctc|[1]ttC>ttG            |
+|     57     |     1      |    1.377   |  146.312   |    1.000   |   10.242   |      Yes, p =  0.0909      |     1      |[3]tcC>tcT|[1]Tcc>Acc,TcC>CcG,TCC>GGA,Tct...|
+|    105     |     1      |    0.144   |    9.279   |    1.000   |    4.421   |      Yes, p =  0.0909      |     0      |[2]Ctg>Atg|[1]cgG>cgC,Cgg>Tgg,cTg>cGg,Ctg...|
+|    133     |     1      |    0.334   |  115.938   |    1.000   |    4.136   |      Yes, p =  0.0909      |     1      |         [1]gcA>gcC,gCA>gTG,GcA>TcG         |
+|    151     |     1      |    0.548   |    4.211   |    1.000   |    1.286   |      Yes, p =  0.0909      |     0      |[4]Atc>Gtc|[1]Ata>Gta,atC>atA,atC>atG,Gtc...|
+|    189     |     1      |    1.254   |  144.373   |    1.000   |    3.548   |      Yes, p =  0.0909      |     0      |[2]aCc>aTc,aTc>aCc|[1]aCC>aTG,Acc>Gcc,AcC...|
+|    217     |     1      |    0.980   |    3.979   |    1.000   |    0.564   |      Yes, p =  0.0909      |     0      |[3]cAt>cGt|[2]caT>caC,Cat>Tat|[1]aAt>aGt,...|
+|    226     |     1      |    0.599   |    3.947   |    1.000   |    1.429   |      Yes, p =  0.0909      |     0      |       [3]caC>caG|[1]caC>caT,Cag>Gag        |
+|    359     |     1      |    0.548   |    3.608   |    1.000   |    1.571   |      Yes, p =  0.0909      |     0      |[2]agT>agA|[1]aGc>aCc,aGT>aAC,aGt>aAt,agT...|
+|    377     |     1      |    0.318   |    3.775   |    1.000   |    1.839   |      Yes, p =  0.0909      |     0      |  [3]gTa>gCa|[2]gcA>gcC,gCa>gTa|[1]Gca>Cca  |
+|    379     |     1      |    0.532   |    7.677   |    1.000   |    2.385   |      Yes, p =  0.0909      |     0      |[2]gcC>gcT,gCc>gGc|[1]Acc>Gcc,Ccc>Tcc,Gcc...|
+
+### ** Found _14_ sites under episodic diversifying positive selection at p <= 0.1**
+

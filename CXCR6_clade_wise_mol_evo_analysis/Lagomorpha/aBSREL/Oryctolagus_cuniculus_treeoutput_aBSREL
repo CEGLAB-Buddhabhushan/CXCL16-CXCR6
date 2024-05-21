@@ -1,0 +1,97 @@
+
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353. v2.2 adds support for multiple-hit models. v2.3 adds
+support for SRV
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.3
+
+
+>code –> Universal
+/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Lagomorpha/aBSREL/Oryctolagus_cuniculus_treeLabled.txt
+Oryctolagus_cuniculus_treeLabled.txt
+
+>Loaded a multiple sequence alignment with **6** sequences, **407** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Lagomorpha/aBSREL/Lagomorpha.aln`
+
+>branches –> fg
+
+>multiple-hits –> None
+
+>srv –> No
+
+
+### * Selected 1 branches for testing: `Oryctolagus_cuniculus`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+
+>kill-zero-lengths –> Yes
+
+### Deleted 1 zero-length internal branches: `Node1`
+* Log(L) = -5517.01, AIC-c = 11068.11 (17 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site) 825516.406
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -4357.92, AIC-c =  8776.60 (30 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.45, and 95% of the weight in  0.00 -  0.00
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|               Node7               |3616077...|    2     |   >1000 (14.91%)   |   -4262.27    |    8589.41    |     8589.41     |
+|               Node7               |3616077...|    3     |   >1000 (13.34%)   |   -4263.41    |    8595.80    |     8589.41     |
+|        Sylvilagus_bachmani        |656822....|    2     |   >1000 ( 1.34%)   |   -4252.36    |    8573.71    |     8573.71     |
+|        Sylvilagus_bachmani        |656822....|    3     |   >1000 ( 1.07%)   |   -4252.45    |    8578.01    |     8573.71     |
+|               Node4               |280375....|    2     |    4.71 ( 3.18%)   |   -4244.66    |    8562.43    |     8562.43     |
+|               Node4               |280375....|    3     |    4.73 ( 3.18%)   |   -4244.66    |    8566.56    |     8562.43     |
+|        Ochotona_curzoniae         |267766....|    2     |   >1000 ( 1.94%)   |   -4212.35    |    8501.93    |     8501.93     |
+|        Ochotona_curzoniae         |267766....|    3     |   >1000 ( 1.58%)   |   -4212.25    |    8505.86    |     8501.93     |
+|       Oryctolagus_cuniculus       |256383....|    2     |   12.07 ( 5.00%)   |   -3859.98    |    7801.33    |     7801.33     |
+|       Oryctolagus_cuniculus       |256383....|    3     |   >1000 ( 2.52%)   |   -3856.11    |    7797.73    |     7797.73     |
+|       Oryctolagus_cuniculus       |256383....|    4     |   65.33 ( 2.01%)   |   -3859.81    |    7809.26    |     7797.73     |
+|         Ochotona_princeps         |194331....|    2     |   >1000 ( 6.95%)   |   -3678.94    |    7447.54    |     7447.54     |
+|         Ochotona_princeps         |194331....|    3     |   >1000 ( 6.96%)   |   -3678.94    |    7451.69    |     7447.54     |
+|         Lepus_americanus          |  83.93   |    2     |   >1000 ( 1.81%)   |   -3484.34    |    7062.48    |     7062.48     |
+|         Lepus_americanus          |  83.93   |    3     |   >1000 ( 1.39%)   |   -3484.68    |    7067.33    |     7062.48     |
+|           Lepus_timidus           |  56.87   |    2     |   >1000 ( 1.26%)   |   -3273.81    |    6645.60    |     6645.60     |
+|           Lepus_timidus           |  56.87   |    3     |   >1000 ( 0.43%)   |   -3275.64    |    6653.41    |     6645.60     |
+
+### Rate class analyses summary
+*  7 branches with **2** rate classes
+*  1 branches with **3** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -2635.20, AIC-c =  5368.36 (48 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|               Node7               |     2    |    1.53 (10.29%)   |    Not selected    |    for testing     |
+|        Sylvilagus_bachmani        |     2    |    0.43 ( 0.00%)   |    Not selected    |    for testing     |
+|               Node4               |     2    |    0.30 ( 0.00%)   |    Not selected    |    for testing     |
+|        Ochotona_curzoniae         |     2    |    2.73 ( 3.84%)   |    Not selected    |    for testing     |
+|       Oryctolagus_cuniculus       |     3    |   19.40 ( 4.77%)   |        8.97        |       0.00393      |
+|         Ochotona_princeps         |     2    |  886.79 (100.00%)  |    Not selected    |    for testing     |
+|         Lepus_americanus          |     2    |    0.28 (68.83%)   |    Not selected    |    for testing     |
+|           Lepus_timidus           |     2    |   >1000 ( 0.33%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **1** branches under selection among **1** tested.
+
+* Oryctolagus_cuniculus, p-value =  0.00393

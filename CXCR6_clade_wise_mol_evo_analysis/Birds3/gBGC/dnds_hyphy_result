@@ -1,0 +1,85 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/clade_wise_Mol_evo_ana/Birds3/gBGC/`) 
+
+A tree was found in the data file:
+((((((((Nipponia_nippon:63.96385,Egretta_garzetta:63.96385):0,Pelecanus_crispus:63.96385):3.80533,(((Pygoscelis_adeliae:17.60359,Aptenodytes_forsteri:17.60359):2.80026,Spheniscus_demersus:20.40385):44.86082,Fulmarus_glacialis:65.26467):2.50451):0.90702,Gavia_stellata:68.6762):0,((Eurypyga_helias:33.97558,Rhynochetos_jubatus:33.97558):24.55782,Phaethon_lepturus:58.5334):10.1428):1.21658,(Balearica_regulorum:20.42086,Grus_americana:20.42086):49.47192):2.05146,((Rissa_tridactyla:70.50955,Calidris_pugnax:70.50955):0,Charadrius_vociferus:70.50955):1.43469):0.61883,(Mesitornis_unicolor:58.34729,Pterocles_gutturalis:58.34729):14.21578,Opisthocomus_hoazin:73.86241)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1035
+Synonymous  sites      :239.4694637269012
+Nonsynonymous  sites   :757.3079328517517
+
+Total tree lengths:
+	E[syn]        : 0.3587782879368691
+	E[non-syn]    : 0.3039155307811894
+	dS            : 1.550659204040073
+	dN            : 0.4153562384775744
+
+
+E[Syn subs/nucleotide site] tree: 
+	((((((((Nipponia_nippon:0.01848363364252482,Egretta_garzetta:0.02205265917243527)Node7:0.003481126432081858,Pelecanus_crispus:0.01868212191737107)Node6:0,(((Pygoscelis_adeliae:0.003698126307894677,Aptenodytes_forsteri:0.008444387579902303)Node13:0.001065999245404755,Spheniscus_demersus:0.004490559542022403)Node12:0.001425369897949435,Fulmarus_glacialis:0.0195611733149024)Node11:0)Node5:0,Gavia_stellata:0.01648732336630649)Node4:0.001298326424884539,((Eurypyga_helias:0.01771106246554527,Rhynochetos_jubatus:0.01790433049844043)Node20:0.0132698429425367,Phaethon_lepturus:0.01671861176219598)Node19:0.003158696702941201)Node3:0,(Balearica_regulorum:0.01267253862524931,Grus_americana:0.004809100088752782)Node24:0.0190217496431425)Node2:0,((Rissa_tridactyla:0.01219838819254422,Calidris_pugnax:0.02095453796794512)Node28:0.00686634835865614,Charadrius_vociferus:0.0163303575316868)Node27:0.003623927415538623)Node1:0.00215126462745423,(Mesitornis_unicolor:0.02743576122791515,Pterocles_gutturalis:0.02330906492998984)Node32:0.000199584489962146,Opisthocomus_hoazin:0.02127231362269268)
+
+E[Non-syn subs/nucleotide site] tree: 
+	((((((((Nipponia_nippon:0.02156320230275836,Egretta_garzetta:0.01054474611080295)Node7:0.0006542582850884285,Pelecanus_crispus:0.02727174297255274)Node6:0,(((Pygoscelis_adeliae:0.01153224005461264,Aptenodytes_forsteri:0.003451288181855367)Node13:0,Spheniscus_demersus:0.007460951182389031)Node12:0.007461020493709016,Fulmarus_glacialis:0.01306425666191211)Node11:0)Node5:0.002162360824733224,Gavia_stellata:0.01178606141024558)Node4:0,((Eurypyga_helias:0.009048023967927048,Rhynochetos_jubatus:0.00814832469969348)Node20:0.01133688512325221,Phaethon_lepturus:0.01477851009335943)Node19:0.001951239477473472)Node3:0.001098257883165961,(Balearica_regulorum:0.008120228400894176,Grus_americana:0.001854826516083144)Node24:0.01496535800721995)Node2:0,((Rissa_tridactyla:0.01156052318088148,Calidris_pugnax:0.02306064005733032)Node28:0.003451810719350805,Charadrius_vociferus:0.0165060153962469)Node27:0.008214086078096971)Node1:0,(Mesitornis_unicolor:0.02456424502426377,Pterocles_gutturalis:0.01507957284020357)Node32:0,Opisthocomus_hoazin:0.0132248548350872)
+
+dS tree: 
+	((((((((Nipponia_nippon:0.07988726630227187,Egretta_garzetta:0.09531278806178109)Node7:0.01504561709510346,Pelecanus_crispus:0.08074514338300126)Node6:0,(((Pygoscelis_adeliae:0.01598350231842531,Aptenodytes_forsteri:0.0364971007542164)Node13:0.004607306509243164,Spheniscus_demersus:0.01940844170133362)Node12:0.006160525945220715,Fulmarus_glacialis:0.08454445116231177)Node11:0)Node5:0,Gavia_stellata:0.07125910510071545)Node4:0.005611437169659236,((Eurypyga_helias:0.07654817180675934,Rhynochetos_jubatus:0.07738348671887113)Node20:0.05735298034152912,Phaethon_lepturus:0.07225874608215858)Node19:0.01365205833204898)Node3:0,(Balearica_regulorum:0.0547713987119921,Grus_americana:0.0207851912072411)Node24:0.0822130328195196)Node2:0,((Rissa_tridactyla:0.05272209484580299,Calidris_pugnax:0.09056664870455819)Node28:0.02967672971996874,Charadrius_vociferus:0.07058069025690615)Node27:0.01566281068453876)Node1:0.009297882305170939,(Mesitornis_unicolor:0.1185788468765935,Pterocles_gutturalis:0.1007430418353978)Node32:0.0008626149818684199,Opisthocomus_hoazin:0.09194009230586349)
+
+dN tree: 
+	((((((((Nipponia_nippon:0.02947006549807763,Egretta_garzetta:0.01441132695333525)Node7:0.0008941637815895977,Pelecanus_crispus:0.03727183190898593)Node6:0,(((Pygoscelis_adeliae:0.01576091829855506,Aptenodytes_forsteri:0.004716817444086598)Node13:0,Spheniscus_demersus:0.01019675635074101)Node12:0.01019685107735495,Fulmarus_glacialis:0.01785469959909421)Node11:0)Node5:0.002955262128538933,Gavia_stellata:0.0161078116713616)Node4:0,((Eurypyga_helias:0.01236578200302267,Rhynochetos_jubatus:0.01113617816259383)Node20:0.01549393000332268,Phaethon_lepturus:0.0201975408986258)Node19:0.002666726138177641)Node3:0.001500970556054225,(Balearica_regulorum:0.0110977794241206,Grus_americana:0.002534960167282254)Node24:0.02045290279628532)Node2:0,((Rissa_tridactyla:0.01579957237098505,Calidris_pugnax:0.03151658846284549)Node28:0.004717531587282935,Charadrius_vociferus:0.02255849330771476)Node27:0.01122605313114369)Node1:0,(Mesitornis_unicolor:0.03357154005290201,Pterocles_gutturalis:0.02060899828533282)Node32:0,Opisthocomus_hoazin:0.01807418641816171)
+
+Estimating pairwise dN/dS: total of 171 analyses
