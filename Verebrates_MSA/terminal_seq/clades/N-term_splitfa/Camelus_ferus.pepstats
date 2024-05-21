@@ -1,0 +1,48 @@
+PEPSTATS of Camelus_ferus from 1 to 32
+
+Molecular weight = 3935.17   		Residues = 32    
+Average Residue Weight  = 122.974 	Charge   = -2.0  
+Isoelectric Point = 4.6630
+A280 Molar Extinction Coefficients  = 4470 (reduced)   4470 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 1.136 (reduced)   1.136 (cystine bridges)
+Probability of expression in inclusion bodies = 0.888
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		2		6.250  		0.727  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		0		0.000  		0.000  	
+D = Asp		5		15.625 		2.841  	
+E = Glu		1		3.125  		0.521  	
+F = Phe		4		12.500 		3.472  	
+G = Gly		0		0.000  		0.000  	
+H = His		2		6.250  		3.125  	
+I = Ile		0		0.000  		0.000  	
+J = ---		0		0.000  		0.000  	
+K = Lys		1		3.125  		0.473  	
+L = Leu		2		6.250  		0.845  	
+M = Met		1		3.125  		1.838  	
+N = Asn		2		6.250  		1.453  	
+O = ---		0		0.000  		0.000  	
+P = Pro		0		0.000  		0.000  	
+Q = Gln		2		6.250  		1.603  	
+R = Arg		2		6.250  		1.276  	
+S = Ser		5		15.625 		2.232  	
+T = Thr		0		0.000  		0.000  	
+U = ---		0		0.000  		0.000  	
+V = Val		0		0.000  		0.000  	
+W = Trp		0		0.000  		0.000  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		3		9.375  		2.757  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		7		21.875
+Small		(A+B+C+D+G+N+P+S+T+V)	14		43.750
+Aliphatic	(A+I+L+V)		4		12.500
+Aromatic	(F+H+W+Y)		9		28.125
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	12		37.500
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	20		62.500
+Charged		(B+D+E+H+K+R+Z)		11		34.375
+Basic		(H+K+R)			5		15.625
+Acidic		(B+D+E+Z)		6		18.750
+

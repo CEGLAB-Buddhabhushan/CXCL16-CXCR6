@@ -1,0 +1,48 @@
+PEPSTATS of Rattus_rattus from 1 to 44
+
+Molecular weight = 5219.66   		Residues = 44    
+Average Residue Weight  = 118.629 	Charge   = -4.0  
+Isoelectric Point = 4.3791
+A280 Molar Extinction Coefficients  = 6990 (reduced)   6990 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 1.339 (reduced)   1.339 (cystine bridges)
+Probability of expression in inclusion bodies = 0.900
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		1		2.273  		0.264  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		0		0.000  		0.000  	
+D = Asp		6		13.636 		2.479  	
+E = Glu		4		9.091  		1.515  	
+F = Phe		4		9.091  		2.525  	
+G = Gly		3		6.818  		0.812  	
+H = His		2		4.545  		2.273  	
+I = Ile		0		0.000  		0.000  	
+J = ---		0		0.000  		0.000  	
+K = Lys		4		9.091  		1.377  	
+L = Leu		3		6.818  		0.921  	
+M = Met		2		4.545  		2.674  	
+N = Asn		4		9.091  		2.114  	
+O = ---		0		0.000  		0.000  	
+P = Pro		1		2.273  		0.437  	
+Q = Gln		2		4.545  		1.166  	
+R = Arg		1		2.273  		0.464  	
+S = Ser		3		6.818  		0.974  	
+T = Thr		0		0.000  		0.000  	
+U = ---		0		0.000  		0.000  	
+V = Val		2		4.545  		0.689  	
+W = Trp		1		2.273  		1.748  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		1		2.273  		0.668  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		7		15.909
+Small		(A+B+C+D+G+N+P+S+T+V)	20		45.455
+Aliphatic	(A+I+L+V)		6		13.636
+Aromatic	(F+H+W+Y)		8		18.182
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	18		40.909
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	26		59.091
+Charged		(B+D+E+H+K+R+Z)		17		38.636
+Basic		(H+K+R)			7		15.909
+Acidic		(B+D+E+Z)		10		22.727
+

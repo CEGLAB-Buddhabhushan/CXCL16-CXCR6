@@ -1,0 +1,48 @@
+PEPSTATS of Dromaius_novaehollandiae from 1 to 50
+
+Molecular weight = 5758.59   		Residues = 50    
+Average Residue Weight  = 115.172 	Charge   = 6.0   
+Isoelectric Point = 10.6263
+A280 Molar Extinction Coefficients  = 6990 (reduced)   6990 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 1.214 (reduced)   1.214 (cystine bridges)
+Probability of expression in inclusion bodies = 0.783
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		3		6.000  		0.698  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		1		2.000  		0.690  	
+D = Asp		2		4.000  		0.727  	
+E = Glu		2		4.000  		0.667  	
+F = Phe		3		6.000  		1.667  	
+G = Gly		2		4.000  		0.476  	
+H = His		0		0.000  		0.000  	
+I = Ile		1		2.000  		0.444  	
+J = ---		0		0.000  		0.000  	
+K = Lys		8		16.000 		2.424  	
+L = Leu		1		2.000  		0.270  	
+M = Met		2		4.000  		2.353  	
+N = Asn		3		6.000  		1.395  	
+O = ---		0		0.000  		0.000  	
+P = Pro		1		2.000  		0.385  	
+Q = Gln		4		8.000  		2.051  	
+R = Arg		2		4.000  		0.816  	
+S = Ser		4		8.000  		1.143  	
+T = Thr		6		12.000 		1.967  	
+U = ---		0		0.000  		0.000  	
+V = Val		3		6.000  		0.909  	
+W = Trp		1		2.000  		1.538  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		1		2.000  		0.588  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		16		32.000
+Small		(A+B+C+D+G+N+P+S+T+V)	25		50.000
+Aliphatic	(A+I+L+V)		8		16.000
+Aromatic	(F+H+W+Y)		5		10.000
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	19		38.000
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	31		62.000
+Charged		(B+D+E+H+K+R+Z)		14		28.000
+Basic		(H+K+R)			10		20.000
+Acidic		(B+D+E+Z)		4		 8.000
+

@@ -1,0 +1,48 @@
+PEPSTATS of Onychomys_torridus from 1 to 50
+
+Molecular weight = 5700.46   		Residues = 50    
+Average Residue Weight  = 114.009 	Charge   = 3.5   
+Isoelectric Point = 9.2758
+A280 Molar Extinction Coefficients  = 12490 (reduced)   12615 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 2.191 (reduced)   2.213 (cystine bridges)
+Improbability of expression in inclusion bodies = 0.853
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		2		4.000  		0.465  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		2		4.000  		1.379  	
+D = Asp		2		4.000  		0.727  	
+E = Glu		2		4.000  		0.667  	
+F = Phe		3		6.000  		1.667  	
+G = Gly		2		4.000  		0.476  	
+H = His		1		2.000  		1.000  	
+I = Ile		1		2.000  		0.444  	
+J = ---		0		0.000  		0.000  	
+K = Lys		6		12.000 		1.818  	
+L = Leu		4		8.000  		1.081  	
+M = Met		1		2.000  		1.176  	
+N = Asn		2		4.000  		0.930  	
+O = ---		0		0.000  		0.000  	
+P = Pro		1		2.000  		0.385  	
+Q = Gln		3		6.000  		1.538  	
+R = Arg		1		2.000  		0.408  	
+S = Ser		9		18.000 		2.571  	
+T = Thr		3		6.000  		0.984  	
+U = ---		0		0.000  		0.000  	
+V = Val		2		4.000  		0.606  	
+W = Trp		2		4.000  		3.077  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		1		2.000  		0.588  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		18		36.000
+Small		(A+B+C+D+G+N+P+S+T+V)	25		50.000
+Aliphatic	(A+I+L+V)		9		18.000
+Aromatic	(F+H+W+Y)		7		14.000
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	21		42.000
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	29		58.000
+Charged		(B+D+E+H+K+R+Z)		12		24.000
+Basic		(H+K+R)			8		16.000
+Acidic		(B+D+E+Z)		4		 8.000
+

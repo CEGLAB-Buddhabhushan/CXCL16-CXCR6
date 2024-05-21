@@ -1,0 +1,48 @@
+PEPSTATS of Aquila_chrysaetos from 1 to 32
+
+Molecular weight = 3687.96   		Residues = 32    
+Average Residue Weight  = 115.249 	Charge   = -2.5  
+Isoelectric Point = 4.1035
+A280 Molar Extinction Coefficients  = 2980 (reduced)   2980 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 0.808 (reduced)   0.808 (cystine bridges)
+Probability of expression in inclusion bodies = 0.736
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		3		9.375  		1.090  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		0		0.000  		0.000  	
+D = Asp		2		6.250  		1.136  	
+E = Glu		2		6.250  		1.042  	
+F = Phe		4		12.500 		3.472  	
+G = Gly		1		3.125  		0.372  	
+H = His		1		3.125  		1.562  	
+I = Ile		2		6.250  		1.389  	
+J = ---		0		0.000  		0.000  	
+K = Lys		0		0.000  		0.000  	
+L = Leu		0		0.000  		0.000  	
+M = Met		1		3.125  		1.838  	
+N = Asn		5		15.625 		3.634  	
+O = ---		0		0.000  		0.000  	
+P = Pro		1		3.125  		0.601  	
+Q = Gln		0		0.000  		0.000  	
+R = Arg		1		3.125  		0.638  	
+S = Ser		2		6.250  		0.893  	
+T = Thr		4		12.500 		2.049  	
+U = ---		0		0.000  		0.000  	
+V = Val		1		3.125  		0.473  	
+W = Trp		0		0.000  		0.000  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		2		6.250  		1.838  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		10		31.250
+Small		(A+B+C+D+G+N+P+S+T+V)	19		59.375
+Aliphatic	(A+I+L+V)		6		18.750
+Aromatic	(F+H+W+Y)		7		21.875
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	15		46.875
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	17		53.125
+Charged		(B+D+E+H+K+R+Z)		6		18.750
+Basic		(H+K+R)			2		 6.250
+Acidic		(B+D+E+Z)		4		12.500
+

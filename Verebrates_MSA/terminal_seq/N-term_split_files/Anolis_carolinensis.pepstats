@@ -1,0 +1,48 @@
+PEPSTATS of Anolis_carolinensis from 1 to 32
+
+Molecular weight = 4066.43   		Residues = 32    
+Average Residue Weight  = 127.076 	Charge   = -6.0  
+Isoelectric Point = 3.9206
+A280 Molar Extinction Coefficients  = 4470 (reduced)   4470 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 1.099 (reduced)   1.099 (cystine bridges)
+Probability of expression in inclusion bodies = 0.696
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		0		0.000  		0.000  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		0		0.000  		0.000  	
+D = Asp		3		9.375  		1.705  	
+E = Glu		7		21.875 		3.646  	
+F = Phe		2		6.250  		1.736  	
+G = Gly		0		0.000  		0.000  	
+H = His		0		0.000  		0.000  	
+I = Ile		2		6.250  		1.389  	
+J = ---		0		0.000  		0.000  	
+K = Lys		3		9.375  		1.420  	
+L = Leu		2		6.250  		0.845  	
+M = Met		2		6.250  		3.676  	
+N = Asn		2		6.250  		1.453  	
+O = ---		0		0.000  		0.000  	
+P = Pro		0		0.000  		0.000  	
+Q = Gln		2		6.250  		1.603  	
+R = Arg		1		3.125  		0.638  	
+S = Ser		2		6.250  		0.893  	
+T = Thr		1		3.125  		0.512  	
+U = ---		0		0.000  		0.000  	
+V = Val		0		0.000  		0.000  	
+W = Trp		0		0.000  		0.000  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		3		9.375  		2.757  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		3		 9.375
+Small		(A+B+C+D+G+N+P+S+T+V)	8		25.000
+Aliphatic	(A+I+L+V)		4		12.500
+Aromatic	(F+H+W+Y)		5		15.625
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	11		34.375
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	21		65.625
+Charged		(B+D+E+H+K+R+Z)		14		43.750
+Basic		(H+K+R)			4		12.500
+Acidic		(B+D+E+Z)		10		31.250
+

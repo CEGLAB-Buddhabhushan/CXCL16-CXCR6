@@ -1,0 +1,48 @@
+PEPSTATS of Pogona_vitticeps from 1 to 32
+
+Molecular weight = 3947.24   		Residues = 32    
+Average Residue Weight  = 123.351 	Charge   = -5.0  
+Isoelectric Point = 3.7346
+A280 Molar Extinction Coefficients  = 8940 (reduced)   8940 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 2.265 (reduced)   2.265 (cystine bridges)
+Probability of expression in inclusion bodies = 0.915
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		3		9.375  		1.090  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		0		0.000  		0.000  	
+D = Asp		3		9.375  		1.705  	
+E = Glu		4		12.500 		2.083  	
+F = Phe		2		6.250  		1.736  	
+G = Gly		1		3.125  		0.372  	
+H = His		0		0.000  		0.000  	
+I = Ile		0		0.000  		0.000  	
+J = ---		0		0.000  		0.000  	
+K = Lys		1		3.125  		0.473  	
+L = Leu		1		3.125  		0.422  	
+M = Met		3		9.375  		5.515  	
+N = Asn		3		9.375  		2.180  	
+O = ---		0		0.000  		0.000  	
+P = Pro		0		0.000  		0.000  	
+Q = Gln		0		0.000  		0.000  	
+R = Arg		1		3.125  		0.638  	
+S = Ser		1		3.125  		0.446  	
+T = Thr		3		9.375  		1.537  	
+U = ---		0		0.000  		0.000  	
+V = Val		0		0.000  		0.000  	
+W = Trp		0		0.000  		0.000  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		6		18.750 		5.515  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		8		25.000
+Small		(A+B+C+D+G+N+P+S+T+V)	14		43.750
+Aliphatic	(A+I+L+V)		4		12.500
+Aromatic	(F+H+W+Y)		8		25.000
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	16		50.000
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	16		50.000
+Charged		(B+D+E+H+K+R+Z)		9		28.125
+Basic		(H+K+R)			2		 6.250
+Acidic		(B+D+E+Z)		7		21.875
+

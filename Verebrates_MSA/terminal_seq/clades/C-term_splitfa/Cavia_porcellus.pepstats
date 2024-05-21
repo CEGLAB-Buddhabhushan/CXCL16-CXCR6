@@ -1,0 +1,48 @@
+PEPSTATS of Cavia_porcellus from 1 to 48
+
+Molecular weight = 5379.09   		Residues = 48    
+Average Residue Weight  = 112.064 	Charge   = 4.5   
+Isoelectric Point = 9.9653
+A280 Molar Extinction Coefficients  = 6990 (reduced)   7115 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 1.299 (reduced)   1.323 (cystine bridges)
+Improbability of expression in inclusion bodies = 0.871
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		3		6.250  		0.727  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		2		4.167  		1.437  	
+D = Asp		2		4.167  		0.758  	
+E = Glu		2		4.167  		0.694  	
+F = Phe		2		4.167  		1.157  	
+G = Gly		2		4.167  		0.496  	
+H = His		1		2.083  		1.042  	
+I = Ile		0		0.000  		0.000  	
+J = ---		0		0.000  		0.000  	
+K = Lys		5		10.417 		1.578  	
+L = Leu		6		12.500 		1.689  	
+M = Met		1		2.083  		1.225  	
+N = Asn		3		6.250  		1.453  	
+O = ---		0		0.000  		0.000  	
+P = Pro		1		2.083  		0.401  	
+Q = Gln		1		2.083  		0.534  	
+R = Arg		3		6.250  		1.276  	
+S = Ser		10		20.833 		2.976  	
+T = Thr		1		2.083  		0.342  	
+U = ---		0		0.000  		0.000  	
+V = Val		1		2.083  		0.316  	
+W = Trp		1		2.083  		1.603  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		1		2.083  		0.613  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		18		37.500
+Small		(A+B+C+D+G+N+P+S+T+V)	25		52.083
+Aliphatic	(A+I+L+V)		10		20.833
+Aromatic	(F+H+W+Y)		5		10.417
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	20		41.667
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	28		58.333
+Charged		(B+D+E+H+K+R+Z)		13		27.083
+Basic		(H+K+R)			9		18.750
+Acidic		(B+D+E+Z)		4		 8.333
+

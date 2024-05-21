@@ -1,0 +1,48 @@
+PEPSTATS of Tachyglossus_aculeatus from 1 to 50
+
+Molecular weight = 5954.78   		Residues = 50    
+Average Residue Weight  = 119.096 	Charge   = 3.0   
+Isoelectric Point = 10.0175
+A280 Molar Extinction Coefficients  = 12490 (reduced)   12490 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 2.097 (reduced)   2.097 (cystine bridges)
+Probability of expression in inclusion bodies = 0.528
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		3		6.000  		0.698  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		1		2.000  		0.690  	
+D = Asp		3		6.000  		1.091  	
+E = Glu		2		4.000  		0.667  	
+F = Phe		3		6.000  		1.667  	
+G = Gly		0		0.000  		0.000  	
+H = His		0		0.000  		0.000  	
+I = Ile		1		2.000  		0.444  	
+J = ---		0		0.000  		0.000  	
+K = Lys		4		8.000  		1.212  	
+L = Leu		6		12.000 		1.622  	
+M = Met		1		2.000  		1.176  	
+N = Asn		3		6.000  		1.395  	
+O = ---		0		0.000  		0.000  	
+P = Pro		1		2.000  		0.385  	
+Q = Gln		3		6.000  		1.538  	
+R = Arg		4		8.000  		1.633  	
+S = Ser		4		8.000  		1.143  	
+T = Thr		7		14.000 		2.295  	
+U = ---		0		0.000  		0.000  	
+V = Val		1		2.000  		0.303  	
+W = Trp		2		4.000  		3.077  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		1		2.000  		0.588  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		15		30.000
+Small		(A+B+C+D+G+N+P+S+T+V)	23		46.000
+Aliphatic	(A+I+L+V)		11		22.000
+Aromatic	(F+H+W+Y)		6		12.000
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	20		40.000
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	30		60.000
+Charged		(B+D+E+H+K+R+Z)		13		26.000
+Basic		(H+K+R)			8		16.000
+Acidic		(B+D+E+Z)		5		10.000
+

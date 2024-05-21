@@ -1,0 +1,48 @@
+PEPSTATS of Python_bivittatus from 1 to 44
+
+Molecular weight = 5285.78   		Residues = 44    
+Average Residue Weight  = 120.131 	Charge   = -2.5  
+Isoelectric Point = 4.4524
+A280 Molar Extinction Coefficients  = 7450 (reduced)   7450 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 1.409 (reduced)   1.409 (cystine bridges)
+Probability of expression in inclusion bodies = 0.751
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		2		4.545  		0.529  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		1		2.273  		0.784  	
+D = Asp		3		6.818  		1.240  	
+E = Glu		4		9.091  		1.515  	
+F = Phe		2		4.545  		1.263  	
+G = Gly		2		4.545  		0.541  	
+H = His		1		2.273  		1.136  	
+I = Ile		0		0.000  		0.000  	
+J = ---		0		0.000  		0.000  	
+K = Lys		2		4.545  		0.689  	
+L = Leu		4		9.091  		1.229  	
+M = Met		2		4.545  		2.674  	
+N = Asn		6		13.636 		3.171  	
+O = ---		0		0.000  		0.000  	
+P = Pro		0		0.000  		0.000  	
+Q = Gln		2		4.545  		1.166  	
+R = Arg		2		4.545  		0.928  	
+S = Ser		2		4.545  		0.649  	
+T = Thr		2		4.545  		0.745  	
+U = ---		0		0.000  		0.000  	
+V = Val		2		4.545  		0.689  	
+W = Trp		0		0.000  		0.000  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		5		11.364 		3.342  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		9		20.455
+Small		(A+B+C+D+G+N+P+S+T+V)	20		45.455
+Aliphatic	(A+I+L+V)		8		18.182
+Aromatic	(F+H+W+Y)		8		18.182
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	20		45.455
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	24		54.545
+Charged		(B+D+E+H+K+R+Z)		12		27.273
+Basic		(H+K+R)			5		11.364
+Acidic		(B+D+E+Z)		7		15.909
+

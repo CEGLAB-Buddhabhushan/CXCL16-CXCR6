@@ -1,0 +1,48 @@
+PEPSTATS of Pan_paniscus from 1 to 32
+
+Molecular weight = 3882.02   		Residues = 32    
+Average Residue Weight  = 121.313 	Charge   = -5.5  
+Isoelectric Point = 4.0547
+A280 Molar Extinction Coefficients  = 2980 (reduced)   2980 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 0.768 (reduced)   0.768 (cystine bridges)
+Probability of expression in inclusion bodies = 0.795
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		1		3.125  		0.363  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		0		0.000  		0.000  	
+D = Asp		4		12.500 		2.273  	
+E = Glu		4		12.500 		2.083  	
+F = Phe		4		12.500 		3.472  	
+G = Gly		1		3.125  		0.372  	
+H = His		3		9.375  		4.688  	
+I = Ile		0		0.000  		0.000  	
+J = ---		0		0.000  		0.000  	
+K = Lys		1		3.125  		0.473  	
+L = Leu		1		3.125  		0.422  	
+M = Met		1		3.125  		1.838  	
+N = Asn		2		6.250  		1.453  	
+O = ---		0		0.000  		0.000  	
+P = Pro		0		0.000  		0.000  	
+Q = Gln		3		9.375  		2.404  	
+R = Arg		0		0.000  		0.000  	
+S = Ser		4		12.500 		1.786  	
+T = Thr		0		0.000  		0.000  	
+U = ---		0		0.000  		0.000  	
+V = Val		1		3.125  		0.473  	
+W = Trp		0		0.000  		0.000  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		2		6.250  		1.838  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		6		18.750
+Small		(A+B+C+D+G+N+P+S+T+V)	13		40.625
+Aliphatic	(A+I+L+V)		3		 9.375
+Aromatic	(F+H+W+Y)		9		28.125
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	11		34.375
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	21		65.625
+Charged		(B+D+E+H+K+R+Z)		12		37.500
+Basic		(H+K+R)			4		12.500
+Acidic		(B+D+E+Z)		8		25.000
+

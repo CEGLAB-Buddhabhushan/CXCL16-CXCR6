@@ -1,0 +1,48 @@
+PEPSTATS of Mesocricetus_auratus from 1 to 40
+
+Molecular weight = 4850.21   		Residues = 40    
+Average Residue Weight  = 121.255 	Charge   = -8.0  
+Isoelectric Point = 3.9010
+A280 Molar Extinction Coefficients  = 6990 (reduced)   6990 (cystine bridges)
+A280 Extinction Coefficients 1mg/ml = 1.441 (reduced)   1.441 (cystine bridges)
+Probability of expression in inclusion bodies = 0.523
+
+Residue		Number		Mole%		DayhoffStat
+A = Ala		2		5.000  		0.581  	
+B = Asx		0		0.000  		0.000  	
+C = Cys		0		0.000  		0.000  	
+D = Asp		6		15.000 		2.727  	
+E = Glu		6		15.000 		2.500  	
+F = Phe		3		7.500  		2.083  	
+G = Gly		0		0.000  		0.000  	
+H = His		2		5.000  		2.500  	
+I = Ile		1		2.500  		0.556  	
+J = ---		0		0.000  		0.000  	
+K = Lys		2		5.000  		0.758  	
+L = Leu		1		2.500  		0.338  	
+M = Met		3		7.500  		4.412  	
+N = Asn		2		5.000  		1.163  	
+O = ---		0		0.000  		0.000  	
+P = Pro		2		5.000  		0.962  	
+Q = Gln		1		2.500  		0.641  	
+R = Arg		1		2.500  		0.510  	
+S = Ser		2		5.000  		0.714  	
+T = Thr		3		7.500  		1.230  	
+U = ---		0		0.000  		0.000  	
+V = Val		1		2.500  		0.379  	
+W = Trp		1		2.500  		1.923  	
+X = Xaa		0		0.000  		0.000  	
+Y = Tyr		1		2.500  		0.735  	
+Z = Glx		0		0.000  		0.000  	
+
+Property	Residues		Number		Mole%
+Tiny		(A+C+G+S+T)		7		17.500
+Small		(A+B+C+D+G+N+P+S+T+V)	18		45.000
+Aliphatic	(A+I+L+V)		5		12.500
+Aromatic	(F+H+W+Y)		7		17.500
+Non-polar	(A+C+F+G+I+L+M+P+V+W+Y)	15		37.500
+Polar		(D+E+H+K+N+Q+R+S+T+Z)	25		62.500
+Charged		(B+D+E+H+K+R+Z)		17		42.500
+Basic		(H+K+R)			5		12.500
+Acidic		(B+D+E+Z)		12		30.000
+
