@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/VMIRK/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    1.7e-51  161.1  25.1    2.3e-51  160.7  25.1    1.2  1  Phascolarctos_cinereus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Phascolarctos_cinereus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.7  25.1   2.3e-51   2.3e-51       1     264 []      47     287 ..      47     287 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 160.7 bits;  conditional E-value: 2.3e-51
+                                HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRY 84 
+                                gN+lV++v +  ++ ++ t+ +ll+L iaDll+ +++lpf+++ ++  +ew+fg+v+C+++l ++++++++s+l+l++i++DR+
+  Phascolarctos_cinereus_WT  47 GNCLVLAVYIFCQKAKSLTDQFLLNLPIADLLF-ICTLPFWAYATI--HEWVFGQVMCKVVLGMYTLNFYTSMLFLTCITIDRF 127
+                                8********************************.********8777..8*********************************** PP
+
+                                HHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1  85 laitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvi 166
+                                +a++++ k+++ + kr ++  ++ + vWvlsll+a+p++ +  v    q+++++C  + ++++ ++ ++ ++++f+lPl+ m+i
+  Phascolarctos_cinereus_WT 128 IAVVQATKTHNCQAKRMTMrkIIYVTVWVLSLLVAIPQFKYARV---SQNNKQVCHNEDEEISTVVLTIQMTIGFFLPLTAMII 208
+                                **********99998875411666789************99888...5556689*******999999999999*********** PP
+
+                                HHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1 167 lyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftia 250
+                                +y  i++t+ + +  +++                   k +k++++vvavf+++ lPf+++ l+++ +++     +++ a+ ++ 
+  Phascolarctos_cinereus_WT 209 CYSVIVKTLIHAKGFQKH-------------------KSLKIIFLVVAVFVMTQLPFNLVKLIRTTNWEYDTDPHFYYAFVITE 273
+                                **************9998...................99*****************************************9999 PP
+
+                                HHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxx RF
+                      7tm_1 251 wlgysnsavNPiiY 264
+                                 ++y+  ++NP++Y
+  Phascolarctos_cinereus_WT 274 AIAYLRACLNPVLY 287
+                                *************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 34.26
+//
+[ok]

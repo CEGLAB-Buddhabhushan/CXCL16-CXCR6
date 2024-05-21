@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/CD9BW/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+    3.2e-49  153.6  20.1      6e-49  152.8  20.1    1.4  1  Heteronetta_atricapilla_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Heteronetta_atricapilla_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.8  20.1     6e-49     6e-49       1     264 []      48     290 ..      48     290 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 152.8 bits;  conditional E-value: 6e-49
+                                 HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                       7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDR 83 
+                                 gN lV+++++ +++l+t t+i+ll+LaiaD ++ l +lpf++++ +  +ew fg+v Cr++  ++ +++++s+l+l+ i+fDR
+  Heteronetta_atricapilla_WT  48 GNALVVIILVFYEKLKTLTDIFLLNLAIADWIF-LWTLPFWAYSAA--QEWIFGTVACRIIRGLYNLNLYTSMLTLTSITFDR 127
+                                 8********************************.********7666..9********************************** PP
+
+                                 HHHHHSHHHHHHHSHHHH..HHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHH CS
+                                 xxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxx RF
+                       7tm_1  84 Ylaitkplkykrkrtkrv..arlmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPll 162
+                                  +ait + k++  +tkr    +l+++l+Wv+sl++a p+l++++v     d+   C  ++++  +e ++ ++  ++++++P+l
+  Heteronetta_atricapilla_WT 128 LIAITFATKAHMCQTKRMkwGKLICGLIWVISLAFASPQLIFSDVF--TIDK-AICLEKYPNhhTELVLEVIQVTLGYFIPML 207
+                                 ************99987633679**********************3..3333.68*******9889999999999******** PP
+
+                                 HHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHH CS
+                                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                       7tm_1 163 vmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagcipta 245
+                                  m+i+y  i++t+l+ ++ +++                   k +k ++ vva+fi++  P+t++ l++++ ++ +    ++ a
+  Heteronetta_atricapilla_WT 208 TMIICYSLIIKTLLHARNFQKN-------------------KSLKKIFSVVAIFILTQSPYTFLRLMKIIDWSFNLDSNFEYA 271
+                                 *********************9...................89**************************************** PP
+
+                                 HHHHHHHHHHHHHHHHHHH CS
+                                 xxxxxxxxxxxxxxxxxxx RF
+                       7tm_1 246 lftiawlgysnsavNPiiY 264
+                                 + ++  l+y++ ++NP+ Y
+  Heteronetta_atricapilla_WT 272 IVITEALAYFHGCLNPVMY 290
+                                 *9999************99 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (345 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 15.81
+//
+[ok]

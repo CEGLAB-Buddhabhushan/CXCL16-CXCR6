@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/FCA40/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    3.1e-49  153.7  25.1    5.4e-49  152.9  25.1    1.4  1  Manis_pentadactyla_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Manis_pentadactyla_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.9  25.1   5.4e-49   5.4e-49       1     264 []      47     287 ..      47     287 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 152.9 bits;  conditional E-value: 5.4e-49
+                            HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlait 88 
+                            gN lV+++ +++++l++ t+++l++L +aDl++ +++lpf+++  +  +ew fg+++C+++l ++++++++s+l l++i++DR++a++
+  Manis_pentadactyla_WT  47 GNSLVLVIYVCYQKLKSLTDVFLMNLPLADLVF-ICTLPFWAYAGI--HEWIFGSFMCKTLLGIYTLNFYTSMLILTCITVDRFIAVV 131
+                            8********************************.********8888..8*************************************** PP
+
+                            SHHHHHHHSH..HHHHHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1  89 kplkykrkrt..krvarlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqt 174
+                            ++ k+ +++    +  ++++l +Wv+sll+a+p++++++v  +  d+   C  ++++++ ++    ++++f+lPll m+++y  i++t
+  Manis_pentadactyla_WT 132 RATKAYNQQAkwMTLGKAICLSIWVISLLVALPQIIYGNV--HYLDK-PICGYHNEEISTVVLATQMTLGFFLPLLTMIVCYSVIVKT 216
+                            ***988887723456789**********************..34444.79*******99999999999******************** PP
+
+                            HHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1 175 vlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPi 262
+                            +l+ +  +++                   k +k++++vvavf+v+ +Pf+++ l++++s++ +  + ++ a+ ++  ++y+  ++NP+
+  Manis_pentadactyla_WT 217 LLQARGFQKH-------------------KSLKIIFLVVAVFLVTQTPFNLVKLIRSMSWEYNTMTSFHYAILVTEAIAYLRACLNPV 285
+                            ****999998...................99********************************************************* PP
+
+                            HH CS
+                            xx RF
+                  7tm_1 263 iY 264
+                            +Y
+  Manis_pentadactyla_WT 286 LY 287
+                            *9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 33.50
+//
+[ok]

@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/JDCCO/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                     -----------
+    1.6e-49  154.6  21.0    3.8e-49  153.4  21.0    1.7  1  Rhinolophus_ferrumequinum_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Rhinolophus_ferrumequinum_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.4  21.0   3.8e-49   3.8e-49       1     264 []      54     294 ..      54     294 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 153.4 bits;  conditional E-value: 3.8e-49
+                                   HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                         7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisf 81 
+                                   gN lV+++ + +++l++ t++ll++L +aDl++ +++lpf+++  +  +ew+fg+++C+++l v+++++++s+l l++i++
+  Rhinolophus_ferrumequinum_WT  54 GNSLVLVIHIFYQKLKSLTDVLLMNLPLADLVF-VCTLPFWAYAGI--HEWVFGKIVCKTLLGVYTLNFYTSMLILTCITM 131
+                                   8********************************.********8888..8******************************** PP
+
+                                   HHHHHHHSHHHHHHHSHHHH..HHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHH CS
+                                   xxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                         7tm_1  82 DRYlaitkplkykrkrtkrv..arlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilP 160
+                                   DR++a++++ k+ +++ kr    +++++ +Wv+sll+++p++++++v  +++d+ + C  + ++++ ++  + + ++f+lP
+  Rhinolophus_ferrumequinum_WT 132 DRFMAVVQATKAYNQQAKRMswGKAICVSTWVFSLLMSLPQIIYGDV--RRHDK-SICGYHDDEISTVVLAIQMSFGFFLP 209
+                                   ***********999988877225689999******************..45555.79*******8899999999999**** PP
+
+                                   HHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHH CS
+                                   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                         7tm_1 161 llvmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagc 241
+                                   ll m+++y  i++t+l+ +  +++                   k +k++++vvavf+++ +Pf+++ l+++ s++      
+  Rhinolophus_ferrumequinum_WT 210 LLAMIVCYSVIIKTLLHARGFQRH-------------------KSLKIIFLVVAVFVLTQTPFNLVKLVRSTSWEYYTMIS 271
+                                   ******************999998...................99************************************ PP
+
+                                   HHHHHHHHHHHHHHHHHHHHHHH CS
+                                   xxxxxxxxxxxxxxxxxxxxxxx RF
+                         7tm_1 242 iptalftiawlgysnsavNPiiY 264
+                                   ++ a++++  ++y+  ++NP++Y
+  Rhinolophus_ferrumequinum_WT 272 FHYAVTVTEAIAYLRACLNPVLY 294
+                                   *******99*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (348 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 14.84
+//
+[ok]

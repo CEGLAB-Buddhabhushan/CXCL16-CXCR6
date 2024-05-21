@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/MOY6E/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    8.8e-53  165.3  16.4    1.2e-52  164.9  16.4    1.2  1  Nothoprocta_perdicaria_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Nothoprocta_perdicaria_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.9  16.4   1.2e-52   1.2e-52       1     264 []      47     289 ..      47     289 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 164.9 bits;  conditional E-value: 1.2e-52
+                                HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRY 84 
+                                gN+lV+++++ +++l+t t+i+ll+La aDl++ l +lpf++++ +  +ew+fg v Cr++  ++ +++++s+l+l++i fDR 
+  Nothoprocta_perdicaria_WT  47 GNTLVFIILVFYEKLKTLTDIYLLNLATADLVF-LWTLPFWAYSAA--QEWAFGXVACRIIRGLYNLNLYTSMLTLTCIXFDRL 127
+                                8********************************.********7666..9*********************************** PP
+
+                                HHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1  85 laitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvm 164
+                                +ait + k++++++kr+++  ++++l+Wv+sl++a+p++++++     q ++  Cq ++++  +e+ +  +   +++++P+l m
+  Nothoprocta_perdicaria_WT 128 VAITFATKARQRQSKRKTWgkIICILIWVISLAFATPQFIFSEA---FQIDKAICQEKYPNhrTEVXLEAIQVALGYFIPMLTM 208
+                                ************9988865338999****************999...3444579*******99999999999999********* PP
+
+                                HHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1 165 vilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalft 248
+                                +i+y  i++t+l+ ++ +++                   k +k ++ vva+fi++ +P+t++ l+++  ++ + ++ ++ a+ +
+  Nothoprocta_perdicaria_WT 209 TICYSLIIKTLLHARSFQKH-------------------KSLKKIFSVVATFILTQTPYTFLRLIKIADWSFNLNRSFEYAIVI 273
+                                *****************998...................89*****************************************99 PP
+
+                                HHHHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxx RF
+                      7tm_1 249 iawlgysnsavNPiiY 264
+                                +  l+y++ ++NP++Y
+  Nothoprocta_perdicaria_WT 274 TEALAYFHGCLNPVLY 289
+                                99*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (342 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 18.21
+//
+[ok]

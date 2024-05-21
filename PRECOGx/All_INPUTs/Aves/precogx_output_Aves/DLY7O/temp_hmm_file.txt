@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/DLY7O/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    4.5e-50  156.4  23.4    6.3e-50  156.0  23.4    1.2  1  Athene_cunicularia_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Athene_cunicularia_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  156.0  23.4   6.3e-50   6.3e-50       1     264 []      48     290 ..      48     290 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 156.0 bits;  conditional E-value: 6.3e-50
+                            HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlait 88 
+                            gN lV+++++ +++l+  t+++ll+LaiaD ++ l +lpf++++ +  ++w+fg+v+Cr++  ++++++++s+l+l+ i++DR +ait
+  Athene_cunicularia_WT  48 GNALVFVILVFYEKLKMLTDVFLLNLAIADWVF-LWTLPFWAYSAA--QDWTFGTVTCRIIRGLYTLNLYTSMLTLTSITIDRLIAIT 132
+                            8********************************.********7666..9*************************************** PP
+
+                            SHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1  89 kplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyarif 172
+                             + k++  +tkr ++  l+++l+Wv+sl++a+p++++++v     d+   Cq ++++  +e+++ ++  ++++++P+l m+i+y  i+
+  Athene_cunicularia_WT 133 FATKAHMCQTKRMTWgkLICVLIWVISLAFATPQFIFSEV--FSIDK-AICQEEYPNhqTEMVLEVIQVTLGYFIPMLAMTICYSLII 217
+                            **********998653399*********************..33444.68*******988888889999999**************** PP
+
+                            HHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1 173 qtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavN 260
+                            +t+l+ ++ +++                   k +k ++ vv+vfi++  P+t++ l++++ ++ + +  ++ a+ ++  l+y++ ++N
+  Athene_cunicularia_WT 218 RTLLHARSFQKN-------------------KSLKKIFSVVVVFILTQSPYTFLRLIKIIDWSFNLNSSFEYAIIVTEALAYFHGCLN 286
+                            ***********9...................89*******************************************99********** PP
+
+                            HHHH CS
+                            xxxx RF
+                  7tm_1 261 PiiY 264
+                            P++Y
+  Athene_cunicularia_WT 287 PVLY 290
+                            ***9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (345 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 15.99
+//
+[ok]

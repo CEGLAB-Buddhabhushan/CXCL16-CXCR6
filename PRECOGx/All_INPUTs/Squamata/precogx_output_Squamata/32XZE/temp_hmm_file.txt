@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/32XZE/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    1.8e-51  161.0  20.9      3e-51  160.3  20.9    1.3  1  Phrynosoma_platyrhinos_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Phrynosoma_platyrhinos_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.3  20.9     3e-51     3e-51       1     264 []      47     289 ..      47     289 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 160.3 bits;  conditional E-value: 3e-51
+                                HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRY 84 
+                                gN lV+++++ +++++  ++i+l+sLa+aDl++ l++lpf++++ +  +ew f ++ C+++  +++++++ s+l+l++i++DRY
+  Phrynosoma_platyrhinos_WT  47 GNSLVLIILIFYEKVKVLSDIFLVSLAVADLCF-LCTLPFWAYSAA--DEWIFYTLPCKIIRGLYTVNLYGSMLTLTCITIDRY 127
+                                8********************************.********7666..9*********************************** PP
+
+                                HHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1  85 laitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvm 164
+                                +ai+++ k++  + kr+++  ++++ vWv+sl++a+p+++++t+  +++d+ k C  ++++  a++   i  +v++f++P++vm
+  Phrynosoma_platyrhinos_WT 128 FAIVQATKAHVNQAKRRVWgtAVCVSVWVISLAFAMPQFIFSTE--VQNDK-KICHSKYPSkhAHMFTEITQMVLGFFCPIVVM 208
+                                ***************999733678899***************99..56666.99*******97888888999************ PP
+
+                                HHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1 165 vilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalft 248
+                                vi+y  i++t++k +  +++                   k +++++++v++fi++ +P++++ +++a+ +       ++  l +
+  Phrynosoma_platyrhinos_WT 209 VIFYSVIVKTLFKAKGFHKH-------------------KSLQIVFAIVVTFIFTQTPYNMLKIIRAVDKRVLLDYNFDYGLII 273
+                                **************999998...................99***************************9999**********99 PP
+
+                                HHHHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxx RF
+                      7tm_1 249 iawlgysnsavNPiiY 264
+                                +  ++y++s++NP++Y
+  Phrynosoma_platyrhinos_WT 274 TEAIAYLHSCLNPVLY 289
+                                99*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 16.66
+//
+[ok]

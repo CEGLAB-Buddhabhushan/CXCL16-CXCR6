@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/8Y3GJ/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    3.4e-46  143.7   4.6    6.5e-46  142.8   4.6    1.5  1  Perognathus_longimembris_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Perognathus_longimembris_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  142.8   4.6   6.5e-46   6.5e-46       1     264 []      52     292 ..      52     292 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 142.8 bits;  conditional E-value: 6.5e-46
+                                  HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfD 82 
+                                  gN lV++v +++++ ++ t++lll+L +aDll+  ++lpf+++     +ew+fg+++C+ +  v+ ++++as+l+l+ i+  
+  Perognathus_longimembris_WT  52 GNALVLLVHARYQARRSLTDLLLLNLPLADLLF-ACTLPFWAYAGS--REWVFGQAVCKALQGVYSVNLYASMLTLTGITAG 130
+                                  8********************************.99******7666..9********************************* PP
+
+                                  HHHHHHSHHHHHHHSHHHHH..HHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1  83 RYlaitkplkykrkrtkrva..rlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPll 162
+                                  R++ + ++ +++++r++  a  r+ ++l+W+ +lll++p+l+ + v   +q ++  C  + + a  +   + a ++f+lPll
+  Perognathus_longimembris_WT 131 RFVMVAQATRAHAHRERWAAwgRAACALTWAGALLLSLPQLLHSRV---EQLDRLACHYHHEDAAPAALALQAALGFFLPLL 209
+                                  **************99766522799****************88888...4444589*******9999999************ PP
+
+                                  HHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1 163 vmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagcipt 244
+                                   m+++y  +++t+l+ +   ++                   k +k++++  avf+++ +P++++ l+qa s++  a+  +  
+  Perognathus_longimembris_WT 210 AMLVCYPLVVRTLLRARGPRRR-------------------KPLKIILVAAAVFLLTQTPYVLARLVQATSWEHAASPRFGY 272
+                                  ***************9998887...................89*************************************** PP
+
+                                  HHHHHHHHHHHHHHHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1 245 alftiawlgysnsavNPiiY 264
+                                  al ++  l+y+  ++NP++Y
+  Perognathus_longimembris_WT 273 ALVVTEALAYLRACLNPVLY 292
+                                  ****99*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (346 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 9.06
+//
+[ok]

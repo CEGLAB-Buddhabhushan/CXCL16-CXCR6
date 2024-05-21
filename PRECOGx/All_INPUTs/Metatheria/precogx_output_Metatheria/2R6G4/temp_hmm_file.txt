@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/2R6G4/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    9.8e-51  158.6  24.0    1.4e-50  158.1  24.0    1.2  1  Dromiciops_gliroides_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Dromiciops_gliroides_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  158.1  24.0   1.4e-50   1.4e-50       1     264 []      47     287 ..      47     287 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 158.1 bits;  conditional E-value: 1.4e-50
+                              HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYla 86 
+                              gN+lV++v +  ++ ++ t+ +ll+L iaDll+ +++lp++++ ++  +ew+fg+v+C+++l ++++++++s+l+l++i++DR++a
+  Dromiciops_gliroides_WT  47 GNCLVLAVYIFFQKAKSLTDQFLLNLPIADLLF-ICTLPIWAYATI--QEWVFGQVMCKVVLGMYTLNFYTSMLFLTCITIDRFIA 129
+                              8********************************.********8777..8************************************* PP
+
+                              HHSHHHHHHHSHHH..HHHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1  87 itkplkykrkrtkr..varlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyar 170
+                              ++++ k++ ++ kr  v +++++++Wv+sll+a+p++++ +v    q+++++C  +  + + ++    ++++f+lPl+ m+++y  
+  Dromiciops_gliroides_WT 130 VVQATKTHIYQAKRmtVGKTICVAIWVVSLLVAIPQFTYASV---SQKNKQVCHNEEGELSTVILSTQMTIGFFLPLVAMLVCYSV 212
+                              ******99988876225678999****************999...4555589*******7777778888999************** PP
+
+                              HHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1 171 ifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysn 256
+                              i +t+ + +  +++                   k +k++++vvavf+v+ +Pf+++ l+++  ++     c+  al ++  ++y+ 
+  Dromiciops_gliroides_WT 213 ITKTLIHAKGFQKH-------------------KSLKIIFLVVAVFLVTQMPFNLMKLIRTTDWEYDTDPCFLYALVVTEAIAYLR 279
+                              **********9998...................99*******************************************99****** PP
+
+                              HHHHHHHH CS
+                              xxxxxxxx RF
+                    7tm_1 257 savNPiiY 264
+                               ++NP++Y
+  Dromiciops_gliroides_WT 280 ACLNPVLY 287
+                              *******9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (370 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 35.52
+//
+[ok]

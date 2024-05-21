@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/S0AID/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    3.4e-49  153.5  27.7    3.4e-49  153.5  27.7    1.4  2  Orycteropus_afer_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Orycteropus_afer_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.5   0.0      0.28      0.28     147     167 ..      21      41 ..      13      43 .. 0.70
+   2 !  153.5  27.7   3.4e-49   3.4e-49       1     264 []      47     287 ..      47     287 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: -3.5 bits;  conditional E-value: 0.28
+                          HHHHHHHHHHTHHHHHHHHHH CS
+                          xxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1 147 myiifsavasfilPllvmvil 167
+                           ++ f+ +  f+lP++ +v++
+  Orycteropus_afer_WT  21 EHNHFLQFSKFFLPCIYIVVF 41 
+                          556677778888888888775 PP
+
+  == domain 2  score: 153.5 bits;  conditional E-value: 3.4e-49
+                          HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSH CS
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkp 90 
+                          gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew+fg+ +C+++l ++++++++s+l l++i++DR++a++++
+  Orycteropus_afer_WT  47 GNSLVLVIYIFYQKLKSITDLFLMNLPLADLVF-VCTLPFWAYASI--HEWVFGKPMCKILLGIYTLNFYTSMLILTCITVDRFIAVVQA 133
+                          8********************************.********8777..8***************************************** PP
+
+                          HHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHH CS
+                          xxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1  91 lkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqtvlkt 178
+                           k+++++ k  ++  +++l++W++sl++++p++++++v     d+  +C  + ++++ ++  + ++++f+lPl+ m+++y  i++t+l+ 
+  Orycteropus_afer_WT 134 TKAHNQQAKWMIWgkVICLFIWIISLVVSLPQIIYGNV--FSRDK-IVCGYNDEKISTVVLAVQMTLGFFLPLFAMIVCYSVIIKTLLHA 220
+                          ******998875433899********************..44455.79*******999999999************************** PP
+
+                          HHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1 179 srtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                          ++ +++                   k +k++++vvavf+++ +Pf+++ l+ + s++  a + ++ ++ ++  ++y+  ++NP++Y
+  Orycteropus_afer_WT 221 RSFQKH-------------------KSLKIIFLVVAVFLLTQMPFNLVKLILSTSWEYHAMTSFHYVVIVTEAIAYLRACLNPVLY 287
+                          **9998...................99*******************************************99*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 19.13
+//
+[ok]

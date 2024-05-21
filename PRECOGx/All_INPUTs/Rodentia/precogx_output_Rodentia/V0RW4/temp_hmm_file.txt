@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/V0RW4/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+      5e-47  146.4  28.3      5e-47  146.4  28.3    1.4  2  Chionomys_nivalis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Chionomys_nivalis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  146.4  28.3     5e-47     5e-47       1     264 []      47     287 ..      47     287 .. 0.93
+   2 ?   -3.6   0.0      0.29      0.29     120     143 ..     309     333 ..     299     340 .. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 146.4 bits;  conditional E-value: 5e-47
+                           HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHS CS
+                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitk 89 
+                           gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++      ew+fg+v+C++++ ++++++++s+l+l++i++DR++++++
+  Chionomys_nivalis_WT  47 GNSLVLVIYIFYQKLRSLTDVFLVNLPVADLVF-VCTLPFWAYAGT--YEWVFGTVMCKTLHGMYTVNFYVSMLTLTCITVDRFIVVVQ 132
+                           8********************************.********6555..8**************************************** PP
+
+                           HHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHH CS
+                           xxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1  90 plkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqtvl 176
+                           + k  +++ k +++  +++ll+Wv+sll+++p++++  v  ++ dt ++Cq + ++++ ++ +  ++++f+lPll m+++y  i++t+l
+  Chionomys_nivalis_WT 133 ATKVFNQQAKWKIWgqITCLLTWVVSLLVSLPQIIYARV--ERLDT-HVCQYHSEAISTVVLTTQMTLGFLLPLLTMIVCYSSIIKTLL 218
+                           ***9999998876533899*****************999..66666.89*******9999999999*********************** PP
+
+                           HHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1 177 ktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                           + +  +++                   k +k++++vvavf+++ +Pf++++l+++   +  +   ++ a+ ++  ++y+  ++NP++Y
+  Chionomys_nivalis_WT 219 HARGFQKH-------------------KSLKIIFVVVAVFLLTQTPFNLTILIRSTRREYYNMINFQYAIIVTEAIAYFRACLNPVLY 287
+                           ***99998...................99***************************666666666777777777*************9 PP
+
+  == domain 2  score: -3.6 bits;  conditional E-value: 0.29
+                           HHHHTEEEC.TTTTTTCEEEESSTC CS
+                           xxxxxxxxx.xxxxxxxxxxxxxxx RF
+                 7tm_1 120 llvletvet.naqdttkdCqittlp 143
+                           ++++ +++  + +d+ k+C+ + ++
+  Chionomys_nivalis_WT 309 PYLGVSSQWkSSEDSSKTCSASHNA 333
+                           4434333223667778999888777 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 27.08
+//
+[ok]

@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/LG6YF/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    7.4e-50  155.7  25.0    1.1e-49  155.2  25.0    1.2  1  Microcebus_murinus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Microcebus_murinus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  155.2  25.0   1.1e-49   1.1e-49       1     264 []      48     288 ..      48     288 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 155.2 bits;  conditional E-value: 1.1e-49
+                            HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlait 88 
+                            gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew+fg+++C++++ ++++++++s+l l++i++DR++a++
+  Microcebus_murinus_WT  48 GNSLVLVISIFYQKLKSLTDVFLVNLPLADLVF-VCTLPFWAYASI--REWVFGNIMCKTLIGIYTINFYTSMLILTCITVDRFIAVV 132
+                            8********************************.********7777..9*************************************** PP
+
+                            SHHHHHHHSHHHH..HHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1  89 kplkykrkrtkrv..arlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqt 174
+                            ++ k+ +++ kr    ++++ll+W++sll+++p++++++v   + d+   C+ + ++++ ++ +  ++++f+lPll m+++y  i++t
+  Microcebus_murinus_WT 133 QATKTYNQQAKRMikGKVICLLIWLISLLVSLPQVIYGSV--LHLDK-LICDYHDEEISTVVLTTQMTLGFFLPLLAMIVCYSVIIKT 217
+                            ****99999888622689**********************..44555.78*******9999999999********************* PP
+
+                            HHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1 175 vlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPi 262
+                            +l+ +  +++                   + +k++++vvavf+++ +Pf+++ l+++ s++  a + ++ a++++  ++y+  ++NP+
+  Microcebus_murinus_WT 218 LLHARGFQKH-------------------RSLKIIFLVVAVFLLTQTPFNLVKLIRSTSWEYYAMTSFHYAITVTEAIAYLRACLNPV 286
+                            *****99998...................99********************************************************* PP
+
+                            HH CS
+                            xx RF
+                  7tm_1 263 iY 264
+                            +Y
+  Microcebus_murinus_WT 287 LY 288
+                            *9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (342 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 20.39
+//
+[ok]

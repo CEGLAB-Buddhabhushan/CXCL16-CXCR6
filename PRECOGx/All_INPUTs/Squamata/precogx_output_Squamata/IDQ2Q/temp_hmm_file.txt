@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/IDQ2Q/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    2.2e-48  150.9  24.4    2.2e-48  150.9  24.4    2.3  2  Lacerta_agilis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Lacerta_agilis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.3   0.1     0.059     0.059     204     226 ..      22      44 ..      12      47 .. 0.70
+   2 !  150.9  24.4   2.2e-48   2.2e-48       1     264 []      49     294 ..      49     294 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: -1.3 bits;  conditional E-value: 0.059
+                        HHHHHHHHHHHHHHHHHHHHHHH CS
+                        xxxxxxxxxxxxxxxxxxxxxxx RF
+              7tm_1 204 kaaktlgivvavfivcwlPftii 226
+                        +a kt ++   vf+vc+  f +i
+  Lacerta_agilis_WT  22 SAHKTFTAFSSVFLVCMYSFACI 44 
+                        56677777777888888777665 PP
+
+  == domain 2  score: 150.9 bits;  conditional E-value: 2.2e-48
+                        HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHHH CS
+                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+              7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkplk 92 
+                        gN+lV+++++ +++++  t+++l+sLa+aDl++ l++lpf++++ +  +ew f ++ C+++  +++++++ s+l+l+++++DRY+ai+++ k
+  Lacerta_agilis_WT  49 GNTLVLIIFIFYEKVKVLTDVFLVSLAVADLCF-LCTLPFWAYSAA--KEWIFYTLPCQIIRGLYTLNLYGSMLTLTCLTIDRYFAIVQATK 137
+                        8********************************.********7666..9******************************************* PP
+
+                        HHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHH CS
+                        xxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+              7tm_1  93 ykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyarifqtvlktsr 180
+                        ++  + kr ++  ++++lvWvlsll+a+p+++++t+  ++ +++++C  ++++   +++   + +++++++P+lvmv++y  i +t+l  + 
+  Lacerta_agilis_WT 138 AHISQAKRIVWgkAVCILVWVLSLLFALPQFLFSTQ--KEYSSKRVCIAEYPSnsLQMLTEAIQMTLGYFCPMLVMVLCYSVITNTLLYAKG 227
+                        *****9999864489*********************..6677778********97778888888999999******************9998 PP
+
+                        HHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHH..HHHHHHHHHHHHHHHHHHHHH CS
+                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxx RF
+              7tm_1 181 tmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagcip..talftiawlgysnsavNPiiY 264
+                          ++                   k +k+++++v+vfi++ +P++++ l++a  +   + + ++   al ++  ++y++s++NP++Y
+  Lacerta_agilis_WT 228 FRKQ-------------------KSLKIIFAIVVVFIFTQTPYNVLKLIRAADPRVMMDNGFRfeYALIVTEAIAYFHSCLNPVLY 294
+                        8887...................99***************************66666665555115555556*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (349 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 9.22
+//
+[ok]

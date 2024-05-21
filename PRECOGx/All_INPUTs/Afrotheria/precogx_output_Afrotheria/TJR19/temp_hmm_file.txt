@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/TJR19/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    2.3e-48  150.9  27.9    3.1e-48  150.4  27.9    1.2  1  Elephantulus_edwardii_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Elephantulus_edwardii_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  150.4  27.9   3.1e-48   3.1e-48       1     264 []     101     341 ..     101     341 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 150.4 bits;  conditional E-value: 3.1e-48
+                               HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYl 85 
+                               gN lV+++ + ++++ + t+++l++L +aDl++ +++lpf+++  +  +ew+fg+++C+++l v+++++++s+l l++i++DR++
+  Elephantulus_edwardii_WT 101 GNSLVLVIYVFYQKVNSITDLFLMNLPLADLVF-VCTLPFWAYASV--HEWVFGRFMCKMVLGVYTLNFYTSMLILTCITIDRFV 182
+                               8********************************.********8777..8************************************ PP
+
+                               HHHSHHHHHHHSH..HHHHHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHH CS
+                               xxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1  86 aitkplkykrkrt..krvarlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvily 168
+                               +++++ k+ +++    +  r+++ ++W++sll+++p+++++++   +qd   +C+ ++  ++ m+     +++f+lPll m+++y
+  Elephantulus_edwardii_WT 183 SVVQATKAYNQQAkwMSWGRAVCTIIWTASLLVSLPQIIYGNT--FPQDR-VVCSYSNADISTMVLATQLTLGFFLPLLTMIVCY 264
+                               ******98888872346689***********************..89999.89*******9************************ PP
+
+                               HHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1 169 arifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlg 253
+                                 i++t++kt+  +++                   k +k++++vvavf+v+ +Pf+++ l+ + s++  a + ++  + ++  ++
+  Elephantulus_edwardii_WT 265 SVIIKTLRKTQGFQKH-------------------KSLKIIFLVVAVFLVTQTPFNLVKLVLSTSWEYHAMTRFHYLIVVTESIA 330
+                               **************98...................99******************************************999*** PP
+
+                               HHHHHHHHHHH CS
+                               xxxxxxxxxxx RF
+                     7tm_1 254 ysnsavNPiiY 264
+                               y+  ++NP++Y
+  Elephantulus_edwardii_WT 331 YLRACLNPMLY 341
+                               **********9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (395 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 19.23
+//
+[ok]

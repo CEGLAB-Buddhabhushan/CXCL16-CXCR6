@@ -1,0 +1,64 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/JNV4A/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    2.8e-33  101.4  20.0      4e-33  100.9  20.0    1.2  1  Octodon_degus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Octodon_degus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.9  20.0     4e-33     4e-33      35     264 .]       3     210 ..       1     210 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 100.9 bits;  conditional E-value: 4e-33
+                       HHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHHHHHHHSH..HHHHHHHHHHHHHHHHHHHHHHHHHTE CS
+                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+             7tm_1  35 llvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkplkykrkrt..krvarlmillvWvlslllavpllvlet 125
+                       +++lpf+++  +  ++w+fg v+C+++  ++ +++++s+l+l++i++DRYl+++++ k+ ++ +      +++++ +Wv+s++l++p++++++
+  Octodon_degus_WT   3 VCTLPFWAYAGA--HQWVFGGVMCKTLRGIYAINFYVSMLTLTCITVDRYLVVVQATKAYTQGStcMAWGKAILAGTWVVSVALSLPQIIYSD 93 
+                       789*****7766..8*******************************************999888234445688999***************** PP
+
+                       EECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+             7tm_1 126 vetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfiv 218
+                       v  ++ d+   C+ + +++ +++    ++++f+lPll m+++y  i++++l ++  +++                   k +k++++vv+vf++
+  Octodon_degus_WT  94 V--RHYDK-LICDYHHDEIFRVILATQITLGFFLPLLTMMFCYPAIIRALLLSRGFQKH-------------------KSLKIIILVVVVFLL 164
+                       *..44555.68*******99999999999***********************9999998...................99************* PP
+
+                       HHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+             7tm_1 219 cwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                       + +Pf ++ l+++  ++    + +  a+ ++  ++y+  ++NP+ Y
+  Octodon_degus_WT 165 TQTPFSLVKLIRSSRWEYYTMTSFSYAIVVTEAISYLRICLNPVFY 210
+                       ****************************9999************99 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (264 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 19.25
+//
+[ok]

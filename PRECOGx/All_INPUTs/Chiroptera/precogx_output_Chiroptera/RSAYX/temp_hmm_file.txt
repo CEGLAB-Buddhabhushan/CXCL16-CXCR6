@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/RSAYX/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    1.4e-47  148.3  23.0      2e-47  147.7  23.0    1.2  1  Sturnira_hondurensis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Sturnira_hondurensis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  147.7  23.0     2e-47     2e-47       1     264 []      49     289 ..      49     289 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 147.7 bits;  conditional E-value: 2e-47
+                              HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYla 86 
+                              gN lV++v + +++ ++ t+++l++L +aDl++ +++lpf+++  +  +ew+fg+++C+++l  +++++++s+l l++i++DR++a
+  Sturnira_hondurensis_WT  49 GNSLVLVVYIFYQKPRSLTDVFLINLPLADLVF-VCTLPFWTYASI--HEWVFGSIMCKILLGTYTLNFYTSMLILICITVDRFVA 131
+                              8********************************.********8777..8************************************* PP
+
+                              HHSHHHHHHHSHHHH..HHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1  87 itkplkykrkrtkrv..arlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyar 170
+                              ++++ k+ + +tkr   a++++l +W +sll+++p++++++v  +  d+   C  + ++++ ++  + ++++f+lPl vm+++y  
+  Sturnira_hondurensis_WT 132 VVQATKAYNEKTKRMswAKAICLSAWGVSLLVSLPQIIYGDV--QYLDK-CICGYHHEEISTLVLAIQMTLGFFLPLHVMIVCYSV 214
+                              ******999999876448899*********************..44455.67888888899999999999**************** PP
+
+                              HHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1 171 ifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysn 256
+                              i++ +l+ +  +++                   k +k++++vva+f+v+ +Pf+++ l+++ s++  + + ++ a+ ++  ++y+ 
+  Sturnira_hondurensis_WT 215 IVKNLLHARGFHKH-------------------KSLKVIFLVVALFLVTQTPFNLVKLIRSTSWEYHSMTSFHYAIIVTEAVAYLR 281
+                              ********999998...................99*******************************************99****** PP
+
+                              HHHHHHHH CS
+                              xxxxxxxx RF
+                    7tm_1 257 savNPiiY 264
+                               ++NP++Y
+  Sturnira_hondurensis_WT 282 VCLNPLLY 289
+                              *******9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (343 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 19.20
+//
+[ok]

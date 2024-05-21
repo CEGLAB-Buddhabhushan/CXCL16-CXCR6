@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/BTCWW/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+      2e-49  154.3  23.9    4.1e-49  153.3  23.9    1.5  1  Eublepharis_macularius_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Eublepharis_macularius_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.3  23.9   4.1e-49   4.1e-49       1     264 []      46     288 ..      46     288 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 153.3 bits;  conditional E-value: 4.1e-49
+                                HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRY 84 
+                                gN+lV++v++ +++++t+t+i+l+sLa aDl++ l +lpf++++ +  +ew fg++ C+++  +++++++ s+l+l++++++RY
+  Eublepharis_macularius_WT  46 GNTLVLIVFVFHEKVKTVTDIFLVSLATADLCF-LGTLPFWAYSAA--HEWIFGTLACQVIRGFYTLNLYGSMLTLTCVTIERY 126
+                                8********************************.********7666..8*********************************** PP
+
+                                HHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1  85 laitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvm 164
+                                +ai+++ k +    kr ++  ++++  W++sl++a+p+++++t+   + d+  +C  ++++  +++++ +  + ++f++P++vm
+  Eublepharis_macularius_WT 127 FAIVQATKVHISPLKRTIWgkTICISLWIVSLAFALPQFIYSTQ--DKYDK-VVCRANYSTlhMQQSIEVTQMSLGFFCPMIVM 207
+                                ******999988777776522788889*****************..55666.78*99999999********************* PP
+
+                                HHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1 165 vilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalft 248
+                                +++y  i++t+lk +   ++                   k +k+++++v++fi++ +P++++ l++++  +   + + + al +
+  Eublepharis_macularius_WT 208 LLCYLTIINTLLKAKGFRKH-------------------KSVKIIFAIVLTFICTQAPYNLLKLVRVVDRHVLLSSHYEYALII 272
+                                *************9999988...................99*****************************************99 PP
+
+                                HHHHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxx RF
+                      7tm_1 249 iawlgysnsavNPiiY 264
+                                +  ++y++s++NP++Y
+  Eublepharis_macularius_WT 273 TEAVAYFHSCLNPVLY 288
+                                99*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (343 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 7.93
+//
+[ok]

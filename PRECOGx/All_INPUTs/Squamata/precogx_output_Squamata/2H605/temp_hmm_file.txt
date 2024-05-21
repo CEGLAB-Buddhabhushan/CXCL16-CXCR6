@@ -1,0 +1,80 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/2H605/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    6.7e-52  162.4  21.4    6.7e-52  162.4  21.4    1.6  2  Hemicordylus_capensis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Hemicordylus_capensis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -5.1   1.7      0.82      0.82     214     226 ..      37      49 ..      32      50 .. 0.63
+   2 !  162.4  21.4   6.7e-52   6.7e-52       1     264 []      54     296 ..      54     296 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: -5.1 bits;  conditional E-value: 0.82
+                               HHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxx RF
+                     7tm_1 214 avfivcwlPftii 226
+                                vf+vc+  ft+i
+  Hemicordylus_capensis_WT  37 RVFLVCMYSFTCI 49 
+                               4677777776655 PP
+
+  == domain 2  score: 162.4 bits;  conditional E-value: 6.7e-52
+                               HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYl 85 
+                               gN lV+++++ +++++ +t+i+l+sLa aDl++ l++lpf++++ +  +ew fg+vlC+++  +++++++ s+l+l+++++DRY+
+  Hemicordylus_capensis_WT  54 GNGLVLIILIFYQKVKMVTDIFLVSLATADLCF-LCTLPFWAYTAA--EEWIFGTVLCKIIRGFYTLNLYGSMLTLTCVTIDRYF 135
+                               8********************************.********7666..9************************************ PP
+
+                               HHHSHHHHHHHSHHHH..HHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1  86 aitkplkykrkrtkrv..arlmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvi 166
+                               ai+++ k++  + kr+   +++++lvWv+sl++a+p+++++t+  n  d+ ++C  ++++  +   +  + +v++f++P+lvm++
+  Hemicordylus_capensis_WT 136 AIVQATKAHISQAKRKdwGKTICILVWVISLAFALPQFIYSTQ--NTIDK-SVCWTKYPSdrVALCVEGIQMVLGFFCPILVMMV 217
+                               *******998888666337899*********************..55555.79*******87777788899************** PP
+
+                               HHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1 167 lyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiaw 251
+                               +y  i++t+lk +  +++                   k +k++++++++f+++ +P++++ l++a +     +  ++ al ++  
+  Hemicordylus_capensis_WT 218 CYSTIMNTLLKAKGFHKH-------------------KSLKIIFAIIMTFVLTQTPYNLLKLIRAAHRRIIVEYNFEHALIVTEA 283
+                               ************999998...................99*******************************************99* PP
+
+                               HHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxx RF
+                     7tm_1 252 lgysnsavNPiiY 264
+                               ++y++s++NP++Y
+  Hemicordylus_capensis_WT 284 IAYFHSCLNPVLY 296
+                               ************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (351 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 28.97
+//
+[ok]

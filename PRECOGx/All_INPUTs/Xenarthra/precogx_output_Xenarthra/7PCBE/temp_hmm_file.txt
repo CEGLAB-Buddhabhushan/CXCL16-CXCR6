@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/7PCBE/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    3.6e-50  156.7  24.0    5.3e-50  156.2  24.0    1.3  1  Tamandua_tetradactyla_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Tamandua_tetradactyla_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  156.2  24.0   5.3e-50   5.3e-50       1     264 []      47     287 ..      47     287 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 156.2 bits;  conditional E-value: 5.3e-50
+                               HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYl 85 
+                               gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew fg+++C+++l ++++++++s+l l++i++DR++
+  Tamandua_tetradactyla_WT  47 GNSLVLIIYIFYQKLKSLTDVFLVNLPLADLVF-VCTLPFWAYAGI--HEWIFGNFVCKTLLGIYTLNFYTSMLILTCITVDRFI 128
+                               8********************************.********8888..8************************************ PP
+
+                               HHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1  86 aitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvily 168
+                               a++++ k+++++ kr ++  +++l vW++sll+++p++++++v++   + ++ C+ + +++  ++    ++++f+lPll m+++y
+  Tamandua_tetradactyla_WT 129 AVVQATKAHNQQAKRMTWgkVICLSVWAISLLVSLPQIIYGNVSH--FN-KSICDYHDDTIFTVVLATQMTLGFFLPLLAMIVCY 210
+                               **********99998865338999*******************43..33.478*******8888888888999************ PP
+
+                               HHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1 169 arifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlg 253
+                                 i++t+l+ +  +++                   k +k++++vvavf+++ +Pf+++ l+++ +++    + ++ a++++  ++
+  Tamandua_tetradactyla_WT 211 SVIVKTLLHARGFQKH-------------------KSLKIIFLVVAVFLLTQTPFNMVKLIRSTNWEYHTMTSFDYAITVTEAIA 276
+                               ***********99998...................99************************************************ PP
+
+                               HHHHHHHHHHH CS
+                               xxxxxxxxxxx RF
+                     7tm_1 254 ysnsavNPiiY 264
+                               y+  ++NP++Y
+  Tamandua_tetradactyla_WT 277 YLRACLNPVLY 287
+                               **********9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 40.76
+//
+[ok]

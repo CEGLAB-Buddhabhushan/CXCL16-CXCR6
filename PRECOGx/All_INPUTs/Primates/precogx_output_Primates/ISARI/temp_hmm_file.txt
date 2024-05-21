@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/ISARI/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    6.6e-49  152.6  24.5      1e-48  152.0  24.5    1.3  1  Trachypithecus_francoisi_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Trachypithecus_francoisi_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.0  24.5     1e-48     1e-48       1     264 []      89     329 ..      89     329 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 152.0 bits;  conditional E-value: 1e-48
+                                  HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfD 82 
+                                  gN lV+++ + +++lq+ t+++l++L +aDl++ +++lpf+++  +  +ew fg+v+C+++l v+++++++s+l l++i++D
+  Trachypithecus_francoisi_WT  89 GNSLVLVISIFYHKLQSLTDVFLVNLPLADLVF-VCTLPFWAYAGI--HEWIFGQVMCKTLLGVYTINFYTSMLILTCITVD 167
+                                  8********************************.********8888..8********************************* PP
+
+                                  HHHHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1  83 RYlaitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPll 162
+                                  R+++++k+ k+ +++ kr ++  +++ll+Wv+sll+++p++++++v   + d+   C  + ++++ ++    ++++f+lPll
+  Trachypithecus_francoisi_WT 168 RFIVVVKATKAYNQQAKRMTWgkVICLLIWVISLLVSLPQIIYGNV--FNLDK-LICGYHDEEISTVVLATQMTLGFFLPLL 246
+                                  **********999998887543399*********************..45555.69*******99999999999******** PP
+
+                                  HHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1 163 vmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagcipt 244
+                                   m+++y  i++t+l+    +++                   + +k++++v+avf+++ +Pf+++ l+++ +++  a + ++ 
+  Trachypithecus_francoisi_WT 247 AMIVCYSVIIKTLLHAGGFQKH-------------------RSLKIIFLVMAVFLLTQTPFNLVKLIRSTHWEYYAMTSFHY 309
+                                  ******************9998...................99*************************************** PP
+
+                                  HHHHHHHHHHHHHHHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1 245 alftiawlgysnsavNPiiY 264
+                                   + ++  ++y+  ++NP++Y
+  Trachypithecus_francoisi_WT 310 TIIVTEAIAYLRACLNPMLY 329
+                                  **9999*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (383 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 29.00
+//
+[ok]

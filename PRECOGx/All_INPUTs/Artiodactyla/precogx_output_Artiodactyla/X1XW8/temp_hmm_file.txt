@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/X1XW8/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                       -----------
+    1.3e-50  158.2  22.3    1.9e-50  157.6  22.3    1.2  1  Neophocaena_asiaeorientalis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Neophocaena_asiaeorientalis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  157.6  22.3   1.9e-50   1.9e-50       1     264 []      47     287 ..      47     287 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 157.6 bits;  conditional E-value: 1.9e-50
+                                     HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                           7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllai 79 
+                                     gN lV+++ + +++l++ t+++l++L +aDl++  ++lpf+++  +  +ew+fg+v+C+++l ++++++++s+l l++i
+  Neophocaena_asiaeorientalis_WT  47 GNSLVLVIYIFYQKLKSLTDVFLMNLPLADLVF-ACTLPFWAYAGI--HEWVFGKVMCKTLLGIYTLNFYTSMLILTCI 122
+                                     8********************************.99******8888..8****************************** PP
+
+                                     HHHHHHHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHH CS
+                                     xxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                           7tm_1  80 sfDRYlaitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavas 156
+                                     ++DR++a++++ k+ +++ kr a+  +++l +Wv+sll+++p++++++v     d+  +C  ++++++ m+    ++++
+  Neophocaena_asiaeorientalis_WT 123 TMDRFIAVVQATKAYNQQAKRMAWgkAVCLSIWVVSLLVSLPQIIYGDV--LYLDK-PVCGYHNEEISTMVLATQMTLG 198
+                                     ****************99999986447999*******************..33444.79******************** PP
+
+                                     THHHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTT CS
+                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                           7tm_1 157 filPllvmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvd 235
+                                     f+lPll m+++y  i++t+l+ +  +++                   k +k++++vvavf+++ +Pf+++ l++++s++
+  Neophocaena_asiaeorientalis_WT 199 FFLPLLAMIVCYSVIIKTLLQARGFQKH-------------------KSLKIIFLVVAVFLLTQTPFNLVKLIRSMSWE 258
+                                     **********************999998...................99****************************** PP
+
+                                     SCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                           7tm_1 236 ceaagciptalftiawlgysnsavNPiiY 264
+                                       a + ++ a++++  ++y+  ++NP++Y
+  Neophocaena_asiaeorientalis_WT 259 YHAMTSFHYAITVTEAIAYLRACLNPVLY 287
+                                     ****************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 14.07
+//
+[ok]

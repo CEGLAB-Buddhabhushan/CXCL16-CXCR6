@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/62J4N/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                   -----------
+      5e-50  156.3  24.1    7.2e-50  155.8  24.1    1.2  1  Myrmecophaga_tridactyla_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Myrmecophaga_tridactyla_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  155.8  24.1   7.2e-50   7.2e-50       1     264 []      47     287 ..      47     287 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 155.8 bits;  conditional E-value: 7.2e-50
+                                 HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                       7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDR 83 
+                                 gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew fg+++C+++l ++++++++s+l l++i++DR
+  Myrmecophaga_tridactyla_WT  47 GNSLVLIIYIFYQKLKSLTDVFLVNLPLADLVF-VCTLPFWAYAGI--HEWIFGNFVCKTLLGIYTLNFYTSMLILTCITVDR 126
+                                 8********************************.********8888..8********************************** PP
+
+                                 HHHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHH CS
+                                 xxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                       7tm_1  84 Ylaitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvm 164
+                                 ++a++++ k+++++ kr ++  +++l vW++sll+++p++++++v++   + ++ C+ + +++  ++    ++++f+lPll m
+  Myrmecophaga_tridactyla_WT 127 FIAVVQATKAHNQQAKRMTWgkVICLSVWAVSLLVSLPQIIYGNVSH--FN-KSICDYHDDTIFTVVLATQMTLGFFLPLLAM 206
+                                 ************99998865338999*******************43..33.478*******8888888888999******** PP
+
+                                 HHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHH CS
+                                 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                       7tm_1 165 vilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalf 247
+                                 +++y  i++t+l+ +  +++                   k +k++++vvavf+++ +Pf+++ l+++ +++    + ++ a++
+  Myrmecophaga_tridactyla_WT 207 IVCYSVIVKTLLHARGFQKH-------------------KSLKIIFLVVAVFLLTQTPFNMVKLIRSTNWEYHTMTSFDYAIT 270
+                                 ***************99998...................99****************************************** PP
+
+                                 HHHHHHHHHHHHHHHHH CS
+                                 xxxxxxxxxxxxxxxxx RF
+                       7tm_1 248 tiawlgysnsavNPiiY 264
+                                 ++  ++y+  ++NP++Y
+  Myrmecophaga_tridactyla_WT 271 VTEAIAYLRACLNPVLY 287
+                                 ****************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 31.54
+//
+[ok]

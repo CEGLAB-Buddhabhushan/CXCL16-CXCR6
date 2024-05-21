@@ -1,0 +1,64 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/ZI6SN/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------           -----------
+    1.8e-47  147.9  25.7    3.3e-47  147.0  25.7    1.4  1  Tapirus_indicus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Tapirus_indicus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  147.0  25.7   3.3e-47   3.3e-47       1     264 []      47     287 ..      47     287 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 147.0 bits;  conditional E-value: 3.3e-47
+                         HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHH CS
+                         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+               7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkpl 91 
+                         gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew+fg+++C+++l ++++++++s+l l++i++DR++a++++ 
+  Tapirus_indicus_WT  47 GNSLVLVIYIFYQKLKSLTDVFLMNLPLADLVF-VCTLPFWAYAGI--HEWVFGNIMCKTLLGIYTLNFYTSMLILTCITVDRFTAVVRAT 134
+                         8********************************.********8888..8****************************************** PP
+
+                         HHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHH CS
+                         xxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+               7tm_1  92 kykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqtvlktsr 180
+                         k+ +++ kr ++  +++l +Wv sll+++p++++++v     d+   C  ++++++ ++    ++++f+lPll m+++y  i++t+ + + 
+  Tapirus_indicus_WT 135 KAYNQQAKRMTWgkVICLSIWVTSLLVSLPQIIYGNV--LYLDK-LICGYHNEEISTVVLATQMTLGFFLPLLAMIVCYSVIIKTLVRARG 222
+                         *999999887643389999******************..33344.69*******99999999999***********************999 PP
+
+                         HHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+               7tm_1 181 tmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                          +++                   k +k++++vvavf+++ +Pf+++ l+++ s++    + ++ a+ ++  ++y+  ++NP++Y
+  Tapirus_indicus_WT 223 FQKH-------------------KSLKIIFLVVAVFLLTQMPFNLVKLIRSTSWEYYTMTSFHYAIIVTEAIAYLRACLNPVLY 287
+                         9998...................99*******************************************99*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 32.63
+//
+[ok]

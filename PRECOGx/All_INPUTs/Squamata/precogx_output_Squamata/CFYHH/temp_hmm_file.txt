@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/CFYHH/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    7.6e-53  165.5  23.5    1.3e-52  164.8  23.5    1.4  1  Varanus_komodoensis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Varanus_komodoensis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.8  23.5   1.3e-52   1.3e-52       1     264 []      47     289 ..      47     289 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 164.8 bits;  conditional E-value: 1.3e-52
+                             HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlai 87 
+                             gN lV+++++  ++++ +t+i+l+sLa+aDll+ l++lpf++++ +  +ew fg++ C+++  ++ ++++ s+l+l++i++DRY+ai
+  Varanus_komodoensis_WT  47 GNALVLTILIFCEKVKVPTDIFLVSLAVADLLF-LCTLPFWAYSAA--KEWIFGTLSCKIIRGLYSMNLYGSMLTLTCITIDRYFAI 130
+                             8********************************.********7666..9************************************** PP
+
+                             HSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1  88 tkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyar 170
+                             +++ k++  + kr+++  +++++vWv+sl++a+p+l+++ +  ++ d+ + C+ ++++  ++ +++i+  +++f++P+lvmvi+y  
+  Varanus_komodoensis_WT 131 VQATKAHISQAKRKVWgtVFCIVVWVVSLAFALPQLIFSIQ--EKLDK-EICYTAYSShnTKLLINIIQVLLGFFCPMLVMVICYSI 214
+                             **********9999873366789***************999..55555.79******999999999********************* PP
+
+                             HHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1 171 ifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysns 257
+                             i++t+++ +  +++                   k +++++++v++fi++ +P++++ l+++++++       + ++f++  ++y++s
+  Varanus_komodoensis_WT 215 IVHTLCHARGFHKH-------------------KSLQIIFAIVVTFIFTQTPYNLLKLFRTINKESLLDYSSDYVFFITEAIAYFHS 282
+                             ********999998...................99***************************888888888889999888******* PP
+
+                             HHHHHHH CS
+                             xxxxxxx RF
+                   7tm_1 258 avNPiiY 264
+                             ++NP++Y
+  Varanus_komodoensis_WT 283 CLNPVLY 289
+                             ******9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (344 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 32.93
+//
+[ok]

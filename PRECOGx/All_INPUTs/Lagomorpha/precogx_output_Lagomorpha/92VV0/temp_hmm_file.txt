@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/92VV0/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    5.9e-49  152.8  23.1    5.9e-49  152.8  23.1    1.8  2  Lepus_timidus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Lepus_timidus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.8  23.1   5.9e-49   5.9e-49       1     264 []      46     286 ..      46     286 .. 0.94
+   2 ?   -3.1   0.0      0.21      0.21     120     143 ..     308     332 ..     305     339 .. 0.60
+
+  Alignments for each domain:
+  == domain 1  score: 152.8 bits;  conditional E-value: 5.9e-49
+                       HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHHHH CS
+                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+             7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkplky 93 
+                       gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++  l  +ew+fg+++Cr++l ++ +++++s+l+l++i++DR++a++++ k+
+  Lepus_timidus_WT  46 GNSLVLVIYIFYQKLKSLTDVFLMNLPLADLVF-VCTLPFWAYAGL--HEWVFGELMCRTLLGIYAINFYTSMLTLTCITVDRFIAVVQATKA 135
+                       8********************************.********8888..8******************************************99 PP
+
+                       HHHSHHHH..HHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                       xxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+             7tm_1  94 krkrtkrv..arlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqtvlktsrtmts 184
+                        +++  r+   ++++ l+Wv+sll+++p++++++v   + d+ ++C+ + ++++ ++    + ++f+lPll m+++y  i++t+l+ +   ++
+  Lepus_timidus_WT 136 YNQQAARRswGKAICTLIWVASLLVSLPQIIYGSV--LHLDK-HVCDYHGEEISTVILATQMALGFFLPLLAMIVCYSVIVRTLLRARGFRKH 225
+                       88887666225699*********************..44444.68*******888888899999**********************9999888 PP
+
+                       CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+             7tm_1 185 kskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                                          k +k++++vvavf+++ +Pf+++ l+++ s++  a + +  ++ ++  ++y+  ++NP++Y
+  Lepus_timidus_WT 226 -------------------KSLKIIFLVVAVFLLTQTPFNLVKLIRSTSWEYHAMTSFSYVVVVTEAVAYLRACLNPVLY 286
+                       ...................99******************************************999*************9 PP
+
+  == domain 2  score: -3.1 bits;  conditional E-value: 0.21
+                       HHHHTEEEC.TTTTTTCEEEESSTC CS
+                       xxxxxxxxx.xxxxxxxxxxxxxxx RF
+             7tm_1 120 llvletvet.naqdttkdCqittlp 143
+                       ++++ t++  + +d+ k+C+ + ++
+  Lepus_timidus_WT 308 PYLGATSQSkSSEDNSKTCSASHHA 332
+                       4445555443777778999988776 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (340 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 5.99
+//
+[ok]

@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/UCPRX/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    2.1e-51  160.8  22.5      3e-51  160.3  22.5    1.2  1  Aptenodytes_forsteri_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Aptenodytes_forsteri_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.3  22.5     3e-51     3e-51       1     264 []      47     289 ..      47     289 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 160.3 bits;  conditional E-value: 3e-51
+                              HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYla 86 
+                              gN+lV+++++ +++l+t t+i+ll+LaiaD ++ l +lpf++++ +  +ew+fg+v Cr++  ++++++++s+l+l+ i+fDR +a
+  Aptenodytes_forsteri_WT  47 GNVLVFVILVFYEKLKTLTDIFLLNLAIADWVF-LWTLPFWAYSAA--QEWTFGTVACRIIRGLYTLNLYTSMLTLTSITFDRLIA 129
+                              8********************************.********7666..9************************************* PP
+
+                              HHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1  87 itkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvily 168
+                              it + k++  +tkr ++  l+++l+Wv+sl++a+p++++++v     d+   Cq ++++  +e ++ ++  ++++++P+l m+i+y
+  Aptenodytes_forsteri_WT 130 ITFATKARMCQTKRMTWgkLICVLIWVVSLAFATPQFIFSEV--FSIDK-AICQEEYPNhhTELVLEVIRVTLGYFIPMLAMIICY 212
+                              ************998653399*********************..33444.68*******9889999999999************** PP
+
+                              HHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1 169 arifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgy 254
+                                i++t+l+ ++ +++                   k +k ++ vva+fi++  P+t++ l++++ ++ + +  ++ a+ ++  l+y
+  Aptenodytes_forsteri_WT 213 SLIIRTLLHAKSFQKN-------------------KSLKKIFSVVAIFILTQSPYTFLRLIKIIDWSFNLNSSFEYAIIVTEALAY 279
+                              ***************9...................89*******************************************99**** PP
+
+                              HHHHHHHHHH CS
+                              xxxxxxxxxx RF
+                    7tm_1 255 snsavNPiiY 264
+                              ++ ++NP++Y
+  Aptenodytes_forsteri_WT 280 FHGCINPVLY 289
+                              *********9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (344 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 20.76
+//
+[ok]

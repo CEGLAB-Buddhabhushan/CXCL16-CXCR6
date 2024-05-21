@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/ZP2EO/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+      8e-49  152.3  21.6    1.2e-48  151.7  21.6    1.3  1  Anseranas_semipalmata_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Anseranas_semipalmata_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  151.7  21.6   1.2e-48   1.2e-48       1     264 []      48     290 ..      48     290 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 151.7 bits;  conditional E-value: 1.2e-48
+                               HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYl 85 
+                               gN lV+++++ +++l+t t+i+ll+LaiaD ++ l +lpf++++ +  +ew fg + Cr++  ++ +++++s+l+l+ i+fDR +
+  Anseranas_semipalmata_WT  48 GNALVFIILVFYEKLKTLTDIFLLNLAIADWIF-LWTLPFWAYSAA--QEWIFGIAACRIVRGLYNLNLYTSMLTLTSITFDRLI 129
+                               8********************************.********7666..9************************************ PP
+
+                               HHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1  86 aitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvi 166
+                               +it + k++  +tkr ++  l+++l+Wv+sl++a+p++++++v     d+   Cq ++++  +e ++ ++  ++++++P+l m+i
+  Anseranas_semipalmata_WT 130 VITFATKARMCQTKRITWgkLICVLIWVISLAFATPQFIFSDVF--TIDK-AICQEEYPNhhTELVLEVIQVTLGYFIPMLTMII 211
+                               *************998643399*********************3..3333.68*******9889999999999************ PP
+
+                               HHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1 167 lyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiaw 251
+                               +y  i++t+l+ ++ +++                   k +k ++ vva+fi++  P+t++ l++++ ++ +    ++ a+ ++  
+  Anseranas_semipalmata_WT 212 CYSLIIKTLLHARNFQKN-------------------KSLKKIFSVVAIFILTQSPYTFLRLMKIIDWSFNLDSNFDYAIIITEA 277
+                               *****************9...................89*****************************************9999* PP
+
+                               HHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxx RF
+                     7tm_1 252 lgysnsavNPiiY 264
+                               l+y++ ++NP+ Y
+  Anseranas_semipalmata_WT 278 LAYFHGCLNPVMY 290
+                               ***********99 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (345 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 19.73
+//
+[ok]

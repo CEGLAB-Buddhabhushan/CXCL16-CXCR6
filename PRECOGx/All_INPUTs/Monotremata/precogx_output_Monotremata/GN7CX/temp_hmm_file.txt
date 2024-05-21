@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/GN7CX/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    2.6e-48  150.7  22.6    3.7e-48  150.2  22.6    1.2  1  Ornithorhynchus_anatinus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Ornithorhynchus_anatinus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  150.2  22.6   3.7e-48   3.7e-48       1     264 []      46     290 ..      46     290 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 150.2 bits;  conditional E-value: 3.7e-48
+                                  HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfD 82 
+                                  gN lV+ v + + +l+t t+++l++L +aDll+ l++lpf++++++  +ew fg+++C+l+  ++++++++s+l+l++i++D
+  Ornithorhynchus_anatinus_WT  46 GNSLVLSVYVFYGKLKTLTDVFLVNLPMADLLF-LCTLPFWAYTTV--HEWIFGEFMCKLVKGLYTLNLYTSMLLLTCITVD 124
+                                  8********************************.********8888..8********************************* PP
+
+                                  HHHHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC....HHHHHHHHHHHHHTH CS
+                                  xxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx....xxxxxxxxxxxxxxx RF
+                        7tm_1  83 RYlaitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp....aesmyiifsavasfi 158
+                                  R++++ ++ k+++++++r ++  ++++++W++sl++++p+++++tv  ++qd+ ++C    ++    +  +     ++++f+
+  Ornithorhynchus_anatinus_WT 125 RFISVAQATKAHAYQSRRLTWgkITCICMWLISLAVTTPQFIYSTV--SNQDK-QVCLEFGNSdsrqVFLVALAAQMTIGFF 203
+                                  **************99998653378999******************..77888.79*99888875433333334456789** PP
+
+                                  HHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1 159 lPllvmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaag 240
+                                  lPll m+++y  i++t+ + +  +++                   k +k++++vvavf+++ lP++++ l+   +++     
+  Ornithorhynchus_anatinus_WT 204 LPLLAMIVCYSVIIKTLIRAKGFQKH-------------------KSLKIIFLVVAVFVLTQLPYNLVKLIVRAHWEYYTYP 266
+                                  ********************999998...................99*********************9998888******* PP
+
+                                  HHHHHHHHHHHHHHHHHHHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1 241 ciptalftiawlgysnsavNPiiY 264
+                                   ++ al ++  ++y+  ++NP++Y
+  Ornithorhynchus_anatinus_WT 267 SFHYALVVTESIAYLRACLNPVLY 290
+                                  ********99*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (345 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 18.68
+//
+[ok]

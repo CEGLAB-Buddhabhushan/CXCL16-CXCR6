@@ -1,0 +1,57 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/VWYKD/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    1.2e-22   66.5   7.9    2.2e-22   65.7   7.9    1.4  1  Dermochelys_coriacea_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Dermochelys_coriacea_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   65.7   7.9   2.2e-22   2.2e-22     104     264 .]      81     222 ..      61     222 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 65.7 bits;  conditional E-value: 2.2e-22
+                              HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHHCHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1 104 lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyarifqtvlktsrtmtsksk 187
+                              +   lvWv+sl+ a+p++  + +  +  d +++C   +++  +e ++ ++ ++++f++P+l m+i+y  i++t+l  ++ +++   
+  Dermochelys_coriacea_WT  81 AEXPLVWVISLAYAMPQFKXKHT-IEXYD-KSVCHAVYPSdlTELVFKVLQMTLGFFIPMLTMIICYSIIIKTLLPARSFQKH--- 161
+                              44569*************55555.34444.589********99*********************************9999998... PP
+
+                              HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1 188 ngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                                              k  k+++++v++f+++ lP+++++l++ ++v+ +    +++a+ ++  ++y++ ++NP++Y
+  Dermochelys_coriacea_WT 162 ----------------KSXKIIFTIVVMFVLTQLPYNLLILIRNIHVEFNLDYNFDSAVVITEAIAYLHGCLNPVLY 222
+                              ................899****************************************9999*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (277 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 14.53
+//
+[ok]

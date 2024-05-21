@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/FPDHL/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    7.3e-51  159.0  25.0    1.3e-50  158.3  25.0    1.4  1  Odocoileus_virginianus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Odocoileus_virginianus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  158.3  25.0   1.3e-50   1.3e-50       1     264 []      47     286 ..      47     286 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 158.3 bits;  conditional E-value: 1.3e-50
+                                HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRY 84 
+                                gN lV+++ + +++l+++t+++l++L +aDl++ +++lpf+++   t +ew+fg+++C+++l ++++++++s+l l++i++DR+
+  Odocoileus_virginianus_WT  47 GNSLVLVIYVFYQKLKSPTDVFLMNLPLADLVF-VCTLPFWAY-AGT-HEWVFGNIMCKVLLGIYTLNFYTSMLILTCITVDRF 127
+                                8********************************.********6.554.9*********************************** PP
+
+                                HHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1  85 laitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvi 166
+                                +a++++ k+ ++r kr a+  +++l +Wv+sll+++p++++++v    +d+   C+ + +  + m+  + ++++f+lPll m++
+  Odocoileus_virginianus_WT 128 VAVVRAAKAYTQRAKRMAWgkAICLSIWVVSLLVSLPQIIYGNVL--YHDK-PICSYQEEI-STMVLAIQMTLGFFLPLLAMIV 207
+                                **************99986447999*******************3..3444.68***9999.8999999999************ PP
+
+                                HHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1 167 lyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftia 250
+                                +y  i++t+l+ +   ++                   k +k++++vv+vf+++ +Pf+++ l+++ s++    + ++ a++++ 
+  Odocoileus_virginianus_WT 208 CYSVIIKTLLQARGFRKH-------------------KSLKIIFLVVVVFLLTQMPFNLVKLIRSTSWEYDTMTSFHYAITVTE 272
+                                **********99998887...................99********************************************* PP
+
+                                HHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxx RF
+                      7tm_1 251 wlgysnsavNPiiY 264
+                                 ++y+  ++NP++Y
+  Odocoileus_virginianus_WT 273 AIAYLRACLNPVLY 286
+                                *************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (340 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 7.26
+//
+[ok]

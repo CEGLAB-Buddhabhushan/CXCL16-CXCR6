@@ -1,0 +1,80 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/P07RS/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    2.2e-52  164.0  27.0    2.2e-52  164.0  27.0    1.5  2  Pelodiscus_sinensis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Pelodiscus_sinensis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.0  27.0   2.2e-52   2.2e-52       1     264 []      46     288 ..      46     288 .. 0.95
+   2 ?   -2.8   0.1      0.17      0.17     123     148 ..     316     341 ..     313     342 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 164.0 bits;  conditional E-value: 2.2e-52
+                             HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlai 87 
+                             gN lVi++ +  ++l+t t+++l+sLa aDll+ l +lpf++++ +  +ew fg+v+C+++  ++++++++s+l+l++i+++R++ai
+  Pelodiscus_sinensis_WT  46 GNALVIIIYIFCEKLKTLTDVFLVSLATADLLF-LSTLPFWAYSAA--HEWIFGSVTCKIIRGLYTLNLYTSMLTLTCITIERFIAI 129
+                             8********************************.********7666..8************************************** PP
+
+                             HSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1  88 tkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyar 170
+                             +++ k++  + kr ++  ++++lvWv+s+++a+p+++++t+  +  d+ + C  t+++  +e ++ ++ ++++f++Pll m+i+y  
+  Pelodiscus_sinensis_WT 130 VQATKAHVNQAKRMVWgkVICILVWVMSVVFAIPQFIYSTQ--STYDK-SICHATYPSrlVELVLKVLQMTLGFLIPLLTMIICYSI 213
+                             ***********9998644899********************..44555.68********999************************* PP
+
+                             HHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1 171 ifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysns 257
+                             i++t+l+ ++ +++                   k +k+++ vv+vfi++ lP+++++ll+ +  +       + a+ ++  ++y++ 
+  Pelodiscus_sinensis_WT 214 IIKTLLHARSFQKH-------------------KSLKIIFSVVVVFILTQLPYNFLILLRNIYLEFYLDYNYDAAVVITEAIAYLHG 281
+                             **********9998...................99**************************999************9999******* PP
+
+                             HHHHHHH CS
+                             xxxxxxx RF
+                   7tm_1 258 avNPiiY 264
+                             ++NPi+Y
+  Pelodiscus_sinensis_WT 282 CLNPILY 288
+                             ******9 PP
+
+  == domain 2  score: -2.8 bits;  conditional E-value: 0.17
+                             HTEEECTTTTTTCEEEESSTC.HHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxx.xxxxx RF
+                   7tm_1 123 letvetnaqdttkdCqittlp.aesmy 148
+                              +++ t++++  k+C+ ++++ a+smy
+  Pelodiscus_sinensis_WT 316 KQWQ-TTEEEGSKTCTASQNAeATSMY 341
+                             4555.4444447999999988555555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (343 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 16.55
+//
+[ok]

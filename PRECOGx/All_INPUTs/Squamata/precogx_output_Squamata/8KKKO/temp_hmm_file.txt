@@ -1,0 +1,64 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/8KKKO/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+    2.9e-47  147.2  23.4      5e-47  146.5  23.4    1.4  1  Ptyas_mucosa_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Ptyas_mucosa_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  146.5  23.4     5e-47     5e-47       1     264 []      56     297 ..      56     297 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 146.5 bits;  conditional E-value: 5e-47
+                      HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHHHHH CS
+                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+            7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkplkyk 94 
+                      gN+lVi++++ +k+++  t+i+l+sLaiaD+ + l++lpf++++ +  +ew f  + C+++l +++++++ s+l+l+ i++DRY++i++  k++
+  Ptyas_mucosa_WT  56 GNILVIIILVFYKKVKMLTDIFLVSLAIADFSF-LCTLPFWAYSAA--EEWIFYALPCQIILGFYTLNLYGSMLTLTSITIDRYFVIVQVTKTR 146
+                      8********************************.********7666..9****************************************99999 PP
+
+                      HHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC.HHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHHC CS
+                      xxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+            7tm_1  95 rkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp.aesmyiifsavasfilPllvmvilyarifqtvlktsrtmtsk 185
+                        + kr+ +  ++++ +W++sllla+p+++++t+  ++ d+ k C+ ++++ +     +  ++++f++P+l+m+i+y  i++t+l+ +  +++ 
+  Ptyas_mucosa_WT 147 ISQHKRKFWgiVVCISIWIISLLLALPQFIFSTE--KKLDK-KICFANYSSeFMLFTETNQMTLGFFCPMLIMIICYSIIVKTLLSAKGFHKH- 236
+                      99998886522778889***************99..56666.99*******5555556667899**********************9999998. PP
+
+                      HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+            7tm_1 186 skngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                                        k +++++++v++fi++ +P++++ l++a   +   +  ++ al ++  ++y++ ++NP++Y
+  Ptyas_mucosa_WT 237 ------------------KSLQIIFAIVVTFILTQMPYNLLKLMRASDRNIMLSYRFEYALIITEAIAYFHGCLNPVLY 297
+                      ..................99*****************************************9999*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (351 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 30.94
+//
+[ok]

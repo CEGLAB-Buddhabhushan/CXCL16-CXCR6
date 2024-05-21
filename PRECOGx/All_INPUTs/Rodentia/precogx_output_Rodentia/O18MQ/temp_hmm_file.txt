@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/O18MQ/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    3.2e-46  143.8  25.5    5.7e-46  143.0  25.5    1.4  1  Mesocricetus_auratus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Mesocricetus_auratus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  143.0  25.5   5.7e-46   5.7e-46       1     264 []      56     296 ..      56     296 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 143.0 bits;  conditional E-value: 5.7e-46
+                              HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYla 86 
+                              gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++     + w+fg ++C+++  ++++++++s+l+l+ i++DR+++
+  Mesocricetus_auratus_WT  56 GNSLVLIINIFYQKLRSLTDVFLVNLPLADLIF-VCTLPFWAYAGT--HGWVFGIAMCKTLQGMYTVNFYVSMLTLTGITVDRFIV 138
+                              8********************************.********6444..8************************************* PP
+
+                              HHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1  87 itkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyar 170
+                              ++++ k  +++ k +++  +++ll+Wv+sl++++p++++++v  ++ d+   Cq ++++++ ++    ++++f+lPll m+++y  
+  Mesocricetus_auratus_WT 139 VVQATKVFNQQAKWKIWgqITCLLIWVVSLVVSLPQIIYSNV--EHLDK-FICQYHNEAISTVVLATQMTLGFFLPLLTMITCYSS 221
+                              ******9999998876533899********************..55555.99*******99999999999**************** PP
+
+                              HHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1 171 ifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysn 256
+                              i++t+l+ +   ++                   k +k++++vvavf+++ +Pf++++l+++ s++  + + ++ a+ ++  ++y+ 
+  Mesocricetus_auratus_WT 222 IIKTLLHARGFRKH-------------------KSLKIIFVVVAVFLLTQTPFNLAMLIRSTSWKYYNMTSFQYAILVTEAIAYFR 288
+                              *******9999998...................99*************************************************** PP
+
+                              HHHHHHHH CS
+                              xxxxxxxx RF
+                    7tm_1 257 savNPiiY 264
+                               ++NP++Y
+  Mesocricetus_auratus_WT 289 ACLNPVLY 296
+                              *******9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (350 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 26.24
+//
+[ok]

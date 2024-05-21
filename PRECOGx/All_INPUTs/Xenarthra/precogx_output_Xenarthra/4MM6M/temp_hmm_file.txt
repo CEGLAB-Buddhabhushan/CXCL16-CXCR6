@@ -1,0 +1,80 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/4MM6M/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    4.9e-48  149.8  23.5    4.9e-48  149.8  23.5    2.0  2  Choloepus_didactylus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Choloepus_didactylus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  149.8  23.5   4.9e-48   4.9e-48       1     264 []      47     287 ..      47     287 .. 0.95
+   2 ?   -0.6   0.0     0.037     0.037     116     147 ..     305     338 ..     297     341 .] 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 149.8 bits;  conditional E-value: 4.9e-48
+                              HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYla 86 
+                              gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++  +  + w+fg+++C+++l ++++++++s+l l++i++DR++ 
+  Choloepus_didactylus_WT  47 GNSLVLVIYIFYQKLKSLTDVFLVNLPLADLVF-VCTLPFWAYAGI--HGWVFGKFVCKTLLGIYTLNFYTSMLILTCITVDRFIM 129
+                              8********************************.********8888..7************************************* PP
+
+                              HHSHHHHHHHSHHHH..HHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1  87 itkplkykrkrtkrv..arlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyar 170
+                              ++++ k+++++ k     ++++ ++W++sll+++p++++++v ++ ++  + C  +++ ++ ++    ++++f+lPll m+ +y+ 
+  Choloepus_didactylus_WT 130 VVQATKAHNQQAKWMtwGKVICSAIWAISLLVSLPQIIYGDV-FYLDK--TICGYHNDDISTVVLASQMILGFFLPLLAMIACYTV 212
+                              ********99997651157999********************.44444..59*******99999999999**************** PP
+
+                              HHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1 171 ifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysn 256
+                              i++t+l+ +   ++                   k +k++++vvavf+++ +Pf++++l+++  ++  a + ++ a++++  ++y+ 
+  Choloepus_didactylus_WT 213 IIKTLLHARGFRKH-------------------KSLKIIFLVVAVFLLTQTPFNLVMLIRSTRWEYYAMTSFDYAITVTEAIAYLR 279
+                              *******9999998...................99*************************************************** PP
+
+                              HHHHHHHH CS
+                              xxxxxxxx RF
+                    7tm_1 257 savNPiiY 264
+                               ++NP++Y
+  Choloepus_didactylus_WT 280 ACLNPVLY 287
+                              *******9 PP
+
+  == domain 2  score: -0.6 bits;  conditional E-value: 0.037
+                              HHHHHHHHTEEEC.TTTTTTCEEEESSTC.HHHH CS
+                              xxxxxxxxxxxxx.xxxxxxxxxxxxxxx.xxxx RF
+                    7tm_1 116 lavpllvletvet.naqdttkdCqittlp.aesm 147
+                              + ++++++ +++  + +dt k+C+ + +  a+sm
+  Choloepus_didactylus_WT 305 IGCLPFLGASNQLkTSEDTSKTCSASHNMeATSM 338
+                              67788888777666888899***99888744444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 15.16
+//
+[ok]

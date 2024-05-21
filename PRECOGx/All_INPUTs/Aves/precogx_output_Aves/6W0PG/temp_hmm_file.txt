@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/6W0PG/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    7.1e-50  155.8  22.5      1e-49  155.3  22.5    1.2  1  Antrostomus_carolinensis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Antrostomus_carolinensis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  155.3  22.5     1e-49     1e-49       1     264 []      48     290 ..      48     290 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 155.3 bits;  conditional E-value: 1e-49
+                                  HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfD 82 
+                                  gN lV+++++ +++l+  t+++ll+La+aD ++ l +lpf++++ +  +ew+fg+v+Cr++  ++++++++s+l+l+ i+fD
+  Antrostomus_carolinensis_WT  48 GNALVFVILVFYEKLKMLTDVFLLNLAVADWVF-LWTLPFWAYSAA--QEWTFGTVTCRIIRGLYTLNLYTSMLTLTSITFD 126
+                                  8********************************.********7666..9********************************* PP
+
+                                  HHHHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxx RF
+                        7tm_1  83 RYlaitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilP 160
+                                  R +ait + k++  +tkr ++  l+++++Wv+sl++a+p++++++v     d+   Cq ++++  +e ++ ++  ++++++P
+  Antrostomus_carolinensis_WT 127 RLIAITFATKAHMCQTKRMTWgkLICVFIWVISLAFAAPQFIFSEV--FSIDK-AICQEKYPNqpTELVLEVIQVTLGYFIP 205
+                                  ****************9986533999********************..33444.68*******999999999********** PP
+
+                                  HHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1 161 llvmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagci 242
+                                  +l m+i+y  i++t+l+ ++ +++                   k +k ++ vva+fi++  P+t++ l++++ ++ + +  +
+  Antrostomus_carolinensis_WT 206 MLAMIICYSLIIRTLLHARSFQKN-------------------KSLKKIFSVVAIFILTQSPYTFLRLIKIIDWSFNLNSSF 268
+                                  ***********************9...................89************************************* PP
+
+                                  HHHHHHHHHHHHHHHHHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1 243 ptalftiawlgysnsavNPiiY 264
+                                  + a+ ++  l+y++ ++NP++Y
+  Antrostomus_carolinensis_WT 269 EYAIVITEALAYFHGCLNPVLY 290
+                                  ****9999*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (345 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 15.74
+//
+[ok]

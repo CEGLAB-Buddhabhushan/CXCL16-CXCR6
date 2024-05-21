@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/08ZWF/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    5.8e-48  149.5  21.5      1e-47  148.7  21.5    1.4  1  Talpa_occidentalis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Talpa_occidentalis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  148.7  21.5     1e-47     1e-47       1     264 []      49     289 ..      49     289 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 148.7 bits;  conditional E-value: 1e-47
+                            HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlait 88 
+                            gN lV+++ + +++ ++ t+++l++L +aDll+ +++lpf+++  +  +ew+fg+++C+++l ++++++++s+l+l++i++DR++a++
+  Talpa_occidentalis_WT  49 GNFLVLVIHIFYQKRKSLTDMFLMNLPLADLLF-VCTLPFWAYASI--HEWVFGNIMCKTLLGIYTLNFYTSMLMLTCITVDRFIAVV 133
+                            8********************************.********8777..8*************************************** PP
+
+                            SHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1  89 kplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqt 174
+                            ++ k+ + + kr ++  +++l vWv+sll ++p++++++v   + d  + C  + +++  ++    ++++f+lPll m+++y  i++t
+  Talpa_occidentalis_WT 134 RATKAYNEQAKRMTWgkAICLTVWVVSLLASLPQVIYGNV--LHLDR-SICRNNDEEIFTVILATQMTLGFFLPLLAMIVCYSVIIKT 218
+                            ****999988887643389*********************..34444.68*******888888888999******************* PP
+
+                            HHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHH CS
+                            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                  7tm_1 175 vlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPi 262
+                            +l+ +  +++                   k +k++++vv vf+++ +P++++ l+ + s++ e    ++ a++++  ++y+  ++NP+
+  Talpa_occidentalis_WT 219 LLHVRGFQKH-------------------KSLKIIFLVVSVFLLTQTPYNLAKLIGSTSWEYETMISFDYAITVTEAIAYLRACLNPV 287
+                            *****99998...................99********************************************************* PP
+
+                            HH CS
+                            xx RF
+                  7tm_1 263 iY 264
+                            +Y
+  Talpa_occidentalis_WT 288 LY 289
+                            *9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (342 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 18.02
+//
+[ok]

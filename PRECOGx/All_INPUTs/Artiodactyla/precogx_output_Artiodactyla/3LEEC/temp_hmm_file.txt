@@ -1,0 +1,64 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/3LEEC/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------          -----------
+    1.3e-50  158.2  22.3    1.9e-50  157.6  22.3    1.2  1  Phocoena_sinus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Phocoena_sinus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  157.6  22.3   1.9e-50   1.9e-50       1     264 []      47     287 ..      47     287 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 157.6 bits;  conditional E-value: 1.9e-50
+                        HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHHH CS
+                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+              7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkplk 92 
+                        gN lV+++ + +++l++ t+++l++L +aDl++  ++lpf+++  +  +ew+fg+v+C+++l ++++++++s+l l++i++DR++a++++ k
+  Phocoena_sinus_WT  47 GNSLVLVIYIFYQKLKSLTDVFLMNLPLADLVF-ACTLPFWAYAGI--HEWVFGKVMCKTLLGIYTLNFYTSMLILTCITMDRFIAVVQATK 135
+                        8********************************.99******8888..8******************************************* PP
+
+                        HHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                        xxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+              7tm_1  93 ykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqtvlktsrtm 182
+                        + +++ kr a+  +++l +Wv+sll+++p++++++v     d+  +C  ++++++ m+    ++++f+lPll m+++y  i++t+l+ +  +
+  Phocoena_sinus_WT 136 AYNQQAKRMAWgkAVCLSIWVVSLLVSLPQIIYGDV--LYLDK-PVCGYHNEEISTMVLATQMTLGFFLPLLAMIVCYSVIIKTLLQARGFQ 224
+                        ***99999986447999*******************..33444.79******************************************9999 PP
+
+                        HHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+              7tm_1 183 tskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                        ++                   k +k++++vvavf+++ +Pf+++ l++++s++  a + ++ a++++  ++y+  ++NP++Y
+  Phocoena_sinus_WT 225 KH-------------------KSLKIIFLVVAVFLLTQTPFNLVKLIRSMSWEYHAMTSFHYAITVTEAIAYLRACLNPVLY 287
+                        98...................99**********************************************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 15.87
+//
+[ok]

@@ -1,0 +1,64 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/PP73Z/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    4.7e-49  153.1  25.5      7e-49  152.5  25.5    1.3  1  Vicugna_pacos_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Vicugna_pacos_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.5  25.5     7e-49     7e-49       1     264 []      48     288 ..      48     288 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 152.5 bits;  conditional E-value: 7e-49
+                       HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHHHH CS
+                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+             7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkplky 93 
+                       gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew+fg+++C+++l ++++++++s+l l++i++DR++a++++ k+
+  Vicugna_pacos_WT  48 GNSLVLVIYVFYQKLKSLTDVFLMNLPLADLVF-VCTLPFWAYAGI--HEWVFGNIMCKMLLGIYTLNFYTSMLILTCITMDRFMAVVRATKA 137
+                       8********************************.********8888..8******************************************** PP
+
+                       HHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                       xxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+             7tm_1  94 krkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqtvlktsrtmts 184
+                        +++ kr a+  +++l +Wv sll+++p++++++v  +  d+   C  ++ +++ m+    ++++f+lPll m+++y  i++t+++ +  +++
+  Vicugna_pacos_WT 138 YNQQAKRMAWgkVICLSIWVTSLLVSLPQIIYGKV--HYLDK-AICGYQNAEISIMVLATQMTLGFFLPLLAMIVCYSVIIKTLFQARGFQKH 227
+                       *9999999864489999******************..33444.68*******999*******************************9999998 PP
+
+                       CHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                       xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+             7tm_1 185 kskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                                          k +k++++vv+vf+++ +Pf+++ l+++ s++    + ++ a+ ++  ++y+  ++NP++Y
+  Vicugna_pacos_WT 228 -------------------KSLKIIFLVVVVFLLTQTPFNLVKLIRSTSWEYHTMTSFHYAILVTEAIAYLRACLNPVLY 288
+                       ...................99**********************************************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (336 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.01s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 19.44
+//
+[ok]

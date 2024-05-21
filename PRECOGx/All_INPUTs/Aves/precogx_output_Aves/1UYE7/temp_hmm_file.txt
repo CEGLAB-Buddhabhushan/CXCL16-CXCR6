@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/1UYE7/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    1.5e-50  158.0  21.2    2.1e-50  157.5  21.2    1.2  1  Balearica_regulorum_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Balearica_regulorum_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  157.5  21.2   2.1e-50   2.1e-50       1     264 []      48     290 ..      48     290 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 157.5 bits;  conditional E-value: 2.1e-50
+                             HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlai 87 
+                             gN+lV+++++ +++l+  t+i+ll+LaiaD ++ l +lpf++++ +  +ew+fg+v Cr++  ++++++++s+l+l+ i+fDR +ai
+  Balearica_regulorum_WT  48 GNTLVFVILVFYEKLKMLTDIFLLNLAIADWVF-LWTLPFWAYSAV--QEWTFGTVACRIIRGLYILNLYTSMLTLTSITFDRLIAI 131
+                             8********************************.********8777..8************************************** PP
+
+                             HSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1  88 tkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyar 170
+                             t + k++  ++kr ++  l+++l+W++sl++a+p++++++v   + d+   Cq ++++  +e ++  + +++++++P+l m+i+y  
+  Balearica_regulorum_WT 132 TFATKAHMCQNKRMTWgkLICVLIWAISLAFAAPQFIFSEV--FNIDK-AICQEEYPShrTELILEAIQMTLGYFIPMLAMIICYSL 215
+                             ********999988643399*********************..34444.69*******988889999999***************** PP
+
+                             HHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1 171 ifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysns 257
+                             i++t+l+ ++ +++                   k +k ++ vva+fi++  P+t++ l++++ ++ + +  ++ a++++  l+y+  
+  Balearica_regulorum_WT 216 IIRTLLHARSFQKN-------------------KSLKKIFSVVAIFILTQSPYTFLRLIKIIDWSFNLNSSFEYAITITEALAYFRG 283
+                             *************9...................89******************************************999******* PP
+
+                             HHHHHHH CS
+                             xxxxxxx RF
+                   7tm_1 258 avNPiiY 264
+                             ++NP++Y
+  Balearica_regulorum_WT 284 CLNPVLY 290
+                             ******9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (344 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 16.88
+//
+[ok]

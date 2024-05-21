@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/L5UIE/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    1.9e-49  154.4  22.6    2.6e-49  153.9  22.6    1.2  1  Opisthocomus_hoazin_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Opisthocomus_hoazin_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.9  22.6   2.6e-49   2.6e-49       1     264 []      48     290 ..      48     290 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 153.9 bits;  conditional E-value: 2.6e-49
+                             HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlai 87 
+                             gN lV+++++ +++l+  t+i+ll+LaiaD ++ l +lpf++++ +  +ew+fg+v Cr++  ++++++++s+l+l+ i+fDR ++i
+  Opisthocomus_hoazin_WT  48 GNALVFVILVFYEKLKMLTDIFLLNLAIADWVF-LWTLPFWAYSAA--QEWAFGTVACRIIRGLYTLNLYTSMLTLTSITFDRLITI 131
+                             8********************************.********7666..9************************************** PP
+
+                             HSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1  88 tkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyar 170
+                             t + k++  +tkr ++  l+++++Wv+sl++a+p++++++v     d+   Cq ++++  +e ++ ++  ++++++P+l m+i+y  
+  Opisthocomus_hoazin_WT 132 TFATKAHMCQTKRMTWgkLICVFIWVISLAFATPQFIFSEV--FSIDK-AICQEEYPNhhTELVLEVIQVTLGYFIPMLAMIICYSL 215
+                             ***********9986533999********************..33444.68*******9889999999999**************** PP
+
+                             HHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1 171 ifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysns 257
+                             i++t+l+ ++ +++                   k +k ++ vva+fi++  P+t++ l++++ ++ + +  ++ a+ ++  l+y++ 
+  Opisthocomus_hoazin_WT 216 IIRTLLHARSFQRN-------------------KSLKKIFSVVAIFILTQSPYTFLRLIKIIDWSFNLNSSFEYAIIVTEALAYFHG 283
+                             ***********999...................89*******************************************99******* PP
+
+                             HHHHHHH CS
+                             xxxxxxx RF
+                   7tm_1 258 avNPiiY 264
+                             ++NP++Y
+  Opisthocomus_hoazin_WT 284 CLNPVLY 290
+                             ******9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (345 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 16.43
+//
+[ok]

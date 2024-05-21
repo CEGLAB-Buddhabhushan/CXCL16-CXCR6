@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/J6EC3/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    2.9e-48  150.5  25.0    2.9e-48  150.5  25.0    2.3  2  Podarcis_muralis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Podarcis_muralis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.1     0.029     0.029     200     226 ..      17      43 ..       8      46 .. 0.75
+   2 !  150.5  25.0   2.9e-48   2.9e-48       1     264 []      48     292 ..      48     292 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: -0.3 bits;  conditional E-value: 0.029
+                          HHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1 200 vrekkaaktlgivvavfivcwlPftii 226
+                          +++++a kt ++   vf+vc+  f +i
+  Podarcis_muralis_WT  17 QNDESAHKTFTAFSSVFLVCMYSFACI 43 
+                          556777888888888899998888765 PP
+
+  == domain 2  score: 150.5 bits;  conditional E-value: 2.9e-48
+                          HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSH CS
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkp 90 
+                          gN+lV+++++ +++++  t+++l+sLa+aDl++ l++lpf++++ +  +ew f ++ C+++  +++++++ s+l+l+++++DRY+ai+++
+  Podarcis_muralis_WT  48 GNTLVLIIFIFYEKVKVLTDVFLVSLAVADLCF-LCTLPFWAYSAA--REWIFYTLPCQIIRGLYTLNLYGSMLTLTCLTIDRYFAIVQA 134
+                          8********************************.********7666..9***************************************** PP
+
+                          HHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHH CS
+                          xxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1  91 lkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyarifqtvl 176
+                           k++  + kr ++  ++++lvWvlsll+a+p+++++t+  ++ + +k+C  ++++   +++   + +++++++P+lvmv++y  i +t+l
+  Podarcis_muralis_WT 135 TKAHISQAKRIVWgkTVCILVWVLSLLFALPQFLFSTQ--KEYS-KKVCIAEYPSnsLQMLTEAIQMTLGYFCPMLVMVLCYSIITKTLL 221
+                          ********99987337899****************999..4444.599*******97778888888999999****************** PP
+
+                          HHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHH..HHHHHHHHHHHHHHHHHHHHH CS
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1 177 ktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagcip..talftiawlgysnsavNPiiY 264
+                            +   ++                   k +k+++ +v+vfi++ +P++i+ l++a  ++  + + ++   al ++  ++y++s++NP++Y
+  Podarcis_muralis_WT 222 YAKGFRKQ-------------------KSLKIIFSIVVVFIFTQTPYNILKLVRAADQSIMMDNGFRfeYALIVTEAIAYFHSCLNPVLY 292
+                          99988887...................99***************************55555555444115666666*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (347 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 7.49
+//
+[ok]

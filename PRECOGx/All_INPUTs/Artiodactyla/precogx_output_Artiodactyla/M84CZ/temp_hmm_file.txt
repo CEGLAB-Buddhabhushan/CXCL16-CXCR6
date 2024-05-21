@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/M84CZ/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                      -----------
+    3.5e-50  156.8  23.8    5.2e-50  156.2  23.8    1.3  1  Balaenoptera_acutorostrata_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Balaenoptera_acutorostrata_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  156.2  23.8   5.2e-50   5.2e-50       1     264 []      47     287 ..      47     287 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 156.2 bits;  conditional E-value: 5.2e-50
+                                    HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                          7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllais 80 
+                                    gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew+fg+v+C+++l ++++++++s+l l++i+
+  Balaenoptera_acutorostrata_WT  47 GNSLVLVIYIFYQKLKSLTDVFLMNLPLADLVF-VCTLPFWAYAGI--HEWVFGNVMCKTLLGIYTLNFYTSMLILTCIT 123
+                                    8********************************.********8888..8******************************* PP
+
+                                    HHHHHHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTH CS
+                                    xxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                          7tm_1  81 fDRYlaitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfi 158
+                                    +DR++a++++ k+ +++ kr a+  +++l +Wv+sll+++p++++++v     d+  +C  ++++++ m+    ++++f+
+  Balaenoptera_acutorostrata_WT 124 MDRFIAVVQATKAYNQQAKRMAWgkVICLSIWVVSLLVSLPQIIYGNV--LYLDK-PVCGYHNEEISTMVLATQMTLGFF 200
+                                    **************9999999864489999******************..33444.79********************** PP
+
+                                    HHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCC CS
+                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                          7tm_1 159 lPllvmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdcea 238
+                                    lPll m+++y  i++t+l+ +  +++                   k +k++++vvavf+++ +Pf+++ l+ ++s++   
+  Balaenoptera_acutorostrata_WT 201 LPLLAMIVCYSVIIKTLLQARGFQKH-------------------KSLKIIFLVVAVFLLTQTPFNLVKLIGSMSWEYHT 261
+                                    ********************999998...................99********************************* PP
+
+                                    HHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                    xxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                          7tm_1 239 agciptalftiawlgysnsavNPiiY 264
+                                     + ++ a++++  ++y+  ++NP++Y
+  Balaenoptera_acutorostrata_WT 262 MTSFHYAITVTEAIAYLRACLNPVLY 287
+                                    *************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 17.23
+//
+[ok]

@@ -1,0 +1,80 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/WIF0M/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    3.8e-46  143.5  22.0    3.8e-46  143.5  22.0    1.7  2  Heterocephalus_glaber_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Heterocephalus_glaber_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  143.5  22.0   3.8e-46   3.8e-46       1     264 []      46     286 ..      46     286 .. 0.94
+   2 ?   -3.2   0.1      0.22      0.22     123     143 ..     311     329 ..     306     335 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 143.5 bits;  conditional E-value: 3.8e-46
+                               HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYl 85 
+                               gNllV+++ + +++lq++t+++l +L +aDl++ +++lpf+++  +  ++w+fg++lC+++  ++++++++s+l+l++i++DR++
+  Heterocephalus_glaber_WT  46 GNLLVLLIYVIYQKLQSVTDVFLANLPLADLVY-VCTLPFWAYAGF--HQWVFGRALCKILQGIYTVNFYVSMLTLTCITVDRFI 127
+                               8********************************.********8777..8************************************ PP
+
+                               HHHSHHHHHHHSH..HHHHHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHH CS
+                               xxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1  86 aitkplkykrkrt..krvarlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvily 168
+                               +++++ k+ ++r       + +++ +Wv+s+ll++p++++++v  +  d    C+ + +++ +++    ++++f+lPll m+++y
+  Heterocephalus_glaber_WT 128 TVVQATKAYKHRAmhMACSKGIVGGTWVVSVLLSLPQIIYSEV--HSRDR-LICDYEENEVFRVVLATQTTLGFFLPLLTMMLCY 209
+                               ******98877762255567899********************..44444.79*******9999999999*************** PP
+
+                               HHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1 169 arifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlg 253
+                                 i++t+l ++   ++                   k +k++++vvavf+++ +Pf+++ l+++ +++  a + ++ a+ ++  ++
+  Heterocephalus_glaber_WT 210 PVIIRTILLSRGFRKH-------------------KSLKIIIVVVAVFLLTQTPFNLVKLIRSSNWEYYAMTSFDYAIVATEAIA 275
+                               ********99998887...................99******************************************999*** PP
+
+                               HHHHHHHHHHH CS
+                               xxxxxxxxxxx RF
+                     7tm_1 254 ysnsavNPiiY 264
+                               y+  ++NP++Y
+  Heterocephalus_glaber_WT 276 YLRLCLNPVLY 286
+                               **********9 PP
+
+  == domain 2  score: -3.2 bits;  conditional E-value: 0.22
+                               HTEEECTTTTTTCEEEESSTC CS
+                               xxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1 123 letvetnaqdttkdCqittlp 143
+                                +++  + +d+ k+C+++ +p
+  Heterocephalus_glaber_WT 311 RQWK--SSEDNSKSCSPSHNP 329
+                               4566..67888899*999887 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (337 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.01
+# Mc/sec: 8.81
+//
+[ok]

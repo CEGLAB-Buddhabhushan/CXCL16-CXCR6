@@ -1,0 +1,64 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/5VZL5/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    3.5e-52  163.3  24.1    5.7e-52  162.7  24.1    1.3  1  Lutra_lutra_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Lutra_lutra_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  162.7  24.1   5.7e-52   5.7e-52       1     264 []      46     286 ..      46     286 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 162.7 bits;  conditional E-value: 5.7e-52
+                     HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHHHHHH CS
+                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+           7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkplkykr 95 
+                     gN lV++v + +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew+fg+v+C+++l ++++++++s+l l++i++DR++a++++ k+ +
+  Lutra_lutra_WT  46 GNSLVLIVYVSYQKLKSLTDVFLMNLPLADLVF-VCTLPFWAYASI--QEWVFGKVMCKTLLGIYTLNFYTSMLILTCITMDRFVAVVQATKAYN 137
+                     8********************************.********8777..9*******************************************999 PP
+
+                     HSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHHCHHH CS
+                     xxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+           7tm_1  96 krtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqtvlktsrtmtskskn 188
+                     ++ +r a+  +m+ll+Wv+sll+++p++++++v  ++ d+  +C  ++++++ ++    ++++f+lPll m+++y  i++t+l+ +   ++    
+  Lutra_lutra_WT 138 QQARRMAWgkAMCLLIWVISLLVSLPQIIYGNV--HDLDK-LVCGYHNEEISTVVLAAQMTLGFFLPLLAMMVCYSVIIKTLLHARGFRKH---- 225
+                     99988875448**********************..56666.89*******9999999999************************9999998.... PP
+
+                     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+           7tm_1 189 gegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                                    k +k++++vvavf+++ +Pf+++ l+++ s++ +  + ++ a+ ++  ++y+  ++NP++Y
+  Lutra_lutra_WT 226 ---------------KSLKIIFLVVAVFLLTQTPFNLVKLIHSTSWEYSTMTSFHYAVIITEAVAYLRACLNPVLY 286
+                     ...............99*****************************************9999*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (340 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 21.55
+//
+[ok]

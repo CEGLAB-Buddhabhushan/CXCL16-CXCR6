@@ -1,0 +1,80 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/GFHMC/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    1.2e-48  151.8  24.8    1.2e-48  151.8  24.8    1.9  2  Podarcis_raffonei_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Podarcis_raffonei_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.2   0.1      0.23      0.23     147     159 ..      25      37 ..      14      44 .. 0.41
+   2 !  151.8  24.8   1.2e-48   1.2e-48       1     264 []      48     292 ..      48     292 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: -3.2 bits;  conditional E-value: 0.23
+                           HHHHHHHHHHTHH CS
+                           xxxxxxxxxxxxx RF
+                 7tm_1 147 myiifsavasfil 159
+                           +++ fs+v+ +++
+  Podarcis_raffonei_WT  25 TFTAFSSVFLVYM 37 
+                           3333333333332 PP
+
+  == domain 2  score: 151.8 bits;  conditional E-value: 1.2e-48
+                           HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHS CS
+                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitk 89 
+                           gN+lV+++++ +++++  t+++l+sLa+aDl++ l++lpf++++ +  +ew f ++ C+++  +++++++ s+l+l+++++DRY+ai++
+  Podarcis_raffonei_WT  48 GNTLVLIIFIFYEKVKVLTDVFLVSLAVADLCF-LCTLPFWAYSAA--KEWIFYTLPCQIIRGLYTLNLYGSMLTLTCLTIDRYFAIVQ 133
+                           8********************************.********7666..9**************************************** PP
+
+                           HHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHHHHHH CS
+                           xxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1  90 plkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyarifqt 174
+                           + k++  + kr ++  ++++lvWvlsll+a+p+++++t+  ++ + +k+C  ++++   +++   + +++++++P+lvmv++y  i +t
+  Podarcis_raffonei_WT 134 ATKAHISQAKRIVWgkTVCILVWVLSLLFALPQFLFSTQ--KEYS-KKVCIAEYPSnsLQVLTEAIQMTLGYFCPMLVMVLCYSIITKT 219
+                           *********99987337899****************999..4444.599*******9888999999999******************** PP
+
+                           HHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH..STTSCCHHHHHHHHHHHHHHHHHHHHHHH CS
+                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1 175 vlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqal..svdceaagciptalftiawlgysnsavNP 261
+                           +l  +   ++                   k +k+++++v+vfi++ +P++i+ l++a   sv + +   ++ al ++  ++y++s++NP
+  Podarcis_raffonei_WT 220 LLYAKGFRKQ-------------------KSLKIIFAIVVVFIFTQTPYNILKLIRAAdqSVMMDNGFRFEYALIVTEAIAYFHSCLNP 289
+                           **99988887...................99***************************65555555556667777777*********** PP
+
+                           HHH CS
+                           xxx RF
+                 7tm_1 262 iiY 264
+                           ++Y
+  Podarcis_raffonei_WT 290 VLY 292
+                           **9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (347 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 7.18
+//
+[ok]

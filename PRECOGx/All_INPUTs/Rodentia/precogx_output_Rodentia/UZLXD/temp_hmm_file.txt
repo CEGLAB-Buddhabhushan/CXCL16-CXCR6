@@ -1,0 +1,64 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/UZLXD/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------      -----------
+      5e-51  159.6  27.3    7.1e-51  159.1  27.3    1.2  1  Mus_pahari_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Mus_pahari_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  159.1  27.3   7.1e-51   7.1e-51       1     264 []      64     304 ..      64     304 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 159.1 bits;  conditional E-value: 7.1e-51
+                    HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHHHHHHH CS
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+          7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkplkykrk 96 
+                    gN lV+++ + +++l+t t+++ll+L +aDl++ +++lpf+++      ew+fg+v+C+++  ++++++++s+l+l++i++DR+++++++ k  ++
+  Mus_pahari_WT  64 GNSLVLIIYIFYQKLRTLTDVFLLNLPLADLVF-VCTLPFWAYAGT--YEWVFGTVMCKTLRGMYTMNFYVSMLTLTCITVDRFIVVVQATKVFNR 156
+                    8********************************.********6555..8*******************************************9999 PP
+
+                    SHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHH CS
+                    xxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+          7tm_1  97 rtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqtvlktsrtmtsksknge 190
+                    + k +++  +++ll+Wv+sll+++p++++++v  ++ d+   Cq ++++++ m+ ++ ++++f+lPl+ m+++y  i++t+l+ ++ +++      
+  Mus_pahari_WT 157 QAKWKIWgqVTCLLIWVVSLLVSLPQIIYGNV--EDIDK-LICQYHNDKISTMVLVIQMTLGFFLPLFTMILCYSGIIKTLLHARNFQKH------ 243
+                    99887654489*********************..55555.89*********************************************998...... PP
+
+                    HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+          7tm_1 191 gvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                                 k +k++++vvavf+++ +Pf++++l+q+ s++    + ++ a+ ++  ++y+  ++NP++Y
+  Mus_pahari_WT 244 -------------KSLKIIFLVVAVFLLTQTPFNLAMLIQSTSWEYYTITSFKYAIVVTEAIAYFRACLNPVLY 304
+                    .............99*******************************************99*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (358 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 19.72
+//
+[ok]

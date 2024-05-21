@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/8LC57/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    2.6e-42  131.0   5.6    5.7e-42  129.9   5.6    1.5  1  Dipodomys_spectabilis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Dipodomys_spectabilis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  129.9   5.6   5.7e-42   5.7e-42       1     264 []      52     292 ..      52     292 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 129.9 bits;  conditional E-value: 5.7e-42
+                               HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYl 85 
+                               gN l ++v +++++ ++ +++ll +L +aDlll + +lpf+++  l  +ew+fg+ lC+ +  ++  +++as+l+l+ i++DR +
+  Dipodomys_spectabilis_WT  52 GNALALAVYARSRAWRSLADLLLANLPLADLLL-VSTLPFWAYAGL--HEWVFGQGLCKALQGLYAASLYASMLTLTGITVDRCV 133
+                               8********************************.********8888..8**********************************99 PP
+
+                               HHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1  86 aitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvily 168
+                               ++  + +++++  +  a+    ++l+W+++llla+p+ +++    ++ d   +C  + ++a  +     a ++f+lPll m+++y
+  Dipodomys_spectabilis_WT 134 VVAWATQARARAARWAAWggGACALAWACALLLALPHAIYGRA--QRLDR-LVCHYQHERAATAALAAQAALGFFLPLLAMLVCY 215
+                               9999999999998887773358******************999..44555.79*******99999999***************** PP
+
+                               HHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1 169 arifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlg 253
+                                  ++t+++ +   ++                   k ++++++ vavf+++ +P+t++ l+qa +++  a+  +   l +   l+
+  Dipodomys_spectabilis_WT 216 PLLLRTLCRARGLRRH-------------------KSLRIIALAVAVFVLTQTPYTLARLVQAANWELAATPGFSLGLVVAEALA 281
+                               ********98877776...................99*****************************************9888*** PP
+
+                               HHHHHHHHHHH CS
+                               xxxxxxxxxxx RF
+                     7tm_1 254 ysnsavNPiiY 264
+                               y+   +NP++Y
+  Dipodomys_spectabilis_WT 282 YLRVGLNPVLY 292
+                               **********9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (346 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 7.12
+//
+[ok]

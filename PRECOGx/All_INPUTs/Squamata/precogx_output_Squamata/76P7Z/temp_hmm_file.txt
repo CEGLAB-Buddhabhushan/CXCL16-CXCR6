@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/76P7Z/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                        -----------
+    4.5e-48  149.9  22.1    8.4e-48  149.0  22.1    1.5  1  Protobothrops_mucrosquamatus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Protobothrops_mucrosquamatus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  149.0  22.1   8.4e-48   8.4e-48       1     264 []      46     288 ..      46     288 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 149.0 bits;  conditional E-value: 8.4e-48
+                                      HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                            7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnlla 78 
+                                      gN lVi++++ +k+++  t+i+l+sLaiaD+ + l++lpf++++ +  +ew+f ++ C+++l +++++++ s+l+l+ 
+  Protobothrops_mucrosquamatus_WT  46 GNSLVIIILVFYKKVKMLTDIFLVSLAIADFSF-LCTLPFWAYSAA--EEWVFYTLPCQIILGFYTLNLYGSMLTLTS 120
+                                      8********************************.********7666..9***************************** PP
+
+                                      HHHHHHHHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHH CS
+                                      xxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxx RF
+                            7tm_1  79 isfDRYlaitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifs 152
+                                      i++DRY++i+++ k++  + kr+ +  ++++ +W++sllla+p+++++t+  ++ d+ k C+ ++ +  +e    ++ 
+  Protobothrops_mucrosquamatus_WT 121 ITVDRYFVIVQATKTHISQHKRRFWgiVVCISIWIISLLLALPQFIFSTE--EKLDK-KICFANYASpsIELFTETIQ 195
+                                      *****************9999997632678889***************99..56666.99*****9998999999999 PP
+
+                                      HHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                            7tm_1 153 avasfilPllvmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllq 230
+                                      ++++f++P+l+m+i+y  i++t+l+ +  +++                   k ++++++++++fi++ +P++++ l++
+  Protobothrops_mucrosquamatus_WT 196 MTLGFFCPMLFMIICYSIIVKTLLSAKGFHKH-------------------KSLQIIFAIIVTFILTQMPYNLLKLMR 254
+                                      *************************9999998...................99************************* PP
+
+                                      HHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                            7tm_1 231 alsvdceaagciptalftiawlgysnsavNPiiY 264
+                                      a   +   +  ++ al ++  ++y++ ++NP++Y
+  Protobothrops_mucrosquamatus_WT 255 ASDRNIMLNYRFEYALIITEAIAYFHGCLNPVLY 288
+                                      ****************9999*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (342 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 39.81
+//
+[ok]

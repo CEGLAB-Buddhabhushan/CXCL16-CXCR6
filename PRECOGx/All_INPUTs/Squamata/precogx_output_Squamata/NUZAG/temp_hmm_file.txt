@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/NUZAG/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    9.2e-48  148.9  25.3    9.2e-48  148.9  25.3    2.0  2  Zootoca_vivipara_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Zootoca_vivipara_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.8   0.2      0.34      0.34     208     225 ..      26      43 ..      19      45 .. 0.55
+   2 !  148.9  25.3   9.2e-48   9.2e-48       1     264 []      49     293 ..      49     293 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: -3.8 bits;  conditional E-value: 0.34
+                          HHHHHHHHHHHHHHHHHH CS
+                          xxxxxxxxxxxxxxxxxx RF
+                7tm_1 208 tlgivvavfivcwlPfti 225
+                          t ++   vf+vc+  f +
+  Zootoca_vivipara_WT  26 TFTAFSRVFLVCMYSFAC 43 
+                          444444566666665554 PP
+
+  == domain 2  score: 148.9 bits;  conditional E-value: 9.2e-48
+                          HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSH CS
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkp 90 
+                          gN+lV+++++ +++++  t+++l+sLa+aDl++ l++lpf++++ +  +ew f ++ C+++  +++++++ s+l+l+++++DRY+ai+++
+  Zootoca_vivipara_WT  49 GNTLVLIIFIFYEKVKVLTDVFLVSLAVADLCF-LCTLPFWAYSAA--KEWIFYTLPCQIIRGLYTLNLYGSMLTLTCLTIDRYFAIVQA 135
+                          8********************************.********7666..9***************************************** PP
+
+                          HHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHH CS
+                          xxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1  91 lkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyarifqtvl 176
+                           k++  + kr ++  ++++lvWvlsll+a+p+++++t+  ++ + +k+C  ++++   +++   + +++++++P+lvmv++y  i +t+l
+  Zootoca_vivipara_WT 136 TKAHISQAKRIVWgkTVCILVWVLSLLFALPQFLFSTQ--KEYS-KKVCIAEYPSnsLQMLTEAIQMTLGYFCPMLVMVLCYSIITNTLL 222
+                          ********99987337899****************999..4444.599*******97778888888999999****************** PP
+
+                          HHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH..STTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1 177 ktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqal..svdceaagciptalftiawlgysnsavNPiiY 264
+                            +   ++                   k +k+++++v+vfi++ +P++i+ l+++    v   +   ++ al ++  ++y++s++NP++Y
+  Zootoca_vivipara_WT 223 YAKGFRKQ-------------------KSLKIIFAIVVVFIFTQTPYNILRLIRVAdpRVMVDNGYRFEYALIVTEAIAYFHSCLNPVLY 293
+                          99988887...................99***************************65555555556667777777*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (348 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 16.49
+//
+[ok]

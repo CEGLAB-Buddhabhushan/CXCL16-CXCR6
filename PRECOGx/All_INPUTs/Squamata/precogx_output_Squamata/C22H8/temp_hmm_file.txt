@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/C22H8/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    2.1e-48  151.0  26.2    4.5e-48  149.9  26.2    1.6  1  Salvator_merianae_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Salvator_merianae_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  149.9  26.2   4.5e-48   4.5e-48       1     264 []      47     289 ..      47     289 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 149.9 bits;  conditional E-value: 4.5e-48
+                           HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHS CS
+                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitk 89 
+                           gN+lV+++++ +++++ +t+++l+sLaiaDl++ l++lpf++++ +  +ew f+++ C+++  +++++++ s+l+l+++++DRY+++++
+  Salvator_merianae_WT  47 GNTLVLIIFIFYEKVKVPTDVFLVSLAIADLCF-LCTLPFWAYSAA--DEWIFSTLACKTIRGLYMLNLYGSMLTLTVVTIDRYFVVVQ 132
+                           8********************************.********7666..9**************************************** PP
+
+                           HHHHHHHSHHHH..HHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHHHHHH CS
+                           xxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1  90 plkykrkrtkrv..arlmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyarifqt 174
+                           + k+   + +r   ++l+++ vW++sl++++p+++++++  ++ d+ k+Cq ++++   e    ++ + +++++P+lvm+i+y  i++t
+  Salvator_merianae_WT 133 ATKAYLSQARRTvcVKLVCISVWLISLAVSLPQFLFSSQ--TQLDK-KVCQADYSSdsLELFTEVIQMALGYFCPMLVMIICYSIIVKT 218
+                           *99876666554227899******************999..55555.9********977778888888899999*************** PP
+
+                           HHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1 175 vlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPii 263
+                           +l+ +  ++                    k +k++++vva+fi++ +P++++ +++++++     + +  al ++  ++y++s++NP++
+  Salvator_merianae_WT 219 LLSAKGFHKY-------------------KSLKIIFAVVATFIFMQTPYNLLKFIRVIHKRVILDDRFLYALIITEAIAYFHSCLNPVL 288
+                           ***9999998...................99***************************999999999999999888************* PP
+
+                           H CS
+                           x RF
+                 7tm_1 264 Y 264
+                           Y
+  Salvator_merianae_WT 289 Y 289
+                           9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (343 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.01
+# Mc/sec: 8.71
+//
+[ok]

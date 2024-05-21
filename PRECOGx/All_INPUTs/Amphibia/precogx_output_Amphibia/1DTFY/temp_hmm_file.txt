@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/1DTFY/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                 Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                 -----------
+    2.4e-49  154.0  26.4      6e-49  152.7  26.4    1.7  1  Rhinatrema_bivittatum_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Rhinatrema_bivittatum_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.7  26.4     6e-49     6e-49       1     264 []      52     295 ..      52     295 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 152.7 bits;  conditional E-value: 6e-49
+                               HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYl 85 
+                               gN lV+++ + +++l+t ++++l++La aD+l+ l++lpf ++  +  ++w fg v+C+l+  ++++++++s+l+l++i++DRY+
+  Rhinatrema_bivittatum_WT  52 GNSLVVLIYIFYEKLKTLMDVFLVNLATADILF-LCTLPFLAYDAA--HQWIFGLVMCKLLRGLYTVNLYTSMLTLTCITVDRYI 133
+                               8********************************.*****9986555..8************************************ PP
+
+                               HHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEEC.TTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxx.xxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1  86 aitkplkykrkrtkrvar..lmillvWvlslllavpllvletvet.naqdttkdCqittlp..aesmyiifsavasfilPllvmv 165
+                               ai ++ + +r + k+ a+  ++++ vWv+s+++a+p++++ ++ t ++   + +C+ +++p  ++ +++ f ++++f++Pll m+
+  Rhinatrema_bivittatum_WT 134 AIARATRVHRFQGKKLAFgiAVCVTVWVVSFAIATPQFIFNKQFTiSN---QLKCYAEYNPphVQLIVNGFQMTFGFFIPLLTMI 215
+                               ************9998752278999***************99944344...456******9999999999*************** PP
+
+                               HHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                     7tm_1 166 ilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftia 250
+                               ++ya i++ + + +   +                    k +k++++vvavfi + lP+++++l+++  ++  ++ ++  a++++ 
+  Rhinatrema_bivittatum_WT 216 VCYAIIINIIIHAKGIRKY-------------------KSLKIIFMVVAVFIATQLPYNLVILISTTDPNIHMHPHFIYAVTITE 281
+                               ************9988887...................99*****************************************9999 PP
+
+                               HHHHHHHHHHHHHH CS
+                               xxxxxxxxxxxxxx RF
+                     7tm_1 251 wlgysnsavNPiiY 264
+                                ++y++ ++NP++Y
+  Rhinatrema_bivittatum_WT 282 AIAYFHGCLNPVLY 295
+                               *************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (350 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 19.62
+//
+[ok]

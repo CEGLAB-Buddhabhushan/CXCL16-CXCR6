@@ -1,0 +1,64 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/N98EQ/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence        Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+    1.9e-48  151.1  24.2      3e-48  150.5  24.2    1.3  1  Papio_anubis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Papio_anubis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  150.5  24.2     3e-48     3e-48       1     264 []      49     289 ..      49     289 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 150.5 bits;  conditional E-value: 3e-48
+                      HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSHHHHH CS
+                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+            7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkplkyk 94 
+                      gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew fg+v+C+++l ++++++++s+l l++i++DR+++++k+ k+ 
+  Papio_anubis_WT  49 GNSLVLVISIFYHKLKSLTDVFLVNLPLADLVF-VCTLPFWAYAGI--HEWIFGQVMCKTLLGIYTINFYTSMLILTCITVDRFIVVVKATKAY 139
+                      8********************************.********8888..8*******************************************99 PP
+
+                      HHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHHHHHHHHHHCH CS
+                      xxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+            7tm_1  95 rkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarifqtvlktsrtmtsks 186
+                      +++ kr ++  +++ll+Wv+sll+++p++++++v   + d+   C  + ++++ ++    ++++f+lPll m+++y  i++t+l+    +++  
+  Papio_anubis_WT 140 NQQAKRMTWgkVICLLIWVISLLVSLPQIIYGNV--FNLDK-LICGYHDEEISTVVLATQMTLGFFLPLLAMIVCYSVIIKTLLHAGGFQKH-- 228
+                      9998887543399*********************..45555.69*******99999999999**************************9998.. PP
+
+                      HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                      xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+            7tm_1 187 kngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                                       + +k++++v+avf+++ +Pf+++ l+++ +++  a + ++  + ++  ++y+  ++NP++Y
+  Papio_anubis_WT 229 -----------------RSLKIIFLVMAVFLLTQTPFNLVKLIRSTHWEYYAMTSFHYTIIVTEAIAYLRACLNPVLY 289
+                      .................99*****************************************9999*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (343 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 14.05
+//
+[ok]

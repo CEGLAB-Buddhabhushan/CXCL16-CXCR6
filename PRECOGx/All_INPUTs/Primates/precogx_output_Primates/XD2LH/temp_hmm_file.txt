@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/XD2LH/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                  Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                  -----------
+    8.3e-49  152.3  25.1    1.3e-48  151.7  25.1    1.3  1  Mandrillus_leucophaeus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Mandrillus_leucophaeus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  151.7  25.1   1.3e-48   1.3e-48       1     264 []      99     339 ..      99     339 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 151.7 bits;  conditional E-value: 1.3e-48
+                                HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRY 84 
+                                gN lV+++ + +++lq+ t+++l++L +aDl++ +++lpf+++  +  +ew fg+v+C+++l v+++++++s+l l++i++DR+
+  Mandrillus_leucophaeus_WT  99 GNSLVLVISIFYHKLQSLTDVFLVNLPLADLVF-VCTLPFWAYAGI--HEWIFGQVMCKTLLGVYTINFYTSMLILTCITVDRF 179
+                                8********************************.********8888..8*********************************** PP
+
+                                HHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1  85 laitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvi 166
+                                ++++k+ k+ +++ kr ++  +++ll+Wv+sll+++p++++++v   + d+   C  + ++++ ++    ++++f+lPll m++
+  Mandrillus_leucophaeus_WT 180 IVVVKATKAYNQQAKRMTWgkVICLLIWVISLLVSLPQIIYGNV--FNLDK-LICRYHDEEISTVVLATQMTLGFFLPLLAMIV 260
+                                ********999998887543399*********************..45555.69*******99999999999************ PP
+
+                                HHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                      7tm_1 167 lyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftia 250
+                                +y  i++t+l+    +++                   + +k++++v+avf+++ +Pf+++ l+++ +++  a + ++  + ++ 
+  Mandrillus_leucophaeus_WT 261 CYSVIIKTLLHAGGFQKH-------------------RSLKIIFLVMAVFLLTQTPFNLVKLIRSTHWEYYAMTSFHYTIIVTE 325
+                                **************9998...................99*****************************************9999 PP
+
+                                HHHHHHHHHHHHHH CS
+                                xxxxxxxxxxxxxx RF
+                      7tm_1 251 wlgysnsavNPiiY 264
+                                 ++y+  ++NP++Y
+  Mandrillus_leucophaeus_WT 326 AIAYLRACLNPVLY 339
+                                *************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (393 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 18.81
+//
+[ok]

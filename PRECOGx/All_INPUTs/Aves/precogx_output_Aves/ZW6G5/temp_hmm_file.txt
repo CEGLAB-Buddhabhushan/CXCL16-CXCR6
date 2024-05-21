@@ -1,0 +1,64 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/ZW6G5/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence            Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------            -----------
+    2.7e-51  160.4  18.0    3.7e-51  160.0  18.0    1.2  1  Tinamus_guttatus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Tinamus_guttatus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.0  18.0   3.7e-51   3.7e-51       1     264 []      47     289 ..      47     289 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 160.0 bits;  conditional E-value: 3.7e-51
+                          HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSH CS
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitkp 90 
+                          gN+lV+++++ +++l+t t+i+ll+La aDl++ l +lpf++++ +  +ew+fg+  Cr++  ++ +++++s+l+l++i+fDR +ait +
+  Tinamus_guttatus_WT  47 GNTLVFIILVFYEKLKTLTDIYLLNLATADLVF-LWTLPFWAYSAA--QEWAFGTGACRIIRGLYNLNLYTSMLTLTCITFDRLIAITFA 133
+                          8********************************.********7666..9***************************************** PP
+
+                          HHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHHHHHHHH CS
+                          xxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1  91 lkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyarifqtvl 176
+                           k+++ + kr ++  ++++l+Wv+sl++a+p++++++     q ++  Cq ++++  +e+++ ++   +++++P+l m+i+y  i++t+l
+  Tinamus_guttatus_WT 134 TKAHQCQGKRMTWgkVICILIWVISLAFATPQFIFSEA---FQIDKAICQENYPNhrTEVVLEVVQVALGYFIPMLAMIICYSLIIKTLL 220
+                          *****999887643399******************999...3444579*******99999999*************************** PP
+
+                          HHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                7tm_1 177 ktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPiiY 264
+                          + ++ +++                   k +k ++ vva+fi++  P+t++ l+++  ++ + +  ++ a+ ++  ++y++ ++NP++Y
+  Tinamus_guttatus_WT 221 HARSFQKH-------------------KSLKKIFSVVATFILTQSPYTFLRLIKIADWSFNLNSSFEYAIVITEAFAYFHGCLNPVLY 289
+                          *****998...................89*****************************************9999*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (344 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 15.34
+//
+[ok]

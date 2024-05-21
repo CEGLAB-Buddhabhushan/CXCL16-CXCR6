@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/MWH36/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                      Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                      -----------
+    1.7e-50  157.8  24.4    2.6e-50  157.2  24.4    1.3  1  Ictidomys_tridecemlineatus_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Ictidomys_tridecemlineatus_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  157.2  24.4   2.6e-50   2.6e-50       1     264 []      49     289 ..      49     289 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 157.2 bits;  conditional E-value: 2.6e-50
+                                    HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                          7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllais 80 
+                                    gN lV++v + +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew+fg+v+C+++  ++++++++s+l+l++i+
+  Ictidomys_tridecemlineatus_WT  49 GNSLVLVVYIFYQKLKSLTDVFLVNLPLADLVF-VCTLPFWAYAGF--HEWVFGQVMCKILRGIYTINFYTSMLTLTCIT 125
+                                    8********************************.********8777..8******************************* PP
+
+                                    HHHHHHHHSHHHHHHHSHHHH..HHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTH CS
+                                    xxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                          7tm_1  81 fDRYlaitkplkykrkrtkrv..arlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfi 158
+                                    +DR++a++++ k+ +++ kr    ++++l++Wv+sll+++p++++++v   + d+   C  + ++++ m+    + ++f+
+  Ictidomys_tridecemlineatus_WT 126 VDRFIAVVQATKAYNQQAKRMtcGKVICLIIWVVSLLVSLPQIIYSNV--LHLDK-VICGYHDEEISTMVLASQMSLGFF 202
+                                    ***********9998888776226799*********************..44555.79*******9999999999***** PP
+
+                                    HHHHHHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCC CS
+                                    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                          7tm_1 159 lPllvmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdcea 238
+                                    lPll m+i+y  i++t+l+ +   ++                   k +k++++vvavf+++ +Pf+++ l+++ s++   
+  Ictidomys_tridecemlineatus_WT 203 LPLLAMIICYSIIIKTLLHARGFRKH-------------------KSLKIIFLVVAVFLLTQTPFNLVKLIRSTSWEYYT 263
+                                    *******************9999998...................99********************************* PP
+
+                                    HHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                    xxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                          7tm_1 239 agciptalftiawlgysnsavNPiiY 264
+                                     + ++ a+ ++  ++y+  ++NP++Y
+  Ictidomys_tridecemlineatus_WT 264 MTSFDYAILVTEAIAYLRACLNPVLY 289
+                                    *************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 17.38
+//
+[ok]

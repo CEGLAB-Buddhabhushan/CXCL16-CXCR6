@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/JHI3N/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    7.6e-49  152.4  22.9    1.1e-48  151.9  22.9    1.2  1  Artibeus_jamaicensis_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Artibeus_jamaicensis_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  151.9  22.9   1.1e-48   1.1e-48       1     264 []     106     346 ..     106     346 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 151.9 bits;  conditional E-value: 1.1e-48
+                              HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYla 86 
+                              gN lV+++ + +++l+++t+++l++L +aDl++ +++lpf+++  +  +ew fg+v+C+++l  +++++++s+l l++i++DR++a
+  Artibeus_jamaicensis_WT 106 GNSLVLVIHIFYQKLRSPTDMFLMNLPLADLVF-VCTLPFWTYASI--HEWIFGSVMCKILLGTYTLNFYTSMLILICITVDRFIA 188
+                              8********************************.********8777..8************************************* PP
+
+                              HHSHHHHHHHSH..HHHHHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1  87 itkplkykrkrt..krvarlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyar 170
+                              ++++ k+ + +t   + a++++l +Wv+sll+++p++++++v  ++ d+ + C  + ++++ ++  + ++++f+lPl vm+++y  
+  Artibeus_jamaicensis_WT 189 VVQATKAYNEKTkwMSWAKAICLSAWVVSLLVSLPQIIYGDV--HDFDK-RICGYHHDEISTLVLAIQMTLGFFLPLNVMIVCYSV 271
+                              *****999988834467999**********************..56666.89*******99999999999**************** PP
+
+                              HHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHH CS
+                              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                    7tm_1 171 ifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysn 256
+                              i++ +l+ +  +++                   k +k++++vva+f+v+ +Pf+++ l+++ +++  + + ++ a+ ++  ++y+ 
+  Artibeus_jamaicensis_WT 272 IIKNLLHAQGFHKH-------------------KSLKIIFLVVALFLVTQTPFNLVKLIRSTNWEYHSMTSFHYAIVVTEAIAYLR 338
+                              *********99998...................99*******************************************99****** PP
+
+                              HHHHHHHH CS
+                              xxxxxxxx RF
+                    7tm_1 257 savNPiiY 264
+                               ++NP++Y
+  Artibeus_jamaicensis_WT 339 VCLNPVLY 346
+                              *******9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (400 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 41.23
+//
+[ok]

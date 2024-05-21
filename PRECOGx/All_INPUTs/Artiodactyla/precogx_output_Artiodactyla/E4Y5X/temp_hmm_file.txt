@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/E4Y5X/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    2.2e-49  154.2  25.8    3.3e-49  153.6  25.8    1.3  1  Camelus_dromedarius_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Camelus_dromedarius_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  153.6  25.8   3.3e-49   3.3e-49       1     264 []      48     288 ..      48     288 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 153.6 bits;  conditional E-value: 3.3e-49
+                             HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlai 87 
+                             gN lV+++ + +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew+fg+++C+++l ++++++++s+l l++i++DR++a+
+  Camelus_dromedarius_WT  48 GNSLVLVIYVFYQKLKSLTDVFLMNLPLADLVF-VCTLPFWAYAGI--HEWVFGNIMCKMLLGIYTLNFYTSMLILTCITMDRFMAV 131
+                             8********************************.********8888..8************************************** PP
+
+                             HSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1  88 tkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarif 172
+                             +++ k+ +++ kr a+  +++l +Wv sll+++p++++++v  +  d+   C  ++ ++++m+ +  ++++f+lPll m+++y  i+
+  Camelus_dromedarius_WT 132 VRATKAYNQQAKRMAWgkVICLSIWVTSLLVSLPQIIYGKV--HYLDK-AICGYQNAEISVMVLTTQMTLGFFLPLLAMIVCYSVII 215
+                             *******9999999864489999******************..33444.68************************************ PP
+
+                             HHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1 173 qtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsav 259
+                             +t+++ +  +++                   k +k++++vv+vf+++ +Pf+++ l+++ s++    + ++ a+ ++  ++y+  ++
+  Camelus_dromedarius_WT 216 KTLFQARGFQKH-------------------KSLKIIFLVVVVFLLTQTPFNLVKLIRSTSWEYHTMTSFHYAILVTEAIAYLRACL 283
+                             *****9999998...................99****************************************************** PP
+
+                             HHHHH CS
+                             xxxxx RF
+                   7tm_1 260 NPiiY 264
+                             NP++Y
+  Camelus_dromedarius_WT 284 NPVLY 288
+                             ****9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (336 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 30.57
+//
+[ok]

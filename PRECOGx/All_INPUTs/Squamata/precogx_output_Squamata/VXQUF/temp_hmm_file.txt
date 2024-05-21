@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/VXQUF/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------             -----------
+    6.9e-48  149.3  21.8    1.2e-47  148.4  21.8    1.4  1  Bothrops_jararaca_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Bothrops_jararaca_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  148.4  21.8   1.2e-47   1.2e-47       1     264 []      46     288 ..      46     288 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 148.4 bits;  conditional E-value: 1.2e-47
+                           HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHS CS
+                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlaitk 89 
+                           gN lVi++++ +k+++  t+i+l+sLaiaD+ + l++lpf++++ +  +ew+f ++ C+++l +++++++ s+l+l+ i++DRY++i++
+  Bothrops_jararaca_WT  46 GNSLVILILVFYKKVKMLTDIFLVSLAIADFSF-LCTLPFWAYSAA--EEWVFYTLPCQIILGFYTLNLYGSMLTLTSITVDRYFVIVQ 131
+                           8********************************.********7666..9**************************************** PP
+
+                           HHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTC..HHHHHHHHHHHHHTHHHHHHHHHHHHHHHHH CS
+                           xxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1  90 plkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlp..aesmyiifsavasfilPllvmvilyarifqt 174
+                           + k++  + kr+ +  ++++ +W++sllla+p+++++t+  ++ d+ k C+ ++ +  +e    ++ ++++f++P+l+m+i+y  i++t
+  Bothrops_jararaca_WT 132 ATKTRISQHKRRSWgiVVCISIWIISLLLALPQFIFSTE--EKLDK-KICFANYASpsIELFTETIQMTLGFFCPMLFMIICYSIIVKT 217
+                           ****999998886522778899***************99..56666.99*****9998999999999********************** PP
+
+                           HHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                 7tm_1 175 vlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsavNPii 263
+                           +l+ +  +++                   k ++++++++++fi++ +P++++ l+++   +   +  ++ al ++  ++y++ ++NP++
+  Bothrops_jararaca_WT 218 LLSAKGFHKH-------------------KSLQIIFAIIVTFILTQMPYNLLKLMRVSDRNIMLNYRFEYALIITEAIAYFHGCLNPVL 287
+                           ***9999998...................99*****************************************9999************* PP
+
+                           H CS
+                           x RF
+                 7tm_1 264 Y 264
+                           Y
+  Bothrops_jararaca_WT 288 Y 288
+                           9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (342 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 32.25
+//
+[ok]

@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/652HB/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                    Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                    -----------
+    1.6e-50  157.9  23.3    2.3e-50  157.4  23.3    1.2  1  Nyctereutes_procyonoides_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Nyctereutes_procyonoides_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  157.4  23.3   2.3e-50   2.3e-50       1     264 []      47     287 ..      47     287 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 157.4 bits;  conditional E-value: 2.3e-50
+                                  HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfD 82 
+                                  gN lV++v l +++l++ t+++l++L +aDl++ +++lpf+++  +  +ew+fg+v+C+++l ++++++++s+l l++i++D
+  Nyctereutes_procyonoides_WT  47 GNSLVLVVYLFYQKLKSLTDVFLMNLPLADLVF-VCTLPFWAYASI--HEWVFGKVMCKTLLGIYTLNFYTSMLILTCITMD 125
+                                  8********************************.********8777..8********************************* PP
+
+                                  HHHHHHSHHHHHHHSHHHHHH..HHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1  83 RYlaitkplkykrkrtkrvar..lmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPll 162
+                                  R++a++++ k+ +++ kr a+  +++ll+Wv+sll+++p++++++v+    d+   C  + + ++ ++    ++++f+lPll
+  Nyctereutes_procyonoides_WT 126 RFIAVVQATKAYNQQAKRMAWgkAICLLIWVISLLVSLPQIIYGKVCY--LDK-LICGYHDEDISTVVLATQMTLGFFLPLL 204
+                                  ************9999999864489*********************54..333.58*******99999999999******** PP
+
+                                  HHHHHHHHHHHHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1 163 vmvilyarifqtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagcipt 244
+                                   m+++y  i++t+l+ +  +++                   k +k++++vvavf+++ +Pf+++ l+++  ++    + ++ 
+  Nyctereutes_procyonoides_WT 205 AMIVCYSVIIKTLLHARGFQKH-------------------KSLKIIFLVVAVFLLTQTPFNLVKLIRSTRWEHDTMTSFHY 267
+                                  *****************99998...................99*************************************** PP
+
+                                  HHHHHHHHHHHHHHHHHHHH CS
+                                  xxxxxxxxxxxxxxxxxxxx RF
+                        7tm_1 245 alftiawlgysnsavNPiiY 264
+                                  a+ ++  ++y+  ++NP++Y
+  Nyctereutes_procyonoides_WT 268 AIIITEAIAYLRACLNPVLY 287
+                                  **9999*************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (341 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 15.85
+//
+[ok]

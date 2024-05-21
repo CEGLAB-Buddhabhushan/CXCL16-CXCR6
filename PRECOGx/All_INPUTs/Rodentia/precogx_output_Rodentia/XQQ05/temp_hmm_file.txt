@@ -1,0 +1,71 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  /home/buddha/software/precogx/data/7tm_1.hmm
+# target sequence database:        /home/buddha/software/precogx/static/predictor/output/XQQ05/input.fasta
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       7tm_1  [M=264]
+Accession:   PF00001.24
+Description: 7 transmembrane receptor (rhodopsin family)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    6.6e-49  152.6  25.6    9.6e-49  152.1  25.6    1.2  1  Grammomys_surdaster_WT  
+
+
+Domain annotation for each sequence (and alignments):
+>> Grammomys_surdaster_WT  
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  152.1  25.6   9.6e-49   9.6e-49       1     264 []      64     304 ..      64     304 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 152.1 bits;  conditional E-value: 9.6e-49
+                             HHHHHHHHHHHSSTTHSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHTHSSHSSHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1   1 gNllViyviltkkslqtstnilllsLaiaDlllgllvlpfaiiqeltknewlfghvlCrlwlsvdvflstasilnllaisfDRYlai 87 
+                             gN lV+++ + +++l++ t+++ll+L +aDl++ +++lpf+++     +ew+fg+v+C+++  ++++++++s+l+l++i++DR++++
+  Grammomys_surdaster_WT  64 GNSLVLIIYIFYQKLRNLTDVFLLNLPLADLVF-VCTLPFWAYAGS--HEWVFGTVMCKTLRGMYTVNFYVSMLTLTCITVDRFIVV 147
+                             8********************************.********7666..8************************************** PP
+
+                             HSHHHHHHHSH..HHHHHHHHHHHHHHHHHHHHHHHHHTEEECTTTTTTCEEEESSTCHHHHHHHHHHHHHTHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxx..xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1  88 tkplkykrkrt..krvarlmillvWvlslllavpllvletvetnaqdttkdCqittlpaesmyiifsavasfilPllvmvilyarif 172
+                             +++ k+ +++   k+   +++ll+Wv+sll+++p++++++v  ++ d+   C  ++++++ ++ ++ ++++f+lPll m+++y  i+
+  Grammomys_surdaster_WT 148 VQATKAFNRQArwKSWGQATCLLIWVASLLVSLPQIIYGNV--ERFDK-LICHYHNEAISTVVLVIQMTLGFFLPLLTMILCYSGII 231
+                             ****998877733666779**********************..66666.79*******99999999********************* PP
+
+                             HHHHHHHHHHHHCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHSTTSCCHHHHHHHHHHHHHHHHHHHHH CS
+                             xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx RF
+                   7tm_1 173 qtvlktsrtmtskskngegvgtpplkgvrekkaaktlgivvavfivcwlPftiiyllqalsvdceaagciptalftiawlgysnsav 259
+                             +t+l+ ++ +++                   k +k++++vv+vf+++ +Pf++++l+++ s++    + ++ a+ ++  ++y+  ++
+  Grammomys_surdaster_WT 232 KTLLHARNFQRH-------------------KSLKIIFLVVTVFLLTQTPFNLVMLIRSTSWEYYTLTSFNYAIIVTEAIAYLRACL 299
+                             *******99998...................99******************************************999********* PP
+
+                             HHHHH CS
+                             xxxxx RF
+                   7tm_1 260 NPiiY 264
+                             NP++Y
+  Grammomys_surdaster_WT 300 NPVLY 304
+                             ****9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                          1  (358 residues searched)
+Passed MSV filter:                         1  (1); expected 0.0 (0.02)
+Passed bias filter:                        1  (1); expected 0.0 (0.02)
+Passed Vit filter:                         1  (1); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (1); expected 0.0 (1e-05)
+Initial search space (Z):                  1  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 24.65
+//
+[ok]
