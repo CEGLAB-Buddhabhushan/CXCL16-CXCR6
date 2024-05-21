@@ -1,0 +1,122 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Chelonia_mydas.fa
+#    -outfile Anas_platyrhynchos-Chelonia_mydas.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Chelonia_mydas.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Chelonia_mydas
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1072
+# Identity:     781/1072 (72.9%)
+# Similarity:   781/1072 (72.9%)
+# Gaps:          74/1072 ( 6.9%)
+# Score: 2810.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAAC-TGCAGATGCTGTTACCTTTTATTA---------TAACTTCT     40
+                     |||| |.| |.|||||         |.||||||         ||||.|..
+Chelonia_myda      1 ATGG-AGCTTCCAGAT---------TGTTATTACCCAGACCTTAACCTTA     40
+
+Anas_platyrhy     41 CAGCCATTGATCCCAATGAAAACGGAATTGAGAATTTTTACA-------C     83
+                     |...||..|||..||||||.||      |||..|||||..||       |
+Chelonia_myda     41 CGTGCAACGATTACAATGAGAA------TGAACATTTTCTCAGGGCCAGC     84
+
+Anas_platyrhy     84 ATTTATAACTATCTTTCTGCCCTGTGTGTATTCGTTTGTTTTTATCTTTG    133
+                     |     ||  |||||||||||||||.|||||.|.||||.||||..|||.|
+Chelonia_myda     85 A-----AA--ATCTTTCTGCCCTGTATGTATGCATTTGCTTTTGCCTTCG    127
+
+Anas_platyrhy    134 GGCTAGCAGGAAATGCTCTGGTCTTTATCATACTGGTCTTCTATGAGAAA    183
+                     ||||...|||||||.||.|||||.||||||||....|.||||.|||||||
+Chelonia_myda    128 GGCTGATAGGAAATTCTTTGGTCCTTATCATATACATTTTCTGTGAGAAA    177
+
+Anas_platyrhy    184 CTGAAGACACTGACAGATATATTTTTGTTGAACCTGGCTATAGCTGATTG    233
+                     ||||||||..||||||||.|||||||..|||.|.||||||.|||.||.|.
+Chelonia_myda    178 CTGAAGACGTTGACAGATGTATTTTTAGTGAGCTTGGCTACAGCAGACTT    227
+
+Anas_platyrhy    234 GATCTTCCTTTGGACGCTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGT    283
+                     |.|.|||||||..||..|||||||||||||.|||||||||||||..||||
+Chelonia_myda    228 GCTTTTCCTTTCCACCTTGCCATTCTGGGCATATTCTGCTGCTCGCGAGT    277
+
+Anas_platyrhy    284 GGATTTTTGGCACTGTGACATGTCGAATCATACGGGGCCTGTACAATCTG    333
+                     |||||||||||.|..|||..|||..|||.||||||||||||||||.|.||
+Chelonia_myda    278 GGATTTTTGGCTCCTTGATGTGTAAAATTATACGGGGCCTGTACACTTTG    327
+
+Anas_platyrhy    334 AACTTGTACACTTCAATGTTAACTCTAACGTCTATCACCTTTGACAGGCT    383
+                     ||..|||||||||||||||||||.||.||.|.|||.||..|||||||..|
+Chelonia_myda    328 AATCTGTACACTTCAATGTTAACACTCACTTGTATAACTATTGACAGATT    377
+
+Anas_platyrhy    384 TATTTCTATTACTTTTGCCACCAAAGCACATATGAGTCAAACCAAACGAC    433
+                     ||||.|||||.|....|||||.|||||.||.|||.|||||.|||||.||.
+Chelonia_myda    378 TATTGCTATTGCCCAAGCCACAAAAGCCCACATGTGTCAAGCCAAAAGAA    427
+
+Anas_platyrhy    434 TGAAATGGGGCAAATTAATCTGCGGCTTGATCTGGGTGATTTCAGTAGCA    483
+                     ||...|||||.|||.|.||||||...||..|.||||||||||||.|||||
+Chelonia_myda    428 TGGTTTGGGGGAAAGTGATCTGCATTTTAGTTTGGGTGATTTCACTAGCA    477
+
+Anas_platyrhy    484 TTTGCCACACCACAGCTTATTTTTAGT--------GATGTGTTTACTATT    525
+                     |||||.||.|||||..|||..|..|||        .|       |||| |
+Chelonia_myda    478 TTTGCAACGCCACAATTTAAATACAGTACACAATCAA-------ACTA-T    519
+
+Anas_platyrhy    526 GATAAGACAATATGCCTGGAAAAATACC---CAGACCACCACATAGAATT    572
+                     ||||||.||.|.||.|..|.|...||.|   |||   |.|.||.||||||
+Chelonia_myda    520 GATAAGTCAGTCTGTCATGCAGTGTATCCTTCAG---ATCTCACAGAATT    566
+
+Anas_platyrhy    573 GGTTCTTGAAGTTATTCAAGTGACCCTTGGTTACTTTATTCCCATGCTAA    622
+                     ||||.||.||||..|||||.||||||||||.|.||||||.||||||||||
+Chelonia_myda    567 GGTTTTTAAAGTACTTCAAATGACCCTTGGATTCTTTATCCCCATGCTAA    616
+
+Anas_platyrhy    623 CCATGATCATCTGCTACTCCCTAATTATTAAAACCTTACTGCATGCCAGG    672
+                     |||||||.|||||||||||..|||||||.|||||.|||||.|.|||||||
+Chelonia_myda    617 CCATGATTATCTGCTACTCAATAATTATCAAAACTTTACTTCGTGCCAGG    666
+
+Anas_platyrhy    673 AACTTCCAAAAGAACAAATCTCTAAAAAAAATATTTTCTGTAGTGGCCAT    722
+                     |..||||||||..|||||||..||||||.||||||||||.||||.|..|.
+Chelonia_myda    667 AGTTTCCAAAAACACAAATCCTTAAAAATAATATTTTCTATAGTAGTGAC    716
+
+Anas_platyrhy    723 ATTTATTCTTACTCAGTCACCCTACACTTTCTTGAGACTGAT---GAAGA    769
+                     .||.|||||||||||||.||||||||.|||.||||.|||.||   .||.|
+Chelonia_myda    717 GTTCATTCTTACTCAGTTACCCTACAATTTGTTGATACTCATACGCAATA    766
+
+Anas_platyrhy    770 T-CATCGACTGGAGCTTCAACTTGGACAGCAACTTTGACTACGCCATCGT    818
+                     | |||   .|||| .||||||.|||||..|||.||.||||..||..|.||
+Chelonia_myda    767 TACAT---GTGGA-ATTCAACCTGGACTACAATTTCGACTCTGCGGTGGT    812
+
+Anas_platyrhy    819 TATAACAGAAGCCCTTGCTTATTTCCACGGCTGTCTTAACCCTGTTATGT    868
+                     ||||||||||||..||||||||.||||.||||||||.|||||||||.|.|
+Chelonia_myda    813 TATAACAGAAGCAATTGCTTATCTCCATGGCTGTCTCAACCCTGTTCTAT    862
+
+Anas_platyrhy    869 ATTTCTTCATGGGGGTGAAATTCAGGAAGAACTTCCAGAAAATTATTAA-    917
+                     |||||||.||.||||||||.|||||||||||||||||||||||.||.|| 
+Chelonia_myda    863 ATTTCTTTATTGGGGTGAAGTTCAGGAAGAACTTCCAGAAAATCATCAAG    912
+
+Anas_platyrhy    918 AAGCTCA-AGGTGCTTTAAACAGCAAGTTGCTGTTAGACAGTGGCACACC    966
+                     ||..||| |.|||  ||||.|..||||.|..|||.|..||.|||||.|||
+Chelonia_myda    913 AACATCAGATGTG--TTAAGCGCCAAGGTATTGTGAAGCAATGGCAAACC    960
+
+Anas_platyrhy    967 ACTGAAGACGAAGGCTCTAAAACTTATACTGTCTCAAATAATGCAGATGT   1016
+                     ||||||||.||.|||||.|||||||.|||||.||||...||||.|||.|.
+Chelonia_myda    961 ACTGAAGATGAGGGCTCGAAAACTTGTACTGCCTCACCCAATGTAGAAGC   1010
+
+Anas_platyrhy   1017 GACAAGCATGTACCCTCTGTAA   1038
+                     .|||||||||||.||..|.|||
+Chelonia_myda   1011 AACAAGCATGTATCCATTATAA   1032
+
+
+#---------------------------------------
+#---------------------------------------

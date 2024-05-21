@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:15
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Haliaeetus_leucocephalus.fa
+#    -outfile Anas_platyrhynchos-Haliaeetus_leucocephalus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Haliaeetus_leucocephalus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Haliaeetus_leucocephalus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     920/1038 (88.6%)
+# Similarity:   920/1038 (88.6%)
+# Gaps:           0/1038 ( 0.0%)
+# Score: 4128.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||||||||.|||||.|||..|.||||||||||||||||||...||||||
+Haliaeetus_le      1 ATGGCAACTACAGATACTGCCAACTTTTATTATAACTTCTCCATCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||.|||||.||||.||||||||||.|.|||||||.||...||||.|
+Haliaeetus_le     51 TCCCAACGAAAATGGAAGTGAGAATTTTCATACATTTACAAGAGTCTTCC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.||||||||..||||||.|||.|||||||||||||||||||.
+Haliaeetus_le    101 TGCCCTGTATGTATTCGGCTGTTTTCATCCTTGGGCTAGCAGGAAATGCA    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     ||.||||||.|||||||.|..|||||||||||||.|||||..||||||||
+Haliaeetus_le    151 CTTGTCTTTGTCATACTAGCTTTCTATGAGAAACGGAAGATGCTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||.|||||.||||.||||||||.|||.|||||||||||||.|
+Haliaeetus_le    201 TATATTTTTGCTGAACTTGGCCATAGCTGACTGGGTCTTCCTTTGGACAC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||||||||||||||||||||||.|||||||||.|||
+Haliaeetus_le    251 TGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACCGTG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||.||.|||||.|||.||||.|.|||||||||||||||||||||
+Haliaeetus_le    301 GCATGTCGTATTATACGAGGCTTGTATACTCTGAACTTGTACACTTCAAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     |.||||||||||||||||||||||||||.||||||||.||||||||||||
+Haliaeetus_le    351 GCTAACTCTAACGTCTATCACCTTTGACCGGCTTATTGCTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |.||||||||||.||||.||||||||||||||.|||.|||||||||||||
+Haliaeetus_le    401 CAACCAAAGCACGTATGTGTCAAACCAAACGAATGACATGGGGCAAATTA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.|||||||||||||||.|||.||||||||||..||||||||.|
+Haliaeetus_le    451 ATCTGTGTCTTGATCTGGGTGATCTCACTAGCATTTGCTGCACCACAGTT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|||||||.||||||||||||||||||||.||||.|||
+Haliaeetus_le    501 TATTTTTAGTGAGGTGTTTAGTATTGATAAGACAATATGCCAGGAAGAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.||||.||||.|||||||||||||.||.||||||||||||
+Haliaeetus_le    551 ACCCAAACCATCACACAGAAATGGTTCTTGAAGTGATCCAAGTGACCCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||||||||||||.|||||||||||||||||||.||||||||
+Haliaeetus_le    601 GGCTATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCACTAATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||.||||||||||||||||||||..||.||||||||||||||||||||.|
+Haliaeetus_le    651 TAGAACCTTACTGCATGCCAGGAGTTTTCAAAAGAACAAATCTCTAAAGA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|||||||||||||||||||||||||||||||||
+Haliaeetus_le    701 AAATATTTTCTGTAGTTGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||||||||.||||||||.|||||||||||.|||.||.||||||.
+Haliaeetus_le    751 TTCTTGAGACTGATAAAGATCATAGACTGGAGCTTTAACCTGAACAGCAG    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.|||||||||||||.|||||||||||||||||||
+Haliaeetus_le    801 CTTTGAATATGCAATCATTATAACAGAAGCTCTTGCTTATTTCCACGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     |||||||.||||||.||||||||||||||||||||||||||||||.||||
+Haliaeetus_le    851 GTCTTAATCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGGAAC    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||.||||||||||||||||..|||||.|||.|.||||.|||||||...||
+Haliaeetus_le    901 TTACAGAAAATTATTAAAAATTCAAGATGCGTCAAACGGCAAGTTATGGT    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||.|||||||||||.||||||||||||||||.|||||.||
+Haliaeetus_le    951 TAAACAGTGGCAAACCACTGAAGAAGAAGGCTCTAAAACTTTTACTGCCT   1000
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |.|||||||||||||..|||||||||||||..||.|||
+Haliaeetus_le   1001 CCAATAATGCAGATGCAACAAGCATGTACCAGCTATAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

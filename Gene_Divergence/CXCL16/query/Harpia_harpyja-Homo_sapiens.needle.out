@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:51:30
+# Commandline: needle
+#    -asequence Harpia_harpyja.fa
+#    -bsequence Homo_sapiens.fa
+#    -outfile Harpia_harpyja-Homo_sapiens.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Harpia_harpyja-Homo_sapiens.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Harpia_harpyja
+# 2: Homo_sapiens
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1026
+# Identity:     438/1026 (42.7%)
+# Similarity:   438/1026 (42.7%)
+# Gaps:         465/1026 (45.3%)
+# Score: 781.0
+# 
+#
+#=======================================
+
+Harpia_harpyj      1 ATGG------------GGCCGGGG------CTGCTGCTGCTGCTGCTGCT     32
+                     ||||            ||||.|||      .||||.|||||.|||||.||
+Homo_sapiens       1 ATGGGACGGGACTTGCGGCCCGGGTCCCGCGTGCTCCTGCTCCTGCTTCT     50
+
+Harpia_harpyj     33 GCTGCTGCCCTGGGGAGCGCTG---------GGGAATGTGGGGGGCTCGG     73
+                     |||.|||  ||||.|..| |||         ||.|||           ||
+Homo_sapiens      51 GCTCCTG--CTGGTGTAC-CTGACTCAGCCAGGCAAT-----------GG     86
+
+Harpia_harpyj     74 CA--GGGGCCTGCACCTGCACCCACCGCTGGCCTTGGAAGCCCCCCCCCG    121
+                     ||  |.||   |||.|..|||             ||||||          
+Homo_sapiens      87 CAACGAGG---GCAGCGTCAC-------------TGGAAG----------    110
+
+Harpia_harpyj    122 C-------TGTG----------------CGCCTGCCCCCCCT-GGCCCCC    147
+                             ||||                ||.||.|||.||.| ||..|..
+Homo_sapiens     111 -TTGTTATTGTGGTAAAAGAATTTCTTCCGACTCCCCGCCATCGGTTCAG    159
+
+Harpia_harpyj    148 TACGTG------CTGCGGGCAGATCTCTGCCCCAACCAT--GTG------    183
+                     |.|.||      ||.|||..|.|.||..|..|..|||||  |||      
+Homo_sapiens     160 TTCATGAATCGTCTCCGGAAACACCTGAGAGCTTACCATCGGTGTCTATA    209
+
+Harpia_harpyj    184 -----CGCAGGTTTGTGCTGCC---CCACAAGCAGATCTGTGGGC-TCCA    224
+                          || |||||...||| ||   ||...|||...|.||.|||| .|.|
+Homo_sapiens     210 CTACACG-AGGTTCCAGCT-CCTTTCCTGGAGCGTGTGTGGGGGCAACAA    257
+
+Harpia_harpyj    225 GGACTCGCCGTGGGTCGTGGAGCTGCTGCAGC--TCTGGGAACGCCAAGC    272
+                     ||||   ||.|||||...|||..||.|| |||  |||.|           
+Homo_sapiens     258 GGAC---CCATGGGTTCAGGAATTGATG-AGCTGTCTTG-----------    292
+
+Harpia_harpyj    273 AGCTCAGAGACCCCTGGCTGGAC-------CCCTGGCTACAGACAGACCC    315
+                     |.||||.|||   .||  |||||       |.|.||              
+Homo_sapiens     293 ATCTCAAAGA---ATG--TGGACATGCTTACTCGGG--------------    323
+
+Harpia_harpyj    316 CCAGATGGACGCCCGGCTACAGACAGACCCACGGATGGACGCCCGGCTAC    365
+                        |||.|..||||    ||   |||    |.|.||..||..|   ||||
+Homo_sapiens     324 ---GATTGTGGCCC----AC---CAG----AAGCATTTACTTC---CTAC    356
+
+Harpia_harpyj    366 AGACAGACCCACGGATGGACCC-------CTGGC--CAG-------ACCC    399
+                        |||.||          |||       |.|||  |||       |.|.
+Homo_sapiens     357 ---CAGCCC----------CCCAATTTCTCAGGCCTCAGAGGGGGCATCT    393
+
+Harpia_harpyj    400 CCAGCTATGCACGGACC----CCCAGATGGACCCCCTG-CCAGCCCCCTG    444
+                     .|||.|||.|||  |||    ||||||||   |.|||| |||    |||.
+Homo_sapiens     394 TCAGATATCCAC--ACCCCTGCCCAGATG---CTCCTGTCCA----CCTT    434
+
+Harpia_harpyj    445 GC--CCCACTGAGTCCCCCAGCCCCGGAGGGACCCCCAGCCAGCCCCACA    492
+                     ||  .|||||.||..|||||.|          |.||||| .||...|||.
+Homo_sapiens     435 GCAGTCCACTCAGCGCCCCACC----------CTCCCAG-TAGGATCACT    473
+
+Harpia_harpyj    493 GTGAAATGCAGCACCCCCTC-----AAGCAGCTC-----CCCCA------    526
+                     ||              ||||     ||| |||||     .||||      
+Homo_sapiens     474 GT--------------CCTCGGACAAAG-AGCTCACTCGTCCCAATGAAA    508
+
+Harpia_harpyj    527 -CACC--CCACCCTGCCGTGAGACTGGGTGAGGAGCACGGAGACGAGTCT    573
+                      ||||  .|||.||||               ||..|||       |||||
+Homo_sapiens     509 CCACCATTCACACTGC---------------GGGCCAC-------AGTCT    536
+
+Harpia_harpyj    574 GGGGGGCAGCT---CCTG-----GGGGTCCCCCAGGCCTTGCCCCCCACC    615
+                         |||||||   ||||     ||||....||||               
+Homo_sapiens     537 ----GGCAGCTGGGCCTGAGGCTGGGGAGAACCAG---------------    567
+
+Harpia_harpyj    616 CCAGCAG------------GCTGGATCCACCGGGAAGCTGTGGGGCAGGA    653
+                      .|||||            |||||..||||     |||       |||||
+Homo_sapiens     568 -AAGCAGCCGGAAAAAAATGCTGGTCCCAC-----AGC-------CAGGA    604
+
+Harpia_harpyj    654 C-----CCCCAGATGCCACCGCCTGCTGTGGGGCCAGCCCCCCTTTCTGT    698
+                     |     ||.||| |||||    .|.|||||           |||      
+Homo_sapiens     605 CATCAGCCACAG-TGCCA----GTCCTGTG-----------CCT------    632
+
+Harpia_harpyj    699 GGGACTGGCCATGGGGGTGATCCT----GCTGGGAGCCGGCCTGGGCCTG    744
+                        .||||||||.....|.|||||    ||    ||||            
+Homo_sapiens     633 ---CCTGGCCATCATCTTCATCCTCACCGC----AGCC------------    663
+
+Harpia_harpyj    745 GTGGGTGTCCTGGCATGCTCGGGGGGGCTGCCAG-GGAGCAGGGAGAGGC    793
+                         .|.||||   |||..|.|      |||.|| ||||           
+Homo_sapiens     664 ----CTTTCCT---ATGTGCTG------TGCAAGAGGAG-----------    689
+
+Harpia_harpyj    794 GAGGGGCCAGGC-------TCCTCACC---TCTGCCTGA-----------    822
+                     ||||||.|||.|       |||||.||   ||||||.|.           
+Homo_sapiens     690 GAGGGGGCAGTCACCGCAGTCCTCTCCAGATCTGCCGGTTCATTATATAC    739
+
+Harpia_harpyj    822 --------------------------    822
+                                               
+Homo_sapiens     740 CTGTGGCACCTGACTCTAATACCTGA    765
+
+
+#---------------------------------------
+#---------------------------------------

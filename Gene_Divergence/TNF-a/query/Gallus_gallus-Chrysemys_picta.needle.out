@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:42:09
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Chrysemys_picta.fa
+#    -outfile Gallus_gallus-Chrysemys_picta.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Chrysemys_picta.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Chrysemys_picta
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 982
+# Identity:     435/982 (44.3%)
+# Similarity:   435/982 (44.3%)
+# Gaps:         386/982 (39.3%)
+# Score: 952.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGACCACGCTCTTTCCGTGTCTCCCCGTGTCCGTTCCGTGTTTCCCCGC     50
+                                                                       
+Chrysemys_pic      0 --------------------------------------------------      0
+
+Gallus_gallus     51 GTTCTTTCCACCTTCCCCCTTTCCCTCCCGTGTCTCCCCACGTGTCCCCG    100
+                                                                       
+Chrysemys_pic      0 --------------------------------------------------      0
+
+Gallus_gallus    101 CGTCGCTTCCTCTTCCCCCCCCCCCCCCCCCCTCCCTCCTCGCCGTGGGG    150
+                                                                 .||.| 
+Chrysemys_pic      1 --------------------------------------------ATGAG-      5
+
+Gallus_gallus    151 CTGCCCCACACG------TGGGCGGTGCGGCCAT--ATAAGCGCCGTGGG    192
+                           ||| ||      |||.|  ||| |.|||  |.|||      |||
+Chrysemys_pic      6 ------CAC-CGAAAGTCTGGTC--TGC-GACATCGAGAAG------GGG     39
+
+Gallus_gallus    193 GGGG-----GGGGGGGGGGGGGCACTGCCATGGCCGTCCCCACCGCCAC-    236
+                     ||.|     |.||.|.|||.|.|.|.||     |||  ||.||.|||.| 
+Chrysemys_pic     40 GGCGTTATCGTGGTGCGGGAGTCGCGGC-----CCG--CCGACGGCCGCT     82
+
+Gallus_gallus    237 -------CGTCACCGC-TCTG-------CTGCTGCTGCT-GCTGCCGCCG    270
+                            |.|||  || ||||       |||||||||.| |..|||.|.|
+Chrysemys_pic     83 GGAAATGCCTCA--GCATCTGTTCCTTCCTGCTGCTGGTGGGAGCCACGG    130
+
+Gallus_gallus    271 CCCCACATCCACGCGCTGC-------------CGTGGGG---------AG    298
+                     |    ||||..|||.||||             ||.||||         ||
+Chrysemys_pic    131 C----CATCTTCGCTCTGCTGCATTTCAGAAACGGGGGGCCCTTGATCAG    176
+
+Gallus_gallus    299 --AGGACCCCACAGCTCC-----------GCTCAGA-ACGAC------GT    328
+                       ||||.||||.||..||           || ||.| ||.||      ||
+Chrysemys_pic    177 CCAGGATCCCAAAGAACCCAGGAGTTCGGGC-CACACACAACTTACAGGT    225
+
+Gallus_gallus    329 CAATTGACCCCCCCATGGAGCTGCAGG---TGGCGCGGAGGGACAAACCC    375
+                     |...|||     |.|||.|..||||||   .|.|||.||   |.||.||.
+Chrysemys_pic    226 CCTATGA-----CGATGAAATTGCAGGCCCAGTCGCTGA---AAAAGCCA    267
+
+Gallus_gallus    376 GCAGCGCACGTCGTGGCATCGTCCTCTCAGCCCGGCTC------GTTGGT    419
+                     |||||.||||||||.|||||       |||  .|.|||      |.||.|
+Chrysemys_pic    268 GCAGCCCACGTCGTAGCATC-------CAG--TGACTCCAAAGAGCTGAT    308
+
+Gallus_gallus    420 GTGGGAC-GACCGCGTTGC-CCCATCCCTGGTCCGTAACGGCGTGGTGCT    467
+                     .| |||| |||...||||| |.|| ||.||.|.|..|||||..|||.|||
+Chrysemys_pic    309 CT-GGACTGACAAAGTTGCACACA-CCATGATGCAGAACGGGATGGCGCT    356
+
+Gallus_gallus    468 GAGAAGGAACAAACTGGTGGTCCC--CCGGGACGGCCTTTACTTCGTATA    515
+                     |..||..|||||..||||||||||  ||  ||||||||.||||||.|.||
+Chrysemys_pic    357 GGTAAACAACAAGTTGGTGGTCCCGTCC--GACGGCCTCTACTTCATCTA    404
+
+Gallus_gallus    516 CGCCGCCGCCGCT----TTCCAGGGGG----------GGGGGCGCTGTTT    551
+                     |.||    |.|.|    |||.||||.|          ||.||.|    |.
+Chrysemys_pic    405 CTCC----CAGGTGGTCTTCAAGGGAGACAAATGTCCGGAGGAG----TC    446
+
+Gallus_gallus    552 CATCCCCCCCCTGAGGCTGTCGGTCAGCCGCTTCTCCGAGGAGTACCCCA    601
+                     |||.||.|.||   |||...|..||...||||.|||||..||||||||..
+Chrysemys_pic    447 CATTCCTCTCC---GGCATACCATCTTGCGCTACTCCGTTGAGTACCCAG    493
+
+Gallus_gallus    602 AAGACGTCCCCCTCCTGACCGCCGTGCGCTCCGTCTGCCCCGGGGAAGGG    651
+                     ||.|.||.|||.|.||||..|||.|....||..|||||            
+Chrysemys_pic    494 AAAATGTTCCCTTGCTGATGGCCATCAAGTCGTTCTGC------------    531
+
+Gallus_gallus    652 GGGAGGGGGGGGAGGAGGAGGAGGAAGAGGAGGGGCGGGGGGGGGGGGGA    701
+                       ||||||....|||..|...||.|.||||||||                
+Chrysemys_pic    532 --GAGGGGTCCAAGGCAGCCAAGAATGAGGAGGG----------------    563
+
+Gallus_gallus    702 CGGCGGTGGGGGGGGGCCGTGGTTCGAGTCGCTGTATCAGGGGGCGGTGT    751
+                         |||           ||||||||||||..|.||.||.||.||.||.|
+Chrysemys_pic    564 ----GGT-----------GTGGTTCGAGTCCATCTACCAAGGAGCTGTCT    598
+
+Gallus_gallus    752 T---TTTGCTGAGGGGGGGGGACGAGT------TGGAGGCGACCACCAGC    792
+                     |   .|||.|||..||.|..||  |.|      ||.|..|||       |
+Chrysemys_pic    599 TCCAGTTGATGAAAGGTGATGA--AATCTCCTCTGAAATCGA-------C    639
+
+Gallus_gallus    793 ACGGCGCAGTACCTCGACCTGCAC-GGGGGGGGCAGCGCCTATTTTGGGG    841
+                     .||||.||.||..|.||.|||.|| |....|||||| |..||||||||||
+Chrysemys_pic    640 TCGGCCCAATATTTAGATCTGGACAGCAATGGGCAG-GTGTATTTTGGGG    688
+
+Gallus_gallus    842 TGGTGGGAGTGGATTAA---------------    858
+                     ||.|.|.|.||||.|.|               
+Chrysemys_pic    689 TGATTGCATTGGAATTAGGAGCTCCTCAATAA    720
+
+
+#---------------------------------------
+#---------------------------------------

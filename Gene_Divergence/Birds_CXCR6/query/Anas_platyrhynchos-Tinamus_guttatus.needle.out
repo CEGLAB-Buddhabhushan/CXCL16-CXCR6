@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:13
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Tinamus_guttatus.fa
+#    -outfile Anas_platyrhynchos-Tinamus_guttatus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Tinamus_guttatus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Tinamus_guttatus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1041
+# Identity:     884/1041 (84.9%)
+# Similarity:   884/1041 (84.9%)
+# Gaps:           9/1041 ( 0.9%)
+# Score: 3776.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||.|||||.|||||||||.|..|||   |||||||.||.|||||.||||
+Tinamus_gutta      1 ATGACAACTACAGATGCTGATGACTT---TTATAACCTCACAGCCTTTGA     47
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||.||.|||||..||||.|||.||||||||||||||||.||..|||||||
+Tinamus_gutta     48 TCTCAGTGAAACTGGAAATGACAATTTTTACACATTTACAAGAATCTTTC     97
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||.|||.|||||||.|..|||||||||||||||||||||||||||.||
+Tinamus_gutta     98 TGCCGTGTATGTATTCATGCGTTTTTATCTTTGGGCTAGCAGGAAATACT    147
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     .||||||||||||||||.||.||||||||||||||||||||.||||||||
+Tinamus_gutta    148 TTGGTCTTTATCATACTCGTTTTCTATGAGAAACTGAAGACGCTGACAGA    197
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGA-TTGGATCTTCCTTTGGACG    249
+                     |||||.||||.|||||.||||||.|||||| |||| ||||.||||||||.
+Tinamus_gutta    198 TATATATTTGCTGAACTTGGCTACAGCTGACTTGG-TCTTTCTTTGGACC    246
+
+Anas_platyrhy    250 CTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGT    299
+                     |||||.||||||||.|||||||||||||||||||||..|||||||||||.
+Tinamus_gutta    247 CTGCCCTTCTGGGCATATTCTGCTGCTCAGGAGTGGGCTTTTGGCACTGG    296
+
+Anas_platyrhy    300 GACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAA    349
+                     |.|||||||.||.|||||||||.||||.||||||||.||||||||.||.|
+Tinamus_gutta    297 GGCATGTCGTATTATACGGGGCTTGTATAATCTGAATTTGTACACATCCA    346
+
+Anas_platyrhy    350 TGTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTT    399
+                     ||.||||.|||||.|.|||.||||||||..||||||||.|||||||||||
+Tinamus_gutta    347 TGCTAACCCTAACCTGTATAACCTTTGATCGGCTTATTGCTATTACTTTT    396
+
+Anas_platyrhy    400 GCCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATT    449
+                     ||||||||||||||...|.|||||..|||||||.|||.||||||||||.|
+Tinamus_gutta    397 GCCACCAAAGCACACCAGTGTCAAGGCAAACGAATGACATGGGGCAAAGT    446
+
+Anas_platyrhy    450 AATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGC    499
+                     |||||||..||||||||||||||||||..||||||||||.||.||||||.
+Tinamus_gutta    447 AATCTGCATCTTGATCTGGGTGATTTCGCTAGCATTTGCTACGCCACAGT    496
+
+Anas_platyrhy    500 TTATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAA    549
+                     ||||||||||.||.|..|||...|||||||||.|||||||.|.||||||.
+Tinamus_gutta    497 TTATTTTTAGCGAGGCATTTCAGATTGATAAGGCAATATGTCAGGAAAAC    546
+
+Anas_platyrhy    550 TACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCT    599
+                     ||||||.||||||.||.||||.|||||||||||||..|.||||||.|.||
+Tinamus_gutta    547 TACCCAAACCACCGCACAGAAGTGGTTCTTGAAGTAGTCCAAGTGGCTCT    596
+
+Anas_platyrhy    600 TGGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTA    649
+                     |||.||||||||.|||||||||.|||||||||||||||||||.|||||.|
+Tinamus_gutta    597 TGGCTACTTTATCCCCATGCTAGCCATGATCATCTGCTACTCACTAATCA    646
+
+Anas_platyrhy    650 TTAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAA    699
+                     ||||.||.||||||||.|||||||..||.||.|||.||||||||||.|||
+Tinamus_gutta    647 TTAAGACATTACTGCACGCCAGGAGTTTTCAGAAGCACAAATCTCTGAAA    696
+
+Anas_platyrhy    700 AAAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACAC    749
+                     |||||||||||||||||.||||.||||||||||||||||||||||||.||
+Tinamus_gutta    697 AAAATATTTTCTGTAGTTGCCACATTTATTCTTACTCAGTCACCCTATAC    746
+
+Anas_platyrhy    750 TTTCTTGAGACTGATGAAGAT--CATCGACTGGAGCTTCAACTTGGACAG    797
+                     ||||.|||||.||||.|||||  ||  |||||||||||.||||||.||||
+Tinamus_gutta    747 TTTCCTGAGATTGATAAAGATTGCA--GACTGGAGCTTTAACTTGAACAG    794
+
+Anas_platyrhy    798 CAACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACG    847
+                     ||.||||||.|||||.|||||.|||||||||||..|||||||||||||.|
+Tinamus_gutta    795 CAGCTTTGAGTACGCAATCGTCATAACAGAAGCTTTTGCTTATTTCCATG    844
+
+Anas_platyrhy    848 GCTGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAG    897
+                     ||||.||.||.||||||.|||||||||||||.||||||||||||||||||
+Tinamus_gutta    845 GCTGCCTCAATCCTGTTCTGTATTTCTTCATTGGGGTGAAATTCAGGAAG    894
+
+Anas_platyrhy    898 AACTTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGC    947
+                     ||.|||||||||||||||||||..|||||.|||.|.|||..|||||||..
+Tinamus_gutta    895 AATTTCCAGAAAATTATTAAAAAGTCAAGATGCATCAAAGGGCAAGTTAG    944
+
+Anas_platyrhy    948 TGTTAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTG    997
+                     |||||||||..||||.|||||||||||.|||||||||||.||||.|||||
+Tinamus_gutta    945 TGTTAGACATGGGCAAACCACTGAAGATGAAGGCTCTAAGACTTTTACTG    994
+
+Anas_platyrhy    998 TCTCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     .|||||||||||||||.|..||||.||||||.||.||.|||
+Tinamus_gutta    995 CCTCAAATAATGCAGAAGCAACAACCATGTATCCGCTATAA   1035
+
+
+#---------------------------------------
+#---------------------------------------

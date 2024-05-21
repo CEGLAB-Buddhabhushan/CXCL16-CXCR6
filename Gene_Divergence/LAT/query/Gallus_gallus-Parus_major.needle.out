@@ -1,0 +1,98 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Parus_major.fa
+#    -outfile Gallus_gallus-Parus_major.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Parus_major.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Parus_major
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 777
+# Identity:     382/777 (49.2%)
+# Similarity:   383/777 (49.3%)
+# Gaps:         300/777 (38.6%)
+# Score: 1029.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGAGG---CGCTGTGGG-GCTCAGCCTTCCTGATGGCGGCGCTGCTGC     46
+                     |||||||   ||||.|||| |||                   ||||||||
+Parus_major        1 ATGGAGGCTCCGCTCTGGGCGCT-------------------GCTGCTGC     31
+
+Gallus_gallus     47 TGACC---------------GCCGCCCTCTGCGTCCGCTGCCACCGC---     78
+                     ||.||               |||.|.||.||||..|||||||.||||   
+Parus_major       32 TGCCCCTCCCCCCCCTGCTGGCCTCGCTGTGCGCGCGCTGCCGCCGCCCC     81
+
+Gallus_gallus     79 ---------CAGCGCAGTCCCGGTGCTCCGCTG------TACGACAGAGA    113
+                              ||||||   |||      |.||||      ||||||   .|
+Parus_major       82 CGGCCCCCTCAGCGC---CCC------CTGCTGGACAACTACGAC---TA    119
+
+Gallus_gallus    114 CAAGCCGATGTCGGAACCGCCGCCTCACAGCTTCCAGATCCTCCCCGTCG    163
+                     |||||||                                ||||||     
+Parus_major      120 CAAGCCG--------------------------------CCTCCC-----    132
+
+Gallus_gallus    164 TGCGCCACCCTCAGAGCGCCCCCCCCCCACCCCG------CGGAGCGGCG    207
+                                   ||||||||.|||||||||||      .|..|.|.||
+Parus_major      133 --------------AGCGCCCCTCCCCCACCCCGGTTCATGGTGGTGACG    168
+
+Gallus_gallus    208 CCG-GAGATGATCCTCAACCCGAACCCCAATCTGCACAACCCCAACATCC    256
+                     ||| ||..||..||||  |||             ||||.||||..||.||
+Parus_major      169 CCGCGATGTGCCCCTC--CCC-------------CACACCCCCCCCAGCC    203
+
+Gallus_gallus    257 ACCTCTCCTGGGGGACGCGCGGACACGGAGACGC-------GGGGTCCCC    299
+                     .|    ||||||||.| |.||   ||||||.|.|       |||..||||
+Parus_major      204 GC----CCTGGGGGGC-CTCG---ACGGAGCCTCGGAATTTGGGCCCCCC    245
+
+Gallus_gallus    300 GCAGACCTC--CCAGCAACGCCGCATCTCCGCCACCCGCCCGGAGCCGGA    347
+                     .|||.||.|  |||||  ||||||.||||.|||         |||||.||
+Parus_major      246 CCAGGCCCCCTCCAGC--CGCCGCGTCTCGGCC---------GAGCCCGA    284
+
+Gallus_gallus    348 GAGAGGGTCCCCAACGTGCGCCCCCGAGAGCGAGGACGACTACAGCAATG    397
+                             ||||.|    |.||||||||   ||.|.|||.|||..|||.|
+Parus_major      285 --------CCCCGA----CCCCCCCGAG---GACGGCGATTACTCCAACG    319
+
+Gallus_gallus    398 AGGTCTACGCCTCCGGATATGTGAAGGTTCTCCCGGAC---GCTGAGGAC    444
+                     ||...|.||||..:||.||.||||.|||.||.||||||   .|.|..|||
+Parus_major      320 AGCCGTTCGCCAGYGGCTACGTGACGGTGCTTCCGGACCCGCCCGGTGAC    369
+
+Gallus_gallus    445 G-CGGCGCAGCGCAGCAACGGCACCGCCACGGCCGA------CA------    481
+                     | |||||..|       |||.|||.||..||.||||      ||      
+Parus_major      370 GTCGGCGATG-------ACGTCACTGCGGCGCCCGATGACGTCAGCGATG    412
+
+Gallus_gallus    482 -----------CCGCAGCA----------CACGCCACCCCCCCCGAGCAA    510
+                                |||.||.|          .|            .||||..
+Parus_major      413 GGGGGGCGGGGCCGGAGGAGGGGGAGGGGGA------------GGAGCCG    450
+
+Gallus_gallus    511 TATGAGAACGTCCCCGATGTCTCCCGCCACTCCCTGGGTGACAGCCTGGA    560
+                     ||.||||||||||||||.|....|.|..||||...||.|..|||||||||
+Parus_major      451 TACGAGAACGTCCCCGAGGGAGGCGGAGACTCGAGGGCTCCCAGCCTGGA    500
+
+Gallus_gallus    561 GTACATCAACGTCCCCACGGTGACGCCCAGCCCTGCATCCCGCTACGGCA    610
+                     .|||||||||||||||.|||    ||||.|               |||  
+Parus_major      501 ATACATCAACGTCCCCCCGG----GCCCGG---------------CGG--    529
+
+Gallus_gallus    611 GCGACCGCGACAGCGACGCCGACGGCCCCGACTACGAGAA---CGTGACC    657
+                     |||   ||||||||||   |||.|||.||||||||||.||   | |||  
+Parus_major      530 GCG---GCGACAGCGA---CGAAGGCGCCGACTACGAAAATCTC-TGA--    570
+
+Gallus_gallus    658 CCCCCACGCCCCCCAGGACCCCCATAA    684
+                                                
+Parus_major      570 ---------------------------    570
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:12
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Phalacrocorax_carbo.fa
+#    -outfile Anas_platyrhynchos-Phalacrocorax_carbo.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Phalacrocorax_carbo.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Phalacrocorax_carbo
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     909/1038 (87.6%)
+# Similarity:   909/1038 (87.6%)
+# Gaps:           3/1038 ( 0.3%)
+# Score: 4030.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||||||||.|||||.||..|..|||||||||||||||||   ||||.||
+Phalacrocorax      1 ATGGCAACTACAGATCCTACTGACTTTTATTATAACTTCT---CCATCGA     47
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||||||||.||.|.||||||||||.|||||||||.||....|||.|
+Phalacrocorax     48 TCCCAATGAAAATGGTAGTGAGAATTTTCACACATTTACAAGAGCCTTCC     97
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     |.||||||.||||.||..||||.||.|||.||||||||||||||||.||.
+Phalacrocorax     98 TACCCTGTATGTACTCTGTTGTCTTCATCCTTGGGCTAGCAGGAAACGCG    147
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     ||.||||||.|||||||.||.|||||||||||||||||.|..||||||||
+Phalacrocorax    148 CTAGTCTTTGTCATACTAGTTTTCTATGAGAAACTGAAAATGCTGACAGA    197
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     |.||||||||.|||||.|||||||||||||.|||||||||||||||||||
+Phalacrocorax    198 TGTATTTTTGCTGAACTTGGCTATAGCTGACTGGATCTTCCTTTGGACGC    247
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||||||||||||||||||||||.|||||||.|||||
+Phalacrocorax    248 TGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCGCTGTG    297
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||.||.|||||||||.||||.|.|||||||||||||||||||||
+Phalacrocorax    298 GCATGTCGTATTATACGGGGCTTGTATACTCTGAACTTGTACACTTCAAT    347
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||||||||.|||||||||||||||.||||||||.||||||||||||
+Phalacrocorax    348 GTTAACTCTAACTTCTATCACCTTTGACCGGCTTATTGCTATTACTTTTG    397
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |||||||||||||||||.||||||||||||||.|||.|||||||||||||
+Phalacrocorax    398 CCACCAAAGCACATATGTGTCAAACCAAACGAATGACATGGGGCAAATTA    447
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.|||||||||||||||.|||.||||||||||..||||.|||.|
+Phalacrocorax    448 ATCTGTGTCTTGATCTGGGTGATCTCACTAGCATTTGCTGCACCGCAGTT    497
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.||.||.|.||||||||||.|||||||.|.||||.|||
+Phalacrocorax    498 TATTTTTAGTGAGGTATTCAGTATTGATAAGGCAATATGTCAGGAAGAAT    547
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |.|||.||||.||||.||||.|||||||||||||.||.||||||||||||
+Phalacrocorax    548 ATCCAAACCATCACACAGAACTGGTTCTTGAAGTGATCCAAGTGACCCTT    597
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||||||.|||||.|||||||||||||||||||.||||||||
+Phalacrocorax    598 GGCTATTTTATTCCCGTGCTAGCCATGATCATCTGCTACTCACTAATTAT    647
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||.||||||||||||.||||.||..||.|||||||||||||||||.||||
+Phalacrocorax    648 TAGAACCTTACTGCACGCCAAGAGTTTTCAAAAGAACAAATCTCTGAAAA    697
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|.|||||||||||||||||||||||||||.|||
+Phalacrocorax    698 AAATATTTTCTGTAGTTGTCATATTTATTCTTACTCAGTCACCCTATACT    747
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     |||||||.||||||.||||||||.|||||||||||.||||||.||||||.
+Phalacrocorax    748 TTCTTGAAACTGATAAAGATCATAGACTGGAGCTTTAACTTGAACAGCAG    797
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.|.|||||||||||.|||||||||||||||||||
+Phalacrocorax    798 CTTTGAATATGCAATCATCATAACAGAAGCTCTTGCTTATTTCCACGGCT    847
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||||||||||||.||||||||||||||||.|||||||||||||.||||
+Phalacrocorax    848 GTCTTAACCCTGTTCTGTATTTCTTCATGGGAGTGAAATTCAGGAGGAAC    897
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||.||||||||||||||||..|||||.|||||.|||..|||||||.|.|.
+Phalacrocorax    898 TTACAGAAAATTATTAAAAAATCAAGATGCTTCAAAGGGCAAGTTACAGC    947
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||.||||.||||||.||||||||||||||.|.|||||.||
+Phalacrocorax    948 TAAACAGTGGCAAACCAATGAAGAGGAAGGCTCTAAAACCTTTACTGCCT    997
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||||||||..|||||||||||||||||.|||
+Phalacrocorax    998 CAAATAATGCAGATGCAACAAGCATGTACCCTCTATAA   1035
+
+
+#---------------------------------------
+#---------------------------------------

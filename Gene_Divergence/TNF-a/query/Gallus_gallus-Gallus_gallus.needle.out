@@ -1,0 +1,106 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:42:09
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Gallus_gallus.fa
+#    -outfile Gallus_gallus-Gallus_gallus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Gallus_gallus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Gallus_gallus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 858
+# Identity:     858/858 (100.0%)
+# Similarity:   858/858 (100.0%)
+# Gaps:           0/858 ( 0.0%)
+# Score: 4290.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGACCACGCTCTTTCCGTGTCTCCCCGTGTCCGTTCCGTGTTTCCCCGC     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus      1 ATGACCACGCTCTTTCCGTGTCTCCCCGTGTCCGTTCCGTGTTTCCCCGC     50
+
+Gallus_gallus     51 GTTCTTTCCACCTTCCCCCTTTCCCTCCCGTGTCTCCCCACGTGTCCCCG    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus     51 GTTCTTTCCACCTTCCCCCTTTCCCTCCCGTGTCTCCCCACGTGTCCCCG    100
+
+Gallus_gallus    101 CGTCGCTTCCTCTTCCCCCCCCCCCCCCCCCCTCCCTCCTCGCCGTGGGG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    101 CGTCGCTTCCTCTTCCCCCCCCCCCCCCCCCCTCCCTCCTCGCCGTGGGG    150
+
+Gallus_gallus    151 CTGCCCCACACGTGGGCGGTGCGGCCATATAAGCGCCGTGGGGGGGGGGG    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    151 CTGCCCCACACGTGGGCGGTGCGGCCATATAAGCGCCGTGGGGGGGGGGG    200
+
+Gallus_gallus    201 GGGGGGGGGCACTGCCATGGCCGTCCCCACCGCCACCGTCACCGCTCTGC    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    201 GGGGGGGGGCACTGCCATGGCCGTCCCCACCGCCACCGTCACCGCTCTGC    250
+
+Gallus_gallus    251 TGCTGCTGCTGCTGCCGCCGCCCCACATCCACGCGCTGCCGTGGGGAGAG    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    251 TGCTGCTGCTGCTGCCGCCGCCCCACATCCACGCGCTGCCGTGGGGAGAG    300
+
+Gallus_gallus    301 GACCCCACAGCTCCGCTCAGAACGACGTCAATTGACCCCCCCATGGAGCT    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    301 GACCCCACAGCTCCGCTCAGAACGACGTCAATTGACCCCCCCATGGAGCT    350
+
+Gallus_gallus    351 GCAGGTGGCGCGGAGGGACAAACCCGCAGCGCACGTCGTGGCATCGTCCT    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    351 GCAGGTGGCGCGGAGGGACAAACCCGCAGCGCACGTCGTGGCATCGTCCT    400
+
+Gallus_gallus    401 CTCAGCCCGGCTCGTTGGTGTGGGACGACCGCGTTGCCCCATCCCTGGTC    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    401 CTCAGCCCGGCTCGTTGGTGTGGGACGACCGCGTTGCCCCATCCCTGGTC    450
+
+Gallus_gallus    451 CGTAACGGCGTGGTGCTGAGAAGGAACAAACTGGTGGTCCCCCGGGACGG    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    451 CGTAACGGCGTGGTGCTGAGAAGGAACAAACTGGTGGTCCCCCGGGACGG    500
+
+Gallus_gallus    501 CCTTTACTTCGTATACGCCGCCGCCGCTTTCCAGGGGGGGGGGCGCTGTT    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    501 CCTTTACTTCGTATACGCCGCCGCCGCTTTCCAGGGGGGGGGGCGCTGTT    550
+
+Gallus_gallus    551 TCATCCCCCCCCTGAGGCTGTCGGTCAGCCGCTTCTCCGAGGAGTACCCC    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    551 TCATCCCCCCCCTGAGGCTGTCGGTCAGCCGCTTCTCCGAGGAGTACCCC    600
+
+Gallus_gallus    601 AAAGACGTCCCCCTCCTGACCGCCGTGCGCTCCGTCTGCCCCGGGGAAGG    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    601 AAAGACGTCCCCCTCCTGACCGCCGTGCGCTCCGTCTGCCCCGGGGAAGG    650
+
+Gallus_gallus    651 GGGGAGGGGGGGGAGGAGGAGGAGGAAGAGGAGGGGCGGGGGGGGGGGGG    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    651 GGGGAGGGGGGGGAGGAGGAGGAGGAAGAGGAGGGGCGGGGGGGGGGGGG    700
+
+Gallus_gallus    701 ACGGCGGTGGGGGGGGGCCGTGGTTCGAGTCGCTGTATCAGGGGGCGGTG    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    701 ACGGCGGTGGGGGGGGGCCGTGGTTCGAGTCGCTGTATCAGGGGGCGGTG    750
+
+Gallus_gallus    751 TTTTTGCTGAGGGGGGGGGACGAGTTGGAGGCGACCACCAGCACGGCGCA    800
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    751 TTTTTGCTGAGGGGGGGGGACGAGTTGGAGGCGACCACCAGCACGGCGCA    800
+
+Gallus_gallus    801 GTACCTCGACCTGCACGGGGGGGGCAGCGCCTATTTTGGGGTGGTGGGAG    850
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    801 GTACCTCGACCTGCACGGGGGGGGCAGCGCCTATTTTGGGGTGGTGGGAG    850
+
+Gallus_gallus    851 TGGATTAA    858
+                     ||||||||
+Gallus_gallus    851 TGGATTAA    858
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Colius_striatus.fa
+#    -outfile Anas_platyrhynchos-Colius_striatus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Colius_striatus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Colius_striatus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     867/1038 (83.5%)
+# Similarity:   867/1038 (83.5%)
+# Gaps:           0/1038 ( 0.0%)
+# Score: 3651.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     ||||||||..||||.||.|.||.||||||||||||||||||...|.||||
+Colius_striat      1 ATGGCAACGACAGACGCAGATAACTTTTATTATAACTTCTCCATCGTTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     |||..|.|||||.||||.||||||||||.||||.||||.||...||||.|
+Colius_striat     51 TCCAGACGAAAATGGAAGTGAGAATTTTCACACGTTTACAAGAGTCTTCC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||...||.|||.|||||||.|||.|.||||||||||||||..|.
+Colius_striat    101 TGCCCTGTACCTACTCGGTTGTTTTCATCCTGGGGCTAGCAGGAAACACA    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     |||||||||.||||||||||.|||||||||||.|||||||..||||||||
+Colius_striat    151 CTGGTCTTTGTCATACTGGTTTTCTATGAGAAGCTGAAGATGCTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||.|||||.|||||.|||||||.|||.|||||||||||||||
+Colius_striat    201 TATATTTTTGCTGAACTTGGCTGTAGCTGACTGGGTCTTCCTTTGGACGC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||..||||.||.||||||||||||..|||.|||||.|||
+Colius_striat    251 TGCCATTCTGGGCGCATTCGGCCGCTCAGGAGTGGGCTTTCGGCACGGTG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|.|||||..|||||||||||.||||.|..|||||||||||||||||.||
+Colius_striat    301 GCGTGTCGTGTCATACGGGGCTTGTATACGCTGAACTTGTACACTTCCAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||.||.||.|||||||||||||||||||||.||.||||||||||||
+Colius_striat    351 GTTAACCCTGACATCTATCACCTTTGACAGGCTTGTTGCTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |||||||||||||.|||.||||||||||||||..||..||||||||...|
+Colius_striat    401 CCACCAAAGCACACATGTGTCAAACCAAACGAACGACGTGGGGCAAGGCA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     .|.||.|.|||||||||||||||.|||.|||..|||||||||||||||.|
+Colius_striat    451 GTGTGTGTCTTGATCTGGGTGATCTCACTAGGCTTTGCCACACCACAGTT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|||.|||..|||||||||.|.|||||.|..|||||||
+Colius_striat    501 TATTTTTAGTGAGGTGGTTAGCATTGATAAGGCGATATGTCACGAAAAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.|||||..||.||||.|||||||||||||.||.||||||||.|||
+Colius_striat    551 ACCCAAACCACGGCACAGAACTGGTTCTTGAAGTGATCCAAGTGACACTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||||||||||||.|||||||||||||||||||.||||||.|
+Colius_striat    601 GGCTATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCACTAATTGT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||.||||||||||||.||||||||.|||||||||||.||||||||.||.|
+Colius_striat    651 TAGAACCTTACTGCACGCCAGGAATTTCCAAAAGAAGAAATCTCTCAAGA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.||||||||||||||.|||||||||||.||.|||
+Colius_striat    701 AAATATTTTCTGTAGTTGCCATATTTATTCTGACTCAGTCACCTTATACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     |||.|||||||.||.||||||||.|||||||||||.||||||.||||||.
+Colius_striat    751 TTCCTGAGACTCATAAAGATCATAGACTGGAGCTTTAACTTGAACAGCAG    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.|..||||||||||.||.|||||..|||||||||
+Colius_striat    801 CTTTGAATATGCAATCATCGTAACAGAAGCTCTCGCTTACCTCCACGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||.||||||.|..|||||||||||||||||||.||||||||||.||||
+Colius_striat    851 GTCTCAACCCTATCCTGTATTTCTTCATGGGGGTCAAATTCAGGAGGAAC    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||...||||||||||||.||.|.|||.|||.|.|||..|..||||.|.|.
+Colius_striat    901 TTAAGGAAAATTATTAAGAGTTTAAGATGCATCAAAGGGAGAGTTACAGC    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     .|..||.|||||.|||||||||||.||||||||||||||.|.|||||.||
+Colius_striat    951 GAAGCACTGGCAAACCACTGAAGAGGAAGGCTCTAAAACATTTACTGCCT   1000
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |.|||||.|||||||..|||||||||.|.||.||.|||
+Colius_striat   1001 CCAATAACGCAGATGCCACAAGCATGGATCCGCTATAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,94 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Anas_platyrhynchos.fa
+#    -outfile Gallus_gallus-Anas_platyrhynchos.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Anas_platyrhynchos.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Anas_platyrhynchos
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 746
+# Identity:     445/746 (59.7%)
+# Similarity:   447/746 (59.9%)
+# Gaps:         208/746 (27.9%)
+# Score: 1474.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGAGGCGCTGTGGGGCTCAGCCTTCCTGATGGCGGCGCTGCTGCTGAC     50
+                     ||||||||||||||||||...|||.|.|||....|.||.|||||||||  
+Anas_platyrhy      1 ATGGAGGCGCTGTGGGGCCTGGCCCTGCTGCCCCCCGCCCTGCTGCTG--     48
+
+Gallus_gallus     51 CGCCGCCCTCTGCGTCCGCTGCCACCGCCAGCGCAGTCCCGGTGCTCCGC    100
+                      ||||||||||||..|||||||.||||||      |||.|.|:||.||..
+Anas_platyrhy     49 -GCCGCCCTCTGCACCCGCTGCTACCGCC------GTCACAGYGCGCCCA     91
+
+Gallus_gallus    101 TGTACGACAGAG-ACAAGCCGATGTCGGAACCGCC--------GCCTCA-    140
+                     ||.|:|| .||| .||||           |||.||        ||| || 
+Anas_platyrhy     92 TGGAYGA-GGAGTGCAAG-----------ACCCCCCAGCCCGTGCC-CAC    128
+
+Gallus_gallus    141 ---CAGCTTCCAGATC--CTCCCCGTC---GTGCGCCACCCTCAGAGCGC    182
+                        |||||||..|.||  |.||||.||   .|||.||.|||     .|||
+Anas_platyrhy    129 CAGCAGCTTCATGGTCATCACCCCCTCCCGATGCTCCTCCC-----ACGC    173
+
+Gallus_gallus    183 CCCCCCCCCACCCCGCGGAGCGGCGCC----------GGAGATGATCCTC    222
+                     ||||||||          |||.|||||          ||||         
+Anas_platyrhy    174 CCCCCCCC----------AGCAGCGCCCGCCCGTGGTGGAG---------    204
+
+Gallus_gallus    223 AACCCGAACCCCAATCTGCACAACCCCAACATCCACCTCT-CCTGGGGGA    271
+                        ||||||      |||                 ||.|| ||       
+Anas_platyrhy    205 ---CCGAAC------CTG-----------------CCCCTGCC-------    221
+
+Gallus_gallus    272 CGCGCGGACACGGAGACGCGGGGTCCCCGCAGACCTCCCAGCAACGCCGC    321
+                                           ||||||||||.||.|||||||.||||||
+Anas_platyrhy    222 ----------------------GTCCCCGCAGCCCCCCCAGCAGCGCCGC    249
+
+Gallus_gallus    322 ATCTCCGCCACCCGCCCGGAGCCGGAGAGAGGGTCCCCAACGTGCG-CCC    370
+                     .||||||||.|||||||..||||  .|||||||.|||||     || |||
+Anas_platyrhy    250 GTCTCCGCCGCCCGCCCCCAGCC--CGAGAGGGCCCCCA-----CGCCCC    292
+
+Gallus_gallus    371 CCGAGAGCGAGGACGACTACAGCAATGAGGTCTACGCCTCCGGATATGTG    420
+                     |||....|||.|||||.||||||||.|||.||||||||.|||||||.|||
+Anas_platyrhy    293 CCGCCCCCGATGACGATTACAGCAACGAGCTCTACGCCACCGGATACGTG    342
+
+Gallus_gallus    421 AAGGTTCTCCCGGAC------GCTGAGGACGCGG-------------CGC    451
+                     ..|||.|||||||||      |..|||| |||||             |.|
+Anas_platyrhy    343 GTGGTGCTCCCGGACCCCCAGGGGGAGG-CGCGGGGGGGGGGCTCCCCCC    391
+
+Gallus_gallus    452 AGCGCAGCAACGGCACCGCCACGGCCGACACCGCAGCACACGCCACCCCC    501
+                     ||..|||..||.||..|.||||||    |.|.||||.|||          
+Anas_platyrhy    392 AGGACAGGGACAGCGGCTCCACGG----CGCTGCAGGACA----------    427
+
+Gallus_gallus    502 CCCGAGCAATATGAGAACGTCCCCGATGTCTCCCGCCACTCCCTGGGTGA    551
+                         ||.|.||.||||||||||||||.|...||||.|.||||||||..||
+Anas_platyrhy    428 ----AGGAGTACGAGAACGTCCCCGAGGGACCCCGGCGCTCCCTGGCGGA    473
+
+Gallus_gallus    552 CAGCCTGGAGTACATCAACGTCCCCACGGTGACGC-----CCAGCCCTGC    596
+                     ||||||||||||||||||||||||     .|.|||     |||||||.||
+Anas_platyrhy    474 CAGCCTGGAGTACATCAACGTCCC-----GGCCGCCGGCTCCAGCCCCGC    518
+
+Gallus_gallus    597 ATCCCGCTACGGCAGCGACCGCGACAGCGACGCCGACGGCCCCGACTACG    646
+                     .|||||||||||||||||||||||.|||||.|..||||||||||||||||
+Anas_platyrhy    519 CTCCCGCTACGGCAGCGACCGCGAGAGCGAAGGGGACGGCCCCGACTACG    568
+
+Gallus_gallus    647 AGAACGTGACCCCCCCACGCCCCCCAGGACC--------CCCATAA    684
+                     ||||||||              .||||||||        |||.|||
+Anas_platyrhy    569 AGAACGTG--------------GCCAGGACCTCTCCGCACCCTTAA    600
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:42:09
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Mus_musculus.fa
+#    -outfile Gallus_gallus-Mus_musculus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Mus_musculus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Mus_musculus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1023
+# Identity:     401/1023 (39.2%)
+# Similarity:   401/1023 (39.2%)
+# Gaps:         489/1023 (47.8%)
+# Score: 751.5
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGACCACGCTCTTTCCGTGTCTCCCCGTGTCCGTTCCGTGTTTCCCCGC     50
+                                                                       
+Mus_musculus       0 --------------------------------------------------      0
+
+Gallus_gallus     51 GTTCTTTCCACCTTCCCCCTTTCCCTCCCGTGTCTCCCCACGTGTCCCCG    100
+                                                                       
+Mus_musculus       0 --------------------------------------------------      0
+
+Gallus_gallus    101 CGTCGCTTCCTCTTCCCCCCCCCCCCCCCCCCTCCCTCCTCGCCGTGGG-    149
+                                                                 .||.| 
+Mus_musculus       1 --------------------------------------------ATGAGC      6
+
+Gallus_gallus    150 -------GC-TGCCCCAC-ACGTGG-----------GCGGTGCGGCCATA    179
+                            || ||.|||.| ||||||           |.||..|..||..|
+Mus_musculus       7 ACAGAAAGCATGACCCGCGACGTGGAACTGGCAGAAGAGGCACTCCCCCA     56
+
+Gallus_gallus    180 TAAGCGCCGTGGGGGGGGGGGGGGGGGGGGCACTGCCA-------TGGCC    222
+                     .|||    .|||||||                ||.|||       .|||.
+Mus_musculus      57 AAAG----ATGGGGGG----------------CTTCCAGAACTCCAGGCG     86
+
+Gallus_gallus    223 GTCCCCACCGCCACCGTCACCG-CTCTGC----TGCTGCTGCTGCTGCCG    267
+                     ||       |||...|||.|.| ||||.|    |.|||||  ||..||.|
+Mus_musculus      87 GT-------GCCTATGTCTCAGCCTCTTCTCATTCCTGCT--TGTGGCAG    127
+
+Gallus_gallus    268 CCGCCCCACATCCACGCGCTGCCGT------------GGGGAGA--GGAC    303
+                     ..|||     .||||||.||.|.||            ||||.||  ||.|
+Mus_musculus     128 GGGCC-----ACCACGCTCTTCTGTCTACTGAACTTCGGGGTGATCGGTC    172
+
+Gallus_gallus    304 CCCACAGCTCCGCTCAGAACGACGT---CAATTGACCCCCC---CATGGA    347
+                     ||||.||   .|.|.||||    ||   |||.||.||.|||   |||   
+Mus_musculus     173 CCCAAAG---GGATGAGAA----GTTCCCAAATGGCCTCCCTCTCAT---    212
+
+Gallus_gallus    348 GCTGCAG----GTGGCGC------------------------GGAGGGAC    369
+                         |||    .||||.|                        .|||.|||
+Mus_musculus     213 ----CAGTTCTATGGCCCAGACCCTCTCATCTTCTCAAAATTCGAGTGAC    258
+
+Gallus_gallus    370 AAACCCGCAGCGCACGTCGTGGCATCGTCCTC-----------TCAGCCC    408
+                     ||.||.|.|||.||||||||.|||  ..||.|           .||||  
+Mus_musculus     259 AAGCCTGTAGCCCACGTCGTAGCA--AACCACCAAGTGGAGGAGCAGC--    304
+
+Gallus_gallus    409 GGCTCGTTGGTGTGG--GA-CGACCGCGTTGCCCCATC-----CCTGGTC    450
+                            |||.||||  || |.|.||||     |||.|     |||||.|
+Mus_musculus     305 -------TGGAGTGGCTGAGCCAGCGCG-----CCAACGCCCTCCTGGCC    342
+
+Gallus_gallus    451 CGTAACGGCGTGGTGCTGAGAAG-GAACAAACTGGTGGTCCC--CCGGGA    497
+                        ||||||.|||..||.| ||| .|||.||||.|||||.||  ||  ||
+Mus_musculus     343 ---AACGGCATGGATCTCA-AAGACAACCAACTAGTGGTGCCAGCC--GA    386
+
+Gallus_gallus    498 CGGCCTTTACTTCGTATACGCCGCCGCCGCT----TTCCAGGG----GGG    539
+                     .||..|.|||.|.||.|||.||    |.|.|    |||.||||    |  
+Mus_musculus     387 TGGGTTGTACCTTGTCTACTCC----CAGGTTCTCTTCAAGGGACAAG--    430
+
+Gallus_gallus    540 GGGGCGCTGTTTCATCCCC---------CCCCTGAGGCTGTCGGTCAGCC    580
+                          ||||      ||||         |.|||.|..|...|.|||||||
+Mus_musculus     431 -----GCTG------CCCCGACTACGTGCTCCTCACCCACACCGTCAGCC    469
+
+Gallus_gallus    581 GCT------TCTC---CGAGGAGTACCCCAAAGACGTCCCCCTCCTGACC    621
+                     |.|      ||||   |.|||||      |||   |||..||||||..|.
+Mus_musculus     470 GATTTGCTATCTCATACCAGGAG------AAA---GTCAACCTCCTCTCT    510
+
+Gallus_gallus    622 GCCGT---GCGCTCCGTCTGCCCCGGGGAAGG-----GGGGAGGGGGGGG    663
+                     |||||   |.||.|   |||||||    ||||     ...|||||||..|
+Mus_musculus     511 GCCGTCAAGAGCCC---CTGCCCC----AAGGACACCCCTGAGGGGGCTG    553
+
+Gallus_gallus    664 AG--GAGGAGGAGGAAGAGGAGGGGCGGGGGGGGGGGGGACGGCGGTGGG    711
+                     ||  .|        ||                                  
+Mus_musculus     554 AGCTCA--------AA----------------------------------    561
+
+Gallus_gallus    712 GGGGGGCCGTGGTTCGAGTCGCTGTATCAGGGGGCGGTGTTTTTGCTG--    759
+                           ||.||||..|||.|..|.||.|.|||.|..||.||...||||  
+Mus_musculus     562 ------CCCTGGTATGAGCCCATATACCTGGGAGGAGTCTTCCAGCTGGA    605
+
+Gallus_gallus    760 --AGGGGGGGGGACGAGTTGGAGGCGACCACCAGCACGGCGC--------    799
+                       ||||||                     ||||.|.|.||||        
+Mus_musculus     606 GAAGGGGG---------------------ACCAACTCAGCGCTGAGGTCA    634
+
+Gallus_gallus    800 ---------AGTACCTCGAC-CTGCACGGGGG---GGGCAGCGCCTATTT    836
+                              |||||.|.||| .|||   ||.|   |||||| |.|||.||
+Mus_musculus     635 ATCTGCCCAAGTACTTAGACTTTGC---GGAGTCCGGGCAG-GTCTACTT    680
+
+Gallus_gallus    837 TGGGGTGGTGGGAGTG-GATTAA    858
+                     |||.||..|.|...|| ||    
+Mus_musculus     681 TGGAGTCATTGCTCTGTGA----    699
+
+
+#---------------------------------------
+#---------------------------------------

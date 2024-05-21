@@ -1,0 +1,102 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Alligator_mississippiensis.fa
+#    -outfile Gallus_gallus-Alligator_mississippiensis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Alligator_mississippiensis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Alligator_mississippiensis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 838
+# Identity:     429/838 (51.2%)
+# Similarity:   429/838 (51.2%)
+# Gaps:         302/838 (36.0%)
+# Score: 1038.5
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGA---GGCGCTG-TGGGGCTCAG---CCTTCCTGATGGCGGCGCTGC     43
+                     |||||   ||||.|| |||.||||.|   |||          ||||||||
+Alligator_mis      1 ATGGAGCCGGCGTTGCTGGCGCTCGGGGTCCT----------GGCGCTGC     40
+
+Gallus_gallus     44 TGC------TGACCGCCGCCCTCTGCGTCCGCTGCCACCGCCAGCGCAGT     87
+                     |||      ||.|.|||...|||||||.||.|||.|..||     ||.||
+Alligator_mis     41 TGCCCCCTGTGGCTGCCCTGCTCTGCGCCCACTGTCCGCG-----GCGGT     85
+
+Gallus_gallus     88 CCC--GGTGCTCC----------GCTGTACGACAGAG-ACAAGCCGATGT    124
+                     |||  .|||.|||          |.|| ||.|| ||| |||||||     
+Alligator_mis     86 CCCCACGTGGTCCAGAGGCCATTGGTG-ACTAC-GAGTACAAGCC-----    128
+
+Gallus_gallus    125 CGGAACCGCCGCCTCACAGCTTCCAGATCCTCCCCGTCGTGCGCCACCCT    174
+                                   |.||||           ||||    |||||  |||.
+Alligator_mis    129 --------------CCCAGC-----------CCCC----TGCGC--CCCC    147
+
+Gallus_gallus    175 CAGAGC-GCCCCCCCCCCACCCCGCGGAGCGGCGCCGGAGATGAT-----    218
+                     ||||.| |      |..||.||.||.||||  |||.|.||.|| |     
+Alligator_mis    148 CAGAACAG------CTTCATCCTGCTGAGC--CGCAGCAGCTG-TGCCCC    188
+
+Gallus_gallus    219 CCTCAACCCGAACC-CCAATCTGCA------CAACCCCAACATC----CA    257
+                     ||.|||||.||.|| |||    |||      ||.|||||    |    ||
+Alligator_mis    189 CCGCAACCAGATCCGCCA----GCAGCCCGTCACCCCCA----CGGAGCA    230
+
+Gallus_gallus    258 ---CCTCTCCTGGGGGA---CGCGCGGACACGGAGACGCGGGGTCCCCGC    301
+                        |||||||      |   |||||                  ||.||.|
+Alligator_mis    231 GTTCCTCTCC------ATCCCGCGC------------------TCGCCTC    256
+
+Gallus_gallus    302 AGACCTCCCAGCAACGCCGCATCTCCGCCA----CCCGCCCGGAGCCGGA    347
+                     ||.|  |||..||| |||||| |..||.||    ||||.||.||.||.||
+Alligator_mis    257 AGGC--CCCTCCAA-GCCGCA-CGGCGTCAGTGGCCCGACCTGAACCCGA    302
+
+Gallus_gallus    348 ----GAGAGGGTCCCCA---------------------------ACGTGC    366
+                         ||.||.||.||||                           ||||| 
+Alligator_mis    303 CAATGACAGTGTGCCCAGCTACGAGAATGAGGAGCACCCTCCACACGTG-    351
+
+Gallus_gallus    367 GCCCCCGAGAGCGAGG---------ACGACTACAGCAATGAGGTCTACGC    407
+                     ||..||||.|..||||         |||||||||.|||||      ||.|
+Alligator_mis    352 GCTGCCGACATGGAGGACGACGACAACGACTACAACAATG------ACAC    395
+
+Gallus_gallus    408 CTCCGGATATGTGAAGGTTCTCCCGGA---CGCTG-AGGACGC-----GG    448
+                     ..||||.|||||...|||.|||||.||   ||||| |||.|.|     ||
+Alligator_mis    396 TCCCGGCTATGTCGTGGTGCTCCCAGATGGCGCTGCAGGGCCCCCCCTGG    445
+
+Gallus_gallus    449 CGCAG--CGCAGCAACGGCACCGCCACGGCCGACACCGCAGCACACGCCA    496
+                     |..||  |.||||     |.|.|||.|||||    ||.|||.|||  .||
+Alligator_mis    446 CTGAGCCCCCAGC-----CCCGGCCTCGGCC----CCCCAGGACA--ACA    484
+
+Gallus_gallus    497 CCCCCCC------------CGAGCAATATGAGAACGTCCCCGATGTCTCC    534
+                     .|..|.|            .|||.|.|||||||||.||||.|| |.|.||
+Alligator_mis    485 GCTGCTCTGCAATGGCAGGTGAGGACTATGAGAACTTCCCGGA-GCCCCC    533
+
+Gallus_gallus    535 C--------------GCCAC-----------TCCCTG---GGTGACAGCC    556
+                     |              |||||           ||.|||   |.||||||||
+Alligator_mis    534 CCCAACCCCGCCAGAGCCACAGATGCGGGAGTCTCTGGCAGCTGACAGCC    583
+
+Gallus_gallus    557 TGGAGTACATCAACGTCCCCACGGTGACGCCCAG---CCCTGCATCCCGC    603
+                     ||||||||.|.||..|.||     ||| |||..|   |||.|.|.|||..
+Alligator_mis    584 TGGAGTACGTGAATATGCC-----TGA-GCCGGGGGCCCCCGAACCCCAA    627
+
+Gallus_gallus    604 TACGG---CAGCGACCGCGACAGCGACGCCGACGGCCCCGACTACGAGAA    650
+                     |||||   |||||||||.||.|||||.|..||.||.||||||||||||||
+Alligator_mis    628 TACGGCTCCAGCGACCGTGAGAGCGAGGAGGATGGGCCCGACTACGAGAA    677
+
+Gallus_gallus    651 CGTGACCCCCCCACGCCCCCCAG----GACCCCCATAA    684
+                     |.||                |||    ||         
+Alligator_mis    678 CCTG----------------CAGCGCTGA---------    690
+
+
+#---------------------------------------
+#---------------------------------------

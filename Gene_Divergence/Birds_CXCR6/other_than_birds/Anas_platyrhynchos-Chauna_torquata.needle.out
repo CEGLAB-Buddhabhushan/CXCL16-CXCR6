@@ -1,0 +1,122 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Chauna_torquata.fa
+#    -outfile Anas_platyrhynchos-Chauna_torquata.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Chauna_torquata.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Chauna_torquata
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1058
+# Identity:     957/1058 (90.5%)
+# Similarity:   957/1058 (90.5%)
+# Gaps:          20/1058 ( 1.9%)
+# Score: 4443.5
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||.|||||.||||||||||||||||||||||||||||||||||||||||
+Chauna_torqua      1 ATGACAACTACAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||||||||.|||||||||||||||||.||||||||||.||||||||
+Chauna_torqua     51 TCCCAATGAAAATGGAATTGAGAATTTTTATACATTTATAAGTATCTTTC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.|||||||.|.||||||||||||||||||.||||||||||||
+Chauna_torqua    101 TGCCCTGTATGTATTCATCTGTTTTTATCTTTGGGCTGGCAGGAAATGCT    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     |||||||||||||||||.||.|||||.||||||||||||||..|||||||
+Chauna_torqua    151 CTGGTCTTTATCATACTCGTTTTCTACGAGAAACTGAAGACGTTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     |||||.||||||||||.|||||||||||||.||||||||.||||||||.|
+Chauna_torqua    201 TATATATTTGTTGAACTTGGCTATAGCTGACTGGATCTTTCTTTGGACAC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.|||||||||||||||||||||||||||||||.||.|
+Chauna_torqua    251 TGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGATTTTTGGCATTGCG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .||||||..||.|||||||||.||||.|||||.|||||||||||||||||
+Chauna_torqua    301 TCATGTCATATTATACGGGGCTTGTATAATCTCAACTTGTACACTTCAAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTT--------------------GACAG    380
+                     |||||||||||||||||||||||||                    .||||
+Chauna_torqua    351 GTTAACTCTAACGTCTATCACCTTTNNNNNNNNNNNNNNNNNNNNNACAG    400
+
+Anas_platyrhy    381 GCTTATTTCTATTACTTTTGCCACCAAAGCACATATGAGTCAAACCAAAC    430
+                     |||||||.|||||||||||||||||||||||||||||.||||||||||||
+Chauna_torqua    401 GCTTATTGCTATTACTTTTGCCACCAAAGCACATATGTGTCAAACCAAAC    450
+
+Anas_platyrhy    431 GACTGAAATGGGGCAAATTAATCTGCGGCTTGATCTGGGTGATTTCAGTA    480
+                     ||.|||.|.|||||||.|||||.||.|.||..|||||||||||||||.||
+Chauna_torqua    451 GAATGACACGGGGCAAGTTAATTTGTGTCTCAATCTGGGTGATTTCACTA    500
+
+Anas_platyrhy    481 GCATTTGCCACACCACAGCTTATTTTTAGTGATGTGTTTACTATTGATAA    530
+                     ||||||||||||||||||.|||||||||||||.|||||||||||||||||
+Chauna_torqua    501 GCATTTGCCACACCACAGTTTATTTTTAGTGAGGTGTTTACTATTGATAA    550
+
+Anas_platyrhy    531 GACAATATGCCTGGAAAAATACCCAGACCACCACATAGAATTGGTTCTTG    580
+                     |.|||||||.|.|||||||||||||.|||||||||.||||||||||||||
+Chauna_torqua    551 GGCAATATGTCAGGAAAAATACCCAAACCACCACACAGAATTGGTTCTTG    600
+
+Anas_platyrhy    581 AAGTTATTCAAGTGACCCTTGGTTACTTTATTCCCATGCTAACCATGATC    630
+                     ||||.||||||||||||||||||||.||||||||||||||||||||||||
+Chauna_torqua    601 AAGTCATTCAAGTGACCCTTGGTTATTTTATTCCCATGCTAACCATGATC    650
+
+Anas_platyrhy    631 ATCTGCTACTCCCTAATTATTAAAACCTTACTGCATGCCAGGAACTTCCA    680
+                     |||||||||||.||||||||||||||||||||||||||||||||.|||||
+Chauna_torqua    651 ATCTGCTACTCACTAATTATTAAAACCTTACTGCATGCCAGGAATTTCCA    700
+
+Anas_platyrhy    681 AAAGAACAAATCTCTAAAAAAAATATTTTCTGTAGTGGCCATATTTATTC    730
+                     |||||||||||||||||||||||||||.||||||||.|||.|||||||||
+Chauna_torqua    701 AAAGAACAAATCTCTAAAAAAAATATTCTCTGTAGTTGCCGTATTTATTC    750
+
+Anas_platyrhy    731 TTACTCAGTCACCCTACACTTTCTTGAGACTGATGAAGATCATCGACTGG    780
+                     ||||||||||||||||.||||||||||||||||||||||||||.||||||
+Chauna_torqua    751 TTACTCAGTCACCCTATACTTTCTTGAGACTGATGAAGATCATAGACTGG    800
+
+Anas_platyrhy    781 AGCTTCAACTTGGACAGCAACTTTGACTACGCCATCGTTATAACAGAAGC    830
+                     |||||.||||||.||||||||||..||||.||.|||.|.|||||||||||
+Chauna_torqua    801 AGCTTTAACTTGAACAGCAACTTCAACTATGCAATCATCATAACAGAAGC    850
+
+Anas_platyrhy    831 CCTTGCTTATTTCCACGGCTGTCTTAACCCTGTTATGTATTTCTTCATGG    880
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Chauna_torqua    851 CCTTGCTTATTTCCACGGCTGTCTTAACCCTGTTATGTATTTCTTCATGG    900
+
+Anas_platyrhy    881 GGGTGAAATTCAGGAAGAACTTCCAGAAAATTATTAAAAGCTCAAGGTGC    930
+                     |||||||||||||||||||||||||||||||||||||||.||||||.|||
+Chauna_torqua    901 GGGTGAAATTCAGGAAGAACTTCCAGAAAATTATTAAAAACTCAAGATGC    950
+
+Anas_platyrhy    931 TTTAAACAGCAAGTTGCTGTTAGACAGTGGCACACCACTGAAGACGAAGG    980
+                     |||||||||||.|||.||||||.|||||||||.|||||||||||.|||||
+Chauna_torqua    951 TTTAAACAGCACGTTACTGTTAAACAGTGGCAAACCACTGAAGAGGAAGG   1000
+
+Anas_platyrhy    981 CTCTAAAACTTATACTGTCTCAAATAATGCAGATGTGACAAGCATGTACC   1030
+                     |||||.|||||.|||||.||||||||||.||||||..|||||||||||||
+Chauna_torqua   1001 CTCTAGAACTTTTACTGCCTCAAATAATCCAGATGCAACAAGCATGTACC   1050
+
+Anas_platyrhy   1031 CTCTGTAA   1038
+                     |.||.|||
+Chauna_torqua   1051 CGCTATAA   1058
+
+
+#---------------------------------------
+#---------------------------------------

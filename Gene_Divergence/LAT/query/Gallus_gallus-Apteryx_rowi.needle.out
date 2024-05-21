@@ -1,0 +1,98 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Apteryx_rowi.fa
+#    -outfile Gallus_gallus-Apteryx_rowi.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Apteryx_rowi.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Apteryx_rowi
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 799
+# Identity:     467/799 (58.4%)
+# Similarity:   468/799 (58.6%)
+# Gaps:         224/799 (28.0%)
+# Score: 1297.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGAGGCGCTGT----------GGGGCTC---AGCCT--TCCTGATGG-     34
+                     |||||.|||||||          ||.||||   .||||  |||||.|.| 
+Apteryx_rowi       1 ATGGACGCGCTGTGGCCCTACGGGGTGCTCTGGGGCCTCCTCCTGCTTGT     50
+
+Gallus_gallus     35 --CGGCGCTGCTGCTGACCGCCGCCCTCTGCGTCCGCTGCC---ACCGCC     79
+                       ||.|..||||||||   ||.||||||||||.||||||||   |||.||
+Apteryx_rowi      51 CCCGACCGTGCTGCTG---GCTGCCCTCTGCGCCCGCTGCCGCGACCCCC     97
+
+Gallus_gallus     80 AGCGCAGTCCCGGTGCTCCGCTGTACGAC--AGAG-ACAAGCCGATGTCG    126
+                     |..||   |..|||||.|.|.|..||.||  .||| |||||||       
+Apteryx_rowi      98 ATGGC---CATGGTGCCCAGATTGACAACTATGAGTACAAGCC-------    137
+
+Gallus_gallus    127 GAACCGCC------GCCTC---ACAGCTTCCAGATCCTCCCCGTCGTGC-    166
+                       .||.||      |||.|   ||||||||   ||.|         ||| 
+Apteryx_rowi     138 --CCCACCCTGTGAGCCCCACAACAGCTTC---ATGC---------TGCT    173
+
+Gallus_gallus    167 GCCAC--CCTCAGAGCGCCCCCCCCCCACCCCG--CGGAGCGGC-GCCG-    210
+                     |.|||  || ||| |.|||||.|.|.|||||||  | .|||.|| |||| 
+Apteryx_rowi     174 GACACGGCC-CAG-GTGCCCCTCTCGCACCCCGATC-AAGCAGCAGCCGG    220
+
+Gallus_gallus    211 -----------GAGATGATCCT---CAACCCG----------AACCCCAA    236
+                                |||.||.||||   ||.||||          ||.|||  
+Apteryx_rowi     221 TGACCTCAGCAGAGCTGTTCCTGTCCATCCCGCGGTCCCCGCAAGCCC--    268
+
+Gallus_gallus    237 TCTGCACAACCCCAA---------CATCCACCTCTCCTGGGGGACGCGCG    277
+                      || ||.|.||.|||         ||.|||||:       ||.||   ||
+Apteryx_rowi     269 -CT-CAGAGCCGCAAGGTCTCCTTCACCCACCY-------GGAAC---CG    306
+
+Gallus_gallus    278 GACACGGAGACG-CGGGGTCCCCGCAGACCTCCCAGCAAC---------G    317
+                     ||||     ||| |.|.||.|||    |.||.|.|| |||         |
+Apteryx_rowi     307 GACA-----ACGACAGCGTGCCC----AGCTACGAG-AACGAGGGTGAGG    346
+
+Gallus_gallus    318 CCGCATCTCCGCCACCCGCCCGGA--GCCGGAGAGAGG-----GTCCCCA    360
+                     |.|    .|.||||.|  ||||||  |||.|...|.||     |||||| 
+Apteryx_rowi     347 CGG----GCGGCCATC--CCCGGAGTGCCTGGCCGCGGGCCCCGTCCCC-    389
+
+Gallus_gallus    361 ACGTGC----------GCCCCCGAGAGCGAGGACGACTACAGCAATGAGG    400
+                        |||          |||||||||||.|||||||||||||.|||.|||.
+Apteryx_rowi     390 ---TGCCCCCCCGGCGGCCCCCGAGAGTGAGGACGACTACAACAACGAGC    436
+
+Gallus_gallus    401 TCTACGCCTCCGGATATGTGAAGGTTCTCCCGGACGCTGAGGACGCGGCG    450
+                     ||||||||.||||.||.||..||||.||||||      ||.|.|.||||.
+Apteryx_rowi     437 TCTACGCCACCGGCTACGTCGAGGTGCTCCCG------GATGGCACGGCC    480
+
+Gallus_gallus    451 CAGCGCA----GCAACGGCACCGCCACGGCC---GACACCGCAGCAC--A    491
+                     ||||.||    ||..|.|||.|.||| ||||   ||||  |||||.|  .
+Apteryx_rowi     481 CAGCCCAACCCGCCCCAGCAACCCCA-GGCCAGGGACA--GCAGCTCCTC    527
+
+Gallus_gallus    492 CGCCACCCCCCCCGAGCAATATGAGAACGTCCCCGATGTCTCCCGCCACT    541
+                     |||..|.|||..||||   ||.||||||||||||||.|.|..||||||.|
+Apteryx_rowi     528 CGCGGCGCCCGGCGAG---TACGAGAACGTCCCCGACGCCCACCGCCAGT    574
+
+Gallus_gallus    542 CCCTGGGTGACAGCCTGGAGTACATCAACGTCCCCACGGTGACGC-----    586
+                     ||||||.||||||||||||||||.||||||||||     |||.||     
+Apteryx_rowi     575 CCCTGGCTGACAGCCTGGAGTACGTCAACGTCCC-----TGAGGCTGGGG    619
+
+Gallus_gallus    587 CCAGCCCTGCATCCCGCTACGGCAGCGACC-GCGACAGCGACGCCGACGG    635
+                     |||||||..|..||||||||       ||| ||||.|||||.|..||||.
+Apteryx_rowi     620 CCAGCCCCACGCCCCGCTAC-------ACCAGCGAGAGCGAGGAGGACGC    662
+
+Gallus_gallus    636 CCCCGACTACGAGAACGTGACCCCCCCACGCCCCCCAGGACCCCCATAA    684
+                     |||.||||||||||||.||    |..|||        .||         
+Apteryx_rowi     663 CCCAGACTACGAGAACCTG----CAACAC--------TGA---------    690
+
+
+#---------------------------------------
+#---------------------------------------

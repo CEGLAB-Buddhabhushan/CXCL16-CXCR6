@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:16
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Spheniscus_demersus.fa
+#    -outfile Anas_platyrhynchos-Spheniscus_demersus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Spheniscus_demersus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Spheniscus_demersus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1041
+# Identity:     916/1041 (88.0%)
+# Similarity:   916/1041 (88.0%)
+# Gaps:           9/1041 ( 0.9%)
+# Score: 4064.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTC-TCAGCCATTG     49
+                     |||||||||.|||||.|   ||.|||||||||||||||| ||| .||.||
+Spheniscus_de      1 ATGGCAACTACAGATAC---TAACTTTTATTATAACTTCTTCA-TCACTG     46
+
+Anas_platyrhy     50 ATCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTT     99
+                     |||||||||||||.||||.||||||||||.|||||||||.||...||||.
+Spheniscus_de     47 ATCCCAATGAAAATGGAAGTGAGAATTTTCACACATTTACAAGAGTCTTC     96
+
+Anas_platyrhy    100 CTGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGC    149
+                     |||||||||.||||.|.|.|||||||.|||.||||||||||||||||  |
+Spheniscus_de     97 CTGCCCTGTATGTACTTGGTTGTTTTCATCCTTGGGCTAGCAGGAAA--C    144
+
+Anas_platyrhy    150 T--CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGAC    197
+                     |  |||||||||.|||||||.||.||||||||||||||||||||.|||||
+Spheniscus_de    145 TTGCTGGTCTTTGTCATACTAGTTTTCTATGAGAAACTGAAGACGCTGAC    194
+
+Anas_platyrhy    198 AGATATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGA    247
+                     |||||||||||||.|||||.|||||||||||||.|||.||||||||||||
+Spheniscus_de    195 AGATATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGA    244
+
+Anas_platyrhy    248 CGCTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACT    297
+                     ||||||||||||||||.||||||||||||||||||||||.|||||||||.
+Spheniscus_de    245 CGCTGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACC    294
+
+Anas_platyrhy    298 GTGACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTC    347
+                     |||.|||||||.||.|||||||||.||||.|.||||||||||||||||||
+Spheniscus_de    295 GTGGCATGTCGTATTATACGGGGCTTGTATACTCTGAACTTGTACACTTC    344
+
+Anas_platyrhy    348 AATGTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTT    397
+                     |||||||||||||||.|||||||||||||||.||||||||.|.|||||||
+Spheniscus_de    345 AATGTTAACTCTAACATCTATCACCTTTGACCGGCTTATTGCAATTACTT    394
+
+Anas_platyrhy    398 TTGCCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAA    447
+                     |||||||||||||||.||||.||||||||||||||.|||.||||||||||
+Spheniscus_de    395 TTGCCACCAAAGCACGTATGTGTCAAACCAAACGAATGACATGGGGCAAA    444
+
+Anas_platyrhy    448 TTAATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACA    497
+                     ||||||||.|.|||||||||||||||.|||.|||||||||||||||||||
+Spheniscus_de    445 TTAATCTGTGTCTTGATCTGGGTGATCTCACTAGCATTTGCCACACCACA    494
+
+Anas_platyrhy    498 GCTTATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAA    547
+                     |.||.||||||||||.|||||||.||||||||||.|||||||.|.||||.
+Spheniscus_de    495 GTTTGTTTTTAGTGAGGTGTTTAGTATTGATAAGGCAATATGTCAGGAAG    544
+
+Anas_platyrhy    548 AATACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACC    597
+                     ||||||||.||||.||||.||||.|||||||||||||.||.|.|||||.|
+Spheniscus_de    545 AATACCCAAACCATCACACAGAACTGGTTCTTGAAGTGATCCGAGTGATC    594
+
+Anas_platyrhy    598 CTTGGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAAT    647
+                     |||||.||.||||.||||||||||.|||||||||||||||||||.|||||
+Spheniscus_de    595 CTTGGCTATTTTACTCCCATGCTAGCCATGATCATCTGCTACTCACTAAT    644
+
+Anas_platyrhy    648 TATTAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAA    697
+                     |||||.||||||||||||.||||.||..||.|||||||||||||||||||
+Spheniscus_de    645 TATTAGAACCTTACTGCACGCCAAGAGTTTTCAAAAGAACAAATCTCTAA    694
+
+Anas_platyrhy    698 AAAAAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTAC    747
+                     |||||||||||||||||||.||.||||.|||||||||||||||||||||.
+Spheniscus_de    695 AAAAAATATTTTCTGTAGTTGCTATATATATTCTTACTCAGTCACCCTAT    744
+
+Anas_platyrhy    748 ACTTTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAG    797
+                     |||||||||||||||||.||||||||.|||||||||||.||||||.||||
+Spheniscus_de    745 ACTTTCTTGAGACTGATAAAGATCATAGACTGGAGCTTTAACTTGAACAG    794
+
+Anas_platyrhy    798 CAACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACG    847
+                     ||.||||||.||.||.|||.|..||||||||||.||||||||||||||.|
+Spheniscus_de    795 CAGCTTTGAATATGCAATCATCGTAACAGAAGCTCTTGCTTATTTCCATG    844
+
+Anas_platyrhy    848 GCTGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAG    897
+                     |||||.|||||||||||.||||||||||||||||||||||||||||||.|
+Spheniscus_de    845 GCTGTATTAACCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGG    894
+
+Anas_platyrhy    898 AACTTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGC    947
+                     |||||.||||||||||||||||.||||||.|||.|.|||..|||.|||.|
+Spheniscus_de    895 AACTTACAGAAAATTATTAAAAACTCAAGATGCGTCAAATGGCACGTTAC    944
+
+Anas_platyrhy    948 TGTTAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTG    997
+                     .|.||.|||||||||.|||||.|||||.||||||||||||||||.|||||
+Spheniscus_de    945 GGCTAAACAGTGGCAAACCACCGAAGAGGAAGGCTCTAAAACTTTTACTG    994
+
+Anas_platyrhy    998 TCTCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     .|||||||||||||||||..||||||||||||||.||.|||
+Spheniscus_de    995 CCTCAAATAATGCAGATGCAACAAGCATGTACCCACTATAA   1035
+
+
+#---------------------------------------
+#---------------------------------------

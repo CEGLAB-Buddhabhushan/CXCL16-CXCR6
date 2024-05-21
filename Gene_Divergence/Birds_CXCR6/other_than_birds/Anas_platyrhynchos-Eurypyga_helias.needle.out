@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Eurypyga_helias.fa
+#    -outfile Anas_platyrhynchos-Eurypyga_helias.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Eurypyga_helias.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Eurypyga_helias
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     894/1038 (86.1%)
+# Similarity:   894/1038 (86.1%)
+# Gaps:           0/1038 ( 0.0%)
+# Score: 3894.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||||||||.||||||||.|||.||||||||||||||||||...||||||
+Eurypyga_heli      1 ATGGCAACTACAGATGCTTTTAACTTTTATTATAACTTCTCCATCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||.|||||.||||.||||||||||.|||||||||.||...||||.|
+Eurypyga_heli     51 TCCCAACGAAAATGGAAGTGAGAATTTTCACACATTTACAAGAGTCTTCC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.||||.|||.|||||||.|||.||||||||||||||||..|.
+Eurypyga_heli    101 TGCCCTGTATGTACTCGGTTGTTTTCATCCTTGGGCTAGCAGGAAACACA    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     |||||||||.|||||||.||.||||||||||||||||||...||||||||
+Eurypyga_heli    151 CTGGTCTTTGTCATACTAGTTTTCTATGAGAAACTGAAGGTGCTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     |.||||||||.|||||.|||||.|||||||.|||.|||||||||||||||
+Eurypyga_heli    201 TGTATTTTTGGTGAACTTGGCTGTAGCTGACTGGGTCTTCCTTTGGACGC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     ||||.||||||||.||||||||||||||||||||||.|||||||||.|||
+Eurypyga_heli    251 TGCCGTTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACCGTG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     ||.||.||.||.|||||||||.|.||.|.|||.||||||||||||||.||
+Eurypyga_heli    301 ACCTGCCGTATTATACGGGGCTTATATACTCTCAACTTGTACACTTCCAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     |||||||||||||||||||||.|||||..||||.|||.||||||||||||
+Eurypyga_heli    351 GTTAACTCTAACGTCTATCACATTTGATCGGCTGATTGCTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     ||||||||||||.||||.||||||||||||||.|||.|||.|||||.|||
+Eurypyga_heli    401 CCACCAAAGCACGTATGTGTCAAACCAAACGAATGACATGCGGCAAGTTA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     .||||.|.|||||||||||||||.|||.||||||||||..||||.|||.|
+Eurypyga_heli    451 GTCTGTGTCTTGATCTGGGTGATCTCACTAGCATTTGCTTCACCGCAGTT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|||.|.|.||||||||||.|||||||.|..||..|.|
+Eurypyga_heli    501 TATTTTTAGTGAGGTGCTAAGTATTGATAAGGCAATATGTCAAGAGGAGT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.|||..||||..||||||||||||.||.|||||||.||||
+Eurypyga_heli    551 ACCCAAACCATCACGCAGAACAGGTTCTTGAAGTGATCCAAGTGAACCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.||.|||||||||||..|||||||||||||||||||.||||||||
+Eurypyga_heli    601 GGCTATTTCATTCCCATGCTTGCCATGATCATCTGCTACTCGCTAATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||.||||||||||||.||.||||..||.||||||||||||||||||||||
+Eurypyga_heli    651 TAGAACCTTACTGCAAGCGAGGAGTTTTCAAAAGAACAAATCTCTAAAAA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|||.||||||||.||||||||||||||||.|||
+Eurypyga_heli    701 AAATATTTTCTGTAGTTGCCGTATTTATTATTACTCAGTCACCCTATACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||.|||||.||||||||.|||||||||||.||||||.||||||.
+Eurypyga_heli    751 TTCTTGAGGCTGATAAAGATCATAGACTGGAGCTTTAACTTGAACAGCAG    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     |||.||.|||||.|||.||.||||||||||.|||||||||||||||||||
+Eurypyga_heli    801 CTTCGAATACGCAATCATTGTAACAGAAGCTCTTGCTTATTTCCACGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||||||||||||.||||||||||||||||||||||||||||||.|||.
+Eurypyga_heli    851 GTCTTAACCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGGAAT    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||.||||||||||||||||.||||||.|||.|.||||.|||||||.|.|.
+Eurypyga_heli    901 TTACAGAAAATTATTAAAAACTCAAGATGCATCAAACGGCAAGTTACGGC    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||.|||||||||||.||||||||.|||||||.||.||..|
+Eurypyga_heli    951 TAAACAGTGGCAAACCACTGAAGAGGAAGGCTCCAAAACTTTTAGTGCAT   1000
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     ||.||||.|||||.|..||||.|||||||||.||||||
+Eurypyga_heli   1001 CACATAACGCAGACGCAACAACCATGTACCCGCTGTAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

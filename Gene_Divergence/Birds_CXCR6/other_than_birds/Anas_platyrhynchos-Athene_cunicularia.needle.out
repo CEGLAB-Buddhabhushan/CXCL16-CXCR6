@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Athene_cunicularia.fa
+#    -outfile Anas_platyrhynchos-Athene_cunicularia.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Athene_cunicularia.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Athene_cunicularia
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1040
+# Identity:     905/1040 (87.0%)
+# Similarity:   905/1040 (87.0%)
+# Gaps:           4/1040 ( 0.4%)
+# Score: 3970.5
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     ||||||||..||||||.||..|.||||||.|||||||||||....|||||
+Athene_cunicu      1 ATGGCAACCACAGATGTTGCCAACTTTTACTATAACTTCTCCATGATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     |.||||.|||||.||||.||||||||||.|||.|||||.||...||||.|
+Athene_cunicu     51 TGCCAACGAAAATGGAAGTGAGAATTTTCACATATTTACAAGAGTCTTCC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.||||.||...||||||.|||.|||||.||||||||||.||.
+Athene_cunicu    101 TGCCCTGTATGTACTCAGCTGTTTTCATCCTTGGGTTAGCAGGAAACGCG    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     |||||||||.|||||||.||.|||||||||||||||||||..||||||||
+Athene_cunicu    151 CTGGTCTTTGTCATACTAGTTTTCTATGAGAAACTGAAGATGCTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     |.||||||||.|||||.|||||||||||||.|||.|||||||||||||||
+Athene_cunicu    201 TGTATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGACGC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.|||||||||||||||||.||||.|||||||||||||
+Athene_cunicu    251 TGCCATTCTGGGCATATTCTGCTGCTCAGGACTGGACTTTTGGCACTGTG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     ||||||||.||.|||||||||.||||.|.|||||||.|||||||||||||
+Athene_cunicu    301 ACATGTCGTATTATACGGGGCTTGTATACTCTGAACCTGTACACTTCAAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||||||||.|||||||||.|||||.||||||||.||||||||||.|
+Athene_cunicu    351 GTTAACTCTAACTTCTATCACCATTGACCGGCTTATTGCTATTACTTTCG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |||||||||||||||||.||||||||||||||.|||.|||||||||||||
+Athene_cunicu    401 CCACCAAAGCACATATGTGTCAAACCAAACGAATGACATGGGGCAAATTA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.|||||||||||||||.|||.||||||||||||||||.|||.|
+Athene_cunicu    451 ATCTGTGTCTTGATCTGGGTGATATCACTAGCATTTGCCACACCGCAGTT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|||||||.||||||||||.|||||||.|.||||.|||
+Athene_cunicu    501 TATTTTTAGTGAGGTGTTTAGTATTGATAAGGCAATATGTCAGGAAGAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.||.|.|||..|||||||||||||.||.||||||||||||
+Athene_cunicu    551 ACCCAAACCATCAAACAGAGATGGTTCTTGAAGTGATCCAAGTGACCCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||||||||||||.||||||.|||.||||||||.||||||||
+Athene_cunicu    601 GGCTATTTTATTCCCATGCTAGCCATGACCATTTGCTACTCACTAATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||.||||||||||||||||||.|..||.||||||||||||||||||||||
+Athene_cunicu    651 TAGAACCTTACTGCATGCCAGAAGTTTTCAAAAGAACAAATCTCTAAAAA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|.|.|||||||||||||||||||||||||.|||
+Athene_cunicu    701 AAATATTTTCTGTAGTTGTCGTATTTATTCTTACTCAGTCACCCTATACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||||||||.||||||||.|||||||||||.||||||.||||||.
+Athene_cunicu    751 TTCTTGAGACTGATAAAGATCATAGACTGGAGCTTTAACTTGAACAGCAG    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.||.||||||||||.||||||||||||||.||||
+Athene_cunicu    801 CTTTGAATATGCAATCATTGTAACAGAAGCTCTTGCTTATTTCCATGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||||||||||||.||||||||||||||||||||||||||||||.||||
+Athene_cunicu    851 GTCTTAACCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGGAAC    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTG-    949
+                     ||.||||||||||||||||..|||||.|||.|.||||.||||||| .|| 
+Athene_cunicu    901 TTACAGAAAATTATTAAAAATTCAAGATGCGTCAAACGGCAAGTT-ATGA    949
+
+Anas_platyrhy    950 -TTAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGT    998
+                      |.|..|| |||||.|.|.|||||||.||.|||||||.|||||.|||||.
+Athene_cunicu    950 CTAAATCA-TGGCAAAACCCTGAAGAGGAGGGCTCTAGAACTTTTACTGC    998
+
+Anas_platyrhy    999 CTCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     ||||||||||||||||||.||||||||||||||.||.|.|
+Athene_cunicu    999 CTCAAATAATGCAGATGTAACAAGCATGTACCCGCTATGA   1038
+
+
+#---------------------------------------
+#---------------------------------------

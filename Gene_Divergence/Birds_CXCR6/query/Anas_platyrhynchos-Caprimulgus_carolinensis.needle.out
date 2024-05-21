@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:11
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Caprimulgus_carolinensis.fa
+#    -outfile Anas_platyrhynchos-Caprimulgus_carolinensis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Caprimulgus_carolinensis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Caprimulgus_carolinensis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1039
+# Identity:     914/1039 (88.0%)
+# Similarity:   914/1039 (88.0%)
+# Gaps:           2/1039 ( 0.2%)
+# Score: 4058.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTC-AGCCATTG     49
+                     |||||||||.|||||||||.||.|||||||..||||||||| |.|| |||
+Caprimulgus_c      1 ATGGCAACTACAGATGCTGATAACTTTTATGGTAACTTCTCTATCC-TTG     49
+
+Anas_platyrhy     50 ATCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTT     99
+                     |||||||||||||.||||..|||||||||.||||||||..||...||||.
+Caprimulgus_c     50 ATCCCAATGAAAATGGAAGCGAGAATTTTCACACATTTGCAAGAGTCTTC     99
+
+Anas_platyrhy    100 CTGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGC    149
+                     |||||||||.||||.||...||||||.|||.||||||||||||||||.||
+Caprimulgus_c    100 CTGCCCTGTATGTACTCAGCTGTTTTCATCCTTGGGCTAGCAGGAAACGC    149
+
+Anas_platyrhy    150 TCTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAG    199
+                     .||||||||..|||||||.||.|||||||||||||||||||..|||||||
+Caprimulgus_c    150 GCTGGTCTTCGTCATACTAGTTTTCTATGAGAAACTGAAGATGCTGACAG    199
+
+Anas_platyrhy    200 ATATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACG    249
+                     ||.||||||||||||||.|||||.|||||||.|||.|||||||||||||.
+Caprimulgus_c    200 ATGTATTTTTGTTGAACTTGGCTGTAGCTGACTGGGTCTTCCTTTGGACC    249
+
+Anas_platyrhy    250 CTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGT    299
+                     ||||||||||||||.|||||.||||||||||||||||.|||||||||.||
+Caprimulgus_c    250 CTGCCATTCTGGGCATATTCCGCTGCTCAGGAGTGGACTTTTGGCACCGT    299
+
+Anas_platyrhy    300 GACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAA    349
+                     |||.||.||.||.|||||||||.||||||.||||||.|||||||||||.|
+Caprimulgus_c    300 GACGTGCCGTATTATACGGGGCTTGTACACTCTGAATTTGTACACTTCCA    349
+
+Anas_platyrhy    350 TGTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTT    399
+                     |||||||||||||||||||||||||||||.||||||||.|||||||||||
+Caprimulgus_c    350 TGTTAACTCTAACGTCTATCACCTTTGACCGGCTTATTGCTATTACTTTT    399
+
+Anas_platyrhy    400 GCCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATT    449
+                     ||||||||||||||||||.|||||||||||||..|||.||||||||||||
+Caprimulgus_c    400 GCCACCAAAGCACATATGTGTCAAACCAAACGCATGACATGGGGCAAATT    449
+
+Anas_platyrhy    450 AATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGC    499
+                     ||||||.|.|||.|||||||||||.|||.|||||||||||.||||||||.
+Caprimulgus_c    450 AATCTGTGTCTTCATCTGGGTGATCTCACTAGCATTTGCCGCACCACAGT    499
+
+Anas_platyrhy    500 TTATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAA    549
+                     |||||||||||||.|||||||.||||||.|||.|||||||.|.|||||||
+Caprimulgus_c    500 TTATTTTTAGTGAGGTGTTTAGTATTGACAAGGCAATATGTCAGGAAAAA    549
+
+Anas_platyrhy    550 TACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCT    599
+                     ||||||.||||.|.||.||||.|||||||||||||.||.|||||||||||
+Caprimulgus_c    550 TACCCAAACCAGCCCACAGAACTGGTTCTTGAAGTGATCCAAGTGACCCT    599
+
+Anas_platyrhy    600 TGGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTA    649
+                     .||.||.|||||||||||||||.|||||||||||||||||||.|||||||
+Caprimulgus_c    600 CGGCTATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCACTAATTA    649
+
+Anas_platyrhy    650 TTAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAA    699
+                     |.|.||||||||||||||||||||..||.|||||||||||||||||||||
+Caprimulgus_c    650 TCAGAACCTTACTGCATGCCAGGAGTTTTCAAAAGAACAAATCTCTAAAA    699
+
+Anas_platyrhy    700 AAAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACAC    749
+                     |||||||||||||||||.|||||||||||||||||||||||||||||.||
+Caprimulgus_c    700 AAAATATTTTCTGTAGTTGCCATATTTATTCTTACTCAGTCACCCTATAC    749
+
+Anas_platyrhy    750 TTTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCA    799
+                     ||||||||||||.||.||||||||.|||||||||||.||||||.||||.|
+Caprimulgus_c    750 TTTCTTGAGACTAATAAAGATCATAGACTGGAGCTTTAACTTGAACAGTA    799
+
+Anas_platyrhy    800 ACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGC    849
+                     .||||||.||.||.|||||.|||||||||||.||||||||||||||.|||
+Caprimulgus_c    800 GCTTTGAATATGCAATCGTCATAACAGAAGCTCTTGCTTATTTCCATGGC    849
+
+Anas_platyrhy    850 TGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAA    899
+                     |||||||||||||||.|.||||||||||||||||||||||||||||.|||
+Caprimulgus_c    850 TGTCTTAACCCTGTTCTTTATTTCTTCATGGGGGTGAAATTCAGGAGGAA    899
+
+Anas_platyrhy    900 CTTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTG    949
+                     |||.||||||||||||||||.||||||.|||...||||.|||||||.|.|
+Caprimulgus_c    900 CTTACAGAAAATTATTAAAAACTCAAGATGCACCAAACGGCAAGTTACGG    949
+
+Anas_platyrhy    950 TTAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTC    999
+                     .||.|||||||||.|||||||||||.||||||||||||||||.||..|.|
+Caprimulgus_c    950 CTAAACAGTGGCAAACCACTGAAGAGGAAGGCTCTAAAACTTTTATGGCC    999
+
+Anas_platyrhy   1000 TCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||.|||||||||.||||||||||||||.||||||
+Caprimulgus_c   1000 TCAAATACTGCAGATGTAACAAGCATGTACCCACTGTAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:51:30
+# Commandline: needle
+#    -asequence Harpia_harpyja.fa
+#    -bsequence Anolis_carolinensis.fa
+#    -outfile Harpia_harpyja-Anolis_carolinensis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Harpia_harpyja-Anolis_carolinensis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Harpia_harpyja
+# 2: Anolis_carolinensis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1018
+# Identity:     469/1018 (46.1%)
+# Similarity:   469/1018 (46.1%)
+# Gaps:         416/1018 (40.9%)
+# Score: 931.0
+# 
+#
+#=======================================
+
+Harpia_harpyj      1 ATGGGGC--------------CGGGG----------CTGCTG------CT     20
+                     |||.|.|              |||||          |||.||      ||
+Anolis_caroli      1 ATGCGACCCTCCCCTTCCCCGCGGGGACCCTCCCCCCTGGTGGTCTTCCT     50
+
+Harpia_harpyj     21 GCTGCTGCTGCTGCTGCTGCCCTGGGG--------AGCGCTGGGGAATGT     62
+                     .||.||.||..|.||.||  ||.||||        ||.|.|.||.||.|.
+Anolis_caroli     51 CCTCCTCCTCTTCCTCCT--CCGGGGGCTCCGGCCAGTGTTTGGAAACGA     98
+
+Harpia_harpyj     63 GGGGGGCTCGGCAGGGGCCTGCACCTGCACCCACCGCTGGCCTTGGAAGC    112
+                     |||||||.||||.|||...|||.|.||||   |..|.|||||       |
+Anolis_caroli     99 GGGGGGCACGGCGGGGAGTTGCGCTTGCA---AGAGGTGGCC-------C    138
+
+Harpia_harpyj    113 CCC-------CCCCCG-----CTGTG--CGCCTG---CCCCCCCTGGCCC    145
+                     |||       ||||||     ||| |  ||..||   |.||...||    
+Anolis_caroli    139 CCCGTTCAAACCCCCGTAAAACTG-GATCGATTGATACACCGAGTG----    183
+
+Harpia_harpyj    146 CCTACGTGCTGCGGGCAGATCTC----TGCC--CCAACCAT--GTGCG--    185
+                        |.||.||| ||.|..||.||    |.||  |||.|.||  ||.||  
+Anolis_caroli    184 ---AAGTCCTG-GGACGAATGTCAGGATTCCAGCCAGCGATACGTCCGGT    229
+
+Harpia_harpyj    186 ----------------CAGGTTTGTGCTGCCCCA-----CAAGCAGATCT    214
+                                     |||..|| |||..|||.|     |||.||||   
+Anolis_caroli    230 TCATTTTCCAAAACTTCAGCCTT-TGCATCCCGACTGACCAACCAGA---    275
+
+Harpia_harpyj    215 GTGGGCTCCA-----GGACTCGCCGTGGGTCGTG----------GAGCTG    249
+                         |.||.|     |||        .||..|||          .|||..
+Anolis_caroli    276 ----GGTCAAAAGATGGA--------AGGAAGTGATATCACAAAAAGCGA    313
+
+Harpia_harpyj    250 CTGCA---GCTCTGGGAACGCCAAGCA-----GCTCAGAGACCCC---TG    288
+                     .||||   ||     |.||||| ||||     |..|||.||||||   .|
+Anolis_caroli    314 ATGCAAGGGC-----GGACGCC-AGCAAAGGGGGGCAGGGACCCCCAACG    357
+
+Harpia_harpyj    289 GCTGGACCCC--TGGCTACAGACAGAC--CC----CCAGATGGACGCCCG    330
+                     |  |||||||  ..|| ||||.|.|||  ||    ||..|.|||.|||| 
+Anolis_caroli    358 G--GGACCCCCAAAGC-ACAGCCGGACATCCCTTTCCGAACGGAAGCCC-    403
+
+Harpia_harpyj    331 GCTACAGACAGAC--CCACGGATGGACGCCCGGCTACAGACAGACCCACG    378
+                      ||     |.|||  |||   |.||||.||||   ||||     ||||  
+Anolis_caroli    404 -CT-----CCGACCTCCA---AGGGACCCCCG---ACAG-----CCCA--    434
+
+Harpia_harpyj    379 GATGGACCCCTGGCCAGACCCCCAGCTATGC--ACGGACCCC---CAGAT    423
+                                 |||.|||||||  .|.|.|  ||.|||.||   |||||
+Anolis_caroli    435 ------------GCCGGACCCCC--GTTTCCTGACAGACGCCCTTCAGAT    470
+
+Harpia_harpyj    424 GGACCCCCTGCCAGCCCCCTGGCCCCACTGAGTCCCCCAGCCCCGGAGG-    472
+                     ||      ||.|||      ||||.||              .|..|||| 
+Anolis_caroli    471 GG------TGACAG------GGCCACA--------------GCAAGAGGA    494
+
+Harpia_harpyj    473 GACCCCCAGCCAGCCCCACAGTGAAATGCAGCACCCCCTCAAGCAGCTCC    522
+                     ||||||||       |||||.||  |||       |||||  |.|||.||
+Anolis_caroli    495 GACCCCCA-------CCACACTG--ATG-------CCCTC--GGAGCCCC    526
+
+Harpia_harpyj    523 CCCACACCCCACCCTGCCGTGAGACTGGGTGAGGAGCACGGAGACGAGTC    572
+                     ||..||||||                                        
+Anolis_caroli    527 CCTTCACCCC----------------------------------------    536
+
+Harpia_harpyj    573 TGGGGGGCAGCTCCTGGGGGTCCCCCAGGCCTTG----CCCCCCA--CCC    616
+                       ||||||.||    ||.||.||    ||||..|    |||||||  |||
+Anolis_caroli    537 --GGGGGCCGC----GGTGGGCC----GGCCAGGGAGACCCCCCACGCCC    576
+
+Harpia_harpyj    617 CAGCA--GGCTGGATCCACCGGGAAGCTGTGGGGCAGGACCCCCAGATGC    664
+                     |||||  |||..|.|||      .|||    ..||.||.|||||      
+Anolis_caroli    577 CAGCAAGGGCCTGCTCC------CAGC----CAGCCGGCCCCCC------    610
+
+Harpia_harpyj    665 CACCGCCTGCTGTGGGGCCAGCCCCCCTTTCTGTGGGA-------CTGGC    707
+                                  ||||   |.||.|||.||.||...|       ||.||
+Anolis_caroli    611 -------------GGGG---GTCCTCCTCTCCGTCCCACACCACCCTCGC    644
+
+Harpia_harpyj    708 CATGGGGGTGATCCTGCTGGGAGCCGGCCTGGGCCTGGTGGGTGTCCTGG    757
+                     |||   .||.|.|||.||||||..||..||.|.|.||||||..|||.|||
+Anolis_caroli    645 CAT---CGTCAGCCTCCTGGGAATCGCGCTCGTCTTGGTGGCCGTCGTGG    691
+
+Harpia_harpyj    758 ----CATGCTCGGGGGGGCTGCCAG-GGAGCAGGGAGAGGC-----GAGG    797
+                         |.|        ||..||||.| ||||.|||..|||||     ||||
+Anolis_caroli    692 TTTCCCT--------GGTTTGCCGGAGGAGGAGGAGGAGGCGTCAGGAGG    733
+
+Harpia_harpyj    798 GGCCAGGCTCCTCACCT-CTGC----------------------CTGA--    822
+                     |||||  ||||.| ||| ||||                      ||||  
+Anolis_caroli    734 GGCCA--CTCCAC-CCTGCTGCCCTCGGCGAGGAGACCCATTGGCTGAAC    780
+
+Harpia_harpyj    822 ------------------    822
+                                       
+Anolis_caroli    781 CTTCCCGAGAAGACCTGA    798
+
+
+#---------------------------------------
+#---------------------------------------

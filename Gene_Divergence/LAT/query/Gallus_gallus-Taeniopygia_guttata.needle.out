@@ -1,0 +1,98 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Taeniopygia_guttata.fa
+#    -outfile Gallus_gallus-Taeniopygia_guttata.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Taeniopygia_guttata.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Taeniopygia_guttata
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 764
+# Identity:     394/764 (51.6%)
+# Similarity:   395/764 (51.7%)
+# Gaps:         259/764 (33.9%)
+# Score: 998.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGAGGCGCTGTGGGGCTCAGCCTTCCTGATGGCGGCGCTGCTGCTG--     48
+                     ||||||||||.|           |||  ||     |||||||||||||  
+Taeniopygia_g      1 ATGGAGGCGCCG-----------CTT--TG-----GGCGCTGCTGCTGCT     32
+
+Gallus_gallus     49 --ACCGCCGCCCTCTGC-GTC--CGCTGCCACCGCCAGCGCAGTCCCGGT     93
+                       .||.||.|||.|||| |.|  ||||  |..|||..||||.| |.||||
+Taeniopygia_g     33 GCCCCTCCCCCCCCTGCTGGCCTCGCT--CTGCGCATGCGCCG-CGCGGT     79
+
+Gallus_gallus     94 GCTCCGCTGTACGACAGAGACAAGCCGATGTCGGAACCGC--CGCCTC--    139
+                     |  ||||.|  ||.|.|      .|||         ||||  ||||.|  
+Taeniopygia_g     80 G--CCGCCG--CGCCCG------CCCG---------CCGCAGCGCCCCCC    110
+
+Gallus_gallus    140 -----ACAGCTTCCAGATCCTCCCCGTCGTGCGCCACCCTCAGAGCGCCC    184
+                          |||.||.|.|    ||.|.||.||      .|||||  |||||||
+Taeniopygia_g    111 GATGGACAACTACGA----CTGCACGCCG------CCCCTC--AGCGCCC    148
+
+Gallus_gallus    185 CCCCCCCACCCCG------CGGAGCGGCGCCG-GAGATGATCCTCAACCC    227
+                     |.|||||..||||      .|..|.|.||||| ||..||..||||..|||
+Taeniopygia_g    149 CTCCCCCCGCCCGGTTCATGGTGGTGACGCCGCGATGTGCCCCTCCCCCC    198
+
+Gallus_gallus    228 GAACCCCAATCTGCACAACCCCAACATCCACCTCTCCTGGGGGA-CGCGC    276
+                                    ||.||||..||.||.|    ||||||.|| |.||.
+Taeniopygia_g    199 ---------------CAGCCCCTGCAGCCGC----CCTGGGCGACCCCGT    229
+
+Gallus_gallus    277 GGACACGGAGACGCG-------GGGTCCCCGCAGACCTCCC--AGCAACG    317
+                     |     ||||.||||       ||..||||.|||.||.|||  |||  ||
+Taeniopygia_g    230 G-----GGAGCCGCGGAGCCTCGGCCCCCCCCAGGCCCCCCCGAGC--CG    272
+
+Gallus_gallus    318 CCGCATCTCCGCCACCCG-CCCGGAGCCGGAGAGAGGGTCCCCAACGTGC    366
+                     ||||.||||.|    ||| .|||||||||||                  |
+Taeniopygia_g    273 CCGCGTCTCGG----CCGAGCCGGAGCCGGA------------------C    300
+
+Gallus_gallus    367 GCCCCCGAGAGCGAGGACGACTACAGCAATGAGGTCTACGCC-TCCGGAT    415
+                     .||||||||   ||.|.|||.|||..|||.||       ||| ..|||.|
+Taeniopygia_g    301 CCCCCCGAG---GACGCCGATTACTCCAACGA-------GCCGAGCGGCT    340
+
+Gallus_gallus    416 ATGTGAAGGTTCTCCCGGACGCTGAGGACGCGGCGCAGCGCAGCAACGGC    465
+                     |.||||.|||.||.||||||.|    |||.|.||.|||.|     |||.|
+Taeniopygia_g    341 ACGTGACGGTGCTGCCGGACCC----GACCCCGCCCAGTG-----ACGTC    381
+
+Gallus_gallus    466 AC------------------CGCCACGGCCGACACCGCAGCACACGCCAC    497
+                     ||                  ||.|||||.||.|.|||..|   |||.||.
+Taeniopygia_g    382 ACTGATGATGTCACCCATGACGTCACGGACGCCCCCGGTG---ACGTCAT    428
+
+Gallus_gallus    498 CCCCCC------------------------CGAGCAATATGAGAACGTCC    523
+                     |....|                        .||||..||.||||||.|||
+Taeniopygia_g    429 CGGGGCGGGGGAGGGGGAGGGGGAGGGGGAGGAGCCCTACGAGAACATCC    478
+
+Gallus_gallus    524 CCGATGTCTCCCGCCACTCCCTGGGTGAC-AGCCTGGAGTACATCAACGT    572
+                     ||||.|.:..|.||.|||||| |||.|.| ||.|||||||||||||||||
+Taeniopygia_g    479 CCGAGGGYGACGGCGACTCCC-GGGCGCCGAGTCTGGAGTACATCAACGT    527
+
+Gallus_gallus    573 CCCCACGGTGACGCCCAGCCCTGCATCCCGCTACGGCAGCGACCGCGACA    622
+                     |||  .||.|..||.|||                    ||||  ||||.|
+Taeniopygia_g    528 CCC--GGGGGGGGCTCAG--------------------GCGA--GCGAGA    553
+
+Gallus_gallus    623 GCGACGCCGACGGCCCCGACTACGAGAAC--GTGACCCCCCCACGCCCCC    670
+                     ||||   |||.|||.||||||||||||||  .|||               
+Taeniopygia_g    554 GCGA---CGAAGGCGCCGACTACGAGAACCTCTGA---------------    585
+
+Gallus_gallus    671 CAGGACCCCCATAA    684
+                                   
+Taeniopygia_g    585 --------------    585
+
+
+#---------------------------------------
+#---------------------------------------

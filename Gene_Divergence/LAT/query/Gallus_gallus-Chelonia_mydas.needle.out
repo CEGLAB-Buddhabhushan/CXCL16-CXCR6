@@ -1,0 +1,98 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Chelonia_mydas.fa
+#    -outfile Gallus_gallus-Chelonia_mydas.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Chelonia_mydas.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Chelonia_mydas
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 780
+# Identity:     303/780 (38.8%)
+# Similarity:   303/780 (38.8%)
+# Gaps:         372/780 (47.7%)
+# Score: 779.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGAGGCGCTGTGGGGCTCAGCCTTCCTGATGGCGGCGCTGCTGCTGAC     50
+                                                                       
+Chelonia_myda      0 --------------------------------------------------      0
+
+Gallus_gallus     51 CGCCGCCCTCTGCGTCCGCTGCCACCGCCAGCGCAGTCCCGGTGCTCCGC    100
+                                                                       
+Chelonia_myda      0 --------------------------------------------------      0
+
+Gallus_gallus    101 TGTACGACAGAGACAAGCCGATGTCGGAACCGCCGCCTCACAGCTTCCAG    150
+                                                                       
+Chelonia_myda      0 --------------------------------------------------      0
+
+Gallus_gallus    151 ATCCTCCCCGTCGTGCGCCACCCTCAGAGCGCCCCCCCCCCACCCCGCGG    200
+                                                                       
+Chelonia_myda      0 --------------------------------------------------      0
+
+Gallus_gallus    201 AGCGGCGCCGGAGATGATCCTCAACCCGAACC-CCAAT--CTGCA-CAAC    246
+                                  |||.|.|| .||||||.|| .|.||  ||.|| .|||
+Chelonia_myda      1 -------------ATGGTGCT-GACCCGAGCCAACTATCCCTCCAGGAAC     36
+
+Gallus_gallus    247 C----CCAACATCCACCTCTCCTGGGGGACGCGCGGACACGGAGACG---    289
+                     |    |.||||.|.|||.||           .||.|.|.|.|||.||   
+Chelonia_myda     37 CAGATCAAACAGCAACCGCT-----------GGCTGCCGCTGAGCCGTTC     75
+
+Gallus_gallus    290 ----------CGGGGTCCCCGCAGACCTCCCAGCAACGCCGCATCTCCGC    329
+                               ||.|.|||||.|||.|..|||||...||||...|||||..
+Chelonia_myda     76 CTGTCCATCCCGCGATCCCCACAGGCACCCCAGAGCCGCCAAGTCTCCTT    125
+
+Gallus_gallus    330 CACCCGCCCGGAGCCGGA----GAGAGGGTCCCCA------------ACG    363
+                     ||||.|..|.|||.|.||    ||.||.|||||||            |.|
+Chelonia_myda    126 CACCAGGACAGAGACCGACAACGACAGCGTCCCCAGCTACGAGAACGAGG    175
+
+Gallus_gallus    364 TGCGCCCCCGAGAG--CGAGGAC---------GACTACAGCAATGAGGTC    402
+                     .|||.|||||.|.|  .||||||         |||||.|.|||.|||.||
+Chelonia_myda    176 AGCGACCCCGTGGGGATGAGGACGACGACAATGACTATAACAACGAGCTC    225
+
+Gallus_gallus    403 TACGCCTCCGGATATGTGAAGGTTCTCCCGGACGCTGAGGACGCGGCGCA    452
+                     |||..|.||||.||.|||.||||.||.||.||                  
+Chelonia_myda    226 TACATCACCGGCTACGTGGAGGTGCTTCCCGA------------------    257
+
+Gallus_gallus    453 GCGCAGCA--ACGG---CA-CCGCCA---CGGCCGACACCGC--------    485
+                        |||||  ||||   || ||.|||   .||..|.||||.|        
+Chelonia_myda    258 ---CAGCATCACGGAGACATCCCCCAAAGAGGTGGTCACCTCGAGGCCAG    304
+
+Gallus_gallus    486 AGCACA-CGCCACC----CCCCCCGAGCAA-----------TATGAGAAC    519
+                     |||.|| .|.||.|    ||.|....||||           ||.||||||
+Chelonia_myda    305 AGCTCAGGGACAGCGTGTCCTCAGTGGCAATGGGGGATGAGTACGAGAAC    354
+
+Gallus_gallus    520 GTCCCCGATGTCTCCC---GCCACTCCCTGGGTGACAGCCTGGAGTACAT    566
+                     ||.||.||.|   |||   |..|.||.||||.||||||||||||||||.|
+Chelonia_myda    355 GTGCCGGAGG---CCCAGAGGGAGTCGCTGGCTGACAGCCTGGAGTACGT    401
+
+Gallus_gallus    567 CAACGTCCCCACGGTGACGCC---------CAGCCCTGCATCCCGCTA--    605
+                     ||||.|.||     .|| |||         ||.|||||...|||.|||  
+Chelonia_myda    402 CAACATGCC-----AGA-GCCTGGATCCAGCATCCCTGACGCCCACTATG    445
+
+Gallus_gallus    606 -CGGCAGCGACCGCGACAGCGACGCCGACGGCCCCGACTACGAGAACGTG    654
+                      ||.||||.||||.||.|||||.|.|||.||||||||||||||||||.||
+Chelonia_myda    446 GCGCCAGCAACCGGGAGAGCGAGGACGATGGCCCCGACTACGAGAACCTG    495
+
+Gallus_gallus    655 ACCCCCCCACGCCCCCCAGGACCCCCATAA    684
+                     ..||.|..|                     
+Chelonia_myda    496 CACCGCTGA---------------------    504
+
+
+#---------------------------------------
+#---------------------------------------

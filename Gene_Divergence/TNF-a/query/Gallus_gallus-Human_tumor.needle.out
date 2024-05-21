@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:42:09
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Human_tumor.fa
+#    -outfile Gallus_gallus-Human_tumor.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Human_tumor.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Human_tumor
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 974
+# Identity:     425/974 (43.6%)
+# Similarity:   425/974 (43.6%)
+# Gaps:         388/974 (39.8%)
+# Score: 814.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGACCAC-----GCTCTTTCCGTGTCTCCCCGTGTCCGTTCCGTGTTTC     45
+                     ||||.|||     ||....||||.|     .||||        |.|.|..
+Human_tumor        1 ATGAGCACTGAAAGCATGATCCGGG-----ACGTG--------GAGCTGG     37
+
+Gallus_gallus     46 CC-----CGCGTTCTTTCCACCTTCCCCCTTTCCCTCCC----------G     80
+                     ||     .|||                       |||||          |
+Human_tumor       38 CCGAGGAGGCG-----------------------CTCCCCAAGAAGACAG     64
+
+Gallus_gallus     81 TGTCTCCCCACGTGTCCCCGCGTCGCTT---------CCTCTTCCCCCCC    121
+                     .|...|||||.|..|||..|||..||||         ||||||       
+Human_tumor       65 GGGGGCCCCAGGGCTCCAGGCGGTGCTTGTTCCTCAGCCTCTT-------    107
+
+Gallus_gallus    122 CCCCCCCCCCCTCCCTCCTCGCCGTGGGGCTGCCCCACACGTGGGCGGTG    171
+                               ||||.||||...|||||          ||.|         
+Human_tumor      108 ----------CTCCTTCCTGATCGTGG----------CAGG---------    128
+
+Gallus_gallus    172 CGGCCATATAAGCGCCGTGGGGGGGGGGGGGGGGGGGGCACTGCCATGGC    221
+                                                                       
+Human_tumor      128 --------------------------------------------------    128
+
+Gallus_gallus    222 CGTCCCCACCGCCACCGTCACCGCTCTGCTGCTGCTGCTGC----TGCCG    267
+                              |||||||    .||||||.||||  |||||||    ||..|
+Human_tumor      129 ---------CGCCACC----ACGCTCTTCTGC--CTGCTGCACTTTGGAG    163
+
+Gallus_gallus    268 ----CCGCCCCACATCCACGCGCTGCCGTGGGGAGAGGACCCCA------    307
+                         |.|||||              |.|.|||.||||..|||||      
+Human_tumor      164 TGATCGGCCCC--------------CAGAGGGAAGAGTCCCCCAGGGACC    199
+
+Gallus_gallus    308 ----------CAGCTCCGC------------TCAGAACGACGTCAATTGA    335
+                               |||| ||.|            |||||.|..|.||  |.||
+Human_tumor      200 TCTCTCTAATCAGC-CCTCTGGCCCAGGCAGTCAGATCATCTTC--TCGA    246
+
+Gallus_gallus    336 CCCCCCCATGGAGCTGCAGGTGGCGCGGAGGGACAAACCCGCAGCGCACG    385
+                     .||||                      |||.|||||.||.|.|||.||.|
+Human_tumor      247 ACCCC----------------------GAGTGACAAGCCTGTAGCCCATG    274
+
+Gallus_gallus    386 TCGTGGCATCGTCCTCTCA-------GCCCGGCTC--GTTGGTGTGGGAC    426
+                     |.||.|||   ..|.||||       |..|.||||  ||.|.||      
+Human_tumor      275 TTGTAGCA---AACCCTCAAGCTGAGGGGCAGCTCCAGTGGCTG------    315
+
+Gallus_gallus    427 GACCGCGTTGCC----CCATCCCTGGTCCGTAACGGCGTGGTGCTGAGAA    472
+                     .|||||...|||    ||.| |||||.|   ||.|||||||.|||||||.
+Human_tumor      316 AACCGCCGGGCCAATGCCCT-CCTGGCC---AATGGCGTGGAGCTGAGAG    361
+
+Gallus_gallus    473 GGAACAAACTGGTGGTCCCCCGGGACGGCCTTTACTTCGTATACGCCGCC    522
+                     ..|||.|.||||||||.||....||.|||||.|||.||.|.|||.|| |.
+Human_tumor      362 ATAACCAGCTGGTGGTGCCATCAGAGGGCCTGTACCTCATCTACTCC-CA    410
+
+Gallus_gallus    523 G--CCGCTTTCCAGGGGGGGGGGC-GCTGTTTCATCCCCCC-------CC    562
+                     |  ||.|||  ||.|||....||| ||    .|.|||.|||       ||
+Human_tumor      411 GGTCCTCTT--CAAGGGCCAAGGCTGC----CCCTCCACCCATGTGCTCC    454
+
+Gallus_gallus    563 TGAGGCTGTCGGTCAGCCGCTTCTCCGAGGAGTACCCCAAAGAC----GT    608
+                     |.|..|...|..||||||||.||.|||.....||||    ||||    ||
+Human_tumor      455 TCACCCACACCATCAGCCGCATCGCCGTCTCCTACC----AGACCAAGGT    500
+
+Gallus_gallus    609 CCCCCTCCTGACCGCCGT---GCGCTCCGTCTGCCCCGGGGAAGGGGG--    653
+                     |..||||||..|.|||.|   |.||.|   |||||       ||.|||  
+Human_tumor      501 CAACCTCCTCTCTGCCATCAAGAGCCC---CTGCC-------AGAGGGAG    540
+
+Gallus_gallus    654 ------GAGGGGGGGGAGGAGGAGGAGGAAGAGGAGGGGCGGGGGGGGGG    697
+                           |||||||..||||...|                           
+Human_tumor      541 ACCCCAGAGGGGGCTGAGGCCAA---------------------------    563
+
+Gallus_gallus    698 GGGACGGCGGTGGGGGGGGGCCGTGGTTCGAGTCGCTGTATCAGGGGGCG    747
+                                        |||.||||..|||.|..|.||||.|||.|.|
+Human_tumor      564 -------------------GCCCTGGTATGAGCCCATCTATCTGGGAGGG    594
+
+Gallus_gallus    748 GTGTTTTTGCTGAGGGGGGGGGACGAGTTGGAGGCGAC-CACC------A    790
+                     ||.||...||||..|..|||.|||          |||| ||.|      |
+Human_tumor      595 GTCTTCCAGCTGGAGAAGGGTGAC----------CGACTCAGCGCTGAGA    634
+
+Gallus_gallus    791 GCA--CGGCGC-AGTACCTCGAC-CTGCACG-GGGGGGGCAGCGCCTATT    835
+                     .||  ||||.| |.||.|||||| .||| || |...|||||| |.|||.|
+Human_tumor      635 TCAATCGGCCCGACTATCTCGACTTTGC-CGAGTCTGGGCAG-GTCTACT    682
+
+Gallus_gallus    836 TTGGGGTGGTGGGAGTG-GATTAA    858
+                     |||||.|..|.|...|| ||    
+Human_tumor      683 TTGGGATCATTGCCCTGTGA----    702
+
+
+#---------------------------------------
+#---------------------------------------

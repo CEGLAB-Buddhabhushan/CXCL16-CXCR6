@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:16
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Rhea_americana.fa
+#    -outfile Anas_platyrhynchos-Rhea_americana.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Rhea_americana.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Rhea_americana
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1039
+# Identity:     889/1039 (85.6%)
+# Similarity:   889/1039 (85.6%)
+# Gaps:          11/1039 ( 1.1%)
+# Score: 3845.5
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||.|||||.|||||||||.||.|||   |||||||||||||||.|||||
+Rhea_american      1 ATGACAACTACAGATGCTGATAACTT---TTATAACTTCTCAGCAATTGA     47
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     |||||||||||..||||.|||.||||||||||||||||.||..|||||||
+Rhea_american     48 TCCCAATGAAACTGGAAGTGACAATTTTTACACATTTACAAGAATCTTTC     97
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.|||||||.|..|||||||||||||||||||||||||||.||
+Rhea_american     98 TGCCCTGTATGTATTCATGCGTTTTTATCTTTGGGCTAGCAGGAAATACT    147
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     .||||.|||.|||||.|.||.|||||||||||||||||||||||||||||
+Rhea_american    148 TTGGTTTTTGTCATATTAGTATTCTATGAGAAACTGAAGACACTGACAGA    197
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     |.||||||||.|||||.|||||||||||||.|||.||||.||||||||.|
+Rhea_american    198 TGTATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTTCTTTGGACCC    247
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     ||||.||||||||.||||||||||||||||||||||.|||||||||||||
+Rhea_american    248 TGCCGTTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACTGTG    297
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||.||.||.||||||.||||.|.||||||.||||||||.|||||
+Rhea_american    298 GCATGTCGTATTATCCGGGGCTTGTATACTCTGAATTTGTACACGTCAAT    347
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||||||||.|.|||.||||||||..|||||.||.||||||||||||
+Rhea_american    348 GTTAACTCTAACCTGTATAACCTTTGATCGGCTTTTTGCTATTACTTTTG    397
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |||||||||||||.|.|.||||||||||||||...|.|||.|||||||||
+Rhea_american    398 CCACCAAAGCACACAAGTGTCAAACCAAACGAACAACATGTGGCAAATTA    447
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.||.||.|||||||||||||.||||.|||||||||||||||.|
+Rhea_american    448 ATCTGTGTCTCGAACTGGGTGATTTCACTAGCCTTTGCCACACCACAGTT    497
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|..|||..||||||||||.|||||||.|.||||||.|
+Rhea_american    498 TATTTTTAGTGAGGCATTTCGTATTGATAAGGCAATATGTCAGGAAAACT    547
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.|.||.||||||.|||||||||||.||.||||||.|||||
+Rhea_american    548 ACCCAAACCATCGCACAGAATTTGTTCTTGAAGTAATCCAAGTGGCCCTT    597
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||.||.|||||||||||||.||||||||||||.|||||.||
+Rhea_american    598 GGCTATTTTATCCCTATGCTAACCATGACCATCTGCTACTCACTAATCAT    647
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||||||.||||||||||||||.||.||..|||||.||||||||||.||||
+Rhea_american    648 TAAAACATTACTGCATGCCAGAAATTTTAAAAAGTACAAATCTCTGAAAA    697
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||.|||||.|||||||||||||||||||||||||||||.|||
+Rhea_american    698 AAATATTTTCCGTAGTTGCCATATTTATTCTTACTCAGTCACCCTATACT    747
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||.||||||||||..||||||||.||.||||||||.||||||.||.||||
+Rhea_american    748 TTTTTGAGACTGACAAAGATCATAGATTGGAGCTTTAACTTGAACCGCAA    797
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.|.|||||||||||..|||||||||||||.||||
+Rhea_american    798 CTTTGAATATGCAATCATCATAACAGAAGCTTTTGCTTATTTCCATGGCT    847
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     |.||.|||||||||.|||||||||||||.||||||||||||||||||||.
+Rhea_american    848 GCCTCAACCCTGTTCTGTATTTCTTCATTGGGGTGAAATTCAGGAAGAAT    897
+
+Anas_platyrhy    901 TTCCAGAAAATTATTA-AAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTG    949
+                     |||||||||||||||| .||| |.|||.|||.|.|||..||||      |
+Rhea_american    898 TTCCAGAAAATTATTAGGAAG-TTAAGATGCATCAAATGGCAA------G    940
+
+Anas_platyrhy    950 TTAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTC    999
+                     |||||||..||||.|||||.|||||.||||||||||||||||..||||.|
+Rhea_american    941 TTAGACAAGGGCAAACCACAGAAGATGAAGGCTCTAAAACTTTCACTGCC    990
+
+Anas_platyrhy   1000 TCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     ||||||||||||||||..|||||||||||.||.||.|||
+Rhea_american    991 TCAAATAATGCAGATGCAACAAGCATGTATCCGCTATAA   1029
+
+
+#---------------------------------------
+#---------------------------------------

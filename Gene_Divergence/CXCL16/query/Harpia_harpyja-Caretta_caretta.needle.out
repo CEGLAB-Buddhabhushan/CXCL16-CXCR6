@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:51:30
+# Commandline: needle
+#    -asequence Harpia_harpyja.fa
+#    -bsequence Caretta_caretta.fa
+#    -outfile Harpia_harpyja-Caretta_caretta.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Harpia_harpyja-Caretta_caretta.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Harpia_harpyja
+# 2: Caretta_caretta
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1012
+# Identity:     493/1012 (48.7%)
+# Similarity:   493/1012 (48.7%)
+# Gaps:         407/1012 (40.2%)
+# Score: 1230.5
+# 
+#
+#=======================================
+
+Harpia_harpyj      1 ATGG-----------GGCCGGGG----------CTGCTGCTGCTGCTGCT     29
+                     ||||           ||||.|||          |||||||||||||||||
+Caretta_caret      1 ATGGCGGCGACCCCCGGCCCGGGAGCGACCCTCCTGCTGCTGCTGCTGCT     50
+
+Harpia_harpyj     30 GCTG------CTGCTGCCCTGGGGAGCGCTGGGGAATGTGGGGGGCTCGG     73
+                     ||||      |.||.|.||||         ||||||.|.|||||||.||.
+Caretta_caret     51 GCTGGGCCCCCCGCCGGCCTG---------GGGGAACGAGGGGGGCGCGC     91
+
+Harpia_harpyj     74 CAGGGGCCTGCACCTGCACCCA-CCGCTGGCCTTGGAAGCCCCCCCCCGC    122
+                     ..||||.|||||..||   ||| ..||||    .|||.|||||||     
+Caretta_caret     92 TCGGGGTCTGCAAATG---CCAGAGGCTG----AGGACGCCCCCC-----    129
+
+Harpia_harpyj    123 TGTGCGCCTGCCCC---CCCTGGCC------------CCCTACG-----T    152
+                         .|||.||.||   .|||.|||            ..|||||     |
+Caretta_caret    130 ----GGCCGGCTCCGGGACCTCGCCGACAGGGTGAAGGGCTACGAGGCCT    175
+
+Harpia_harpyj    153 GCTGCGGGCAGATCTCTGCCCCAACCATGTGCGCAGGTTTGTGCTGCCCC    202
+                     ||.||||||              |||..||   |.||||.|.||||||||
+Caretta_caret    176 GCGGCGGGC--------------ACCTCGT---CCGGTTCGAGCTGCCCC    208
+
+Harpia_harpyj    203 ACAAG----CAGATCTGTGGGCTCCAGGAC-TCGCCG--TGGGTCGTGGA    245
+                         |    ||||||||||||||   |||| .|||||  |||||..|..|
+Caretta_caret    209 ----GTGTACAGATCTGTGGGCT---GGACAGCGCCGACTGGGTGATCCA    251
+
+Harpia_harpyj    246 GCTGCTGCAGCTCTGGGA---------------------------ACGCC    268
+                     |||.|..|||||||||||                           .||||
+Caretta_caret    252 GCTCCGCCAGCTCTGGGAGAACAAAGAAGCCGGAAGGATTGATGCCCGCC    301
+
+Harpia_harpyj    269 AAG------------CAGCTCAGAGACCCC---------TGGCTGGACCC    297
+                     |||            |.||.|.|| |||||         |..|||..|||
+Caretta_caret    302 AAGGGGGCGGGGGGCCGGCCCCGA-ACCCCACCAACGCTTCCCTGCCCCC    350
+
+Harpia_harpyj    298 CTGGCTACAGACAGACCCCCAGATG-------------GACGCCCGGCTA    334
+                         |.|||..|.|.|||||  |||             |||.||.||   
+Caretta_caret    351 ----CAACACCCGGTCCCCC--ATGCCCAGTGCGGCGCGACCCCTGG---    391
+
+Harpia_harpyj    335 CAG----ACAGACCCACGGATGGACGCCCG--GCTACAGACAGACCCACG    378
+                      ||    ||.|||.|||.||.||||.||||  ||..|||  .|||..||.
+Caretta_caret    392 -AGCCCCACGGACTCACAGACGGACCCCCGGAGCGGCAG--GGACTTACA    438
+
+Harpia_harpyj    379 GATGGACCCCTGGCCAGACCCCCAGCTATGCACGGACCCCCAGATGGACC    428
+                     ||.|||||          |||.||||  .||||||||||||||       
+Caretta_caret    439 GACGGACC----------CCCGCAGC--GGCACGGACCCCCAG-------    469
+
+Harpia_harpyj    429 CCCTGCCAGCCCCCTGGCCCCACTGAGTCCCCCAG----CCCCGGAGGGA    474
+                            ||||.|..||||||.|.|||  ||||||    .|.|.||.|||
+Caretta_caret    470 -------AGCCGCACGGCCCCCCAGAG--CCCCAGGGACTCACAGACGGA    510
+
+Harpia_harpyj    475 CCCCC--AGC----CAGCCCCACAGTGAAATGCAGCACCCCCTCAAGCAG    518
+                     |||||  |||    |||.|||||||    |||.||    ||||.|     
+Caretta_caret    511 CCCCCGGAGCCGCACAGACCCACAG----ATGAAG----CCCTGA-----    547
+
+Harpia_harpyj    519 CTCCCCCACACCCCACCCTGCCGTGAGACTGGGTGAGGAGCACGGAGACG    568
+                          |||   ||.|||   ||||                          
+Caretta_caret    548 -----CCA---CCGACC---CCGT--------------------------    560
+
+Harpia_harpyj    569 AGTCTGGGGGGCAGCTCCTGGGGGTCCCCCAGGCCTTGCCCCCCACCCCA    618
+                         |||||||                |||| ||||.|     |.|||||
+Caretta_caret    561 ----TGGGGGG----------------CCCA-GCCTGG-----CGCCCCA    584
+
+Harpia_harpyj    619 GCAGGCTGGATCCACCGGGA--AGCTGTGGGGCAGGACCCCCAGATGCCA    666
+                     ||||| .|||      ||||  .||||..||||    |||||        
+Caretta_caret    585 GCAGG-GGGA------GGGAGCGGCTGATGGGC----CCCCC--------    615
+
+Harpia_harpyj    667 CCGCCTGCTGTGGGGCCAGCCCC-------CCTTTCTGTGGGACTGGCCA    709
+                        ||.|||       |||||||       |||.||         ||||.
+Caretta_caret    616 ---CCCGCT-------CAGCCCCGTCCCTACCTCTC---------GGCCG    646
+
+Harpia_harpyj    710 TGGGGGTGATCCTGCTGGGAGCCGGCCTGGGCCTGGTGGGTGTCCTG---    756
+                     ||..||||   ||||||||..||..||||||.|||.||||.|.||||   
+Caretta_caret    647 TGCTGGTG---CTGCTGGGCACCACCCTGGGGCTGCTGGGGGGCCTGACC    693
+
+Harpia_harpyj    757 -GCATGCT----CGGGGGGGCTG---------CCAGGGAGCAGG------    786
+                      .|.||||    |||.||.||.|         ||||..|.|.||      
+Caretta_caret    694 TACGTGCTCTGCCGGCGGAGCCGGCGGCCCCCCCAGCTACCCGGCCCCCC    743
+
+Harpia_harpyj    787 -----GAGAGGCGAGGGGCCAGGCTCC---------TCACCTCTGCCTGA    822
+                          ||||        .||||||.||         | |||.|| ||||.
+Caretta_caret    744 GCCCCGAGA--------CCCAGGCACCGAGACACTGT-ACCACT-CCTGC    783
+
+Harpia_harpyj    822 ------------    822
+                                 
+Caretta_caret    784 GAGCTGGGATGA    795
+
+
+#---------------------------------------
+#---------------------------------------

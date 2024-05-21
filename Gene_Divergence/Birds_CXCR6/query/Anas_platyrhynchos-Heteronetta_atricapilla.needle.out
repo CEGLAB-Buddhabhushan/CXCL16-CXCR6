@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:12
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Heteronetta_atricapilla.fa
+#    -outfile Anas_platyrhynchos-Heteronetta_atricapilla.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Heteronetta_atricapilla.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Heteronetta_atricapilla
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     991/1038 (95.5%)
+# Similarity:   991/1038 (95.5%)
+# Gaps:           0/1038 ( 0.0%)
+# Score: 4767.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+Heteronetta_a      1 ATGACAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||||||||||||.||||||||||||||||||||||||.||||||||
+Heteronetta_a     51 TCCCAATGAAAACGGAGTTGAGAATTTTTACACATTTATAAGTATCTTTC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.||||||||.||||||||||||||||||||||||||||||||
+Heteronetta_a    101 TGCCCTGTATGTATTCGCTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     ||||||.|||||||||||||||||||||||||||||||||||||||||||
+Heteronetta_a    151 CTGGTCGTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||||||||.|||||||||||||.|||||||||||||||||.|
+Heteronetta_a    201 TATATTTTTGTTGAACTTGGCTATAGCTGACTGGATCTTCCTTTGGACCC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||||||||||||||||||||||||||||||||||||
+Heteronetta_a    251 TGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||.||.|||||||||||||||||||||||||||||||||||.||
+Heteronetta_a    301 GCATGTCGTATTATACGGGGCCTGTACAATCTGAACTTGTACACTTCTAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     |||||||||||||||||||||||||||||||||||||.||||||||||||
+Heteronetta_a    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTGCTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |||||||||||||||||.||||||||||||||.|||||||||||||||||
+Heteronetta_a    401 CCACCAAAGCACATATGTGTCAAACCAAACGAATGAAATGGGGCAAATTA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|||||||||||||||||||||.||||||||||..||||||||||
+Heteronetta_a    451 ATCTGTGGCTTGATCTGGGTGATTTCACTAGCATTTGCTTCACCACAGCT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     |||||||||||||||||||||||||||||||.||||||||||||||||||
+Heteronetta_a    501 TATTTTTAGTGATGTGTTTACTATTGATAAGGCAATATGCCTGGAAAAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.|||||||||.||||||||||||||||||||||||||||||||||
+Heteronetta_a    551 ACCCAAACCACCACACAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||||||||||||||||||||||||||||||||||||||||||||.|||||
+Heteronetta_a    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTCATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||||||||||||||||||||||||.|||||||||||||||||||||||||
+Heteronetta_a    651 TAAAACCTTACTGCATGCCAGGAATTTCCAAAAGAACAAATCTCTAAAAA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.||||||||||||||.||||||||||||||||||
+Heteronetta_a    701 AAATATTTTCTGTAGTTGCCATATTTATTCTCACTCAGTCACCCTACACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     |||||||||||||||||||||||.|||||||||||.||||||||||||||
+Heteronetta_a    751 TTCTTGAGACTGATGAAGATCATAGACTGGAGCTTTAACTTGGACAGCAA    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||||||||||||||||.||.||||||||||||||||
+Heteronetta_a    801 CTTTGAATATGCAATCGTTATAACAGAAGCTCTGGCTTATTTCCACGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     |||||||||||||||||||||||||||||||||.||||||||||||||||
+Heteronetta_a    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGCGAAATTCAGGAAGAAC    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||||||||.|||||||||||||||||.|||||||||||||||.||.||||
+Heteronetta_a    901 TTCCAGAAGATTATTAAAAGCTCAAGATGCTTTAAACAGCAAATTTCTGT    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||||||||||||||.||||||||||.|||||.||||||||
+Heteronetta_a    951 TAAACAGTGGCACACCACTGAAGAGGAAGGCTCTAGAACTTGTACTGTCT   1000
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||||||||..|||||||||||||||||.|||
+Heteronetta_a   1001 CAAATAATGCAGATGCAACAAGCATGTACCCTCTATAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

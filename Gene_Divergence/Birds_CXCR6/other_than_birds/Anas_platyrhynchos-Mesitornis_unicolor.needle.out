@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:15
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Mesitornis_unicolor.fa
+#    -outfile Anas_platyrhynchos-Mesitornis_unicolor.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Mesitornis_unicolor.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Mesitornis_unicolor
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     891/1038 (85.8%)
+# Similarity:   891/1038 (85.8%)
+# Gaps:           6/1038 ( 0.6%)
+# Score: 3878.5
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     ||||||||..|||||||||.||.||||||||||||||.|||...||||||
+Mesitornis_un      1 ATGGCAACCACAGATGCTGGTAACTTTTATTATAACTACTCCATCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||||||||      ||||.|||||.||||.||||.||...||||.|
+Mesitornis_un     51 TCCCAATGAAAA------TGAGGATTTTCACACCTTTACAAGAGTCTTCC     94
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||..|||.|||..||||||.||||||||||||||.||||||||.
+Mesitornis_un     95 TGCCCTGTACGTACTCGGCTGTTTTCATCTTTGGGCTAGCCGGAAATGCA    144
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     |||||||||.|||||||.||.|||||||||||||||||||..||.||.||
+Mesitornis_un    145 CTGGTCTTTGTCATACTAGTTTTCTATGAGAAACTGAAGATGCTCACTGA    194
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||.|||||.|||||||||||||.|||.|||||||||||||.|
+Mesitornis_un    195 TATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGACAC    244
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||||||||||||||||||||||.|||||||||.|.|
+Mesitornis_un    245 TGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACCGGG    294
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||..|.|||||||||.||||.|.|||||||||||||||||||||
+Mesitornis_un    295 GCATGTCGTGTTATACGGGGCTTGTATACTCTGAACTTGTACACTTCAAT    344
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||||||||||||||||||||.|||.||||||||.||||||||||||
+Mesitornis_un    345 GTTAACTCTAACGTCTATCACCTTCGACCGGCTTATTGCTATTACTTTTG    394
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     ||||||||||||.||||.||||||||||||||.|||.|||||||||||||
+Mesitornis_un    395 CCACCAAAGCACGTATGTGTCAAACCAAACGAATGACATGGGGCAAATTA    444
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.|||||||||||||||.|||.||||||||||..||||||||.|
+Mesitornis_un    445 ATCTGTGTCTTGATCTGGGTGATCTCACTAGCATTTGCTGCACCACAGTT    494
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     |||||||||..|.|||.|.|.|||||||||.||||||||.|..|||.|||
+Mesitornis_un    495 TATTTTTAGCAAGGTGCTCAGTATTGATAAAACAATATGTCATGAAGAAT    544
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.|.||.||||.|||||||||||||.||.||.|||||||||
+Mesitornis_un    545 ACCCAAACCATCGCACAGAACTGGTTCTTGAAGTGATCCAGGTGACCCTT    594
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||||||||||||.|||||||||||||||||||.||||||||
+Mesitornis_un    595 GGCTATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCTCTAATTAT    644
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     .|.|||||||.||||||||||||..||.|||||||||||||||.|.||||
+Mesitornis_un    645 CAGAACCTTATTGCATGCCAGGAGTTTTCAAAAGAACAAATCTATTAAAA    694
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||.|.||||||||.||.||||..|||||||||||||||||||||||.|||
+Mesitornis_un    695 AAGTGTTTTCTGTCGTTGCCACTTTTATTCTTACTCAGTCACCCTATACT    744
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||||||||.||||||||.||||||||.||.||||||.||||||.
+Mesitornis_un    745 TTCTTGAGACTGATAAAGATCATAGACTGGAGTTTTAACTTGAACAGCAG    794
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.|..||||||||||.||||||||||||||.||||
+Mesitornis_un    795 CTTTGAATATGCAATCATCGTAACAGAAGCTCTTGCTTATTTCCATGGCT    844
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||||||||||||.||||||||||||||||.|||||||||||||.||||
+Mesitornis_un    845 GTCTTAACCCTGTTCTGTATTTCTTCATGGGAGTGAAATTCAGGAGGAAC    894
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     |||||||||||||||||||.||||||.|||.|.|||..|||||||.|...
+Mesitornis_un    895 TTCCAGAAAATTATTAAAAACTCAAGATGCGTCAAATGGCAAGTTACATC    944
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||.||..||||.||.||||||||||||||.|.|||||.||
+Mesitornis_un    945 TAAACAGTGGCAAACTGCTGATGAGGAAGGCTCTAAAACATTTACTGCCT    994
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||||||||..|||||||||.||.|.||.|||
+Mesitornis_un    995 CAAATAATGCAGATGCAACAAGCATGCACACCCTATAA   1032
+
+
+#---------------------------------------
+#---------------------------------------

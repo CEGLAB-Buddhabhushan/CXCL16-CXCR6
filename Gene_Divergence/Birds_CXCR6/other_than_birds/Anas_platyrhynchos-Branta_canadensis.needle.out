@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Branta_canadensis.fa
+#    -outfile Anas_platyrhynchos-Branta_canadensis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Branta_canadensis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Branta_canadensis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     990/1038 (95.4%)
+# Similarity:   990/1038 (95.4%)
+# Gaps:           0/1038 ( 0.0%)
+# Score: 4758.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||.||||||||||||||||||||||||||||||||||||||||||||||
+Branta_canade      1 ATGACAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     |||||||||||||||||||||||||||||||||||||||||.||||||||
+Branta_canade     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAAGTATCTTTC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.||||||||||||||||||||||.||||||||||||||||||
+Branta_canade    101 TGCCCTGTATGTATTCGTTTGTTTTTATCTTAGGGCTAGCAGGAAATGCT    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     ||||||||.||||||||.||||||||||||||||||||||||||||||||
+Branta_canade    151 CTGGTCTTCATCATACTAGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||||||||.|||||||||||||.|||||||||||||||||.|
+Branta_canade    201 TATATTTTTGTTGAACTTGGCTATAGCTGACTGGATCTTCCTTTGGACAC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||||||||||||||||||||||||||||||||||||
+Branta_canade    251 TGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||.||.||||||||||||||||||||||||||||||||||||||
+Branta_canade    301 GCATGTCGTATTATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||||||||||||||.|||||||||||.||||||.||||||||||||
+Branta_canade    351 GTTAACTCTAACGTCTATTACCTTTGACAGACTTATTGCTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |||||||||||||||||.||||||||||||||.|||||||||||||||||
+Branta_canade    401 CCACCAAAGCACATATGCGTCAAACCAAACGAATGAAATGGGGCAAATTA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.||||||||.||||||||||||.|.||||||||||||||||||||
+Branta_canade    451 ATCTGTGGCTTGATTTGGGTGATTTCACTCGCATTTGCCACACCACAGCT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     |||||||||||||||||||||||||||||||.||||||||||||||||||
+Branta_canade    501 TATTTTTAGTGATGTGTTTACTATTGATAAGGCAATATGCCTGGAAAAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.|||||||||.||||||||||||||||||||||||||||||||||
+Branta_canade    551 ACCCAAACCACCACACAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.|||||||||||||||||||||||||||||||||||||||||||||||
+Branta_canade    601 GGCTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||||||||||||||||||||||||.|||||||.|||||||||||||||||
+Branta_canade    651 TAAAACCTTACTGCATGCCAGGAATTTCCAAAGGAACAAATCTCTAAAAA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|.|||||||||||||||||||||||||||||||
+Branta_canade    701 AAATATTTTCTGTAGTTGTCATATTTATTCTTACTCAGTCACCCTACACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     |||||||||||||||||||||||.|||||||||||.||||||||||||||
+Branta_canade    751 TTCTTGAGACTGATGAAGATCATAGACTGGAGCTTTAACTTGGACAGCAA    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     |||||||||.||.|||||||||||||||||.||||||||.||||||||||
+Branta_canade    801 CTTTGACTATGCAATCGTTATAACAGAAGCTCTTGCTTACTTCCACGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Branta_canade    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     |||||||||||||||||||..|||||.||||||||||||||||||.||||
+Branta_canade    901 TTCCAGAAAATTATTAAAAAGTCAAGATGCTTTAAACAGCAAGTTACTGT    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||||||||||||||.||||||||||.|||||.||||||||
+Branta_canade    951 TAAACAGTGGCACACCACTGAAGAGGAAGGCTCTAGAACTTGTACTGTCT   1000
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     ||||.||||||||||..|||||||||||||||||.|||
+Branta_canade   1001 CAAACAATGCAGATGCAACAAGCATGTACCCTCTATAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:10
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Balearica_regulorum.fa
+#    -outfile Anas_platyrhynchos-Balearica_regulorum.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Balearica_regulorum.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Balearica_regulorum
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     890/1038 (85.7%)
+# Similarity:   890/1038 (85.7%)
+# Gaps:           3/1038 ( 0.3%)
+# Score: 3859.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     ||||||||..||||.||||.|..||||||.||||||||.||...||.|||
+Balearica_reg      1 ATGGCAACAACAGACGCTGCTGACTTTTACTATAACTTTTCCATCACTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||.||.|||||||..|||||||||.|||||||||.||...||||||
+Balearica_reg     51 TCCCAACGAGAACGGAAGCGAGAATTTTCACACATTTACAAGAGTCTTTC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.||||.|||.|.|||||.|||.||||||||||||||||..|.
+Balearica_reg    101 TGCCCTGTATGTACTCGCTCGTTTTCATCCTTGGGCTAGCAGGAAACACA    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     |||||||||.|.|||||.||.|||||||||||||||||||..||||||||
+Balearica_reg    151 CTGGTCTTTGTTATACTAGTTTTCTATGAGAAACTGAAGATGCTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||.|||||.|||||||||||||.|||.|||||||||||||||
+Balearica_reg    201 TATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGACGC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||.|||||||.|||||||||||.|||||||||.|||
+Balearica_reg    251 TGCCATTCTGGGCATACTCTGCTGTTCAGGAGTGGACTTTTGGCACCGTG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||.||.|||||||||.|.||.|.|||||||||||||||||||||
+Balearica_reg    301 GCATGTCGTATAATACGGGGCTTATATATTCTGAACTTGTACACTTCAAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     |||||||||||||||||||||.||||||.||||||||.||||||||||||
+Balearica_reg    351 GTTAACTCTAACGTCTATCACTTTTGACCGGCTTATTGCTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |||||||||||||.|||.||||||.|||.|||.|||.|||||||||.|||
+Balearica_reg    401 CCACCAAAGCACACATGTGTCAAAACAAGCGAATGACATGGGGCAAGTTA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.|||||||||||.|||.||..||||.|||||..||||.|||.|
+Balearica_reg    451 ATCTGTGTCTTGATCTGGGCGATCTCGCTAGCTTTTGCTGCACCGCAGTT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|||||||.||||||||||.|||||||.|.||||.|||
+Balearica_reg    501 TATTTTTAGTGAGGTGTTTAATATTGATAAGGCAATATGTCAGGAAGAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||..|||.|..|.||||.||.|||||||||..||.|||.|||||||.
+Balearica_reg    551 ACCCAAGCCATCGTACAGAACTGATTCTTGAAGCGATCCAAATGACCCTG    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||||||||||||.||||||||||.||||||||.||.|||||
+Balearica_reg    601 GGCTATTTTATTCCCATGCTAGCCATGATCATTTGCTACTCACTGATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||.||||||||||||||||||||..||.||||||||||||||||||||||
+Balearica_reg    651 TAGAACCTTACTGCATGCCAGGAGTTTTCAAAAGAACAAATCTCTAAAAA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|||||||||||||||||||||||||||||.|||
+Balearica_reg    701 AAATATTTTCTGTAGTTGCCATATTTATTCTTACTCAGTCACCCTATACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||||||||.||||||||.|||||||||||.||||||.||||||.
+Balearica_reg    751 TTCTTGAGACTGATAAAGATCATAGACTGGAGCTTTAACTTGAACAGCAG    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||...|||||||||||.|||||||||||||..||||
+Balearica_reg    801 CTTTGAATATGCAATCACCATAACAGAAGCTCTTGCTTATTTCCGTGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||||||||||||.||||||||||||||||||||||||||||.|.||||
+Balearica_reg    851 GTCTTAACCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGAAGGAAC    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||.||||||||||||||||.||||||.|||.|.||||..||||||...|.
+Balearica_reg    901 TTTCAGAAAATTATTAAAAACTCAAGATGCATCAAACGCCAAGTTATGGC    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||.|||.||.|.||||||.||.|||||||||||||.|||   .|
+Balearica_reg    951 TAAACAGTTGCAAACTATTGAAGAGGATGGCTCTAAAACTTTTAC---AT    997
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||||||||..||||||||||||||.||.|||
+Balearica_reg    998 CAAATAATGCAGATGCAACAAGCATGTACCCGCTATAA   1035
+
+
+#---------------------------------------
+#---------------------------------------

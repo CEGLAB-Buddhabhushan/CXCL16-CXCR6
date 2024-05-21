@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:11
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Casuarius_casuarius.fa
+#    -outfile Anas_platyrhynchos-Casuarius_casuarius.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Casuarius_casuarius.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Casuarius_casuarius
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     895/1038 (86.2%)
+# Similarity:   895/1038 (86.2%)
+# Gaps:           6/1038 ( 0.6%)
+# Score: 3905.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||.|||||.|||||||||.||.|||   |||||||||||||||||||||
+Casuarius_cas      1 ATGACAACTACAGATGCTGATAACTT---TTATAACTTCTCAGCCATTGA     47
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     |||||||||||..||||.||   |.|||||||||||||.||..|||||||
+Casuarius_cas     48 TCCCAATGAAACTGGAAGTG---ACTTTTACACATTTACAAGAATCTTTC     94
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.|||||||.|..|||||||||||||||||||||||||||.||
+Casuarius_cas     95 TGCCCTGTATGTATTCATGCGTTTTTATCTTTGGGCTAGCAGGAAATACT    144
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     .||||||||||||||||.||.|||||.|||||||||||||||||||||||
+Casuarius_cas    145 TTGGTCTTTATCATACTAGTTTTCTACGAGAAACTGAAGACACTGACAGA    194
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     |.||||||||.|||||.|||||||||||||.|||.||||.||||||||.|
+Casuarius_cas    195 TGTATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTTCTTTGGACCC    244
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.|||||||||||.||||||||||.|||||||||||||
+Casuarius_cas    245 TGCCATTCTGGGCATATTCTGCTGCCCAGGAGTGGACTTTTGGCACTGTG    294
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||.||.||.||||||.||||.|.||||||..|||||||.|||||
+Casuarius_cas    295 GCATGTCGTATTATCCGGGGCTTGTATACTCTGAATGTGTACACGTCAAT    344
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||||||||.|.|||.|||||.||..||||||||.||||||||||||
+Casuarius_cas    345 GTTAACTCTAACCTGTATAACCTTCGATCGGCTTATTGCTATTACTTTTG    394
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     ||||||.||||||.|.|.||||||.|||||||..||.|||||||||||||
+Casuarius_cas    395 CCACCACAGCACACAGGTGTCAAAGCAAACGAACGACATGGGGCAAATTA    444
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     ||||||..|||||||||||||||||||.||||.|||||||||||||||.|
+Casuarius_cas    445 ATCTGCAACTTGATCTGGGTGATTTCACTAGCCTTTGCCACACCACAGTT    494
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|..||||.||||||||||.|||||||.|.||||||||
+Casuarius_cas    495 TATTTTTAGTGAGGCATTTAGTATTGATAAGGCAATATGTCAGGAAAAAT    544
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.|.||.||||||.||||||||.||.||.||||||.|||||
+Casuarius_cas    545 ACCCAAACCATCGCACAGAATTTGTTCTTGAGGTAATCCAAGTGGCCCTT    594
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||.||||||||||||||||.||||||||||||.|||||.||
+Casuarius_cas    595 GGCTATTTTATCCCCATGCTAACCATGACCATCTGCTACTCACTAATCAT    644
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||||||.||||||||||||||||..||.||.|||.||||||||||.||||
+Casuarius_cas    645 TAAAACATTACTGCATGCCAGGAGTTTTCAGAAGTACAAATCTCTGAAAA    694
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     .|||||||||||||||.||||.||||||||||||||||||||||||.|||
+Casuarius_cas    695 CAATATTTTCTGTAGTTGCCACATTTATTCTTACTCAGTCACCCTATACT    744
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||||||||.|||||||..||.||||||||.||||||.||.||||
+Casuarius_cas    745 TTCTTGAGACTGATAAAGATCACAGATTGGAGCTTTAACTTGAACCGCAA    794
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||||.|||||||||||..|||||||||||||.|.||
+Casuarius_cas    795 CTTTGAATATGCAATCGTCATAACAGAAGCTTTTGCTTATTTCCATGCCT    844
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     |.||.||||||||..|||||||||||||.||||||||||||||||||||.
+Casuarius_cas    845 GCCTCAACCCTGTCCTGTATTTCTTCATTGGGGTGAAATTCAGGAAGAAT    894
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||||||||||||||.||||..||||..||..|.|||..|||||||.||||
+Casuarius_cas    895 TTCCAGAAAATTATGAAAAAGTCAAAATGTGTCAAATGGCAAGTTACTGT    944
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     |||||||.||||.|||||||||||.||||||||.|||||||.|||||.||
+Casuarius_cas    945 TAGACAGGGGCAAACCACTGAAGATGAAGGCTCAAAAACTTTTACTGCCT    994
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||||||||..|||||.|||||.||.||.|||
+Casuarius_cas    995 CAAATAATGCAGATGCAACAAGTATGTATCCGCTATAA   1032
+
+
+#---------------------------------------
+#---------------------------------------

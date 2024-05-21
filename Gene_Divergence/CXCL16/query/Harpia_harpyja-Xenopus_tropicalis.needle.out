@@ -1,0 +1,122 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:51:30
+# Commandline: needle
+#    -asequence Harpia_harpyja.fa
+#    -bsequence Xenopus_tropicalis.fa
+#    -outfile Harpia_harpyja-Xenopus_tropicalis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Harpia_harpyja-Xenopus_tropicalis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Harpia_harpyja
+# 2: Xenopus_tropicalis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1056
+# Identity:     442/1056 (41.9%)
+# Similarity:   442/1056 (41.9%)
+# Gaps:         495/1056 (46.9%)
+# Score: 678.5
+# 
+#
+#=======================================
+
+Harpia_harpyj      1 ------------------ATGGGG--CCGGGGCTGCTGCTGCTG-CTGCT     29
+                                       |||.||  ||  |.|||||.||  || |||| 
+Xenopus_tropi      1 ATGAAATTCCCTGCCAGGATGTGGATCC--GACTGCTCCT--TGTCTGC-     45
+
+Harpia_harpyj     30 GCTGCTG-CTG--CCCTGGGGAGCGCTGGGGAATGTGGGGGGCTCGGCAG     76
+                      |||||| |||  |.||                              |||
+Xenopus_tropi     46 -CTGCTGTCTGTTCACT------------------------------CAG     64
+
+Harpia_harpyj     77 GGGCCTGCACCT----GCACCCACCGCTGG-CCTTG------------GA    109
+                     .|||  |||..|    |||   |.|||||| .||||            ||
+Xenopus_tropi     65 TGGC--GCAGTTTGGCGCA---AACGCTGGAGCTTGCTGTTTCGATATGA    109
+
+Harpia_harpyj    110 AGCCC-----CCCCCCG-CTGTGCGCCTGCCCCCCCTGGCCCCCTACGTG    153
+                     |.|||     |||.||| |.| .|||||        ||      |.|..|
+Xenopus_tropi    110 AACCCAGGGACCCGCCGACAG-ACGCCT--------TG------TTCAGG    144
+
+Harpia_harpyj    154 CTG--CGGGCAGATCTCTGCCCCAACCATGTGCGCAGGTTTGTG----CT    197
+                     |||  |..|.|||          ||      |.|.|||.||.||    .|
+Xenopus_tropi    145 CTGTACAAGGAGA----------AA------GTGAAGGGTTTTGAGGAAT    178
+
+Harpia_harpyj    198 GCC-------------------------CCACAAG---CAGATCTGTGGG    219
+                     |||                         |.|||||   .|||  |.||.|
+Xenopus_tropi    179 GCCCACATTATCGAGTTCAATTCAAGTTCGACAAGGGAAAGA--TATGCG    226
+
+Harpia_harpyj    220 CTCCAGGAC---TCGCCGTGGGTCGTGGAGCTG--CTGC-----------    253
+                     ||.||..||   .|||| |||||||.|.|.|||  .|||           
+Xenopus_tropi    227 CTTCAAAACATGACGCC-TGGGTCGAGAAACTGATATGCCATCTCAAAAA    275
+
+Harpia_harpyj    254 ----AGC----TCTGGGAACGCCAAGCAGCTCAGAGACCCCTGG------    289
+                         |||    ||||    .||||||||   |.|.|| ..||||      
+Xenopus_tropi    276 GGATAGCTATTTCTG----TGCCAAGCA---CGGGGA-TTCTGGATCTCG    317
+
+Harpia_harpyj    290 -CTGGA----CCCCTGGCTAC--AGACAG----ACCCCCAGATGGACGCC    328
+                      |.|||    .||..||.|.|  |||.||    |.||.|| ||     ||
+Xenopus_tropi    318 TCCGGATTTTTCCAAGGATTCGAAGAAAGTTCCAACCACA-AT-----CC    361
+
+Harpia_harpyj    329 CGGCTACAGACAGACCCACGGATGGACG--CCCGGCTACAGACAGA--CC    374
+                        ||.|||.|   |||       ||||  .|||||.|.||..|||  ||
+Xenopus_tropi    362 ---CTCCAGCC---CCC-------GACGTAGCCGGCGATAGCAAGAAGCC    398
+
+Harpia_harpyj    375 CACGGATGGACCCCTGGCCAGACCCCCAGCTATGCACGGACCCCCAGATG    424
+                     |.|||  ||.||.|||.|   ||||         .|||..||||.|    
+Xenopus_tropi    399 CCCGG--GGCCCGCTGTC---ACCC---------AACGTGCCCCTA----    430
+
+Harpia_harpyj    425 GACCCCCTGCCAGCCCCC---TGGCC-CCACTGAGTCCCCCAGC--CCCG    468
+                           .|||||.|.|||   .|||| |.||||   ||||.|||  |.||
+Xenopus_tropi    431 ------ATGCCAACACCCAGAAGGCCACAACTG---CCCCAAGCGGCACG    471
+
+Harpia_harpyj    469 GAGGGACCCCCAGCCAGCCCC-ACAGTGAAATGCAGCACCCCCTCAAGCA    517
+                     ||.|          |.||||| |||  |||              ||.|||
+Xenopus_tropi    472 GAAG----------CTGCCCCAACA--GAA--------------CAGGCA    495
+
+Harpia_harpyj    518 GCT---CCC-----CCAC------ACCCC--------ACCCTGCCGTG--    543
+                     |||   |||     |.||      ||.||        ||.|.||||||  
+Xenopus_tropi    496 GCTGTGCCCGGTGACTACCCGGTTACGCCGACTCAATACTCAGCCGTGGC    545
+
+Harpia_harpyj    544 --AGACTGGGTGAGGAGCACGGAGACGAGTCTGGGGGGCAGCTCCTGGGG    591
+                       ||       ||..||.||..||| |||.||             ||.|.
+Xenopus_tropi    546 AAAG-------GAACAGGACAAAGA-GAGGCT-------------TGAGA    574
+
+Harpia_harpyj    592 GTCCC-----------CCAGG---CCTTGCCCCCCACCCCAGCAGGCTGG    627
+                     .||||           |.|||   ||               |.||.||.|
+Xenopus_tropi    575 ATCCCGAAACGATAGACAAGGAAACC---------------GGAGTCTCG    609
+
+Harpia_harpyj    628 --ATCCACCGGGAAGCTGTGGGGC---AGGACCCCCAG-----ATGCCAC    667
+                       |||||  .|.||.|     |||   |..|.||..||     ||     
+Xenopus_tropi    610 TCATCCA--TGAAAAC-----GGCGATAATATCCTTAGTGTTCAT-----    647
+
+Harpia_harpyj    668 CGCCTGCTGTGGGGCCAGCCCCCCTTTCTGTGGGACTGGCCATGGGGGTG    717
+                                    |||    |||||                       
+Xenopus_tropi    648 ---------------CAG----CCTTT-----------------------    655
+
+Harpia_harpyj    718 ATCCTGCTGGGAGCCGGCCTGGGCCTGGTGGGTGTCCTGGCA--TGCTCG    765
+                      ||||  ||          |||.|||.||.|.|.||||  ||  |||..|
+Xenopus_tropi    656 -TCCT--TG----------TGGCCCTCGTCGCTTTCCT--CATCTGCAGG    690
+
+Harpia_harpyj    766 GGGGGGCTG---CCAG-----GGAGCAGGGAGAGGCG-------------    794
+                     .||.||..|   ||||     ||..|| |||||||.|             
+Xenopus_tropi    691 AGGAGGAGGAAACCAGAATCCGGTACA-GGAGAGGAGATAAAGGATCTGA    739
+
+Harpia_harpyj    795 ------AGGGGC--------------CAGGCT-----CCTCA---CCTCT    816
+                           ||||||              |||.||     ||..|   |||.|
+Xenopus_tropi    740 CCCCTAAGGGGCAACAAGAGACAGTACAGACTAACAGCCAAAAATCCTTT    789
+
+Harpia_harpyj    817 GCCTGA    822
+                     ||||.|
+Xenopus_tropi    790 GCCTAA    795
+
+
+#---------------------------------------
+#---------------------------------------

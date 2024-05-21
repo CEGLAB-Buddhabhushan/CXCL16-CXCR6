@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:42:09
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Anolis_carolinensis.fa
+#    -outfile Gallus_gallus-Anolis_carolinensis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Anolis_carolinensis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Anolis_carolinensis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1036
+# Identity:     404/1036 (39.0%)
+# Similarity:   404/1036 (39.0%)
+# Gaps:         494/1036 (47.7%)
+# Score: 721.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGACCACGCTCTTTCCGTGTCTCCCCGTGTCCGTTCCGTGTTTCCCCGC     50
+                                                                       
+Anolis_caroli      0 --------------------------------------------------      0
+
+Gallus_gallus     51 GTTCTTTCCACCTTCCCCCTTTCCCTCCCGTGTCTCCCCACGTGTCCCCG    100
+                                                                       
+Anolis_caroli      0 --------------------------------------------------      0
+
+Gallus_gallus    101 CGTCGCTTCCTCTTCCCCCCCCCCCCCCCCCCTCCCTCCTCGCCGTGGGG    150
+                                                                       
+Anolis_caroli      0 --------------------------------------------------      0
+
+Gallus_gallus    151 CTGCCCCACACGTGGGCGGTGC-----GGCCA-TATAAGCGCCGTGG---    191
+                              |.|.|..|.|.||     |.||| .||     |||..|   
+Anolis_caroli      1 ---------ATGAGTTCAGAGCATCTGGTCCAGGAT-----CCGGAGAAA     36
+
+Gallus_gallus    192 GGG--------GGGGGGGGGGG----GG---GGCACT-------------    213
+                     |||        ||||..||.||    ||   |||.||             
+Anolis_caroli     37 GGGCTTCCAACGGGGAAGGAGGCTCAGGATCGGCCCTTGTCACCCCCCAA     86
+
+Gallus_gallus    214 --GCCATGGCCGTCCC---CACCGC--CACCGTCACCGCTCTGCTGCTGC    256
+                       ||||.||..|||||   .|..||  ||.|.||||.||..|.|||||..
+Anolis_caroli     87 AAGCCAAGGGGGTCCCTGGAAGTGCCTCAGCATCACTGCCTTCCTGCTCT    136
+
+Gallus_gallus    257 TGCTGCTGCCGCCGCCCCACATCCACGCGCTGCC----GTGGGGAGAGGA    302
+                     ||  |||||.|||.||..|| ||..||| ||.||    ||    |..|||
+Anolis_caroli    137 TG--GCTGCAGCCACCGGAC-TCTTCGC-CTTCCTCCAGT----ATGGGA    178
+
+Gallus_gallus    303 CCC--------CACAGCTCCGCTCA---GAACG--ACGTCAAT------T    333
+                     |||        ||.|....|.||||   |||||  |.||||.|      |
+Anolis_caroli    179 CCCTGTTCGGGCAAAAGGACTCTCAGGGGAACGGAAAGTCATTTGCTGAT    228
+
+Gallus_gallus    334 GACCCCC---------CCATGGAGCTGCA------GGTGGCGCGGAGGGA    368
+                     |||..||         |.|||.|.|||||      ||||.|..||     
+Anolis_caroli    229 GACATCCTACCAGAAACAATGAAACTGCAAGCCCTGGTGTCTGGG-----    273
+
+Gallus_gallus    369 CAAACCCGCAGCGCA--------CGTCGTGGCATCGTCCT-CTCAGCCCG    409
+                      |||||.||.||.||        |.||.|.|.|.|.|||| .|||     
+Anolis_caroli    274 -AAACCAGCTGCCCATGCCATTGCTTCCTTGAACCATCCTAATCA-----    317
+
+Gallus_gallus    410 GCTCGTTGGTGTGGGACGACCG-CGTTGCCCCATCCCTGGTCCGTAACGG    458
+                         .|||.|.| ||||||||| .||.||.||.||..||.|       ||
+Anolis_caroli    318 ----ATTGATCT-GGACGACCGATGTGGCACCTTCAGTGCT-------GG    355
+
+Gallus_gallus    459 CG--TGGT-----GCT-GAGAAG-----GAACAAACTGGTGGTCCCC---    492
+                     .|  ||||     ||| ||.|||     ||||...||||||||.|||   
+Anolis_caroli    356 AGAATGGTATGAAGCTGGACAAGGCGGAGAACGCCCTGGTGGTGCCCTCC    405
+
+Gallus_gallus    493 -CGGGACGGCCTTTACTTCGTATACGC-CGCCGCCGCTTTC-CAGGGGGG    539
+                      ||    ||.||.||.||.||.|||.| |..|.||.|||.| ||      
+Anolis_caroli    406 ACG----GGGCTCTATTTTGTCTACTCTCAGCTCCTCTTCCACA------    445
+
+Gallus_gallus    540 GGGGC-GCTGTTTCATCCCCCCCCTGAGGCTGTCGGTCAGCCGCTTCTCC    588
+                     .|||| ||||   ||....||||.||..||      ||||          
+Anolis_caroli    446 AGGGCAGCTG---CACGGACCCCGTGCTGC------TCAG----------    476
+
+Gallus_gallus    589 GAGGAGTACCCCAAAGACGTCCCCCTCCTGACCGCCGTGCGCTCCGTCTG    638
+                               ||||||             ||.|.|...||||    ||||
+Anolis_caroli    477 ----------CCAAAG-------------GATCACTTGGCGC----TCTG    499
+
+Gallus_gallus    639 CCCCGGGGAAGGGGGGAGGGGGGGGAG---------GAGGAGGAG-----    674
+                     |||                      ||         ||||..|||     
+Anolis_caroli    500 CCC----------------------AGTTCAACTCCGAGGTAGAGCTGCT    527
+
+Gallus_gallus    675 GAA------GAGGAGGGGCGGGGGG---GGGGGGGA----------CGGC    705
+                     |||      ||.||..|.|.|.|.|   |||.||||          |   
+Anolis_caroli    528 GAAATCCCTGAAGACCGCCTGTGAGCACGGGAGGGATCCTCCAAACC---    574
+
+Gallus_gallus    706 GGTGGGGGGGGGC-----CGTGGTTCGAGTCGCTGTATCAGGGGGCGGTG    750
+                             .||||     | ||||||||.||..|.|||||||||||.||.
+Anolis_caroli    575 --------AGGGCAAGTTC-TGGTTCGAATCCATTTATCAGGGGGCTGTC    615
+
+Gallus_gallus    751 TTTTTGCTGAGGGGGGGGGACGAGTTGGAGGCGACCACC----------A    790
+                     ||...|||         |.||.|     |||.||||.||          |
+Anolis_caroli    616 TTCAAGCT---------GCACAA-----AGGAGACCGCCTGTGGTCCAAA    651
+
+Gallus_gallus    791 GCACGGCG--------CAGTACCTCGACCT------GCACGGGGGGGGCA    826
+                     .||    |        |||||.||.|||||      |||          |
+Anolis_caroli    652 ACA----GATTCCCTACAGTATCTGGACCTAAGTCAGCA----------A    687
+
+Gallus_gallus    827 GCGC----CTATTTTGGGGTGGTGGGAGTGGATTAA    858
+                     |..|    ||||||||||||..|.|...||   |||
+Anolis_caroli    688 GGACAAATCTATTTTGGGGTCATTGCCATG---TAA    720
+
+
+#---------------------------------------
+#---------------------------------------

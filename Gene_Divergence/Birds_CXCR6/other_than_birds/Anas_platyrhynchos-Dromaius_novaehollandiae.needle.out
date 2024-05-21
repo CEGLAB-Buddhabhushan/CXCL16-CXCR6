@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Dromaius_novaehollandiae.fa
+#    -outfile Anas_platyrhynchos-Dromaius_novaehollandiae.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Dromaius_novaehollandiae.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Dromaius_novaehollandiae
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     897/1038 (86.4%)
+# Similarity:   897/1038 (86.4%)
+# Gaps:           3/1038 ( 0.3%)
+# Score: 3922.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||.|||||.|||||||||.||.|||   ||||||||||||||.||||||
+Dromaius_nova      1 ATGACAACTACAGATGCTGATAACTT---TTATAACTTCTCAGACATTGA     47
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     |||||||||||..||||.|||.||.|||||||||||||.||..|||||||
+Dromaius_nova     48 TCCCAATGAAACTGGAAGTGACAACTTTTACACATTTACAAGAATCTTTC     97
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.|||||||.|..|||||||||||||||||||||||||||.||
+Dromaius_nova     98 TGCCCTGTATGTATTCATGCGTTTTTATCTTTGGGCTAGCAGGAAATACT    147
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     .||||||||||||||||.||.|||||||||||||||||||||||||||||
+Dromaius_nova    148 TTGGTCTTTATCATACTAGTATTCTATGAGAAACTGAAGACACTGACAGA    197
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     |.||||||||.|||||.|||||||||||||.|||.||||.||||||||.|
+Dromaius_nova    198 TGTATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTTCTTTGGACCC    247
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||||||||||||||||||||||.|||||||||||.|
+Dromaius_nova    248 TGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACTGCG    297
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||.||.||.||||||.||||.|.||||||..|||||||.|||||
+Dromaius_nova    298 GCATGTCGTATTATCCGGGGCTTGTATACTCTGAATGTGTACACGTCAAT    347
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||||||||.|.|||.|||||.||..||||||||.||||||||||||
+Dromaius_nova    348 GTTAACTCTAACCTGTATAACCTTCGATCGGCTTATTGCTATTACTTTTG    397
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     ||||||.||||||.|.|.||||||.|||||||.|||.|||||||||||||
+Dromaius_nova    398 CCACCACAGCACACAGGTGTCAAAGCAAACGAATGACATGGGGCAAATTA    447
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     ||||||..|||||||||||||||||||.||||.|||||||||||||||.|
+Dromaius_nova    448 ATCTGCATCTTGATCTGGGTGATTTCACTAGCCTTTGCCACACCACAGTT    497
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|..|||..||||||||||.|||||||.|.||||||||
+Dromaius_nova    498 TATTTTTAGTGAGGCATTTCGTATTGATAAGGCAATATGTCAGGAAAAAT    547
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.|.||.||||||.||||||||.||.||.||||||..||||
+Dromaius_nova    548 ACCCAAACCATCGCACAGAATTTGTTCTTGAGGTAATCCAAGTGGTCCTT    597
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||.||||||||||||||||.||||||||||||.|||||.||
+Dromaius_nova    598 GGCTATTTTATCCCCATGCTAACCATGACCATCTGCTACTCACTAATCAT    647
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||||||.||||||||||||||||..||.||.|||.||||||||||.||||
+Dromaius_nova    648 TAAAACATTACTGCATGCCAGGAGTTTTCAGAAGCACAAATCTCTGAAAA    697
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     .|||||||||||||||.||||.|||.||||||||||||||||||||.|||
+Dromaius_nova    698 CAATATTTTCTGTAGTTGCCACATTCATTCTTACTCAGTCACCCTATACT    747
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||||||||.|||||||..||.||||||||.||||||.||.||||
+Dromaius_nova    748 TTCTTGAGACTGATAAAGATCACAGAGTGGAGCTTTAACTTGAACCGCAA    797
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||||.|||||||||||..|||||||||||||.|.||
+Dromaius_nova    798 CTTTGAATATGCAATCGTCATAACAGAAGCTTTTGCTTATTTCCATGCCT    847
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     |.||.||||||||..|||||||||||||.||||||||||||||||||||.
+Dromaius_nova    848 GCCTCAACCCTGTCCTGTATTTCTTCATTGGGGTGAAATTCAGGAAGAAT    897
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||||||||||||||.||||..||||..|||.|.|||..|||||||.||||
+Dromaius_nova    898 TTCCAGAAAATTATGAAAAAGTCAAAATGCGTCAAATGGCAAGTTACTGT    947
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     |||||||.||||.|||||||||||.||||||||.|||||||.|||||.||
+Dromaius_nova    948 TAGACAGGGGCAAACCACTGAAGATGAAGGCTCAAAAACTTTTACTGCCT    997
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||||||||..|||||||||||.||.||.|||
+Dromaius_nova    998 CAAATAATGCAGATGCAACAAGCATGTATCCGCTATAA   1035
+
+
+#---------------------------------------
+#---------------------------------------

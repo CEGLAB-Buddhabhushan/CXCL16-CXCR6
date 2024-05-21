@@ -1,0 +1,122 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:42:09
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Xenopus_tropicalis.fa
+#    -outfile Gallus_gallus-Xenopus_tropicalis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Xenopus_tropicalis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Xenopus_tropicalis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1090
+# Identity:     337/1090 (30.9%)
+# Similarity:   337/1090 (30.9%)
+# Gaps:         638/1090 (58.5%)
+# Score: 425.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGACCACGCTCTTTCCGTGTCTCCCCGTGTCCGTTCCGTGTTTCCCCGC     50
+                                                                       
+Xenopus_tropi      0 --------------------------------------------------      0
+
+Gallus_gallus     51 GTTCTTTCCACCTTCCCCCTTTCCCTCCCGTGTCTCCCCACGTGTCCCCG    100
+                                                                       
+Xenopus_tropi      0 --------------------------------------------------      0
+
+Gallus_gallus    101 CGTCGCTTCCTCTTCCCCCCCCCCCCCCCCC----------------CTC    134
+                                                                    |||
+Xenopus_tropi      1 -------------------------------ATGAATACTGTAGAGTCTC     19
+
+Gallus_gallus    135 -------------CCTCCT-------------------CGCCGTGGGGCT    152
+                                  .|||||                   .||..|.|||.|
+Xenopus_tropi     20 AGATGGAGAACGGGCTCCTAATTGTAAGGCACGAAAGAAGCAATAGGGAT     69
+
+Gallus_gallus    153 GCCCCACACGTGGGCGGTGCGGCCATATAAGCGCCGTGGGGGGGGGGGGG    202
+                     .|    |||.| ||||.||.|.|..|||     |.|||            
+Xenopus_tropi     70 TC----CACCT-GGCGCTGTGTCAGTAT-----CTGTG------------     97
+
+Gallus_gallus    203 GGGGGGGCACTGCCATGGCCGTCCCCACCG----CCACCGTCACCGCTCT    248
+                                  |||..|.||....||.|    |||||.|  ||.||.|
+Xenopus_tropi     98 -------------CATTCCTGTTATTACTGGGATCCACCAT--CCTCTTT    132
+
+Gallus_gallus    249 GCTGCTGCTGC----TGCTGCCGCCGCCCCACAT----CCACGCGCTGCC    290
+                     ||| |||||||    |             ||.||    |||..|..||||
+Xenopus_tropi    133 GCT-CTGCTGCATTTT-------------CAGATCATCCCAAACTTTGCC    168
+
+Gallus_gallus    291 -----GTGGGGAGAG---GACCCCACA-------GCTCCGCTCAGAACGA    325
+                          | |..|||||   ||..|||.|       |||      |..|.||
+Xenopus_tropi    169 AACAAG-GATGAGAGTAAGATGCCAGAAATATTGGCT------ATCAAGA    211
+
+Gallus_gallus    326 CGTCAATTGACCCCCCCATGGAGCTG---CAGGTGGCGCGGA--------    364
+                     |.|  |||.|         |.|.|||   || ||.|| |.||        
+Xenopus_tropi    212 CTT--ATTTA---------GAATCTGTACCA-GTAGC-CAGAGCCCAAGC    248
+
+Gallus_gallus    365 --------GGGACAAACCCGCAGCGCACGTCGTGGCATCGTCCTCTCAGC    406
+                             |||||||||               |||||             
+Xenopus_tropi    249 AAGAAAAGGGGACAAAC---------------TGGCA-------------    270
+
+Gallus_gallus    407 CCGGCTCGTT-----GGTG-----------------------TGGGACGA    428
+                        ||||.||     ||||                       |||.||.|
+Xenopus_tropi    271 ---GCTCATTTTACAGGTGCTAAAGAAAATGACAAATTAGTTTGGAACAA    317
+
+Gallus_gallus    429 CCGCGTTGCCCCAT----CCCTGGTCCGTAACGGCGTGGTGCTGAG----    470
+                                 ||    |||||.|.|.|      .|..|||||||    
+Xenopus_tropi    318 ------------ATATGACCCTGATTCAT------CTATTGCTGAGAAAA    349
+
+Gallus_gallus    471 -----AAGGA------------------ACAAACTGGTGGTCCCCCGGGA    497
+                          |||||                  |.|||.||||            
+Xenopus_tropi    350 TGCTTAAGGATAACTCCATCGTTATTCCAGAAAATGGT------------    387
+
+Gallus_gallus    498 CGGCCTTTACTTCGTATACGCCGCCGCCGCTTTCCAGGGGGGGGGGCGCT    547
+                         ||.|||||.||.|||.|            |||||           |
+Xenopus_tropi    388 ----CTCTACTTTGTGTACAC------------CCAGG-----------T    410
+
+Gallus_gallus    548 GT--TTCATCCCCCC----CCTGAGGCTGTC----GGTCAGCCGCT----    583
+                     ||  ||||      |    |||||  |||.|    ||  |.||.||    
+Xenopus_tropi    411 GTCCTTCA------CAGGTCCTGA--CTGCCAAAGGG--ATCCTCTACAC    450
+
+Gallus_gallus    584 -TCTCCGA------------------GGAG---TACCCCAAAGACGTCCC    611
+                      ||.||.|                  ||||   |||||.|||.|.|..||
+Xenopus_tropi    451 CTCACCCACACAGTCAACATAAAACCGGAGTCATACCCAAAAAATGATCC    500
+
+Gallus_gallus    612 CCTCCTGACCGCCGTGCGCTCCGTCTGCCCCGGGGAAGGGGGGAGGGGGG    661
+                     ..||||.||..|..||....|.||||              |.||||    
+Xenopus_tropi    501 AATCCTCACTTCTATGAAAACAGTCT--------------GTGAGG----    532
+
+Gallus_gallus    662 GGAGGAGGAGGAGGAAGAGGAGGGGCGGGGGGGGGGGGGACGGCGGTGGG    711
+                                                              .|||.|..|
+Xenopus_tropi    533 -----------------------------------------TGCGTTCAG    541
+
+Gallus_gallus    712 GGGGGGCCGTGGTTCGAGTCGCTGTATCAGGGGGCGGTGTTT----TTG-    756
+                     |....||| |||||..||||..|.|||.|.||||.|.|.|||    ||| 
+Xenopus_tropi    542 GTTCTGCC-TGGTTTCAGTCCATCTATGAAGGGGGGATCTTTAATCTTGA    590
+
+Gallus_gallus    757 -----------------------------------CTGAGGGGGGGGGAC    771
+                                                        ||||         ||
+Xenopus_tropi    591 AAAGGGCTCTGTTATCTCAACTGAAACAGAACATACTGA---------AC    631
+
+Gallus_gallus    772 GAGTTGGAGGCGACCACCAGCACGGCGCAGT-ACCTCGACCTGCACGGGG    820
+                     ...|||..|..||..|  ||.|      ||| |..||.||||        
+Xenopus_tropi    632 TTCTTGATGATGATAA--AGAA------AGTAAAATCTACCT--------    665
+
+Gallus_gallus    821 GGGGCAGCGCCTATTTTGGGGTG--GTGGGAGTGGATTAA    858
+                      |||||  .|||         ||  |||.||         
+Xenopus_tropi    666 -GGGCA--TCCT---------TGCTGTGTGA---------    684
+
+
+#---------------------------------------
+#---------------------------------------

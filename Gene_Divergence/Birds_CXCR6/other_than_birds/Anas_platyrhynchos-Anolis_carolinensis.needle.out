@@ -1,0 +1,126 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:13
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Anolis_carolinensis.fa
+#    -outfile Anas_platyrhynchos-Anolis_carolinensis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Anolis_carolinensis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Anolis_carolinensis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1122
+# Identity:     701/1122 (62.5%)
+# Similarity:   701/1122 (62.5%)
+# Gaps:         168/1122 (15.0%)
+# Score: 1991.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTAT-AACTTCTCAGCCATTG     49
+                     ||||..||||..||||..|      .||||||| ||..|||||||.|...
+Anolis_caroli      1 ATGGAGACTGAGGATGAGG------ATTATTATGAATATCTCAGCAAGAT     44
+
+Anas_platyrhy     50 ATC--------CCAATGAA--AACGGAATTGAGAATTTT--TACACATTT     87
+                     |||        .||| |||  ||||    ||| |||.||  |||| ||||
+Anolis_caroli     45 ATCTGAGCAAGACAA-GAACGAACG----TGA-AATGTTCCTACA-ATTT     87
+
+Anas_platyrhy     88 ATAACTATCTT-----TCTGCCCTGTGTGTATTC-GTT---TGTTTTTAT    128
+                     |..|..|||||     |||||     .||||||| |||   ||    .||
+Anolis_caroli     88 AACAAAATCTTCTTAGTCTGC-----ATGTATTCAGTTACATG----CAT    128
+
+Anas_platyrhy    129 CTTTGGGCTAGCAGGAAATGCTCTGGTCTTTATCATACTGGTCTTCTATG    178
+                     ||||||..||.||||.||||||.||||..|.|||||.|||.|.|||||||
+Anolis_caroli    129 CTTTGGTATATCAGGGAATGCTTTGGTTCTCATCATTCTGATTTTCTATG    178
+
+Anas_platyrhy    179 AGAAACTGAAGACACTGACAGATATATTTTTGTTGAACCTGGCTATAGCT    228
+                     |||||.|||||...||.|..||.||.|||||..|||.|.|||||||.|||
+Anolis_caroli    179 AGAAAGTGAAGGTGCTAAGTGACATCTTTTTAGTGAGCTTGGCTATTGCT    228
+
+Anas_platyrhy    229 GATTGGATCTTCCTTTGGACGCTGCCATTCTGGGCCTATTCTGCTGCTCA    278
+                     ||...|..|||.||.||.||.||||||||||||||.|||...||.||..|
+Anolis_caroli    229 GACCTGTGCTTTCTCTGCACACTGCCATTCTGGGCGTATATGGCAGCAGA    278
+
+Anas_platyrhy    279 GGAGTGGATTTTTGGCACTGTGACATGTCGAATCATACGGGGCCTGTACA    328
+                     .||.|||||.|||..||||.|..|||||..|.||||..|.|||||.||||
+Anolis_caroli    279 CGAATGGATCTTTCACACTTTACCATGTAAACTCATCAGAGGCCTTTACA    328
+
+Anas_platyrhy    329 ATCTGAACTTGTACACTTCAATGTTAACTCTAACGTCTATCACCTTTGAC    378
+                     ...||||..||||....||.|||.|.||.||.||.|..||.||..|.|||
+Anolis_caroli    329 CAATGAATCTGTATGGGTCCATGCTCACCCTTACTTGCATAACGATCGAC    378
+
+Anas_platyrhy    379 AGGCTTATTTCTATTACTTTT------GCCACCAAAGCACATATGAGTCA    422
+                     ||  .||||    ||.||.||      ||.||.|||||.|||.|.||.||
+Anolis_caroli    379 AG--ATATT----TTGCTGTTGTCCAAGCTACTAAAGCTCATGTCAGCCA    422
+
+Anas_platyrhy    423 AACCAAACGACTGAA-ATGGGGCAAATTAATCTGCGGCTTG-------AT    464
+                     |.|||||.|| .||| ||||||.|       .|||.|||||       .|
+Anolis_caroli    423 AGCCAAAAGA-AGAACATGGGGTA-------TTGCAGCTTGCATTTTAGT    464
+
+Anas_platyrhy    465 CTGGGTGATTTCAGTAGCATTTGCCACACCACAGCTTATTTTTAGTGATG    514
+                     .|||||||||||..|.||||||||.|..||.||..||||.|||||     
+Anolis_caroli    465 TTGGGTGATTTCTCTGGCATTTGCTATGCCGCAATTTATATTTAG-----    509
+
+Anas_platyrhy    515 TGTTTACT----ATTGATAAGACAA-----TATGCCTGGAAAAATACC--    553
+                         ||||    .||.|.|.|.|||     ||||.|....||..||.|  
+Anolis_caroli    510 ----TACTGAAGCTTCAAATGGCAAAAAGGTATGTCACTCAAGTTATCCT    555
+
+Anas_platyrhy    554 -CAGACCAC-CACATAGAATTGGTTC-TTGAAGTTATTCAAGTGACCCTT    600
+                      ||||..|| ||||.|.|     ||| .||||||.||.||..||...|||
+Anolis_caroli    556 TCAGAAGACACACACAAA-----TTCACTGAAGTAATACAGATGGTTCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.|.|||..|||||||..|...||||.|..|.|.||||||..|.|||.|
+Anolis_caroli    601 GGATTCTTCTTTCCCATAGTGGTCATGGTTGTTTTCTACTCTATCATTGT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     .||.||.|||.|..|.||.|.|..||||||.||..|||||||..||.|||
+Anolis_caroli    651 GAACACTTTATTCAAAGCAAAGGGCTTCCACAAACACAAATCCTTACAAA    700
+
+Anas_platyrhy    701 AAATATTTTC---TGTAGTGGCCATATTTATTCTTACTCAGTCACCCTAC    747
+                     .|||||||.|   |||.|||||   |||.|||.|.||.|||.|.||.|||
+Anolis_caroli    701 TAATATTTGCGATTGTGGTGGC---ATTCATTTTGACGCAGACCCCTTAC    747
+
+Anas_platyrhy    748 A--CTTTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGAC    795
+                     |  .|||           ||||.||||||    .|.|||     .|||||
+Anolis_caroli    748 AACATTT-----------TGAAAATCATC----CGTGCT-----GTGGAC    777
+
+Anas_platyrhy    796 A------------------GCAACTTTGACTACGCCATCGTTATAACAGA    827
+                     |                  .|||.||.|||||||.|.|.||.|||||.||
+Anolis_caroli    778 AAGCATGTTGCTATGCATTTCAATTTCGACTACGGCTTGGTCATAACCGA    827
+
+Anas_platyrhy    828 AGCCCTTGCTTATTTCCACGGCTGTCTTAACCCTGTTATGTATTTCTTCA    877
+                     |||..|||||||||||||.||.||||||||.|||.||.|.||||||||.|
+Anolis_caroli    828 AGCAATTGCTTATTTCCATGGTTGTCTTAATCCTATTCTCTATTTCTTTA    877
+
+Anas_platyrhy    878 TGGGGGTGAAATTCAGGAAGAACTT-CCAGAAAATTATTAAAAGCTCAA-    925
+                     |.||.|||||.||..|||||||||| .|| |||||..||||||    || 
+Anolis_caroli    878 TTGGTGTGAAGTTTCGGAAGAACTTGGCA-AAAATCCTTAAAA----AAT    922
+
+Anas_platyrhy    926 ---GGTGCTTTAAACAGCAAGTTGC-TGTTAGA---CAGTGGCACACCAC    968
+                        |.|||.|||||||.|||    | |.|.|.|   ||..|.||.||.||
+Anolis_caroli    923 TTGGATGCATTAAACACCAA----CATATCACAAAGCAAGGACAAACAAC    968
+
+Anas_platyrhy    969 TGAAGACGAAGGCTCTAAAACTTATACTGTCTCAAATAATGCA--GATGT   1016
+                     ||||||.||...|||.|||||.|..||||.|.||.||||  ||  ||.|.
+Anolis_caroli    969 TGAAGAGGATATCTCAAAAACCTGCACTGACACACATAA--CATGGAGGA   1016
+
+Anas_platyrhy   1017 GACAAGCATGTACCCTCTGTAA   1038
+                     .|||||||||||.||..|||||
+Anolis_caroli   1017 AACAAGCATGTATCCATTGTAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

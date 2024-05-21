@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Egretta_garzetta.fa
+#    -outfile Anas_platyrhynchos-Egretta_garzetta.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Egretta_garzetta.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Egretta_garzetta
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1041
+# Identity:     909/1041 (87.3%)
+# Similarity:   909/1041 (87.3%)
+# Gaps:           6/1041 ( 0.6%)
+# Score: 4019.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCAT---     47
+                     |||||||||.|||||||||.||.|||||||||||||||||   ||||   
+Egretta_garze      1 ATGGCAACTACAGATGCTGCTAACTTTTATTATAACTTCT---CCATTAA     47
+
+Anas_platyrhy     48 TGATCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCT     97
+                     |||.||||.||||||.||||..|||||||||.|||||||||.||...|||
+Egretta_garze     48 TGACCCCAGTGAAAATGGAAGCGAGAATTTTCACACATTTACAAGAGTCT     97
+
+Anas_platyrhy     98 TTCTGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAAT    147
+                     |.|||||||||.||||.|||.|||||||.|||.||||||||||||||||.
+Egretta_garze     98 TCCTGCCCTGTATGTACTCGGTTGTTTTCATCCTTGGGCTAGCAGGAAAC    147
+
+Anas_platyrhy    148 GCTCTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGAC    197
+                     ||.|||||||||.|||||||.||.||||||||.|||||||||||.|||||
+Egretta_garze    148 GCGCTGGTCTTTGTCATACTAGTTTTCTATGAAAAACTGAAGACGCTGAC    197
+
+Anas_platyrhy    198 AGATATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGA    247
+                     |||||||||||||.|||||.|||||||||||||.|||.||||||||||||
+Egretta_garze    198 AGATATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGA    247
+
+Anas_platyrhy    248 CGCTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACT    297
+                     |.||||||||||||||..|||||||||||||||||||||.|||||||||.
+Egretta_garze    248 CACTGCCATTCTGGGCACATTCTGCTGCTCAGGAGTGGACTTTTGGCACC    297
+
+Anas_platyrhy    298 GTGACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTC    347
+                     .||.|.|||||.||.|||||||||.|.||.|.||||||||||||||||||
+Egretta_garze    298 ATGGCGTGTCGCATTATACGGGGCTTTTATACTCTGAACTTGTACACTTC    347
+
+Anas_platyrhy    348 AATGTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTT    397
+                     ||||||||||||.||.|||||||||||||||.||||||||.|||||||||
+Egretta_garze    348 AATGTTAACTCTGACATCTATCACCTTTGACCGGCTTATTGCTATTACTT    397
+
+Anas_platyrhy    398 TTGCCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAA    447
+                     |||||||||||||||.||||.||||||||||||||.|||.||||||||||
+Egretta_garze    398 TTGCCACCAAAGCACGTATGTGTCAAACCAAACGAATGACATGGGGCAAA    447
+
+Anas_platyrhy    448 TTAATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACA    497
+                     ||||||||.|..||||||||||||||.|||.||||||||||..||||.||
+Egretta_garze    448 TTAATCTGTGTTTTGATCTGGGTGATCTCATTAGCATTTGCTGCACCGCA    497
+
+Anas_platyrhy    498 GCTTATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAA    547
+                     |.|||||||||||||.|||||||.||||||||||..||||||.|.||||.
+Egretta_garze    498 GTTTATTTTTAGTGAGGTGTTTAATATTGATAAGGTAATATGTCAGGAAG    547
+
+Anas_platyrhy    548 AATACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACC    597
+                     ||||||||.|||||||||.||||.|||||||||||||.||||||||||||
+Egretta_garze    548 AATACCCAAACCACCACACAGAACTGGTTCTTGAAGTGATTCAAGTGACC    597
+
+Anas_platyrhy    598 CTTGGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAAT    647
+                     |||||.||.||||||||||..|||.||||||||||||||||.||.|||||
+Egretta_garze    598 CTTGGCTATTTTATTCCCACACTAGCCATGATCATCTGCTATTCGCTAAT    647
+
+Anas_platyrhy    648 TATTAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAA    697
+                     |||||.||||||||||||.||||.||..||.|||||||||||||||||||
+Egretta_garze    648 TATTAGAACCTTACTGCACGCCAAGAGTTTTCAAAAGAACAAATCTCTAA    697
+
+Anas_platyrhy    698 AAAAAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTAC    747
+                     |||||||||||||||||||.|||||||||||||||||||||||||||||.
+Egretta_garze    698 AAAAAATATTTTCTGTAGTTGCCATATTTATTCTTACTCAGTCACCCTAT    747
+
+Anas_platyrhy    748 ACTTTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAG    797
+                     |||||||||||||||||.||||||||.||.||||.|||.||||||.||||
+Egretta_garze    748 ACTTTCTTGAGACTGATCAAGATCATAGATTGGACCTTTAACTTGAACAG    797
+
+Anas_platyrhy    798 CAACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACG    847
+                     ||.||||||.||.||.|||.|..||||||||||.||||||||||||||.|
+Egretta_garze    798 CAGCTTTGAATATGCAATCATCGTAACAGAAGCTCTTGCTTATTTCCATG    847
+
+Anas_platyrhy    848 GCTGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAG    897
+                     ||||.||||||||||||.||||.|||||||||||||..||||||||||.|
+Egretta_garze    848 GCTGCCTTAACCCTGTTCTGTACTTCTTCATGGGGGCAAAATTCAGGAGG    897
+
+Anas_platyrhy    898 AACTTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGC    947
+                     |||||.||||||||||||||||.||||||.|||.|.||||.|||||||.|
+Egretta_garze    898 AACTTACAGAAAATTATTAAAAACTCAAGATGCATCAAACGGCAAGTTAC    947
+
+Anas_platyrhy    948 TGTTAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTG    997
+                     .|.||.|||||||||.|||||||||||.||||||||||||||||.|||||
+Egretta_garze    948 GGCTAAACAGTGGCAAACCACTGAAGAGGAAGGCTCTAAAACTTTTACTG    997
+
+Anas_platyrhy    998 TCTCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     .|||||||||||||||||..||||||||||||||.||.|||
+Egretta_garze    998 CCTCAAATAATGCAGATGCAACAAGCATGTACCCACTATAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

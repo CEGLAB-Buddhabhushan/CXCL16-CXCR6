@@ -1,0 +1,94 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Anser_cygnoides.fa
+#    -outfile Gallus_gallus-Anser_cygnoides.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Anser_cygnoides.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Anser_cygnoides
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 741
+# Identity:     456/741 (61.5%)
+# Similarity:   456/741 (61.5%)
+# Gaps:         183/741 (24.7%)
+# Score: 1486.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGAG------------------GCGCTGTGGGGCTCAGCCTTCCTGAT     32
+                     ||||||                  ||||||||||||...|||.|.|||..
+Anser_cygnoid      1 ATGGAGGCGCCCTGCCCCCCCGGCGCGCTGTGGGGCCTGGCCCTGCTGCC     50
+
+Gallus_gallus     33 GGCGGCGCTGCTGCTGACCGCCGCCCTCTGCGTCCGCTGCCACCGCCAGC     82
+                     ..|.||.|||||||||   |||||||||||||.||||||||.|||||   
+Anser_cygnoid     51 CCCCGCCCTGCTGCTG---GCCGCCCTCTGCGCCCGCTGCCGCCGCC---     94
+
+Gallus_gallus     83 GCAGTCCCGGTGCTCCGCTGTACGACAGAG-ACAAGCCGATGTCGGAACC    131
+                        |||.|...||.|.|.|..||||| ||| .||||||          ||
+Anser_cygnoid     95 ---GTCACAACGCGCAGATCGACGAC-GAGTGCAAGCC----------CC    130
+
+Gallus_gallus    132 GCC-------GCCTCA----CAGCTTC---CAGATCCTCCCCGTC--GTG    165
+                     .||       ||| ||    |||.|||   ..||||..||||.||  .||
+Anser_cygnoid    131 CCCAGCCCGTGCC-CAGCAGCAGTTTCGTGGTGATCGCCCCCTTCCGATG    179
+
+Gallus_gallus    166 CGCCACCCTCAGAGCGCCCCCCCCCCA--CCCCGCGGAGCGGCGCCGGAG    213
+                     |.||.|||.|   ||||||||||..||  .|||||    |.|||..||||
+Anser_cygnoid    180 CTCCTCCCAC---GCGCCCCCCCAGCAGCGCCCGC----CCGCGGTGGAG    222
+
+Gallus_gallus    214 ATGATCCTCAACCCGAACCCCAATCTGCACAACCCCAACATCCACCT-CT    262
+                                 |||                           ||||| |.
+Anser_cygnoid    223 ------------CCG---------------------------CACCTGCC    233
+
+Gallus_gallus    263 CCTGGGGGACGCGCGGACACGGAGACGCGGGGTCCCCGCAGACCTCCCAG    312
+                     |||                         |..||||||||||.||.|||||
+Anser_cygnoid    234 CCT-------------------------GCCGTCCCCGCAGCCCCCCCAG    258
+
+Gallus_gallus    313 CAACGCCGCATCTCCGCCACCCGCCCGGAGCCGGAGAGAGGGTCCCCAAC    362
+                     ||.||||||.||||||||.|||||||.||||||  ||..|||.|||||  
+Anser_cygnoid    259 CAGCGCCGCGTCTCCGCCGCCCGCCCCGAGCCG--GACCGGGCCCCCA--    304
+
+Gallus_gallus    363 GTGCG-CCCCCGAGAGCGAGGACGACTACAGCAATGAGGTCTACGCCTCC    411
+                        || ||||||.|..|||.|||||.||||||||.|||.||||||||.||
+Anser_cygnoid    305 ---CGCCCCCCGCGCCCGATGACGATTACAGCAACGAGCTCTACGCCACC    351
+
+Gallus_gallus    412 GGATATGTGAAGGTTCTCCCGGACGCTGAGGACGCGGCGCAGCGCAGCAA    461
+                     ||.||.||..||||.|||||||||.|..||||.|.|||||.|.|      
+Anser_cygnoid    352 GGCTACGTCGAGGTGCTCCCGGACCCCCAGGAGGAGGCGCGGGG------    395
+
+Gallus_gallus    462 CGGC-ACCGCCACGGC--------CGACACCGCAGC---ACACGCCACCC    499
+                     |||| .||.|||.|||        ||||.|.||.||   .||.|      
+Anser_cygnoid    396 CGGCTCCCCCCAGGGCAGGGACAGCGACTCGGCGGCGAGGCAGG------    439
+
+Gallus_gallus    500 CCCCCGAGCAATATGAGAACGTCCCCGATGTCTCCCGCCACTCCCTGGGT    549
+                        .||||.|.||.||||||||||||||.|.||||||.|.||||||||..
+Anser_cygnoid    440 ---GCGAGGAGTACGAGAACGTCCCCGACGGCTCCCGGCGCTCCCTGGAC    486
+
+Gallus_gallus    550 GACAGCCTGGAGTACATCAACGTCCCCACGGTGACG--CCCAGCCCTGCA    597
+                     |||||||||||||||||||||||||||.||  |.||  .||||||||||.
+Anser_cygnoid    487 GACAGCCTGGAGTACATCAACGTCCCCGCG--GCCGGATCCAGCCCTGCC    534
+
+Gallus_gallus    598 TCCCGCTACGGCAGCGACCGCGACAGCGACGCCGACGGCCCCGACTACGA    647
+                     ||||||||||.||||||||||||.|||||.|..|||||||||||||||||
+Anser_cygnoid    535 TCCCGCTACGCCAGCGACCGCGAGAGCGAGGGGGACGGCCCCGACTACGA    584
+
+Gallus_gallus    648 GAACGTGACCCCCCCA----CGCCCCCCAGGACCCCCATAA    684
+                     |||||||     .|||    |.|||||||     |||.|||
+Anser_cygnoid    585 GAACGTG-----GCCAGGACCTCCCCCCA-----CCCTTAA    615
+
+
+#---------------------------------------
+#---------------------------------------

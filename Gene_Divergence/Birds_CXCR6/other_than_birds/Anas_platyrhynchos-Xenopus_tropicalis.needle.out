@@ -1,0 +1,126 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:16
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Xenopus_tropicalis.fa
+#    -outfile Anas_platyrhynchos-Xenopus_tropicalis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Xenopus_tropicalis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Xenopus_tropicalis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1140
+# Identity:     640/1140 (56.1%)
+# Similarity:   640/1140 (56.1%)
+# Gaps:         240/1140 (21.1%)
+# Score: 1498.5
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAAC--TGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATT     48
+                     |||  |||  |.| ||||     |||          |||     |.|||.
+Xenopus_tropi      1 ATG--AACAATAC-GATG-----ACC----------ACT-----GGCATC     27
+
+Anas_platyrhy     49 GATCCCAATGAAAACGGAATTGAGAATTTTTACACA--TTTATA------     90
+                     |||   .||||..|||.|...||.||    .||.||  ||.|||      
+Xenopus_tropi     28 GAT---TATGATGACGTACCCGATAA----CACCCATGTTGATATGCTGC     70
+
+Anas_platyrhy     91 ---ACTATCTTTCTGCCCTGTGTGTATTCGTTTGT---TTTTATCTTTGG    134
+                        |.|| ||||.||||...|.|||||||   |||   .|..||...|||
+Xenopus_tropi     71 GGCATTA-CTTTTTGCCAATTCTGTATTC---TGTCACCTGCATTACTGG    116
+
+Anas_platyrhy    135 GCTAGCAGGAAATGCTCTGGTCTTTATCATACT-GGTCTTCTATGAGAAA    183
+                     .||.|..||.|||...||..|..||||||| || .|.|||||||||||||
+Xenopus_tropi    117 ACTGGTTGGCAATTTACTCATTATTATCAT-CTATGCCTTCTATGAGAAA    165
+
+Anas_platyrhy    184 CTGAAGACACTGACAGATATATTTTTGTTGAACCTGGCTATAGCTGATTG    233
+                     .||||.||.|||||.||.|..||..||.|.||..|.||.||.||.|||..
+Xenopus_tropi    166 ATGAAAACTCTGACCGACACCTTCATGGTAAATTTAGCGATGGCGGATAT    215
+
+Anas_platyrhy    234 GATCTTCCTTTGGACGCTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGT    283
+                     ..||||.||.||.|||.|.||||||..|||.|||...||.|||.|.|..|
+Xenopus_tropi    216 ACTCTTTCTCTGCACGTTACCATTCCTGGCATATCAAGCAGCTGAAGGCT    265
+
+Anas_platyrhy    284 GGATTTTTGGC--ACTGTGACATGTCG---AATCATACGGGGCCTGTACA    328
+                     ||||.||.|||  |||    ||||| |   ||||||.|||||...|||||
+Xenopus_tropi    266 GGATCTTCGGCAAACT----CATGT-GTAAAATCATCCGGGGAGGGTACA    310
+
+Anas_platyrhy    329 ATCTGAACTTGTACACTTCAATGTTAACTCTAACGTCTATCACCTTTGAC    378
+                     ...|.||||||||||.|||.|||.|.|.|||.||.|..|||||.||||||
+Xenopus_tropi    311 GAATAAACTTGTACAGTTCCATGCTCATTCTCACTTGCATCACTTTTGAC    360
+
+Anas_platyrhy    379 AGGCTTATTTCTATTACTTTTGCCACCAAAGCACATAT----GAGTCAAA    424
+                     |||.|||||||.||.||....||.|..|||..|.|.||    .|.|||||
+Xenopus_tropi    361 AGGTTTATTTCCATAACACAGGCTAAAAAATTAAAAATATCCCATTCAAA    410
+
+Anas_platyrhy    425 CCAAACGACTGAAA------TGGGGCAAATTAATCTGCGGCTTGAT---C    465
+                               ||||      |||||.||||||.||||.|   ||||   .
+Xenopus_tropi    411 ----------GAAACATAGGTGGGGAAAATTAGTCTGTG---TGATTGCA    447
+
+Anas_platyrhy    466 TGGGTGATTTCAGTAGCATTTGCCACACCACAGCTTATTTTTAGTG--AT    513
+                     ||||...|||||.|...|.||||....||.||..||||.|||||||  | 
+Xenopus_tropi    448 TGGGCAGTTTCACTGATACTTGCAGTGCCGCAATTTATGTTTAGTGGAA-    496
+
+Anas_platyrhy    514 GTGTTTACTATTGATAAGA--CAATATGCCTGGAAAAATACCCAGACCAC    561
+                                 ||.||||  |.|.||||.|.||||..||.||.||  |.
+Xenopus_tropi    497 ------------GAGAAGAGCCTAAATGCTTTGAAATTTATCCGGA--AG    532
+
+Anas_platyrhy    562 CACATAGAATTGGTTCT-----TGA-AGTTA------TTCAAGTGACCCT    599
+                     ..|||| |||   .|||     ||| |||||      |||||.|.||..|
+Xenopus_tropi    533 GGCATA-AAT---ATCTAAATCTGATAGTTAACTCATTTCAAATTACTGT    578
+
+Anas_platyrhy    600 TGGTTACTTTAT-TCCCAT--GCTAACCATGATCATCTGCTACTCCCTAA    646
+                     |||||  |||.| |.||||  || |.|.|||||..|.||.|||.|..|.|
+Xenopus_tropi    579 TGGTT--TTTTTGTGCCATTAGC-AGCAATGATTTTTTGTTACACTTTCA    625
+
+Anas_platyrhy    647 TTATTAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTA    696
+                     |.||.|||||.||..|...|.|.||.||.||.||.||..|.||.||..||
+Xenopus_tropi    626 TAATAAAAACATTGATCTTTTCTAGCAATTTTCAGAAACATAAGTCATTA    675
+
+Anas_platyrhy    697 AAAAAAATATTTTCT-GTAGTGGCCAT---ATTTATTCTTACTCAGTCAC    742
+                     ||||..|| |||||| ||.|||   ||   |||||||.|.||||||..||
+Xenopus_tropi    676 AAAATCAT-TTTTCTAGTTGTG---ATAGCATTTATTGTAACTCAGCTAC    721
+
+Anas_platyrhy    743 CCTACA------CTTTCTTGAGACTGATG--------AAGATCATCGACT    778
+                     ||||||      ||.|.||..|  |.|||        ||.|.|||     
+Xenopus_tropi    722 CCTACAACATAGCTATTTTATG--TCATGTTTTATACAAAACCAT-----    764
+
+Anas_platyrhy    779 GGAGCTTCAACTTGGACAGCAACTTTGACTACGCCATCGTTATAACAGAA    828
+                       |..|.|||          ||.|||          |.||.|||||.|||
+Xenopus_tropi    765 --AAATGCAA----------AAGTTT----------TGGTCATAACGGAA    792
+
+Anas_platyrhy    829 GCCCTTGCTTATTTCCACGGCTGTCTTAACCC--TGTTATGTATTTCTTC    876
+                     ||..|.||.||..|.||.|..||..|.|||||  |.|||  |||||.||.
+Xenopus_tropi    793 GCTATAGCATACCTGCATGCATGCATAAACCCGATCTTA--TATTTTTTT    840
+
+Anas_platyrhy    877 ATGGGGGTGAAATTCAGGAAGAACTTCCAGAAAATTATTAAAAGCTCAAG    926
+                     .|.||..|.||.||.||.||.||||||...|||||..|           |
+Xenopus_tropi    841 GTTGGCATAAAGTTTAGAAAAAACTTCTGTAAAATACT-----------G    879
+
+Anas_platyrhy    927 GTGCTTT-----------AAACAGCAAGTT----GCTGTTAGACAGTGGC    961
+                     |||..||           ||||  |||.||    .||.|..||.|.|   
+Xenopus_tropi    880 GTGGATTTACATTTGGCCAAAC--CAAATTTGGAACTATCTGATAAT---    924
+
+Anas_platyrhy    962 ACACCACTGAAGACGA-------AGGCTCTAAAACTTATACTGTCTCAAA   1004
+                           ||||||||.|       ||..||||.||.|..|.|||.||..||
+Xenopus_tropi    925 ------CTGAAGACTACAGACAGAGATTCTAGAAGTATTTCTGCCTTTAA    968
+
+Anas_platyrhy   1005 TAATGCAGATGTGACAAGC------ATGTACCCTCTGTAA   1038
+                     .|||.||||      ||.|      |||.|||...|||||
+Xenopus_tropi    969 CAATACAGA------AACCATTACTATGCACCAGTTGTAA   1002
+
+
+#---------------------------------------
+#---------------------------------------

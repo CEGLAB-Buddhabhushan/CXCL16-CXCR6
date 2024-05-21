@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:16
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Tyto_alba.fa
+#    -outfile Anas_platyrhynchos-Tyto_alba.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Tyto_alba.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Tyto_alba
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     918/1038 (88.4%)
+# Similarity:   918/1038 (88.4%)
+# Gaps:           0/1038 ( 0.0%)
+# Score: 4110.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||||||.|.||||.||||..|.||||||||||||||||||...||||||
+Tyto_alba          1 ATGGCAAATACAGACGCTGCCAACTTTTATTATAACTTCTCCATCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||||||||.||||.||||||||||.|||||||||.|||.|||||.|
+Tyto_alba         51 TCCCAATGAAAATGGAAGTGAGAATTTTCACACATTTACAACAATCTTCC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     |||||||..||||.|||..||||||.|||.|||||||||||||||||||.
+Tyto_alba        101 TGCCCTGCATGTACTCGGCTGTTTTCATCCTTGGGCTAGCAGGAAATGCC    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     |||||||||.|||||||.||.|||||||||||||||||||..||||||||
+Tyto_alba        151 CTGGTCTTTGTCATACTAGTTTTCTATGAGAAACTGAAGATGCTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||.|||||.|||||||||||||.|||.|||||||||||||||
+Tyto_alba        201 TATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGACGC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||||||||.|||||||||||||.|||||||||.|||
+Tyto_alba        251 TGCCATTCTGGGCATATTCTGCAGCTCAGGAGTGGACTTTTGGCACCGTG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||.||.|||||||||.||||.|.|||||||||||||||||||||
+Tyto_alba        301 GCATGTCGTATTATACGGGGCTTGTATACTCTGAACTTGTACACTTCAAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||||||||.||||||||||||||..||||||||.||||||||||||
+Tyto_alba        351 GTTAACTCTAACATCTATCACCTTTGATCGGCTTATTGCTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |||||||||||||||||.||||||||||||||.|||.|||||||||||||
+Tyto_alba        401 CCACCAAAGCACATATGTGTCAAACCAAACGAATGATATGGGGCAAATTA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.||||||||||||.||.|||.||||||||||||||||.|||.|
+Tyto_alba        451 ATCTGTGTCTTGATCTGGGTTATATCACTAGCATTTGCCACACCGCAGTT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|||||||.||||||||||.|||||||.|.||||.|||
+Tyto_alba        501 TATTTTTAGTGAGGTGTTTAGTATTGATAAGGCAATATGTCAGGAAGAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     ||.||.||||.||||.||||.|||||||||||||.||.||||||||||||
+Tyto_alba        551 ACTCAAACCATCACACAGAACTGGTTCTTGAAGTGATCCAAGTGACCCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||||||||||||.|||||||||||||||||||..|||||||
+Tyto_alba        601 GGCTATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCATTAATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||.||||||||||||||||||||..||.|||||||||||||||||.||||
+Tyto_alba        651 TAGAACCTTACTGCATGCCAGGAGTTTTCAAAAGAACAAATCTCTGAAAA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|..||||||||||||||||||||||||||.|||
+Tyto_alba        701 AAATATTTTCTGTAGTTGTTATATTTATTCTTACTCAGTCACCCTATACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     |||||||||||.||.||||||||.|||||||||||.||||||.||||||.
+Tyto_alba        751 TTCTTGAGACTAATAAAGATCATAGACTGGAGCTTTAACTTGAACAGCAG    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.|||||.|||.||.||||||||||.||.|||||||||||.||||
+Tyto_alba        801 CTTTGAATACGCAATCATTGTAACAGAAGCTCTAGCTTATTTCCATGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||||||||||||.||||||||||||||||||||||||||||||.||||
+Tyto_alba        851 GTCTTAACCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGGAAC    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||.||||||||.|||||||.||||||.|||.|.||||.|||||||||.|.
+Tyto_alba        901 TTACAGAAAATAATTAAAAACTCAAGATGCATCAAACGGCAAGTTGCAGC    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.||..|||||.|||||.|||||.||||||||||||||||.|.|||.||
+Tyto_alba        951 TAAACCATGGCAAACCACCGAAGAGGAAGGCTCTAAAACTTTTTCTGCCT   1000
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||||||||..||||||||||||||.||.|||
+Tyto_alba       1001 CAAATAATGCAGATGCAACAAGCATGTACCCGCTATAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

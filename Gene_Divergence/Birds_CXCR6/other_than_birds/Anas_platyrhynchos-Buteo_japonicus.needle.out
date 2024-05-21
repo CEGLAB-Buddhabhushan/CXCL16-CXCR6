@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Buteo_japonicus.fa
+#    -outfile Anas_platyrhynchos-Buteo_japonicus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Buteo_japonicus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Buteo_japonicus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     916/1038 (88.2%)
+# Similarity:   916/1038 (88.2%)
+# Gaps:           0/1038 ( 0.0%)
+# Score: 4092.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||||||||.|||||.|||..|.||||||||||||||||||...||||||
+Buteo_japonic      1 ATGGCAACTACAGATACTGCCAACTTTTATTATAACTTCTCCATCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||.|||||.||||.||||||||||.|||||||||.||...||||.|
+Buteo_japonic     51 TCCCAACGAAAATGGAAGTGAGAATTTTCACACATTTACAAGAGTCTTCC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.||||||||..||||||.|||.|||||||||||||||||||.
+Buteo_japonic    101 TGCCCTGTATGTATTCGGCTGTTTTCATCCTTGGGCTAGCAGGAAATGCA    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     ||.||||||.|.|||||.|..|||||||||||||.|||||..||||||||
+Buteo_japonic    151 CTTGTCTTTGTAATACTAGCTTTCTATGAGAAACAGAAGATGCTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||.|||||.|||||||||||||.|||.|||||||||||||||
+Buteo_japonic    201 TATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGACGC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||||||||||||||||||||||.|||||||||.|||
+Buteo_japonic    251 TGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACCGTG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||.||.|||||.|||.||||.|.|||||||||||||||||||||
+Buteo_japonic    301 GCATGTCGTATTATACGAGGCTTGTATACTCTGAACTTGTACACTTCAAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     |.||||||||||||||||||||||||||.||||||||.||||||||||||
+Buteo_japonic    351 GCTAACTCTAACGTCTATCACCTTTGACCGGCTTATTGCTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |.||||||||||.||||.||||||||||||||.|||.|||||||||||||
+Buteo_japonic    401 CGACCAAAGCACGTATGTGTCAAACCAAACGAATGACATGGGGCAAATTA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.|||||||||||||||.|||.||||||||||..||||||||.|
+Buteo_japonic    451 ATCTGTGTCTTGATCTGGGTGATCTCACTAGCATTTGCTGCACCACAGTT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|||||||.||||||||||||||||||||.||||.|||
+Buteo_japonic    501 TATTTTTAGTGAGGTGTTTAGTATTGATAAGACAATATGCCAGGAAGAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.||||..|||.|||||||||||||.||.||||||||||||
+Buteo_japonic    551 ACCCAAACCATCACACCGAAATGGTTCTTGAAGTGATCCAAGTGACCCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||||||||||||.|||||||||||||||||||.||||||||
+Buteo_japonic    601 GGCTATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCACTAATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     |||||||||||||||||||||||..||.||||||||||||||||||||.|
+Buteo_japonic    651 TAAAACCTTACTGCATGCCAGGAGTTTTCAAAAGAACAAATCTCTAAAGA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|||||||||||||||||||||||||||||||||
+Buteo_japonic    701 AAATATTTTCTGTAGTTGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||||||||.||||||||.|||||||||||.|||.||.||||||.
+Buteo_japonic    751 TTCTTGAGACTGATAAAGATCATAGACTGGAGCTTTAACCTGAACAGCAG    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.|||||||||||||.|||||||||||||||.|||
+Buteo_japonic    801 CTTTGAATATGCAATCATTATAACAGAAGCTCTTGCTTATTTCCACAGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     |||||||.||||||.||||||||||||||||||||||||||||||..|||
+Buteo_japonic    851 GTCTTAATCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGAAAC    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||.||||||||||||||||..|||||.|||.|.||||.|||||||...|.
+Buteo_japonic    901 TTACAGAAAATTATTAAAAATTCAAGATGCGTCAAACGGCAAGTTATGGC    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||.|||||||||||....|||||||||||||.|||||.||
+Buteo_japonic    951 TAAACAGTGGCAAACCACTGAAGAATGCGGCTCTAAAACTTTTACTGCCT   1000
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |.|||||||||||||..|||||||||||||..||.|||
+Buteo_japonic   1001 CCAATAATGCAGATGCAACAAGCATGTACCAGCTATAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

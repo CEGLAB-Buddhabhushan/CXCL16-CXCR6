@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:11
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Cariama_cristata.fa
+#    -outfile Anas_platyrhynchos-Cariama_cristata.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Cariama_cristata.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Cariama_cristata
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     915/1038 (88.2%)
+# Similarity:   915/1038 (88.2%)
+# Gaps:           6/1038 ( 0.6%)
+# Score: 4094.5
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||||||||.|||||.|||.||.|||.||||||||||||||      |||
+Cariama_crist      1 ATGGCAACTACAGATACTGCTAACTTCTATTATAACTTCTC------TGA     44
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||.||||||||||.||||||||||.||||.||||.||...||||.|
+Cariama_crist     45 TCCCAACGAAAACGGAAGTGAGAATTTTCACACGTTTACAAGAGTCTTCC     94
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.||||||||..||||||.|||.||||||||||||||||||..
+Cariama_crist     95 TGCCCTGTATGTATTCGGCTGTTTTCATCCTTGGGCTAGCAGGAAATGTG    144
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     |||||||||.|||||||.||.|||||||||||||||||||..||||||||
+Cariama_crist    145 CTGGTCTTTGTCATACTAGTTTTCTATGAGAAACTGAAGATGCTGACAGA    194
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||.|||||.|||||||||||||.|||.|||||||||||||||
+Cariama_crist    195 TATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGACGC    244
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||||||||||||||.|||||||.||||||||...||
+Cariama_crist    245 TGCCATTCTGGGCATATTCTGCTGCTCAAGAGTGGACTTTTGGCATCATG    294
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .||||||..||.|||||||||.||||.|.|||||||||||||||||||||
+Cariama_crist    295 GCATGTCATATTATACGGGGCTTGTATACTCTGAACTTGTACACTTCAAT    344
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||||||||.|||||||||||||||.||||||||.||||||||||||
+Cariama_crist    345 GTTAACTCTAACATCTATCACCTTTGACCGGCTTATTGCTATTACTTTTG    394
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |.|||||||||||||||.||||||||||||||.|||.|||||||||||||
+Cariama_crist    395 CTACCAAAGCACATATGTGTCAAACCAAACGAATGACATGGGGCAAATTA    444
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.|||.|||||||||||.|||.||||||||||||||||.|||.|
+Cariama_crist    445 ATCTGTGTCTTAATCTGGGTGATCTCACTAGCATTTGCCACACCGCAGTT    494
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.||||||||||||||||||.|||||||.|.||||.|||
+Cariama_crist    495 TATTTTTAGTGAGGTGTTTACTATTGATAAGGCAATATGTCAGGAAGAAT    544
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.||||.||||.|||||||||||||.||.|||||||.||||
+Cariama_crist    545 ACCCAAACCATCACACAGAACTGGTTCTTGAAGTGATCCAAGTGAGCCTT    594
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||.|||||.|||||.|||||||||||||||||||.||||||||
+Cariama_crist    595 GGCTATTTTGTTCCCGTGCTAGCCATGATCATCTGCTACTCACTAATTAT    644
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||.||||||||||||||||||||..||.||||||||||||||||||||||
+Cariama_crist    645 TAGAACCTTACTGCATGCCAGGAGTTTTCAAAAGAACAAATCTCTAAAAA    694
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|||||||||||||||||||||||||||||.|||
+Cariama_crist    695 AAATATTTTCTGTAGTTGCCATATTTATTCTTACTCAGTCACCCTATACT    744
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||.|||||.||||||||.|||||||||||.|||||..||||||.
+Cariama_crist    745 TTCTTGAGGCTGATAAAGATCATAGACTGGAGCTTTAACTTAAACAGCAG    794
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.|.|||||||||||.||||||||||||||.||||
+Cariama_crist    795 CTTTGAATATGCAATCATCATAACAGAAGCTCTTGCTTATTTCCATGGCT    844
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||||||||||||.|||||||||||||||||.||||||||||||.||||
+Cariama_crist    845 GTCTTAACCCTGTTCTGTATTTCTTCATGGGGATGAAATTCAGGAGGAAC    894
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||.||||||||||||||||.||||||.|||.|.||||.|||||||...|.
+Cariama_crist    895 TTACAGAAAATTATTAAAAACTCAAGATGCATCAAACGGCAAGTTAAGGC    944
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||.|||||||||||.||||||||||||||||.|||||.||
+Cariama_crist    945 TAAACAGTGGCAAACCACTGAAGAGGAAGGCTCTAAAACTTTTACTGCCT    994
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||||||||..||||||||||||||.||.|||
+Cariama_crist    995 CAAATAATGCAGATGCAACAAGCATGTACCCGCTATAA   1032
+
+
+#---------------------------------------
+#---------------------------------------

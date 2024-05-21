@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Aythya_fuligula.fa
+#    -outfile Anas_platyrhynchos-Aythya_fuligula.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Aythya_fuligula.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Aythya_fuligula
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:    1022/1038 (98.5%)
+# Similarity:  1022/1038 (98.5%)
+# Gaps:           0/1038 ( 0.0%)
+# Score: 5046.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||||||||.||||.||||||||||||.|||||||||||||||||||
+Aythya_fuligu     51 TCCCAATGAAAATGGAACTGAGAATTTTTATACATTTATAACTATCTTTC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.|||||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu    101 TGCCCTGTATGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     ||||||||||||||||||||||||||||||||||||||||||.|||||||
+Aythya_fuligu    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACATTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||||||||||||||||||||||.|||||||||||||||||||
+Aythya_fuligu    201 TATATTTTTGTTGAACCTGGCTATAGCTGACTGGATCTTCCTTTGGACGC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .||||||||||.||||||||.|||||||||||||||||||||||||||||
+Aythya_fuligu    301 GCATGTCGAATTATACGGGGTCTGTACAATCTGAACTTGTACACTTCAAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     |||||||||||||||||||||||||||||||||||||.||||||||||||
+Aythya_fuligu    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTGCTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |||||||||||||||||.||||||||||||||||||||||||||||||||
+Aythya_fuligu    401 CCACCAAAGCACATATGTGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||||||||||||.||||||||||||||||||||||||||||||||||
+Aythya_fuligu    551 ACCCAGACCACCACACAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||||||||.||||||||||||||||||||||||||||||||.||||
+Aythya_fuligu    801 CTTTGACTACGCAATCGTTATAACAGAAGCCCTTGCTTATTTCCATGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     |||||.||||||||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu    901 TTCCATAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     |||||||||||||||||||||||||||||||||||.||||||||||||||
+Aythya_fuligu    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAGAACTTATACTGTCT   1000
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     ||||||||||||||||||||||||||||||||||||||
+Aythya_fuligu   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

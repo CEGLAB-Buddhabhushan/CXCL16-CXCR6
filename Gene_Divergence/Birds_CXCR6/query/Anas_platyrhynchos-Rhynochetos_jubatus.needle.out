@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:13
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Rhynochetos_jubatus.fa
+#    -outfile Anas_platyrhynchos-Rhynochetos_jubatus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Rhynochetos_jubatus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Rhynochetos_jubatus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     886/1038 (85.4%)
+# Similarity:   886/1038 (85.4%)
+# Gaps:           6/1038 ( 0.6%)
+# Score: 3833.5
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||||||...||||||||||||.||||||||||||||||||...|||.||
+Rhynochetos_j      1 ATGGCAATCACAGATGCTGTTAACTTTTATTATAACTTCTCCATCATCGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||.|||||      ||||||||||.|||..||||.||...||||.|
+Rhynochetos_j     51 TCCCAACGAAAA------TGAGAATTTTCACAGCTTTACAAGAGTCTTCC     94
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.||||.|.|.|||||||.|||.||||||||||||||||..|.
+Rhynochetos_j     95 TGCCCTGTATGTACTTGATTGTTTTCATCCTTGGGCTAGCAGGAAACACA    144
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     |||||||||.|.|||||.||.|||||.|||||||||||||..||||||||
+Rhynochetos_j    145 CTGGTCTTTGTTATACTAGTTTTCTACGAGAAACTGAAGATGCTGACAGA    194
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     |.|.||||||.|||||.|||||.|||||||.|||.|||||||||||||||
+Rhynochetos_j    195 TGTGTTTTTGGTGAACTTGGCTGTAGCTGACTGGGTCTTCCTTTGGACGC    244
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     ||||.||||||||.||||||||||||||||||||||.|||||||||.|||
+Rhynochetos_j    245 TGCCGTTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACCGTG    294
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|.|||||.||||||||||||.|.||.|.|||.|||||||||||||||||
+Rhynochetos_j    295 GCCTGTCGTATCATACGGGGCTTATATACTCTCAACTTGTACACTTCAAT    344
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     |||||||||||||||.|||||.|||||..||||.|||.||||||||||||
+Rhynochetos_j    345 GTTAACTCTAACGTCCATCACATTTGATCGGCTGATTGCTATTACTTTTG    394
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     ||||||||||||.||||.||||||||||||||.|||..||.|||||||||
+Rhynochetos_j    395 CCACCAAAGCACGTATGTGTCAAACCAAACGAATGACGTGCGGCAAATTA    444
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     .||||.|.|||||||||||||||.|||.||||||||||..||||.|||.|
+Rhynochetos_j    445 GTCTGTGTCTTGATCTGGGTGATCTCATTAGCATTTGCTGCACCGCAGTT    494
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|||.|.|.||||||||||.|.|||||.|.||||.|||
+Rhynochetos_j    495 TATTTTTAGTGAGGTGCTAAGTATTGATAAGGCGATATGTCAGGAAGAAT    544
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.||||.||||.|||||||||||.|.||.|||||||.||||
+Rhynochetos_j    545 ACCCAAACCATCACACAGAACTGGTTCTTGAAATGATCCAAGTGAACCTT    594
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.||||||||..|||||.|||||||.|||||||||||.||||||||
+Rhynochetos_j    595 GGCTATTTTATTCCTGTGCTAGCCATGATTATCTGCTACTCACTAATTAT    644
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||.|||||||||.||||||||||..|..||||||||||||||||||||||
+Rhynochetos_j    645 TAGAACCTTACTTCATGCCAGGAGTTGTCAAAAGAACAAATCTCTAAAAA    694
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|||||||||||..||||||||||||||||.|||
+Rhynochetos_j    695 AAATATTTTCTGTAGTTGCCATATTTATCATTACTCAGTCACCCTATACT    744
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||.|||||.||||||||.|||||||||||.||||||.||||||.
+Rhynochetos_j    745 TTCTTGAGGCTGATAAAGATCATAGACTGGAGCTTTAACTTGAACAGCAG    794
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.||.||||||||||.||||||||||||||.||||
+Rhynochetos_j    795 CTTTGAATATGCAATCATTGTAACAGAAGCTCTTGCTTATTTCCATGGCT    844
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||||||||||||.|||||||||||.||||.|||||||||||||.||||
+Rhynochetos_j    845 GTCTTAACCCTGTTCTGTATTTCTTCTTGGGCGTGAAATTCAGGAGGAAC    894
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||.||||||||||||||||.||||||.|||.|.||||.|||||||.|.|.
+Rhynochetos_j    895 TTACAGAAAATTATTAAAAACTCAAGATGCATCAAACGGCAAGTTACGGC    944
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||.|||||||||||.||||||||.|||||||.||.||..|
+Rhynochetos_j    945 TAAACAGTGGCAAACCACTGAAGAAGAAGGCTCCAAAACTTTTAGTGCAT    994
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     ||.||||||||||||..||||||||||||||.||.|||
+Rhynochetos_j    995 CACATAATGCAGATGCAACAAGCATGTACCCGCTATAA   1032
+
+
+#---------------------------------------
+#---------------------------------------

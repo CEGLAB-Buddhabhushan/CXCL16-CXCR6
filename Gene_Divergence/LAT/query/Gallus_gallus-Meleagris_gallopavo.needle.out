@@ -1,0 +1,90 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Meleagris_gallopavo.fa
+#    -outfile Gallus_gallus-Meleagris_gallopavo.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Meleagris_gallopavo.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Meleagris_gallopavo
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 693
+# Identity:     582/693 (84.0%)
+# Similarity:   583/693 (84.1%)
+# Gaps:          30/693 ( 4.3%)
+# Score: 2500.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGAGGCGCTGTGGGGCTCAGCCTTCCTGATGGCGGCGCTGCTGCTGAC     50
+                     ||||||||.||.|||||.||||||.|.|||.||||||.||||||||||||
+Meleagris_gal      1 ATGGAGGCCCTTTGGGGTTCAGCCCTGCTGGTGGCGGTGCTGCTGCTGAC     50
+
+Gallus_gallus     51 CGCCGCCCTCTGCGTCCGCTGCCACCGCCAGCGCAGTCCCGGTGCTCCGC    100
+                     .|||||.||||||||||||||||||||||||||..||||.||.||.||||
+Meleagris_gal     51 GGCCGCGCTCTGCGTCCGCTGCCACCGCCAGCGTGGTCCTGGAGCACCGC    100
+
+Gallus_gallus    101 TGTACG---ACAGAGACAAGCCGATGTCGGAACCGCCGCCTCA-CAGCTT    146
+                     ||.|||   .|||||||||||||||||||||||.||| ||..| ||||||
+Meleagris_gal    101 TGGACGCCCCCAGAGACAAGCCGATGTCGGAACAGCC-CCAGAGCAGCTT    149
+
+Gallus_gallus    147 CCAGATCCTCCCCGTCGTGCGCCA-CCCTCAGAGCGCCCCCCCCCCACCC    195
+                     |||||||||||||.||||||||.| |||||..| ||.||||||||.|.|.
+Meleagris_gal    150 CCAGATCCTCCCCATCGTGCGCTACCCCTCCCA-CGTCCCCCCCCAAGCA    198
+
+Gallus_gallus    196 CGCGGAGCGGCGCCGGAGATGATCCTCAACCCGAACCCCAATCTGCACAA    245
+                     ||.||||||||.|||||||.||||||.|||||||||||         |||
+Meleagris_gal    199 CGTGGAGCGGCACCGGAGACGATCCTGAACCCGAACCC---------CAA    239
+
+Gallus_gallus    246 CCCCAACATCCACCTCTCCTGGGGGACGCGCGGACACGGAGACGCGGGGT    295
+                     |||||||.||||||||||.||||.|||:||.||||||||||||||.||||
+Meleagris_gal    240 CCCCAACCTCCACCTCTCGTGGGTGACRCGGGGACACGGAGACGCAGGGT    289
+
+Gallus_gallus    296 CCCCGCAGACCTCCCAGCAACGCCGCATCTCCGCCACCCGCCCGGAGCCG    345
+                     ||||.|||..|||||||||.||||||.||||.||||.|||||||||||||
+Meleagris_gal    290 CCCCCCAGTTCTCCCAGCAGCGCCGCGTCTCTGCCAGCCGCCCGGAGCCG    339
+
+Gallus_gallus    346 GAGAGAGGGTCCCCAACGTGCGCCCCCGAGAGCGAGGACGACTACAGCAA    395
+                     ||.|||||||||||.|||||||||||||||||||||||.|||||||||||
+Meleagris_gal    340 GACAGAGGGTCCCCCACGTGCGCCCCCGAGAGCGAGGATGACTACAGCAA    389
+
+Gallus_gallus    396 TGAGGTCTACGCCTCCGGATATGTGAAGGTTCTCCCGGACGCTGAGGACG    445
+                     ||||||.||||||||.|||||.||.|||||.|||||||||.|..||||||
+Meleagris_gal    390 TGAGGTGTACGCCTCGGGATACGTCAAGGTGCTCCCGGACCCACAGGACG    439
+
+Gallus_gallus    446 CGGCGCAGCGCAGCAACGGCACCGCCACGGCCGACACCGCAGCACA----    491
+                     |.||.||||.||.|.||.|||.||||.|||          |||.||    
+Meleagris_gal    440 CAGCTCAGCACAACCACAGCAGCGCCGCGG----------AGCTCAGCGG    479
+
+Gallus_gallus    492 CGCCACCCCCCCCGAGCAATATGAGAACGTCCCCGATGTCTCCCGCCACT    541
+                     |||.||||||||.|||||.||.|||||||||||.|||||.|||||||.||
+Meleagris_gal    480 CGCGACCCCCCCTGAGCAGTACGAGAACGTCCCTGATGTGTCCCGCCGCT    529
+
+Gallus_gallus    542 CCCTGGGTGACAGCCTGGAGTACATCAACGTCCCCACGGTGACGCCCAGC    591
+                     ||||||.|||||||||||||||||||||||||||||||..||||.|||||
+Meleagris_gal    530 CCCTGGATGACAGCCTGGAGTACATCAACGTCCCCACGACGACGTCCAGC    579
+
+Gallus_gallus    592 CCTGCATCCCGCTACGGCAGCGACCGCGACAGCGACGCCGACGGCCCCGA    641
+                     ||.||.|||||.|.||||||||||||||||||||||||||||||||||||
+Meleagris_gal    580 CCCGCGTCCCGTTTCGGCAGCGACCGCGACAGCGACGCCGACGGCCCCGA    629
+
+Gallus_gallus    642 CTACGAGAACGTGACCCCCCCACGCCCCCCAGGACCCCCATAA    684
+                     |||||||||||||||||||||.||||||||.||||||||||||
+Meleagris_gal    630 CTACGAGAACGTGACCCCCCCGCGCCCCCCCGGACCCCCATAA    672
+
+
+#---------------------------------------
+#---------------------------------------

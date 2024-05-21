@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:13
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Accipiter_gentilis.fa
+#    -outfile Anas_platyrhynchos-Accipiter_gentilis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Accipiter_gentilis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Accipiter_gentilis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     919/1038 (88.5%)
+# Similarity:   919/1038 (88.5%)
+# Gaps:           0/1038 ( 0.0%)
+# Score: 4119.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||||||||.|||||.|||..|.||||||||||||||||||...||||||
+Accipiter_gen      1 ATGGCAACTACAGATACTGCCAACTTTTATTATAACTTCTCCATCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     |.||||||||||.||||.||||||||||.|||||||||.||...||||.|
+Accipiter_gen     51 TGCCAATGAAAATGGAAGTGAGAATTTTCACACATTTACAAGAGTCTTCC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.|||||||...||||||.|||.|||||||||||||||||||.
+Accipiter_gen    101 TGCCCTGTATGTATTCAGCTGTTTTCATCCTTGGGCTAGCAGGAAATGCA    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     ||.||.|||.|||||||.|..|||||||||||||.|||||..||||||||
+Accipiter_gen    151 CTTGTTTTTGTCATACTAGCTTTCTATGAGAAACGGAAGATGCTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||.|||||.|||||||||||||.|||.|||||||||||||.|
+Accipiter_gen    201 TATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGACAC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||||||||||||||||||||||.|||||||||..||
+Accipiter_gen    251 TGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACCATG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     ||||||||.||.|||||.|||.||||.|.|||||||||||||||||||||
+Accipiter_gen    301 ACATGTCGTATTATACGAGGCTTGTATACTCTGAACTTGTACACTTCAAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     |.||||||||||||||||||||||||||.||||||||.||||||||||||
+Accipiter_gen    351 GCTAACTCTAACGTCTATCACCTTTGACCGGCTTATTGCTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |.||||||||||.||||.||||||||||||||.|||.|||||||||||||
+Accipiter_gen    401 CGACCAAAGCACGTATGTGTCAAACCAAACGAATGACATGGGGCAAATTA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.|||||||||||||||.|||.||||||||||..||||||||.|
+Accipiter_gen    451 ATCTGTGTCTTGATCTGGGTGATCTCACTAGCATTTGCTGCACCACAGTT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|||||||.||||||||||||||||||||.||||.|||
+Accipiter_gen    501 TATTTTTAGTGAGGTGTTTAGTATTGATAAGACAATATGCCAGGAAGAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.||||.||||.|||||||||||||.||.||||||||||||
+Accipiter_gen    551 ACCCAAACCATCACACAGAAATGGTTCTTGAAGTGATCCAAGTGACCCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||||||||||||.|||||||||||||||||||.||||||||
+Accipiter_gen    601 GGCTATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCACTAATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||.||||||||||||||||||||..||.||||||||||||||||||||.|
+Accipiter_gen    651 TAGAACCTTACTGCATGCCAGGAGTTTTCAAAAGAACAAATCTCTAAAGA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|||||||||||||||||||||||||||||||||
+Accipiter_gen    701 AAATATTTTCTGTAGTTGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     ||||||||||||||.||||||||.|||||||||||.|||.||.||||||.
+Accipiter_gen    751 TTCTTGAGACTGATAAAGATCATAGACTGGAGCTTTAACCTGAACAGCAG    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.|||||||||||||.||||||||||||||.||||
+Accipiter_gen    801 CTTTGAATATGCAATCATTATAACAGAAGCTCTTGCTTATTTCCATGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     |||||||.||||||.||||||||||||||||||||||||||||||.||||
+Accipiter_gen    851 GTCTTAATCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGGAAC    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     ||.||||||||||||||||..|||||.||..|.||||.|||||||...|.
+Accipiter_gen    901 TTACAGAAAATTATTAAAAATTCAAGATGTGTCAAACGGCAAGTTATGGC    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||.|||||||||||.||||||||||||||||.|||||.||
+Accipiter_gen    951 TAAACAGTGGCAAACCACTGAAGAAGAAGGCTCTAAAACTTTTACTGCCT   1000
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||||||||..|||||||||||||..||||||
+Accipiter_gen   1001 CAAATAATGCAGATGCAACAAGCATGTACCAGCTGTAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

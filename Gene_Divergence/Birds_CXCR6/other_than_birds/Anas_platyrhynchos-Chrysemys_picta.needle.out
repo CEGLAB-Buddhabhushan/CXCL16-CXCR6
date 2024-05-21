@@ -1,0 +1,122 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Chrysemys_picta.fa
+#    -outfile Anas_platyrhynchos-Chrysemys_picta.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Chrysemys_picta.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Chrysemys_picta
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1073
+# Identity:     786/1073 (73.3%)
+# Similarity:   786/1073 (73.3%)
+# Gaps:          76/1073 ( 7.1%)
+# Score: 2839.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAAC-TGCAG-ATGCTGTTACCTTTTATTA---------TAACTTC     39
+                     |||| |.| |.||| |||          ||||||         ||||.||
+Chrysemys_pic      1 ATGG-AGCTTCCAGAATG----------TTATTACCCAGACCTTAACCTC     39
+
+Anas_platyrhy     40 TCAGCCATTGATCCCAATGAAAACGGAATTGAGAATTTT-TACA------     82
+                     .|...||..|||..|||||||||      |||..||||| |.||      
+Chrysemys_pic     40 ACGTGCAACGATTACAATGAAAA------TGAACATTTTCTCCAGGCCAG     83
+
+Anas_platyrhy     83 CATTTATAACTATCTTTCTGCCCTGTGTGTATTCGTTTGTTTTTATCTTT    132
+                     ||     ||  |||||||||||||||.|||||.|.||.|.|||...||||
+Chrysemys_pic     84 CA-----AA--ATCTTTCTGCCCTGTATGTATGCATTAGCTTTCGCCTTT    126
+
+Anas_platyrhy    133 GGGCTAGCAGGAAATGCTCTGGTCTTTATCATACTGGTCTTCTATGAGAA    182
+                     |||||...|||||||.||.|||||.||||||||....|.||||.||||||
+Chrysemys_pic    127 GGGCTGATAGGAAATTCTTTGGTCCTTATCATATACATTTTCTGTGAGAA    176
+
+Anas_platyrhy    183 ACTGAAGACACTGACAGATATATTTTTGTTGAACCTGGCTATAGCTGATT    232
+                     ||||||||||.||||.|||.|||||||..|||.|.||||||.|||.||.|
+Chrysemys_pic    177 ACTGAAGACATTGACGGATGTATTTTTAGTGAGCTTGGCTACAGCAGACT    226
+
+Anas_platyrhy    233 GGATCTTCCTTTGGACGCTGCCATTCTGGGCCTATTCTGCTGCTCAGGAG    282
+                     .|.|.|||||||..||..|||||||||||||.||||||||||||||.|||
+Chrysemys_pic    227 TGCTTTTCCTTTCCACCTTGCCATTCTGGGCATATTCTGCTGCTCATGAG    276
+
+Anas_platyrhy    283 TGGATTTTTGGCACTGTGACATGTCGAATCATACGGGGCCTGTACAATCT    332
+                     ||||||||||||.|..|||..|||..|||.||||||||||||||||.|.|
+Chrysemys_pic    277 TGGATTTTTGGCTCCTTGATGTGTAAAATTATACGGGGCCTGTACACTTT    326
+
+Anas_platyrhy    333 GAACTTGTACACTTCAATGTTAACTCTAACGTCTATCACCTTTGACAGGC    382
+                     |||..|||||||||||||||||||.||.||.|.|||.||..||||||||.
+Chrysemys_pic    327 GAATCTGTACACTTCAATGTTAACGCTCACTTGTATAACTATTGACAGGT    376
+
+Anas_platyrhy    383 TTATTTCTATTACTTTTGCCACCAAAGCACATATGAGTCAAACCAAACGA    432
+                     |||||.|||||.|....|||||.|||||.||.|||.|||||.|||||.||
+Chrysemys_pic    377 TTATTGCTATTGCCCAAGCCACAAAAGCCCACATGTGTCAAGCCAAAAGA    426
+
+Anas_platyrhy    433 CTGAAATGGGGCAAATTAATCTGCGGCTTGATCTGGGTGATTTCAGTAGC    482
+                     .||...|||||.|||.|.||||||...||..|.||||||||||||.||||
+Chrysemys_pic    427 ATGGTTTGGGGGAAAGTCATCTGCATGTTAGTTTGGGTGATTTCACTAGC    476
+
+Anas_platyrhy    483 ATTTGCCACACCACAGCTTATTTTTAGT--------GATGTGTTTACTAT    524
+                     ||||||.|..|||||..|||..|..|||        ||       |||| 
+Chrysemys_pic    477 ATTTGCAATGCCACAATTTAAATACAGTAGACAATCGA-------ACTA-    518
+
+Anas_platyrhy    525 TGATAAGACAATATGCCTGGAAAAATACCCAGACCACCACATAGAATTGG    574
+                     .||||||.||.|.||.|..|.||.||||||....||.|.||||||.||||
+Chrysemys_pic    519 CGATAAGTCAGTCTGTCATGCAATATACCCTTCACATCTCATAGAGTTGG    568
+
+Anas_platyrhy    575 TTCTTGAAGTTATTCAAGTGACCCTTGGTTACTTTATTCCCATGCTAACC    624
+                     ||.||.||||..|.|||.||||.|||||.|.||||||.||||||||||||
+Chrysemys_pic    569 TTTTTAAAGTACTCCAAATGACTCTTGGATTCTTTATCCCCATGCTAACC    618
+
+Anas_platyrhy    625 ATGATCATCTGCTACTCCCTAATTATTAAAACCTTACTGCATGCCAGGAA    674
+                     |||||.|||||||||||..|||||||.|||||.|||.|.||||||||||.
+Chrysemys_pic    619 ATGATTATCTGCTACTCAATAATTATCAAAACTTTATTTCATGCCAGGAG    668
+
+Anas_platyrhy    675 CTTCCAAAAGAACAAATCTCTAAAAAAAATATTTTCT---GTAGTGGCCA    721
+                     .|||||||||.|||||||..||||||.||||||||||   |||||||   
+Chrysemys_pic    669 TTTCCAAAAGCACAAATCCTTAAAAATAATATTTTCTATAGTAGTGG---    715
+
+Anas_platyrhy    722 TATTTATTCTTACTCAGTCACCCTACACTTTCTTGAGACTGAT---GAAG    768
+                     |.||.|||||||||||||.||||||||.|||.||||.|||.||   .||.
+Chrysemys_pic    716 TGTTCATTCTTACTCAGTTACCCTACAATTTATTGATACTCATACGCAAT    765
+
+Anas_platyrhy    769 AT-CATCGACTGGAGCTTCAACTTGGACAGCAACTTTGACTACGCCATCG    817
+                     || |||   .|||| .||||||.|||||..|||.||.||||..||..|.|
+Chrysemys_pic    766 ATACAT---GTGGA-ATTCAACCTGGACTACAATTTCGACTCTGCGGTGG    811
+
+Anas_platyrhy    818 TTATAACAGAAGCCCTTGCTTATTTCCACGGCTGTCTTAACCCTGTTATG    867
+                     |.|||||||||||..||||||||.||||.||||||||.|||||.|||.||
+Chrysemys_pic    812 TCATAACAGAAGCAATTGCTTATCTCCATGGCTGTCTCAACCCCGTTCTG    861
+
+Anas_platyrhy    868 TATTTCTTCATGGGGGTGAAATTCAGGAAGAACTTCCAGAAAATTATTAA    917
+                     ||||||||.||.||||||||.|||||||||||||||||||||||.|||||
+Chrysemys_pic    862 TATTTCTTTATTGGGGTGAAGTTCAGGAAGAACTTCCAGAAAATCATTAA    911
+
+Anas_platyrhy    918 -AAGCTCA-AGGTGCTTTAAACAGCAAGTTGCTGTTAGACAGTGGCACAC    965
+                      ||..||| |.|||  ||||.|..||||.|...||.|..||.|||||.||
+Chrysemys_pic    912 GAACATCAGATGTG--TTAAGCGCCAAGGTATCGTGAAGCAATGGCAAAC    959
+
+Anas_platyrhy    966 CACTGAAGACGAAGGCTCTAAAACTTATACTGTCTCAAATAATGCAGATG   1015
+                     |||||||||.||.|||||.|||||||.|||||.||||...||||.|||.|
+Chrysemys_pic    960 CACTGAAGAGGAGGGCTCGAAAACTTGTACTGCCTCACCCAATGTAGAAG   1009
+
+Anas_platyrhy   1016 TGACAAGCATGTACCCTCTGTAA   1038
+                     ..|||||||||||.||..|.|||
+Chrysemys_pic   1010 CAACAAGCATGTATCCATTATAA   1032
+
+
+#---------------------------------------
+#---------------------------------------

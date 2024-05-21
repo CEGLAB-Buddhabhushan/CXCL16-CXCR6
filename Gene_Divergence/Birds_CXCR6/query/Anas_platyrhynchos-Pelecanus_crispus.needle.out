@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:12
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Pelecanus_crispus.fa
+#    -outfile Anas_platyrhynchos-Pelecanus_crispus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Pelecanus_crispus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Pelecanus_crispus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1040
+# Identity:     907/1040 (87.2%)
+# Similarity:   907/1040 (87.2%)
+# Gaps:           4/1040 ( 0.4%)
+# Score: 3998.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||||||||.|||||.||||||.|||||||||||||||.||...|||.||
+Pelecanus_cri      1 ATGGCAACTACAGATACTGTTAACTTTTATTATAACTTTTCCATCATCGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||||||||.||||.||||||||||.|||..||||.||...||||.|
+Pelecanus_cri     51 TCCCAATGAAAATGGAAGTGAGAATTTTCACATCTTTACAAGAGTCTTCC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAA--ATG    148
+                     ||||||||.||||.||..|||||||.|||||.|||||||||||||  |||
+Pelecanus_cri    101 TGCCCTGTATGTACTCAGTTGTTTTCATCTTCGGGCTAGCAGGAAACATG    150
+
+Anas_platyrhy    149 CTCTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACA    198
+                       ||.||||||.|||||||.||.|||||.|||||||||||||..||||||
+Pelecanus_cri    151 --CTAGTCTTTGTCATACTAGTTTTCTACGAGAAACTGAAGATGCTGACA    198
+
+Anas_platyrhy    199 GATATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGAC    248
+                     |||.||||||||.||||..|||||||||||||.|||.|||||||.|||||
+Pelecanus_cri    199 GATGTATTTTTGCTGAATTTGGCTATAGCTGACTGGGTCTTCCTATGGAC    248
+
+Anas_platyrhy    249 GCTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTG    298
+                     |||||||||||||||.||||||||||||||||||||||.|||||||||.|
+Pelecanus_cri    249 GCTGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACCG    298
+
+Anas_platyrhy    299 TGACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCA    348
+                     ||.|.|||||.||.|||||||||.||||.|.|||||||||||||||||||
+Pelecanus_cri    299 TGGCTTGTCGTATTATACGGGGCTTGTATACTCTGAACTTGTACACTTCA    348
+
+Anas_platyrhy    349 ATGTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTT    398
+                     |||.||||||||||||||||||||||||||.||||||||.||||||||||
+Pelecanus_cri    349 ATGCTAACTCTAACGTCTATCACCTTTGACCGGCTTATTGCTATTACTTT    398
+
+Anas_platyrhy    399 TGCCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAAT    448
+                     |||||||||||||||||||.||||||||||||||.|||.|||||||||||
+Pelecanus_cri    399 TGCCACCAAAGCACATATGCGTCAAACCAAACGAATGACATGGGGCAAAT    448
+
+Anas_platyrhy    449 TAATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAG    498
+                     |||||||.|.|||||||||||||||.|||.||||||||||||||||||||
+Pelecanus_cri    449 TAATCTGTGTCTTGATCTGGGTGATCTCACTAGCATTTGCCACACCACAG    498
+
+Anas_platyrhy    499 CTTATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAA    548
+                     .|||||||||||||.||||||..|||.||||||..||||||.|.||||.|
+Pelecanus_cri    499 TTTATTTTTAGTGAGGTGTTTCATATGGATAAGGTAATATGTCAGGAAGA    548
+
+Anas_platyrhy    549 ATACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCC    598
+                     ||||.||.||||.|.||.||||.|||||||||||||.||.||||||||||
+Pelecanus_cri    549 ATACTCAAACCAACGCACAGAACTGGTTCTTGAAGTGATCCAAGTGACCC    598
+
+Anas_platyrhy    599 TTGGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATT    648
+                     ||||.||.||||.||||||||||.||||||||||||||||||||||||||
+Pelecanus_cri    599 TTGGCTATTTTACTCCCATGCTAGCCATGATCATCTGCTACTCCCTAATT    648
+
+Anas_platyrhy    649 ATTAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAA    698
+                     ||||.||||||||||||.||||.||..||.||||||||||||||||||||
+Pelecanus_cri    649 ATTAGAACCTTACTGCACGCCAAGAGTTTTCAAAAGAACAAATCTCTAAA    698
+
+Anas_platyrhy    699 AAAAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACA    748
+                     ||.|||||||||||||||.|||||||||||||||||||||||||||||.|
+Pelecanus_cri    699 AAGAATATTTTCTGTAGTTGCCATATTTATTCTTACTCAGTCACCCTATA    748
+
+Anas_platyrhy    749 CTTTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGC    798
+                     ||||||||||||||||.||||||||.|||||||||||.||||||.|.|||
+Pelecanus_cri    749 CTTTCTTGAGACTGATAAAGATCATAGACTGGAGCTTTAACTTGAATAGC    798
+
+Anas_platyrhy    799 AACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGG    848
+                     |.||||||.|||||.|||.|.|||||||||||.||||||||||||||..|
+Pelecanus_cri    799 AGCTTTGAATACGCAATCATCATAACAGAAGCTCTTGCTTATTTCCATAG    848
+
+Anas_platyrhy    849 CTGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGA    898
+                     ||||||||||||||||.||||||||||||||||||||||||||||||.||
+Pelecanus_cri    849 CTGTCTTAACCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGGA    898
+
+Anas_platyrhy    899 ACTTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCT    948
+                     ||||.||||||||||||||||.||||||.|||...|||..|||||||.|.
+Pelecanus_cri    899 ACTTACAGAAAATTATTAAAAACTCAAGATGCGCCAAATGGCAAGTTACG    948
+
+Anas_platyrhy    949 GTTAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGT    998
+                     |.||.|||||||||.|||||||||||.||||||||||||||||.||.||.
+Pelecanus_cri    949 GCTAAACAGTGGCAAACCACTGAAGAGGAAGGCTCTAAAACTTTTATTGC    998
+
+Anas_platyrhy    999 CTCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||.|||||||..|||||||||||....||.|||
+Pelecanus_cri    999 CTCAAATAACGCAGATGCAACAAGCATGTATGTGCTCTAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

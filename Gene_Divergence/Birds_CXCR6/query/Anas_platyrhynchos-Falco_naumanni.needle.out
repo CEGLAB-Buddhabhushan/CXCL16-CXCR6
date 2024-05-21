@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:11
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Falco_naumanni.fa
+#    -outfile Anas_platyrhynchos-Falco_naumanni.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Falco_naumanni.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Falco_naumanni
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1041
+# Identity:     915/1041 (87.9%)
+# Similarity:   915/1041 (87.9%)
+# Gaps:           6/1041 ( 0.6%)
+# Score: 4073.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCAT---     47
+                     |||||||||.||||||||||||.|||||||||||||||||   ||||   
+Falco_naumann      1 ATGGCAACTACAGATGCTGTTAACTTTTATTATAACTTCT---CCATCGA     47
+
+Anas_platyrhy     48 TGATCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCT     97
+                     |||||||||||||||.||||.|||||||.||.|||.|||||.||.|.|||
+Falco_naumann     48 TGATCCCAATGAAAATGGAAGTGAGAATCTTCACAGATTTACAAATGTCT     97
+
+Anas_platyrhy     98 TTCTGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAAT    147
+                     |.|||||||||.|||||||...||||||.|||.|||||||||||||||||
+Falco_naumann     98 TCCTGCCCTGTATGTATTCAGCTGTTTTCATCCTTGGGCTAGCAGGAAAT    147
+
+Anas_platyrhy    148 GCTCTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGAC    197
+                     .|.|||||||||.|||||||.||.|||||.||||||||||||...|||||
+Falco_naumann    148 ACACTGGTCTTTGTCATACTAGTTTTCTACGAGAAACTGAAGGTGCTGAC    197
+
+Anas_platyrhy    198 AGATATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGA    247
+                     |||||||||||||.|||||.|||||||||||||.|||.||||||||||||
+Falco_naumann    198 AGATATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGA    247
+
+Anas_platyrhy    248 CGCTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACT    297
+                     ||||||||||||||||.||||||||||.|||||||||||.||||||||||
+Falco_naumann    248 CGCTGCCATTCTGGGCATATTCTGCTGTTCAGGAGTGGACTTTTGGCACT    297
+
+Anas_platyrhy    298 GTGACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTC    347
+                     |||.|||||||..|.|||||||||.||||.|.||||||||||||||||||
+Falco_naumann    298 GTGGCATGTCGTGTTATACGGGGCTTGTATACTCTGAACTTGTACACTTC    347
+
+Anas_platyrhy    348 AATGTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTT    397
+                     |||||||||||||||||||||||||||||||.||||||||.|||||||||
+Falco_naumann    348 AATGTTAACTCTAACGTCTATCACCTTTGACCGGCTTATTGCTATTACTT    397
+
+Anas_platyrhy    398 TTGCCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAA    447
+                     |||||||.|||||||||.||.||||||||||||||.|||.||||||||||
+Falco_naumann    398 TTGCCACAAAAGCACATGTGTGTCAAACCAAACGAATGACATGGGGCAAA    447
+
+Anas_platyrhy    448 TTAATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACA    497
+                     .|.|||||.|.|||||||||||.|||.|||.||||||||||..|||||||
+Falco_naumann    448 CTGATCTGTGTCTTGATCTGGGCGATCTCACTAGCATTTGCTGCACCACA    497
+
+Anas_platyrhy    498 GCTTATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAA    547
+                     |.|||||||||||||.|||||||.||||||||||.|||||||.|.||||.
+Falco_naumann    498 GTTTATTTTTAGTGAGGTGTTTAGTATTGATAAGGCAATATGTCAGGAAG    547
+
+Anas_platyrhy    548 AATACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACC    597
+                     ||||||||.||.|.|.||.||||.|.|||||||||||.||.|||||||||
+Falco_naumann    548 AATACCCAAACTATCGCACAGAACTAGTTCTTGAAGTGATCCAAGTGACC    597
+
+Anas_platyrhy    598 CTTGGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAAT    647
+                     |||||.||.|||||||||||||||.|||||.|||||||||||||.|||||
+Falco_naumann    598 CTTGGCTATTTTATTCCCATGCTAGCCATGGTCATCTGCTACTCACTAAT    647
+
+Anas_platyrhy    648 TATTAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAA    697
+                     .||||.||||||||||||||||||||..||.|||||||||||||||||||
+Falco_naumann    648 CATTAGAACCTTACTGCATGCCAGGAGTTTTCAAAAGAACAAATCTCTAA    697
+
+Anas_platyrhy    698 AAAAAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTAC    747
+                     |||||||||||||||||||.|||||||||||||||||||||||||||||.
+Falco_naumann    698 AAAAAATATTTTCTGTAGTTGCCATATTTATTCTTACTCAGTCACCCTAT    747
+
+Anas_platyrhy    748 ACTTTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAG    797
+                     |||||||||||||||.|.||||||||.|||||||||||.||||||.||||
+Falco_naumann    748 ACTTTCTTGAGACTGTTAAAGATCATAGACTGGAGCTTTAACTTGAACAG    797
+
+Anas_platyrhy    798 CAACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACG    847
+                     |||||||||.||.||.|||.|.|||||||||||.||||||||||||||.|
+Falco_naumann    798 CAACTTTGAATATGCAATCATCATAACAGAAGCTCTTGCTTATTTCCATG    847
+
+Anas_platyrhy    848 GCTGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAG    897
+                     |||||||||||||||||.||||||||||||||||||||||||||||||.|
+Falco_naumann    848 GCTGTCTTAACCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGG    897
+
+Anas_platyrhy    898 AACTTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGC    947
+                     |||||.|.||||||||||||||.||||||.|||.|||||..|||||||.|
+Falco_naumann    898 AACTTACGGAAAATTATTAAAAACTCAAGATGCATTAAATGGCAAGTTAC    947
+
+Anas_platyrhy    948 TGTTAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTG    997
+                     .|.||.|||||||||.|||||.|||||.||||||||||||||.|.|||||
+Falco_naumann    948 AGCTAAACAGTGGCAAACCACAGAAGAGGAAGGCTCTAAAACATTTACTG    997
+
+Anas_platyrhy    998 TCTCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     .|||||||||||||||||..||||||||||||||.||.||.
+Falco_naumann    998 CCTCAAATAATGCAGATGCAACAAGCATGTACCCACTATAG   1038
+
+
+#---------------------------------------
+#---------------------------------------

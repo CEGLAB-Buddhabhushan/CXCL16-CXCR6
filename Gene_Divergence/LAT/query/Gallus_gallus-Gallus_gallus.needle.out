@@ -1,0 +1,90 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Gallus_gallus.fa
+#    -outfile Gallus_gallus-Gallus_gallus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Gallus_gallus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Gallus_gallus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 684
+# Identity:     684/684 (100.0%)
+# Similarity:   684/684 (100.0%)
+# Gaps:           0/684 ( 0.0%)
+# Score: 3420.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGAGGCGCTGTGGGGCTCAGCCTTCCTGATGGCGGCGCTGCTGCTGAC     50
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus      1 ATGGAGGCGCTGTGGGGCTCAGCCTTCCTGATGGCGGCGCTGCTGCTGAC     50
+
+Gallus_gallus     51 CGCCGCCCTCTGCGTCCGCTGCCACCGCCAGCGCAGTCCCGGTGCTCCGC    100
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus     51 CGCCGCCCTCTGCGTCCGCTGCCACCGCCAGCGCAGTCCCGGTGCTCCGC    100
+
+Gallus_gallus    101 TGTACGACAGAGACAAGCCGATGTCGGAACCGCCGCCTCACAGCTTCCAG    150
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    101 TGTACGACAGAGACAAGCCGATGTCGGAACCGCCGCCTCACAGCTTCCAG    150
+
+Gallus_gallus    151 ATCCTCCCCGTCGTGCGCCACCCTCAGAGCGCCCCCCCCCCACCCCGCGG    200
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    151 ATCCTCCCCGTCGTGCGCCACCCTCAGAGCGCCCCCCCCCCACCCCGCGG    200
+
+Gallus_gallus    201 AGCGGCGCCGGAGATGATCCTCAACCCGAACCCCAATCTGCACAACCCCA    250
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    201 AGCGGCGCCGGAGATGATCCTCAACCCGAACCCCAATCTGCACAACCCCA    250
+
+Gallus_gallus    251 ACATCCACCTCTCCTGGGGGACGCGCGGACACGGAGACGCGGGGTCCCCG    300
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    251 ACATCCACCTCTCCTGGGGGACGCGCGGACACGGAGACGCGGGGTCCCCG    300
+
+Gallus_gallus    301 CAGACCTCCCAGCAACGCCGCATCTCCGCCACCCGCCCGGAGCCGGAGAG    350
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    301 CAGACCTCCCAGCAACGCCGCATCTCCGCCACCCGCCCGGAGCCGGAGAG    350
+
+Gallus_gallus    351 AGGGTCCCCAACGTGCGCCCCCGAGAGCGAGGACGACTACAGCAATGAGG    400
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    351 AGGGTCCCCAACGTGCGCCCCCGAGAGCGAGGACGACTACAGCAATGAGG    400
+
+Gallus_gallus    401 TCTACGCCTCCGGATATGTGAAGGTTCTCCCGGACGCTGAGGACGCGGCG    450
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    401 TCTACGCCTCCGGATATGTGAAGGTTCTCCCGGACGCTGAGGACGCGGCG    450
+
+Gallus_gallus    451 CAGCGCAGCAACGGCACCGCCACGGCCGACACCGCAGCACACGCCACCCC    500
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    451 CAGCGCAGCAACGGCACCGCCACGGCCGACACCGCAGCACACGCCACCCC    500
+
+Gallus_gallus    501 CCCCGAGCAATATGAGAACGTCCCCGATGTCTCCCGCCACTCCCTGGGTG    550
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    501 CCCCGAGCAATATGAGAACGTCCCCGATGTCTCCCGCCACTCCCTGGGTG    550
+
+Gallus_gallus    551 ACAGCCTGGAGTACATCAACGTCCCCACGGTGACGCCCAGCCCTGCATCC    600
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    551 ACAGCCTGGAGTACATCAACGTCCCCACGGTGACGCCCAGCCCTGCATCC    600
+
+Gallus_gallus    601 CGCTACGGCAGCGACCGCGACAGCGACGCCGACGGCCCCGACTACGAGAA    650
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+Gallus_gallus    601 CGCTACGGCAGCGACCGCGACAGCGACGCCGACGGCCCCGACTACGAGAA    650
+
+Gallus_gallus    651 CGTGACCCCCCCACGCCCCCCAGGACCCCCATAA    684
+                     ||||||||||||||||||||||||||||||||||
+Gallus_gallus    651 CGTGACCCCCCCACGCCCCCCAGGACCCCCATAA    684
+
+
+#---------------------------------------
+#---------------------------------------

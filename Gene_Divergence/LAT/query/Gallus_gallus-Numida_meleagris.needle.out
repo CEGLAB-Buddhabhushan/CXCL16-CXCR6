@@ -1,0 +1,94 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Numida_meleagris.fa
+#    -outfile Gallus_gallus-Numida_meleagris.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Numida_meleagris.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Numida_meleagris
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 709
+# Identity:     571/709 (80.5%)
+# Similarity:   571/709 (80.5%)
+# Gaps:          50/709 ( 7.1%)
+# Score: 2307.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGAGGCGCTGTGGGGCTCAGCCTTCCTGATGGCGGCGCTGCTGCTGAC     50
+                     ||||||||||||||||||||.|||||||||.|||||||||||||||||||
+Numida_meleag      1 ATGGAGGCGCTGTGGGGCTCGGCCTTCCTGGTGGCGGCGCTGCTGCTGAC     50
+
+Gallus_gallus     51 CGCCGCCCTCTGCGTCCGCTGCCACCGCCAGCGCAGTCCCGGTGCTCCGC    100
+                     .|||||.||||||||||||||||||||.||.|||.||||.||.|||.||.
+Numida_meleag     51 GGCCGCGCTCTGCGTCCGCTGCCACCGGCACCGCGGTCCTGGCGCTGCGG    100
+
+Gallus_gallus    101 TGTACGACA----GAGACAAGCCGATGTCGGAACCGCCG-----CCTCA-    140
+                     ||.||..||    || |||||||||      |.|||.||     ||.|| 
+Numida_meleag    101 TGGACCCCAGCATGA-ACAAGCCGA------ACCCGGCGCTGTCCCCCAG    143
+
+Gallus_gallus    141 CAGCTTCCAGATCCTCCCCGTCGTGCGCCA-CCCTCAGAGCGCCCCCCCC    189
+                     ||||||||||.||||.|||..|..||||.| |||||..| ||.|||||||
+Numida_meleag    144 CAGCTTCCAGCTCCTGCCCCCCACGCGCTACCCCTCCCA-CGTCCCCCCC    192
+
+Gallus_gallus    190 CCACCCCGCGGAGCGGCGCCGGAGATGATCCTCAACCCGAACCCCAATCT    239
+                     |.|||.||.||..|||.||||||||.|||||..||||.|||||..||.|.
+Numida_meleag    193 CAACCGCGGGGCCCGGTGCCGGAGACGATCCCGAACCTGAACCTGAACCC    242
+
+Gallus_gallus    240 GCACAACCCCAACATCCACCTCTCCTGGGGGAC-GCGCGGACACGGAGAC    288
+                     |   ||||..|||.|.||||||||.| |||||| |||.|||||||.||||
+Numida_meleag    243 G---AACCTGAACCTGCACCTCTCGT-GGGGACAGCGGGGACACGCAGAC    288
+
+Gallus_gallus    289 GCGGGGTCCCCGCAGACCTCCCAGCAACGCCGCATCTCCGCCACCCGCCC    338
+                     .|.||||||||||||.||||||||||.||||||.|||||.||.|||||.|
+Numida_meleag    289 ACAGGGTCCCCGCAGTCCTCCCAGCAGCGCCGCGTCTCCACCGCCCGCAC    338
+
+Gallus_gallus    339 GGAGCCGGAGAGAGGGTCCCCAACGTGCGCCCCCGAGAGCGAGGACGACT    388
+                     |||.|||||..|||||||||||||||||..|||||||||||||||.||||
+Numida_meleag    339 GGAACCGGACCGAGGGTCCCCAACGTGCCTCCCCGAGAGCGAGGATGACT    388
+
+Gallus_gallus    389 ACAGCAATGAGGTCTACGCCTCCGGATATGTGAAGGTTCTCCCGGACGCT    438
+                     |||||||.||||||||||||||||||||.||||||||..||||||||.|.
+Numida_meleag    389 ACAGCAACGAGGTCTACGCCTCCGGATACGTGAAGGTGATCCCGGACCCA    438
+
+Gallus_gallus    439 GAGGACGCGGCGCAGCG-----CAGCAACGGCACCGCCACGGCCGACA--    481
+                     .|||||||.|.||| ||     || |||   ||.|.||||||..||||  
+Numida_meleag    439 CAGGACGCAGGGCA-CGATGGACA-CAA---CAGCCCCACGGGGGACAGC    483
+
+Gallus_gallus    482 ----CCGCAGCACACGCCACCCCCCCCGAGCAATATGAGAACGTCCCCGA    527
+                         ||||      ||||||||||.|.|||||.||.||||||||||||||
+Numida_meleag    484 GGCTCCGC------CGCCACCCCCACTGAGCAGTACGAGAACGTCCCCGA    527
+
+Gallus_gallus    528 TGTCTCCCGCCACTCCCTGGGTGACAGCCTGGAGTACATCAACGTCCCCA    577
+                     |||||||||||.||||||||||||||||||||||||||||||||||||||
+Numida_meleag    528 TGTCTCCCGCCGCTCCCTGGGTGACAGCCTGGAGTACATCAACGTCCCCA    577
+
+Gallus_gallus    578 CGGTGACG--CCCAGCCCTGCATCCCGCTACGGCAGCGACCGCGACAGCG    625
+                     ||  |.||  .|||||||.||.||||||||||||||||||||||||||||
+Numida_meleag    578 CG--GCCGGATCCAGCCCCGCGTCCCGCTACGGCAGCGACCGCGACAGCG    625
+
+Gallus_gallus    626 ACGCCGACGGCCCCGACTACGAGAACGTGACCCCCCCACGCCCCCCAGGA    675
+                     |||||||.|||||||||||||||||||||||||||||.|||||||..|||
+Numida_meleag    626 ACGCCGATGGCCCCGACTACGAGAACGTGACCCCCCCGCGCCCCCACGGA    675
+
+Gallus_gallus    676 CCCCCATAA    684
+                     |||||||||
+Numida_meleag    676 CCCCCATAA    684
+
+
+#---------------------------------------
+#---------------------------------------

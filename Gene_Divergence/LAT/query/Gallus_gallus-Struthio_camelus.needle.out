@@ -1,0 +1,102 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Struthio_camelus.fa
+#    -outfile Gallus_gallus-Struthio_camelus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Struthio_camelus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Struthio_camelus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 821
+# Identity:     452/821 (55.1%)
+# Similarity:   453/821 (55.2%)
+# Gaps:         265/821 (32.3%)
+# Score: 1298.5
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGAGGCGCTGTG-------GGGCTCAGC-------CTTCCTGAT----     32
+                     |||||.||||||||       |||||  ||       |.|||||.|    
+Struthio_came      1 ATGGACGCGCTGTGGCCTGCCGGGCT--GCTCTGGGGCCTCCTGCTGCTC     48
+
+Gallus_gallus     33 -----GGCGGCGCTGCTGCTGACCGCCGCCCTCTGCGTCCGCTGCCACCG     77
+                          |.|||||||||||      ||.||||||||||.|.||||   |||
+Struthio_came     49 CTCCCGACGGCGCTGCTG------GCGGCCCTCTGCGCCTGCTG---CCG     89
+
+Gallus_gallus     78 CCAG---CGCAGTCCCGGTGCTCCGCTGTACGACA-----GAG-ACAAGC    118
+                     ||||   |||.|.|.||||||.|.|.|   |||||     ||| ||||.|
+Struthio_came     90 CCAGCCCCGCGGCCACGGTGCCCAGAT---CGACAACTATGAGTACAAAC    136
+
+Gallus_gallus    119 CGATGTCGGAACCGCCGCCTC-----ACAGCTTCCAGATCCTCCCCGTCG    163
+                     |   ..|||  ||..||||.|     ||||||||   ||.||.|      
+Struthio_came    137 C---CCCGG--CCTGCGCCCCGGCCAACAGCTTC---ATGCTGC------    172
+
+Gallus_gallus    164 TG-CGCCACCCTCAGAGC-GCCCCCCCCCCACCCC---------GCGGAG    202
+                     || |||..|||    ||| |||||.|.|.||||||         ||.|| 
+Struthio_came    173 TGACGCGGCCC----AGCTGCCCCTCTCACACCCCAATCAAGCAGCAGA-    217
+
+Gallus_gallus    203 CGGCGCCGGAGATGATCCTCAACCCGAACCCCAAT--CTGCACAACCCCA    250
+                     |||.||          |||| |.|.||.|||   |  |||          
+Struthio_came    218 CGGTGC----------CCTC-AGCAGAGCCC---TTCCTG----------    243
+
+Gallus_gallus    251 ACATCCACCTCTCCTGGGGGACGCGCGGACACGGAGACGCGGGGTCCCCG    300
+                        ||||    |||                         ||.||||||||
+Struthio_came    244 ---TCCA----TCC-------------------------CGCGGTCCCCG    261
+
+Gallus_gallus    301 CAGACCTCCCAGCAACGCCGCA---TCTCCGCCACCCGCCCGGAGCCGGA    347
+                     ||..||.|.|||   .||||||   |||||..|||||||||.||.|||||
+Struthio_came    262 CAAGCCCCTCAG---AGCCGCAAGGTCTCCTTCACCCGCCCAGAACCGGA    308
+
+Gallus_gallus    348 ----GAGAGGGTCCCCA---ACG---------------------------    363
+                         ||.||.||.||||   |||                           
+Struthio_came    309 CAACGACAGCGTGCCCAGCTACGAGAACGAGGCTGAGGCGGGGGGCCATC    358
+
+Gallus_gallus    364 -------------------------------TGC----------GCCCCC    372
+                                                    |||          ||.|||
+Struthio_came    359 CCCGGGGCGTCTGGCCGCGGGCCCCGTCCCCTGCCCCGCCGGCGGCTCCC    408
+
+Gallus_gallus    373 GAGAGCGAGGACGACTACAGCAATGAGGTCTACGCCTCCGGATATGTGAA    422
+                     |||..||||||||||||||.|||.||..||||||||.||||.||.||..|
+Struthio_came    409 GAGGCCGAGGACGACTACAACAACGACCTCTACGCCACCGGCTACGTCGA    458
+
+Gallus_gallus    423 GGTTCTCCCGGACGCTGAGGACGCGGCGCAGCGCAG-CAACGGCA-CCGC    470
+                     |||.||.||||||||      ||||||.||||.|.| |..|.||| ||||
+Struthio_came    459 GGTGCTGCCGGACGC------CGCGGCCCAGCCCGGCCCCCCGCAGCCGC    502
+
+Gallus_gallus    471 CAC-GGCC---GACACCGCAGCACACGCCACCCCCCCC---GAGCAATAT    513
+                     |.| ||||   ||||  ||.||.| |.|:.|..|.|||   |||.|.||.
+Struthio_came    503 CCCAGGCCAGGGACA--GCGGCTC-CTCYGCGGCGCCCGGTGAGGAGTAC    549
+
+Gallus_gallus    514 GAGAACGTCCCCGATGTCTCCCGCCACTCCCTGGGTGACAGCCTGGAGTA    563
+                     ||||||||||||||||.|...|||||.|||||||..||||||||||||||
+Struthio_came    550 GAGAACGTCCCCGATGCCCATCGCCATTCCCTGGCCGACAGCCTGGAGTA    599
+
+Gallus_gallus    564 CATCAACGTCCCCACGGTGACGCCCAGCCCTGCATCCCGCTACGGCAGCG    613
+                     |.|||||||||||..||.|..|.|||||||.||..|||||||||.||   
+Struthio_came    600 CGTCAACGTCCCCGAGGGGGGGGCCAGCCCCGCGCCCCGCTACGCCA---    646
+
+Gallus_gallus    614 ACCGCGACAGCGACGCCGACGGCCCCGACTACGAGAACGTGACCCCCCCA    663
+                        ||||.|||||.|..||.|.|||.||||||||||||.||         
+Struthio_came    647 ---GCGAGAGCGAGGAGGATGCCCCGGACTACGAGAACCTG---------    684
+
+Gallus_gallus    664 CGCCCCCCAGGACCCCCATAA    684
+                            |||.||     |.|
+Struthio_came    685 -------CAGCAC-----TGA    693
+
+
+#---------------------------------------
+#---------------------------------------

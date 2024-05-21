@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:14
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Calidris_pugnax.fa
+#    -outfile Anas_platyrhynchos-Calidris_pugnax.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Calidris_pugnax.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Calidris_pugnax
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1039
+# Identity:     901/1039 (86.7%)
+# Similarity:   901/1039 (86.7%)
+# Gaps:           2/1039 ( 0.2%)
+# Score: 3941.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCT-CAGCCATTG     49
+                     |||.|||||.|||||||||.||.||||||||||||||||| ||| ||.||
+Calidris_pugn      1 ATGACAACTTCAGATGCTGATAACTTTTATTATAACTTCTCCAG-CACTG     49
+
+Anas_platyrhy     50 ATCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTT     99
+                     ||.||.|.|||.|.||||.|||||||.||.|.|||||||.|.|..||||.
+Calidris_pugn     50 ATTCCTACGAAGATGGAAGTGAGAATCTTCAGACATTTACATCAGTCTTC     99
+
+Anas_platyrhy    100 CTGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGC    149
+                     |||||.||||||||.|||.|||||||.|||.||||||||||||||||.||
+Calidris_pugn    100 CTGCCTTGTGTGTACTCGGTTGTTTTCATCCTTGGGCTAGCAGGAAACGC    149
+
+Anas_platyrhy    150 TCTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAG    199
+                     .|||||||||.||||||||||.||||||||||||||||||||||||||||
+Calidris_pugn    150 GCTGGTCTTTGTCATACTGGTTTTCTATGAGAAACTGAAGACACTGACAG    199
+
+Anas_platyrhy    200 ATATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACG    249
+                     |..|.||||||.||||..||||.||||||||||||.||||||||||||||
+Calidris_pugn    200 ACGTGTTTTTGGTGAATTTGGCAATAGCTGATTGGGTCTTCCTTTGGACG    249
+
+Anas_platyrhy    250 CTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGT    299
+                     |||||.||||||||.||||||||||.|||||||||||.|||||||||...
+Calidris_pugn    250 CTGCCGTTCTGGGCATATTCTGCTGGTCAGGAGTGGACTTTTGGCACCAC    299
+
+Anas_platyrhy    300 GACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAA    349
+                     |.|.|||||.||.|||||||||.||||.|.||||||||||||||||||||
+Calidris_pugn    300 GGCCTGTCGTATTATACGGGGCTTGTATATTCTGAACTTGTACACTTCAA    349
+
+Anas_platyrhy    350 TGTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTT    399
+                     |||||||.|||||.||.|||||||||||||||||||||.|||||||||||
+Calidris_pugn    350 TGTTAACCCTAACATCCATCACCTTTGACAGGCTTATTGCTATTACTTTT    399
+
+Anas_platyrhy    400 GCCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATT    449
+                     ||||||||||||||||||.||||||||||||||.|||..|||||||||||
+Calidris_pugn    400 GCCACCAAAGCACATATGTGTCAAACCAAACGAATGACGTGGGGCAAATT    449
+
+Anas_platyrhy    450 AATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGC    499
+                     |.||||.|..||||||||||||||.||..||||||||||||||||||||.
+Calidris_pugn    450 AGTCTGTGTTTTGATCTGGGTGATCTCCCTAGCATTTGCCACACCACAGT    499
+
+Anas_platyrhy    500 TTATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAA    549
+                     |||||||||||.|.|||||||.||||||||||.|||||||.|.||||.||
+Calidris_pugn    500 TTATTTTTAGTAAGGTGTTTAATATTGATAAGGCAATATGTCAGGAAGAA    549
+
+Anas_platyrhy    550 TACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCT    599
+                     ||||||.||||...||.||||.|.|.|||||||||.||.|||||||||||
+Calidris_pugn    550 TACCCAAACCATGGCACAGAACTTGCTCTTGAAGTGATCCAAGTGACCCT    599
+
+Anas_platyrhy    600 TGGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTA    649
+                     |||.||.|||||||||||||||.|||||||.|||||||||||||||||||
+Calidris_pugn    600 TGGCTATTTTATTCCCATGCTAGCCATGATAATCTGCTACTCCCTAATTA    649
+
+Anas_platyrhy    650 TTAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAA    699
+                     |||.||||||||||||||||||||..||.|||||||||||||||||||||
+Calidris_pugn    650 TTAGAACCTTACTGCATGCCAGGAGTTTTCAAAAGAACAAATCTCTAAAA    699
+
+Anas_platyrhy    700 AAAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACAC    749
+                     ||||||||||||.|.||.||.||||||.|||||||||||||||||||.||
+Calidris_pugn    700 AAAATATTTTCTCTTGTTGCAATATTTCTTCTTACTCAGTCACCCTATAC    749
+
+Anas_platyrhy    750 TTTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCA    799
+                     |||||||||||||||.||||||||..||||||||||.||.|||.||||||
+Calidris_pugn    750 TTTCTTGAGACTGATAAAGATCATAAACTGGAGCTTTAATTTGAACAGCA    799
+
+Anas_platyrhy    800 ACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGC    849
+                     .||||||.||.||.|||.|.|||||||||||.||||||||||||||.|||
+Calidris_pugn    800 GCTTTGAATATGCAATCATCATAACAGAAGCTCTTGCTTATTTCCATGGC    849
+
+Anas_platyrhy    850 TGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAA    899
+                     |||||||||||||||.||||||||||||||||||||||||||||||.|||
+Calidris_pugn    850 TGTCTTAACCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGGAA    899
+
+Anas_platyrhy    900 CTTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTG    949
+                     .||.||||||||||||||||.||||||.|||.|.||||.|||||||.|.|
+Calidris_pugn    900 TTTACAGAAAATTATTAAAAACTCAAGCTGCATCAAACGGCAAGTTACAG    949
+
+Anas_platyrhy    950 TTAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTC    999
+                     .||.|||.|||||.|||||||||||.|||||||||||.||||.|||||.|
+Calidris_pugn    950 CTAAACAATGGCAAACCACTGAAGAGGAAGGCTCTAAGACTTTTACTGCC    999
+
+Anas_platyrhy   1000 TCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     ||||||||||||||.|..||||||||||||||.||.|.|
+Calidris_pugn   1000 TCAAATAATGCAGAGGCAACAAGCATGTACCCACTATGA   1038
+
+
+#---------------------------------------
+#---------------------------------------

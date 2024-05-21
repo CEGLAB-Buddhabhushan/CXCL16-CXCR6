@@ -1,0 +1,102 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:37:41
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Pipra_filicauda.fa
+#    -outfile Gallus_gallus-Pipra_filicauda.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Pipra_filicauda.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Pipra_filicauda
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 810
+# Identity:     390/810 (48.1%)
+# Similarity:   391/810 (48.3%)
+# Gaps:         339/810 (41.9%)
+# Score: 944.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGGAGG---CGCTGTGGGGCTCAGCCTTCCTGATGGCGGCGCTGCTGCT     47
+                     |||||.|   |.||.| ||||||.||  ||||         |||||..||
+Pipra_filicau      1 ATGGACGCCCCTCTCT-GGGCTCTGC--TCCT---------GCTGCCCCT     38
+
+Gallus_gallus     48 GACC---------GCCGCCCTCTGCGTCCGCTGCCACCGC----------     78
+                     .|||         |||.|.|||||||.||||||||.||||          
+Pipra_filicau     39 CACCCCCATCCTGGCCTCGCTCTGCGCCCGCTGCCGCCGCCCCCGRCCTC     88
+
+Gallus_gallus     79 --CAGCGCAGTCCCGGTGCTCCGCTG------TACGACAGAGACAAG---    117
+                       ||||||   |||      |.||||      ||||||   .|||||   
+Pipra_filicau     89 ATCAGCGC---CCC------CTGCTGGACAACTACGAC---TACAAGCCC    126
+
+Gallus_gallus    118 CCGATGTCGGAACCGCCGCCTCACAGCTTCCAGATCCTCCCCG--TCGTG    165
+                     ||.|||        ||| ||||.|           ||.|||||  |||||
+Pipra_filicau    127 CCCATG--------GCC-CCTCCC-----------CCACCCCGGTTCGTG    156
+
+Gallus_gallus    166 ----CGCCACCCTCAGAGC---GCCCCCCCCCCACCCCGCGGAGCGGCGC    208
+                         .|  |||  |||.||   |||||.||||||||||         |.|
+Pipra_filicau    157 GTGATG--ACC--CAGCGCTGTGCCCCTCCCCCACCCC---------CCC    193
+
+Gallus_gallus    209 CGGAGATGATCCTCAACCCGAACCCCAATCTGCACAACCCCAACATCCAC    258
+                     ||.||            |||  ||     |||                  
+Pipra_filicau    194 CGCAG------------CCG--CC-----CTG------------------    206
+
+Gallus_gallus    259 CTCTCCTGGGGGACGCG-CGGA--CACGGAGACGCGGGGTCCCCGCAGAC    305
+                            |||||.|.|| ||||  |.|||| ||..|||..||||.|||.|
+Pipra_filicau    207 -------GGGGGCCCCGACGGAGCCCCGGA-ACAGGGGCCCCCCCCAGGC    248
+
+Gallus_gallus    306 CTCCC---AGCAACGCCGCATCTCCGCC-AC-CCG--CCCGGAGCCGGAG    348
+                     | |||   |||  ||||||.||||.||| || |||  ||| |||||    
+Pipra_filicau    249 C-CCCTCGAGC--CGCCGCGTCTCGGCCGACTCCGATCCC-GAGCC----    290
+
+Gallus_gallus    349 AGAGGGTCCCCAACGTGCGCCCCCGAGAGCGAGGACGACTACAGCAATGA    398
+                            ||||    |.|..|||||||   ||||||||.||||.||    
+Pipra_filicau    291 -------CCCC----TTCCTCCCCGAG---GAGGACGATTACACCA----    322
+
+Gallus_gallus    399 GGTCTACGCCTCCGGATATGTGAAGGTTCTCCCGGACGCT----------    438
+                          |||.|..||||||.||||.|||.||.||.|||.||          
+Pipra_filicau    323 -----ACGTCAGCGGATACGTGACGGTGCTGCCCGACCCTCCCCCACCCG    367
+
+Gallus_gallus    439 --------------------------------GAGGACGCGGCGCA-GCG    455
+                                                     |||||.|.||.|.| |.|
+Pipra_filicau    368 AGACCCCCCCGGAGTCAGRGACAGGGGTGGGGGAGGAGGAGGAGGAGGAG    417
+
+Gallus_gallus    456 CAGCAACGGCACCGCCACGGCCGACACCGCAGCAC----ACGCCACCCCC    501
+                     .||.|..||.|..|              ||||.||    |||..|.|..|
+Pipra_filicau    418 GAGGAGGGGGAGGG--------------GCAGGACCGGTACGAGAACGTC    453
+
+Gallus_gallus    502 CCCGAGCAATAT----GAGAACGTCCCCGA------TGTCTCCC----GC    537
+                     |||||| ||..|    ||||||:.||||||      .|    ||    ||
+Pipra_filicau    454 CCCGAG-AACGTTCCAGAGAACRGCCCCGAAAACGGAG----CCGAGAGC    498
+
+Gallus_gallus    538 CACTCCCTGG-GTGAC----------AGCCTGGAGTACATCAACGTCCCC    576
+                     .||     || |.|||          ||.||.|||||||||||||||||.
+Pipra_filicau    499 GAC-----GGAGGGACCCGCGCGCCGAGTCTCGAGTACATCAACGTCCCG    543
+
+Gallus_gallus    577 ACGGTGACGCCCAGCCCTGCATCCCGCTACGGCAGCGACCGCGACAGCGA    626
+                     .|||.|                ||||  ||    ||||  ||||.|||||
+Pipra_filicau    544 GCGGGG----------------CCCG--AC----GCGA--GCGAGAGCGA    569
+
+Gallus_gallus    627 CGCCGACGGCCCCGACTACGAGAAC--GTGACCCCCCCACGCCCCCCAGG    674
+                        |||.|||.||||.|||||||||  .|||                   
+Pipra_filicau    570 ---CGAGGGCGCCGATTACGAGAACCTCTGA-------------------    597
+
+Gallus_gallus    675 ACCCCCATAA    684
+                               
+Pipra_filicau    597 ----------    597
+
+
+#---------------------------------------
+#---------------------------------------

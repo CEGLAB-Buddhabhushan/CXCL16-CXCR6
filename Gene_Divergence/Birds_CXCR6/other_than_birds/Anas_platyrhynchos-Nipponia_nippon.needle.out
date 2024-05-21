@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:15
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Nipponia_nippon.fa
+#    -outfile Anas_platyrhynchos-Nipponia_nippon.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Nipponia_nippon.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Nipponia_nippon
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     911/1038 (87.8%)
+# Similarity:   911/1038 (87.8%)
+# Gaps:           0/1038 ( 0.0%)
+# Score: 4047.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||||||.|.|||||||||.||.||||||||||||||||||...||||||
+Nipponia_nipp      1 ATGGCAAGTACAGATGCTGGTAACTTTTATTATAACTTCTCCATCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||.||||||||||..|.|||||||.|||..||||.||...||||.|
+Nipponia_nipp     51 TCCCAACGAAAACGGAAGCGGGAATTTTCACATCTTTACAAGAGTCTTCC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||.||..||||.|||.||||.||.|||.||||||||||||||||.|..
+Nipponia_nipp    101 TGCCTTGCATGTACTCGCTTGTCTTCATCCTTGGGCTAGCAGGAAACGTG    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     |||||||||.|||||||.||..||||||||||||.|||||||||||||||
+Nipponia_nipp    151 CTGGTCTTTGTCATACTAGTTGTCTATGAGAAACGGAAGACACTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||.|||||.|||||||||||||.|||.|||||||||||||||
+Nipponia_nipp    201 TATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGACGC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||||||||||||||.|||||||.|||||||||.|||
+Nipponia_nipp    251 TGCCATTCTGGGCATATTCTGCTGCTCATGAGTGGACTTTTGGCACCGTG    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|.|||||.||.|||||||||.||||.|.|||||||||||||||||||||
+Nipponia_nipp    301 GCGTGTCGTATTATACGGGGCTTGTATACTCTGAACTTGTACACTTCAAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||||||||.|||||||||||||||.|.||||||.||||||||||||
+Nipponia_nipp    351 GTTAACTCTAACATCTATCACCTTTGACCGACTTATTGCTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     ||||||||||||.||||.||||||||||||||.|||.|||||||||||.|
+Nipponia_nipp    401 CCACCAAAGCACGTATGTGTCAAACCAAACGAATGACATGGGGCAAATCA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.|||||||||||||||.|||.||||||||||||||||||||.|
+Nipponia_nipp    451 ATCTGTGTCTTGATCTGGGTGATCTCACTAGCATTTGCCACACCACAGTT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     |||||||||.||.|||||||.||||||||||.||.||||.|.||||.|||
+Nipponia_nipp    501 TATTTTTAGCGAGGTGTTTAGTATTGATAAGGCAGTATGTCAGGAAGAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.|.||.|||..||||.|||||||||||||.||.||||||||||||
+Nipponia_nipp    551 ACCCAAATCATCACTCAGAACTGGTTCTTGAAGTGATCCAAGTGACCCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||||||||||||.||||||.||||||||||||.||||||||
+Nipponia_nipp    601 GGCTATTTTATTCCCATGCTAGCCATGACCATCTGCTACTCTCTAATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||.|||||||||||||||||.||..||.||||||||||||||||||||||
+Nipponia_nipp    651 TAGAACCTTACTGCATGCCAAGAGTTTTCAAAAGAACAAATCTCTAAAAA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     .|||||||||||||||.|||||||||||||||||||||||||||||.|||
+Nipponia_nipp    701 GAATATTTTCTGTAGTTGCCATATTTATTCTTACTCAGTCACCCTATACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     |||.||||||||||.||||||||.|||||||||||.||||||.|||||||
+Nipponia_nipp    751 TTCCTGAGACTGATAAAGATCATAGACTGGAGCTTTAACTTGAACAGCAA    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.||.||||||||||.||||||||||||||.||||
+Nipponia_nipp    801 CTTTGAATATGCAATCATTGTAACAGAAGCTCTTGCTTATTTCCATGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     ||||||||||||||.||||||||||||||||||||||||||||||.|||.
+Nipponia_nipp    851 GTCTTAACCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGGAAT    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     .|.||||||||||||||||.||||.|||||.|.||||||||||.|.|.|.
+Nipponia_nipp    901 GTACAGAAAATTATTAAAAACTCATGGTGCATCAAACAGCAAGGTACAGC    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||.|||||||||||.||||||||||||||||.|||||.||
+Nipponia_nipp    951 TAAACAGTGGCAAACCACTGAAGAGGAAGGCTCTAAAACTTTTACTGCCT   1000
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||.||||||||.||||||||||||||.||.|||
+Nipponia_nipp   1001 CAAATAACGCAGATGTAACAAGCATGTACCCACTATAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

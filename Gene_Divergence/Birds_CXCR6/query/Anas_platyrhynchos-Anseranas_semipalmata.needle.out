@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:10
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Anseranas_semipalmata.fa
+#    -outfile Anas_platyrhynchos-Anseranas_semipalmata.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Anseranas_semipalmata.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Anseranas_semipalmata
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     961/1038 (92.6%)
+# Similarity:   961/1038 (92.6%)
+# Gaps:           0/1038 ( 0.0%)
+# Score: 4497.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||.|||||.||||||||||||||||||||||||||||||||||||||||
+Anseranas_sem      1 ATGACAACTACAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||||||||.|||||.||||||||||||||||||||||.||||||||
+Anseranas_sem     51 TCCCAATGAAAATGGAATAGAGAATTTTTACACATTTATAAGTATCTTTC    100
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.|||||||||.|||||||||||||||.|||||||||||||||
+Anseranas_sem    101 TGCCCTGTATGTATTCGTCTGTTTTTATCTTTGGACTAGCAGGAAATGCT    150
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     |||||||||||||||||.||.|||||||||||||||||||||||||||||
+Anseranas_sem    151 CTGGTCTTTATCATACTAGTTTTCTATGAGAAACTGAAGACACTGACAGA    200
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     ||||||||||||||||.|||||||||||||.||||||||.||||||||.|
+Anseranas_sem    201 TATATTTTTGTTGAACTTGGCTATAGCTGACTGGATCTTTCTTTGGACAC    250
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     ||||.||||||||.|||||||||||||||||||||||||||||.|.||..
+Anseranas_sem    251 TGCCGTTCTGGGCATATTCTGCTGCTCAGGAGTGGATTTTTGGTATTGCA    300
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .|||||||.||..||||||||.||||.|||||||||||||||||||||||
+Anseranas_sem    301 GCATGTCGTATTGTACGGGGCTTGTATAATCTGAACTTGTACACTTCAAT    350
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     |||||||||||||||||||||||||||||||||||||..|||||||||||
+Anseranas_sem    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTGTTATTACTTTTG    400
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     ||||.|||||.|.||||.||||||||||||||.|.|.|||||||||||||
+Anseranas_sem    401 CCACGAAAGCGCGTATGTGTCAAACCAAACGAATAACATGGGGCAAATTA    450
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     |||||.|.|||||||||||||||||||.||||||||||||||||||||.|
+Anseranas_sem    451 ATCTGTGTCTTGATCTGGGTGATTTCACTAGCATTTGCCACACCACAGTT    500
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.||||||||||||||||||.|||||||.|.||||.|||
+Anseranas_sem    501 TATTTTTAGTGACGTGTTTACTATTGATAAGGCAATATGTCAGGAAGAAT    550
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.|||||||||.|||||||||||||||||||||.||||||||||||
+Anseranas_sem    551 ACCCAAACCACCACACAGAATTGGTTCTTGAAGTTATCCAAGTGACCCTT    600
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     |||||||||||||||||||||||||||||||||||||||||.||.|||||
+Anseranas_sem    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCACTGATTAT    650
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     |||||||||||||||.||||||||.|||||||||||||||||||||||||
+Anseranas_sem    651 TAAAACCTTACTGCACGCCAGGAATTTCCAAAAGAACAAATCTCTAAAAA    700
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     ||||||||||||||||.|||||||||||||||||||||||||||||||||
+Anseranas_sem    701 AAATATTTTCTGTAGTTGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     |||||||||||||||||||||||.|||||||||||.||||||||||||||
+Anseranas_sem    751 TTCTTGAGACTGATGAAGATCATAGACTGGAGCTTTAACTTGGACAGCAA    800
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     |||||||||.||.|||.|.|||||||||||.||||||||.|||||.||||
+Anseranas_sem    801 CTTTGACTATGCAATCATCATAACAGAAGCTCTTGCTTACTTCCATGGCT    850
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     |.||||||||||||||||||||||||||||||||||||||||||||||||
+Anseranas_sem    851 GCCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     |||||||||||||||||||.||||||.||||||||||.|||||||.||||
+Anseranas_sem    901 TTCCAGAAAATTATTAAAAACTCAAGATGCTTTAAACGGCAAGTTACTGT    950
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     ||.|||||||||.|||||||||||.||||||||||.|||||.|||||.||
+Anseranas_sem    951 TAAACAGTGGCAAACCACTGAAGATGAAGGCTCTAGAACTTTTACTGCCT   1000
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |.|||||||||||||..||||||||||||||.||.|||
+Anseranas_sem   1001 CGAATAATGCAGATGCAACAAGCATGTACCCGCTATAA   1038
+
+
+#---------------------------------------
+#---------------------------------------

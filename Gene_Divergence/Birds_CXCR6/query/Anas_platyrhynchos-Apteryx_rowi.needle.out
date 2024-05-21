@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 15:33:10
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Apteryx_rowi.fa
+#    -outfile Anas_platyrhynchos-Apteryx_rowi.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Apteryx_rowi.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Apteryx_rowi
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1038
+# Identity:     895/1038 (86.2%)
+# Similarity:   895/1038 (86.2%)
+# Gaps:           3/1038 ( 0.3%)
+# Score: 3904.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||.|||||.||||.||||.|..|||   ||||.||||||||||||.|||
+Apteryx_rowi       1 ATGACAACTACAGAGGCTGATCACTT---TTATGACTTCTCAGCCACTGA     47
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     |||||||||||..||||.|||.||||||||||||||||.||..|.|||||
+Apteryx_rowi      48 TCCCAATGAAACTGGAAGTGACAATTTTTACACATTTACAAGAAGCTTTC     97
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.|||||||.|..|||||||||||||||||||||||||||.||
+Apteryx_rowi      98 TGCCCTGTATGTATTCATGCGTTTTTATCTTTGGGCTAGCAGGAAATACT    147
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     .||||||||||||||||.||.|||||||||||||||||||||||||||||
+Apteryx_rowi     148 TTGGTCTTTATCATACTAGTTTTCTATGAGAAACTGAAGACACTGACAGA    197
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGACGC    250
+                     |.|.||||||.|||||.|||||||||||||.|||.||||.||.|||||.|
+Apteryx_rowi     198 TGTGTTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTTCTGTGGACCC    247
+
+Anas_platyrhy    251 TGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGTG    300
+                     |||||||||||||.||.|||||||||||||||||||.|||||||||||||
+Apteryx_rowi     248 TGCCATTCTGGGCATACTCTGCTGCTCAGGAGTGGACTTTTGGCACTGTG    297
+
+Anas_platyrhy    301 ACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAAT    350
+                     .||||||..||.|||||||||.||||.|.||||||.||||||||.|||||
+Apteryx_rowi     298 GCATGTCATATTATACGGGGCTTGTATACTCTGAATTTGTACACGTCAAT    347
+
+Anas_platyrhy    351 GTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTTG    400
+                     ||||||||||||.|..||.|||||.||..||||||||.||||||||||||
+Apteryx_rowi     348 GTTAACTCTAACCTGCATAACCTTCGATCGGCTTATTGCTATTACTTTTG    397
+
+Anas_platyrhy    401 CCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATTA    450
+                     |||||||||||||.|||.||||||||||||||.|||.|.|||||||||||
+Apteryx_rowi     398 CCACCAAAGCACACATGTGTCAAACCAAACGAATGACACGGGGCAAATTA    447
+
+Anas_platyrhy    451 ATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGCT    500
+                     ||||||..|||||||||||||||||||.||||.|||||||||||||||.|
+Apteryx_rowi     448 ATCTGCATCTTGATCTGGGTGATTTCACTAGCCTTTGCCACACCACAGTT    497
+
+Anas_platyrhy    501 TATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAAT    550
+                     ||||||||||||.|..|||..||||||||||.|||||||.|.||||||.|
+Apteryx_rowi     498 TATTTTTAGTGAGGCATTTCGTATTGATAAGGCAATATGTCAGGAAAACT    547
+
+Anas_platyrhy    551 ACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCTT    600
+                     |||||.||||.|.||.||||||||||||||||||.||.|||.||.|||||
+Apteryx_rowi     548 ACCCAAACCATCGCACAGAATTGGTTCTTGAAGTAATCCAACTGGCCCTT    597
+
+Anas_platyrhy    601 GGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTAT    650
+                     ||.||.|||||.||||||||||||||||.||||||||||||.|||||.||
+Apteryx_rowi     598 GGCTATTTTATCCCCATGCTAACCATGACCATCTGCTACTCACTAATCAT    647
+
+Anas_platyrhy    651 TAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAAA    700
+                     ||||||.|||.||||.|||||||..||.||.|||.||||||||||.||||
+Apteryx_rowi     648 TAAAACATTATTGCACGCCAGGAGTTTTCAGAAGTACAAATCTCTGAAAA    697
+
+Anas_platyrhy    701 AAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACACT    750
+                     .|||||||||||||||.||||.||||||||||||||||.|||||||||||
+Apteryx_rowi     698 GAATATTTTCTGTAGTTGCCACATTTATTCTTACTCAGACACCCTACACT    747
+
+Anas_platyrhy    751 TTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGCAA    800
+                     |||||||||.|.||..||||||..||.||||||||.||||||.||.||||
+Apteryx_rowi     748 TTCTTGAGAATAATAGAGATCACAGATTGGAGCTTTAACTTGAACCGCAA    797
+
+Anas_platyrhy    801 CTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGGCT    850
+                     ||||||.||.||.|||.|.|||||||||||..|||||||||||||.||||
+Apteryx_rowi     798 CTTTGAATATGCAATCATCATAACAGAAGCTTTTGCTTATTTCCATGGCT    847
+
+Anas_platyrhy    851 GTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGAAC    900
+                     |.||.|||||||||.|||||||||||||.||||||||||||||||||||.
+Apteryx_rowi     848 GCCTCAACCCTGTTCTGTATTTCTTCATTGGGGTGAAATTCAGGAAGAAT    897
+
+Anas_platyrhy    901 TTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGT    950
+                     |||||||||||.|||||||..|||||.|||.|.|||..|||||||.||||
+Apteryx_rowi     898 TTCCAGAAAATGATTAAAAAGTCAAGATGCATCAAATGGCAAGTTACTGT    947
+
+Anas_platyrhy    951 TAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGTCT   1000
+                     |||||||.||||.|||||||||||.||||||||||||||||.|||||.||
+Apteryx_rowi     948 TAGACAGGGGCAAACCACTGAAGATGAAGGCTCTAAAACTTTTACTGCCT    997
+
+Anas_platyrhy   1001 CAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||||||||..|||||||||||.||.||||||
+Apteryx_rowi     998 CAAATAATGCAGATGCAACAAGCATGTATCCGCTGTAA   1035
+
+
+#---------------------------------------
+#---------------------------------------

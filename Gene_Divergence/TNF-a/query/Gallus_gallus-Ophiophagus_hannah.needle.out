@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 23 Apr 2024 23:42:09
+# Commandline: needle
+#    -asequence Gallus_gallus.fa
+#    -bsequence Ophiophagus_hannah.fa
+#    -outfile Gallus_gallus-Ophiophagus_hannah.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Gallus_gallus-Ophiophagus_hannah.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Gallus_gallus
+# 2: Ophiophagus_hannah
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1015
+# Identity:     381/1015 (37.5%)
+# Similarity:   381/1015 (37.5%)
+# Gaps:         485/1015 (47.8%)
+# Score: 595.0
+# 
+#
+#=======================================
+
+Gallus_gallus      1 ATGACCACGCTCTTTCCGTGTCTCCCCGTGTCCGTTCCGTGTTTCCCCGC     50
+                                                                       
+Ophiophagus_h      0 --------------------------------------------------      0
+
+Gallus_gallus     51 GTTCTTTCCACCTTCCCCCTTTCCCTCCCGTGTCTCCCCACGTGTCCCCG    100
+                                                                       
+Ophiophagus_h      0 --------------------------------------------------      0
+
+Gallus_gallus    101 CGTCGCTTCCTCTTCCCCCCCCCCCCCCCCCCTCCCTCCTCGCCGTGGGG    150
+                                                                       
+Ophiophagus_h      0 --------------------------------------------------      0
+
+Gallus_gallus    151 CTGCCCCACACGTGGGCGGTGCGGCCATATAAGCGCCG------TGGGG-    193
+                                                 ||.|||.|.|      |||.| 
+Ophiophagus_h      1 ----------------------------ATGAGCTCTGAGCAATTGGTGC     22
+
+Gallus_gallus    194 -GGGGGGGGGGGGGGGGCAC-----TGCCATGGCCG---------TCC--    226
+                      .|..|.||.|...|||.||     ||.|||  |||         |||  
+Ophiophagus_h     23 ACGATGTGGAGAAAGGGAACATAGTTGTCAT--CCGAGAACCCTCTCCGA     70
+
+Gallus_gallus    227 -------CCACCGCCACCGTCACCGC-TCTGCTGC----TGCTGCTG-CT    263
+                            ||||.|..|..|||.|.|| ||||.|.|    ||||.||| .|
+Ophiophagus_h     71 AAAACAACCACTGGAAGTGTCTCAGCATCTGTTCCTTCTTGCTTCTGATT    120
+
+Gallus_gallus    264 GCCGCCG-----------CCCCACATCC--ACGCGCTGCCGTGGGGAGAG    300
+                     |..||||           .|||.|.|.|  ||| |.|||..|.||  |..
+Ophiophagus_h    121 GGAGCCGTAACTGTCTTTGCCCTCTTGCAAACG-GATGCATTTGG--GTT    167
+
+Gallus_gallus    301 GACCCCACAGCTCCGCTCAG-AACGACG--------------TCAATTGA    335
+                     |.||..|.||  |.|.|.|| ||| |||              |||.||| 
+Ophiophagus_h    168 GTCCGAAAAG--CAGGTTAGTAAC-ACGAGCTGGGTGAAGCATCATTTG-    213
+
+Gallus_gallus    336 CCC--CCCCATGGAGCTGCAGGTGGCGCGGAG----GGACAAACCCGCAG    379
+                     |||  |.|.|||.|..||||   .||...|||    ||| |||||.||.|
+Ophiophagus_h    214 CCCGGCACAATGAAAGTGCA---AGCCTTGAGGTCTGGA-AAACCAGCTG    259
+
+Gallus_gallus    380 CGCACGTCGTGGCATCGTCC--TC--TCAGCCCGGCTCGTTGGTGTGGGA    425
+                     |.||||..||.||.||.|||  ||  |||.|.|..|    ||..|||   
+Ophiophagus_h    260 CCCACGCTGTCGCTTCTTCCCGTCATTCACCACAAC----TGAAGTG---    302
+
+Gallus_gallus    426 CGACCGC------GTTGCC--CCATCCCTGGTCCGTAACGGCGTGGTGC-    466
+                      |||.||      |||.||  |||| |||||   ..||||||.||..|| 
+Ophiophagus_h    303 -GACTGCAGATGTGTTTCCTTCCAT-CCTGG---AAAACGGCATGCGGCT    347
+
+Gallus_gallus    467 ---TGAGAAGGAACAAACTGGTGGTCCCCC---GGGACGGCCTT------    504
+                        ||||||.||  ||||      ||||.|   |    .|||||      
+Ophiophagus_h    348 GGATGAGAACGA--AAAC------TCCCTCATTG----TGCCTTCTACTG    385
+
+Gallus_gallus    505 -----TACTTCGTATACGCCGCCGCCGCT----TTCCAGGGGG-------    538
+                          ||||||||.|||    .|.|.|||    |||||...||       
+Ophiophagus_h    386 GATTGTACTTCGTCTAC----TCTCAGCTCTTGTTCCACAAGGACAACTG    431
+
+Gallus_gallus    539 --GGGGGCGCTGTT----TCATCCCC-----CCCCTGAGGCT-GTCGGTC    576
+                       .|..|| ||.||    |||.||.|     |.|||   ||| ||| .||
+Ophiophagus_h    432 CAAGAAGC-CTCTTCTGCTCACCCACAATATCACCT---GCTGGTC-CTC    476
+
+Gallus_gallus    577 AG----CCGCTTCTCCGAGG------------AGTACCCCAAAGACGTCC    610
+                     ||    |.||||   .||||            |||.|..||||       
+Ophiophagus_h    477 AGACTTCGGCTT---GGAGGTAGAATTGCTAAAGTCCATCAAA-------    516
+
+Gallus_gallus    611 CCCTCCTGACCGCCGTGCGCTCCGTCTGCCCCGGGGAAGGGGGGAGGGGG    660
+                                         ||.||||                       
+Ophiophagus_h    517 --------------------TCTGTCT-----------------------    523
+
+Gallus_gallus    661 GGGAGGAGG-----AGGAGGAAGAGGAGGGGCGGGGGGGGGGGGGACGGC    705
+                     |.|||||.|     ||.|..||.|                          
+Ophiophagus_h    524 GTGAGGAAGTCTCCAGCAATAAAA--------------------------    547
+
+Gallus_gallus    706 GGTGGGGGGGGGCCGTGGTTCGAGTCGCTGTATCAGGGGGCGGTGTTTTT    755
+                               ..|.||||||.||.|||.|.|||||.||.||.||.||...
+Ophiophagus_h    548 ----------AACTGTGGTTTGAATCGATTTATCAAGGAGCCGTCTTCCA    587
+
+Gallus_gallus    756 GCTGAGGGGGGGGGACGAGTTGGAGGCGACCACCA---GCACGGCGCAGT    802
+                     |||||.....||||||...|||..|.|.|..||.|   .|.|.|   |.|
+Ophiophagus_h    588 GCTGAACAAAGGGGACCGCTTGCTGTCCAAAACAAATTTCCCTG---AAT    634
+
+Gallus_gallus    803 ACCTCGACCTGCACGGGGGGGG-----CAGCGC----CTATTTTGGGGTG    843
+                     |.||.|| ||.|||             ||.|||    .|||||||||||.
+Ophiophagus_h    635 ATCTGGA-CTTCAC--------TCATTCAACGCAGATTTATTTTGGGGTC    675
+
+Gallus_gallus    844 GTGGGAGTGGATTAA    858
+                     .|.|...||   |||
+Ophiophagus_h    676 ATTGCTATG---TAA    687
+
+
+#---------------------------------------
+#---------------------------------------

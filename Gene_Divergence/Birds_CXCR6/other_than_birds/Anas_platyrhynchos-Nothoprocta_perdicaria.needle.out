@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:16
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Nothoprocta_perdicaria.fa
+#    -outfile Anas_platyrhynchos-Nothoprocta_perdicaria.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Nothoprocta_perdicaria.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Nothoprocta_perdicaria
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1041
+# Identity:     871/1041 (83.7%)
+# Similarity:   873/1041 (83.9%)
+# Gaps:          15/1041 ( 1.4%)
+# Score: 3680.5
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||.|||||.|||||||||.|..|||   ||||||||||||||||.||||
+Nothoprocta_p      1 ATGACAACTACAGATGCTGATGACTT---TTATAACTTCTCAGCCTTTGA     47
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||.||||||||..||||.|||.||||||||||||||||.||..|||||||
+Nothoprocta_p     48 TCTCAATGAAACTGGAAATGACAATTTTTACACATTTACAAGAATCTTTC     97
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAAATGCT    150
+                     ||||||||.|||||||.|..|||||||||||.|||||.|||||||||.||
+Nothoprocta_p     98 TGCCCTGTATGTATTCATGCGTTTTTATCTTGGGGCTGGCAGGAAATACT    147
+
+Anas_platyrhy    151 CTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACAGA    200
+                     .||||||||||||||||.||.|||||.||||||||||||||.||||||||
+Nothoprocta_p    148 TTGGTCTTTATCATACTAGTTTTCTACGAGAAACTGAAGACGCTGACAGA    197
+
+Anas_platyrhy    201 TATATTTTTGTTGAACCTGGCTATAGCTGA-TTGGATCTTCCTTTGGACG    249
+                     .||||.|.||.|||||.||||||.|||||| |||| ||||.||||||||.
+Nothoprocta_p    198 CATATATCTGCTGAACTTGGCTACAGCTGACTTGG-TCTTTCTTTGGACC    246
+
+Anas_platyrhy    250 CTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTGT    299
+                     ||||||||||||||.||.||||||||||||||||||..|||||||||:||
+Nothoprocta_p    247 CTGCCATTCTGGGCATACTCTGCTGCTCAGGAGTGGGCTTTTGGCACYGT    296
+
+Anas_platyrhy    300 GACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCAA    349
+                     |.|||||||.||.|||||||||.||||.||||||||.||||||||.||||
+Nothoprocta_p    297 GGCATGTCGTATTATACGGGGCTTGTATAATCTGAATTTGTACACATCAA    346
+
+Anas_platyrhy    350 TGTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTTT    399
+                     |||||||.|||||.|..||.||.|||||..||||..||.|||||||||||
+Nothoprocta_p    347 TGTTAACCCTAACCTGCATAACWTTTGATCGGCTCGTTGCTATTACTTTT    396
+
+Anas_platyrhy    400 GCCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAATT    449
+                     |||||||||||||.|..|.||||||.|||||||..||..|||||||||.|
+Nothoprocta_p    397 GCCACCAAAGCACGTCAGCGTCAAAGCAAACGAAAGACGTGGGGCAAAAT    446
+
+Anas_platyrhy    450 AATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAGC    499
+                     .||||||..||||||||||||||||||..||||.|||||||||||||||.
+Nothoprocta_p    447 CATCTGCATCTTGATCTGGGTGATTTCGCTAGCTTTTGCCACACCACAGT    496
+
+Anas_platyrhy    500 TTATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAA    549
+                     |.|||||||||||.|..|||...||.||||||.|||||||.|.|||||||
+Nothoprocta_p    497 TCATTTTTAGTGAGGCATTTCAGATCGATAAGGCAATATGTCAGGAAAAA    546
+
+Anas_platyrhy    550 TACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCCT    599
+                     ||||||.||||.|.||.||||.||:|||||||||..||.||||||.|.||
+Nothoprocta_p    547 TACCCAAACCATCGCACAGAAGTGSTTCTTGAAGCAATCCAAGTGGCTCT    596
+
+Anas_platyrhy    600 TGGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATTA    649
+                     |||.||||||||.||||||||||||||||.||||||||||||.|||||.|
+Nothoprocta_p    597 TGGCTACTTTATCCCCATGCTAACCATGACCATCTGCTACTCACTAATCA    646
+
+Anas_platyrhy    650 TTAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAAA    699
+                     |.|||||.||||||||.|||||||..||.||.|||.||||||||||.|||
+Nothoprocta_p    647 TCAAAACGTTACTGCACGCCAGGAGTTTTCAGAAGCACAAATCTCTGAAA    696
+
+Anas_platyrhy    700 AAAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACAC    749
+                     |||||||||||||||||.||||.||||||||||||||||.|||||||.||
+Nothoprocta_p    697 AAAATATTTTCTGTAGTTGCCACATTTATTCTTACTCAGACACCCTATAC    746
+
+Anas_platyrhy    750 TTTCTTGAGACTGATGAAGAT--CATCGACTGGAGCTTCAACTTGGACAG    797
+                     |||||||||||||||.|||||  ||  |||||||||||.||||||.||.|
+Nothoprocta_p    747 TTTCTTGAGACTGATAAAGATTGCA--GACTGGAGCTTTAACTTGAACCG    794
+
+Anas_platyrhy    798 CAACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACG    847
+                     ||.||||||.||.||.||.||.|||||||||||..|.|||||||||||.|
+Nothoprocta_p    795 CAGCTTTGAGTATGCAATAGTCATAACAGAAGCTTTGGCTTATTTCCATG    844
+
+Anas_platyrhy    848 GCTGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAG    897
+                     ||||.||.|||||||||.|||||||||||||.||||||||.|||||||||
+Nothoprocta_p    845 GCTGCCTCAACCCTGTTCTGTATTTCTTCATTGGGGTGAAGTTCAGGAAG    894
+
+Anas_platyrhy    898 AACTTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGC    947
+                     ||.|||||||||||||||||||..|||||.|||.|.|.|..|||||||..
+Nothoprocta_p    895 AATTTCCAGAAAATTATTAAAAAGTCAAGATGCATCAGAGGGCAAGTTAG    944
+
+Anas_platyrhy    948 TGTTAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTG    997
+                     ||||||||||.||||.|||||||||||.||||||||||||||||.||   
+Nothoprocta_p    945 TGTTAGACAGGGGCAAACCACTGAAGATGAAGGCTCTAAAACTTTTA---    991
+
+Anas_platyrhy    998 TCTCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                        |||||||||||||.|..||||.||||||.||.||.|||
+Nothoprocta_p    992 ---CAAATAATGCAGAAGCAACAACCATGTATCCGCTATAA   1029
+
+
+#---------------------------------------
+#---------------------------------------

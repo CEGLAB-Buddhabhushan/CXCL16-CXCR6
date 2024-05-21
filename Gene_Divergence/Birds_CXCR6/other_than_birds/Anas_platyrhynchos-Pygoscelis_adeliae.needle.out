@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:16
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Pygoscelis_adeliae.fa
+#    -outfile Anas_platyrhynchos-Pygoscelis_adeliae.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Pygoscelis_adeliae.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Pygoscelis_adeliae
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1040
+# Identity:     915/1040 (88.0%)
+# Similarity:   915/1040 (88.0%)
+# Gaps:           7/1040 ( 0.7%)
+# Score: 4071.0
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGCTGTTACCTTTTATTATAACTTCTCAGCCATTGA     50
+                     |||||||||.|||||.|   ||.||||||||||||||||||...||.|||
+Pygoscelis_ad      1 ATGGCAACTACAGATAC---TAACTTTTATTATAACTTCTCCATCACTGA     47
+
+Anas_platyrhy     51 TCCCAATGAAAACGGAATTGAGAATTTTTACACATTTATAACTATCTTTC    100
+                     ||||||.|||||.||||.||||||||||..||||||||.||...||||.|
+Pygoscelis_ad     48 TCCCAACGAAAATGGAAGTGAGAATTTTCGCACATTTACAAAAGTCTTCC     97
+
+Anas_platyrhy    101 TGCCCTGTGTGTATTCGTTTGTTTTTATCTTTGGGCTAGCAGGAA--ATG    148
+                     ||||||||.||||.|||.|||||||.|||.|||||||||||||||  |||
+Pygoscelis_ad     98 TGCCCTGTATGTACTCGGTTGTTTTCATCCTTGGGCTAGCAGGAAACATG    147
+
+Anas_platyrhy    149 CTCTGGTCTTTATCATACTGGTCTTCTATGAGAAACTGAAGACACTGACA    198
+                       |||||||||.|||||||.||.|||||||||||||||||||..||||||
+Pygoscelis_ad    148 --CTGGTCTTTGTCATACTAGTTTTCTATGAGAAACTGAAGATGCTGACA    195
+
+Anas_platyrhy    199 GATATATTTTTGTTGAACCTGGCTATAGCTGATTGGATCTTCCTTTGGAC    248
+                     ||||||||||||.|||||.|||||||||||||.|||.|||||||||||||
+Pygoscelis_ad    196 GATATATTTTTGCTGAACTTGGCTATAGCTGACTGGGTCTTCCTTTGGAC    245
+
+Anas_platyrhy    249 GCTGCCATTCTGGGCCTATTCTGCTGCTCAGGAGTGGATTTTTGGCACTG    298
+                     |||||||||||||||.||||||||||||||||||||||.|||||||||.|
+Pygoscelis_ad    246 GCTGCCATTCTGGGCATATTCTGCTGCTCAGGAGTGGACTTTTGGCACCG    295
+
+Anas_platyrhy    299 TGACATGTCGAATCATACGGGGCCTGTACAATCTGAACTTGTACACTTCA    348
+                     ||.|||||||.||.|||||||||.||||.|.|||||||||||||||||||
+Pygoscelis_ad    296 TGGCATGTCGTATTATACGGGGCTTGTATACTCTGAACTTGTACACTTCA    345
+
+Anas_platyrhy    349 ATGTTAACTCTAACGTCTATCACCTTTGACAGGCTTATTTCTATTACTTT    398
+                     ||||||||||||||.|||||||||||||||.||||||||.||||||||||
+Pygoscelis_ad    346 ATGTTAACTCTAACATCTATCACCTTTGACCGGCTTATTGCTATTACTTT    395
+
+Anas_platyrhy    399 TGCCACCAAAGCACATATGAGTCAAACCAAACGACTGAAATGGGGCAAAT    448
+                     ||||||||||||||.||||.||||||||||||||.|.|.|||||||||||
+Pygoscelis_ad    396 TGCCACCAAAGCACGTATGTGTCAAACCAAACGAATTACATGGGGCAAAT    445
+
+Anas_platyrhy    449 TAATCTGCGGCTTGATCTGGGTGATTTCAGTAGCATTTGCCACACCACAG    498
+                     |||||||.|.|||||||||||||||.|||.|||||||||||||.||||||
+Pygoscelis_ad    446 TAATCTGTGTCTTGATCTGGGTGATCTCACTAGCATTTGCCACGCCACAG    495
+
+Anas_platyrhy    499 CTTATTTTTAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAA    548
+                     .|||||||||||||.|||||||.||||||||||.|||||||.|.||||||
+Pygoscelis_ad    496 TTTATTTTTAGTGAGGTGTTTAGTATTGATAAGGCAATATGTCAGGAAAA    545
+
+Anas_platyrhy    549 ATACCCAGACCACCACATAGAATTGGTTCTTGAAGTTATTCAAGTGACCC    598
+                     |||||||.||||.||||.||||.|||||||||||||.||.||||||.|||
+Pygoscelis_ad    546 ATACCCAAACCATCACACAGAACTGGTTCTTGAAGTGATCCAAGTGGCCC    595
+
+Anas_platyrhy    599 TTGGTTACTTTATTCCCATGCTAACCATGATCATCTGCTACTCCCTAATT    648
+                     ||||.||.|||||||||||||||.|||||||||||||||||||.||||||
+Pygoscelis_ad    596 TTGGCTATTTTATTCCCATGCTAGCCATGATCATCTGCTACTCACTAATT    645
+
+Anas_platyrhy    649 ATTAAAACCTTACTGCATGCCAGGAACTTCCAAAAGAACAAATCTCTAAA    698
+                     ||||.||||||||||||.||||.||..||.||||||||||||||||||||
+Pygoscelis_ad    646 ATTAGAACCTTACTGCACGCCAAGAGTTTTCAAAAGAACAAATCTCTAAA    695
+
+Anas_platyrhy    699 AAAAATATTTTCTGTAGTGGCCATATTTATTCTTACTCAGTCACCCTACA    748
+                     ||||||||||.|||||||.||.|||||||||||||||||||||||.||.|
+Pygoscelis_ad    696 AAAAATATTTGCTGTAGTTGCTATATTTATTCTTACTCAGTCACCGTATA    745
+
+Anas_platyrhy    749 CTTTCTTGAGACTGATGAAGATCATCGACTGGAGCTTCAACTTGGACAGC    798
+                     ||||||||||||||||.||||||||.|||||||||||.||||||.|||||
+Pygoscelis_ad    746 CTTTCTTGAGACTGATAAAGATCATAGACTGGAGCTTTAACTTGAACAGC    795
+
+Anas_platyrhy    799 AACTTTGACTACGCCATCGTTATAACAGAAGCCCTTGCTTATTTCCACGG    848
+                     |.||||||.||.||.|||.||.||||||||||.||||||||||||||.||
+Pygoscelis_ad    796 AGCTTTGAATATGCAATCATTGTAACAGAAGCTCTTGCTTATTTCCATGG    845
+
+Anas_platyrhy    849 CTGTCTTAACCCTGTTATGTATTTCTTCATGGGGGTGAAATTCAGGAAGA    898
+                     ||||.|||||||||||.||||||||||||||||||||||||||||||.||
+Pygoscelis_ad    846 CTGTATTAACCCTGTTCTGTATTTCTTCATGGGGGTGAAATTCAGGAGGA    895
+
+Anas_platyrhy    899 ACTTCCAGAAAATTATTAAAAGCTCAAGGTGCTTTAAACAGCAAGTTGCT    948
+                     ||||.||||||||||||||||.||||||.||..|.|||..|||||||.|.
+Pygoscelis_ad    896 ACTTACAGAAAATTATTAAAAACTCAAGATGGGTCAAATGGCAAGTTACG    945
+
+Anas_platyrhy    949 GTTAGACAGTGGCACACCACTGAAGACGAAGGCTCTAAAACTTATACTGT    998
+                     |.||.|||||||||.|||||.|||||.||||||||||||||||.|||||.
+Pygoscelis_ad    946 GCTAAACAGTGGCAAACCACGGAAGAGGAAGGCTCTAAAACTTTTACTGC    995
+
+Anas_platyrhy    999 CTCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA   1038
+                     |||||||||||||||||..||||||||||.|||.||.|||
+Pygoscelis_ad    996 CTCAAATAATGCAGATGCAACAAGCATGTGCCCGCTATAA   1035
+
+
+#---------------------------------------
+#---------------------------------------

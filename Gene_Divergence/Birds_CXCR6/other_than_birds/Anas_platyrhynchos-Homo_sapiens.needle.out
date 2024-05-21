@@ -1,0 +1,126 @@
+########################################
+# Program: needle
+# Rundate: Tue 30 Apr 2024 23:31:15
+# Commandline: needle
+#    -asequence ../Anas_platyrhynchos.fa
+#    -bsequence Homo_sapiens.fa
+#    -outfile Anas_platyrhynchos-Homo_sapiens.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Anas_platyrhynchos-Homo_sapiens.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Anas_platyrhynchos
+# 2: Homo_sapiens
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1148
+# Identity:     676/1148 (58.9%)
+# Similarity:   676/1148 (58.9%)
+# Gaps:         229/1148 (19.9%)
+# Score: 1639.5
+# 
+#
+#=======================================
+
+Anas_platyrhy      1 ATGGCAACTGCAGATGC-TG-TTACCTTTTATTATAACT-----TCTCAG     43
+                     |||      ||||| || || |||||    ||.|..|||     | ||||
+Homo_sapiens       1 ATG------GCAGA-GCATGATTACC----ATGAAGACTATGGGT-TCAG     38
+
+Anas_platyrhy     44 CCATTGATCCCAATGAAAAC-----GGA-----ATTGAGAATTTTTACAC     83
+                     |..||    .||||||.|.|     |||     ||..|||.||..|.|| 
+Homo_sapiens      39 CAGTT----TCAATGACAGCAGCCAGGAGGAGCATCAAGACTTCCTGCA-     83
+
+Anas_platyrhy     84 ATTTATAACTATCTTTCTGCCCTGTGTGTATTCGTTTGTTTTTATCTTTG    133
+                     .||.|..|...|||||||||||||..||||...|.|.||.|||.|||.||
+Homo_sapiens      84 GTTCAGCAAGGTCTTTCTGCCCTGCATGTACCTGGTGGTGTTTGTCTGTG    133
+
+Anas_platyrhy    134 GGCTAGCAGGAAATGCTCTGGTCTTTATCATACTGGTCTTCTATGAGAAA    183
+                     |.||.|..||.||..|||||||..|..|||||....|||||||..|.||.
+Homo_sapiens     134 GTCTGGTGGGGAACTCTCTGGTGCTGGTCATATCCATCTTCTACCATAAG    183
+
+Anas_platyrhy    184 CTGAAGACACTGACAGATATATTTTTGTTGAACCTGGCTATAGCTGA-TT    232
+                     .||.|||..|||||.|||.|.||..||.|||||||..|..|.||||| .|
+Homo_sapiens     184 TTGCAGAGCCTGACGGATGTGTTCCTGGTGAACCTACCCCTGGCTGACCT    233
+
+Anas_platyrhy    233 GGATCTTCCTTTGGACGCTGCCATTCTGGGCCTATTCTGCTGC--TCAGG    280
+                     || |.||..|.||.||.|||||.||||||||||||.|.|  ||  .||.|
+Homo_sapiens     234 GG-TGTTTGTCTGCACTCTGCCCTTCTGGGCCTATGCAG--GCATCCATG    280
+
+Anas_platyrhy    281 AGTGGATTTTTGGCACTGTGACATGTCGA--ATCATACGGGGCCTGTACA    328
+                     |.|||.|.||||||...||  |||||..|  |.|.|||.||||.|.||||
+Homo_sapiens     281 AATGGGTGTTTGGCCAGGT--CATGTGCAAGAGCCTACTGGGCATCTACA    328
+
+Anas_platyrhy    329 ATCTGAACTTGTACACTTCAATGTTAACTCTAACGTCTATCACCTTTGAC    378
+                     .|.|.|||||.|||||.||.|||.|.|..||.||.|..|||||..|    
+Homo_sapiens     329 CTATTAACTTCTACACGTCCATGCTCATCCTCACCTGCATCACTGT----    374
+
+Anas_platyrhy    379 AGGCTTATTTCTAT--TACTTTT----GCCACCAAAGC--ACATATGAGT    420
+                      ||.|..|||| ||  ||.|..|    ||||||||.||  ||| |..|| 
+Homo_sapiens     375 -GGATCGTTTC-ATTGTAGTGGTTAAGGCCACCAAGGCCTACA-ACCAG-    420
+
+Anas_platyrhy    421 CAAACCAA-ACGACTGAAATGGGGCAAATTAATCTGCGGCTTG---ATCT    466
+                     |||.|||| |.|| |||..||||||||   ..||..|.|||||   ||||
+Homo_sapiens     421 CAAGCCAAGAGGA-TGACCTGGGGCAA---GGTCACCAGCTTGCTCATCT    466
+
+Anas_platyrhy    467 GGGTGATTTCAGTAGCAT----------TTGCCACACCACAGCTTATTTT    506
+                     |||||||.||     |.|          |||||   |||.|  ||||.|.
+Homo_sapiens     467 GGGTGATATC-----CCTGCTGGTTTCCTTGCC---CCAAA--TTATCTA    506
+
+Anas_platyrhy    507 TAGTGATGTGTTTACTATTGATAAGACAATATGCCTGGAAAAATACCCAG    556
+                     |.|..||||.||||.|.|.||.|||...|||||  |||    .||||..|
+Homo_sapiens     507 TGGCAATGTCTTTAATCTCGACAAGCTCATATG--TGG----TTACCATG    550
+
+Anas_platyrhy    557 ACCA--------CCACATAGAAT-TGGTTCTTGAAGTTATTCA---AG-T    593
+                     ||.|        ||||      | |||||||||       .||   || |
+Homo_sapiens     551 ACGAGGCAATTTCCAC------TGTGGTTCTTG-------CCACCCAGAT    587
+
+Anas_platyrhy    594 GACCCTTGGTTACTTTATTCCCA-TGCTAACCATGATCATCTGCTACTCC    642
+                     |||.||.||.|.| ||.||.||| ||||.||||||||..|||||||.||.
+Homo_sapiens     588 GACACTGGGGTTC-TTCTTGCCACTGCTCACCATGATTGTCTGCTATTCA    636
+
+Anas_platyrhy    643 CTAATTATTAAAACCTTACTGCATGC--CAGGAACTTCCAAAAGAACAAA    690
+                     .|.||.||.|||||..|.||.|||||  .|||  ||||||.|||.|||.|
+Homo_sapiens     637 GTCATAATCAAAACACTGCTTCATGCTGGAGG--CTTCCAGAAGCACAGA    684
+
+Anas_platyrhy    691 TCTCTAAAAAAAATATTTTCT-GTAGTGGCCATATTTATTCTTACTCAGT    739
+                     ||||||||.|..|| .||.|| ||..||||..|.||..|.||.||.|||.
+Homo_sapiens     685 TCTCTAAAGATCAT-CTTCCTGGTGATGGCTGTGTTCCTGCTGACCCAGA    733
+
+Anas_platyrhy    740 CACCCTACACTTTCTTGAGA-CTGATGAAGATCATC---------GACTG    779
+                     ..||||.||          | ||.||||||.|||||         .||||
+Homo_sapiens     734 TGCCCTTCA----------ACCTCATGAAGTTCATCCGCAGCACACACTG    773
+
+Anas_platyrhy    780 GAGCTTCAACT-TG----GACAGCAACTTTGACTACGCCATCGTTATAAC    824
+                     |...|   ||| ||    |||  ||.||||.|||||.|||||.|..|.||
+Homo_sapiens     774 GGAAT---ACTATGCCATGAC--CAGCTTTCACTACACCATCATGGTGAC    818
+
+Anas_platyrhy    825 AGAAGCCCTTGCTTATTTCC--ACGG-CTGTCTTAACCCTGT----TATG    867
+                     |||.|||.|.||.||   ||  |.|| |||.|||||||||||    ||||
+Homo_sapiens     819 AGAGGCCATCGCATA---CCTGAGGGCCTGCCTTAACCCTGTGCTCTATG    865
+
+Anas_platyrhy    868 TATTTCTTCATGGGGGTGAAATTCAGGAAGAACTTCCAGAAAATTATTAA    917
+                     ..||| .|||   |..||||.||..|.|||||||||..||||.||     
+Homo_sapiens     866 CCTTT-GTCA---GCCTGAAGTTTCGAAAGAACTTCTGGAAACTT-----    906
+
+Anas_platyrhy    918 AAGCTCAAGGTGCTTTAAACAGCAAGTTGCTGTTAG--------ACAGTG    959
+                        .|.||||        |||     |||  ||| |        ||..||
+Homo_sapiens     907 ---GTGAAGG--------ACA-----TTG--GTT-GCCTCCCTTACCTTG    937
+
+Anas_platyrhy    960 G-----CACACCA-----------CTGAAGACGAAGGCTCTAAAACTTAT    993
+                     |     ||||.||           ||||.|||.|   .||.||.||||.|
+Homo_sapiens     938 GGGTCTCACATCAATGGAAATCTTCTGAGGACAA---TTCCAAGACTTTT    984
+
+Anas_platyrhy    994 ACTGTCTCAAATAATGCAGATGTGACAAGCATGTACCCTCTGTAA---   1038
+                     .|||.|||..|.||||..||.|..||.|||||||.|   |.||.|   
+Homo_sapiens     985 TCTGCCTCCCACAATGTGGAGGCCACCAGCATGTTC---CAGTTATAG   1029
+
+
+#---------------------------------------
+#---------------------------------------
