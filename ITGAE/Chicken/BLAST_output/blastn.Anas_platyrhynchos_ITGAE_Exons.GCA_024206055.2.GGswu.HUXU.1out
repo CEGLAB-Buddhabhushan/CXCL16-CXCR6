@@ -1,0 +1,852 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_024206055.2_GGswu_genomic.fna
+           41 sequences; 1,100,928,095 total letters
+
+
+
+Query= Exon1
+
+Length=34
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 8807416232
+
+
+Query= Exon2
+
+Length=115
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94679713916
+
+
+Query= Exon3
+
+Length=98
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 77064886290
+
+
+Query= Exon4
+
+Length=71
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 47339858721
+
+
+Query= Exon5
+
+Length=118
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     91.5       3e-17
+
+
+
+Query_5  1        GCTTGCCTGCAGAAGAAGCATCGCCGGGCCTTCACCACTACAGAGGACATGAACGGAGTC  60
+18       7932098  ...............---....A..A....C...G....G....A....C...T......  7932154
+
+Query_5  61       TGTACGCTGCTCACTGCCGACTTGCGCAGCACAGCTTTCCT  101
+18       7932155  .....T..T.........AG....T.TG.A........G..  7932195
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 97982494634
+
+
+Query= Exon6
+
+Length=141
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123303813472
+
+
+Query= Exon7
+
+Length=122
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 102386202258
+
+
+Query= Exon8
+
+Length=152
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     176        1e-42
+
+
+
+Query_8  4        AGGTTTGCTGTGGTGCAGTATGGAGCACAGACCCGAACTGAACTGAGCCTGCAAGAAAGC  63
+18       7932842  ...............T.....A..A.........A..G..G..............G....  7932901
+
+Query_8  64       TGCAACAGATTAACTGCTCTCTTCAAGGTCCGAAATATGAAGCAGCAGAGTTCACAGACT  123
+18       7932902  ....G.....G....................A..GC.C............C.......-.  7932960
+
+Query_8  124      GACATTGCAGCCTCACTGCAGCATGTATT  152
+18       7932961  ....C...G.A.A..........A.....  7932989
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 135414009438
+
+
+Query= Exon9
+
+Length=151
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     158        3e-37
+
+
+
+Query_9  7        AGTCTTTAATGAAAGCCATGACTCCAGACAGACTGACAAGATAATCATTGTCATGGTATC  66
+18       7933653  ..G..........................T....................C.........  7933715
+                                                      \                       
+                                                      |                       
+                                                    TGA
+
+Query_9  67       TGGACAAGTGTTTATAGAAGACCATCAGCTGAGAAATGTGATGAACTCCCTCAAAATGGC  126
+18       7933716  ...G........CC.G...A.....TGA........C...C.....A....TG.......  7933775
+
+Query_9  127      TAAGGTCAAACTCTA  141
+18       7933776  .G.............  7933790
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134313082532
+
+
+Query= Exon10
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117799178942
+
+
+Query= Exon11
+
+Length=114
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100555.1 Gallus gallus breed Huxu chromosome 1                      44.6       0.004
+
+
+
+Query_11  80        GAGTGACAAAGAGGAGGAGGAGGAAAATG  108
+0         53490033  ......GG.....................  53490005
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 93578787010
+
+
+Query= Exon12
+
+Length=122
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 102386202258
+
+
+Query= Exon13
+
+Length=152
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 135414009438
+
+
+Query= Exon14
+
+Length=154
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 137615863250
+
+
+Query= Exon15
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 134313082532
+
+
+Query= Exon16
+
+Length=68
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44037077880
+
+
+Query= Exon17
+
+Length=136
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100555.1 Gallus gallus breed Huxu chromosome 1                      44.6       0.005
+
+
+
+Query_17  69         AGCCAAGAAAGCTGTTTTCTTGAATGAATCAAAAGAAG  106
+0         101151103  ...............A....G.....C...........  101151062
+                                 \                         
+                                 |                         
+                              GAAC
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117799178942
+
+
+Query= Exon18
+
+Length=131
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 112294544412
+
+
+Query= Exon19
+
+Length=141
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     168        6e-40
+
+
+
+Query_19  1        GTCGGATCTTATTTTGGCTCTGAGCTCTGCCCGCTTGATGTGAACCGTGATGGGGAGACA  60
+18        7935188  ..T..G............C.......T.....AT...G......GT.........T....  7935247
+
+Query_19  61       GATCTTCTCCTTGTTGGAGCTCCATTTTATCACATCCAAGGGGAAGAAGGAAGGGTTTAC  120
+18        7935248  .....---...............G.............G...A.C................  7935304
+
+Query_19  121      GTCTATCGCCTGGAGACAGAG  141
+18        7935305  ......T...........A..  7935325
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 123303813472
+
+
+Query= Exon20
+
+Length=222
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     186        4e-45
+
+
+
+Query_20  17       TGGAAGGACATTTAAATGTGCAGGTGACCACTCAGTTTGCAAGGTTTGGGTTTACCATGG  76
+18        7936209  ..........CC.C.........-...TGG...CT...........G........TG...  7936267
+
+Query_20  77       CCAGCATTGGAGACATCAACAGGGATGGATATGAGGATATTGCAGTTGGAGCCCCCCTTG  136
+18        7936268  ..G..G............GTG.................G......G.....-G....G..  7936326
+
+Query_20  137      AAGGTCATCTTTCAAACAGTTCCTCTTTTGGGAGCATTTACATCTTCAATGGTGAAAAGG  196
+18        7936327  ...A...G.......................C.C......TG...CTG.A..C..T..A.  7936386
+
+Query_20  197      ACAAGATCAGGAGCTCTTATTCTC  220
+18        7936387  ......C..A........TC....  7936410
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 211377958080
+
+
+Query= Exon21
+
+Length=131
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     130        1e-28
+
+
+
+Query_21  1        AGAGTAAAAGCCTCTGAAATATCAGCAGGACTCCAGTATTTTGGACAATCCATTGATGGT  60
+18        7936624  .....G......CA...C..T...T..........A.GC....A...G....C....AA.  7936683
+
+Query_21  61       GGTTTTGATTTCACTAATGATGGTCTCCATGATATTACAGTAGGATCACTGGAGAATGTG  120
+18        7936684  ..C.......G..................A....GC......A.....T.....G....A  7936743
+
+Query_21  121      GTTGTGCTC  129
+18        7936744  .........  7936752
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 112294544412
+
+
+Query= Exon22
+
+Length=137
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     102        2e-20
+
+
+
+Query_22  11       GTTGTTCACTTTCTCACCAGCATGAGATTCAACCCTGAGAGAATAGTAATTTTCCAGAAC  70
+18        7937507  ..........C......TCA.T....G.....T............CC...C......G..  7937566
+
+Query_22  71       AGCAGCAGCATTGTTACAGCAAAACTGTGTTTCAATATAACCTCAGCCTTACCAGTGTCT  130
+18        7937567  .......T..---.....T.......AC........C...T.C....T..GAAG......  7937623
+
+Query_22  131      CA  132
+18        7937624  ..  7937625
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 118900105848
+
+
+Query= Exon23
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 132111228720
+
+
+Query= Exon24
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 110092690600
+
+
+Query= Exon25
+
+Length=68
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 44037077880
+
+
+Query= Exon26
+
+Length=136
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     78.8       2e-13
+
+
+
+Query_26  57       ACAGTGGAGATGACTCATACATGACAACTATGGTCTTGTACTATCCTAAAAATCTCCATT  116
+18        7938409  ....C..G.........C......G.G..G..-.....AG..G....G.........C..  7938467
+
+Query_26  117      TTAAGAAGGTGACAGCTGAG  136
+18        7938468  ............TG......  7938487
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117799178942
+
+
+Query= Exon27
+
+Length=102
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     111        3e-23
+
+
+
+Query_27  1        CCATCCTCTCCTGCTGTTCACTGTGGCCTGCCAATACAATTCACTTCTGTGGAGATATCC  60
+18        7938761  ...............A............AA.......C...........CA..CT..C..  7938820
+
+Query_27  61       TTGAACTGCAGAATTGGGCATCCAGTATTCAAGAAGACAAC  101
+18        7938821  ..ACG....G..G.............G........A.....  7938861
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81468594078
+
+
+Query= Exon28
+
+Length=77
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     79.7       1e-13
+
+
+
+Query_28  9        CTCCGTGATTTGGCAATTAGATGAAAGTGTATTCCCAAATAAATCTGCAATCACTGTTAA  68
+18        7939168  ...A.........................C..G.TG..G...GC.........T......  7939227
+
+Query_28  69       TATCAC  74
+18        7939228  ......  7939233
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 53945420403
+
+
+Query= Exon29
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     104        3e-21
+
+
+
+Query_29  1        CATAAATGAAAATACCACCATTCTGACTGAAAAACATGTCCTTGATGTCAGATATGCGTT  60
+18        7940254  ..............G................G....A...............C....A..  7940314
+                           \                                                   
+                           |                                                   
+                           G
+
+Query_29  61       CACTGCAGTTCTTACCAA  78
+18        7940315  ........CC........  7940332
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 55046347350
+
+
+Query= Exon30
+
+Length=67
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     72.5       1e-11
+
+
+
+Query_30  1        GCCAGTGTCTTTAATGTACATGAACGTTCGCCAAGGACTACTTGAAAACAAGGAATTTAA  60
+18        7940618  ...T..T...........TG....T...A.......G..T...........A.....A..  7940677
+
+Query_30  61       ATTTAAT  67
+18        7940678  ....G..  7940684
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42936150933
+
+
+Query= Exon31
+
+Length=108
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CP100573.1 Gallus gallus breed Huxu chromosome 19                     95.1       2e-18
+
+
+
+Query_31  1        ATAAATGGAGAAAATCGCTTTAATGCTACCATCAAGTTACAGATTTGGGTTCCTGTCATT  60
+18        7940765  ...............G....AC.....C......G.......C......G.G......GC  7940824
+
+Query_31  61       GTACAAGGTCAGAACATAGCAACTGTGAAAAATGCATCAGGAACACAG  108
+18        7940825  A..........--------..G....C.....C...C...........  7940864
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 86973225574
+
+
+Query= Exon32
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 51743566509
+
+
+Query= Exon33
+
+Length=102
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 81468594078
+
+
+Query= Exon34
+
+Length=96
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 74863032396
+
+
+Query= Exon35
+
+Length=111
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 90276006292
+
+
+Query= Exon36
+
+Length=81
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 58349128191
+
+
+  Database: GCA_024206055.2_GGswu_genomic.fna
+    Posted date:  May 1, 2024  10:53 PM
+  Number of letters in database: 1,100,928,095
+  Number of sequences in database:  41
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,849 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_000002315.6.fa
+           464 sequences; 1,065,365,434 total letters
+
+
+
+Query= Exon1
+
+Length=34
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 8522826960
+
+
+Query= Exon2
+
+Length=115
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 91620270108
+
+
+Query= Exon3
+
+Length=98
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 74574670940
+
+
+Query= Exon4
+
+Length=71
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 45810155006
+
+
+Query= Exon5
+
+Length=118
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           99.6       2e-19
+
+
+
+Query_5  1        GCTTGCCTGCAGAAGAAGCATCGCCGGGCCTTCACCACTACAGAGGACATGAACGGAGTC  60
+18       6755922  ...............---....A..A....C..GG....G....A....C...T......  6755978
+
+Query_5  61       TGTACGCTGCTCACTGCCGACTTGCGCAGCACAGCTTTCCTCAACCTCACCAGGATGG  118
+18       6755979  .....T..T.........AG....T.TG.A........G....G.T...T..A.....  6756036
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 94816326042
+
+
+Query= Exon6
+
+Length=141
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119319421536
+
+
+Query= Exon7
+
+Length=122
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 99077733954
+
+
+Query= Exon8
+
+Length=152
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           176        1e-42
+
+
+
+Query_8  4        AGGTTTGCTGTGGTGCAGTATGGAGCACAGACCCGAACTGAACTGAGCCTGCAAGAAAGC  63
+18       6756674  ...............T.....A..A.........A..G..G..............G....  6756733
+
+Query_8  64       TGCAACAGATTAACTGCTCTCTTCAAGGTCCGAAATATGAAGCAGCAGAGTTCACAGACT  123
+18       6756734  ....G.....G....................A..GC.C............C.......-.  6756792
+
+Query_8  124      GACATTGCAGCCTCACTGCAGCATGTATT  152
+18       6756793  ....C...G.A.A..........A.....  6756821
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 131038293294
+
+
+Query= Exon9
+
+Length=151
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           159        9e-38
+
+
+
+Query_9  1        GGATGAAGTCTTTAATGAAAGCCATGACTCCAGACAGACTGACAAGATAATCATTGTCAT  60
+18       6757478  ....AG..G..........................T....................C...  6757540
+                                                            \                 
+                                                            |                 
+                                                          TGA
+
+Query_9  61       GGTATCTGGACAAGTGTTTATAGAAGACCATCAGCTGAGAAATGTGATGAACTCCCTCAA  120
+18       6757541  .........G.........C.G...A.....TGA........CA..C.....A....TG.  6757600
+
+Query_9  121      AATGGCTAAGGTCAAACTCTA  141
+18       6757601  .......G.............  6757621
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 129972941316
+
+
+Query= Exon10
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113992661646
+
+
+Query= Exon11
+
+Length=114
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006088.5                                                           44.6       0.003
+
+
+
+Query_11  80        GAGTGACAAAGAGGAGGAGGAGGAAAATG  108
+0         51981702  ......GG.....................  51981674
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 90554918130
+
+
+Query= Exon12
+
+Length=122
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 99077733954
+
+
+Query= Exon13
+
+Length=152
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 131038293294
+
+
+Query= Exon14
+
+Length=154
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 133168997250
+
+
+Query= Exon15
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 129972941316
+
+
+Query= Exon16
+
+Length=68
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42614097680
+
+
+Query= Exon17
+
+Length=136
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006088.5                                                           44.6       0.004
+
+
+
+Query_17  69         AGCCAAGAAAGCTGTTTTCTTGAATGAATCAAAAGAAG  106
+0         100269510  ...............A....G.....C...........  100269469
+                                 \                         
+                                 |                         
+                              GAAC
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113992661646
+
+
+Query= Exon18
+
+Length=131
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 108665901756
+
+
+Query= Exon19
+
+Length=141
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           172        1e-41
+
+
+
+Query_19  1        GTCGGATCTTATTTTGGCTCTGAGCTCTGCCCGCTTGATGTGAACCGTGATGGGGAGACA  60
+18        6759019  ..T..G............C.......T.....AT..........GT.........T....  6759078
+
+Query_19  61       GATCTTCTCCTTGTTGGAGCTCCATTTTATCACATCCAAGGGGAAGAAGGAAGGGTTTAC  120
+18        6759079  .....---...............G.............G...A.C................  6759135
+
+Query_19  121      GTCTATCGCCTGGAGACAGAG  141
+18        6759136  ......T...........A..  6759156
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 119319421536
+
+
+Query= Exon20
+
+Length=222
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           186        4e-45
+
+
+
+Query_20  17       TGGAAGGACATTTAAATGTGCAGGTGACCACTCAGTTTGCAAGGTTTGGGTTTACCATGG  76
+18        6760040  ..........CC.C.........-...TGG...CT...........G........TG...  6760098
+
+Query_20  77       CCAGCATTGGAGACATCAACAGGGATGGATATGAGGATATTGCAGTTGGAGCCCCCCTTG  136
+18        6760099  ..G..G............GTG.................G......G.....-G....G..  6760157
+
+Query_20  137      AAGGTCATCTTTCAAACAGTTCCTCTTTTGGGAGCATTTACATCTTCAATGGTGAAAAGG  196
+18        6760158  ...A...G.......................C.C......TG...CTG.A..C..T..A.  6760217
+
+Query_20  197      ACAAGATCAGGAGCTCTTATTCTC  220
+18        6760218  ......C..A........TC....  6760241
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 204547490688
+
+
+Query= Exon21
+
+Length=131
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           116        8e-25
+
+
+
+Query_21  1        AGAGTAAAAGCCTCTGAAATATCAGCAGGACTCCAGTATTTTGGACAATCCATTGATGGT  60
+18        6760455  ..C..G......CA...C..T...T..........A.GC....A...G....C....AA.  6760514
+
+Query_21  61       GGTTTTGATTTCACTAATGATGGTCTCCATGATATTACAGTAGGATCACTGGAGAATGTG  120
+18        6760515  ..C.......G..................A....GC.....GA.....T.....G....A  6760574
+
+Query_21  121      GTTGTGCTC  129
+18        6760575  .C.......  6760583
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 108665901756
+
+
+Query= Exon22
+
+Length=137
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           102        2e-20
+
+
+
+Query_22  11       GTTGTTCACTTTCTCACCAGCATGAGATTCAACCCTGAGAGAATAGTAATTTTCCAGAAC  70
+18        6761338  ..........C......TCA.T....G.....T............CC...C......G..  6761397
+
+Query_22  71       AGCAGCAGCATTGTTACAGCAAAACTGTGTTTCAATATAACCTCAGCCTTACCAGTGTCT  130
+18        6761398  .......T..---.....T.......AC........C...T.C....T..GAAG......  6761454
+
+Query_22  131      CA  132
+18        6761455  ..  6761456
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 115058013624
+
+
+Query= Exon23
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 127842237360
+
+
+Query= Exon24
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 106535197800
+
+
+Query= Exon25
+
+Length=68
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42614097680
+
+
+Query= Exon26
+
+Length=136
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           74.3       9e-12
+
+
+
+Query_26  57       ACAGTGGAGATGACTCATACATGACAACTATGGTCTTGTACTATCCTAAAAATCTCCATT  116
+18        6762248  ....C..G.........C..G...G.G..G..-.....AG..G....G.........C..  6762306
+
+Query_26  117      TTAAGAAGGTGACAGCTGAG  136
+18        6762307  ............TG......  6762326
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113992661646
+
+
+Query= Exon27
+
+Length=102
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           111        2e-23
+
+
+
+Query_27  1        CCATCCTCTCCTGCTGTTCACTGTGGCCTGCCAATACAATTCACTTCTGTGGAGATATCC  60
+18        6762600  ...............A............AA.......C...........CA..CT..C..  6762659
+
+Query_27  61       TTGAACTGCAGAATTGGGCATCCAGTATTCAAGAAGACAAC  101
+18        6762660  ..ACG....G..G.............G........A.....  6762700
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 78836080708
+
+
+Query= Exon28
+
+Length=77
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           77.0       3e-13
+
+
+
+Query_28  9        CTCCGTGATTTGGCAATTAGATGAAAGTGTATTCCCAAATAAATCTGCAATCACTGTTAA  68
+18        6763007  ...A.........................C..G.TG..G...GC.........TC.....  6763066
+
+Query_28  69       TATCACC  75
+18        6763067  .......  6763073
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52202269658
+
+
+Query= Exon29
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           104        2e-21
+
+
+
+Query_29  1        CATAAATGAAAATACCACCATTCTGACTGAAAAACATGTCCTTGATGTCAGATATGCGTT  60
+18        6764103  ..............G................G....A...............C....A..  6764163
+                           \                                                   
+                           |                                                   
+                           G
+
+Query_29  61       CACTGCAGTTCTTACCAA  78
+18        6764164  ........CC........  6764181
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 53267622100
+
+
+Query= Exon30
+
+Length=67
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           68.9       1e-10
+
+
+
+Query_30  8        TCTTTAATGTACATGAACGTTCGCCAAGGACTACTTGAAAACAAGGAATTTAAATTTAAT  67
+18        6764474  ...........TG....T...A.......G..T...........A.....A......G..  6764533
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 41548745238
+
+
+Query= Exon31
+
+Length=108
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_006106.5                                                           90.6       9e-17
+
+
+
+Query_31  1        ATAAATGGAGAAAATCGCTTTAATGCTACCATCAAGTTACAGATTTGGGTTCCTGTCATT  60
+18        6764614  ...............G....AC.G..A.......G.......C......G.G......GC  6764673
+
+Query_31  61       GTACAAGGTCAGAACATAGCAACTGTGAAAAATGCATCAGGAACACAG  108
+18        6764674  A..........--------..G....C.....C...C...........  6764713
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 84162806262
+
+
+Query= Exon32
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 50071564774
+
+
+Query= Exon33
+
+Length=102
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 78836080708
+
+
+Query= Exon34
+
+Length=96
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 72443966056
+
+
+Query= Exon35
+
+Length=111
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 87358862196
+
+
+Query= Exon36
+
+Length=81
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 56463679426
+
+
+  Database: GCF_000002315.6.fa
+    Posted date:  Apr 27, 2024  7:41 PM
+  Number of letters in database: 1,065,365,434
+  Number of sequences in database:  464
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

@@ -1,0 +1,849 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b_genomic.fna
+           214 sequences; 1,053,332,251 total letters
+
+
+
+Query= Exon1
+
+Length=34
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 8426613496
+
+
+Query= Exon2
+
+Length=115
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 90586039870
+
+
+Query= Exon3
+
+Length=98
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 73732838130
+
+
+Query= Exon4
+
+Length=71
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 45293029137
+
+
+Query= Exon5
+
+Length=118
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  91.5       3e-17
+
+
+
+Query_5  1        GCTTGCCTGCAGAAGAAGCATCGCCGGGCCTTCACCACTACAGAGGACATGAACGGAGTC  60
+29       7093205  ...............---....A..A....C...G....G....A....C...T......  7093261
+
+Query_5  61       TGTACGCTGCTCACTGCCGACTTGCGCAGCACAGCTTTCCT  101
+29       7093262  .....T..T.........AG....T.TG.A........G..  7093302
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 93746018005
+
+
+Query= Exon6
+
+Length=141
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117972517040
+
+
+Query= Exon7
+
+Length=122
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 97959322185
+
+
+Query= Exon8
+
+Length=152
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  180        1e-43
+
+
+
+Query_8  4        AGGTTTGCTGTGGTGCAGTATGGAGCACAGACCCGAACTGAACTGAGCCTGCAAGAAAGC  63
+29       7093950  ...............T.....A..A.........A.....G..............G....  7094009
+
+Query_8  64       TGCAACAGATTAACTGCTCTCTTCAAGGTCCGAAATATGAAGCAGCAGAGTTCACAGACT  123
+29       7094010  ....G.....G....................A..GC.C............C.......-.  7094068
+
+Query_8  124      GACATTGCAGCCTCACTGCAGCATGTATT  152
+29       7094069  ....C...G.A.A..........A.....  7094097
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 129559103535
+
+
+Query= Exon9
+
+Length=151
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  158        3e-37
+
+
+
+Query_9  7        AGTCTTTAATGAAAGCCATGACTCCAGACAGACTGACAAGATAATCATTGTCATGGTATC  66
+29       7094762  ..G..........................T....................C.........  7094824
+                                                      \                       
+                                                      |                       
+                                                    TGA
+
+Query_9  67       TGGACAAGTGTTTATAGAAGACCATCAGCTGAGAAATGTGATGAACTCCCTCAAAATGGC  126
+29       7094825  ...G.........C.G...A.....TGA........CA..C.....A....TG.......  7094884
+
+Query_9  127      TAAGGTCAAACTCTA  141
+29       7094885  .G.............  7094899
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 128505777490
+
+
+Query= Exon10
+
+Length=136
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 112705886815
+
+
+Query= Exon11
+
+Length=114
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052532.1 Gallus gallus isolate bGalGal1 chromosome 1, bGalGal1...  44.6       0.003
+
+
+
+Query_11  80        GAGTGACAAAGAGGAGGAGGAGGAAAATG  108
+0         52024190  ......GG.....................  52024162
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 89532713825
+
+
+Query= Exon12
+
+Length=122
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 97959322185
+
+
+Query= Exon13
+
+Length=152
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 129559103535
+
+
+Query= Exon14
+
+Length=154
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 131665755625
+
+
+Query= Exon15
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 128505777490
+
+
+Query= Exon16
+
+Length=68
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42133050360
+
+
+Query= Exon17
+
+Length=136
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052532.1 Gallus gallus isolate bGalGal1 chromosome 1, bGalGal1...  44.6       0.004
+
+
+
+Query_17  69        AGCCAAGAAAGCTGTTTTCTTGAATGAATCAAAAGAAG  106
+0         99029711  ...............A....G.....C...........  99029670
+                                \                         
+                                |                         
+                             GAAC
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 112705886815
+
+
+Query= Exon18
+
+Length=131
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 107439256590
+
+
+Query= Exon19
+
+Length=141
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  163        7e-39
+
+
+
+Query_19  1        GTCGGATCTTATTTTGGCTCTGAGCTCTGCCCGCTTGATGTGAACCGTGATGGGGAGACA  60
+29        7096297  ..T..G............C.C.....T.....AT...G.......T.........T....  7096356
+
+Query_19  61       GATCTTCTCCTTGTTGGAGCTCCATTTTATCACATCCAAGGGGAAGAAGGAAGGGTTTAC  120
+29        7096357  .....---...............G............TG...A.C................  7096413
+
+Query_19  121      GTCTATCGCCTGGAGACAGAG  141
+29        7096414  ......T...........A..  7096434
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 117972517040
+
+
+Query= Exon20
+
+Length=222
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  186        4e-45
+
+
+
+Query_20  17       TGGAAGGACATTTAAATGTGCAGGTGACCACTCAGTTTGCAAGGTTTGGGTTTACCATGG  76
+29        7097318  ..........CC.C.........-...TGG...CT...........G........TG...  7097376
+
+Query_20  77       CCAGCATTGGAGACATCAACAGGGATGGATATGAGGATATTGCAGTTGGAGCCCCCCTTG  136
+29        7097377  ..G..G............GTG.................G......G.....-G....G..  7097435
+
+Query_20  137      AAGGTCATCTTTCAAACAGTTCCTCTTTTGGGAGCATTTACATCTTCAATGGTGAAAAGG  196
+29        7097436  ...A...G.......................C.C......TG...CTG.A..C..T..A.  7097495
+
+Query_20  197      ACAAGATCAGGAGCTCTTATTCTC  220
+29        7097496  ......C..A........TC....  7097519
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 202238559552
+
+
+Query= Exon21
+
+Length=131
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  116        8e-25
+
+
+
+Query_21  1        AGAGTAAAAGCCTCTGAAATATCAGCAGGACTCCAGTATTTTGGACAATCCATTGATGGT  60
+29        7097733  ..C..G......CA...C..T...T..........A.GC....A...G....C....AA.  7097792
+
+Query_21  61       GGTTTTGATTTCACTAATGATGGTCTCCATGATATTACAGTAGGATCACTGGAGAATGTG  120
+29        7097793  ..C.......G..................A....GC.....GA.....T.....G....A  7097852
+
+Query_21  121      GTTGTGCTC  129
+29        7097853  .C.......  7097861
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 107439256590
+
+
+Query= Exon22
+
+Length=137
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  106        2e-21
+
+
+
+Query_22  11       GTTGTTCACTTTCTCACCAGCATGAGATTCAACCCTGAGAGAATAGTAATTTTCCAGAAC  70
+29        7098616  ..........C......TCA.T....G.....T............CC...C......G..  7098675
+
+Query_22  71       AGCAGCAGCATTGTTACAGCAAAACTGTGTTTCAATATAACCTCAGCCTTACCAGTGTCT  130
+29        7098676  .......T..---.....T.......A.........C...T.C....T..GAAG......  7098732
+
+Query_22  131      CA  132
+29        7098733  ..  7098734
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 113759212860
+
+
+Query= Exon23
+
+Length=149
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 126399125400
+
+
+Query= Exon24
+
+Length=129
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 105332604500
+
+
+Query= Exon25
+
+Length=68
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 42133050360
+
+
+Query= Exon26
+
+Length=136
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  78.8       2e-13
+
+
+
+Query_26  57       ACAGTGGAGATGACTCATACATGACAACTATGGTCTTGTACTATCCTAAAAATCTCCATT  116
+29        7099525  ....C..G.........C......G.G..G..-.....AG..G....G.........C..  7099583
+
+Query_26  117      TTAAGAAGGTGACAGCTGAG  136
+29        7099584  ............TG......  7099603
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 112705886815
+
+
+Query= Exon27
+
+Length=102
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  111        2e-23
+
+
+
+Query_27  1        CCATCCTCTCCTGCTGTTCACTGTGGCCTGCCAATACAATTCACTTCTGTGGAGATATCC  60
+29        7099877  ...............A............AA.......C...........CA..CT..C..  7099936
+
+Query_27  61       TTGAACTGCAGAATTGGGCATCCAGTATTCAAGAAGACAAC  101
+29        7099937  ..ACG....G..G.............G........A.....  7099977
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 77946143166
+
+
+Query= Exon28
+
+Length=77
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  81.5       3e-14
+
+
+
+Query_28  9        CTCCGTGATTTGGCAATTAGATGAAAGTGTATTCCCAAATAAATCTGCAATCACTGTTAA  68
+29        7100284  ...A.........................C..G.TG..G...G..........TC.....  7100343
+
+Query_28  69       TATCACC  75
+29        7100344  .......  7100350
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 51612986691
+
+
+Query= Exon29
+
+Length=78
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  104        2e-21
+
+
+
+Query_29  1        CATAAATGAAAATACCACCATTCTGACTGAAAAACATGTCCTTGATGTCAGATATGCGTT  60
+29        7101372  ..............G................G....A...............C....A..  7101432
+                           \                                                   
+                           |                                                   
+                           G
+
+Query_29  61       CACTGCAGTTCTTACCAA  78
+29        7101433  ........CC........  7101450
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 52666312950
+
+
+Query= Exon30
+
+Length=67
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  68.9       1e-10
+
+
+
+Query_30  8        TCTTTAATGTACATGAACGTTCGCCAAGGACTACTTGAAAACAAGGAATTTAAATTTAAT  67
+29        7101743  ...........TG....T...A.......G..T...........A.....A......G..  7101802
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 41079724101
+
+
+Query= Exon31
+
+Length=108
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NC_052550.1 Gallus gallus isolate bGalGal1 chromosome 19, bGalGal...  90.6       9e-17
+
+
+
+Query_31  1        ATAAATGGAGAAAATCGCTTTAATGCTACCATCAAGTTACAGATTTGGGTTCCTGTCATT  60
+29        7101883  ...............G....AC.G..A.......G.......C......G.G......GC  7101942
+
+Query_31  61       GTACAAGGTCAGAACATAGCAACTGTGAAAAATGCATCAGGAACACAG  108
+29        7101943  A..........--------..G....C.....C...C...........  7101982
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 83212757555
+
+
+Query= Exon32
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 49506334173
+
+
+Query= Exon33
+
+Length=102
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 77946143166
+
+
+Query= Exon34
+
+Length=96
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 71626185612
+
+
+Query= Exon35
+
+Length=111
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 86372735690
+
+
+Query= Exon36
+
+Length=81
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 55826291727
+
+
+  Database: GCF_016699485.2_bGalGal1.mat.broiler.GRCg7b_genomic.fna
+    Posted date:  May 1, 2024  10:53 PM
+  Number of letters in database: 1,053,332,251
+  Number of sequences in database:  214
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
