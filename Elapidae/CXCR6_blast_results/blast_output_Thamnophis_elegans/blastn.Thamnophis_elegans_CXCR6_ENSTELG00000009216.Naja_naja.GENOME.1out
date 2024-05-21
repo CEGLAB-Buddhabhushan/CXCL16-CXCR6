@@ -1,0 +1,113 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_009733165.1_Nana_v5_genomic.fna
+           1,897 sequences; 1,768,535,092 total letters
+
+
+
+Query= ENSTELT00000013385.1
+
+Length=1029
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM019155.1 Naja naja isolate NN01 chromosome Z, whole genome shot...  1467       0.0  
+CM019161.1 Naja naja isolate NN01 chromosome MIC_4, whole genome ...  46.4       0.019
+CM019160.1 Naja naja isolate NN01 chromosome MIC_3, whole genome ...  46.4       0.019
+
+
+
+Query_1  1         ATGGAGGAAGATGATTACTATGCATTTCTTAGCAACAATACTTTTGATGAAAGCTATTCA  60
+7        60617869  .................T...........A.............C............C...  60617810
+
+Query_1  61        TATGAAACCTTTTTGAGATTCAAGCGAATTTTTCTTGTCTGCATGTATTTATTTGCTTGC  120
+7        60617809  ...............G...........G....C................C......C...  60617750
+
+Query_1  121       ATCTTTGGAGTGACAGGAAATTCTTTGGTTATCATTATTCTGGTTTTTTACAAAAAAGTG  180
+7        60617749  ................A...C..............A...T..T.................  60617689
+                                                                    \          
+                                                                    |          
+                                                                    T
+
+Query_1  181       AAAATGCTTACAGACATATTTTTAGTGAGCCTGGCTATTGCTGATTTTAGCTTCCTTTGC  240
+7        60617688  ..............T.........A...................C..C..T.........  60617629
+
+Query_1  241       ACACTGCCTTTTTGGGCTTATTCTGCTGCAGAAGAGTGGATCTTTTACACTCTCCCATGT  300
+7        60617628  ..TT....C..C.........................................T......  60617569
+
+Query_1  301       AAAATCATCCTTGGTTTTTACACCCTGAATCTGTATGGTTCCATGTTAACACTCACTTCT  360
+7        60617568  C...................T...T.....A...................T.........  60617509
+
+Query_1  361       ATTACTATTGACAGATATTTTGTAATTGTGCAAGCGACCAAAACTCGTATCAGTCAACAC  420
+7        60617508  ..A............C.................A.A.......T................  60617449
+
+Query_1  421       AAAAGAAAATTCTGGGGTATTGTGGTCTGTATTTTGATTTGGATAATCTCTCTGCTGCTT  480
+7        60617448  ..................GC..............CA.....................T..  60617389
+
+Query_1  481       GCTTTGCCACAGTTCATCTTCAGTACAGAGGAAAAATTAGACAAAAAGATATGTTTTGCA  540
+7        60617388  .............................A.....................CA.......  60617329
+
+Query_1  541       AATTATTCTTCAAAGTTTATGGAGTTGTTCACAGAAACAATTCAGATGACACTTGGATTC  600
+7        60617328  ...........--...............................................  60617271
+11       10305902                                    ..T.......................  10305877
+
+Query_1  601       TTCTGTCCTATGCTCATCATGATTACATGCTACTCAATCATTGTAAAAACTTTACTCAGT  660
+7        60617270  ................A........T......T.......................T...  60617211
+11       10305876  A...                                                          10305873
+
+Query_1  661       GCTAAGGGCTTCCACAAGCACAAATCCTTACAAATAATATTCGCTATTATTGTTACTTTC  720
+7        60617210  ........----..............T..............T......G....A.....T  60617154
+                                  \                                            
+                                  |                                            
+                                  T
+
+Query_1  721       ATTTTGACACAAATGCCCTACAATCTTTTGAAACTCATACGGGCCTCAGACCGTAATATC  780
+7        60617153  G...................T.GC..............GT......G...T.A.......  60617094
+
+Query_1  781       ATGCTCAGCTACAGGTTTCAATATGCTTTGATCATCACAGAAGCAATTGCTTATTTCCAT  840
+7        60617093  ..................A.........................................  60617034
+10       25670853                                                        ..T...  25670848
+
+Query_1  841       GGTTGCCTCAACCCACTTCTCTATGTCTTTATCGGTGTGAAGTTTAGAAAGAACTTAGCA  900
+7        60617033  ...............G................T.................A.......G.  60616974
+7        60454971     ...A........A.C............G.T..A.....A..C....G.C..C..     60455024
+7        60460715     ...A........A.C............G.T..A.....A..C....G.C..C..     60460768
+10       25670847  T..............T.G.......C...C..T..GC.C.....                  25670804
+
+Query_1  901       AAAGTTCTAAAAAATAATTGTTGTGTTAAACATCAAGTTACAAGACAATGGCAAACAAAT  960
+7        60616973  ...-................C...............A......A...G.....T....C.  60616915
+
+Query_1  961       GATGAAAATGTCTCCAAAAGTGATACTGCCACAAATAATGCAGAAGAAACCAGCATGGTC  1020
+7        60616914  .......G..............G..................................A.T  60616855
+
+Query_1  1021      CCCTTATAA  1029
+7        60616854  .........  60616846
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1763168964836
+
+
+  Database: GCA_009733165.1_Nana_v5_genomic.fna
+    Posted date:  Sep 28, 2023  12:29 PM
+  Number of letters in database: 1,768,535,092
+  Number of sequences in database:  1,897
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

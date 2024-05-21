@@ -1,0 +1,117 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_019473425.1_HCya_v2_genomic.fna
+           1,163 sequences; 1,980,712,740 total letters
+
+
+
+Query= Pogona_vitticeps
+
+Length=1038
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+CM033601.1 Hydrophis cyanocinctus isolate QH_4 chromosome Z, whol...  433        1e-118
+CM033584.1 Hydrophis cyanocinctus isolate QH_4 chromosome 1, whol...  48.2       0.006 
+CM033586.1 Hydrophis cyanocinctus isolate QH_4 chromosome 3, whol...  47.3       0.022 
+
+
+
+Query_1  105        CTGCATGTATTCCACTGCCTGCATCTTTGGGGTGTTAGGAAACGCGTTGGTTCTTATCAT  164
+17       67528246   ...........TATT...............A...AC.......T.--.....A.C..A..  67528189
+
+Query_1  165        TCTCATTTTCTATGAGAAAATGAAAGCTCTAAGTGATGTATTTTTAGTGAGTTTGGCAGT  224
+17       67528188   CT.GT....T..CA.A...G.....ATG..T.CA..CA......C.A....CG....TA.  67528123
+                          \                                                     
+                          |                                                     
+                     GTTGTT
+
+Query_1  225        AGCTGACTTTTGTTTTCTTTGTACATTGCCATTCTGGGCCTATTCTGCTGCCAAAGAGTG  284
+17       67528122   T........CA.C..C.....C..T.....C........T...........AG.......  67528063
+
+Query_1  285        GATCTTTCATACTTTGCCATGTAAAATCATCCGAGGCCTATATACTTTAAATCTATATGG  344
+17       67528062   .......T.C...C.T......C.........TT..TT.T..C..C..G...A.G.....  67528003
+
+Query_1  345        TTCTATGCTAACTCTTACCTGCATAACTATTGACAGGTATTTTGCTATTGTCCTAGCTAC  404
+17       67528002   ...C...TA...G..C..T.CT..............A.......TA.C.A.G.A.ATG..  67527942
+                        \                                                       
+                        |                                                       
+                        C
+
+Query_1  405        CAAAGCTTACATAAGTCAAGCCAAAAGAAAAGTCTGGGGTGTTGCAGCTTGTATTTTGGT  464
+17       67527941   ....AT.CGT..CTA....CA..........T........AC..TG.TC..CG...CAA.  67527882
+0        183856247                                                          ....  183856250
+
+Query_1  465        TTGGGTGATTTCTCTGGGCTTTGCTTTGCCACAATTTATATTTAGTAAAGAGATTCAAAA  524
+17       67527881   ....A.A..C......CTGC.............G..C..C..C....C.....---....  67527824
+                                                                       \        
+                                                                       |        
+                                                                       A
+0        183856251  ......................                                        183856272
+2        175449049                               ..............T.....TT.........  175449019
+
+Query_1  525        TGACAAAAAGGTATGTTCTGTAAATTATCCTTCATATCACATGGAAGTTTTCACAGAAGT  584
+17       67527823   .........AA......T..C.......T.....GT.A.--....GT.G.........AC  67527764
+                     \                                                          
+                     |                                                          
+                    TA
+2        175449018  ..                                                            175449017
+
+Query_1  585        AACCCAGATGGTTCTTGGATTCTTCTGCCCTATGTTTATCATGCTTATTTTCTACTCAAT  644
+17       67527763   ..TT......ACA.A............T......C.C......A....A.G...T.....  67527704
+
+Query_1  645        CATTGTGAACACATTATTCAGAGCCCGGGGTTTCCACAAGCACAAATCCTTGCGAATAAT  704
+17       67527703   ......A..A..T...C.TT.T..TAA...C.....T..A........T..A.A.....C  67527644
+
+Query_1  705        ACTTGCTATCGTTGTGACATTCATTATTACACAGAGTCCATACAACCTATTGAAACTCAG  764
+17       67527643   .T.......T.....A..T......T.G.....A.....-..T..A..C..........T  67527584
+                                                       \                        
+                                                       |                        
+                                                       T
+
+Query_1  765        CCGTGCCATAGACAAAAATGTCATTCTGGATCACGCTTTTGAATATGCTTTGATTGTGAC  824
+17       67527583   G..G...-------------...-----....----------............CA.C.T  67527552
+
+Query_1  825        AGAAGCCATTGCTTATTTCCACAGTTGCCTTAACCCTGTTCTCTATTTCTTTATTGGTGT  884
+17       67527551   .A....A..............TG..C....C...T.A.......G.G.............  67527492
+
+Query_1  885        GAAGTTTCGGAAGCATTTGATGAAAATTCTTAAAAATACTAGACATGCTAAACATAAACT  944
+17       67527491   .......A.A...A.C..-.G.........A.......T.TTGTG..T....-..C..--  67527435
+                                              \                                 
+                                              |                                 
+                                              G
+
+Query_1  945        ATTTGCAAAGCAATGGCAAACAACTGAAGATGACAGCTCAAAAACCTGTACTGACACACA  1004
+17       67527434   ...-----.CA.G.....T........T..AA.TGT...C....GTG......C....A.  67527380
+
+Query_1  1005       TCATGTAGAGGAAACAAGCATGGATCCATTGTAA  1038
+17       67527379   .A...C...A.....C......AT...T..A...  67527346
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1990577732805
+
+
+  Database: GCA_019473425.1_HCya_v2_genomic.fna
+    Posted date:  Sep 28, 2023  12:29 PM
+  Number of letters in database: 1,980,712,740
+  Number of sequences in database:  1,163
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

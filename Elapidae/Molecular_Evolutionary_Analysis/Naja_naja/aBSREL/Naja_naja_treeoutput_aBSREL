@@ -1,0 +1,194 @@
+[2J[H     /HYPHY 2.3.14.20230213beta(MP) for Linux on x86_64\     
+***************** TYPES OF STANDARD ANALYSES *****************
+
+
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Miscellaneous
+	(10) Model Comparison
+	(11) Kernel Analysis Tools
+	(12) Molecular Clock
+	(13) Phylogeny Reconstruction
+	(14) Positive Selection
+	(15) Recombination
+	(16) Selection/Recombination
+	(17) Relative Rate
+	(18) Relative Ratio
+	(19) Substitution Rates
+
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):[2J[H***************** FILES IN 'Selection Analyses' ***************** 
+
+
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):
+Analysis Description
+--------------------
+aBSREL (Adaptive branch-site random effects likelihood) uses an adaptive
+random effects branch-site model framework to test whether each branch
+has evolved under positive selection, using a procedure which infers an
+optimal number of rate categories per branch.
+
+- __Requirements__: in-frame codon alignment and a phylogenetic tree
+
+- __Citation__: Less Is More: An Adaptive Branch-Site Random Effects Model for Efficient
+Detection of Episodic Diversifying Selection (2015). Mol Biol Evol 32
+(5): 1342-1353
+
+- __Written by__: Sergei L Kosakovsky Pond, Ben Murrell, Steven Weaver and Temple iGEM /
+UCSD viral evolution group
+
+- __Contact Information__: spond@temple.edu
+
+- __Analysis Version__: 2.0
+
+
+
+####Choose Genetic Code
+
+1. [**Universal**] Universal code. (Genebank transl_table=1).
+2. [**Vertebrate mtDNA**] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+3. [**Yeast mtDNA**] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+4. [**Mold/Protozoan mtDNA**] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+5. [**Invertebrate mtDNA**] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+6. [**Ciliate Nuclear**] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+7. [**Echinoderm mtDNA**] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+8. [**Euplotid Nuclear**] Euplotid Nuclear code. (Genebank transl_table=10).
+9. [**Alt. Yeast Nuclear**] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+10. [**Ascidian mtDNA**] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+11. [**Flatworm mtDNA**] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+12. [**Blepharisma Nuclear**] Blepharisma Nuclear code. (Genebank transl_table=15).
+13. [**Chlorophycean mtDNA**] Chlorophycean Mitochondrial Code (transl_table=16).
+14. [**Trematode mtDNA**] Trematode Mitochondrial Code (transl_table=21).
+15. [**Scenedesmus obliquus mtDNA**] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+16. [**Thraustochytrium mtDNA**] Thraustochytrium Mitochondrial Code (transl_table=23).
+17. [**Pterobranchia mtDNA**] Pterobranchia Mitochondrial Code (transl_table=24).
+18. [**SR1 and Gracilibacteria**] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+19. [**Pachysolen Nuclear**] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+>Please choose an option (or press q to cancel selection):
+
+>Select a coding sequence alignment file (`/usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/`) 
+
+>Please select a tree file for the data: (`/usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/`) 
+>Loaded a multiple sequence alignment with **16** sequences, **365** codons, and **1** partitions from `/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/Elapidae_selection/Naja_naja/aBSREL/Naja_naja.aln`
+
+
+####Choose the set of branches to test for selection
+
+1. [**All**] Include all branches in the analysis
+2. [**Internal**] Include all internal branches in the analysis
+3. [**Leaves**] Include all leaf branches in the analysis
+4. [**Unlabeled branches**] Set of 28 unlabeled branches
+5. [**fg**] Set fg with 1 branches
+
+>Please choose an option (or press q to cancel selection):
+
+### * Selected 1 branches for testing: `Naja_naja`
+
+
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+* Log(L) = -5762.59, AIC-c = 11599.34 (37 estimated parameters)
+
+### Fitting the baseline model with a single dN/dS class per branch, and no site-to-site variation. 
+* Log(L) = -5573.94, AIC-c = 11293.70 (72 estimated parameters)
+* Branch-level non-synonymous/synonymous rate ratio distribution has median  0.35, and 95% of the weight in  0.00 - 897224057422953.75
+
+### Determining the optimal number of rate classes per branch using a step up procedure
+
+|              Branch               |  Length  |  Rates   |     Max. dN/dS     |    Log(L)     |     AIC-c     |Best AIC-c so far|
+|-----------------------------------|----------|----------|--------------------|---------------|---------------|-----------------|
+|        Varanus_komodoensis        |   0.17   |    2     |    1.53 (28.18%)   |   -5568.13    |   11286.19    |    11286.19     |
+|        Varanus_komodoensis        |   0.17   |    3     |    1.67 (18.57%)   |   -5568.13    |   11290.30    |    11286.19     |
+|              Node21               |   0.16   |    2     |   10.00 ( 4.94%)   |   -5561.54    |   11277.10    |    11277.10     |
+|              Node21               |   0.16   |    3     |   11.43 ( 4.29%)   |   -5561.51    |   11281.16    |    11277.10     |
+|         Pogona_vitticeps          |   0.15   |    2     |    2.12 (26.57%)   |   -5553.93    |   11266.01    |    11266.01     |
+|         Pogona_vitticeps          |   0.15   |    3     |    2.67 (18.39%)   |   -5553.93    |   11270.11    |    11266.01     |
+|        Anolis_carolinensis        |   0.12   |    2     |   41.29 ( 3.06%)   |   -5546.20    |   11254.65    |    11254.65     |
+|        Anolis_carolinensis        |   0.12   |    3     |   41.27 ( 3.06%)   |   -5546.20    |   11258.76    |    11254.65     |
+|              Node24               |   0.07   |    2     |    2.39 (16.06%)   |   -5543.36    |   11253.08    |    11253.08     |
+|              Node24               |   0.07   |    3     |    2.42 (15.96%)   |   -5543.36    |   11257.20    |    11253.08     |
+|             Naja_naja             |   0.05   |    2     |    2.08 (19.23%)   |   -5540.39    |   11251.26    |    11251.26     |
+|             Naja_naja             |   0.05   |    3     |    2.45 (13.07%)   |   -5540.40    |   11255.40    |    11251.26     |
+|          Python_molurus           |   0.04   |    2     |    8.03 ( 2.90%)   |   -5538.19    |   11250.98    |    11250.98     |
+|          Python_molurus           |   0.04   |    3     |    9.08 ( 2.49%)   |   -5538.19    |   11255.10    |    11250.98     |
+|               Node2               |   0.04   |    2     |    0.37 (30.98%)   |   -5538.14    |   11255.01    |    11250.98     |
+|       Sceloporus_undulatus        |   0.04   |    2     |    1.84 (15.43%)   |   -5538.03    |   11254.79    |    11250.98     |
+|        Thamnophis_elegans         |   0.03   |    2     |    0.33 ( 0.00%)   |   -5538.19    |   11255.11    |    11250.98     |
+|              Node26               |   0.03   |    2     |    7.93 ( 8.07%)   |   -5537.43    |   11253.59    |    11250.98     |
+|      Phrynosoma_platyrhinos       |   0.02   |    2     |    0.23 (25.72%)   |   -5538.19    |   11255.11    |    11250.98     |
+|              Node23               |   0.02   |    2     |   32.68 ( 8.99%)   |   -5537.83    |   11254.39    |    11250.98     |
+|           Vipera_berus            |   0.02   |    2     |    0.78 (16.43%)   |   -5538.19    |   11255.10    |    11250.98     |
+|              Node14               |   0.02   |    2     |    0.39 (53.29%)   |   -5538.19    |   11255.11    |    11250.98     |
+|               Node8               |   0.01   |    2     |    0.62 (13.49%)   |   -5538.19    |   11255.11    |    11250.98     |
+|           Ptyas_mucosa            |   0.01   |    2     |    0.20 (93.98%)   |   -5538.19    |   11255.11    |    11250.98     |
+|               Node5               |   0.01   |    2     |    1.00 (23.72%)   |   -5538.17    |   11255.07    |    11250.98     |
+|          Crotalus_tigris          |   0.01   |    2     |    0.50 (25.88%)   |   -5538.19    |   11255.11    |    11250.98     |
+|               Node6               |   0.01   |    2     |  109.22 ( 0.52%)   |   -5535.71    |   11250.14    |    11250.14     |
+|               Node6               |   0.01   |    3     |  118.12 ( 0.46%)   |   -5535.70    |   11254.25    |    11250.14     |
+|         Bothrops_jararaca         |   0.01   |    2     |   21.08 ( 3.18%)   |   -5534.38    |   11251.61    |    11250.14     |
+|               Node3               |   0.01   |    2     |    0.50 (46.88%)   |   -5535.71    |   11254.26    |    11250.14     |
+|              Node16               |   0.01   |    2     |   74.00 ( 3.11%)   |   -5534.51    |   11251.87    |    11250.14     |
+|        Pituophis_catenifer        |   0.00   |    2     |    0.00 (94.30%)   |   -5535.71    |   11254.26    |    11250.14     |
+|              Node17               |   0.00   |    2     |   46.46 ( 1.29%)   |   -5534.94    |   11252.73    |    11250.14     |
+|   Protobothrops_mucrosquamatus    |   0.00   |    2     |    0.24 (42.64%)   |   -5535.71    |   11254.26    |    11250.14     |
+|      Pantherophis_obsoletus       |   0.00   |    2     |    0.00 (94.30%)   |   -5535.71    |   11254.26    |    11250.14     |
+|       Pantherophis_guttatus       |   0.00   |    2     |  28.84 (100.00%)   |   -5535.72    |   11254.29    |    11250.14     |
+|               Node9               |   0.00   |    2     |    0.25 ( 5.70%)   |   -5535.71    |   11254.26    |    11250.14     |
+
+### Rate class analyses summary
+*  8 branches with **2** rate classes
+*  21 branches with **1** rate classes
+
+### Improving parameter estimates of the adaptive rate class model
+* Log(L) = -5534.42, AIC-c = 11247.57 (88 estimated parameters)
+
+### Testing selected branches for selection
+
+|              Branch               |  Rates   |     Max. dN/dS     |      Test LRT      |Uncorrected p-value |
+|-----------------------------------|----------|--------------------|--------------------|--------------------|
+|        Varanus_komodoensis        |     2    |    1.61 (29.21%)   |    Not selected    |    for testing     |
+|              Node21               |     2    |   12.05 ( 4.99%)   |    Not selected    |    for testing     |
+|         Pogona_vitticeps          |     2    |    2.72 (20.47%)   |    Not selected    |    for testing     |
+|        Anolis_carolinensis        |     2    |   43.61 ( 3.12%)   |    Not selected    |    for testing     |
+|              Node24               |     2    |    2.59 (15.79%)   |    Not selected    |    for testing     |
+|             Naja_naja             |     2    |    2.17 (18.91%)   |        1.33        |       0.20443      |
+|          Python_molurus           |     2    |    8.39 ( 2.98%)   |    Not selected    |    for testing     |
+|               Node2               |     1    |   0.31 (100.00%)   |    Not selected    |    for testing     |
+|       Sceloporus_undulatus        |     1    |   0.30 (100.00%)   |    Not selected    |    for testing     |
+|        Thamnophis_elegans         |     1    |   0.26 (100.00%)   |    Not selected    |    for testing     |
+|              Node26               |     1    |   0.94 (100.00%)   |    Not selected    |    for testing     |
+|      Phrynosoma_platyrhinos       |     1    |   0.21 (100.00%)   |    Not selected    |    for testing     |
+|              Node23               |     1    |   2.45 (100.00%)   |    Not selected    |    for testing     |
+|           Vipera_berus            |     1    |   0.77 (100.00%)   |    Not selected    |    for testing     |
+|              Node14               |     1    |   0.34 (100.00%)   |    Not selected    |    for testing     |
+|               Node8               |     1    |   0.49 (100.00%)   |    Not selected    |    for testing     |
+|           Ptyas_mucosa            |     1    |   0.20 (100.00%)   |    Not selected    |    for testing     |
+|               Node5               |     1    |   0.23 (100.00%)   |    Not selected    |    for testing     |
+|          Crotalus_tigris          |     1    |   0.44 (100.00%)   |    Not selected    |    for testing     |
+|               Node6               |     2    |  134.53 ( 0.45%)   |    Not selected    |    for testing     |
+|         Bothrops_jararaca         |     1    |   0.47 (100.00%)   |    Not selected    |    for testing     |
+|               Node3               |     1    |   0.45 (100.00%)   |    Not selected    |    for testing     |
+|              Node16               |     1    |   1.67 (100.00%)   |    Not selected    |    for testing     |
+|        Pituophis_catenifer        |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|              Node17               |     1    |   0.31 (100.00%)   |    Not selected    |    for testing     |
+|   Protobothrops_mucrosquamatus    |     1    |   0.11 (100.00%)   |    Not selected    |    for testing     |
+|      Pantherophis_obsoletus       |     1    |   0.00 (100.00%)   |    Not selected    |    for testing     |
+|       Pantherophis_guttatus       |     1    |  >1000 (100.00%)   |    Not selected    |    for testing     |
+|               Node9               |     1    |   1.00 (100.00%)   |    Not selected    |    for testing     |
+----
+### Adaptive branch site random effects likelihood test 
+Likelihood ratio test for episodic diversifying positive selection at Holm-Bonferroni corrected _p =   0.0500_ found **0** branches under selection among **1** tested.
+

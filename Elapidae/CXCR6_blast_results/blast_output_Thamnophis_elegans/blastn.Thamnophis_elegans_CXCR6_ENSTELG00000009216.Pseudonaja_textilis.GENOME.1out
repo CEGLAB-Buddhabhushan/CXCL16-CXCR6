@@ -1,0 +1,123 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCF_900518735.1_EBS10Xv2-PRI_genomic.fna
+           28,550 sequences; 1,590,035,073 total letters
+
+
+
+Query= ENSTELT00000013385.1
+
+Length=1029
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+NW_020769407.1 Pseudonaja textilis unplaced genomic scaffold, EBS...  1298       0.0  
+NW_020769385.1 Pseudonaja textilis unplaced genomic scaffold, EBS...  49.1       0.005
+NW_020769332.1 Pseudonaja textilis unplaced genomic scaffold, EBS...  49.1       0.005
+NW_020769309.1 Pseudonaja textilis unplaced genomic scaffold, EBS...  46.4       0.017
+
+
+
+Query_1  1         ATGGAGGAAGATGATTACTATGCATTTCTTAGCAACAATACTTTTGATGAAAGCTATTCA  60
+99       2568005   .............................A.....T..C....C............C...  2568064
+
+Query_1  61        TATGAAACCTTTTTGAGATTCAAGCGAATTTTTCTTGTCTGCATGTATTTATTTGCTTGC  120
+99       2568065   ...............G...........G....C.......................C...  2568128
+                          \                                                    
+                          |                                                    
+                       GAAA
+1        19487429                                                     ..A......  19487421
+
+Query_1  121       ATCTTTGGAGTGACAGGAAATTCTTTGGTTATCATTATTCTGGTTTTTTACAAAAAAGTG  180
+99       2568129   ....................C..............A..CT..T.................  2568191
+                                                                    \          
+                                                                    |          
+                                                                  TTT
+1        19487420  ...............A.T...A....                                    19487395
+
+Query_1  181       AAAATGCTTACAGACATATTTTTAGTGAGCCTGGCTATTGCTGATTTTAGCTTCCTTTGC  240
+99       2568192   ........................A...................C..C............  2568251
+
+Query_1  241       ACACTGCCTTTTTGGGCTTATTCTGCTGCAGAAGAGTGGATCTTTTACACTCTCCCATGT  300
+99       2568252   C.-------..C.........................................A......  2568304
+
+Query_1  301       AAAATCATCCTTGGTTTTTACACCCTGAATCTGTATGGTTCCATGTTAACACTCACTTCT  360
+99       2568305   C...................T...T.....A..................TG.........  2568365
+                                                             \                 
+                                                             |                 
+                                                             C
+
+Query_1  361       ATTACTATTGACAGATATTTTGTAATTGTGCAAGCGACCAAAACTCGTATCAGTCAACAC  420
+99       2568366   ..A...............................T........A..A....TA.......  2568426
+                                                                \              
+                                                                |              
+                                                                T
+
+Query_1  421       AAAAGAAAATTCTGGGGTATTGTGGTCTGTATTTTGATTTGGATAATCTCTCTGCTGCTT  480
+99       2568427   G..................C.........C....CA........................  2568486
+
+Query_1  481       GCTTTGCCACAGTTCATCTTCAGTACAGAGGAAAAATTAGACAAAAAGATATGTTTTGCA  540
+99       2568487   ...--------..................A..............................  2568538
+
+Query_1  541       AATTATTCTTCAAAGTTTATGGAGTTGTTCACAGAAACAATTCAGATGACACTTGGATTC  600
+99       2568539   ............--...A..................................A.......  2568596
+
+Query_1  601       TTCTGTCCTATGCTCATCATGATTACATGCTACTCAATCATTGTAAAAACTTTACTCAGT  660
+99       2568597   .........................T..T...T.......................T...  2568656
+
+Query_1  661       GCTAAGGGCTTCCACAAGCACAAATCCTTACAAATAATATTCGCTATTATTGTTACTTTC  720
+99       2568657   ..............T...........T..........C...T......G....A......  2568716
+
+Query_1  721       ATTTTGACACAAATGCCCTACAATCTTTTGAAACTCATACGGGCCTCAGACCGTAATATC  780
+99       2568717   ..................C.T..C..............G.A.........T.--------  2568769
+                                  \                                            
+                                  |                                            
+                                  C
+
+Query_1  781       ATGCTCAGCTACAGGTTTCAATATGCTTTGATCATCACAGAAGCAATTGCTTATTTCCAT  840
+99       2568770   --------------------.................T.A....................  2568809
+77       2708561                                                         ..T...  2708566
+
+Query_1  841       GGTTGCCTCAACCCACTTCTCTATGTCTTTATCGGTGTGAAGTTTAGAAAGAACTTAGCA  900
+99       2568810   ...C...........G................T.........................G.  2568869
+99       2750308      ...A........A.C............G.T..A.....A..C....G.C..C..     2750255
+77       2708567   T.............GT.G.......C...CG....GC.C........G..C..         2708619
+24       14938262     ...........G..............C..G...CA....                    14938300
+
+Query_1  901       AAAGTTCTAAAAAATAATTGTTGTGTTAAACATCAAGTTACAAGACAATGGCAAACAAAT  960
+99       2568870   .C.................T..........-.....A..........G.....T....C.  2568928
+
+Query_1  961       GATGAAAATGTCTCCAAAAGTGATACTGCCACAAATAATGCAGAAGAAACCAGCATGGTC  1020
+99       2568929   ......................G...........G......................T.T  2568988
+
+Query_1  1021      CCCTTATAA  1029
+99       2568989   ..T......  2568997
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 1584354108581
+
+
+  Database: GCF_900518735.1_EBS10Xv2-PRI_genomic.fna
+    Posted date:  Sep 28, 2023  12:29 PM
+  Number of letters in database: 1,590,035,073
+  Number of sequences in database:  28,550
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

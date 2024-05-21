@@ -1,0 +1,85 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/Elapidae_selection/Naja_naja_test/gBGC/`) 
+
+A tree was found in the data file:
+(Python_molurus:133.35916,(Naja_naja:37.84692,((Ptyas_mucosa:30.5925,((Pantherophis_obsoletus:11.59544,Pantherophis_guttatus:11.59544):2.24862,Pituophis_catenifer:13.84406):16.74844):4.11885,Thamnophis_elegans:34.71135):3.13557):0.34278,(Vipera_berus:33.6215,((Crotalus_tigris:22.35358,Bothrops_jararaca:22.35358):2.98712,Protobothrops_mucrosquamatus:25.3407):8.2808):4.5682)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1083
+Synonymous  sites      :242.2322460489567
+Nonsynonymous  sites   :798.5843377358108
+
+Total tree lengths:
+	E[syn]        : 0.1546609332425233
+	E[non-syn]    : 0.1424612073806304
+	dS            : 0.6914760253174563
+	dN            : 0.1931987396981278
+
+
+E[Syn subs/nucleotide site] tree: 
+	(Python_molurus:0.04580305852761193,(Naja_naja:0.02642339019327761,((Ptyas_mucosa:0.008294384464646734,((Pantherophis_obsoletus:0.001033323306225197,Pantherophis_guttatus:5.165704848420658e-20)Node8:0,Pituophis_catenifer:0.004242023786714947)Node7:0.006385027365419144)Node5:0.003688134584195541,Thamnophis_elegans:0.01781266542330053)Node4:0.007612198029021571)Node2:0.003367507965285193,(Vipera_berus:0.006898323923501802,((Crotalus_tigris:0.005311962968120963,Bothrops_jararaca:0.003868382269017768)Node16:0.001973746085089109,Protobothrops_mucrosquamatus:0.00220719321829448)Node15:0.001001762389229109)Node13:0.008737848743571608)
+
+E[Non-syn subs/nucleotide site] tree: 
+	(Python_molurus:0.03911173883985066,(Naja_naja:0.02534765832498928,((Ptyas_mucosa:0.004193797008281963,((Pantherophis_obsoletus:0,Pantherophis_guttatus:0.0009854056508338397)Node8:0,Pituophis_catenifer:0)Node7:0.008007489155745322)Node5:0.006802587271576457,Thamnophis_elegans:0.01174494284853045)Node4:0.004241977157615482)Node2:0.00368358116043804,(Vipera_berus:0.01405663568381694,((Crotalus_tigris:0.005945520166261741,Bothrops_jararaca:0.004684376994279561)Node16:0.001276841972200736,Protobothrops_mucrosquamatus:0.000873975764671595)Node15:0.004156872516206359)Node13:0.007347806865332001)
+
+dS tree: 
+	(Python_molurus:0.2047816225729843,(Naja_naja:0.1181367553085235,((Ptyas_mucosa:0.03708349537161509,((Pantherophis_obsoletus:0.004619901598136991,Pantherophis_guttatus:2.309543193398329e-19)Node8:0,Pituophis_catenifer:0.01896573159002038)Node7:0.02854692036068299)Node5:0.0164893395484452,Thamnophis_elegans:0.07963892903645707)Node4:0.03403349719080834)Node2:0.01505584490046292,(Vipera_berus:0.03084182610288201,((Crotalus_tigris:0.02374933968664235,Bothrops_jararaca:0.01729521178819242)Node16:0.00882445275151141,Protobothrops_mucrosquamatus:0.009868175250828531)Node15:0.004478795392566597)Node13:0.03906618686669611)
+
+dN tree: 
+	(Python_molurus:0.05304137729980277,(Naja_naja:0.03437522208837127,((Ptyas_mucosa:0.005687417027044074,((Pantherophis_obsoletus:0,Pantherophis_guttatus:0.001336357688755598)Node8:0,Pituophis_catenifer:0)Node7:0.01085935491830433)Node5:0.009225327453835608,Thamnophis_elegans:0.01592790204353651)Node4:0.005752756527535835)Node2:0.004995487900583084,(Vipera_berus:0.01906290384899829,((Crotalus_tigris:0.008063016059540636,Bothrops_jararaca:0.006352716983141089)Node16:0.001731589001374661,Protobothrops_mucrosquamatus:0.001185242069513847)Node15:0.005637341884033808)Node13:0.009964726903756447)
+
+Estimating pairwise dN/dS: total of 55 analyses

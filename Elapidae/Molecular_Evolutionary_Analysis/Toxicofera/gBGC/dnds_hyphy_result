@@ -1,0 +1,85 @@
+
+
+This example analysis fits the local MG94xREV model 
+(separate alpha and beta on each branch) to a codon dataset,
+and computes several distance measures between sequences:
+ - expected number of substitutions per codon
+ - expected number of syn. substitutions per codon
+ - expected number of nonsyn. substitutions per codon
+ - dS
+ - dN
+and provides the example contrasting the estimation of dN and dS
+between a pair of sequences based on the phylogenetic tree and
+direct pairwise estimation.
+
+
+			+-------------------+
+			|Choose Genetic Code|
+			+-------------------+
+
+
+	(1):[Universal] Universal code. (Genebank transl_table=1).
+	(2):[Vertebrate mtDNA] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+	(3):[Yeast mtDNA] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+	(4):[Mold/Protozoan mtDNA] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+	(5):[Invertebrate mtDNA] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+	(6):[Ciliate Nuclear] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+	(7):[Echinoderm mtDNA] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+	(8):[Euplotid Nuclear] Euplotid Nuclear code. (Genebank transl_table=10).
+	(9):[Alt. Yeast Nuclear] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+	(10):[Ascidian mtDNA] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+	(11):[Flatworm mtDNA] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+	(12):[Blepharisma Nuclear] Blepharisma Nuclear code. (Genebank transl_table=15).
+	(13):[Chlorophycean mtDNA] Chlorophycean Mitochondrial Code (transl_table=16).
+	(14):[Trematode mtDNA] Trematode Mitochondrial Code (transl_table=21).
+	(15):[Scenedesmus obliquus mtDNA] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+	(16):[Thraustochytrium mtDNA] Thraustochytrium Mitochondrial Code (transl_table=23).
+	(17):[Pterobranchia mtDNA] Pterobranchia Mitochondrial Code (transl_table=24).
+	(18):[SR1 and Gracilibacteria] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+	(19):[Pachysolen Nuclear] Pachysolen tannophilus Nuclear Code (transl_table=26).
+
+Please choose an option (or press q to cancel selection):
+
+			+---------+
+			|Alignment|
+			+---------+
+
+
+	(1):[Flu H5N1 HA] Use the example Influenza H5N1 hemagglutinin alignment (5 sequences)
+	(2):[Drospophila adh] Use the example Drosophila ADH alignment (6 sequences).
+	(3):[Custom] Load your own alignment and tree.
+
+Please choose an option (or press q to cancel selection):
+Choose a nucleotide alignment (`/media/morpheus/sagar/BUDDHA/CXCR6/Mol_evo_ana/Toxicofera/gBGC/`) 
+
+A tree was found in the data file:
+(Python_molurus:85.77443,((((Pseudonaja_textilis:23.3915,Hydrophis_cyanocinctus:23.3915):8.39367,Naja_naja:31.78517):6.06175,((Ptyas_mucosa:30.5925,((Pantherophis_obsoletus:11.59544,Pantherophis_guttatus:11.59544):2.24862,Pituophis_catenifer:13.84406):16.74844):4.11885,Thamnophis_elegans:34.71135):3.13557):0.34278,(Vipera_berus:33.6215,((Crotalus_tigris:22.35358,Bothrops_jararaca:22.35358):2.98712,Protobothrops_mucrosquamatus:25.3407):8.2808):4.5682):47.58473,(Varanus_komodoensis:157.16052,((Anolis_carolinensis:84.82432,(Phrynosoma_platyrhinos:54.10697,Sceloporus_undulatus:54.10697):30.71735):61.57568,Pogona_vitticeps:146.4):10.76052):79.13587)
+
+Would you like to use it:(Y/N)?
+
+Fitting local MG94xREV to observed data... 
+
+Total nucleotide sites :1128
+Synonymous  sites      :253.6978201214133
+Nonsynonymous  sites   :830.1782417154983
+
+Total tree lengths:
+	E[syn]        : 0.6025112805517161
+	E[non-syn]    : 0.5723214680750566
+	dS            : 2.678906441281526
+	dN            : 0.7776385642854553
+
+
+E[Syn subs/nucleotide site] tree: 
+	(Python_molurus:0.02186518976860851,((((Pseudonaja_textilis:0.002426002920584334,Hydrophis_cyanocinctus:0.01538996539282621)Node5:0.006876846795362272,Naja_naja:0.00986234686274247)Node4:0.01656726789699921,((Ptyas_mucosa:0.00837595178261673,((Pantherophis_obsoletus:0.001045981454293594,Pantherophis_guttatus:1.258414180679522e-19)Node13:0,Pituophis_catenifer:0.004296030600808166)Node12:0.006459356468718785)Node10:0.003393561642242603,Thamnophis_elegans:0.01832292240646432)Node9:0.006623831519683494)Node3:0.004614186642704117,(Vipera_berus:0.007008009099702697,((Crotalus_tigris:0.005373046518416587,Bothrops_jararaca:0.003918083676672569)Node21:0.002000984438908863,Protobothrops_mucrosquamatus:0.002236710040308102)Node20:0.001018681988238696)Node18:0.008665966008769984)Node2:0.02401022222861668,(Varanus_komodoensis:0.08810944004185735,((Anolis_carolinensis:0.06971026081004826,(Phrynosoma_platyrhinos:0.01570233123092541,Sceloporus_undulatus:0.02202221605071213)Node30:0.007910724895276217)Node28:0.03945393832201544,Pogona_vitticeps:0.0776535824648323)Node27:0.004260027727714846)Node25:0.09733761285404524)
+
+E[Non-syn subs/nucleotide site] tree: 
+	(Python_molurus:0.021674733115014,((((Pseudonaja_textilis:0.01008726748294774,Hydrophis_cyanocinctus:0.02959610007464848)Node5:0.01858706722895019,Naja_naja:0.01859890781420546)Node4:0.007306984300209885,((Ptyas_mucosa:0.003862007671927367,((Pantherophis_obsoletus:0,Pantherophis_guttatus:0.0009830919966995347)Node13:0,Pituophis_catenifer:0)Node12:0.007977598034523681)Node10:0.005855400153400174,Thamnophis_elegans:0.01198197506474227)Node9:0.003020417443603372)Node3:0.004983548029396317,(Vipera_berus:0.01409531261435717,((Crotalus_tigris:0.005921159531566516,Bothrops_jararaca:0.004710069866454052)Node21:0.001856202717866025,Protobothrops_mucrosquamatus:0.0004010143009801044)Node20:0.003436082184105569)Node18:0.008326998953629821)Node2:0.01719236943972493,(Varanus_komodoensis:0.07873004826844023,((Anolis_carolinensis:0.05550242166865137,(Phrynosoma_platyrhinos:0.008523980228127505,Sceloporus_undulatus:0.01645171730785357)Node30:0.01960837471567595)Node28:0.02890922716012867,Pogona_vitticeps:0.07741972130469364)Node27:0.01769826311465861)Node25:0.06902340628787433)
+
+dS tree: 
+	(Python_molurus:0.09721776106387857,((((Pseudonaja_textilis:0.01078657787879098,Hydrophis_cyanocinctus:0.06842739505920853)Node5:0.03057607346194896,Naja_naja:0.04385030685659616)Node4:0.0736619580683491,((Ptyas_mucosa:0.03724144577304632,((Pantherophis_obsoletus:0.004650678826796858,Pantherophis_guttatus:5.595204543449247e-19)Node13:0,Pituophis_catenifer:0.01910115946361887)Node12:0.0287198135688664)Node10:0.0150885708462836,Thamnophis_elegans:0.08146800971565488)Node9:0.02945110821459651)Node3:0.0205157558329802,(Vipera_berus:0.03115925182440076,((Crotalus_tigris:0.02388982479184634,Bothrops_jararaca:0.01742071881095215)Node21:0.008896846043095688,Protobothrops_mucrosquamatus:0.009944937344199852)Node20:0.004529298999034882)Node18:0.03853091703040404)Node2:0.1067550783878164,(Varanus_komodoensis:0.391755231951346,((Anolis_carolinensis:0.3099481665081025,(Phrynosoma_platyrhinos:0.06981624682469581,Sceloporus_undulatus:0.09791593673652768)Node30:0.03517293793695631)Node28:0.1754214616662253,Pogona_vitticeps:0.3452660372817195)Node27:0.0189410822472288)Node25:0.4327858522663581)
+
+dN tree: 
+	(Python_molurus:0.02945042127725927,((((Pseudonaja_textilis:0.01370601775499729,Hydrophis_cyanocinctus:0.04021353392160367)Node5:0.0252550726828624,Naja_naja:0.02527116101124395)Node4:0.009928323673726654,((Ptyas_mucosa:0.005247481125176233,((Pantherophis_obsoletus:0,Pantherophis_guttatus:0.001335770701464739)Node13:0,Pituophis_catenifer:0)Node12:0.0108395162999545)Node10:0.007955991907697925,Thamnophis_elegans:0.01628044098710684)Node9:0.004103975152786757)Node3:0.006771367755366336,(Vipera_berus:0.01915192645393813,((Crotalus_tigris:0.008045342091603435,Bothrops_jararaca:0.006399780845112679)Node21:0.002522104965586919,Protobothrops_mucrosquamatus:0.0005448759179363989)Node20:0.004668757272729572)Node18:0.01131426282660076)Node2:0.02336003493410719,(Varanus_komodoensis:0.1069740086939485,((Anolis_carolinensis:0.07541360215953967,(Phrynosoma_platyrhinos:0.01158191002146609,Sceloporus_undulatus:0.02235367803052888)Node30:0.0266427684656934)Node28:0.03928024922604564,Pogona_vitticeps:0.1051936093280823)Node27:0.02404741510941266)Node25:0.09378516369187652)
+
+Estimating pairwise dN/dS: total of 153 analyses

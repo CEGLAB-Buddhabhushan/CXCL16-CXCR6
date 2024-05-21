@@ -1,0 +1,2539 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'EVbrTikz.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'FHEjBGAq.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'BVznlfNC.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'TbqvlSNX.model_pi' was not initialized prior to being used
+Model TbqvlSNX.model assigned to Python_molurus
+Model TbqvlSNX.model assigned to Pseudonaja_textilis
+Model TbqvlSNX.model assigned to Ptyas_mucosa
+Model TbqvlSNX.model assigned to Pantherophis_obsoletus
+Model TbqvlSNX.model assigned to Pantherophis_guttatus
+Model TbqvlSNX.model assigned to Node9
+Model TbqvlSNX.model assigned to Pituophis_catenifer
+Model TbqvlSNX.model assigned to Node8
+Model TbqvlSNX.model assigned to Node6
+Model TbqvlSNX.model assigned to Thamnophis_elegans
+Model TbqvlSNX.model assigned to Node5
+Model TbqvlSNX.model assigned to Node3
+Model TbqvlSNX.model assigned to Vipera_berus
+Model TbqvlSNX.model assigned to Crotalus_tigris
+Model TbqvlSNX.model assigned to Bothrops_jararaca
+Model TbqvlSNX.model assigned to Node17
+Model TbqvlSNX.model assigned to Protobothrops_mucrosquamatus
+Model TbqvlSNX.model assigned to Node16
+Model TbqvlSNX.model assigned to Node14
+Model TbqvlSNX.model assigned to Node2
+Model TbqvlSNX.model assigned to Varanus_komodoensis
+Model TbqvlSNX.model assigned to Anolis_carolinensis
+Model TbqvlSNX.model assigned to Phrynosoma_platyrhinos
+Model TbqvlSNX.model assigned to Sceloporus_undulatus
+Model TbqvlSNX.model assigned to Node26
+Model TbqvlSNX.model assigned to Node24
+Model TbqvlSNX.model assigned to Pogona_vitticeps
+Model TbqvlSNX.model assigned to Node23
+Model TbqvlSNX.model assigned to Node21
+The tips of the tree:TbqvlSNX.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 4733 vs 10497 for 1..k=> a 2.21783 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'TbqvlSNX.tree_0.Python_molurus.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Python_molurus.t=238.0604666501852
+Variable 'TbqvlSNX.tree_0.Pseudonaja_textilis.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Pseudonaja_textilis.t=105.041274380631
+Variable 'TbqvlSNX.tree_0.Ptyas_mucosa.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Ptyas_mucosa.t=84.90717835135476
+Variable 'TbqvlSNX.tree_0.Pantherophis_obsoletus.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Pantherophis_obsoletus.t=32.18226990740975
+Variable 'TbqvlSNX.tree_0.Pantherophis_guttatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Pantherophis_guttatus.t=32.18226990740975
+Variable 'TbqvlSNX.tree_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node9.t=6.240875357830295
+Variable 'TbqvlSNX.tree_0.Pituophis_catenifer.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Pituophis_catenifer.t=38.42314526524004
+Variable 'TbqvlSNX.tree_0.Node8.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node8.t=46.48403308611469
+Variable 'TbqvlSNX.tree_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node6.t=11.4315577854859
+Variable 'TbqvlSNX.tree_0.Thamnophis_elegans.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Thamnophis_elegans.t=96.33873613684067
+Variable 'TbqvlSNX.tree_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node5.t=8.702538243790386
+Variable 'TbqvlSNX.tree_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node3.t=0.9513600586835784
+Variable 'TbqvlSNX.tree_0.Vipera_berus.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Vipera_berus.t=93.31393959107864
+Variable 'TbqvlSNX.tree_0.Crotalus_tigris.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Crotalus_tigris.t=62.04067676232007
+Variable 'TbqvlSNX.tree_0.Bothrops_jararaca.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Bothrops_jararaca.t=62.04067676232007
+Variable 'TbqvlSNX.tree_0.Node17.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node17.t=8.290526455729307
+Variable 'TbqvlSNX.tree_0.Protobothrops_mucrosquamatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Protobothrops_mucrosquamatus.t=70.33120321804937
+Variable 'TbqvlSNX.tree_0.Node16.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node16.t=22.98273637302928
+Variable 'TbqvlSNX.tree_0.Node14.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node14.t=12.67869484823596
+Variable 'TbqvlSNX.tree_0.Node2.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node2.t=132.0678322108706
+Variable 'TbqvlSNX.tree_0.Varanus_komodoensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Varanus_komodoensis.t=436.1871799111433
+Variable 'TbqvlSNX.tree_0.Anolis_carolinensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Anolis_carolinensis.t=235.4235079438551
+Variable 'TbqvlSNX.tree_0.Phrynosoma_platyrhinos.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Phrynosoma_platyrhinos.t=150.1698178259835
+Variable 'TbqvlSNX.tree_0.Sceloporus_undulatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Sceloporus_undulatus.t=150.1698178259835
+Variable 'TbqvlSNX.tree_0.Node26.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node26.t=85.25369011787159
+Variable 'TbqvlSNX.tree_0.Node24.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node24.t=170.8986596017307
+Variable 'TbqvlSNX.tree_0.Pogona_vitticeps.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Pogona_vitticeps.t=406.322167545586
+Variable 'TbqvlSNX.tree_0.Node23.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node23.t=29.86501236555756
+Variable 'TbqvlSNX.tree_0.Node21.t' was not initialized prior to being used
+models.generic.SetBranchLength: TbqvlSNX.tree_0.Node21.t=219.6356436407493
+Variable 'TbqvlSNX.TbqvlSNX.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 1222-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+TbqvlSNX.model.theta_GT = 0.25
+TbqvlSNX.model.theta_CT = 1
+TbqvlSNX.model.theta_AC = 0.25
+TbqvlSNX.model.theta_CG = 0.25
+TbqvlSNX.model.theta_AT = 0.25
+TbqvlSNX.tree_0.Python_molurus.t = 238.06
+TbqvlSNX.tree_0.Pseudonaja_textilis.t = 105.041
+TbqvlSNX.tree_0.Ptyas_mucosa.t = 84.9072
+TbqvlSNX.tree_0.Pantherophis_obsoletus.t = 32.1823
+TbqvlSNX.tree_0.Pantherophis_guttatus.t = 32.1823
+TbqvlSNX.tree_0.Node9.t = 6.24088
+TbqvlSNX.tree_0.Pituophis_catenifer.t = 38.4231
+TbqvlSNX.tree_0.Node8.t = 46.484
+TbqvlSNX.tree_0.Node6.t = 11.4316
+TbqvlSNX.tree_0.Thamnophis_elegans.t = 96.3387
+TbqvlSNX.tree_0.Node5.t = 8.70254
+TbqvlSNX.tree_0.Node3.t = 0.95136
+TbqvlSNX.tree_0.Vipera_berus.t = 93.3139
+TbqvlSNX.tree_0.Crotalus_tigris.t = 62.0407
+TbqvlSNX.tree_0.Bothrops_jararaca.t = 62.0407
+TbqvlSNX.tree_0.Node17.t = 8.29053
+TbqvlSNX.tree_0.Protobothrops_mucrosquamatus.t = 70.3312
+TbqvlSNX.tree_0.Node16.t = 22.9827
+TbqvlSNX.tree_0.Node14.t = 12.6787
+TbqvlSNX.tree_0.Node2.t = 132.068
+TbqvlSNX.tree_0.Varanus_komodoensis.t = 436.187
+TbqvlSNX.tree_0.Anolis_carolinensis.t = 235.424
+TbqvlSNX.tree_0.Phrynosoma_platyrhinos.t = 150.17
+TbqvlSNX.tree_0.Sceloporus_undulatus.t = 150.17
+TbqvlSNX.tree_0.Node26.t = 85.2537
+TbqvlSNX.tree_0.Node24.t = 170.899
+TbqvlSNX.tree_0.Pogona_vitticeps.t = 406.322
+TbqvlSNX.tree_0.Node23.t = 29.865
+TbqvlSNX.tree_0.Node21.t = 219.636
+Site 305 evaluated to a 0 probability in ComputeLLWithBranchCache
+Optimization finished in 54 loop passes.
+4836 likelihood evaluation calls and 38219 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'TbqvlSNX.option' was not initialized prior to being used
+Variable 'absrel.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'duOSwedr.initial_value' was not initialized prior to being used
+Variable 'l_wBMADv.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 2976-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.348564
+frequencies._aux.CF3x4.p0_1 = 0.23402
+frequencies._aux.CF3x4.p0_2 = 0.471056
+frequencies._aux.CF3x4.p1_0 = 0.277787
+frequencies._aux.CF3x4.p1_1 = 0.276342
+frequencies._aux.CF3x4.p1_2 = 0.272624
+frequencies._aux.CF3x4.p2_0 = 0.25397
+frequencies._aux.CF3x4.p2_1 = 0.313257
+frequencies._aux.CF3x4.p2_2 = 0.334158
+Optimization finished in 5 loop passes.
+200 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'l_wBMADv.model_MGREV_pi' was not initialized prior to being used
+Model l_wBMADv.model_MGREV assigned to Python_molurus
+Model l_wBMADv.model_MGREV assigned to Pseudonaja_textilis
+Model l_wBMADv.model_MGREV assigned to Ptyas_mucosa
+Model l_wBMADv.model_MGREV assigned to Pantherophis_obsoletus
+Model l_wBMADv.model_MGREV assigned to Pantherophis_guttatus
+Model l_wBMADv.model_MGREV assigned to Node9
+Model l_wBMADv.model_MGREV assigned to Pituophis_catenifer
+Model l_wBMADv.model_MGREV assigned to Node8
+Model l_wBMADv.model_MGREV assigned to Node6
+Model l_wBMADv.model_MGREV assigned to Thamnophis_elegans
+Model l_wBMADv.model_MGREV assigned to Node5
+Model l_wBMADv.model_MGREV assigned to Node3
+Model l_wBMADv.model_MGREV assigned to Vipera_berus
+Model l_wBMADv.model_MGREV assigned to Crotalus_tigris
+Model l_wBMADv.model_MGREV assigned to Bothrops_jararaca
+Model l_wBMADv.model_MGREV assigned to Node17
+Model l_wBMADv.model_MGREV assigned to Protobothrops_mucrosquamatus
+Model l_wBMADv.model_MGREV assigned to Node16
+Model l_wBMADv.model_MGREV assigned to Node14
+Model l_wBMADv.model_MGREV assigned to Node2
+Model l_wBMADv.model_MGREV assigned to Varanus_komodoensis
+Model l_wBMADv.model_MGREV assigned to Anolis_carolinensis
+Model l_wBMADv.model_MGREV assigned to Phrynosoma_platyrhinos
+Model l_wBMADv.model_MGREV assigned to Sceloporus_undulatus
+Model l_wBMADv.model_MGREV assigned to Node26
+Model l_wBMADv.model_MGREV assigned to Node24
+Model l_wBMADv.model_MGREV assigned to Pogona_vitticeps
+Model l_wBMADv.model_MGREV assigned to Node23
+Model l_wBMADv.model_MGREV assigned to Node21
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'l_wBMADv.l_wBMADv.likelihoodFunction' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Python_molurus.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Python_molurus.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pseudonaja_textilis.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pseudonaja_textilis.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Ptyas_mucosa.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Ptyas_mucosa.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pantherophis_obsoletus.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pantherophis_obsoletus.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pantherophis_guttatus.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pantherophis_guttatus.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pituophis_catenifer.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pituophis_catenifer.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Thamnophis_elegans.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Thamnophis_elegans.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Vipera_berus.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Vipera_berus.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Crotalus_tigris.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Crotalus_tigris.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Bothrops_jararaca.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Bothrops_jararaca.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Protobothrops_mucrosquamatus.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Protobothrops_mucrosquamatus.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Varanus_komodoensis.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Varanus_komodoensis.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Anolis_carolinensis.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Anolis_carolinensis.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Phrynosoma_platyrhinos.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Phrynosoma_platyrhinos.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Sceloporus_undulatus.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Sceloporus_undulatus.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pogona_vitticeps.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pogona_vitticeps.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node9.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node9.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node8.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node8.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node6.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node5.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node5.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node3.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node3.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node17.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node17.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node16.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node16.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node14.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node14.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node2.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node2.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node26.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node26.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node24.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node24.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node23.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node23.beta' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node21.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node21.beta' was not initialized prior to being used
+Site 41 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 159 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 41 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 285 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 169 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 41 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 27-th LF evaluation.
+Initial guess for l_wBMADv.tree_0.Node2.beta is 0.0181544
+Initial guess for l_wBMADv.tree_0.Node2.alpha is 0.0112865
+Initial guess for l_wBMADv.tree_0.Node3.beta is 0.00338664
+Initial guess for l_wBMADv.tree_0.Node3.alpha is 0.000317314
+Initial guess for l_wBMADv.tree_0.Pseudonaja_textilis.beta is 0.0328007
+Initial guess for l_wBMADv.tree_0.Pseudonaja_textilis.alpha is 0.0109404
+Initial guess for l_wBMADv.tree_0.Node5.beta is 0.00359795
+Initial guess for l_wBMADv.tree_0.Node5.alpha is 0.00264435
+Initial guess for l_wBMADv.tree_0.Node6.beta is 0.0117184
+Initial guess for l_wBMADv.tree_0.Node6.alpha is 0.00198648
+Initial guess for l_wBMADv.tree_0.Ptyas_mucosa.beta is 0.0335898
+Initial guess for l_wBMADv.tree_0.Ptyas_mucosa.alpha is 0.0178381
+Initial guess for l_wBMADv.tree_0.Node8.beta is 0.0109681
+Initial guess for l_wBMADv.tree_0.Node8.alpha is 0.00240838
+Initial guess for l_wBMADv.tree_0.Node9.beta is -0.00196893
+Initial guess for l_wBMADv.tree_0.Node9.alpha is -0.00053823
+Initial guess for l_wBMADv.tree_0.Pantherophis_obsoletus.beta is 0.0110246
+Initial guess for l_wBMADv.tree_0.Pantherophis_obsoletus.alpha is 0.00155043
+Initial guess for l_wBMADv.tree_0.Pantherophis_guttatus.beta is 0.000983216
+Initial guess for l_wBMADv.tree_0.Pantherophis_guttatus.alpha is -4.55227e-17
+Initial guess for l_wBMADv.tree_0.Pituophis_catenifer.beta is 0.000822052
+Initial guess for l_wBMADv.tree_0.Pituophis_catenifer.alpha is -4.67201e-17
+Initial guess for l_wBMADv.tree_0.Thamnophis_elegans.beta is 0.00483152
+Initial guess for l_wBMADv.tree_0.Thamnophis_elegans.alpha is 0.00147544
+Initial guess for l_wBMADv.tree_0.Node14.beta is 0.0082761
+Initial guess for l_wBMADv.tree_0.Node14.alpha is 0.00732553
+Initial guess for l_wBMADv.tree_0.Vipera_berus.beta is 0.0186807
+Initial guess for l_wBMADv.tree_0.Vipera_berus.alpha is 0.00475823
+Initial guess for l_wBMADv.tree_0.Node16.beta is 0.00180729
+Initial guess for l_wBMADv.tree_0.Node16.alpha is 0.000977195
+Initial guess for l_wBMADv.tree_0.Node17.beta is 0.00222036
+Initial guess for l_wBMADv.tree_0.Node17.alpha is 0.000604462
+Initial guess for l_wBMADv.tree_0.Crotalus_tigris.beta is 0.0146085
+Initial guess for l_wBMADv.tree_0.Crotalus_tigris.alpha is 0.00625384
+Initial guess for l_wBMADv.tree_0.Bothrops_jararaca.beta is 0.00435234
+Initial guess for l_wBMADv.tree_0.Bothrops_jararaca.alpha is 0.00140721
+Initial guess for l_wBMADv.tree_0.Protobothrops_mucrosquamatus.beta is 0.00979861
+Initial guess for l_wBMADv.tree_0.Protobothrops_mucrosquamatus.alpha is 0.00231031
+Initial guess for l_wBMADv.tree_0.Node21.beta is 0.0706033
+Initial guess for l_wBMADv.tree_0.Node21.alpha is 0.053159
+Initial guess for l_wBMADv.tree_0.Varanus_komodoensis.beta is 0.0013701
+Initial guess for l_wBMADv.tree_0.Varanus_komodoensis.alpha is 0.00119203
+Initial guess for l_wBMADv.tree_0.Node23.beta is -0.0115185
+Initial guess for l_wBMADv.tree_0.Node23.alpha is 0.00719645
+Initial guess for l_wBMADv.tree_0.Node24.beta is 0.0232918
+Initial guess for l_wBMADv.tree_0.Node24.alpha is 0.0242006
+Initial guess for l_wBMADv.tree_0.Anolis_carolinensis.beta is 0.0927967
+Initial guess for l_wBMADv.tree_0.Anolis_carolinensis.alpha is 0.0491203
+Initial guess for l_wBMADv.tree_0.Node26.beta is 0.0159381
+Initial guess for l_wBMADv.tree_0.Node26.alpha is 0.00942139
+Initial guess for l_wBMADv.tree_0.Phrynosoma_platyrhinos.beta is 0.0688737
+Initial guess for l_wBMADv.tree_0.Phrynosoma_platyrhinos.alpha is 0.0347242
+Initial guess for l_wBMADv.tree_0.Sceloporus_undulatus.beta is 0.0222014
+Initial guess for l_wBMADv.tree_0.Sceloporus_undulatus.alpha is 0.00477188
+Initial guess for l_wBMADv.tree_0.Pogona_vitticeps.beta is 0.0201256
+Initial guess for l_wBMADv.tree_0.Pogona_vitticeps.alpha is 0.00904158
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.model_MGREV.theta_GT = 1
+l_wBMADv.model_MGREV.theta_CT = 1
+l_wBMADv.model_MGREV.theta_AC = 1
+l_wBMADv.model_MGREV.theta_CG = 1
+l_wBMADv.model_MGREV.theta_AT = 1
+l_wBMADv.tree_0.Python_molurus.alpha = 0.1
+l_wBMADv.tree_0.Python_molurus.beta = 0.1
+l_wBMADv.tree_0.Pseudonaja_textilis.alpha = 0.0109404
+l_wBMADv.tree_0.Pseudonaja_textilis.beta = 0.0328007
+l_wBMADv.tree_0.Ptyas_mucosa.alpha = 0.0178381
+l_wBMADv.tree_0.Ptyas_mucosa.beta = 0.0335898
+l_wBMADv.tree_0.Pantherophis_obsoletus.alpha = 0.00155043
+l_wBMADv.tree_0.Pantherophis_obsoletus.beta = 0.0110246
+l_wBMADv.tree_0.Pantherophis_guttatus.alpha = 0
+l_wBMADv.tree_0.Pantherophis_guttatus.beta = 0.000983216
+l_wBMADv.tree_0.Node9.alpha = 0
+l_wBMADv.tree_0.Node9.beta = 0
+l_wBMADv.tree_0.Pituophis_catenifer.alpha = 0
+l_wBMADv.tree_0.Pituophis_catenifer.beta = 0.000822052
+l_wBMADv.tree_0.Node8.alpha = 0.00240838
+l_wBMADv.tree_0.Node8.beta = 0.0109681
+l_wBMADv.tree_0.Node6.alpha = 0.00198648
+l_wBMADv.tree_0.Node6.beta = 0.0117184
+l_wBMADv.tree_0.Thamnophis_elegans.alpha = 0.00147544
+l_wBMADv.tree_0.Thamnophis_elegans.beta = 0.00483152
+l_wBMADv.tree_0.Node5.alpha = 0.00264435
+l_wBMADv.tree_0.Node5.beta = 0.00359795
+l_wBMADv.tree_0.Node3.alpha = 0.000317314
+l_wBMADv.tree_0.Node3.beta = 0.00338664
+l_wBMADv.tree_0.Vipera_berus.alpha = 0.00475823
+l_wBMADv.tree_0.Vipera_berus.beta = 0.0186807
+l_wBMADv.tree_0.Crotalus_tigris.alpha = 0.00625384
+l_wBMADv.tree_0.Crotalus_tigris.beta = 0.0146085
+l_wBMADv.tree_0.Bothrops_jararaca.alpha = 0.00140721
+l_wBMADv.tree_0.Bothrops_jararaca.beta = 0.00435234
+l_wBMADv.tree_0.Node17.alpha = 0.000604462
+l_wBMADv.tree_0.Node17.beta = 0.00222036
+l_wBMADv.tree_0.Protobothrops_mucrosquamatus.alpha = 0.00231031
+l_wBMADv.tree_0.Protobothrops_mucrosquamatus.beta = 0.00979861
+l_wBMADv.tree_0.Node16.alpha = 0.000977195
+l_wBMADv.tree_0.Node16.beta = 0.00180729
+l_wBMADv.tree_0.Node14.alpha = 0.00732553
+l_wBMADv.tree_0.Node14.beta = 0.0082761
+l_wBMADv.tree_0.Node2.alpha = 0.0112865
+l_wBMADv.tree_0.Node2.beta = 0.0181544
+l_wBMADv.tree_0.Varanus_komodoensis.alpha = 0.00119203
+l_wBMADv.tree_0.Varanus_komodoensis.beta = 0.0013701
+l_wBMADv.tree_0.Anolis_carolinensis.alpha = 0.0491203
+l_wBMADv.tree_0.Anolis_carolinensis.beta = 0.0927967
+l_wBMADv.tree_0.Phrynosoma_platyrhinos.alpha = 0.0347242
+l_wBMADv.tree_0.Phrynosoma_platyrhinos.beta = 0.0688737
+l_wBMADv.tree_0.Sceloporus_undulatus.alpha = 0.00477188
+l_wBMADv.tree_0.Sceloporus_undulatus.beta = 0.0222014
+l_wBMADv.tree_0.Node26.alpha = 0.00942139
+l_wBMADv.tree_0.Node26.beta = 0.0159381
+l_wBMADv.tree_0.Node24.alpha = 0.0242006
+l_wBMADv.tree_0.Node24.beta = 0.0232918
+l_wBMADv.tree_0.Pogona_vitticeps.alpha = 0.00904158
+l_wBMADv.tree_0.Pogona_vitticeps.beta = 0.0201256
+l_wBMADv.tree_0.Node23.alpha = 0.00719645
+l_wBMADv.tree_0.Node23.beta = 0
+l_wBMADv.tree_0.Node21.alpha = 0.053159
+l_wBMADv.tree_0.Node21.beta = 0.0706033
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Optimization finished in 26 loop passes.
+6950 likelihood evaluation calls and 30298 matrix exponentiations calls were made
+
+Variable 'bsrel_mixture_aux_0' was not initialized prior to being used
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 2857-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.348564
+frequencies._aux.CF3x4.p0_1 = 0.23402
+frequencies._aux.CF3x4.p0_2 = 0.471056
+frequencies._aux.CF3x4.p1_0 = 0.277787
+frequencies._aux.CF3x4.p1_1 = 0.276342
+frequencies._aux.CF3x4.p1_2 = 0.272624
+frequencies._aux.CF3x4.p2_0 = 0.25397
+frequencies._aux.CF3x4.p2_1 = 0.313257
+frequencies._aux.CF3x4.p2_2 = 0.334158
+Optimization finished in 5 loop passes.
+200 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.2_pi' was not initialized prior to being used
+Variable 'omega1' was not initialized prior to being used
+Variable 'omega2' was not initialized prior to being used
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Variable 'bsrel_mixture_aux_1' was not initialized prior to being used
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2777-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.348564
+frequencies._aux.CF3x4.p0_1 = 0.23402
+frequencies._aux.CF3x4.p0_2 = 0.471056
+frequencies._aux.CF3x4.p1_0 = 0.277787
+frequencies._aux.CF3x4.p1_1 = 0.276342
+frequencies._aux.CF3x4.p1_2 = 0.272624
+frequencies._aux.CF3x4.p2_0 = 0.25397
+frequencies._aux.CF3x4.p2_1 = 0.313257
+frequencies._aux.CF3x4.p2_2 = 0.334158
+Optimization finished in 5 loop passes.
+199 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.3_pi' was not initialized prior to being used
+Variable 'omega3' was not initialized prior to being used
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Variable 'bsrel_mixture_aux_2' was not initialized prior to being used
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2824-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.348564
+frequencies._aux.CF3x4.p0_1 = 0.23402
+frequencies._aux.CF3x4.p0_2 = 0.471056
+frequencies._aux.CF3x4.p1_0 = 0.277787
+frequencies._aux.CF3x4.p1_1 = 0.276342
+frequencies._aux.CF3x4.p1_2 = 0.272624
+frequencies._aux.CF3x4.p2_0 = 0.25397
+frequencies._aux.CF3x4.p2_1 = 0.313257
+frequencies._aux.CF3x4.p2_2 = 0.334158
+Optimization finished in 5 loop passes.
+199 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.4_pi' was not initialized prior to being used
+Variable 'omega4' was not initialized prior to being used
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Variable 'bsrel_mixture_aux_3' was not initialized prior to being used
+Overwritten previously defined function:'tAyLSOwd.rate_generator'
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 3086-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.348564
+frequencies._aux.CF3x4.p0_1 = 0.23402
+frequencies._aux.CF3x4.p0_2 = 0.471056
+frequencies._aux.CF3x4.p1_0 = 0.277787
+frequencies._aux.CF3x4.p1_1 = 0.276342
+frequencies._aux.CF3x4.p1_2 = 0.272624
+frequencies._aux.CF3x4.p2_0 = 0.25397
+frequencies._aux.CF3x4.p2_1 = 0.313257
+frequencies._aux.CF3x4.p2_2 = 0.334158
+Optimization finished in 5 loop passes.
+201 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.5_pi' was not initialized prior to being used
+Variable 'omega5' was not initialized prior to being used
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Variable 'Wow_SmcN.best_val' was not initialized prior to being used
+Variable 'l_wBMADv.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 50-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Varanus_komodoensis.alpha = 0.887754
+l_wBMADv.tree_0.Varanus_komodoensis.bsrel_mixture_aux_0 = 0.9
+l_wBMADv.tree_0.Varanus_komodoensis.omega1 = 0.2
+l_wBMADv.tree_0.Varanus_komodoensis.omega2 = 2
+l_wBMADv.tree_0.Varanus_komodoensis.beta = 0.309082
+Optimization finished in 91 loop passes.
+4227 likelihood evaluation calls and 8024 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (7) of threads.
+Set GUI update interval to every 57-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Varanus_komodoensis.bsrel_mixture_aux_1 = 0.5
+l_wBMADv.tree_0.Varanus_komodoensis.omega1 = 0.0556658
+l_wBMADv.tree_0.Varanus_komodoensis.bsrel_mixture_aux_0 = 0.73944
+l_wBMADv.tree_0.Varanus_komodoensis.alpha = 0.857565
+l_wBMADv.tree_0.Varanus_komodoensis.omega2 = 0.8
+l_wBMADv.tree_0.Varanus_komodoensis.omega3 = 2
+Optimization finished in 43 loop passes.
+1388 likelihood evaluation calls and 4129 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Variable 'l_wBMADv.tree_0.Varanus_komodoensis.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Varanus_komodoensis.omega1' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Varanus_komodoensis.omega2' was not initialized prior to being used
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 55-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node21.alpha = 0.978041
+l_wBMADv.tree_0.Node21.bsrel_mixture_aux_0 = 0.95
+l_wBMADv.tree_0.Node21.omega1 = 0.2
+l_wBMADv.tree_0.Node21.omega2 = 9
+l_wBMADv.tree_0.Node21.beta = 0.272306
+Optimization finished in 9 loop passes.
+253 likelihood evaluation calls and 485 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 49-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node21.bsrel_mixture_aux_1 = 0.5
+l_wBMADv.tree_0.Node21.omega1 = 0.205762
+l_wBMADv.tree_0.Node21.bsrel_mixture_aux_0 = 0.951655
+l_wBMADv.tree_0.Node21.alpha = 0.88767
+l_wBMADv.tree_0.Node21.omega2 = 0.8
+l_wBMADv.tree_0.Node21.omega3 = 28
+Optimization finished in 9 loop passes.
+217 likelihood evaluation calls and 656 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Variable 'l_wBMADv.tree_0.Node21.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node21.omega1' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node21.omega2' was not initialized prior to being used
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 45-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Pogona_vitticeps.alpha = 0.782862
+l_wBMADv.tree_0.Pogona_vitticeps.bsrel_mixture_aux_0 = 0.75
+l_wBMADv.tree_0.Pogona_vitticeps.omega1 = 0
+l_wBMADv.tree_0.Pogona_vitticeps.omega2 = 2
+l_wBMADv.tree_0.Pogona_vitticeps.beta = 0.303645
+Optimization finished in 9 loop passes.
+203 likelihood evaluation calls and 410 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 87-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Pogona_vitticeps.bsrel_mixture_aux_1 = 0.5
+l_wBMADv.tree_0.Pogona_vitticeps.omega1 = 0.0217037
+l_wBMADv.tree_0.Pogona_vitticeps.bsrel_mixture_aux_0 = 0.723921
+l_wBMADv.tree_0.Pogona_vitticeps.alpha = 0.717827
+l_wBMADv.tree_0.Pogona_vitticeps.omega2 = 0.8
+l_wBMADv.tree_0.Pogona_vitticeps.omega3 = 2
+Optimization finished in 13 loop passes.
+342 likelihood evaluation calls and 1026 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Variable 'l_wBMADv.tree_0.Pogona_vitticeps.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pogona_vitticeps.omega1' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pogona_vitticeps.omega2' was not initialized prior to being used
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 51-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Anolis_carolinensis.alpha = 0.702162
+l_wBMADv.tree_0.Anolis_carolinensis.bsrel_mixture_aux_0 = 0.98
+l_wBMADv.tree_0.Anolis_carolinensis.omega1 = 0.2
+l_wBMADv.tree_0.Anolis_carolinensis.omega2 = 28
+l_wBMADv.tree_0.Anolis_carolinensis.beta = 0.218337
+Optimization finished in 5 loop passes.
+246 likelihood evaluation calls and 479 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 86-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Anolis_carolinensis.bsrel_mixture_aux_1 = 0.5
+l_wBMADv.tree_0.Anolis_carolinensis.omega1 = 0.237466
+l_wBMADv.tree_0.Anolis_carolinensis.bsrel_mixture_aux_0 = 0.96958
+l_wBMADv.tree_0.Anolis_carolinensis.alpha = 0.626636
+l_wBMADv.tree_0.Anolis_carolinensis.omega2 = 0.8
+l_wBMADv.tree_0.Anolis_carolinensis.omega3 = 65
+Optimization finished in 6 loop passes.
+182 likelihood evaluation calls and 538 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Variable 'l_wBMADv.tree_0.Anolis_carolinensis.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Anolis_carolinensis.omega1' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Anolis_carolinensis.omega2' was not initialized prior to being used
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 119-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node24.alpha = 0.49706
+l_wBMADv.tree_0.Node24.bsrel_mixture_aux_0 = 0.75
+l_wBMADv.tree_0.Node24.omega1 = 0
+l_wBMADv.tree_0.Node24.omega2 = 1
+l_wBMADv.tree_0.Node24.beta = 0.113583
+Optimization finished in 21 loop passes.
+416 likelihood evaluation calls and 826 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 42-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node24.bsrel_mixture_aux_1 = 0.5
+l_wBMADv.tree_0.Node24.omega1 = 0
+l_wBMADv.tree_0.Node24.bsrel_mixture_aux_0 = 0.83941
+l_wBMADv.tree_0.Node24.alpha = 0.389963
+l_wBMADv.tree_0.Node24.omega2 = 0.8
+l_wBMADv.tree_0.Node24.omega3 = 2
+Optimization finished in 28 loop passes.
+931 likelihood evaluation calls and 2753 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Variable 'l_wBMADv.tree_0.Node24.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node24.omega1' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node24.omega2' was not initialized prior to being used
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 121-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Pseudonaja_textilis.alpha = 0.243384
+l_wBMADv.tree_0.Pseudonaja_textilis.bsrel_mixture_aux_0 = 0.98
+l_wBMADv.tree_0.Pseudonaja_textilis.omega1 = 0.4
+l_wBMADv.tree_0.Pseudonaja_textilis.omega2 = 28
+l_wBMADv.tree_0.Pseudonaja_textilis.beta = 0.126684
+Optimization finished in 9 loop passes.
+200 likelihood evaluation calls and 407 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 119-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Pseudonaja_textilis.bsrel_mixture_aux_1 = 0.5
+l_wBMADv.tree_0.Pseudonaja_textilis.omega1 = 0.466762
+l_wBMADv.tree_0.Pseudonaja_textilis.bsrel_mixture_aux_0 = 0.986408
+l_wBMADv.tree_0.Pseudonaja_textilis.alpha = 0.213438
+l_wBMADv.tree_0.Pseudonaja_textilis.omega2 = 0.8
+l_wBMADv.tree_0.Pseudonaja_textilis.omega3 = 65
+Optimization finished in 6 loop passes.
+176 likelihood evaluation calls and 546 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Variable 'l_wBMADv.tree_0.Pseudonaja_textilis.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pseudonaja_textilis.omega1' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Pseudonaja_textilis.omega2' was not initialized prior to being used
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 62-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Python_molurus.alpha = 0.221416
+l_wBMADv.tree_0.Python_molurus.bsrel_mixture_aux_0 = 0.98
+l_wBMADv.tree_0.Python_molurus.omega1 = 0.2
+l_wBMADv.tree_0.Python_molurus.omega2 = 9
+l_wBMADv.tree_0.Python_molurus.beta = 0.0852959
+Optimization finished in 5 loop passes.
+243 likelihood evaluation calls and 468 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 69-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Python_molurus.bsrel_mixture_aux_1 = 0.5
+l_wBMADv.tree_0.Python_molurus.omega1 = 0.213407
+l_wBMADv.tree_0.Python_molurus.bsrel_mixture_aux_0 = 0.971052
+l_wBMADv.tree_0.Python_molurus.alpha = 0.223823
+l_wBMADv.tree_0.Python_molurus.omega2 = 0.8
+l_wBMADv.tree_0.Python_molurus.omega3 = 9
+Optimization finished in 8 loop passes.
+173 likelihood evaluation calls and 538 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Variable 'l_wBMADv.tree_0.Python_molurus.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Python_molurus.omega1' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Python_molurus.omega2' was not initialized prior to being used
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 102-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node2.alpha = 0.237981
+l_wBMADv.tree_0.Node2.bsrel_mixture_aux_0 = 0.5
+l_wBMADv.tree_0.Node2.omega1 = 0.4
+l_wBMADv.tree_0.Node2.omega2 = 0.25
+l_wBMADv.tree_0.Node2.beta = 0.0665155
+Optimization finished in 15 loop passes.
+315 likelihood evaluation calls and 643 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 223-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Sceloporus_undulatus.beta = 0.0649021
+l_wBMADv.tree_0.Sceloporus_undulatus.omega1 = 0.2
+l_wBMADv.tree_0.Sceloporus_undulatus.alpha = 0.221637
+l_wBMADv.tree_0.Sceloporus_undulatus.bsrel_mixture_aux_0 = 0.95
+l_wBMADv.tree_0.Sceloporus_undulatus.omega2 = 2
+Optimization finished in 26 loop passes.
+498 likelihood evaluation calls and 975 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 209-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Thamnophis_elegans.alpha = 0.185014
+l_wBMADv.tree_0.Thamnophis_elegans.bsrel_mixture_aux_0 = 0.9
+l_wBMADv.tree_0.Thamnophis_elegans.omega2 = 0.75
+l_wBMADv.tree_0.Thamnophis_elegans.beta = 0.047417
+l_wBMADv.tree_0.Thamnophis_elegans.omega1 = 0.2
+Optimization finished in 13 loop passes.
+390 likelihood evaluation calls and 777 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 396-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node26.beta = 0.0770768
+l_wBMADv.tree_0.Node26.omega1 = 0.6
+l_wBMADv.tree_0.Node26.omega2 = 9
+l_wBMADv.tree_0.Node26.alpha = 0.0811037
+l_wBMADv.tree_0.Node26.bsrel_mixture_aux_0 = 0.95
+Optimization finished in 47 loop passes.
+960 likelihood evaluation calls and 1853 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 97-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Phrynosoma_platyrhinos.omega2 = 0.25
+l_wBMADv.tree_0.Phrynosoma_platyrhinos.alpha = 0.159584
+l_wBMADv.tree_0.Phrynosoma_platyrhinos.bsrel_mixture_aux_0 = 0.75
+l_wBMADv.tree_0.Phrynosoma_platyrhinos.beta = 0.0335664
+l_wBMADv.tree_0.Phrynosoma_platyrhinos.omega1 = 0.2
+Optimization finished in 3 loop passes.
+119 likelihood evaluation calls and 247 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 328-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node23.beta = 0.0689759
+l_wBMADv.tree_0.Node23.omega1 = 0.8
+l_wBMADv.tree_0.Node23.omega2 = 28
+l_wBMADv.tree_0.Node23.alpha = 0.0216497
+l_wBMADv.tree_0.Node23.bsrel_mixture_aux_0 = 0.9
+Optimization finished in 8 loop passes.
+169 likelihood evaluation calls and 335 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 47-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Vipera_berus.alpha = 0.0709219
+l_wBMADv.tree_0.Vipera_berus.bsrel_mixture_aux_0 = 0.75
+l_wBMADv.tree_0.Vipera_berus.omega2 = 0.75
+l_wBMADv.tree_0.Vipera_berus.beta = 0.0560253
+l_wBMADv.tree_0.Vipera_berus.omega1 = 0.8
+Optimization finished in 3 loop passes.
+113 likelihood evaluation calls and 241 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 96-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node14.beta = 0.0335112
+l_wBMADv.tree_0.Node14.omega1 = 0.4
+l_wBMADv.tree_0.Node14.alpha = 0.0900037
+l_wBMADv.tree_0.Node14.bsrel_mixture_aux_0 = 0.9
+l_wBMADv.tree_0.Node14.omega2 = 0.25
+Optimization finished in 3 loop passes.
+65 likelihood evaluation calls and 143 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 24-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node8.alpha = 0.0653475
+l_wBMADv.tree_0.Node8.bsrel_mixture_aux_0 = 0.75
+l_wBMADv.tree_0.Node8.omega2 = 0.75
+l_wBMADv.tree_0.Node8.beta = 0.0313618
+l_wBMADv.tree_0.Node8.omega1 = 0.4
+Optimization finished in 12 loop passes.
+412 likelihood evaluation calls and 819 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 70-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Ptyas_mucosa.alpha = 0.0846678
+l_wBMADv.tree_0.Ptyas_mucosa.bsrel_mixture_aux_0 = 0.98
+l_wBMADv.tree_0.Ptyas_mucosa.beta = 0.0152138
+l_wBMADv.tree_0.Ptyas_mucosa.omega1 = 0.2
+l_wBMADv.tree_0.Ptyas_mucosa.omega2 = 0.25
+Optimization finished in 7 loop passes.
+187 likelihood evaluation calls and 383 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 229-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Crotalus_tigris.beta = 0.023278
+l_wBMADv.tree_0.Crotalus_tigris.omega1 = 0.4
+l_wBMADv.tree_0.Crotalus_tigris.omega2 = 0.5
+l_wBMADv.tree_0.Crotalus_tigris.alpha = 0.0541925
+l_wBMADv.tree_0.Crotalus_tigris.bsrel_mixture_aux_0 = 0.75
+Optimization finished in 3 loop passes.
+120 likelihood evaluation calls and 237 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 191-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node3.omega2 = 2
+l_wBMADv.tree_0.Node3.alpha = 0.0597591
+l_wBMADv.tree_0.Node3.bsrel_mixture_aux_0 = 0.9
+l_wBMADv.tree_0.Node3.beta = 0.0154025
+l_wBMADv.tree_0.Node3.omega1 = 0
+Optimization finished in 73 loop passes.
+1702 likelihood evaluation calls and 3293 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 61-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node5.alpha = 0.0511851
+l_wBMADv.tree_0.Node5.bsrel_mixture_aux_0 = 0.75
+l_wBMADv.tree_0.Node5.beta = 0.0171426
+l_wBMADv.tree_0.Node5.omega1 = 0.4
+l_wBMADv.tree_0.Node5.omega2 = 0.25
+Optimization finished in 3 loop passes.
+110 likelihood evaluation calls and 235 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 28-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node6.alpha = 0.0341119
+l_wBMADv.tree_0.Node6.bsrel_mixture_aux_0 = 0.98
+l_wBMADv.tree_0.Node6.beta = 0.0228006
+l_wBMADv.tree_0.Node6.omega1 = 0.2
+l_wBMADv.tree_0.Node6.omega2 = 28
+Optimization finished in 27 loop passes.
+804 likelihood evaluation calls and 1529 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 63-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node6.bsrel_mixture_aux_1 = 0.5
+l_wBMADv.tree_0.Node6.omega1 = 0.426834
+l_wBMADv.tree_0.Node6.omega2 = 0.8
+l_wBMADv.tree_0.Node6.bsrel_mixture_aux_0 = 0.995289
+l_wBMADv.tree_0.Node6.alpha = 0.0339013
+l_wBMADv.tree_0.Node6.omega3 = 65
+Optimization finished in 9 loop passes.
+249 likelihood evaluation calls and 758 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Variable 'l_wBMADv.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node6.omega1' was not initialized prior to being used
+Variable 'l_wBMADv.tree_0.Node6.omega2' was not initialized prior to being used
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 104-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Bothrops_jararaca.omega1 = 0.2
+l_wBMADv.tree_0.Bothrops_jararaca.omega2 = 28
+l_wBMADv.tree_0.Bothrops_jararaca.alpha = 0.0396565
+l_wBMADv.tree_0.Bothrops_jararaca.bsrel_mixture_aux_0 = 0.98
+l_wBMADv.tree_0.Bothrops_jararaca.beta = 0.018612
+Optimization finished in 27 loop passes.
+661 likelihood evaluation calls and 1278 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 156-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Pituophis_catenifer.alpha = 0.0434128
+l_wBMADv.tree_0.Pituophis_catenifer.bsrel_mixture_aux_0 = 0.98
+l_wBMADv.tree_0.Pituophis_catenifer.beta = 0
+l_wBMADv.tree_0.Pituophis_catenifer.omega1 = 0
+l_wBMADv.tree_0.Pituophis_catenifer.omega2 = 0.25
+Optimization finished in 5 loop passes.
+93 likelihood evaluation calls and 212 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 1126-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node16.beta = 0.0128057
+l_wBMADv.tree_0.Node16.omega1 = 0
+l_wBMADv.tree_0.Node16.omega2 = 28
+l_wBMADv.tree_0.Node16.alpha = 0.0127549
+l_wBMADv.tree_0.Node16.bsrel_mixture_aux_0 = 0.95
+Optimization finished in 10 loop passes.
+404 likelihood evaluation calls and 728 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 47-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node17.omega2 = 28
+l_wBMADv.tree_0.Node17.alpha = 0.0202542
+l_wBMADv.tree_0.Node17.bsrel_mixture_aux_0 = 0.98
+l_wBMADv.tree_0.Node17.beta = 0.00741042
+l_wBMADv.tree_0.Node17.omega1 = 0
+Optimization finished in 6 loop passes.
+220 likelihood evaluation calls and 438 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 232-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Protobothrops_mucrosquamatus.beta = 0.00151437
+l_wBMADv.tree_0.Protobothrops_mucrosquamatus.omega1 = 0
+l_wBMADv.tree_0.Protobothrops_mucrosquamatus.alpha = 0.0224916
+l_wBMADv.tree_0.Protobothrops_mucrosquamatus.bsrel_mixture_aux_0 = 0.75
+l_wBMADv.tree_0.Protobothrops_mucrosquamatus.omega2 = 0.25
+Optimization finished in 3 loop passes.
+72 likelihood evaluation calls and 158 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 163-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Pantherophis_obsoletus.alpha = 0.01058
+l_wBMADv.tree_0.Pantherophis_obsoletus.bsrel_mixture_aux_0 = 0.98
+l_wBMADv.tree_0.Pantherophis_obsoletus.omega2 = 0.25
+l_wBMADv.tree_0.Pantherophis_obsoletus.beta = 0
+l_wBMADv.tree_0.Pantherophis_obsoletus.omega1 = 0
+Optimization finished in 6 loop passes.
+174 likelihood evaluation calls and 348 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 338-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Pantherophis_guttatus.beta = 0.00386658
+l_wBMADv.tree_0.Pantherophis_guttatus.omega1 = 0
+l_wBMADv.tree_0.Pantherophis_guttatus.alpha = 0
+l_wBMADv.tree_0.Pantherophis_guttatus.bsrel_mixture_aux_0 = 0.98
+l_wBMADv.tree_0.Pantherophis_guttatus.omega2 = 0.25
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 173 evaluated to a 0 probability in ComputeLLWithBranchCache
+Site 173 evaluated to a 0 probability in ComputeLLWithBranchCache
+Site 173 evaluated to a 0 probability in ComputeLLWithBranchCache
+Site 173 evaluated to a 0 probability in ComputeLLWithBranchCache
+Site 173 evaluated to a 0 probability in ComputeLLWithBranchCache
+Site 173 evaluated to a 0 probability in ComputeLLWithBranchCache
+Optimization finished in 10 loop passes.
+283 likelihood evaluation calls and 490 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 112-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.tree_0.Node9.omega2 = 0.25
+l_wBMADv.tree_0.Node9.beta = 0
+l_wBMADv.tree_0.Node9.omega1 = 0
+l_wBMADv.tree_0.Node9.alpha = 0
+l_wBMADv.tree_0.Node9.bsrel_mixture_aux_0 = 0.98
+Optimization finished in 3 loop passes.
+135 likelihood evaluation calls and 148 matrix exponentiations calls were made
+
+The tips of the tree:l_wBMADv.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,6,7,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6384 vs 9586 for 1..k=> a 1.50157 x improvement
+Variable 'YdI_feea.l_wBMADv.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 42-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.model_MGREV.theta_GT = 0.292649
+l_wBMADv.model_MGREV.theta_CT = 0.869378
+l_wBMADv.model_MGREV.theta_AC = 0.382149
+l_wBMADv.model_MGREV.theta_CG = 0.339254
+l_wBMADv.model_MGREV.theta_AT = 0.217449
+l_wBMADv.tree_0.Python_molurus.alpha = 0.223823
+l_wBMADv.tree_0.Python_molurus.bsrel_mixture_aux_0 = 0.971052
+l_wBMADv.tree_0.Python_molurus.omega1 = 0.213407
+l_wBMADv.tree_0.Python_molurus.omega2 = 7.91024
+l_wBMADv.tree_0.Pseudonaja_textilis.alpha = 0.213438
+l_wBMADv.tree_0.Pseudonaja_textilis.omega1 = 0.466762
+l_wBMADv.tree_0.Pseudonaja_textilis.bsrel_mixture_aux_0 = 0.986408
+l_wBMADv.tree_0.Pseudonaja_textilis.omega2 = 2890.6
+l_wBMADv.tree_0.Ptyas_mucosa.alpha = 0.0846678
+l_wBMADv.tree_0.Ptyas_mucosa.beta = 0.0152138
+l_wBMADv.tree_0.Pantherophis_obsoletus.beta = 0
+l_wBMADv.tree_0.Pantherophis_obsoletus.alpha = 0.01058
+l_wBMADv.tree_0.Pantherophis_guttatus.beta = 0.00386658
+l_wBMADv.tree_0.Pantherophis_guttatus.alpha = 0
+l_wBMADv.tree_0.Node9.alpha = 0
+l_wBMADv.tree_0.Node9.beta = 0
+l_wBMADv.tree_0.Pituophis_catenifer.beta = 0
+l_wBMADv.tree_0.Pituophis_catenifer.alpha = 0.0434128
+l_wBMADv.tree_0.Node8.alpha = 0.0653475
+l_wBMADv.tree_0.Node8.beta = 0.0313618
+l_wBMADv.tree_0.Node6.omega2 = 123.852
+l_wBMADv.tree_0.Node6.omega1 = 0.426834
+l_wBMADv.tree_0.Node6.alpha = 0.0339013
+l_wBMADv.tree_0.Node6.bsrel_mixture_aux_0 = 0.995289
+l_wBMADv.tree_0.Thamnophis_elegans.beta = 0.047417
+l_wBMADv.tree_0.Thamnophis_elegans.alpha = 0.185014
+l_wBMADv.tree_0.Node5.alpha = 0.0511851
+l_wBMADv.tree_0.Node5.beta = 0.0171426
+l_wBMADv.tree_0.Node3.beta = 0.0154025
+l_wBMADv.tree_0.Node3.alpha = 0.0597591
+l_wBMADv.tree_0.Vipera_berus.beta = 0.0560253
+l_wBMADv.tree_0.Vipera_berus.alpha = 0.0709219
+l_wBMADv.tree_0.Crotalus_tigris.alpha = 0.0541925
+l_wBMADv.tree_0.Crotalus_tigris.beta = 0.023278
+l_wBMADv.tree_0.Bothrops_jararaca.beta = 0.018612
+l_wBMADv.tree_0.Bothrops_jararaca.alpha = 0.0396565
+l_wBMADv.tree_0.Node17.beta = 0.00741042
+l_wBMADv.tree_0.Node17.alpha = 0.0202542
+l_wBMADv.tree_0.Protobothrops_mucrosquamatus.alpha = 0.0224916
+l_wBMADv.tree_0.Protobothrops_mucrosquamatus.beta = 0.00151437
+l_wBMADv.tree_0.Node16.alpha = 0.0102039
+l_wBMADv.tree_0.Node16.beta = 0.0128057
+l_wBMADv.tree_0.Node14.beta = 0.0335112
+l_wBMADv.tree_0.Node14.alpha = 0.0900037
+l_wBMADv.tree_0.Node2.alpha = 0.237981
+l_wBMADv.tree_0.Node2.beta = 0.0665155
+l_wBMADv.tree_0.Varanus_komodoensis.alpha = 0.857565
+l_wBMADv.tree_0.Varanus_komodoensis.bsrel_mixture_aux_0 = 0.73944
+l_wBMADv.tree_0.Varanus_komodoensis.omega2 = 1.58082
+l_wBMADv.tree_0.Varanus_komodoensis.omega1 = 0.0556658
+l_wBMADv.tree_0.Anolis_carolinensis.bsrel_mixture_aux_0 = 0.96958
+l_wBMADv.tree_0.Anolis_carolinensis.alpha = 0.626636
+l_wBMADv.tree_0.Anolis_carolinensis.omega2 = 41.1118
+l_wBMADv.tree_0.Anolis_carolinensis.omega1 = 0.237466
+l_wBMADv.tree_0.Phrynosoma_platyrhinos.alpha = 0.159584
+l_wBMADv.tree_0.Phrynosoma_platyrhinos.beta = 0.0335664
+l_wBMADv.tree_0.Sceloporus_undulatus.alpha = 0.221637
+l_wBMADv.tree_0.Sceloporus_undulatus.beta = 0.0649021
+l_wBMADv.tree_0.Node26.alpha = 0.0811037
+l_wBMADv.tree_0.Node26.beta = 0.0770768
+l_wBMADv.tree_0.Node24.bsrel_mixture_aux_0 = 0.83941
+l_wBMADv.tree_0.Node24.alpha = 0.389963
+l_wBMADv.tree_0.Node24.omega2 = 2.39114
+l_wBMADv.tree_0.Node24.omega1 = 0
+l_wBMADv.tree_0.Pogona_vitticeps.omega2 = 2.02535
+l_wBMADv.tree_0.Pogona_vitticeps.omega1 = 0.0217037
+l_wBMADv.tree_0.Pogona_vitticeps.alpha = 0.717827
+l_wBMADv.tree_0.Pogona_vitticeps.bsrel_mixture_aux_0 = 0.723921
+l_wBMADv.tree_0.Node23.alpha = 0.0432994
+l_wBMADv.tree_0.Node23.beta = 0.0689759
+l_wBMADv.tree_0.Node21.bsrel_mixture_aux_0 = 0.951655
+l_wBMADv.tree_0.Node21.omega1 = 0.205762
+l_wBMADv.tree_0.Node21.alpha = 0.88767
+l_wBMADv.tree_0.Node21.omega2 = 9.81252
+Optimization finished in 58 loop passes.
+9090 likelihood evaluation calls and 50703 matrix exponentiations calls were made
+
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 58-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+l_wBMADv.model_MGREV.theta_GT = 0.255549
+l_wBMADv.model_MGREV.theta_CT = 0.864428
+l_wBMADv.model_MGREV.theta_AC = 0.345638
+l_wBMADv.model_MGREV.theta_CG = 0.308877
+l_wBMADv.model_MGREV.theta_AT = 0.18457
+l_wBMADv.tree_0.Python_molurus.bsrel_mixture_aux_0 = 0.970018
+l_wBMADv.tree_0.Python_molurus.alpha = 0.232148
+l_wBMADv.tree_0.Python_molurus.omega1 = 0.205384
+l_wBMADv.tree_0.Python_molurus.omega2 = 8.28598
+l_wBMADv.tree_0.Pseudonaja_textilis.bsrel_mixture_aux_0 = 0.986172
+l_wBMADv.tree_0.Pseudonaja_textilis.alpha = 0.219249
+l_wBMADv.tree_0.Pseudonaja_textilis.omega1 = 0.478309
+l_wBMADv.tree_0.Ptyas_mucosa.beta = 0.0161078
+l_wBMADv.tree_0.Ptyas_mucosa.alpha = 0.0873233
+l_wBMADv.tree_0.Pantherophis_obsoletus.beta = 0
+l_wBMADv.tree_0.Pantherophis_obsoletus.alpha = 0.0109087
+l_wBMADv.tree_0.Pantherophis_guttatus.beta = 0.00408614
+l_wBMADv.tree_0.Pantherophis_guttatus.alpha = 0
+l_wBMADv.tree_0.Node9.alpha = 0
+l_wBMADv.tree_0.Node9.beta = 0
+l_wBMADv.tree_0.Pituophis_catenifer.beta = 0
+l_wBMADv.tree_0.Pituophis_catenifer.alpha = 0.044782
+l_wBMADv.tree_0.Node8.alpha = 0.0673932
+l_wBMADv.tree_0.Node8.beta = 0.0331578
+l_wBMADv.tree_0.Node6.omega2 = 138.298
+l_wBMADv.tree_0.Node6.omega1 = 0.447697
+l_wBMADv.tree_0.Node6.alpha = 0.0348012
+l_wBMADv.tree_0.Node6.bsrel_mixture_aux_0 = 0.995462
+l_wBMADv.tree_0.Thamnophis_elegans.beta = 0.0494479
+l_wBMADv.tree_0.Thamnophis_elegans.alpha = 0.191463
+l_wBMADv.tree_0.Node5.alpha = 0.0536605
+l_wBMADv.tree_0.Node5.beta = 0.0201778
+l_wBMADv.tree_0.Node3.beta = 0.0130057
+l_wBMADv.tree_0.Node3.alpha = 0.0625489
+l_wBMADv.tree_0.Vipera_berus.beta = 0.05905
+l_wBMADv.tree_0.Vipera_berus.alpha = 0.0733083
+l_wBMADv.tree_0.Crotalus_tigris.alpha = 0.0557838
+l_wBMADv.tree_0.Crotalus_tigris.beta = 0.0245937
+l_wBMADv.tree_0.Bothrops_jararaca.beta = 0.019642
+l_wBMADv.tree_0.Bothrops_jararaca.alpha = 0.0409501
+l_wBMADv.tree_0.Node17.beta = 0.0079745
+l_wBMADv.tree_0.Node17.alpha = 0.0208682
+l_wBMADv.tree_0.Protobothrops_mucrosquamatus.alpha = 0.0231232
+l_wBMADv.tree_0.Protobothrops_mucrosquamatus.beta = 0.00147108
+l_wBMADv.tree_0.Node16.alpha = 0.0104192
+l_wBMADv.tree_0.Node16.beta = 0.0135905
+l_wBMADv.tree_0.Node14.beta = 0.036695
+l_wBMADv.tree_0.Node14.alpha = 0.0912333
+l_wBMADv.tree_0.Node2.alpha = 0.24395
+l_wBMADv.tree_0.Node2.beta = 0.0772429
+l_wBMADv.tree_0.Varanus_komodoensis.alpha = 0.910857
+l_wBMADv.tree_0.Varanus_komodoensis.bsrel_mixture_aux_0 = 0.731138
+l_wBMADv.tree_0.Varanus_komodoensis.omega2 = 1.68093
+l_wBMADv.tree_0.Varanus_komodoensis.omega1 = 0.0399704
+l_wBMADv.tree_0.Anolis_carolinensis.bsrel_mixture_aux_0 = 0.968992
+l_wBMADv.tree_0.Anolis_carolinensis.alpha = 0.645005
+l_wBMADv.tree_0.Anolis_carolinensis.omega2 = 43.5126
+l_wBMADv.tree_0.Anolis_carolinensis.omega1 = 0.244581
+l_wBMADv.tree_0.Phrynosoma_platyrhinos.alpha = 0.166142
+l_wBMADv.tree_0.Phrynosoma_platyrhinos.beta = 0.035481
+l_wBMADv.tree_0.Sceloporus_undulatus.alpha = 0.22804
+l_wBMADv.tree_0.Sceloporus_undulatus.beta = 0.0686205
+l_wBMADv.tree_0.Node26.alpha = 0.087489
+l_wBMADv.tree_0.Node26.beta = 0.0818373
+l_wBMADv.tree_0.Node24.bsrel_mixture_aux_0 = 0.842908
+l_wBMADv.tree_0.Node24.alpha = 0.404871
+l_wBMADv.tree_0.Node24.omega2 = 2.60516
+l_wBMADv.tree_0.Node24.omega1 = 0
+l_wBMADv.tree_0.Pogona_vitticeps.omega2 = 2.49274
+l_wBMADv.tree_0.Pogona_vitticeps.omega1 = 0.0626729
+l_wBMADv.tree_0.Pogona_vitticeps.alpha = 0.748525
+l_wBMADv.tree_0.Pogona_vitticeps.bsrel_mixture_aux_0 = 0.777359
+l_wBMADv.tree_0.Node23.alpha = 0.0265495
+l_wBMADv.tree_0.Node23.beta = 0.0669109
+l_wBMADv.tree_0.Node21.bsrel_mixture_aux_0 = 0.950966
+l_wBMADv.tree_0.Node21.omega1 = 0.210188
+l_wBMADv.tree_0.Node21.alpha = 0.934895
+l_wBMADv.tree_0.Node21.omega2 = 11.7946
+Optimization finished in 36 loop passes.
+5587 likelihood evaluation calls and 30718 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used

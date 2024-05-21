@@ -1,0 +1,1619 @@
+
+Loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Loaded 'libv3/models/codon/MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Loaded '../tasks/genetic_code.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/genetic_code.bf
+Loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'GrabBag' from /usr/local/lib/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
+Overwritten previously defined function:'_sortStringsAux'
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Already loaded 'DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded 'parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded 'frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'libv3/tasks/estimators.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/estimators.bf
+Already loaded '../models/model_functions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/model_functions.bf
+Loaded '../models/DNA/GTR.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA/GTR.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/alignments.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/alignments.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'libv3/tasks/mpi.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../models/parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Loaded 'libv3/tasks/trees.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
+Already loaded '../IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded '../all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Already loaded '../convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded '../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Loaded 'TreeTools' from /usr/local/lib/hyphy/TemplateBatchFiles/TreeTools.ibf
+Loaded 'modules/io_functions.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/IOFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
+Already loaded 'libv3/convenience/regexp.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/regexp.bf
+Already loaded 'libv3/all-terms.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/all-terms.bf
+Loaded 'modules/selection_lib.ibf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/selection_lib.ibf
+Loaded 'libv3/models/codon/BS_REL.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/BS_REL.bf
+Already loaded '../codon.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon.bf
+Already loaded '../DNA.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/DNA.bf
+Already loaded '../parameters.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/parameters.bf
+Already loaded '../frequencies.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
+Already loaded '../../UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'MG_REV.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
+Loaded '../../convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Already loaded 'libv3/convenience/math.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/math.bf
+Variable 'NORMALIZE_SEQUENCE_NAMES' was not initialized prior to being used
+Variable 'ASSUME_REVERSIBLE_MODELS' was not initialized prior to being used
+Loaded 'modules/shared-load-file.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/shared-load-file.bf
+Variable 'MARKDOWN_OUTPUT' was not initialized prior to being used
+Already loaded 'libv3/convenience/matrix.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/convenience/matrix.bf
+Already loaded 'libv3/UtilityFunctions.bf' from /usr/local/lib/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
+Variable 'bbgybQvu.skipCodeSelectionStep' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'NEXUS_FILE_TREE_MATRIX' was not initialized prior to being used
+Variable 'utility.ToggleEnvVariable.cache' was not initialized prior to being used
+Variable 'TREE_NODE_NAME_MAPPING' was not initialized prior to being used
+Variable 'krEzvlvG.PROMPT_FOR_FILE' was not initialized prior to being used
+Variable 'END_OF_FILE' was not initialized prior to being used
+Variable '_DO_TREE_REBALANCE_' was not initialized prior to being used
+Variable '_KEEP_I_LABELS_' was not initialized prior to being used
+Variable 'INCLUDE_MODEL_SPECS' was not initialized prior to being used
+Variable 'utility.ForEachPair.warn_non_rentrant' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'ZhWqabmt.cache' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Variable 'COUNT_GAPS_IN_FREQUENCIES' was not initialized prior to being used
+Variable 'uPqRQdfm.model_pi' was not initialized prior to being used
+Model uPqRQdfm.model assigned to Python_molurus
+Model uPqRQdfm.model assigned to Hydrophis_cyanocinctus
+Model uPqRQdfm.model assigned to Ptyas_mucosa
+Model uPqRQdfm.model assigned to Pantherophis_obsoletus
+Model uPqRQdfm.model assigned to Pantherophis_guttatus
+Model uPqRQdfm.model assigned to Node9
+Model uPqRQdfm.model assigned to Pituophis_catenifer
+Model uPqRQdfm.model assigned to Node8
+Model uPqRQdfm.model assigned to Node6
+Model uPqRQdfm.model assigned to Thamnophis_elegans
+Model uPqRQdfm.model assigned to Node5
+Model uPqRQdfm.model assigned to Node3
+Model uPqRQdfm.model assigned to Vipera_berus
+Model uPqRQdfm.model assigned to Crotalus_tigris
+Model uPqRQdfm.model assigned to Bothrops_jararaca
+Model uPqRQdfm.model assigned to Node17
+Model uPqRQdfm.model assigned to Protobothrops_mucrosquamatus
+Model uPqRQdfm.model assigned to Node16
+Model uPqRQdfm.model assigned to Node14
+Model uPqRQdfm.model assigned to Node2
+Model uPqRQdfm.model assigned to Varanus_komodoensis
+Model uPqRQdfm.model assigned to Anolis_carolinensis
+Model uPqRQdfm.model assigned to Phrynosoma_platyrhinos
+Model uPqRQdfm.model assigned to Sceloporus_undulatus
+Model uPqRQdfm.model assigned to Node26
+Model uPqRQdfm.model assigned to Node24
+Model uPqRQdfm.model assigned to Pogona_vitticeps
+Model uPqRQdfm.model assigned to Node23
+Model uPqRQdfm.model assigned to Node21
+The tips of the tree:uPqRQdfm.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 4844 vs 10666 for 1..k=> a 2.2019 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'USE_LAST_RESULTS' was not initialized prior to being used
+Variable 'uPqRQdfm.tree_0.Python_molurus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Python_molurus.t=237.5085951200554
+Variable 'uPqRQdfm.tree_0.Hydrophis_cyanocinctus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Hydrophis_cyanocinctus.t=104.7977678058733
+Variable 'uPqRQdfm.tree_0.Ptyas_mucosa.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Ptyas_mucosa.t=84.71034661740448
+Variable 'uPqRQdfm.tree_0.Pantherophis_obsoletus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Pantherophis_obsoletus.t=32.10766500224946
+Variable 'uPqRQdfm.tree_0.Pantherophis_guttatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Pantherophis_guttatus.t=32.10766500224946
+Variable 'uPqRQdfm.tree_0.Node9.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node9.t=6.226407766963407
+Variable 'uPqRQdfm.tree_0.Pituophis_catenifer.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Pituophis_catenifer.t=38.33407276921287
+Variable 'uPqRQdfm.tree_0.Node8.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node8.t=46.3762738481916
+Variable 'uPqRQdfm.tree_0.Node6.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node6.t=11.40505715992797
+Variable 'uPqRQdfm.tree_0.Thamnophis_elegans.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Thamnophis_elegans.t=96.11540377733246
+Variable 'uPqRQdfm.tree_0.Node5.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node5.t=8.682364028540817
+Variable 'uPqRQdfm.tree_0.Node3.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node3.t=0.9491546167692705
+Variable 'uPqRQdfm.tree_0.Vipera_berus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Vipera_berus.t=93.0976193118269
+Variable 'uPqRQdfm.tree_0.Crotalus_tigris.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Crotalus_tigris.t=61.89685412894927
+Variable 'uPqRQdfm.tree_0.Bothrops_jararaca.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Bothrops_jararaca.t=61.89685412894927
+Variable 'uPqRQdfm.tree_0.Node17.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node17.t=8.27130736578512
+Variable 'uPqRQdfm.tree_0.Protobothrops_mucrosquamatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Protobothrops_mucrosquamatus.t=70.16816149473438
+Variable 'uPqRQdfm.tree_0.Node16.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node16.t=22.92945781709252
+Variable 'uPqRQdfm.tree_0.Node14.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node14.t=12.64930311081563
+Variable 'uPqRQdfm.tree_0.Node2.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node2.t=131.7616726974129
+Variable 'uPqRQdfm.tree_0.Varanus_komodoensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Varanus_komodoensis.t=435.1760112371178
+Variable 'uPqRQdfm.tree_0.Anolis_carolinensis.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Anolis_carolinensis.t=234.8777494086993
+Variable 'uPqRQdfm.tree_0.Phrynosoma_platyrhinos.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Phrynosoma_platyrhinos.t=149.8216943080005
+Variable 'uPqRQdfm.tree_0.Sceloporus_undulatus.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Sceloporus_undulatus.t=149.8216943080005
+Variable 'uPqRQdfm.tree_0.Node26.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node26.t=85.05605510069886
+Variable 'uPqRQdfm.tree_0.Node24.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node24.t=170.5024825039595
+Variable 'uPqRQdfm.tree_0.Pogona_vitticeps.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Pogona_vitticeps.t=405.3802319126589
+Variable 'uPqRQdfm.tree_0.Node23.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node23.t=29.79577932445904
+Variable 'uPqRQdfm.tree_0.Node21.t' was not initialized prior to being used
+models.generic.SetBranchLength: uPqRQdfm.tree_0.Node21.t=219.1264845164619
+Variable 'uPqRQdfm.uPqRQdfm.likelihoodFunction' was not initialized prior to being used
+Variable 'SAVE_OPT_STATUS_TO' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 1201-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+uPqRQdfm.model.theta_GT = 0.25
+uPqRQdfm.model.theta_CT = 1
+uPqRQdfm.model.theta_AC = 0.25
+uPqRQdfm.model.theta_CG = 0.25
+uPqRQdfm.model.theta_AT = 0.25
+uPqRQdfm.tree_0.Python_molurus.t = 237.509
+uPqRQdfm.tree_0.Hydrophis_cyanocinctus.t = 104.798
+uPqRQdfm.tree_0.Ptyas_mucosa.t = 84.7103
+uPqRQdfm.tree_0.Pantherophis_obsoletus.t = 32.1077
+uPqRQdfm.tree_0.Pantherophis_guttatus.t = 32.1077
+uPqRQdfm.tree_0.Node9.t = 6.22641
+uPqRQdfm.tree_0.Pituophis_catenifer.t = 38.3341
+uPqRQdfm.tree_0.Node8.t = 46.3763
+uPqRQdfm.tree_0.Node6.t = 11.4051
+uPqRQdfm.tree_0.Thamnophis_elegans.t = 96.1154
+uPqRQdfm.tree_0.Node5.t = 8.68236
+uPqRQdfm.tree_0.Node3.t = 0.949155
+uPqRQdfm.tree_0.Vipera_berus.t = 93.0976
+uPqRQdfm.tree_0.Crotalus_tigris.t = 61.8969
+uPqRQdfm.tree_0.Bothrops_jararaca.t = 61.8969
+uPqRQdfm.tree_0.Node17.t = 8.27131
+uPqRQdfm.tree_0.Protobothrops_mucrosquamatus.t = 70.1682
+uPqRQdfm.tree_0.Node16.t = 22.9295
+uPqRQdfm.tree_0.Node14.t = 12.6493
+uPqRQdfm.tree_0.Node2.t = 131.762
+uPqRQdfm.tree_0.Varanus_komodoensis.t = 435.176
+uPqRQdfm.tree_0.Anolis_carolinensis.t = 234.878
+uPqRQdfm.tree_0.Phrynosoma_platyrhinos.t = 149.822
+uPqRQdfm.tree_0.Sceloporus_undulatus.t = 149.822
+uPqRQdfm.tree_0.Node26.t = 85.0561
+uPqRQdfm.tree_0.Node24.t = 170.502
+uPqRQdfm.tree_0.Pogona_vitticeps.t = 405.38
+uPqRQdfm.tree_0.Node23.t = 29.7958
+uPqRQdfm.tree_0.Node21.t = 219.126
+Optimization finished in 29 loop passes.
+3323 likelihood evaluation calls and 25557 matrix exponentiations calls were made
+
+Variable 'BRANCH_LENGTH_STENCIL' was not initialized prior to being used
+Variable 'uPqRQdfm.option' was not initialized prior to being used
+Variable 'absrel.terms.json.nucleotide_gtr' was not initialized prior to being used
+Variable 'Unknown' was not initialized prior to being used
+Variable 'gpzbuxrU.initial_value' was not initialized prior to being used
+Variable 'MfNYECvR.data_filter' was not initialized prior to being used
+Row and/or column partition is empty. All the data will be used by default.
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 3105-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.346006
+frequencies._aux.CF3x4.p0_1 = 0.237098
+frequencies._aux.CF3x4.p0_2 = 0.472218
+frequencies._aux.CF3x4.p1_0 = 0.277108
+frequencies._aux.CF3x4.p1_1 = 0.278947
+frequencies._aux.CF3x4.p1_2 = 0.279229
+frequencies._aux.CF3x4.p2_0 = 0.254142
+frequencies._aux.CF3x4.p2_1 = 0.313026
+frequencies._aux.CF3x4.p2_2 = 0.339123
+Optimization finished in 5 loop passes.
+198 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'MfNYECvR.model_MGREV_pi' was not initialized prior to being used
+Model MfNYECvR.model_MGREV assigned to Python_molurus
+Model MfNYECvR.model_MGREV assigned to Hydrophis_cyanocinctus
+Model MfNYECvR.model_MGREV assigned to Ptyas_mucosa
+Model MfNYECvR.model_MGREV assigned to Pantherophis_obsoletus
+Model MfNYECvR.model_MGREV assigned to Pantherophis_guttatus
+Model MfNYECvR.model_MGREV assigned to Node9
+Model MfNYECvR.model_MGREV assigned to Pituophis_catenifer
+Model MfNYECvR.model_MGREV assigned to Node8
+Model MfNYECvR.model_MGREV assigned to Node6
+Model MfNYECvR.model_MGREV assigned to Thamnophis_elegans
+Model MfNYECvR.model_MGREV assigned to Node5
+Model MfNYECvR.model_MGREV assigned to Node3
+Model MfNYECvR.model_MGREV assigned to Vipera_berus
+Model MfNYECvR.model_MGREV assigned to Crotalus_tigris
+Model MfNYECvR.model_MGREV assigned to Bothrops_jararaca
+Model MfNYECvR.model_MGREV assigned to Node17
+Model MfNYECvR.model_MGREV assigned to Protobothrops_mucrosquamatus
+Model MfNYECvR.model_MGREV assigned to Node16
+Model MfNYECvR.model_MGREV assigned to Node14
+Model MfNYECvR.model_MGREV assigned to Node2
+Model MfNYECvR.model_MGREV assigned to Varanus_komodoensis
+Model MfNYECvR.model_MGREV assigned to Anolis_carolinensis
+Model MfNYECvR.model_MGREV assigned to Phrynosoma_platyrhinos
+Model MfNYECvR.model_MGREV assigned to Sceloporus_undulatus
+Model MfNYECvR.model_MGREV assigned to Node26
+Model MfNYECvR.model_MGREV assigned to Node24
+Model MfNYECvR.model_MGREV assigned to Pogona_vitticeps
+Model MfNYECvR.model_MGREV assigned to Node23
+Model MfNYECvR.model_MGREV assigned to Node21
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Partition 0 is ASSUMED to have a reversible model
+Variable 'MfNYECvR.MfNYECvR.likelihoodFunction' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Python_molurus.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Python_molurus.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Hydrophis_cyanocinctus.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Hydrophis_cyanocinctus.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Ptyas_mucosa.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Ptyas_mucosa.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Pantherophis_obsoletus.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Pantherophis_obsoletus.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Pantherophis_guttatus.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Pantherophis_guttatus.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Pituophis_catenifer.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Pituophis_catenifer.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Thamnophis_elegans.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Thamnophis_elegans.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Vipera_berus.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Vipera_berus.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Crotalus_tigris.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Crotalus_tigris.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Bothrops_jararaca.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Bothrops_jararaca.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Protobothrops_mucrosquamatus.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Protobothrops_mucrosquamatus.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Varanus_komodoensis.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Varanus_komodoensis.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Anolis_carolinensis.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Anolis_carolinensis.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Phrynosoma_platyrhinos.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Phrynosoma_platyrhinos.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Sceloporus_undulatus.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Sceloporus_undulatus.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Pogona_vitticeps.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Pogona_vitticeps.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node9.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node9.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node8.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node8.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node6.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node5.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node5.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node3.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node3.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node17.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node17.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node16.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node16.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node14.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node14.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node2.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node2.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node26.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node26.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node24.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node24.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node23.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node23.beta' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node21.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node21.beta' was not initialized prior to being used
+Site 50 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 171 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 50 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 181 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 50 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Site 81 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 77-th LF evaluation.
+Initial guess for MfNYECvR.tree_0.Node2.beta is 0.0169452
+Initial guess for MfNYECvR.tree_0.Node2.alpha is 0.010833
+Initial guess for MfNYECvR.tree_0.Node3.beta is 0.00516017
+Initial guess for MfNYECvR.tree_0.Node3.alpha is 0.00142905
+Initial guess for MfNYECvR.tree_0.Hydrophis_cyanocinctus.beta is 0.0318171
+Initial guess for MfNYECvR.tree_0.Hydrophis_cyanocinctus.alpha is 0.0108685
+Initial guess for MfNYECvR.tree_0.Node5.beta is 0.00155894
+Initial guess for MfNYECvR.tree_0.Node5.alpha is 0.00145579
+Initial guess for MfNYECvR.tree_0.Node6.beta is 0.0113124
+Initial guess for MfNYECvR.tree_0.Node6.alpha is 0.00184219
+Initial guess for MfNYECvR.tree_0.Ptyas_mucosa.beta is 0.0481975
+Initial guess for MfNYECvR.tree_0.Ptyas_mucosa.alpha is 0.0227844
+Initial guess for MfNYECvR.tree_0.Node8.beta is 0.01071
+Initial guess for MfNYECvR.tree_0.Node8.alpha is 0.0023504
+Initial guess for MfNYECvR.tree_0.Node9.beta is -0.00182877
+Initial guess for MfNYECvR.tree_0.Node9.alpha is -0.000487065
+Initial guess for MfNYECvR.tree_0.Pantherophis_obsoletus.beta is 0.0105723
+Initial guess for MfNYECvR.tree_0.Pantherophis_obsoletus.alpha is 0.00147702
+Initial guess for MfNYECvR.tree_0.Pantherophis_guttatus.beta is 0.000954373
+Initial guess for MfNYECvR.tree_0.Pantherophis_guttatus.alpha is 1.25217e-17
+Initial guess for MfNYECvR.tree_0.Pituophis_catenifer.beta is 0.000798666
+Initial guess for MfNYECvR.tree_0.Pituophis_catenifer.alpha is 2.14819e-17
+Initial guess for MfNYECvR.tree_0.Thamnophis_elegans.beta is 0.00460399
+Initial guess for MfNYECvR.tree_0.Thamnophis_elegans.alpha is 0.00139616
+Initial guess for MfNYECvR.tree_0.Node14.beta is 0.00830321
+Initial guess for MfNYECvR.tree_0.Node14.alpha is 0.00683445
+Initial guess for MfNYECvR.tree_0.Vipera_berus.beta is 0.0180788
+Initial guess for MfNYECvR.tree_0.Vipera_berus.alpha is 0.0046902
+Initial guess for MfNYECvR.tree_0.Node16.beta is 0.00194915
+Initial guess for MfNYECvR.tree_0.Node16.alpha is 0.0010323
+Initial guess for MfNYECvR.tree_0.Node17.beta is 0.00214909
+Initial guess for MfNYECvR.tree_0.Node17.alpha is 0.000566095
+Initial guess for MfNYECvR.tree_0.Crotalus_tigris.beta is 0.0139651
+Initial guess for MfNYECvR.tree_0.Crotalus_tigris.alpha is 0.00599037
+Initial guess for MfNYECvR.tree_0.Bothrops_jararaca.beta is 0.00431694
+Initial guess for MfNYECvR.tree_0.Bothrops_jararaca.alpha is 0.00140583
+Initial guess for MfNYECvR.tree_0.Protobothrops_mucrosquamatus.beta is 0.00940588
+Initial guess for MfNYECvR.tree_0.Protobothrops_mucrosquamatus.alpha is 0.00220106
+Initial guess for MfNYECvR.tree_0.Node21.beta is 0.0674364
+Initial guess for MfNYECvR.tree_0.Node21.alpha is 0.0506873
+Initial guess for MfNYECvR.tree_0.Varanus_komodoensis.beta is 0.00133809
+Initial guess for MfNYECvR.tree_0.Varanus_komodoensis.alpha is 0.00117869
+Initial guess for MfNYECvR.tree_0.Node23.beta is -0.0109309
+Initial guess for MfNYECvR.tree_0.Node23.alpha is 0.00801015
+Initial guess for MfNYECvR.tree_0.Node24.beta is 0.0217306
+Initial guess for MfNYECvR.tree_0.Node24.alpha is 0.0225258
+Initial guess for MfNYECvR.tree_0.Anolis_carolinensis.beta is 0.0893168
+Initial guess for MfNYECvR.tree_0.Anolis_carolinensis.alpha is 0.0468668
+Initial guess for MfNYECvR.tree_0.Node26.beta is 0.0155647
+Initial guess for MfNYECvR.tree_0.Node26.alpha is 0.00947406
+Initial guess for MfNYECvR.tree_0.Phrynosoma_platyrhinos.beta is 0.0662527
+Initial guess for MfNYECvR.tree_0.Phrynosoma_platyrhinos.alpha is 0.0333149
+Initial guess for MfNYECvR.tree_0.Sceloporus_undulatus.beta is 0.0217897
+Initial guess for MfNYECvR.tree_0.Sceloporus_undulatus.alpha is 0.00416598
+Initial guess for MfNYECvR.tree_0.Pogona_vitticeps.beta is 0.0192276
+Initial guess for MfNYECvR.tree_0.Pogona_vitticeps.alpha is 0.00924002
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.model_MGREV.theta_GT = 1
+MfNYECvR.model_MGREV.theta_CT = 1
+MfNYECvR.model_MGREV.theta_AC = 1
+MfNYECvR.model_MGREV.theta_CG = 1
+MfNYECvR.model_MGREV.theta_AT = 1
+MfNYECvR.tree_0.Python_molurus.alpha = 0.1
+MfNYECvR.tree_0.Python_molurus.beta = 0.1
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.alpha = 0.0108685
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.beta = 0.0318171
+MfNYECvR.tree_0.Ptyas_mucosa.alpha = 0.0227844
+MfNYECvR.tree_0.Ptyas_mucosa.beta = 0.0481975
+MfNYECvR.tree_0.Pantherophis_obsoletus.alpha = 0.00147702
+MfNYECvR.tree_0.Pantherophis_obsoletus.beta = 0.0105723
+MfNYECvR.tree_0.Pantherophis_guttatus.alpha = 1.25217e-17
+MfNYECvR.tree_0.Pantherophis_guttatus.beta = 0.000954373
+MfNYECvR.tree_0.Node9.alpha = 0
+MfNYECvR.tree_0.Node9.beta = 0
+MfNYECvR.tree_0.Pituophis_catenifer.alpha = 2.14819e-17
+MfNYECvR.tree_0.Pituophis_catenifer.beta = 0.000798666
+MfNYECvR.tree_0.Node8.alpha = 0.0023504
+MfNYECvR.tree_0.Node8.beta = 0.01071
+MfNYECvR.tree_0.Node6.alpha = 0.00184219
+MfNYECvR.tree_0.Node6.beta = 0.0113124
+MfNYECvR.tree_0.Thamnophis_elegans.alpha = 0.00139616
+MfNYECvR.tree_0.Thamnophis_elegans.beta = 0.00460399
+MfNYECvR.tree_0.Node5.alpha = 0.00145579
+MfNYECvR.tree_0.Node5.beta = 0.00155894
+MfNYECvR.tree_0.Node3.alpha = 0.00142905
+MfNYECvR.tree_0.Node3.beta = 0.00516017
+MfNYECvR.tree_0.Vipera_berus.alpha = 0.0046902
+MfNYECvR.tree_0.Vipera_berus.beta = 0.0180788
+MfNYECvR.tree_0.Crotalus_tigris.alpha = 0.00599037
+MfNYECvR.tree_0.Crotalus_tigris.beta = 0.0139651
+MfNYECvR.tree_0.Bothrops_jararaca.alpha = 0.00140583
+MfNYECvR.tree_0.Bothrops_jararaca.beta = 0.00431694
+MfNYECvR.tree_0.Node17.alpha = 0.000566095
+MfNYECvR.tree_0.Node17.beta = 0.00214909
+MfNYECvR.tree_0.Protobothrops_mucrosquamatus.alpha = 0.00220106
+MfNYECvR.tree_0.Protobothrops_mucrosquamatus.beta = 0.00940588
+MfNYECvR.tree_0.Node16.alpha = 0.0010323
+MfNYECvR.tree_0.Node16.beta = 0.00194915
+MfNYECvR.tree_0.Node14.alpha = 0.00683445
+MfNYECvR.tree_0.Node14.beta = 0.00830321
+MfNYECvR.tree_0.Node2.alpha = 0.010833
+MfNYECvR.tree_0.Node2.beta = 0.0169452
+MfNYECvR.tree_0.Varanus_komodoensis.alpha = 0.00117869
+MfNYECvR.tree_0.Varanus_komodoensis.beta = 0.00133809
+MfNYECvR.tree_0.Anolis_carolinensis.alpha = 0.0468668
+MfNYECvR.tree_0.Anolis_carolinensis.beta = 0.0893168
+MfNYECvR.tree_0.Phrynosoma_platyrhinos.alpha = 0.0333149
+MfNYECvR.tree_0.Phrynosoma_platyrhinos.beta = 0.0662527
+MfNYECvR.tree_0.Sceloporus_undulatus.alpha = 0.00416598
+MfNYECvR.tree_0.Sceloporus_undulatus.beta = 0.0217897
+MfNYECvR.tree_0.Node26.alpha = 0.00947406
+MfNYECvR.tree_0.Node26.beta = 0.0155647
+MfNYECvR.tree_0.Node24.alpha = 0.0225258
+MfNYECvR.tree_0.Node24.beta = 0.0217306
+MfNYECvR.tree_0.Pogona_vitticeps.alpha = 0.00924002
+MfNYECvR.tree_0.Pogona_vitticeps.beta = 0.0192276
+MfNYECvR.tree_0.Node23.alpha = 0.00801015
+MfNYECvR.tree_0.Node23.beta = 0
+MfNYECvR.tree_0.Node21.alpha = 0.0506873
+MfNYECvR.tree_0.Node21.beta = 0.0674364
+Site 181 evaluated to a 0 probability in ComputeTreeBlockByBranch
+Optimization finished in 27 loop passes.
+6474 likelihood evaluation calls and 27220 matrix exponentiations calls were made
+
+Variable 'bsrel_mixture_aux_0' was not initialized prior to being used
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2824-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.346006
+frequencies._aux.CF3x4.p0_1 = 0.237098
+frequencies._aux.CF3x4.p0_2 = 0.472218
+frequencies._aux.CF3x4.p1_0 = 0.277108
+frequencies._aux.CF3x4.p1_1 = 0.278947
+frequencies._aux.CF3x4.p1_2 = 0.279229
+frequencies._aux.CF3x4.p2_0 = 0.254142
+frequencies._aux.CF3x4.p2_1 = 0.313026
+frequencies._aux.CF3x4.p2_2 = 0.339123
+Optimization finished in 5 loop passes.
+197 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.2_pi' was not initialized prior to being used
+Variable 'omega1' was not initialized prior to being used
+Variable 'omega2' was not initialized prior to being used
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Variable 'bsrel_mixture_aux_1' was not initialized prior to being used
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2840-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.346006
+frequencies._aux.CF3x4.p0_1 = 0.237098
+frequencies._aux.CF3x4.p0_2 = 0.472218
+frequencies._aux.CF3x4.p1_0 = 0.277108
+frequencies._aux.CF3x4.p1_1 = 0.278947
+frequencies._aux.CF3x4.p1_2 = 0.279229
+frequencies._aux.CF3x4.p2_0 = 0.254142
+frequencies._aux.CF3x4.p2_1 = 0.313026
+frequencies._aux.CF3x4.p2_2 = 0.339123
+Optimization finished in 5 loop passes.
+197 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.3_pi' was not initialized prior to being used
+Variable 'omega3' was not initialized prior to being used
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Variable 'bsrel_mixture_aux_2' was not initialized prior to being used
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2890-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.346006
+frequencies._aux.CF3x4.p0_1 = 0.237098
+frequencies._aux.CF3x4.p0_2 = 0.472218
+frequencies._aux.CF3x4.p1_0 = 0.277108
+frequencies._aux.CF3x4.p1_1 = 0.278947
+frequencies._aux.CF3x4.p1_2 = 0.279229
+frequencies._aux.CF3x4.p2_0 = 0.254142
+frequencies._aux.CF3x4.p2_1 = 0.313026
+frequencies._aux.CF3x4.p2_2 = 0.339123
+Optimization finished in 5 loop passes.
+197 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.4_pi' was not initialized prior to being used
+Variable 'omega4' was not initialized prior to being used
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Variable 'bsrel_mixture_aux_3' was not initialized prior to being used
+Overwritten previously defined function:'LkizhWSG.rate_generator'
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 2840-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+frequencies._aux.CF3x4.p0_0 = 0.346006
+frequencies._aux.CF3x4.p0_1 = 0.237098
+frequencies._aux.CF3x4.p0_2 = 0.472218
+frequencies._aux.CF3x4.p1_0 = 0.277108
+frequencies._aux.CF3x4.p1_1 = 0.278947
+frequencies._aux.CF3x4.p1_2 = 0.279229
+frequencies._aux.CF3x4.p2_0 = 0.254142
+frequencies._aux.CF3x4.p2_1 = 0.313026
+frequencies._aux.CF3x4.p2_2 = 0.339123
+Optimization finished in 5 loop passes.
+197 likelihood evaluation calls and 0 matrix exponentiations calls were made
+
+Variable 'absrel.model.5_pi' was not initialized prior to being used
+Variable 'omega5' was not initialized prior to being used
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Variable 'TkXXBrFc.best_val' was not initialized prior to being used
+Variable 'MfNYECvR.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 53-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Varanus_komodoensis.alpha = 0.893529
+MfNYECvR.tree_0.Varanus_komodoensis.bsrel_mixture_aux_0 = 0.9
+MfNYECvR.tree_0.Varanus_komodoensis.omega1 = 0.2
+MfNYECvR.tree_0.Varanus_komodoensis.omega2 = 2
+MfNYECvR.tree_0.Varanus_komodoensis.beta = 0.310665
+Optimization finished in 11 loop passes.
+528 likelihood evaluation calls and 1014 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (7) of threads.
+Set GUI update interval to every 50-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Varanus_komodoensis.bsrel_mixture_aux_1 = 0.5
+MfNYECvR.tree_0.Varanus_komodoensis.omega1 = 0.0362651
+MfNYECvR.tree_0.Varanus_komodoensis.bsrel_mixture_aux_0 = 0.713537
+MfNYECvR.tree_0.Varanus_komodoensis.alpha = 0.863658
+MfNYECvR.tree_0.Varanus_komodoensis.omega2 = 0.8
+MfNYECvR.tree_0.Varanus_komodoensis.omega3 = 2
+Optimization finished in 7 loop passes.
+374 likelihood evaluation calls and 1099 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Variable 'MfNYECvR.tree_0.Varanus_komodoensis.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Varanus_komodoensis.omega1' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Varanus_komodoensis.omega2' was not initialized prior to being used
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 61-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node21.alpha = 0.982724
+MfNYECvR.tree_0.Node21.bsrel_mixture_aux_0 = 0.95
+MfNYECvR.tree_0.Node21.omega1 = 0.2
+MfNYECvR.tree_0.Node21.omega2 = 9
+MfNYECvR.tree_0.Node21.beta = 0.272231
+Optimization finished in 9 loop passes.
+271 likelihood evaluation calls and 521 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 88-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node21.bsrel_mixture_aux_1 = 0.5
+MfNYECvR.tree_0.Node21.omega1 = 0.202867
+MfNYECvR.tree_0.Node21.bsrel_mixture_aux_0 = 0.951163
+MfNYECvR.tree_0.Node21.alpha = 0.890992
+MfNYECvR.tree_0.Node21.omega2 = 0.8
+MfNYECvR.tree_0.Node21.omega3 = 28
+Optimization finished in 16 loop passes.
+603 likelihood evaluation calls and 1754 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Variable 'MfNYECvR.tree_0.Node21.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node21.omega1' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node21.omega2' was not initialized prior to being used
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 38-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Pogona_vitticeps.alpha = 0.786791
+MfNYECvR.tree_0.Pogona_vitticeps.bsrel_mixture_aux_0 = 0.75
+MfNYECvR.tree_0.Pogona_vitticeps.omega1 = 0
+MfNYECvR.tree_0.Pogona_vitticeps.omega2 = 2
+MfNYECvR.tree_0.Pogona_vitticeps.beta = 0.30553
+Optimization finished in 9 loop passes.
+210 likelihood evaluation calls and 418 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 78-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Pogona_vitticeps.bsrel_mixture_aux_1 = 0.5
+MfNYECvR.tree_0.Pogona_vitticeps.omega1 = 0.0236546
+MfNYECvR.tree_0.Pogona_vitticeps.bsrel_mixture_aux_0 = 0.725886
+MfNYECvR.tree_0.Pogona_vitticeps.alpha = 0.72011
+MfNYECvR.tree_0.Pogona_vitticeps.omega2 = 0.8
+MfNYECvR.tree_0.Pogona_vitticeps.omega3 = 2
+Optimization finished in 15 loop passes.
+451 likelihood evaluation calls and 1341 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Variable 'MfNYECvR.tree_0.Pogona_vitticeps.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Pogona_vitticeps.omega1' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Pogona_vitticeps.omega2' was not initialized prior to being used
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 22-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Anolis_carolinensis.alpha = 0.707546
+MfNYECvR.tree_0.Anolis_carolinensis.bsrel_mixture_aux_0 = 0.98
+MfNYECvR.tree_0.Anolis_carolinensis.omega1 = 0.2
+MfNYECvR.tree_0.Anolis_carolinensis.omega2 = 28
+MfNYECvR.tree_0.Anolis_carolinensis.beta = 0.219634
+Optimization finished in 5 loop passes.
+255 likelihood evaluation calls and 493 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 41-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Anolis_carolinensis.bsrel_mixture_aux_1 = 0.5
+MfNYECvR.tree_0.Anolis_carolinensis.omega1 = 0.237149
+MfNYECvR.tree_0.Anolis_carolinensis.bsrel_mixture_aux_0 = 0.969775
+MfNYECvR.tree_0.Anolis_carolinensis.alpha = 0.631978
+MfNYECvR.tree_0.Anolis_carolinensis.omega2 = 0.8
+MfNYECvR.tree_0.Anolis_carolinensis.omega3 = 65
+Optimization finished in 6 loop passes.
+204 likelihood evaluation calls and 601 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Variable 'MfNYECvR.tree_0.Anolis_carolinensis.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Anolis_carolinensis.omega1' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Anolis_carolinensis.omega2' was not initialized prior to being used
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 73-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.alpha = 0.271583
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.bsrel_mixture_aux_0 = 0.9
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.omega1 = 0.2
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.omega2 = 9
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.beta = 0.170763
+Optimization finished in 8 loop passes.
+407 likelihood evaluation calls and 778 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 64-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.bsrel_mixture_aux_1 = 0.5
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.omega1 = 0
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.bsrel_mixture_aux_0 = 0.810337
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.alpha = 0.328963
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.omega2 = 0.8
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.omega3 = 9
+Optimization finished in 14 loop passes.
+376 likelihood evaluation calls and 1130 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Variable 'MfNYECvR.tree_0.Hydrophis_cyanocinctus.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Hydrophis_cyanocinctus.omega1' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Hydrophis_cyanocinctus.omega2' was not initialized prior to being used
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 77-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node24.alpha = 0.501501
+MfNYECvR.tree_0.Node24.bsrel_mixture_aux_0 = 0.75
+MfNYECvR.tree_0.Node24.omega1 = 0
+MfNYECvR.tree_0.Node24.omega2 = 1
+MfNYECvR.tree_0.Node24.beta = 0.114318
+Optimization finished in 18 loop passes.
+541 likelihood evaluation calls and 1049 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 114-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node24.bsrel_mixture_aux_1 = 0.5
+MfNYECvR.tree_0.Node24.omega1 = 0
+MfNYECvR.tree_0.Node24.bsrel_mixture_aux_0 = 0.838437
+MfNYECvR.tree_0.Node24.alpha = 0.393072
+MfNYECvR.tree_0.Node24.omega2 = 0.8
+MfNYECvR.tree_0.Node24.omega3 = 2
+Optimization finished in 29 loop passes.
+928 likelihood evaluation calls and 2751 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Variable 'MfNYECvR.tree_0.Node24.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node24.omega1' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node24.omega2' was not initialized prior to being used
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 123-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Python_molurus.alpha = 0.224305
+MfNYECvR.tree_0.Python_molurus.bsrel_mixture_aux_0 = 0.98
+MfNYECvR.tree_0.Python_molurus.omega1 = 0.2
+MfNYECvR.tree_0.Python_molurus.omega2 = 9
+MfNYECvR.tree_0.Python_molurus.beta = 0.0877742
+Optimization finished in 5 loop passes.
+242 likelihood evaluation calls and 474 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (8) of threads.
+Set GUI update interval to every 1650-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node2.beta = 0.0661997
+MfNYECvR.tree_0.Node2.omega1 = 0.4
+MfNYECvR.tree_0.Node2.alpha = 0.230107
+MfNYECvR.tree_0.Node2.bsrel_mixture_aux_0 = 0.5
+MfNYECvR.tree_0.Node2.omega2 = 0.25
+Optimization finished in 8 loop passes.
+166 likelihood evaluation calls and 338 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 181-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Sceloporus_undulatus.omega2 = 2
+MfNYECvR.tree_0.Sceloporus_undulatus.beta = 0.0653268
+MfNYECvR.tree_0.Sceloporus_undulatus.omega1 = 0.2
+MfNYECvR.tree_0.Sceloporus_undulatus.alpha = 0.223172
+MfNYECvR.tree_0.Sceloporus_undulatus.bsrel_mixture_aux_0 = 0.95
+Optimization finished in 23 loop passes.
+495 likelihood evaluation calls and 988 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 94-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Thamnophis_elegans.alpha = 0.185372
+MfNYECvR.tree_0.Thamnophis_elegans.bsrel_mixture_aux_0 = 0.75
+MfNYECvR.tree_0.Thamnophis_elegans.omega2 = 1
+MfNYECvR.tree_0.Thamnophis_elegans.beta = 0.0482377
+MfNYECvR.tree_0.Thamnophis_elegans.omega1 = 0
+Optimization finished in 7 loop passes.
+138 likelihood evaluation calls and 300 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 244-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node26.beta = 0.0781676
+MfNYECvR.tree_0.Node26.omega1 = 0.6
+MfNYECvR.tree_0.Node26.omega2 = 9
+MfNYECvR.tree_0.Node26.alpha = 0.0811224
+MfNYECvR.tree_0.Node26.bsrel_mixture_aux_0 = 0.95
+Optimization finished in 23 loop passes.
+558 likelihood evaluation calls and 1064 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 207-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Phrynosoma_platyrhinos.omega2 = 0.25
+MfNYECvR.tree_0.Phrynosoma_platyrhinos.alpha = 0.160298
+MfNYECvR.tree_0.Phrynosoma_platyrhinos.bsrel_mixture_aux_0 = 0.75
+MfNYECvR.tree_0.Phrynosoma_platyrhinos.beta = 0.0337416
+MfNYECvR.tree_0.Phrynosoma_platyrhinos.omega1 = 0.2
+Optimization finished in 4 loop passes.
+76 likelihood evaluation calls and 176 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 186-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node23.beta = 0.0697399
+MfNYECvR.tree_0.Node23.omega1 = 0.8
+MfNYECvR.tree_0.Node23.omega2 = 28
+MfNYECvR.tree_0.Node23.alpha = 0.02145
+MfNYECvR.tree_0.Node23.bsrel_mixture_aux_0 = 0.9
+Optimization finished in 11 loop passes.
+221 likelihood evaluation calls and 428 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 176-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Vipera_berus.alpha = 0.0713476
+MfNYECvR.tree_0.Vipera_berus.bsrel_mixture_aux_0 = 0.5
+MfNYECvR.tree_0.Vipera_berus.omega2 = 0.75
+MfNYECvR.tree_0.Vipera_berus.beta = 0.0542034
+MfNYECvR.tree_0.Vipera_berus.omega1 = 0.8
+Optimization finished in 6 loop passes.
+118 likelihood evaluation calls and 260 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 286-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node14.beta = 0.0342369
+MfNYECvR.tree_0.Node14.omega1 = 0.4
+MfNYECvR.tree_0.Node14.alpha = 0.097851
+MfNYECvR.tree_0.Node14.bsrel_mixture_aux_0 = 0.75
+MfNYECvR.tree_0.Node14.omega2 = 0.25
+Optimization finished in 5 loop passes.
+218 likelihood evaluation calls and 414 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 182-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node8.alpha = 0.0657651
+MfNYECvR.tree_0.Node8.bsrel_mixture_aux_0 = 0.75
+MfNYECvR.tree_0.Node8.omega2 = 0.75
+MfNYECvR.tree_0.Node8.beta = 0.0321305
+MfNYECvR.tree_0.Node8.omega1 = 0.4
+Optimization finished in 14 loop passes.
+437 likelihood evaluation calls and 872 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 223-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Ptyas_mucosa.alpha = 0.085292
+MfNYECvR.tree_0.Ptyas_mucosa.bsrel_mixture_aux_0 = 0.98
+MfNYECvR.tree_0.Ptyas_mucosa.beta = 0.0147687
+MfNYECvR.tree_0.Ptyas_mucosa.omega1 = 0.2
+MfNYECvR.tree_0.Ptyas_mucosa.omega2 = 0.25
+Optimization finished in 9 loop passes.
+214 likelihood evaluation calls and 442 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (7) of threads.
+Set GUI update interval to every 319-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node3.beta = 0.0227592
+MfNYECvR.tree_0.Node3.omega1 = 0.2
+MfNYECvR.tree_0.Node3.omega2 = 9
+MfNYECvR.tree_0.Node3.alpha = 0.0577301
+MfNYECvR.tree_0.Node3.bsrel_mixture_aux_0 = 0.98
+Optimization finished in 10 loop passes.
+175 likelihood evaluation calls and 358 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 214-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Crotalus_tigris.omega2 = 0.5
+MfNYECvR.tree_0.Crotalus_tigris.beta = 0.0234333
+MfNYECvR.tree_0.Crotalus_tigris.omega1 = 0.4
+MfNYECvR.tree_0.Crotalus_tigris.alpha = 0.0546124
+MfNYECvR.tree_0.Crotalus_tigris.bsrel_mixture_aux_0 = 0.75
+Optimization finished in 3 loop passes.
+123 likelihood evaluation calls and 256 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 127-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node6.alpha = 0.0354024
+MfNYECvR.tree_0.Node6.bsrel_mixture_aux_0 = 0.98
+MfNYECvR.tree_0.Node6.omega2 = 28
+MfNYECvR.tree_0.Node6.beta = 0.0228942
+MfNYECvR.tree_0.Node6.omega1 = 0.2
+Optimization finished in 26 loop passes.
+513 likelihood evaluation calls and 1020 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 90-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node6.bsrel_mixture_aux_1 = 0.5
+MfNYECvR.tree_0.Node6.omega1 = 0.40927
+MfNYECvR.tree_0.Node6.alpha = 0.0353813
+MfNYECvR.tree_0.Node6.omega2 = 0.8
+MfNYECvR.tree_0.Node6.bsrel_mixture_aux_0 = 0.994785
+MfNYECvR.tree_0.Node6.omega3 = 65
+Optimization finished in 11 loop passes.
+320 likelihood evaluation calls and 967 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Variable 'MfNYECvR.tree_0.Node6.alpha' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node6.omega1' was not initialized prior to being used
+Variable 'MfNYECvR.tree_0.Node6.omega2' was not initialized prior to being used
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 206-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Bothrops_jararaca.omega2 = 28
+MfNYECvR.tree_0.Bothrops_jararaca.omega1 = 0.2
+MfNYECvR.tree_0.Bothrops_jararaca.alpha = 0.0398025
+MfNYECvR.tree_0.Bothrops_jararaca.bsrel_mixture_aux_0 = 0.98
+MfNYECvR.tree_0.Bothrops_jararaca.beta = 0.0184997
+Optimization finished in 28 loop passes.
+504 likelihood evaluation calls and 989 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (6) of threads.
+Set GUI update interval to every 129-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node5.alpha = 0.0455079
+MfNYECvR.tree_0.Node5.bsrel_mixture_aux_0 = 0.5
+MfNYECvR.tree_0.Node5.beta = 0.0106108
+MfNYECvR.tree_0.Node5.omega1 = 0.2
+MfNYECvR.tree_0.Node5.omega2 = 0.25
+Optimization finished in 3 loop passes.
+121 likelihood evaluation calls and 253 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 223-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node16.beta = 0.0138421
+MfNYECvR.tree_0.Node16.omega1 = 0
+MfNYECvR.tree_0.Node16.omega2 = 28
+MfNYECvR.tree_0.Node16.alpha = 0.012808
+MfNYECvR.tree_0.Node16.bsrel_mixture_aux_0 = 0.95
+Optimization finished in 16 loop passes.
+320 likelihood evaluation calls and 615 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 169-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Pituophis_catenifer.alpha = 0.0436896
+MfNYECvR.tree_0.Pituophis_catenifer.bsrel_mixture_aux_0 = 0.98
+MfNYECvR.tree_0.Pituophis_catenifer.omega2 = 0.25
+MfNYECvR.tree_0.Pituophis_catenifer.beta = 0
+MfNYECvR.tree_0.Pituophis_catenifer.omega1 = 0
+Optimization finished in 5 loop passes.
+92 likelihood evaluation calls and 209 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 606-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node17.beta = 0.00888634
+MfNYECvR.tree_0.Node17.omega1 = 0
+MfNYECvR.tree_0.Node17.alpha = 0.0254719
+MfNYECvR.tree_0.Node17.bsrel_mixture_aux_0 = 0.98
+MfNYECvR.tree_0.Node17.omega2 = 28
+Optimization finished in 6 loop passes.
+304 likelihood evaluation calls and 571 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (5) of threads.
+Set GUI update interval to every 110-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Protobothrops_mucrosquamatus.omega2 = 0.25
+MfNYECvR.tree_0.Protobothrops_mucrosquamatus.beta = 0.000241425
+MfNYECvR.tree_0.Protobothrops_mucrosquamatus.omega1 = 0
+MfNYECvR.tree_0.Protobothrops_mucrosquamatus.alpha = 0.0227296
+MfNYECvR.tree_0.Protobothrops_mucrosquamatus.bsrel_mixture_aux_0 = 0.98
+Optimization finished in 4 loop passes.
+111 likelihood evaluation calls and 235 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (3) of threads.
+Set GUI update interval to every 161-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Pantherophis_obsoletus.alpha = 0.0106468
+MfNYECvR.tree_0.Pantherophis_obsoletus.bsrel_mixture_aux_0 = 0.98
+MfNYECvR.tree_0.Pantherophis_obsoletus.omega2 = 0.25
+MfNYECvR.tree_0.Pantherophis_obsoletus.beta = 0
+MfNYECvR.tree_0.Pantherophis_obsoletus.omega1 = 0
+Optimization finished in 6 loop passes.
+173 likelihood evaluation calls and 345 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (4) of threads.
+Set GUI update interval to every 220-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Pantherophis_guttatus.beta = 0.00389223
+MfNYECvR.tree_0.Pantherophis_guttatus.omega1 = 0.8
+MfNYECvR.tree_0.Pantherophis_guttatus.alpha = 1.36203e-18
+MfNYECvR.tree_0.Pantherophis_guttatus.bsrel_mixture_aux_0 = 0.5
+MfNYECvR.tree_0.Pantherophis_guttatus.omega2 = 28
+Optimization finished in 6 loop passes.
+116 likelihood evaluation calls and 245 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 159-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.tree_0.Node9.omega2 = 0.25
+MfNYECvR.tree_0.Node9.beta = 0
+MfNYECvR.tree_0.Node9.omega1 = 0
+MfNYECvR.tree_0.Node9.alpha = 0
+MfNYECvR.tree_0.Node9.bsrel_mixture_aux_0 = 0.98
+Optimization finished in 3 loop passes.
+134 likelihood evaluation calls and 145 matrix exponentiations calls were made
+
+The tips of the tree:MfNYECvR.tree_0 were matched with the species names from the data in the following numeric order (0-based) {15,0,13,11,10,12,14,9,8,7,6,5,1,2,3,4}
+
+Pseudo-optimal path's cost 6527 vs 9597 for 1..k=> a 1.47035 x improvement
+Variable 'MOTCVRsy.MfNYECvR.likelihoodFunction' was not initialized prior to being used
+Auto-benchmarked an optimal number (1) of threads.
+Set GUI update interval to every 8-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.model_MGREV.theta_GT = 0.284825
+MfNYECvR.model_MGREV.theta_CT = 0.863917
+MfNYECvR.model_MGREV.theta_CG = 0.335952
+MfNYECvR.model_MGREV.theta_AT = 0.22091
+MfNYECvR.model_MGREV.theta_AC = 0.367037
+MfNYECvR.tree_0.Python_molurus.alpha = 0.224305
+MfNYECvR.tree_0.Python_molurus.beta = 0.0877742
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.bsrel_mixture_aux_0 = 0.810337
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.alpha = 0.328963
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.omega2 = 3.79388
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.omega1 = 0
+MfNYECvR.tree_0.Ptyas_mucosa.beta = 0.0147687
+MfNYECvR.tree_0.Ptyas_mucosa.alpha = 0.085292
+MfNYECvR.tree_0.Pantherophis_obsoletus.alpha = 0.0106468
+MfNYECvR.tree_0.Pantherophis_obsoletus.beta = 0
+MfNYECvR.tree_0.Pantherophis_guttatus.beta = 0.00389223
+MfNYECvR.tree_0.Pantherophis_guttatus.alpha = 9.08018e-19
+MfNYECvR.tree_0.Node9.beta = 0
+MfNYECvR.tree_0.Node9.alpha = 0
+MfNYECvR.tree_0.Pituophis_catenifer.alpha = 0.0436896
+MfNYECvR.tree_0.Pituophis_catenifer.beta = 0
+MfNYECvR.tree_0.Node8.alpha = 0.0657651
+MfNYECvR.tree_0.Node8.beta = 0.0321305
+MfNYECvR.tree_0.Node6.alpha = 0.0353813
+MfNYECvR.tree_0.Node6.omega1 = 0.40927
+MfNYECvR.tree_0.Node6.omega2 = 103.855
+MfNYECvR.tree_0.Node6.bsrel_mixture_aux_0 = 0.994785
+MfNYECvR.tree_0.Thamnophis_elegans.alpha = 0.185372
+MfNYECvR.tree_0.Thamnophis_elegans.beta = 0.0482377
+MfNYECvR.tree_0.Node5.beta = 0.0106108
+MfNYECvR.tree_0.Node5.alpha = 0.0455079
+MfNYECvR.tree_0.Node3.alpha = 0.0577301
+MfNYECvR.tree_0.Node3.beta = 0.0227592
+MfNYECvR.tree_0.Vipera_berus.alpha = 0.0713476
+MfNYECvR.tree_0.Vipera_berus.beta = 0.0542034
+MfNYECvR.tree_0.Crotalus_tigris.alpha = 0.0546124
+MfNYECvR.tree_0.Crotalus_tigris.beta = 0.0234333
+MfNYECvR.tree_0.Bothrops_jararaca.beta = 0.0184997
+MfNYECvR.tree_0.Bothrops_jararaca.alpha = 0.0398025
+MfNYECvR.tree_0.Node17.beta = 0.00888634
+MfNYECvR.tree_0.Node17.alpha = 0.0203776
+MfNYECvR.tree_0.Protobothrops_mucrosquamatus.alpha = 0.0227296
+MfNYECvR.tree_0.Protobothrops_mucrosquamatus.beta = 0.000241425
+MfNYECvR.tree_0.Node16.alpha = 0.0102464
+MfNYECvR.tree_0.Node16.beta = 0.0138421
+MfNYECvR.tree_0.Node14.beta = 0.0342369
+MfNYECvR.tree_0.Node14.alpha = 0.097851
+MfNYECvR.tree_0.Node2.beta = 0.0661997
+MfNYECvR.tree_0.Node2.alpha = 0.230107
+MfNYECvR.tree_0.Varanus_komodoensis.omega2 = 1.48172
+MfNYECvR.tree_0.Varanus_komodoensis.alpha = 0.863658
+MfNYECvR.tree_0.Varanus_komodoensis.omega1 = 0.0362651
+MfNYECvR.tree_0.Varanus_komodoensis.bsrel_mixture_aux_0 = 0.713537
+MfNYECvR.tree_0.Anolis_carolinensis.omega1 = 0.237149
+MfNYECvR.tree_0.Anolis_carolinensis.alpha = 0.631978
+MfNYECvR.tree_0.Anolis_carolinensis.bsrel_mixture_aux_0 = 0.969775
+MfNYECvR.tree_0.Anolis_carolinensis.omega2 = 41.7938
+MfNYECvR.tree_0.Phrynosoma_platyrhinos.alpha = 0.160298
+MfNYECvR.tree_0.Phrynosoma_platyrhinos.beta = 0.0337416
+MfNYECvR.tree_0.Sceloporus_undulatus.alpha = 0.223172
+MfNYECvR.tree_0.Sceloporus_undulatus.beta = 0.0653268
+MfNYECvR.tree_0.Node26.beta = 0.0781676
+MfNYECvR.tree_0.Node26.alpha = 0.0811224
+MfNYECvR.tree_0.Node24.bsrel_mixture_aux_0 = 0.838437
+MfNYECvR.tree_0.Node24.alpha = 0.393072
+MfNYECvR.tree_0.Node24.omega1 = 0
+MfNYECvR.tree_0.Node24.omega2 = 2.36699
+MfNYECvR.tree_0.Pogona_vitticeps.alpha = 0.72011
+MfNYECvR.tree_0.Pogona_vitticeps.omega1 = 0.0236546
+MfNYECvR.tree_0.Pogona_vitticeps.omega2 = 2.04532
+MfNYECvR.tree_0.Pogona_vitticeps.bsrel_mixture_aux_0 = 0.725886
+MfNYECvR.tree_0.Node23.alpha = 0.0429
+MfNYECvR.tree_0.Node23.beta = 0.0697399
+MfNYECvR.tree_0.Node21.omega2 = 9.81966
+MfNYECvR.tree_0.Node21.omega1 = 0.202867
+MfNYECvR.tree_0.Node21.alpha = 0.890992
+MfNYECvR.tree_0.Node21.bsrel_mixture_aux_0 = 0.951163
+Optimization finished in 73 loop passes.
+11839 likelihood evaluation calls and 62377 matrix exponentiations calls were made
+
+Auto-benchmarked an optimal number (2) of threads.
+Set GUI update interval to every 25-th LF evaluation.
+Optimization settings:
+	OPTIMIZATION_METHOD = 4
+	OPTIMIZATION_PRECISION = 0.001
+	MAXIMUM_ITERATIONS_PER_VARIABLE = 5000
+
+Initial parameter values
+
+MfNYECvR.model_MGREV.theta_GT = 0.250596
+MfNYECvR.model_MGREV.theta_CT = 0.858546
+MfNYECvR.model_MGREV.theta_CG = 0.307779
+MfNYECvR.model_MGREV.theta_AT = 0.192636
+MfNYECvR.model_MGREV.theta_AC = 0.332982
+MfNYECvR.tree_0.Python_molurus.alpha = 0.234394
+MfNYECvR.tree_0.Python_molurus.beta = 0.0896823
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.bsrel_mixture_aux_0 = 0.812039
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.alpha = 0.339715
+MfNYECvR.tree_0.Hydrophis_cyanocinctus.omega1 = 0.000144075
+MfNYECvR.tree_0.Ptyas_mucosa.beta = 0.0155971
+MfNYECvR.tree_0.Ptyas_mucosa.alpha = 0.0877363
+MfNYECvR.tree_0.Pantherophis_obsoletus.alpha = 0.0109524
+MfNYECvR.tree_0.Pantherophis_obsoletus.beta = 0
+MfNYECvR.tree_0.Pantherophis_guttatus.beta = 0.00409311
+MfNYECvR.tree_0.Pantherophis_guttatus.alpha = 3.63207e-20
+MfNYECvR.tree_0.Node9.beta = 0
+MfNYECvR.tree_0.Node9.alpha = 0
+MfNYECvR.tree_0.Pituophis_catenifer.alpha = 0.0449399
+MfNYECvR.tree_0.Pituophis_catenifer.beta = 0
+MfNYECvR.tree_0.Node8.alpha = 0.0676675
+MfNYECvR.tree_0.Node8.beta = 0.0340471
+MfNYECvR.tree_0.Node6.alpha = 0.0360803
+MfNYECvR.tree_0.Node6.omega1 = 0.438965
+MfNYECvR.tree_0.Node6.omega2 = 132.529
+MfNYECvR.tree_0.Node6.bsrel_mixture_aux_0 = 0.995581
+MfNYECvR.tree_0.Thamnophis_elegans.alpha = 0.191184
+MfNYECvR.tree_0.Thamnophis_elegans.beta = 0.0500988
+MfNYECvR.tree_0.Node5.beta = 0.0110365
+MfNYECvR.tree_0.Node5.alpha = 0.0471077
+MfNYECvR.tree_0.Node3.alpha = 0.0598651
+MfNYECvR.tree_0.Node3.beta = 0.0223555
+MfNYECvR.tree_0.Vipera_berus.alpha = 0.0734952
+MfNYECvR.tree_0.Vipera_berus.beta = 0.0572281
+MfNYECvR.tree_0.Crotalus_tigris.alpha = 0.05616
+MfNYECvR.tree_0.Crotalus_tigris.beta = 0.024648
+MfNYECvR.tree_0.Bothrops_jararaca.beta = 0.0194687
+MfNYECvR.tree_0.Bothrops_jararaca.alpha = 0.0409903
+MfNYECvR.tree_0.Node17.beta = 0.00966013
+MfNYECvR.tree_0.Node17.alpha = 0.0209623
+MfNYECvR.tree_0.Protobothrops_mucrosquamatus.alpha = 0.0233326
+MfNYECvR.tree_0.Protobothrops_mucrosquamatus.beta = 0
+MfNYECvR.tree_0.Node16.alpha = 0.0104497
+MfNYECvR.tree_0.Node16.beta = 0.0139693
+MfNYECvR.tree_0.Node14.beta = 0.0362353
+MfNYECvR.tree_0.Node14.alpha = 0.100684
+MfNYECvR.tree_0.Node2.beta = 0.0737847
+MfNYECvR.tree_0.Node2.alpha = 0.234935
+MfNYECvR.tree_0.Varanus_komodoensis.omega2 = 1.61932
+MfNYECvR.tree_0.Varanus_komodoensis.alpha = 0.910693
+MfNYECvR.tree_0.Varanus_komodoensis.omega1 = 0.0299669
+MfNYECvR.tree_0.Varanus_komodoensis.bsrel_mixture_aux_0 = 0.718533
+MfNYECvR.tree_0.Anolis_carolinensis.omega1 = 0.244263
+MfNYECvR.tree_0.Anolis_carolinensis.alpha = 0.647579
+MfNYECvR.tree_0.Anolis_carolinensis.bsrel_mixture_aux_0 = 0.969025
+MfNYECvR.tree_0.Anolis_carolinensis.omega2 = 44.1769
+MfNYECvR.tree_0.Phrynosoma_platyrhinos.alpha = 0.16655
+MfNYECvR.tree_0.Phrynosoma_platyrhinos.beta = 0.0355001
+MfNYECvR.tree_0.Sceloporus_undulatus.alpha = 0.229082
+MfNYECvR.tree_0.Sceloporus_undulatus.beta = 0.0687788
+MfNYECvR.tree_0.Node26.beta = 0.0820054
+MfNYECvR.tree_0.Node26.alpha = 0.0878235
+MfNYECvR.tree_0.Node24.bsrel_mixture_aux_0 = 0.843421
+MfNYECvR.tree_0.Node24.alpha = 0.407149
+MfNYECvR.tree_0.Node24.omega1 = 0
+MfNYECvR.tree_0.Node24.omega2 = 2.5846
+MfNYECvR.tree_0.Pogona_vitticeps.alpha = 0.751445
+MfNYECvR.tree_0.Pogona_vitticeps.omega1 = 0.0733662
+MfNYECvR.tree_0.Pogona_vitticeps.omega2 = 2.55071
+MfNYECvR.tree_0.Pogona_vitticeps.bsrel_mixture_aux_0 = 0.785644
+MfNYECvR.tree_0.Node23.alpha = 0.0263036
+MfNYECvR.tree_0.Node23.beta = 0.0677326
+MfNYECvR.tree_0.Node21.omega2 = 11.7127
+MfNYECvR.tree_0.Node21.omega1 = 0.20901
+MfNYECvR.tree_0.Node21.alpha = 0.933739
+MfNYECvR.tree_0.Node21.bsrel_mixture_aux_0 = 0.950797
+Optimization finished in 23 loop passes.
+3983 likelihood evaluation calls and 22393 matrix exponentiations calls were made
+
+Variable 'USE_JSON_FOR_MATRIX' was not initialized prior to being used
