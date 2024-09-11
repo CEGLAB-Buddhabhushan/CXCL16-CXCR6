@@ -1,0 +1,192 @@
+RID: D7ZVEMHD013	
+Job Title:Anser_cygnoides				
+Program: BLASTN 
+Database: genomic/8845/GCF_040182565.1 Taihu_goose_T2T_genome RefSeq assembly [GCF_040182565.1]
+Query #1: Anser_cygnoides Query ID: lcl|Query_6792079 Length: 666
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+Anser cygnoides isolate HZ-2024a breed goose chromosome 31,...    Anser cygnoides Swan goose      8845       728    1135  94%   0.0   100.00 3694930    NC_089903.1      
+Anser cygnoides isolate HZ-2024a breed goose chromosome 3,...     Anser cygnoides Swan goose      8845       46.4   46.4  7%    0.008 79.63  123281152  NC_089875.1      
+Anser cygnoides isolate HZ-2024a breed goose chromosome 15,...    Anser cygnoides Swan goose      8845       45.5   45.5  12%   0.030 76.25  18850838   NC_089887.1      
+Anser cygnoides isolate HZ-2024a breed goose chromosome 25,...    Anser cygnoides Swan goose      8845       45.5   45.5  8%    0.030 81.67  7126357    NC_089897.1      
+Anser cygnoides isolate HZ-2024a breed goose chromosome 2,...     Anser cygnoides Swan goose      8845       44.6   44.6  9%    0.030 79.10  163851223  NC_089874.1      
+Anser cygnoides isolate HZ-2024a breed goose chromosome 4,...     Anser cygnoides Swan goose      8845       44.6   44.6  6%    0.030 81.82  81007908   NC_089876.1      
+Anser cygnoides isolate HZ-2024a breed goose chromosome 18,...    Anser cygnoides Swan goose      8845       44.6   44.6  6%    0.030 85.37  13321443   NC_089890.1      
+
+
+Alignments:
+
+>Anser cygnoides isolate HZ-2024a breed goose chromosome 31, Taihu_goose_T2T_genome, whole genome shotgun sequence
+Sequence ID: NC_089903.1 Length: 3694930
+Range 1: 55590 to 55992
+
+Score:728 bits(806), Expect:0.0, 
+Identities:403/403(100%),  Gaps:0/403(0%), Strand: Plus/Minus
+
+Query  261    AGAGGCCCGGAGGACCGGACCCGCGgccagccccaaaagtggacccccggccagccccac  320
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  55992  AGAGGCCCGGAGGACCGGACCCGCGGCCAGCCCCAAAAGTGGACCCCCGGCCAGCCCCAC  55933
+
+Query  321    aaccaccgcgggacccccggccagccccccaaccaccgcgggacccccggccggccccac  380
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  55932  AACCACCGCGGGACCCCCGGCCAGCCCCCCAACCACCGCGGGACCCCCGGCCGGCCCCAC  55873
+
+Query  381    aaccggccccccaaccagccccacagccaccgcgggacccccaggcagccccccagtgcc  440
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  55872  AACCGGCCCCCCAACCAGCCCCACAGCCACCGCGGGACCCCCAGGCAGCCCCCCAGTGCC  55813
+
+Query  441    ccacacctcccTGGGCCGCTCCCAGTGGGAAGCCGTGGGGCAGGCCCCCAAGTTCCgccc  500
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  55812  CCACACCTCCCTGGGCCGCTCCCAGTGGGAAGCCGTGGGGCAGGCCCCCAAGTTCCGCCC  55753
+
+Query  501    cgtggggccgggccccctgtccgtggggctggctgtggggctggcgctgctgggggccgg  560
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  55752  CGTGGGGCCGGGCCCCCTGTCCGTGGGGCTGGCTGTGGGGCTGGCGCTGCTGGGGGCCGG  55693
+
+Query  561    cctgggcctggcgggggtcctggggtgccggggcagggggccgagcccccggccccgccg  620
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  55692  CCTGGGCCTGGCGGGGGTCCTGGGGTGCCGGGGCAGGGGGCCGAGCCCCCGGCCCCGCCG  55633
+
+Query  621    cccccggctgccccccAGACGCGGGGCCGTGCCACGGCCGCTG  663
+              |||||||||||||||||||||||||||||||||||||||||||
+Sbjct  55632  CCCCCGGCTGCCCCCCAGACGCGGGGCCGTGCCACGGCCGCTG  55590
+
+
+
+
+Range 2: 57590 to 57741
+
+Score:247 bits(273), Expect:5e-63, 
+Identities:151/158(96%),  Gaps:6/158(3%), Strand: Plus/Minus
+
+Query  36     agccttgGCCAACGTCGGGGGGNNNGCGGGCGCCTGCCGCTGCTCCCAGCGCTGGCCCCA  95
+              ||||||||||||||||||||||   |||||||||||||||||||||||||||||||||||
+Sbjct  57741  AGCCTTGGCCAACGTCGGGGGGG--GCGGGCGCCTGCCGCTGCTCCCAGCGCTGGCCCCA  57684
+
+Query  96     GGCGGccccccccgggctgcagcccctgcagctggcgCCCAGAGTGCGGCGCTGGGGGCC  155
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  57683  GGCGGCCCCCCCCGGGCTGCAGCCCCTGCAGCTGGCGCCCAGAGTGCGGCGCTGGGGGCC  57624
+
+Query  156    CTGCCCCGGGCACGTGTGGAGGTTCGAGCTGCCCCCCA  193
+              |||||||||||||||||||||||  |||  ||||||||
+Sbjct  57623  CTGCCCCGGGCACGTGTGGAGGT--GAG--GCCCCCCA  57590
+
+
+
+
+Range 3: 56085 to 56172
+
+Score:159 bits(176), Expect:5e-37, 
+Identities:88/88(100%),  Gaps:0/88(0%), Strand: Plus/Minus
+
+Query  175    AGGTTCGAGCTGCCCCCCAACACGCGGCTCTGCGGGCTCCAGGACGCGCCGTGGGTCAGG  234
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  56172  AGGTTCGAGCTGCCCCCCAACACGCGGCTCTGCGGGCTCCAGGACGCGCCGTGGGTCAGG  56113
+
+Query  235    AACCTGCTGCGGCTGCTGGAGCAACGAG  262
+              ||||||||||||||||||||||||||||
+Sbjct  56112  AACCTGCTGCGGCTGCTGGAGCAACGAG  56085
+
+
+
+
+>Anser cygnoides isolate HZ-2024a breed goose chromosome 3, Taihu_goose_T2T_genome, whole genome shotgun sequence
+Sequence ID: NC_089875.1 Length: 123281152
+Range 1: 14408770 to 14408823
+
+Score:46.4 bits(50), Expect:0.008, 
+Identities:43/54(80%),  Gaps:2/54(3%), Strand: Plus/Plus
+
+Query  68        CCTGCCGCTGCTCCCAG--CGCTGGCCCCAGGCGGccccccccgggctgcagcc  119
+                 ||||||||||||||| |  ||| | ||||  ||||  |||||||||| || |||
+Sbjct  14408770  CCTGCCGCTGCTCCCGGCCCGCGGACCCCGAGCGGGTCCCCCCGGGCCGCCGCC  14408823
+
+
+
+
+>Anser cygnoides isolate HZ-2024a breed goose chromosome 15, Taihu_goose_T2T_genome, whole genome shotgun sequence
+Sequence ID: NC_089887.1 Length: 18850838
+Range 1: 781257 to 781327
+
+Score:45.5 bits(49), Expect:0.030, 
+Identities:61/80(76%),  Gaps:9/80(11%), Strand: Plus/Minus
+
+Query  582     ggggtgccggggcagggggccgagcccccggccccgccgcccccggctgccccccAGACG  641
+               |||| || ||||| |||  ||| | | ||  || ||| ||||||||  ||| |||   ||
+Sbjct  781327  GGGGGGCTGGGGCTGGG--CCGGGGCTCC--CCGCGCTGCCCCCGGG-GCCGCCC---CG  781276
+
+Query  642     CGGGGCCGTGCCACGGCCGC  661
+               |||||||||||| |||||||
+Sbjct  781275  CGGGGCCGTGCC-CGGCCGC  781257
+
+
+
+
+>Anser cygnoides isolate HZ-2024a breed goose chromosome 25, Taihu_goose_T2T_genome, whole genome shotgun sequence
+Sequence ID: NC_089897.1 Length: 7126357
+Range 1: 2235854 to 2235912
+
+Score:45.5 bits(49), Expect:0.030, 
+Identities:49/60(82%),  Gaps:4/60(6%), Strand: Plus/Minus
+
+Query  121      ctgcag-ctggcgC-CCAGAGTGCGGCGCTGGGGGCCCTGCCCCG-GGCACGTGTGGAGG  177
+                |||||| ||| ||| |||| ||| |||||||||||| |||| ||| || || | ||||||
+Sbjct  2235912  CTGCAGGCTGTCGCACCAGTGTG-GGCGCTGGGGGCACTGCACCGTGGGACCTTTGGAGG  2235854
+
+
+
+
+>Anser cygnoides isolate HZ-2024a breed goose chromosome 2, Taihu_goose_T2T_genome, whole genome shotgun sequence
+Sequence ID: NC_089874.1 Length: 163851223
+Range 1: 123643870 to 123643935
+
+Score:44.6 bits(48), Expect:0.030, 
+Identities:53/67(79%),  Gaps:4/67(5%), Strand: Plus/Minus
+
+Query  590        ggggcagggg-gccgagcccccggc-cccgcc-gcccccggctgccccccAGACGCGGGG  646
+                  ||||| |||| |||| ||  | ||| |||||| |||| | ||| || ||| |||||||||
+Sbjct  123643935  GGGGCGGGGGAGCCGGGCGGCTGGCACCCGCCCGCCCGCCGCTTCCTCCC-GACGCGGGG  123643877
+
+Query  647        CCGTGCC  653
+                  ||| |||
+Sbjct  123643876  CCGGGCC  123643870
+
+
+
+
+>Anser cygnoides isolate HZ-2024a breed goose chromosome 4, Taihu_goose_T2T_genome, whole genome shotgun sequence
+Sequence ID: NC_089876.1 Length: 81007908
+Range 1: 40798440 to 40798483
+
+Score:44.6 bits(48), Expect:0.030, 
+Identities:36/44(82%),  Gaps:0/44(0%), Strand: Plus/Minus
+
+Query  610       cggccccgccgcccccggctgccccccAGACGCGGGGCCGTGCC  653
+                 ||| ||||||||||||  |  |||| || ||| |||||||||||
+Sbjct  40798483  CGGTCCCGCCGCCCCCCCCCTCCCCGCACACGTGGGGCCGTGCC  40798440
+
+
+
+
+>Anser cygnoides isolate HZ-2024a breed goose chromosome 18, Taihu_goose_T2T_genome, whole genome shotgun sequence
+Sequence ID: NC_089890.1 Length: 13321443
+Range 1: 7644229 to 7644268
+
+Score:44.6 bits(48), Expect:0.030, 
+Identities:35/41(85%),  Gaps:1/41(2%), Strand: Plus/Minus
+
+Query  86       GCTGGCCCCAGGCGGccccccccgggctgcagcccctgcag  126
+                |||||||||||| | ||||  ||||||| ||||||| ||||
+Sbjct  7644268  GCTGGCCCCAGGGGTCCCCTGCCGGGCTCCAGCCCC-GCAG  7644229
+
+
+
+
+
+
+
+		
+
+
