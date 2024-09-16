@@ -1,0 +1,106 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:34
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Struthio_camelus.fa
+#    -outfile Phalacrocorax_carbo-Struthio_camelus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Struthio_camelus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Struthio_camelus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 886
+# Identity:     532/886 (60.0%)
+# Similarity:   532/886 (60.0%)
+# Gaps:         221/886 (24.9%)
+# Score: 1604.5
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGGGGCTGGGGCTGCTG------------CTGCTGCTGCTGCCCTGGGG     38
+                     |||||||.||||||||||            |||||||.|||||||||||.
+Struthio_came      1 ATGGGGCCGGGGCTGCTGCCGCTGCTCCTCCTGCTGCCGCTGCCCTGGGC     50
+
+Phalacrocorax     39 AGCGCTGGGGAACATGGGGGGCTCGGCAGGGGCCTGTGGCTGCACCCGCA     88
+                     |||||||||.|||.||||||||||.|||||.||.||...||||..||.|.
+Struthio_came     51 AGCGCTGGGCAACGTGGGGGGCTCAGCAGGTGCGTGCTACTGCCACCACC    100
+
+Phalacrocorax     89 GCTGGATCAGGCAGCCCCCCC----CCGGTGTGCACCTGCCCCACAT---    131
+                     |||||..|..||.||||||||    |    ||.|.||||||..|..|   
+Struthio_came    101 GCTGGCCCCTGCGGCCCCCCCAAAAC----GTCCGCCTGCCTGAGCTGGG    146
+
+Phalacrocorax    132 GGCCCGCCACGTGCTGCGAGCAGAGCCCTGCCCCAACCACATCCTCAGGT    181
+                     ||||||   .|||...||.|..||||.|||||||.|||||.|.|||||||
+Struthio_came    147 GGCCCG---GGTGAGCCGGGTCGAGCTCTGCCCCCACCACGTGCTCAGGT    193
+
+Phalacrocorax    182 TCATGCTGCCCAAGTGGC------GGCTCTGCGGGCTCCAGAACTCGCCG    225
+                     ||.|||||||||||.|||      ||.|||||||.||||||.||||||||
+Struthio_came    194 TCCTGCTGCCCAAGCGGCAGCGGTGGATCTGCGGCCTCCAGGACTCGCCG    243
+
+Phalacrocorax    226 TGGGTTGTGGAGCTGCTGCACCTCTGGGAGCGCCAAGTGGCTCAGAGAGC    275
+                     |||||.|||||||||||.||..||||||||.||..||.|||.||||||.|
+Struthio_came    244 TGGGTCGTGGAGCTGCTCCAGATCTGGGAGAGCAGAGAGGCCCAGAGACC    293
+
+Phalacrocorax    276 CCTGG--CCAGACTCCCGGCTACGGACAGACCCATGGATGGACCCTCAGC    323
+                     ||.||  |||..|.||.|        |||.||||            ||||
+Struthio_came    294 CCCGGATCCACCCCCCAG--------CAGCCCCA------------CAGC    323
+
+Phalacrocorax    324 TACAGACAG-ACCCACAGACAGACCACCGGCTGAAGACGGACCCCTGGCC    372
+                     ..||| ||| ||||.|.|.|||.||..||||  |.|.||.|..|    ||
+Struthio_came    324 GCCAG-CAGCACCCCCGGGCAGCCCCACGGC--AGGCCGCAGTC----CC    366
+
+Phalacrocorax    373 ACAGATGGACCCCCAGCCCGATTCCCTGCCAGTCACCTGGCCCCACTGAG    422
+                     ||.|..||||||||.|           ||.|         ||||||.|.|
+Struthio_came    367 ACGGCAGGACCCCCGG-----------GCAA---------CCCCACGGCG    396
+
+Phalacrocorax    423 TCCCGCAGCCCCAGAGGGACCCCCACCTGGCCCCACAGAGAGATGCAGCC    472
+                     ..||..|||||||.||..|||||||.||.|    |||            .
+Struthio_came    397 GGCCAAAGCCCCACAGACACCCCCAACTTG----ACA------------A    430
+
+Phalacrocorax    473 CCAGCCCCCC-----AGCCTCGAGGCTGGGTGAGGGGCACGGGGATGGGG    517
+                     ||.|||||||     ||||.|||..|     ||||||  |.|.|.||||.
+Struthio_came    431 CCGGCCCCCCGGCCAAGCCCCGAAAC-----GAGGGG--CTGAGCTGGGA    473
+
+Phalacrocorax    518 GGCAGCTCCCGGGGGGTCCCCAGGCCTTGCTCCCCGCCCCCAC----AGG    563
+                     |||    ||.|.||      |.|||.||||.|||||    |||    |||
+Struthio_came    474 GGC----CCAGTGG------CTGGCGTTGCCCCCCG----CACTGGAAGG    509
+
+Phalacrocorax    564 CTGGACCCA-CTGGGAGGCCATGGGGCAGGACCCCCA------------G    600
+                     |||| |.|| |.|..|.||||||||||||||||||||            |
+Struthio_came    510 CTGG-CACAGCCGCCAAGCCATGGGGCAGGACCCCCAAGTGCCGCCGCCG    558
+
+Phalacrocorax    601 ATGCCACCCCCTTCCGTGGGGCAGGCTCC--CCAC--TCCGTGGGGCTGG    646
+                     .||||||..||..||.||||||.|| .||  ||.|  .|||||||||   
+Struthio_came    559 CTGCCACTGCCCACCATGGGGCCGG-ACCGGCCGCCGGCCGTGGGGC---    604
+
+Phalacrocorax    647 CCATGGCCGTGGGGCTGGTAGCCAGCAT-------GGGCTTGGTCCTGGC    689
+                        |||||||||||||||  .||.|| |       |||||.||| ||.||
+Struthio_came    605 ---TGGCCGTGGGGCTGG--CCCTGC-TGGGCGCCGGGCTGGGT-CTCGC    647
+
+Phalacrocorax    690 C----TTCTGGTGGGGCTGCCGGGGGGCAGGGAGAGGCAGGGGGGCAGGG    735
+                     |    |..|||||    |||||      ||||.|..||.|.|||||||| 
+Struthio_came    648 CAGCGTGTTGGTG----TGCCG------AGGGCGCCGCCGTGGGGCAGG-    686
+
+Phalacrocorax    736 GTCCTGCCCCCCACCCAAGGCCCTGCCGACTCTCTCCTGCCCCACAGACG    785
+                          .||||||             |||      .|||||||||||...|
+Struthio_came    687 -----ACCCCCC-------------CCG------GCCTGCCCCACACGTG    712
+
+Phalacrocorax    786 TGGG------GTACAGA-CCCTGTGA----------    804
+                     ||||      |||| || |||||.||          
+Struthio_came    713 TGGGGCCCCAGTAC-GACCCCTGCGAGGTGCTCTGA    747
+
+
+#---------------------------------------
+#---------------------------------------

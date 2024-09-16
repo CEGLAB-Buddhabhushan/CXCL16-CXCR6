@@ -1,0 +1,106 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:33
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Buteo_buteo.fa
+#    -outfile Phalacrocorax_carbo-Buteo_buteo.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Buteo_buteo.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Buteo_buteo
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 870
+# Identity:     616/870 (70.8%)
+# Similarity:   616/870 (70.8%)
+# Gaps:         141/870 (16.2%)
+# Score: 2406.5
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGGGGCTGGG------------GCTGCTGCTGCTGCTGCTGCCCTGGGG     38
+                     |||||||.|||            |||||||||||||||||||||||||||
+Buteo_buteo        1 ATGGGGCCGGGGCGGCGGCTGCTGCTGCTGCTGCTGCTGCTGCCCTGGGG     50
+
+Phalacrocorax     39 AGCGCTGGGGAACATGGGGGGCTCGGCAGGGGCCTGTGGCTGCACCCGCA     88
+                     |||||||||.|||.||||||||||||||||||||||...||||||||.|.
+Buteo_buteo       51 AGCGCTGGGAAACGTGGGGGGCTCGGCAGGGGCCTGCACCTGCACCCACC    100
+
+Phalacrocorax     89 GCTGG-ATCAGGCAGCCCCCCCCCGGTGTGCACCTGCCCCACATGGCCCG    137
+                     ||||| .||| |.|||||||||.||..|||||||||.|||.|.||||||.
+Buteo_buteo      101 GCTGGCCTCA-GAAGCCCCCCCGCGCCGTGCACCTGACCCCCCTGGCCCC    149
+
+Phalacrocorax    138 CCACGTGCTGCGAGCAGAGCCCTGCCCCAACCACATCCTCAGGTTCATGC    187
+                     |.||||||||||.|..||.|.||||||||||||..|.|.|||||||.|||
+Buteo_buteo      150 CTACGTGCTGCGGGTGGATCTCTGCCCCAACCATGTGCGCAGGTTCGTGC    199
+
+Phalacrocorax    188 TGCCCAAGTGGCGGCTCTGCGGGCTCCAGAACTCGCCGTGGGTTGTGGAG    237
+                     |||||.|...||.|.||||.|||||||||.|||||||.||||||||||||
+Buteo_buteo      200 TGCCCCACAAGCAGATCTGTGGGCTCCAGGACTCGCCATGGGTTGTGGAG    249
+
+Phalacrocorax    238 CTGCTGCACCTCTGGGAGCGCCAAGTGGCTCAGAGAGCCCTGGCCAGACT    287
+                     ||||||||.||||||||.||||||||||||||||||.|||||||..|||.
+Buteo_buteo      250 CTGCTGCAGCTCTGGGAACGCCAAGTGGCTCAGAGACCCCTGGCTGGACC    299
+
+Phalacrocorax    288 CCCGGCTACGGACAGACCCATGGATGGACCCTCAGCTACAGACAGACCCA    337
+                     ||.||||||.|||||||||...|||||||.|.|.||||||||||||||||
+Buteo_buteo      300 CCTGGCTACAGACAGACCCCCAGATGGACACCCGGCTACAGACAGACCCA    349
+
+Phalacrocorax    338 CAGA------------CAGACCACCGGCTGAAG-ACGGACCCCTGGCCAC    374
+                     |.||            ||||||.||.||| |.| |||||||||      |
+Buteo_buteo      350 CGGATGGACCCCTGGCCAGACCCCCAGCT-ACGCACGGACCCC------C    392
+
+Phalacrocorax    375 AGATGGACCCCCAGCCCGATTCCCTGCCAGTCACCTGGCCCCACTGAGTC    424
+                     |||||||||            |||||||||.|.|||||||||||||||.|
+Buteo_buteo      393 AGATGGACC------------CCCTGCCAGCCCCCTGGCCCCACTGAGCC    430
+
+Phalacrocorax    425 CCGCAGCCCCAGAGGGACCCCCACCTGGCCCCACAGAGAGATGCAGCCC-    473
+                     ||.|||.|||.||||||||||||.|..|||||||||.||..||||||.| 
+Buteo_buteo      431 CCCCAGGCCCGGAGGGACCCCCAGCCAGCCCCACAGTGAAGTGCAGCACC    480
+
+Phalacrocorax    474 --------CAGCCCCCCAGCCTC--------------GAGGCTGGGTGAG    501
+                             |||||||||  ||||              |||.|||||.|||
+Buteo_buteo      481 CCCTCGAGCAGCCCCCC--CCTCCACCCCCCTGCCGTGAGACTGGGCGAG    528
+
+Phalacrocorax    502 GGGCACGGGGA------TGGGGGGCAGCTCCCGGGGGGTCCCCAGGCCTT    545
+                     |.|||||..||      ||||||||||||||.|||||..|||||||||||
+Buteo_buteo      529 GAGCACGCAGATGAGTCTGGGGGGCAGCTCCTGGGGGTCCCCCAGGCCTT    578
+
+Phalacrocorax    546 GCTCCCCGCCCCCACAGGCTGGACCCACTGGGAGGCCATGGGGCAGGACC    595
+                     ||.||||.|||||.|||||||||.||||..|||.||..||||||||||||
+Buteo_buteo      579 GCCCCCCACCCCCGCAGGCTGGATCCACCAGGAAGCTGTGGGGCAGGACC    628
+
+Phalacrocorax    596 CCCAGATGCCACCCCCTTCCGTGGGGCAGGCTCCCCACTCCGTGGGGCTG    645
+                     |||||||||||.|.|||.|.|||||||..||.||||.|||.|||||||||
+Buteo_buteo      629 CCCAGATGCCAACGCCTGCTGTGGGGCCAGCCCCCCTCTCTGTGGGGCTG    678
+
+Phalacrocorax    646 GCCATGGCCGTG---GGGCTGGTAGCCAGCATGGGCTTG------GTCCT    686
+                     |||||||..|||   |.|||||.||||.||.|||||.||      |||||
+Buteo_buteo      679 GCCATGGGGGTGATCGTGCTGGGAGCCGGCCTGGGCCTGGTGGGTGTCCT    728
+
+Phalacrocorax    687 GGCCT-TCTGGTGGGGCTGCCGGGGGGCAGGGAGAGGCAGGGGGGCAGGG    735
+                     |||.| .|.||.|||||||||.|||.||||||||||||.||||..|||  
+Buteo_buteo      729 GGCATGCCGGGGGGGGCTGCCAGGGAGCAGGGAGAGGCGGGGGCCCAG--    776
+
+Phalacrocorax    736 GTCCTGCCCCCCACCCAAGGCCCTGCC-GACTCTCTCCTGCCCCACAGAC    784
+                          ||.||.|||      |.||||| ||                    
+Buteo_buteo      777 -----GCTCCTCAC------CTCTGCCTGA--------------------    795
+
+Phalacrocorax    785 GTGGGGTACAGACCCTGTGA    804
+                                         
+Buteo_buteo      795 --------------------    795
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:33
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Anolis_carolinensis.fa
+#    -outfile Phalacrocorax_carbo-Anolis_carolinensis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Anolis_carolinensis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Anolis_carolinensis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 996
+# Identity:     474/996 (47.6%)
+# Similarity:   474/996 (47.6%)
+# Gaps:         390/996 (39.2%)
+# Score: 907.0
+# 
+#
+#=======================================
+
+Phalacrocorax      1 --------------------ATGGGG----------CTGGGG------CT     14
+                                         ..||||          ||||.|      ||
+Anolis_caroli      1 ATGCGACCCTCCCCTTCCCCGCGGGGACCCTCCCCCCTGGTGGTCTTCCT     50
+
+Phalacrocorax     15 GCTGCTGCTGCTGCTGCCCTGGGG---------AGCGCTGGGGAACATGG     55
+                     .||.||.||..|.||.|.|.||||         ||.|.|.||.|||..||
+Anolis_caroli     51 CCTCCTCCTCTTCCTCCTCCGGGGGCTCCGGCCAGTGTTTGGAAACGAGG    100
+
+Phalacrocorax     56 GGGGCTCGGCAGGGGCCTGTGGCTGCACCCGCAGCTGGATCAGGCAGCCC    105
+                     |||||.||||.|||...||.|..||||     ||       |||..||||
+Anolis_caroli    101 GGGGCACGGCGGGGAGTTGCGCTTGCA-----AG-------AGGTGGCCC    138
+
+Phalacrocorax    106 CCCCCCGGTGTGC--ACCTGCCCC-----ACATGGCCCG------CCACG    142
+                     |||      ||.|  ||   ||||     || |||..||      .||| 
+Anolis_caroli    139 CCC------GTTCAAAC---CCCCGTAAAAC-TGGATCGATTGATACAC-    177
+
+Phalacrocorax    143 TGCTGCGAGCAGAGCCCTG-----------------CC--CCAACCACAT    173
+                          ||||...||.||||                 ||  |||.|.|.| 
+Anolis_caroli    178 -----CGAGTGAAGTCCTGGGACGAATGTCAGGATTCCAGCCAGCGATA-    221
+
+Phalacrocorax    174 CCTCAGGTTCATGCTGCCCAAGTGGCGGCTCTGCGGGCTCCAGAACTCGC    223
+                     |.||.|||||||..|.|..||.|...|.||.|||   .|||.||      
+Anolis_caroli    222 CGTCCGGTTCATTTTCCAAAACTTCAGCCTTTGC---ATCCCGA------    262
+
+Phalacrocorax    224 CGTGGGTTGTGGAGCTGCTGCACC---------TC------TGGGAGCGC    258
+                                   |||    |||         ||      |||.||   
+Anolis_caroli    263 --------------CTG----ACCAACCAGAGGTCAAAAGATGGAAG---    291
+
+Phalacrocorax    259 CAAGTG---GCTCAGAGAGC-----CCTGGCCAGACTCCCGGCTACGG--    298
+                     .|||||   .|.||.|.|||     |..||.|.||| .||.||.|.||  
+Anolis_caroli    292 GAAGTGATATCACAAAAAGCGAATGCAAGGGCGGAC-GCCAGCAAAGGGG    340
+
+Phalacrocorax    299 ---ACAGACCC---ATGGATGGACCCTC--AGCTACAGACAGAC--CC--    336
+                        |..|||||   |.||  ||||||.|  ||| ||||.|.|||  ||  
+Anolis_caroli    341 GGCAGGGACCCCCAACGG--GGACCCCCAAAGC-ACAGCCGGACATCCCT    387
+
+Phalacrocorax    337 ------ACAGA-------CAGACCACCGGCTGAAGACGGACCCCTG---G    370
+                           ||.||       |.||||.||     |||  |||||||.|   |
+Anolis_caroli    388 TTCCGAACGGAAGCCCCTCCGACCTCC-----AAG--GGACCCCCGACAG    430
+
+Phalacrocorax    371 CCACAGATGGACCCCCAGCCCGATTCCCTGCCAG-------TCACCTGGC    413
+                     || |||..||||||||      .||.||||.|||       |||..||| 
+Anolis_caroli    431 CC-CAGCCGGACCCCC------GTTTCCTGACAGACGCCCTTCAGATGG-    472
+
+Phalacrocorax    414 CCCACTG--AGTCCCGCAGCCCCAGAGG-GACCCCCACCTGGCCCCACAG    460
+                          ||  ||..||.|||  |.||||| |||||||||         ||.
+Anolis_caroli    473 -----TGACAGGGCCACAG--CAAGAGGAGACCCCCAC---------CAC    506
+
+Phalacrocorax    461 AGAGATGCAGCCCC--AGCCCCC---CAGCCTCGAGGCTGGGTGAGGGGC    505
+                     |..|||||  ||.|  |||||||   || ||.||           |||||
+Anolis_caroli    507 ACTGATGC--CCTCGGAGCCCCCCTTCA-CCCCG-----------GGGGC    542
+
+Phalacrocorax    506 ACGGGGATGGG--GGGCAGCTCCCGGGGGGTCCCCAGGCCTTGCTCCCCG    553
+                      ||.|| ||||  ||       ||.|||.|.||||          ||.||
+Anolis_caroli    543 -CGCGG-TGGGCCGG-------CCAGGGAGACCCC----------CCACG    573
+
+Phalacrocorax    554 CCCC--CACAGG--CTGGACCCACTGGGAGGCCATGGGGCAGGACCCCCA    599
+                     ||||  || |||  |||..||||       ||||    ||.||.|||||.
+Anolis_caroli    574 CCCCAGCA-AGGGCCTGCTCCCA-------GCCA----GCCGGCCCCCCG    611
+
+Phalacrocorax    600 GATGCCACCCCCT-TCCGTGGGGCAGGCTCCCCACTCCGTGGGGCTGGCC    648
+                     |  |...||.||| |||||           |||||.||   ...||.|||
+Anolis_caroli    612 G--GGGTCCTCCTCTCCGT-----------CCCACACC---ACCCTCGCC    645
+
+Phalacrocorax    649 ATGGCCGTGGGGCT----GGTAGCCAGCATGGGCTTGGTCCTGGCCTTC-    693
+                     ||   |||..|.||    ||.|.|..|| |.|.|||||   |||||.|| 
+Anolis_caroli    646 AT---CGTCAGCCTCCTGGGAATCGCGC-TCGTCTTGG---TGGCCGTCG    688
+
+Phalacrocorax    694 TGGT-----GGGGCTGCCGG-GGGGCAGGGAGAGG---CAGGGGGGCAGG    734
+                     ||||     .||..|||||| ||.|.|||..||||   ||||     |||
+Anolis_caroli    689 TGGTTTCCCTGGTTTGCCGGAGGAGGAGGAGGAGGCGTCAGG-----AGG    733
+
+Phalacrocorax    735 GGTCCTGCCCCCCAC-CCAAGGCCCTGCCGACTCTCTCCTGCCC-CACAG    782
+                     ||         |||| |||   |||||           |||||| |   |
+Anolis_caroli    734 GG---------CCACTCCA---CCCTG-----------CTGCCCTC---G    757
+
+Phalacrocorax    783 ACGTGGGGTACAGACCC--TG--TGA--------------------    804
+                     .||.||     ||||||  ||  |||                    
+Anolis_caroli    758 GCGAGG-----AGACCCATTGGCTGAACCTTCCCGAGAAGACCTGA    798
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,110 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:34
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Rhea_pennata.fa
+#    -outfile Phalacrocorax_carbo-Rhea_pennata.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Rhea_pennata.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Rhea_pennata
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 913
+# Identity:     528/913 (57.8%)
+# Similarity:   528/913 (57.8%)
+# Gaps:         245/913 (26.8%)
+# Score: 1584.5
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGGG---------------GCTGGGGCTGCTGCTGCTGCTGCTGCCCTG     35
+                     |||||               ||||..|||||||||||.||||||||||||
+Rhea_pennata       1 ATGGGGCCGCCGCCGCCGCCGCTGCTGCTGCTGCTGCCGCTGCTGCCCTG     50
+
+Phalacrocorax     36 GGGAGCGCTGGGGAACATGGGGGGCTCGGCAGGGGCCTGTGGCTGC----     81
+                     ||.|||||||||.||..|||||||||||||.||||||||...||||    
+Rhea_pennata      51 GGCAGCGCTGGGCAATGTGGGGGGCTCGGCGGGGGCCTGCTCCTGCCACT    100
+
+Phalacrocorax     82 ACCCGCAGCTGGATCAGGCAGCCCCCCCCCGGTGTGCACCTGCCCCACAT    131
+                     |||    |||||..|..||.|||||||||.||.|||||.||||...|..|
+Rhea_pennata     101 ACC----GCTGGCCCCTGCGGCCCCCCCCGGGCGTGCAGCTGCGGGAGCT    146
+
+Phalacrocorax    132 GGCCCGCCACGTGCTGCGAGCAGAGCCCTGCCCCAACCACATCCTCAGGT    181
+                     ||...|.|.||||...||.||.||||.|||||||.|||||.|.|.|||||
+Rhea_pennata     147 GGGGGGGCGCGTGAGCCGCGCCGAGCTCTGCCCCCACCACGTGCGCAGGT    196
+
+Phalacrocorax    182 TCATGCTGCCCAAGTG------GCGGCTCTGCGGGCTCCAGAACTCGCCG    225
+                     ||.|.|||.|||||.|      |.||.|||||||.||||||.||||||||
+Rhea_pennata     197 TCCTTCTGTCCAAGCGCCAGCAGTGGGTCTGCGGCCTCCAGGACTCGCCG    246
+
+Phalacrocorax    226 TGGGTTGTGGAGCTGCTGCACCTCTGGGAGCGCCAAGTGGCTCAGAGAGC    275
+                     |||||.|||||||||||.||..||||||||.||..||.|||.||||||.|
+Rhea_pennata     247 TGGGTCGTGGAGCTGCTCCAGATCTGGGAGAGCAGAGAGGCCCAGAGACC    296
+
+Phalacrocorax    276 CCTGGCCAGA-----CTCCC-----------------GGCTA------CG    297
+                     |    |||||     |||||                 |||.|      .|
+Rhea_pennata     297 C----CCAGACCACCCTCCCACCAGCCCCACGGCGCTGGCAAGATCCCTG    342
+
+Phalacrocorax    298 GACAGACCCATGGATGGA------CCCTCAGCTACAGACAGACCCACAGA    341
+                     |.|||.||||.||..|||      |||.|.||..||||..|.|||.|||.
+Rhea_pennata     343 GGCAGCCCCACGGCGGGACACAGCCCCACGGCACCAGAGGGGCCCCCAGG    392
+
+Phalacrocorax    342 CAGACCACCGGCTGAAGACGGACCCCTGGCCACAGATGGACCCC-----C    386
+                     |||.||..||||.|.|.|.||.|||..|||..|||| |||.|||     |
+Rhea_pennata     393 CAGCCCCACGGCGGGACATGGCCCCACGGCACCAGA-GGAGCCCTCAGGC    441
+
+Phalacrocorax    387 AGCCCGATTCCCTGCCAGTCA----CCTG----GCCCCACTGAGTCCCGC    428
+                     |||||    |.|.||..|.||    ||||    |||||||.|..|  |||
+Rhea_pennata     442 AGCCC----CACGGCGGGACAAGGGCCTGCAGAGCCCCACGGCTT--CGC    485
+
+Phalacrocorax    429 AGCCCCAGAGGGACCCCCA------CCTG--GCCCCACAGAGAGATGCAG    470
+                     ||||      .|.||||||      ||||  |||||      ||.|| |.
+Rhea_pennata     486 AGCC------AGCCCCCCAGCGTGCCCTGGTGCCCC------AGCTG-AC    522
+
+Phalacrocorax    471 CCCCAGCCC---CCCAGCCTCGAGGCTGGGTGAGGGGCACGGGGATGGGG    517
+                     ||||||.||   |||||||.|    ||..|||||||||    .||...||
+Rhea_pennata     523 CCCCAGGCCGCTCCCAGCCCC----CTAAGTGAGGGGC----CGAGCTGG    564
+
+Phalacrocorax    518 GGCAGCTCCCGGGGGGTCCCCAGGCCTTGCTCCCCGC--CCCCA------    559
+                     ||||||      .||..||||   ||   ||||.|||  |||||      
+Rhea_pennata     565 GGCAGC------CGGCACCCC---CC---CTCCTCGCTGCCCCACGTGCC    602
+
+Phalacrocorax    560 --CAGGCTGGACCCACTG-GGAGGCCATGGGGCAGGACCCCCAGATGCCA    606
+                       ||||||||..||||.| ||| |||.|||||||||||||...|..||||
+Rhea_pennata     603 GGCAGGCTGGCGCCACCGCGGA-GCCGTGGGGCAGGACCCGGCGGGGCCA    651
+
+Phalacrocorax    607 CCCCCTTCCGTGGGGCAGGCTCC-CCACT--CCGTGGGGCTGGCCATGGC    653
+                     .|.||       ||||     || ||.||  |||||||||||.|||    
+Rhea_pennata     652 GCGCC-------GGGC-----CCGCCGCTGGCCGTGGGGCTGCCCA----    685
+
+Phalacrocorax    654 CGTGGGGCTGGTAGCCAGCATGGGCTTGGTCCT-GGCCTTCTGGTGGGGC    702
+                       |||||||||  .||.|| |||||...|.||| |||||...|||||.||
+Rhea_pennata     686 --TGGGGCTGG--CCCTGC-TGGGCGCCGCCCTGGGCCTCGGGGTGGTGC    730
+
+Phalacrocorax    703 T-------GCCGGGGGGCAGGGAGAGGCAGGGGGGCAGGGGTCCTGCCCC    745
+                     |       ||.|||||||       .||.||||||..|       |||||
+Rhea_pennata     731 TGNNNGTGGCGGGGGGGC-------CGCCGGGGGGTGG-------GCCCC    766
+
+Phalacrocorax    746 CCACC----CAAGGCCCTGCCGACTCTCTCCTGCCCCACAGACGTGGGGT    791
+                     |||.|    .|                                       
+Rhea_pennata     767 CCATCGTGTGA---------------------------------------    777
+
+Phalacrocorax    792 ACAGACCCTGTGA    804
+                                  
+Rhea_pennata     777 -------------    777
+
+
+#---------------------------------------
+#---------------------------------------

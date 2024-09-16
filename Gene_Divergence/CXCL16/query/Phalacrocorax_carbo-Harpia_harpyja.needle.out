@@ -1,0 +1,106 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:34
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Harpia_harpyja.fa
+#    -outfile Phalacrocorax_carbo-Harpia_harpyja.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Harpia_harpyja.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Harpia_harpyja
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 879
+# Identity:     629/879 (71.6%)
+# Similarity:   629/879 (71.6%)
+# Gaps:         132/879 (15.0%)
+# Score: 2484.5
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGGGGCTGGG---------GCTGCTGCTGCTGCTGCTGCCCTGGGGAGC     41
+                     |||||||.|||         ||||||||||||||||||||||||||||||
+Harpia_harpyj      1 ATGGGGCCGGGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCCCTGGGGAGC     50
+
+Phalacrocorax     42 GCTGGGGAACATGGGGGGCTCGGCAGGGGCCTGTGGCTGCACCCGCAGCT     91
+                     |||||||||..||||||||||||||||||||||...||||||||.|.|||
+Harpia_harpyj     51 GCTGGGGAATGTGGGGGGCTCGGCAGGGGCCTGCACCTGCACCCACCGCT    100
+
+Phalacrocorax     92 GGATCAGGCAGCCCCCCCCCGGTGTGCACCTGCCCCACATGGCCCGCCAC    141
+                     ||....||.||||||||||||.|||||.||||||||.|.||||||.|.||
+Harpia_harpyj    101 GGCCTTGGAAGCCCCCCCCCGCTGTGCGCCTGCCCCCCCTGGCCCCCTAC    150
+
+Phalacrocorax    142 GTGCTGCGAGCAGAGCCCTGCCCCAACCACATCCTCAGGTTCATGCTGCC    191
+                     ||||||||.|||||.|.||||||||||||..|.|.||||||..|||||||
+Harpia_harpyj    151 GTGCTGCGGGCAGATCTCTGCCCCAACCATGTGCGCAGGTTTGTGCTGCC    200
+
+Phalacrocorax    192 CAAGTGGCGGCTCTGCGGGCTCCAGAACTCGCCGTGGGTTGTGGAGCTGC    241
+                     |.|...||.|.||||.|||||||||.|||||||||||||.||||||||||
+Harpia_harpyj    201 CCACAAGCAGATCTGTGGGCTCCAGGACTCGCCGTGGGTCGTGGAGCTGC    250
+
+Phalacrocorax    242 TGCACCTCTGGGAGCGCCAAGTGGCTCAGAGAGCCCTGGCCAGACTCCCG    291
+                     ||||.||||||||.|||||||..|||||||||.|||||||..|||.||.|
+Harpia_harpyj    251 TGCAGCTCTGGGAACGCCAAGCAGCTCAGAGACCCCTGGCTGGACCCCTG    300
+
+Phalacrocorax    292 GCTACGGACAGACCCATGGATGGACCCTCAGCTACAGACAGACCCACAGA    341
+                     |||||.|||||||||...|||||||.|.|.|||||||||||||||||.||
+Harpia_harpyj    301 GCTACAGACAGACCCCCAGATGGACGCCCGGCTACAGACAGACCCACGGA    350
+
+Phalacrocorax    342 CAGACCACCGGCTGAAGAC------------GGACCCCTGGCCA------    373
+                     ..|||..||||||..||||            |||||||||||||      
+Harpia_harpyj    351 TGGACGCCCGGCTACAGACAGACCCACGGATGGACCCCTGGCCAGACCCC    400
+
+Phalacrocorax    374 CAG------ATGGACCCCCAGCCCGATTCCCTGCCAGTCACCTGGCCCCA    417
+                     |||      |.||||||||||...||..|||||||||.|.||||||||||
+Harpia_harpyj    401 CAGCTATGCACGGACCCCCAGATGGACCCCCTGCCAGCCCCCTGGCCCCA    450
+
+Phalacrocorax    418 CTGAGTCCCGCAGCCCCAGAGGGACCCCCACCTGGCCCCACAGAGAGATG    467
+                     |||||||||.|||||||.||||||||||||.|..|||||||||.||.|||
+Harpia_harpyj    451 CTGAGTCCCCCAGCCCCGGAGGGACCCCCAGCCAGCCCCACAGTGAAATG    500
+
+Phalacrocorax    468 CAGCCCC------AGC----CCCCCA-----------GCCTCGAGGCTGG    496
+                     ||||.||      |||    ||||||           |||..|||.||||
+Harpia_harpyj    501 CAGCACCCCCTCAAGCAGCTCCCCCACACCCCACCCTGCCGTGAGACTGG    550
+
+Phalacrocorax    497 GTGAGGGGCACGGGGA------TGGGGGGCAGCTCCCGGGGGGTCCCCAG    540
+                     ||||||.||||||.||      ||||||||||||||.|||||..||||||
+Harpia_harpyj    551 GTGAGGAGCACGGAGACGAGTCTGGGGGGCAGCTCCTGGGGGTCCCCCAG    600
+
+Phalacrocorax    541 GCCTTGCTCCCCGCCCCCACAGGCTGGACCCACTGGGAGGCCATGGGGCA    590
+                     |||||||.||||.||||..|||||||||.||||.||||.||..|||||||
+Harpia_harpyj    601 GCCTTGCCCCCCACCCCAGCAGGCTGGATCCACCGGGAAGCTGTGGGGCA    650
+
+Phalacrocorax    591 GGACCCCCAGATGCCACCCCCTTCCGTGGGGCAGGCTCCCCACTCCGTGG    640
+                     ||||||||||||||||||.|||.|.|||||||..||.||||..||.||||
+Harpia_harpyj    651 GGACCCCCAGATGCCACCGCCTGCTGTGGGGCCAGCCCCCCTTTCTGTGG    700
+
+Phalacrocorax    641 GGCTGGCCATGGCCGTGGG-------GCTGGTAGCCAGCATGGGCTTG--    681
+                     |.||||||||||    |||       |||||.||||.||.|||||.||  
+Harpia_harpyj    701 GACTGGCCATGG----GGGTGATCCTGCTGGGAGCCGGCCTGGGCCTGGT    746
+
+Phalacrocorax    682 ----GTCCTGGCCTTCT-GGTGGGGCTGCCGGGGGGCAGGGAGAGGCAGG    726
+                         ||||||||.|.|| ||.|||||||||.|||.||||||||||||..|
+Harpia_harpyj    747 GGGTGTCCTGGCATGCTCGGGGGGGCTGCCAGGGAGCAGGGAGAGGCGAG    796
+
+Phalacrocorax    727 GGGGCAGGGGTCCTGCCCCCCACCCAAGGCCCTGCC-GACTCTCTCCTGC    775
+                     |||.|||       ||.||.|||      |.||||| ||           
+Harpia_harpyj    797 GGGCCAG-------GCTCCTCAC------CTCTGCCTGA-----------    822
+
+Phalacrocorax    776 CCCACAGACGTGGGGTACAGACCCTGTGA    804
+                                                  
+Harpia_harpyj    822 -----------------------------    822
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,102 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:33
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Calonectris_borealis.fa
+#    -outfile Phalacrocorax_carbo-Calonectris_borealis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Calonectris_borealis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Calonectris_borealis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 840
+# Identity:     582/840 (69.3%)
+# Similarity:   582/840 (69.3%)
+# Gaps:         156/840 (18.6%)
+# Score: 2243.5
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGGGGCTGGGGCTGCTGCTGCTGCTGCTGCCCTGGGGAGCGCTGGGGAA     50
+                     |||||||.||||||||||||||||||||||||||||||||||||||||||
+Calonectris_b      1 ATGGGGCCGGGGCTGCTGCTGCTGCTGCTGCCCTGGGGAGCGCTGGGGAA     50
+
+Phalacrocorax     51 CATGGGGGGCTCGGCAGGGGCCTGTGGCTGCACCCGCAGCTGGATCAGGC    100
+                     |.|||||.|||.|||.||||||||.|.||||||||.|.|||||..|.||.
+Calonectris_b     51 CGTGGGGAGCTGGGCGGGGGCCTGCGCCTGCACCCACCGCTGGTCCCGGG    100
+
+Phalacrocorax    101 AGCCCCCCCCCGGTGTGCACCTGCCCCACATGGCCCGCCACGTGCTGCGA    150
+                     ||||||||||||..||||.||||||||.|.||||||.||.|||.|||||.
+Calonectris_b    101 AGCCCCCCCCCGCCGTGCGCCTGCCCCCCCTGGCCCCCCGCGTCCTGCGG    150
+
+Phalacrocorax    151 GCAGAGCCCTGCCCCAACCACATCCTCAGGTTCATGCTGCCCAAGTGGCG    200
+                     ||.||||.|||||||||||||.|.|.|||||||.||||||||.|...|||
+Calonectris_b    151 GCCGAGCTCTGCCCCAACCACGTGCGCAGGTTCGTGCTGCCCCACATGCG    200
+
+Phalacrocorax    201 GCTCTGCGGGCTCCAGAACTCGCCGTGGGTTGTGGAGCTGCTGCACCTCT    250
+                     ||||||.|||||||||||||||||||||||.||||||||||||||.||||
+Calonectris_b    201 GCTCTGTGGGCTCCAGAACTCGCCGTGGGTCGTGGAGCTGCTGCAGCTCT    250
+
+Phalacrocorax    251 GGGAGCGCCAAGTGGCTCAGAGAGCCCTGGCCAGACTCCCGGCTACGGAC    300
+                     ||.|||.||.||.|||||||            ||||.|||.|||||||||
+Calonectris_b    251 GGCAGCACCGAGCGGCTCAG------------AGACCCCCAGCTACGGAC    288
+
+Phalacrocorax    301 AGACCCATGGATGGACCCTCAGCTACAGACAGACCCACAGACAGACCACC    350
+                     .|||||                  .|.|||.||||.||.||||||||.||
+Calonectris_b    289 GGACCC------------------CCGGACGGACCAACGGACAGACCGCC    320
+
+Phalacrocorax    351 GGCTGAAGACGGACCCCTGGCCACAGATGGACCC----CCAGCCCGATTC    396
+                     |      |||.|||||.|||||      ||||||    |||||||     
+Calonectris_b    321 G------GACAGACCCATGGCC------GGACCCCGAACCAGCCC-----    353
+
+Phalacrocorax    397 CCTGCCAGTCACCTGGCCCCACTGAGTCCCGCAGCCCCAGAGGGACCCCC    446
+                                |||||||||.|.|||.|||.||||||||.||||||||||
+Calonectris_b    354 -----------CCTGGCCCCCCGGAGCCCCCCAGCCCCACAGGGACCCCC    392
+
+Phalacrocorax    447 ACCTGGCCCCACAGAGAGATGCAGCCC---------CAGCCCCCCAGCCT    487
+                     |.|..|||||||||.||||.|||||||         |||||||.||||||
+Calonectris_b    393 AGCCAGCCCCACAGCGAGACGCAGCCCCCCCCCCAGCAGCCCCTCAGCCT    442
+
+Phalacrocorax    488 CGAGGCTGGGTGAGGGGCACGGGGATGGGGGGCAGCTCCCGGGGGGTCCC    537
+                     ||||                              ||.|||.||||..|||
+Calonectris_b    443 CGAG------------------------------GCCCCCAGGGGACCCC    462
+
+Phalacrocorax    538 CAGGCCTTGCTCCCCGCCCCCACAGGCTGGACCCACTGGGAGGCCATGGG    587
+                     ||||||||||.||||.|||||...|||||||.||||..|||.|||.||||
+Calonectris_b    463 CAGGCCTTGCCCCCCACCCCCGTGGGCTGGATCCACCAGGAAGCCGTGGG    512
+
+Phalacrocorax    588 GCAGGACCCCCAGATGCCACCC--CCTTCCGTGGGGCAGGCTCCCCACTC    635
+                     |||||||||||||| ||| |||  |||.|.|..|||..|||.||||.|||
+Calonectris_b    513 GCAGGACCCCCAGA-GCC-CCCTGCCTGCGGGAGGGGTGGCCCCCCTCTC    560
+
+Phalacrocorax    636 CGTGGGGCTGGCCATGGCCGTGGGGCTGGT---------AGCCAGCATGG    676
+                     ||||||||      ||||||||||||||||         .|.|.||.|||
+Calonectris_b    561 CGTGGGGC------TGGCCGTGGGGCTGGTGTTGCTGGGGGTCGGCCTGG    604
+
+Phalacrocorax    677 GCTT------GGTCCTGGCCTTCTGGTGGGGCTGCCGGGGGGCAGGGAGA    720
+                     |..|      |||||||||.|.|  |.||||||||||||||||||||.||
+Calonectris_b    605 GTCTGGGGGGGGTCCTGGCGTGC--GGGGGGCTGCCGGGGGGCAGGGCGA    652
+
+Phalacrocorax    721 GGCAGGGGGGCAGGGGTCCTGC-CCCCCACCCAAGGCCCTGCCGACTCTC    769
+                     |||              ||..| |||||||||.||||||        |||
+Calonectris_b    653 GGC--------------CCCCCACCCCCACCCGAGGCCC--------CTC    680
+
+Phalacrocorax    770 TCCTGCCCCACAGA-----CGTGGGGTACAGACCCTGTGA    804
+                     |||||.|||.||||     .|.||||.||||.||||||||
+Calonectris_b    681 TCCTGTCCCCCAGATGGGGGGGGGGGCACAGCCCCTGTGA    720
+
+
+#---------------------------------------
+#---------------------------------------

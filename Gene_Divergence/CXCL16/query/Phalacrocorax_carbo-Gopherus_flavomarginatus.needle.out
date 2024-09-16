@@ -1,0 +1,110 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:34
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Gopherus_flavomarginatus.fa
+#    -outfile Phalacrocorax_carbo-Gopherus_flavomarginatus.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Gopherus_flavomarginatus.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Gopherus_flavomarginatus
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 949
+# Identity:     387/949 (40.8%)
+# Similarity:   387/949 (40.8%)
+# Gaps:         473/949 (49.8%)
+# Score: 895.5
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGG------------GGCTGGG---------GCTGCTGCTGCTGCTGCT     29
+                     ||||            |.||.||         .|||||||||||.|||||
+Gopherus_flav      1 ATGGCAGCGCCCCCCCGCCTCGGAGCGACCCTCCTGCTGCTGCTCCTGCT     50
+
+Phalacrocorax     30 GCCCTGGGG----------AGCGCT-GGGGAACATGGGGGGCTCGGCAGG     68
+                     ||    |||          || ||| ||||||...|||||||   |||  
+Gopherus_flav     51 GC----GGGCTCCCCCCCCAG-GCTCGGGGAATGAGGGGGGC---GCA--     90
+
+Phalacrocorax     69 GGCCTGTGG---CTGCA----CCCGCAGCTGGATCAGGCAGCCCCCCCCC    111
+                        || |||   |||||    ||.|..||||.|...||       |||||
+Gopherus_flav     91 ---CT-TGGGCTCTGCAAATGCCAGAGGCTGAAGAGGG-------CCCCC    129
+
+Phalacrocorax    112 GGTGTGCACCTGCCCC---ACATGGCCCGCCACGT-----GCTGCGAGCA    153
+                     ||   |..||.||.||   ||.|.|||..|.|.||     |||.|     
+Gopherus_flav    130 GG---GGGCCGGCTCCAGGACCTCGCCGACAAAGTGAAGGGCTAC-----    171
+
+Phalacrocorax    154 GAGCCCTGCCCCAACCACATCCTCAGGTTCATGCTGCCCAAGTGGCG---    200
+                     .||.|||||...|..|||.||.||.|||||..|||||||      ||   
+Gopherus_flav    172 CAGGCCTGCGGGAGGCACCTCGTCCGGTTCGAGCTGCCC------CGAAT    215
+
+Phalacrocorax    201 ---GCTCTGCGGGCT--CCAGAACTCGCCG--TGGGTTGTGGAGCTGCTG    243
+                        |.||||.|||||  ||||    |||||  |||||....|||||.|.|
+Gopherus_flav    216 ACAGATCTGTGGGCTGGCCAG----CGCCGACTGGGTGACCGAGCTCCGG    261
+
+Phalacrocorax    244 CACCTCTGGGAG---------------------------CGCCAAG----    262
+                     ...|||||||||                           |||||||    
+Gopherus_flav    262 GGGCTCTGGGAGAAGAAAGAAGCCGGAAGGATTGATGCCCGCCAAGGGGG    311
+
+Phalacrocorax    263 --------TGGCTCAGA-----------GAG-CCCTGGCCAGACTCC---    289
+                             .|||||.||           |.| ||||||||     ||   
+Gopherus_flav    312 CGGGGGGCCGGCTCCGAACCCCCCCAATGCGCCCCTGGCC-----CCCAA    356
+
+Phalacrocorax    290 CGGCTACGGACAGACCCATGGATGGACCCTCAGCTACAGACAGACCCACA    339
+                     ||.||    ||...||||||        |.|||| ||||.|.|||||..|
+Gopherus_flav    357 CGCCT----ACCCCCCCATG--------CCCAGC-ACAGCCCGACCCCTA    393
+
+Phalacrocorax    340 GACAGACCACCGGCTGAAGACGGA-CCCCTGG--CCACAGATGGACCCCC    386
+                     ||                     | |||.|||  |||||||||||.||||
+Gopherus_flav    394 GA---------------------ATCCCATGGATCCACAGATGGANCCCC    422
+
+Phalacrocorax    387 AGCCCGATTCCCTGCCAGTCACCTG--GCCCCACTGAGTCCCGC------    428
+                       ||||         .||.|.||||  ||||||  |||.|||.|      
+Gopherus_flav    423 --CCCG---------GAGCCGCCTGCAGCCCCA--GAGCCCCACGGCCAG    459
+
+Phalacrocorax    429 AGCCCCAGAGGGACCCCCACCTGGCCCCACAGAGAG----ATGCAGCCCC    474
+                     |.||||||||    ||||||  ||.|||||.|..||    |||.||||||
+Gopherus_flav    460 ACCCCCAGAG----CCCCAC--GGACCCACGGCCAGCCCTATGGAGCCCC    503
+
+Phalacrocorax    475 A--GCCCCCCAGCCTCGAGGCTGGGTGAGGGGCACGGGGATGGGGGGCAG    522
+                     |  |.|||.|||.|                                    
+Gopherus_flav    504 ACGGACCCTCAGAC------------------------------------    517
+
+Phalacrocorax    523 CTCCCGGGGGGTCCCCAGGCCTTGCTCCCCGCCCCCACAGGCTGGACCCA    572
+                             ||..||||||              |.|||||   .|||||||
+Gopherus_flav    518 --------GGACCCCCAG--------------CGCCACA---CGGACCCA    542
+
+Phalacrocorax    573 CTGGGAGGCCATGGGGCAGGACCCCCAGATGCC-----ACCC--------    609
+                     |     |||||        |||||||||||.||     ||||        
+Gopherus_flav    543 C-----GGCCA--------GACCCCCAGATCCCCACGGACCCTCAGACAG    579
+
+Phalacrocorax    610 -CCTTCCGTGGGGCAGGCTCCCCACTCCGTGGGGCTGGCCATGGCCGTGG    658
+                      ||.||         |||.||.|||      ||.|   |||.||||    
+Gopherus_flav    580 ACCGTC---------GGCACCGCAC------GGAC---CCACGGCC----    607
+
+Phalacrocorax    659 GGCTGGTAGCC---AGCATGGGCTTGGTCCTGGCCTTCTGGTGGGGCTGC    705
+                            ||||   .|.|||.                             
+Gopherus_flav    608 -------AGCCCCACGGATGA-----------------------------    621
+
+Phalacrocorax    706 CGGGGGGCAGGGAGAGGCAGGGGGGCAGGGGTCCTGCCCCCCACCCAAGG    755
+                                                                       
+Gopherus_flav    621 --------------------------------------------------    621
+
+Phalacrocorax    756 CCCTGCCGACTCTCTCCTGCCCCACAGACGTGGGGTACAGACCCTGTGA    804
+                                                                      
+Gopherus_flav    621 -------------------------------------------------    621
+
+
+#---------------------------------------
+#---------------------------------------

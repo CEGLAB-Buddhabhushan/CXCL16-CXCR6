@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:34
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Caretta_caretta.fa
+#    -outfile Phalacrocorax_carbo-Caretta_caretta.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Caretta_caretta.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Caretta_caretta
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 979
+# Identity:     491/979 (50.2%)
+# Similarity:   491/979 (50.2%)
+# Gaps:         359/979 (36.7%)
+# Score: 1155.5
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGG-----------GGCTGGGG----------CTGCTGCTGCTGCTGCT     29
+                     ||||           |||..|||          |||||||||||||||||
+Caretta_caret      1 ATGGCGGCGACCCCCGGCCCGGGAGCGACCCTCCTGCTGCTGCTGCTGCT     50
+
+Phalacrocorax     30 GCCCTGGG---------GAGCGCT-GGGGAACATGGGGGGCTCGGCAGGG     69
+                     |  |||||         | || || |||||||..|||||||.||...|||
+Caretta_caret     51 G--CTGGGCCCCCCGCCG-GC-CTGGGGGAACGAGGGGGGCGCGCTCGGG     96
+
+Phalacrocorax     70 GCCTGTGGCTGCA----CCCGCAGCTGGATCAGGCAGCCCCCC-------    108
+                           |.|||||    ||.|..||||    |||..|||||||       
+Caretta_caret     97 ------GTCTGCAAATGCCAGAGGCTG----AGGACGCCCCCCGGCCGGC    136
+
+Phalacrocorax    109 -CCCGGTGTGCACCTGCCCCACATGGCCCGCCACGTGCTGCGAGCAGAGC    157
+                      ||.||     ||||..||.|||.|    |..|.|.|||.|     |||.
+Caretta_caret    137 TCCGGG-----ACCTCGCCGACAGG----GTGAAGGGCTAC-----GAGG    172
+
+Phalacrocorax    158 CCTGCCCCAACCACATCCTCAGGTTCATGCTGCCCAAGTG-GCGGCTCTG    206
+                     |||||..|...|||.||.||.|||||..||||||| .||| .|.|.||||
+Caretta_caret    173 CCTGCGGCGGGCACCTCGTCCGGTTCGAGCTGCCC-CGTGTACAGATCTG    221
+
+Phalacrocorax    207 CGGGCT--CCAGAACTCGCCG--TGGGTTGTGGAGCTGCTGCACCTCTGG    252
+                     .|||||  .|||    |||||  |||||..|..||||.|..||.||||||
+Caretta_caret    222 TGGGCTGGACAG----CGCCGACTGGGTGATCCAGCTCCGCCAGCTCTGG    267
+
+Phalacrocorax    253 GAG---------------------------CGCCAAGTGGCTCAGAGAG-    274
+                     |||                           |||||||.||    |.|.| 
+Caretta_caret    268 GAGAACAAAGAAGCCGGAAGGATTGATGCCCGCCAAGGGG----GCGGGG    313
+
+Phalacrocorax    275 ---------------------------CCCTG---GCCAGACTCCCGG--    292
+                                                |||||   .||| ||.|||||  
+Caretta_caret    314 GGCCGGCCCCGAACCCCACCAACGCTTCCCTGCCCCCCA-ACACCCGGTC    362
+
+Phalacrocorax    293 -----------CTACGGACAGACCCATGGATGGACCCTCAGCTACAGACA    331
+                                .|.|||...|||||.||||  |.|||          ||.
+Caretta_caret    363 CCCCATGCCCAGTGCGGCGCGACCCCTGGA--GCCCC----------ACG    400
+
+Phalacrocorax    332 GACCCACAGACAGACCACCGG-----------CTGA-AGACGGACCCCTG    369
+                     |||.|||||||.||||.||||           ||.| ||||||||||   
+Caretta_caret    401 GACTCACAGACGGACCCCCGGAGCGGCAGGGACTTACAGACGGACCC---    447
+
+Phalacrocorax    370 GCCACAG----ATGGACCCCCAG-CCCGATTCCCTGCCAGTCACCTGGCC    414
+                      ||.|||    |.|||||||||| .|||             |||  ||||
+Caretta_caret    448 -CCGCAGCGGCACGGACCCCCAGAGCCG-------------CAC--GGCC    481
+
+Phalacrocorax    415 CCACTGAGTCCC--GCAGCCCCAGAGGGACCCCCACCTG--GCCCCACAG    460
+                     ||.|.|||.|||  |.|..|.||||.||||||||    |  |||.|||||
+Caretta_caret    482 CCCCAGAGCCCCAGGGACTCACAGACGGACCCCC----GGAGCCGCACAG    527
+
+Phalacrocorax    461 ----AGAGATGCAGCCCCAGCCCCCCAGCCTCGAGGCTGGGTGAGGGGCA    506
+                         |.|||||.|||||...||.||.|.||                    
+Caretta_caret    528 ACCCACAGATGAAGCCCTGACCACCGACCC--------------------    557
+
+Phalacrocorax    507 CGGGGATGGGGGGCAGCTCCCGGGGGGTCCCCAGGCCTTGCTCCCCGCCC    556
+                        .|.|||||||                |||| ||||.|     |||||
+Caretta_caret    558 ---CGTTGGGGGG----------------CCCA-GCCTGG-----CGCCC    582
+
+Phalacrocorax    557 CCACAGGCTGGACCCACTGGGA--GGC-CATGGGGCAGGACCCCCAGATG    603
+                     |..|||| .|||      ||||  ||| .|||||.|   .|||||.|.| 
+Caretta_caret    583 CAGCAGG-GGGA------GGGAGCGGCTGATGGGCC---CCCCCCCGCT-    621
+
+Phalacrocorax    604 CCACCCCCTTCCGTGGGGCAGGCTCCCCACT---CCGTG--GG----GCT    644
+                      ||.||||.|||.|           .||.||   |||||  ||    |||
+Caretta_caret    622 -CAGCCCCGTCCCT-----------ACCTCTCGGCCGTGCTGGTGCTGCT    659
+
+Phalacrocorax    645 GGCCATGGCCGTGGGGCTGGTAGCCAGCATGGGCTTGGTCCTGGCCTTC-    693
+                     ||.||...||.||||||||         .||||   ||.||||.|||.| 
+Caretta_caret    660 GGGCACCACCCTGGGGCTG---------CTGGG---GGGCCTGACCTACG    697
+
+Phalacrocorax    694 TGGTGGGGCTGCCGGGGGGCAGGGAGAGGCAGGGGGG------CAGGGGT    737
+                     ||.|    |||||||.|        |||.|  ||.||      |||....
+Caretta_caret    698 TGCT----CTGCCGGCG--------GAGCC--GGCGGCCCCCCCAGCTAC    733
+
+Phalacrocorax    738 CCTGCCCCCC-ACCCAAGGCCCTGCC-----GACTCT------CTCCTGC    775
+                     ||.||||||| .|||.||.|||.|.|     |||.||      |||||||
+Caretta_caret    734 CCGGCCCCCCGCCCCGAGACCCAGGCACCGAGACACTGTACCACTCCTGC    783
+
+Phalacrocorax    776 CCCACAGACGTGGGGTACAGACCCTGTGA    804
+                           ||..||||.|   ||        
+Caretta_caret    784 ------GAGCTGGGAT---GA--------    795
+
+
+#---------------------------------------
+#---------------------------------------

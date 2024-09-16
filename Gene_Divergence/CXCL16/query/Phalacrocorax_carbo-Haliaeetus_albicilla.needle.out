@@ -1,0 +1,106 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:34
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Haliaeetus_albicilla.fa
+#    -outfile Phalacrocorax_carbo-Haliaeetus_albicilla.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Haliaeetus_albicilla.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Haliaeetus_albicilla
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 878
+# Identity:     624/878 (71.1%)
+# Similarity:   624/878 (71.1%)
+# Gaps:         133/878 (15.1%)
+# Score: 2432.0
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGGGGCTGG------GGCTGCTGCTGCTGCTGCTGCCCTGGGGAGCGCT     44
+                     |||||||.||      ||||||||||||||||||||||||||||||||||
+Haliaeetus_al      1 ATGGGGCCGGGGCGGCGGCTGCTGCTGCTGCTGCTGCCCTGGGGAGCGCT     50
+
+Phalacrocorax     45 GGGGAACATGGGGGGCTCGGCAGGGGCCTGTGGCTGCACCCGCAGCTGGA     94
+                     |||||||.||||||||||||||||||||||...|||||||..|.|||||.
+Haliaeetus_al     51 GGGGAACGTGGGGGGCTCGGCAGGGGCCTGCACCTGCACCTACCGCTGGC    100
+
+Phalacrocorax     95 TCAGGCAGCCCCCCCCCGGTGTGCACCTGCCCCACATGGCCCGCCACGTG    144
+                     ...||.|||||||||||...|||||||||..||.|.||||||.|.|||||
+Haliaeetus_al    101 CTTGGAAGCCCCCCCCCACCGTGCACCTGGTCCCCCTGGCCCCCTACGTG    150
+
+Phalacrocorax    145 CTGCGAGCAGAGCCCTGCCCCAACCACATCCTCAGGTTCATGCTGCCCAA    194
+                     |||||.|..||.|.||||||||||||..|.|.|||||||.||||||||.|
+Haliaeetus_al    151 CTGCGGGTGGATCTCTGCCCCAACCATGTGCGCAGGTTCGTGCTGCCCCA    200
+
+Phalacrocorax    195 GTGGCGGCTCTGCGGGCTCCAGAACTCGCCGTGGGTTGTGGAGCTGCTGC    244
+                     ...||.|.||||.|||||||||.|||||||||||||.|||||||||||||
+Haliaeetus_al    201 CAAGCAGATCTGTGGGCTCCAGGACTCGCCGTGGGTCGTGGAGCTGCTGC    250
+
+Phalacrocorax    245 ACCTCTGGGAGCGCCAAGTGGCTCAGAGAGCCCTGGCCAGACTCCCGGCT    294
+                     |.||||||||.||||||||||||||||||.|||||||..|||.|||||||
+Haliaeetus_al    251 AGCTCTGGGAACGCCAAGTGGCTCAGAGACCCCTGGCTGGACGCCCGGCT    300
+
+Phalacrocorax    295 ACGGACAGAC--CCATGGATGGACCCTCAGCTACAGACAGACCCACAGAC    342
+                     ||.|||||||  |||  |||||||.|.|.|||||||||||||||||.||.
+Haliaeetus_al    301 ACAGACAGACCGCCA--GATGGACGCCCGGCTACAGACAGACCCACGGAT    348
+
+Phalacrocorax    343 AGACCACCGGCTGAAGAC------------GGACCCCTGGCC--------    372
+                     .||||.|.||||..||||            ||||||||||||        
+Haliaeetus_al    349 GGACCCCTGGCTACAGACAGACCCACGGATGGACCCCTGGCCAGACCCCC    398
+
+Phalacrocorax    373 ----ACAGATGGACCCCCAGCCCGATTCCCTGCCAGTCACCTGGCCCCAC    418
+                         ||..|.||||||||||...||..|||||||||.|.|||||||||||
+Haliaeetus_al    399 GGCTACGCACGGACCCCCAGATGGACCCCCTGCCAGCCCCCTGGCCCCAC    448
+
+Phalacrocorax    419 TGAGTCCCGCAGCCCCAGAGGGACCCCCACCTGGCCCCACAGAGAGATGC    468
+                     ||||.|||.|||.||||||||||||||||.|..|||||||||.||.||||
+Haliaeetus_al    449 TGAGCCCCCCAGGCCCAGAGGGACCCCCAGCCAGCCCCACAGTGAAATGC    498
+
+Phalacrocorax    469 AGCCCC------AG--------CCCCCCA-------GCCTCGAGGCTGGG    497
+                     |||.||      ||        |||||||       |||..|||.|||||
+Haliaeetus_al    499 AGCACCCCCTCGAGCAGCTCCCCCCCCCACCCCACTGCCGTGAGACTGGG    548
+
+Phalacrocorax    498 TGAGGGGCACGGGGA------TGGGGGGCAGCTCCCGGGGGGTCCCCAGG    541
+                     |||||.|||.||.||      ||||||||||||||.|||||..|||||||
+Haliaeetus_al    549 TGAGGAGCATGGAGATGAGTCTGGGGGGCAGCTCCTGGGGGTCCCCCAGG    598
+
+Phalacrocorax    542 CCTTGCTCCCCGCCCCCACAGGCTGGACCCACTGGGAGGCCATGGGGCAG    591
+                     ||||||.||||.|||||.|||||||||.||||.||.|.||..||||||||
+Haliaeetus_al    599 CCTTGCCCCCCACCCCCGCAGGCTGGATCCACCGGAAAGCTGTGGGGCAG    648
+
+Phalacrocorax    592 GACCCCCAGATGCCACCCCCTTCCGTGGGGCAGGCTCCCCACTCCGTGGG    641
+                     |||||||||||||||||.|||.|.|||||||..||.||||.|||.|||||
+Haliaeetus_al    649 GACCCCCAGATGCCACCGCCTGCTGTGGGGCCAGCCCCCCTCTCTGTGGG    698
+
+Phalacrocorax    642 GCTGGCCATGGCCGTGGG-------GCTGGTAGCCAGCATGGGCTTG---    681
+                     |||||||||||    |||       |||||.|||..||.|||||.||   
+Haliaeetus_al    699 GCTGGCCATGG----GGGTCATCCTGCTGGGAGCTGGCCTGGGCCTGGTG    744
+
+Phalacrocorax    682 ---GTCCTGGCCT-TCTGGTGGGGCTGCCGGGGGGCAGGGAGAGGCAGGG    727
+                        ||||||||.| .|.||.|||||||||.|||.||.|||||||||.|||
+Haliaeetus_al    745 GGTGTCCTGGCATGCCGGGGGGGGCTGCCAGGGAGCGGGGAGAGGCGGGG    794
+
+Phalacrocorax    728 GGGCAGGGGTCCTGCCCCCCACCCAAGGCCCTGCCGACTCTCT-CCTGCC    776
+                     |..|||       ||.||.||                 ||||| ||||. 
+Haliaeetus_al    795 GCCCAG-------GCTCCTCA-----------------TCTCTGCCTGA-    819
+
+Phalacrocorax    777 CCACAGACGTGGGGTACAGACCCTGTGA    804
+                                                 
+Haliaeetus_al    819 ----------------------------    819
+
+
+#---------------------------------------
+#---------------------------------------

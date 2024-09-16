@@ -1,0 +1,102 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:33
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Anser_cygnoides.fa
+#    -outfile Phalacrocorax_carbo-Anser_cygnoides.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Anser_cygnoides.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Anser_cygnoides
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 834
+# Identity:     504/834 (60.4%)
+# Similarity:   504/834 (60.4%)
+# Gaps:         201/834 (24.1%)
+# Score: 1512.0
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGGGGCTGGGGCTGCTGCTGCTGCTGCTGCCCTGGGGAGCGCTGGGGAA     50
+                     |||||||||||   |||||||||||||||||||||||||||..|||..||
+Anser_cygnoid      1 ATGGGGCTGGG---GCTGCTGCTGCTGCTGCCCTGGGGAGCCTTGGCCAA     47
+
+Phalacrocorax     51 CATGGGGGGCTCGGCAGGGGCCTGTGGCTGCACCC-GCAGCTGG-ATCAG     98
+                     |.|.|||||....||.||.|||||..|||||.||| || ||||| ..|||
+Anser_cygnoid     48 CGTCGGGGGGNNNGCGGGCGCCTGCCGCTGCTCCCAGC-GCTGGCCCCAG     96
+
+Phalacrocorax     99 GCAGCCCCCCCCCGGTGTGCACCTGCCC---CACATGGCCCGCCA-CGTG    144
+                     || |.||||||||||..||||   ||||   ||..||||.| ||| .|||
+Anser_cygnoid     97 GC-GGCCCCCCCCGGGCTGCA---GCCCCTGCAGCTGGCGC-CCAGAGTG    141
+
+Phalacrocorax    145 CTGCGAGCAGAGCCCTGCCCCAACCACATCCTCAGGTTCATGCTG---CC    191
+                     |.|||....|.||||||||||...|||.|....||||||..||||   ||
+Anser_cygnoid    142 CGGCGCTGGGGGCCCTGCCCCGGGCACGTGTGGAGGTTCGAGCTGCCCCC    191
+
+Phalacrocorax    192 CAAGTGGCGGCTCTGCGGGCTCCAGAACTCGCCGTGGGTTGTGGAGCTGC    241
+                     |||...|||||||||||||||||||.||.||||||||||...|.|.||||
+Anser_cygnoid    192 CAACACGCGGCTCTGCGGGCTCCAGGACGCGCCGTGGGTCAGGAACCTGC    241
+
+Phalacrocorax    242 TGCACCT-CTGGGAGCGCCAAGTGGCTCAGAGAGCCCTGGCCAGACTCCC    290
+                     |||..|| || |||||..|.||.|||.|.|||      |.||.|||.|.|
+Anser_cygnoid    242 TGCGGCTGCT-GGAGCAACGAGAGGCCCGGAG------GACCGGACCCGC    284
+
+Phalacrocorax    291 GGCTACGGACAGACCCATGGATGGACCCTCAGCTACAGACAGACCCACAG    340
+                     |||      |||.||||....|||||||.|.||      |||.|||||| 
+Anser_cygnoid    285 GGC------CAGCCCCAAAAGTGGACCCCCGGC------CAGCCCCACA-    321
+
+Phalacrocorax    341 ACAGACCACCGGCTGAAGAC-GGACCCCTGGCCACAGATGGACCCCCAGC    389
+                         |||||||        | |||||||.|||||      |.||||||.|
+Anser_cygnoid    322 ----ACCACCG--------CGGGACCCCCGGCCA------GCCCCCCAAC    353
+
+Phalacrocorax    390 CCGATTCCCTGCCAGTCACCTGGCCCCACTGAGTCCCGCAGCCCCAGAGG    439
+                                     ||||                          |.||
+Anser_cygnoid    354 ----------------CACC--------------------------GCGG    361
+
+Phalacrocorax    440 GACCCCCACCTGGCCCCACAGAGAGATGCAGCCCCAGCCCCCCAGCCTCG    489
+                     |||||||..|.|||||||||            .||.||||||||.||   
+Anser_cygnoid    362 GACCCCCGGCCGGCCCCACA------------ACCGGCCCCCCAACC---    396
+
+Phalacrocorax    490 AGGCTGGGTGAGGGGCACGGGGATGGGGGGCAGCTCCCGGGGGGTCCCCA    539
+                               ||...||             ||||..|||.|||..|||||
+Anser_cygnoid    397 ----------AGCCCCA-------------CAGCCACCGCGGGACCCCCA    423
+
+Phalacrocorax    540 GGCCTTGCTCCCC---GCCCCCACA--------GGCTGGACCCACTGGGA    578
+                     |||  .||.||||   | |||||||        |||.|..||||.|||||
+Anser_cygnoid    424 GGC--AGCCCCCCAGTG-CCCCACACCTCCCTGGGCCGCTCCCAGTGGGA    470
+
+Phalacrocorax    579 GGCCATGGGGCAGGACCCCCAGATGCCACCCCCTTCCGTGGGGCAGGCTC    628
+                     .|||.||||||||| ||||||..|.||.||     |||||||||.||..|
+Anser_cygnoid    471 AGCCGTGGGGCAGG-CCCCCAAGTTCCGCC-----CCGTGGGGCCGGGCC    514
+
+Phalacrocorax    629 CCCACTCCGTGGGGCTGGCCATGGCCGTGGGGCTGGTAGC-CAGCATGGG    677
+                     |||..||||||||||      ||||.|||||||||   || |.|| ||||
+Anser_cygnoid    515 CCCTGTCCGTGGGGC------TGGCTGTGGGGCTG---GCGCTGC-TGGG    554
+
+Phalacrocorax    678 CTTGGTCCTGGCCTTCTGGTGGGGCTGCCGGGGGGCAGGGAGAGGCAGGG    727
+                        ||  |.||||      ||||.|||.||||||.|..||.|.|.|   |
+Anser_cygnoid    555 ---GG--CCGGCC------TGGGCCTGGCGGGGGTCCTGGGGTGCC---G    590
+
+Phalacrocorax    728 GGGCAGGGGTCC-TGCCCCCCACCCAAGGCCCTGCCGACTCTCTCCTGCC    776
+                     |||||||||.|| .||||||       |||||.|||| |.|.|..|||||
+Anser_cygnoid    591 GGGCAGGGGGCCGAGCCCCC-------GGCCCCGCCG-CCCCCGGCTGCC    632
+
+Phalacrocorax    777 CCACAGACGTGGGG------TACAGACCCTGTGA    804
+                     ||.||||||.||||      .||.|.|.|||   
+Anser_cygnoid    633 CCCCAGACGCGGGGCCGTGCCACGGCCGCTG---    663
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,106 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:33
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Accipiter_gentilis.fa
+#    -outfile Phalacrocorax_carbo-Accipiter_gentilis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Accipiter_gentilis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Accipiter_gentilis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 861
+# Identity:     607/861 (70.5%)
+# Similarity:   607/861 (70.5%)
+# Gaps:         120/861 (13.9%)
+# Score: 2335.5
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGGG---------------GCTGGGGCTGCTGCTGCTGCTGCTGCCCTG     35
+                     |||||               ||||..||||||||||||||||||||||||
+Accipiter_gen      1 ATGGGGCCGAGGCGGCGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCCCTG     50
+
+Phalacrocorax     36 GGGAGCGCTGGGGAACATGGGGGGCTCGGCAGGGGCCTGTGGCTGCACCC     85
+                     ||||||||||||||||.||||||||||||||||||||||...|||.||||
+Accipiter_gen     51 GGGAGCGCTGGGGAACGTGGGGGGCTCGGCAGGGGCCTGCACCTGTACCC    100
+
+Phalacrocorax     86 GCAGCTGGATCAGGCAGCCCCCCCCCGGTGTGCACCTGCCCCACATGGCC    135
+                     .|.|||||....||.||||||||||.|.|||||.||||.|||.|.||||.
+Accipiter_gen    101 ACCGCTGGCCTTGGAAGCCCCCCCCTGCTGTGCGCCTGGCCCCCCTGGCA    150
+
+Phalacrocorax    136 CGCCACGTGCTGCGAGCAGAGCCCTGCCCCAACCACATCCTCAGGTTCAT    185
+                     |.|.|.||||||||.|..||.|.||||||||||||..|.|.|||||||.|
+Accipiter_gen    151 CCCTATGTGCTGCGGGTGGATCTCTGCCCCAACCATGTGCGCAGGTTCGT    200
+
+Phalacrocorax    186 GCTGCCCAAGTGGCGGCTCTGCGGGCTCCAGAACTCGCCGTGGGTTGTGG    235
+                     |||||||.|...||.|.||||.|||||||||.|||||||||||||..|||
+Accipiter_gen    201 GCTGCCCCACAAGCAGATCTGTGGGCTCCAGGACTCGCCGTGGGTCATGG    250
+
+Phalacrocorax    236 AGCTGCTGCACCTCTGGGAGCGCCAAGTGGCTCAGAGAGCCCTGGCCAGA    285
+                     ||||||||||.||||||||.|||||||..|||||||||.|||||||..||
+Accipiter_gen    251 AGCTGCTGCAGCTCTGGGAACGCCAAGCAGCTCAGAGACCCCTGGCTGGA    300
+
+Phalacrocorax    286 CTCCCGGCTACGGACAGACCCATGGATGGACCCTCAGCTACAGACAGACC    335
+                     |.||.||||||.|||||||||...|||||||.|.|.||||.|||||||||
+Accipiter_gen    301 CCCCTGGCTACAGACAGACCCCCAGATGGACGCCCGGCTATAGACAGACC    350
+
+Phalacrocorax    336 CACAGACAGACCACCGGCTGAAGACGGACCCCTGGCCACAGATGGACCCC    385
+                     |||.||..||||.|.|.|      |.||||||||.|.||..|||||||||
+Accipiter_gen    351 CACGGATGGACCCCTGCC------CAGACCCCTGCCTACGCATGGACCCC    394
+
+Phalacrocorax    386 CAGCCCGATTCCCTGCCAGTCACCTGGCCCCACTGAGTCCCGCAGCCCCA    435
+                     |||...||..|||||||||.|.||||||.||||||||.|||.||||||||
+Accipiter_gen    395 CAGATGGACCCCCTGCCAGCCCCCTGGCACCACTGAGCCCCCCAGCCCCA    444
+
+Phalacrocorax    436 GAGGGACCCCCACCTGGCCCCACAGAGAGATGCAGCCCC------AG---    476
+                     |||||||.||||.|..|||||||||.||.|||||||.||      ||   
+Accipiter_gen    445 GAGGGACGCCCAGCCAGCCCCACAGTGAAATGCAGCACCCCCTCGAGCAG    494
+
+Phalacrocorax    477 -----CCCCCCAGCCTC-------GAGGCTGGGTGAGGGGCACGGGGA--    512
+                          |||||||.||.|       |||.||||||||||.||||.|.||  
+Accipiter_gen    495 CTCCCCCCCCCACCCCCCTGCTGTGAGACTGGGTGAGGAGCACAGAGATG    544
+
+Phalacrocorax    513 ----TGGGGGGCAGCTCCCGGGGGGTCCCCAGGCCTTGCTCCCCGCCCCC    558
+                         ||||||||||||||.|||||..|||||||||||||.||||.|||||
+Accipiter_gen    545 AGTCTGGGGGGCAGCTCCTGGGGGTCCCCCAGGCCTTGCCCCCCACCCCC    594
+
+Phalacrocorax    559 ACAGGCTGGACCCACTGGGAGGCCATGGGGCAGGACCCCCAGATGCCACC    608
+                     .|||||||||.||||..|||.||..|||||||||||||||||||||||||
+Accipiter_gen    595 GCAGGCTGGATCCACCAGGAAGCTGTGGGGCAGGACCCCCAGATGCCACC    644
+
+Phalacrocorax    609 CCCTTCCGTGGGGCAGGCTCCCCACTCCGTGGGGCTGGCCATGGCCGTGG    658
+                     .|||.|.|||||||..||.||.|.|||.||||||||||||||||    ||
+Accipiter_gen    645 GCCTGCTGTGGGGCCAGCCCCTCTCTCTGTGGGGCTGGCCATGG----GG    690
+
+Phalacrocorax    659 G-------GCTGGTAGCCAGCATGGGCTTGGT------CCTGGCCTTCTG    695
+                     |       |||||.|||||||.|||||.||||      ||||.|.|.|||
+Accipiter_gen    691 GTGATCCTGCTGGGAGCCAGCCTGGGCCTGGTGGGTGCCCTGACATGCTG    740
+
+Phalacrocorax    696 GTG-GGGCTGCCGGGGGGCAGGGAGAGGCAGGGGGGCAGGGGTCCTGCCC    744
+                     |.| ||||||||.|||.||.||||||||..|||...|||       ||.|
+Accipiter_gen    741 GGGAGGGCTGCCAGGGAGCGGGGAGAGGTGGGGACCCAG-------GCTC    783
+
+Phalacrocorax    745 CCCACCCAAGGCCCTGCC-GACTCTCTCCTGCCCCACAGACGTGGGGTAC    793
+                     |.|||      |.||||| ||                             
+Accipiter_gen    784 CTCAC------CTCTGCCTGA-----------------------------    798
+
+Phalacrocorax    794 AGACCCTGTGA    804
+                                
+Accipiter_gen    798 -----------    798
+
+
+#---------------------------------------
+#---------------------------------------

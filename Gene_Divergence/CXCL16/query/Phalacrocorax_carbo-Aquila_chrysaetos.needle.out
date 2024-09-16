@@ -1,0 +1,106 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:33
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Aquila_chrysaetos.fa
+#    -outfile Phalacrocorax_carbo-Aquila_chrysaetos.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Aquila_chrysaetos.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Aquila_chrysaetos
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 885
+# Identity:     622/885 (70.3%)
+# Similarity:   622/885 (70.3%)
+# Gaps:         144/885 (16.3%)
+# Score: 2473.5
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGGGGCTGGGGC------TGCTGCTGCTGCTGCTGCCCTGGGGAGCGCT     44
+                     |||||||.|||||      |||||.|||||||||.|||||||||||||||
+Aquila_chrysa      1 ATGGGGCCGGGGCTGCTGGTGCTGGTGCTGCTGCCGCCCTGGGGAGCGCT     50
+
+Phalacrocorax     45 GGGGAACATGGGGGGCTCGGCAGGGGCCTGTGGCTGCACCCGCAGCTGGA     94
+                     |||||||.|||||||||||||.||||||||...||||||||.|.|||||.
+Aquila_chrysa     51 GGGGAACGTGGGGGGCTCGGCGGGGGCCTGCACCTGCACCCACCGCTGGC    100
+
+Phalacrocorax     95 TCAGGCAGCCCCCCCCCGGTGTGCACCTGCCCCACATGGCCCGCCACGTG    144
+                     ...||.||||||||||||..||||.|||.|||..|.||||||.|||.|||
+Aquila_chrysa    101 CTTGGAAGCCCCCCCCCGCCGTGCGCCTCCCCTCCCTGGCCCCCCATGTG    150
+
+Phalacrocorax    145 CTGCGAGCAGAGCCCTGCCCCAACCACATCCTCAGGTTCATGCTGCCCAA    194
+                     |||||.|.|||.|.||||||||||||..|.|.|||||||.||||||||.|
+Aquila_chrysa    151 CTGCGGGTAGATCTCTGCCCCAACCATGTGCGCAGGTTCGTGCTGCCCCA    200
+
+Phalacrocorax    195 GTGGCGGCTCTGCGGGCTCCAGAACTCGCCGTGGGTTGTGGAGCTGCTGC    244
+                     ...||.|.||||.|||||||||.|||||||||||||||||||||||||||
+Aquila_chrysa    201 CAAGCAGATCTGTGGGCTCCAGGACTCGCCGTGGGTTGTGGAGCTGCTGC    250
+
+Phalacrocorax    245 ACCTCTGGGAGCGCCAAGTGGCTCAGAGAGCCCTGGC-------------    281
+                     |.||||||.|.|||||||.||||||||||.|||||||             
+Aquila_chrysa    251 AGCTCTGGAAACGCCAAGCGGCTCAGAGACCCCTGGCTGGACCCCTGGCT    300
+
+Phalacrocorax    282 -CA----------------GACTCCCGGCTACGGACAGACCCATGGATGG    314
+                      ||                |||.|||||||||.|||||||||||||||||
+Aquila_chrysa    301 ACAGACAGACCCCCAGATGGACGCCCGGCTACAGACAGACCCATGGATGG    350
+
+Phalacrocorax    315 ACCCTCAGCTACAGACAGACCCACAGACAGACCACCGGCTGAAGACGGAC    364
+                     ||.|.|.||||||||||||||||||||..||||.|.|||      |.|||
+Aquila_chrysa    351 ACGCCCGGCTACAGACAGACCCACAGATGGACCCCTGGC------CAGAC    394
+
+Phalacrocorax    365 CCCTGGCCACAGATGGACCCCCAGCCCGATTCCCTGCCAGTCACCTGGCC    414
+                     |||.|||.||..||||||||||||...||..|||||||||.|.|||||||
+Aquila_chrysa    395 CCCCGGCTACGCATGGACCCCCAGATAGACCCCCTGCCAGCCCCCTGGCC    444
+
+Phalacrocorax    415 CCACTGAGTCCCGCAGCCCCAGAGGGACCCCCACCTGGCCCCACAGAGAG    464
+                     |||.||||.|||.|||||||.|||||||||.||.|..|||||||||.||.
+Aquila_chrysa    445 CCAGTGAGCCCCACAGCCCCGGAGGGACCCTCAGCCAGCCCCACAGTGAA    494
+
+Phalacrocorax    465 ATGCAG-------------------------CCCCAGCCCCCCAGCCTCG    489
+                     ||||||                         ||||| ||||||.|||..|
+Aquila_chrysa    495 ATGCAGCACCCCCTCGAGCAGCTCCCCCNNNCCCCA-CCCCCCTGCCGTG    543
+
+Phalacrocorax    490 AGGCTGGGTGAGGGGCACGGGGA------TGGGGGGCAGCTCCCGGGGGG    533
+                     ||.||||||||||.||||||.||      ||||||||||||||.|||||.
+Aquila_chrysa    544 AGACTGGGTGAGGTGCACGGAGACGAGTCTGGGGGGCAGCTCCTGGGGGT    593
+
+Phalacrocorax    534 TCCCCAGGCCTTGCTCCCCGCCCCCACAGGCTGGACCCACTGGGAGGCCA    583
+                     .|||||||||||||.||||.|||||.|||||||||.||||.||||.||..
+Aquila_chrysa    594 CCCCCAGGCCTTGCCCCCCACCCCCGCAGGCTGGATCCACCGGGAAGCTG    643
+
+Phalacrocorax    584 TGGGGCAGGACCCCCAGATGCCACCCCCTTCCGTGGGGCAGGCTCCCCAC    633
+                     ||||||||||.||||||||||||||.|||.|.|||||||..||.||||.|
+Aquila_chrysa    644 TGGGGCAGGATCCCCAGATGCCACCGCCTGCTGTGGGGCCAGCCCCCCTC    693
+
+Phalacrocorax    634 TCCGTGGGGCTGGCCATGGCCGTGGG-------GCTGGTAGCCAGCATGG    676
+                     ||.||||||||||||||||    |||       |||||.|||||||.|||
+Aquila_chrysa    694 TCTGTGGGGCTGGCCATGG----GGGTGATCCTGCTGGGAGCCAGCCTGG    739
+
+Phalacrocorax    677 GCTTG------GTCCTGGCCT-TCTGGTGGGGCTGCCGGGGGGCAGGGAG    719
+                     ||.||      ||||||||.| .|.||.|||||||||.|||.||||||||
+Aquila_chrysa    740 GCCTGGTGGGTGTCCTGGCATGCCGGGGGGGGCTGCCAGGGAGCAGGGAG    789
+
+Phalacrocorax    720 AGGCAGGGGGGCAGGGGTCCTGCCCCCCACCCAAGGCCCTGCCGACTCTC    769
+                     ||||||||||.|| ||.||||..|||||.||..|                
+Aquila_chrysa    790 AGGCAGGGGGCCA-GGCTCCTCACCCCCGCCTGA----------------    822
+
+Phalacrocorax    770 TCCTGCCCCACAGACGTGGGGTACAGACCCTGTGA    804
+                                                        
+Aquila_chrysa    822 -----------------------------------    822
+
+
+#---------------------------------------
+#---------------------------------------

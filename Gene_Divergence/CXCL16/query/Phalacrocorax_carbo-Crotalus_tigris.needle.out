@@ -1,0 +1,138 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:34
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Crotalus_tigris.fa
+#    -outfile Phalacrocorax_carbo-Crotalus_tigris.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Crotalus_tigris.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Crotalus_tigris
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1280
+# Identity:     544/1280 (42.5%)
+# Similarity:   544/1280 (42.5%)
+# Gaps:         604/1280 (47.2%)
+# Score: 929.5
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGG---GGCTGG-----GGCTGCTGCTGCTGCTGCT-------------     29
+                     ||||   |||.||     ||| ||.||.||.||..||             
+Crotalus_tigr      1 ATGGGAAGGCCGGAGCCAGGC-GCCGCCGCCGCCCCTCTCCGCCCCGTCC     49
+
+Phalacrocorax     30 ---GCCCTG------------------------GGGAGCGCTGGGGAACA     52
+                        ||||||                        |||||||...||||.| 
+Crotalus_tigr     50 CGGGCCCTGGAGCAGACCCGCTTCTGCCTCCCAGGGAGCGGGCGGGAGC-     98
+
+Phalacrocorax     53 TGGG----GGGCTCGGCAGG--GGC-CTGTGGCTGCA----CCCGCAGCT     91
+                       ||    ||||..||||||  ||| ..||||  |||    ||.|.|.||
+Crotalus_tigr     99 --GGCGCTGGGCCAGGCAGGGAGGCGGGGTGG--GCAACGCCCAGAAACT    144
+
+Phalacrocorax     92 GGATCAGGCAGCCCCCCCCCG-GTGTGCACCTGCCCCACATGG-------    133
+                        |..||||||||||.|.|| .|..||||.|||      |||       
+Crotalus_tigr    145 ---TTGGGCAGCCCCCGCTCGCCTCCGCACTTGC------TGGTACGTCA    185
+
+Phalacrocorax    134 ------------CCCGCCACGT---------GCTGCGAGCAG--------    154
+                                 ||||||.|.|         .||||| ||||        
+Crotalus_tigr    186 AGAGGCCGGGCACCCGCCGCCTCCCCTGGCGCCTGCG-GCAGTTCCGGAG    234
+
+Phalacrocorax    155 ---------AGCC--------CTGCCCCAACCACATCCTCAGG------T    181
+                              ||||        ||.||||..||.|     |.||      |
+Crotalus_tigr    235 GCGTTGGAAAGCCCCGCGCGGCTCCCCCGGCCGC-----CCGGCCGCCTT    279
+
+Phalacrocorax    182 TCATGCT--------------------GCCCAAG-----TGGCGGC----    202
+                     ||  |||                    |.|||.|     |||||||    
+Crotalus_tigr    280 TC--GCTTTCGGTCTCGGGGAGAGAAGGACCAGGAGGGATGGCGGCGGCG    327
+
+Phalacrocorax    203 ------TCTGCGGGCTCCAGAAC-TCGCCGTGGG----------------    229
+                           .|.||||||    ||.| ||| ||.|||                
+Crotalus_tigr    328 GCGGCGGCGGCGGGC----GAGCGTCG-CGGGGGCTCCGGCTCCCGCCTC    372
+
+Phalacrocorax    230 ---TTG-------------------TGGAGCTGCTGCACCTCTGGGAGCG    257
+                        |||                   |||.||||||||..||         
+Crotalus_tigr    373 ACTTTGGCCCCGAGGCGCAGCCCGCTGGTGCTGCTGCTGCT---------    413
+
+Phalacrocorax    258 CCAAGTGGCT----CAGAGAGCCCTGGCCAGACTCCC--GGCTACGGACA    301
+                         ||.|||    |.|...|||| ||||||   |||  |||.|||.|  
+Crotalus_tigr    414 ----GTTGCTGTTGCTGCCCGCCC-GGCCAG---CCCTGGGCAACGAA--    453
+
+Phalacrocorax    302 GACCCATGGATGGACCCTC----AGCTAC-------AGACAGACC-CACA    339
+                             |..|||.||.|    ||||.|       |||...||| |   
+Crotalus_tigr    454 --------GGGGGAACCGCCGGGAGCTGCCGGTGTGAGAGGTACCGC---    492
+
+Phalacrocorax    340 GACAGA-CCACCGGCTG---AAGA------CGGACCCC----TGGCCACA    375
+                     ||| || ||.|| ||||   ||||      |.||||.|    |||||   
+Crotalus_tigr    493 GAC-GAGCCGCC-GCTGGTCAAGAGGTTCGCCGACCGCCTGATGGCC---    537
+
+Phalacrocorax    376 GAT-GGACCCC--CA---GCCCGATTCCCTGCCAG--TCACCTGGCCCCA    417
+                       | |||.|||  ||   |||.|||       |||  ||||||..|||||
+Crotalus_tigr    538 --TGGGAGCCCTGCAGGGGCCTGAT-------CAGATTCACCTTCCCCCA    578
+
+Phalacrocorax    418 ---------CTGAGTC-------CCGCAGCCC------------------    433
+                              |||.|.|       .||| ||||                  
+Crotalus_tigr    579 GAAGCAGGTCTGTGGCTTGGACGACGC-GCCCTGGGTGCTCCGGCTCATC    627
+
+Phalacrocorax    434 ------CAG-------------AGGG-------------ACCCCCACCTG    451
+                           |||             ||||             |.|.|||||.|
+Crotalus_tigr    628 TCTCTGCAGGCGGAGAAGAGGAAGGGGGCTGACAGGCTCAGCTCCACCAG    677
+
+Phalacrocorax    452 ----GCCCCACAGAGAGATGCAGCCCC--AGCCCCC------CAGCCTCG    489
+                         |||||       |.|.|||||||  |||.|||      ||.|| ||
+Crotalus_tigr    678 CCCTGCCCC-------GCTTCAGCCCCTGAGCTCCCTGCGGTCAACC-CG    719
+
+Phalacrocorax    490 AGGCTGGGT---GAGGG-------------GCACGGGGATG----GGG--    517
+                     ||   .|||   |||||             ||| ||.|.||    |||  
+Crotalus_tigr    720 AG---CGGTGCCGAGGGAGACTCCACCATCGCA-GGAGCTGCCAAGGGAG    765
+
+Phalacrocorax    518 -------------GGCAGCTCCCG-GGGGGTCCCCAGGCCTT-------G    546
+                                  .||||.|.||| .||.|.|.|||  ||.|       |
+Crotalus_tigr    766 ACTCCACCATCGCAGCAGATGCCGAAGGAGACTCCA--CCATCGCAGCAG    813
+
+Phalacrocorax    547 CTCCCCG------CCCCCACA--GGCTGGACCC-----------ACTG--    575
+                     |||||.|      ||.|||.|  |||.|  |||           |.||  
+Crotalus_tigr    814 CTCCCAGCTTTGACCACCATAATGGCCG--CCCTAGCCCTAGAGAGTGTC    861
+
+Phalacrocorax    576 -GGAGGCCATGGGGCAGGACCCCCAG--ATGCCACCCCCTTCCG-TG---    618
+                      ||||  |.|.|.||.|    |||||  |||       .|.||| ||   
+Crotalus_tigr    862 CGGAG--CGTTGTGCTG----CCCAGGAATG-------GTGCCGCTGCTG    898
+
+Phalacrocorax    619 -GGGCAGGCTCCCCACTC-------------CGTGGGGCTGGCCATGGCC    654
+                      ||.|||   ||||||||             .|.||||.| ||||.|   
+Crotalus_tigr    899 AGGTCAG---CCCCACTCAACTTGCACAAGAGGAGGGGGT-GCCAGG---    941
+
+Phalacrocorax    655 GTGGGGCTGGTAG-CCA-----------GCA-TGGGCTTGGTCCTGGCCT    691
+                     ||||..||...|| |||           ||| |||||.|.||.|||  ||
+Crotalus_tigr    942 GTGGCCCTATCAGACCACTGTCCTCTCTGCACTGGGCATCGTGCTG--CT    989
+
+Phalacrocorax    692 TCTGGTG------GGGCTGC----CGGGGGGCAG--------GGAGAGGC    723
+                     .||.|||      ||.||||    |.||.|| ||        |||||.||
+Crotalus_tigr    990 CCTCGTGATCGCTGGCCTGCTGTGCTGGTGG-AGGCCCCCCAGGAGACGC   1038
+
+Phalacrocorax    724 AGGGGGGCAGGGGTCCTGCCCCCCACCCA--AGGCCCTGCCGACTCTCTC    771
+                     .|..|||||   |.||||.||.||...||  |||   ||     |.|.|.
+Crotalus_tigr   1039 CGCCGGGCA---GCCCTGTCCTCCGAGCAACAGG---TG-----TGTATG   1077
+
+Phalacrocorax    772 CTGCCCCACAGAC-----GTGGGG------TACAGACCCTGTGA------    804
+                     |||   ||.||||     |.||||      |.|||  |||..||      
+Crotalus_tigr   1078 CTG---CAGAGACCCGGAGAGGGGGCCACCTGCAG--CCTCGGAGCACAT   1122
+
+Phalacrocorax    804 ------------------------------    804
+                                                   
+Crotalus_tigr   1123 GCGGCCGCTGCCTCAGGGTGGGGGGGCTGA   1152
+
+
+#---------------------------------------
+#---------------------------------------

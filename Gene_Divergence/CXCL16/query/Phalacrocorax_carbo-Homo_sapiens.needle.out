@@ -1,0 +1,114 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:34
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Homo_sapiens.fa
+#    -outfile Phalacrocorax_carbo-Homo_sapiens.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Homo_sapiens.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Homo_sapiens
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 975
+# Identity:     454/975 (46.6%)
+# Similarity:   454/975 (46.6%)
+# Gaps:         381/975 (39.1%)
+# Score: 778.5
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ATGGGGCTGGG----------------------GCTGCTGCTGCTGCTGC     28
+                     |||||.| |||                      |||.|||||.|||||.|
+Homo_sapiens       1 ATGGGAC-GGGACTTGCGGCCCGGGTCCCGCGTGCTCCTGCTCCTGCTTC     49
+
+Phalacrocorax     29 TGC-CCTGGGGAGCGCTGGGGAACATGGGGGGCTC-GGCAGGGGCCTGTG     76
+                     ||| |||       |||||.|.||.|    |.||| |.||||   |..||
+Homo_sapiens      50 TGCTCCT-------GCTGGTGTACCT----GACTCAGCCAGG---CAATG     85
+
+Phalacrocorax     77 GC------TGCACCCGCAGCTGGA--------------------------     94
+                     ||      .|||.|..|| |||||                          
+Homo_sapiens      86 GCAACGAGGGCAGCGTCA-CTGGAAGTTGTTATTGTGGTAAAAGAATTTC    134
+
+Phalacrocorax     95 -TCAGGCAGCCCCCCCCCGGT---GTGCACCTGCCCCACATGGCCCGC--    138
+                      ||.|.|..|||.||..||||   ||.||  ||     .||.|.|..|  
+Homo_sapiens     135 TTCCGACTCCCCGCCATCGGTTCAGTTCA--TG-----AATCGTCTCCGG    177
+
+Phalacrocorax    139 ---CACGTGCTGCGAGCAGAGC---CC-----TGCCCCAACCACATCCTC    177
+                        |||.||        |||||   ||     ||.|...||.|||    |
+Homo_sapiens     178 AAACACCTG--------AGAGCTTACCATCGGTGTCTATACTACA----C    215
+
+Phalacrocorax    178 -AGGTTCATGCTGC---CCAAGTG--GCGGCTCTGCGGGC-TCCAGAACT    220
+                      ||||||..|||.|   ||   ||  |||..|.||.|||| .|.||.|| 
+Homo_sapiens     216 GAGGTTCCAGCTCCTTTCC---TGGAGCGTGTGTGGGGGCAACAAGGAC-    261
+
+Phalacrocorax    221 CGCCGTGGGTTGTGGAGCTGCTGCACCTCTGGGAGCGCCAAGTG------    264
+                       ||.||||||..|||..||.|          ||||      ||      
+Homo_sapiens     262 --CCATGGGTTCAGGAATTGAT----------GAGC------TGTCTTGA    293
+
+Phalacrocorax    265 GCTCAGAGA--GCCCTGGCCAGACT--CCCGGCTACGGA-----------    299
+                     .||||.|||  |   |||.||..||  |.|||    |||           
+Homo_sapiens     294 TCTCAAAGAATG---TGGACATGCTTACTCGG----GGATTGTGGCCCAC    336
+
+Phalacrocorax    300 CAGACCCATGGATGGACCCTCAGCTACAGACAGACCCACAGA-----CAG    344
+                     ||||..|||..|     |.||  ||||   |||.|||.|| |     |||
+Homo_sapiens     337 CAGAAGCATTTA-----CTTC--CTAC---CAGCCCCCCA-ATTTCTCAG    375
+
+Phalacrocorax    345 ACCACCGGCTGAAGACGGACCCCTGGC-----CACAGATGGAC-CCCCAG    388
+                     .||.|       |||.||      |||     ||.|.||..|| ||||.|
+Homo_sapiens     376 GCCTC-------AGAGGG------GGCATCTTCAGATATCCACACCCCTG    412
+
+Phalacrocorax    389 CCC-GATTC-CCTGCCAGTCACCTGGC--CCCACTGAGTCCCGCAGC--C    432
+                     ||| |||.| ||||.|   |||||.||  .|||||.||..||.||.|  |
+Homo_sapiens     413 CCCAGATGCTCCTGTC---CACCTTGCAGTCCACTCAGCGCCCCACCCTC    459
+
+Phalacrocorax    433 CCAGAGGGACCCCCACCTGGCCCC--ACAGAGAG-------------ATG    467
+                     ||||..|||.|    .|||.||.|  |||.||||             |||
+Homo_sapiens     460 CCAGTAGGATC----ACTGTCCTCGGACAAAGAGCTCACTCGTCCCAATG    505
+
+Phalacrocorax    468 CAGCC-CCA----------GCCCCCCAGCCTCGAGGCTGGG--TGAGGGG    504
+                     .|.|| |||          |..||.|||.||.|..||||||  |||    
+Homo_sapiens     506 AAACCACCATTCACACTGCGGGCCACAGTCTGGCAGCTGGGCCTGA----    551
+
+Phalacrocorax    505 CACGGGGATGGGGGGCAGCTCCCGGGGGGTCCCCAGGCCTTGCTCCCCGC    554
+                          ||.|||||   ||..||.|..|      |||          |||.
+Homo_sapiens     552 -----GGCTGGGG---AGAACCAGAAG------CAG----------CCGG    577
+
+Phalacrocorax    555 CCCCACAGGCTGGACCCACTGGGAGGCCATGGGGCAGGACCCCCAGATGC    604
+                     ....|.|.|||||.|||||.|..|||.|||    |||   ||.||| |||
+Homo_sapiens     578 AAAAAAATGCTGGTCCCACAGCCAGGACAT----CAG---CCACAG-TGC    619
+
+Phalacrocorax    605 CACCCCCTTCC-GTGGGGCAGGCTCCCCACTCCGTGGGGCTGGCCATGGC    653
+                     ||     .||| ||      |.|||              ||||||||   
+Homo_sapiens     620 CA-----GTCCTGT------GCCTC--------------CTGGCCAT---    641
+
+Phalacrocorax    654 CGTGGGGCTGGTAGCCAGCATGGGCTTGGTCCT-------GGCCTT--CT    694
+                                       |||   |||..||||       |.||||  ||
+Homo_sapiens     642 ------------------CAT---CTTCATCCTCACCGCAGCCCTTTCCT    670
+
+Phalacrocorax    695 -GGTGGGGCTGCCGGGGGGCAGGGAGAGGCAGGGGG--------GCAGGG    735
+                      .||   |||      |.|||.|..|||| ||||||        |||   
+Homo_sapiens     671 ATGT---GCT------GTGCAAGAGGAGG-AGGGGGCAGTCACCGCA---    707
+
+Phalacrocorax    736 GTCCTGCCCCCCACCCAAGGCCCTGCCGACTCTCTCCTGCCCCACAGACG    785
+                     |||||   |.|||      |..||||||..||..|        |.|.||.
+Homo_sapiens     708 GTCCT---CTCCA------GATCTGCCGGTTCATT--------ATATACC    740
+
+Phalacrocorax    786 TGGGGTA-CAGACCCT-----GTGA    804
+                     ||.||.| |.|||.||     .|||
+Homo_sapiens     741 TGTGGCACCTGACTCTAATACCTGA    765
+
+
+#---------------------------------------
+#---------------------------------------

@@ -1,0 +1,118 @@
+########################################
+# Program: needle
+# Rundate: Mon 16 Sep 2024 22:47:34
+# Commandline: needle
+#    -asequence ../Phalacrocorax_carbo.fa
+#    -bsequence Xenopus_tropicalis.fa
+#    -outfile Phalacrocorax_carbo-Xenopus_tropicalis.needle.out
+#    -gapopen 10.0
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: Phalacrocorax_carbo-Xenopus_tropicalis.needle.out
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: Phalacrocorax_carbo
+# 2: Xenopus_tropicalis
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 1008
+# Identity:     441/1008 (43.8%)
+# Similarity:   441/1008 (43.8%)
+# Gaps:         417/1008 (41.4%)
+# Score: 676.0
+# 
+#
+#=======================================
+
+Phalacrocorax      1 ------------------ATGGGGCTGGGGCTGCTGCT--GCTG-CTGCT     29
+                                       |||.||.|..|.|||||.||  .||| |||||
+Xenopus_tropi      1 ATGAAATTCCCTGCCAGGATGTGGATCCGACTGCTCCTTGTCTGCCTGCT     50
+
+Phalacrocorax     30 G------CCCTGGGGAGCGC----TGGGG--AACATGGGGGGCTCGGCAG     67
+                     |      |.||..|..||||    |||.|  |||            ||.|
+Xenopus_tropi     51 GTCTGTTCACTCAGTGGCGCAGTTTGGCGCAAAC------------GCTG     88
+
+Phalacrocorax     68 GGGC---CTGT-----------------GGCTGCACCCGCAG--------     89
+                     |.||   ||||                 ||    ||||||.|        
+Xenopus_tropi     89 GAGCTTGCTGTTTCGATATGAAACCCAGGG----ACCCGCCGACAGACGC    134
+
+Phalacrocorax     90 CTGGATCAGGCAGCCCCCCCCCGGTGTGCACCTGCCCCACATGGCCCGCC    139
+                     ||.|.||||||             |||           |||.|       
+Xenopus_tropi    135 CTTGTTCAGGC-------------TGT-----------ACAAG-------    153
+
+Phalacrocorax    140 ACGTGCTGCGAGCA-------------GAGCCCTGCCCCAACCACATCCT    176
+                              |||.|             |||...|||     ||||||..|
+Xenopus_tropi    154 ---------GAGAAAGTGAAGGGTTTTGAGGAATGC-----CCACATTAT    189
+
+Phalacrocorax    177 CAGGTTCA--TGCTGCCCAAGTGGCG----------GCTCTGCGGGCTCC    214
+                     |..|||||  |      ||||| .||          |.|.|||  |||.|
+Xenopus_tropi    190 CGAGTTCAATT------CAAGT-TCGACAAGGGAAAGATATGC--GCTTC    230
+
+Phalacrocorax    215 AGAAC---TCGCCGTGGGTTGTGGAGCTG--CTGCACCTCT-----GGGA    254
+                     |.|||   .|||| |||||.|.|.|.|||  .||| |.|||     .|||
+Xenopus_tropi    231 AAAACATGACGCC-TGGGTCGAGAAACTGATATGC-CATCTCAAAAAGGA    278
+
+Phalacrocorax    255 -----------GCGCCAAGTGGCTCAGAGAGCCCTGGCCAGACTCCCGGC    293
+                                |.|||||   ||.|.|.|| ..||||     .||.||  
+Xenopus_tropi    279 TAGCTATTTCTGTGCCAA---GCACGGGGA-TTCTGG-----ATCTCG--    317
+
+Phalacrocorax    294 TACGGACAGACCCATGGA-TGGACCCTCAGCTACAGACAG----ACCCAC    338
+                     |.||||.....|||.||| |.||           |||.||    |.||||
+Xenopus_tropi    318 TCCGGATTTTTCCAAGGATTCGA-----------AGAAAGTTCCAACCAC    356
+
+Phalacrocorax    339 AGACAGACCACCGGCTGAAGACGGACCCCTGGCCACAG-ATGGACCCCC-    386
+                     |   |..||.||.||....||||.|.||  |||.|.|| |.|.|.|||| 
+Xenopus_tropi    357 A---ATCCCTCCAGCCCCCGACGTAGCC--GGCGATAGCAAGAAGCCCCC    401
+
+Phalacrocorax    387 --AGCCCGATTCCCTGCCAGTCACC-----TGGCCCCACTGAGTCCCGCA    429
+                       .|||||         |.||||||     ||.|||.|.||   ||..||
+Xenopus_tropi    402 GGGGCCCG---------CTGTCACCCAACGTGCCCCTAATG---CCAACA    439
+
+Phalacrocorax    430 GCCCCAGAGGGACCCCCACCTGGCCCCACAG----AGAGATGCAGCCCCA    475
+                       ||||||.||  ||.||.|| |||||| ||    |..||.||.||||||
+Xenopus_tropi    440 --CCCAGAAGG--CCACAACT-GCCCCA-AGCGGCACGGAAGCTGCCCCA    483
+
+Phalacrocorax    476 GCCCCCCAGCCTCGAGGCTGGGTGAGGGGCACGGGGATGGGGGGCAGCT-    524
+                     .|....||                                  ||||||| 
+Xenopus_tropi    484 ACAGAACA----------------------------------GGCAGCTG    499
+
+Phalacrocorax    525 --CCCGGGGGGTCCCCAGGCCTTGCTCC-----------CCGCC--CCCA    559
+                       |||||.|..|.|||.|   ||.|.||           |.|||  ..||
+Xenopus_tropi    500 TGCCCGGTGACTACCCGG---TTACGCCGACTCAATACTCAGCCGTGGCA    546
+
+Phalacrocorax    560 CAGG--CTGGACCCACTGGGAGGCCATGGGGCAGGACCCCCA---GAT-G    603
+                     .|||  |.|||  ||..|.|||| |.||    ||.|.|||.|   ||| |
+Xenopus_tropi    547 AAGGAACAGGA--CAAAGAGAGG-CTTG----AGAATCCCGAAACGATAG    589
+
+Phalacrocorax    604 CCACCCCCTTCCGTGGGGCAGGCTCCCCACTCCGTGGGGCTGGCCATGGC    653
+                     .||                |||      |..||| |.|.||.|.|||  |
+Xenopus_tropi    590 ACA----------------AGG------AAACCG-GAGTCTCGTCAT--C    614
+
+Phalacrocorax    654 CGT------GGGGCTGGTAGCC--AG----CATGGGCTTGGTCC---TGG    688
+                     |.|      ||.|.|..||.||  ||    |||..||.|..|||   |||
+Xenopus_tropi    615 CATGAAAACGGCGATAATATCCTTAGTGTTCATCAGCCTTTTCCTTGTGG    664
+
+Phalacrocorax    689 CCTTCTGGTGG--------GGCTGCCGG-GGGGCAGG----GAGA----G    721
+                     ||  ||.||.|        ..||||.|| ||.|.|||    .|||    |
+Xenopus_tropi    665 CC--CTCGTCGCTTTCCTCATCTGCAGGAGGAGGAGGAAACCAGAATCCG    712
+
+Phalacrocorax    722 G--CAGGGGGGCAG-----GGGTCCTGCCCCCCACCCAAGGCCCTGCCGA    764
+                     |  ||||.|.|.||     ||.| |||.||    ||.||||    |.|.|
+Xenopus_tropi    713 GTACAGGAGAGGAGATAAAGGAT-CTGACC----CCTAAGG----GGCAA    753
+
+Phalacrocorax    765 CTCTCTCCTGCCCCACAGACGTGGGGTACAGAC--------------CCT    800
+                                 |.|.||||    .||||||||              |||
+Xenopus_tropi    754 ------------CAAGAGAC----AGTACAGACTAACAGCCAAAAATCCT    787
+
+Phalacrocorax    801 GTGA----    804
+                     .||.    
+Xenopus_tropi    788 TTGCCTAA    795
+
+
+#---------------------------------------
+#---------------------------------------
