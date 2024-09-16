@@ -22,8 +22,8 @@ shape_mapping <- setNames(shapes, Group)
 
 
 p1 <- ggplot() +
-  geom_point(data = merge_df[233:41126, ], aes(x = GC_Stretch, y = GC_content),alpha = 0.02, color = "gray")+
-  geom_point(data = merge_df[1:232, ], aes(x = GC_Stretch, y = GC_content, color = Group, shape = Group), size = 3) +
+  geom_point(data = merge_df[241:41126, ], aes(x = GC_Stretch, y = GC_content),alpha = 0.02, color = "gray")+
+  geom_point(data = merge_df[1:240, ], aes(x = GC_Stretch, y = GC_content, color = Group, shape = Group), size = 3) +
   scale_color_manual(values = color_mapping, name = "Group") +
   scale_shape_manual(values = shape_mapping, name = "Group") +
   labs(title = "CXCR16 GC-content vs G/C-stretch length",
