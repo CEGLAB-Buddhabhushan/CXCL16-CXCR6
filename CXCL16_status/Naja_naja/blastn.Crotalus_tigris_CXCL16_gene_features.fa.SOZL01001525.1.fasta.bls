@@ -1,0 +1,76 @@
+# BLASTN 2.9.0+
+# Query: 5_utr
+# Database: ../SOZL01001525.1.fasta
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+5_utr	SOZL01001525.1	84.615	26	4	0	63	88	61445	61470	0.008	30.1
+# BLASTN 2.9.0+
+# Query: Exon1
+# Database: ../SOZL01001525.1.fasta
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+Exon1	SOZL01001525.1	71.642	67	4	1	373	439	17759	17810	1.15e-06	45.5
+Exon1	SOZL01001525.1	93.103	29	2	0	231	259	17665	17693	1.15e-06	44.6
+# BLASTN 2.9.0+
+# Query: Exon2
+# Database: ../SOZL01001525.1.fasta
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+Exon2	SOZL01001525.1	79.200	125	25	1	1	124	17908	18032	1.02e-25	105
+# BLASTN 2.9.0+
+# Query: Exon3
+# Database: ../SOZL01001525.1.fasta
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: Exon4
+# Database: ../SOZL01001525.1.fasta
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: Exon5
+# Database: ../SOZL01001525.1.fasta
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+Exon5	SOZL01001525.1	79.381	194	25	3	1	182	18900	19090	4.50e-45	170
+# BLASTN 2.9.0+
+# Query: Exon6
+# Database: ../SOZL01001525.1.fasta
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: 3_utr
+# Database: ../SOZL01001525.1.fasta
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+3_utr	SOZL01001525.1	66.187	139	23	2	4	142	19619	19733	2.52e-09	52.7
+# BLASTN 2.9.0+
+# Query: Intron1
+# Database: ../SOZL01001525.1.fasta
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+Intron1	SOZL01001525.1	75.581	86	10	3	1	75	17811	17896	3.03e-11	58.1
+# BLASTN 2.9.0+
+# Query: Intron2
+# Database: ../SOZL01001525.1.fasta
+# 0 hits found
+# BLASTN 2.9.0+
+# Query: Intron3
+# Database: ../SOZL01001525.1.fasta
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+Intron3	SOZL01001525.1	71.429	189	28	6	224	402	18073	18245	7.68e-22	95.1
+Intron3	SOZL01001525.1	76.923	39	3	1	361	399	13080	13112	0.008	31.9
+# BLASTN 2.9.0+
+# Query: Intron4
+# Database: ../SOZL01001525.1.fasta
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+Intron4	SOZL01001525.1	93.333	45	3	0	27	71	18852	18896	1.32e-14	68.9
+# BLASTN 2.9.0+
+# Query: Intron5
+# Database: ../SOZL01001525.1.fasta
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 4 hits found
+Intron5	SOZL01001525.1	71.605	162	29	6	384	537	19155	19307	3.44e-15	74.3
+Intron5	SOZL01001525.1	75.258	97	13	3	542	630	19431	19524	1.78e-12	64.4
+Intron5	SOZL01001525.1	85.714	28	3	1	367	394	45206	45180	0.037	30.1
+Intron5	SOZL01001525.1	85.714	28	3	1	367	394	53842	53816	0.037	30.1
+# BLAST processed 13 queries

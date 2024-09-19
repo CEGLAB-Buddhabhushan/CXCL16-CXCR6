@@ -1,0 +1,403 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: SOZL01001525.1.fasta
+           1 sequences; 71,246 total letters
+
+
+
+Query= 5_utr
+
+Length=152
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SOZL01001525.1 Naja naja isolate NN01 ScVE01q_1538;HRSCAF=1757, w...  30.1       0.008
+
+
+
+Query_1  63     GCTCCCCGTGCTGAGCCAGAGCGCCG  88
+0        61445  ..A....C.T............C...  61470
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 9615915
+
+
+Query= Exon1
+
+Length=439
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SOZL01001525.1 Naja naja isolate NN01 ScVE01q_1538;HRSCAF=1757, w...  45.5       1e-06
+
+
+
+Query_2  231    GGAGGCGTTGGAAAGCCCCGCGCGGCTCCCCCGGCCGCCCGGCCGCCTTTCGCTTTCGGT  290
+0        17665  .......................CT....                                 17693
+
+Query_2  291    CTCGGGGAGAGAAGGACCAGGAGGGATggcggcggcggcggcggcggcgggcgAGCGTCG  350
+
+Query_2  351    CGGGGGCTCCGGCTCCCGCCTCACTTTGGCCCCGAGGCGCAGCCCgctggtgctgctgct  410
+0        17759                        .....C....A.....A..T..................  17796
+
+Query_2  411    gctgttgctgttgctgcCCGCCCGGCCAG  439
+0        17797  ..---------------............  17810
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 29986988
+
+
+Query= Exon2
+
+Length=124
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SOZL01001525.1 Naja naja isolate NN01 ScVE01q_1538;HRSCAF=1757, w...  105        1e-25
+
+
+
+Query_3  1      CCCTGGGCAACGAAGGGGGAACCGCCGGGAGCTGCCGGTGTGAGAGGTACCGCGACGAGC  60
+0        17908  .......G..T..G....A........CA.......A......C...C.....AC.A.C.  17968
+                                     \                                      
+                                     |                                      
+                                     G
+
+Query_3  61     CGCCGCTGGTCAAGAGGTTCGCCGACCGCCTGATGGCCTGGGAGCCCTGCAGGGGCCTGA  120
+0        17969  T..........C..CT....C..A...A....C..T........TG..............  18028
+
+Query_3  121    TCAG  124
+0        18029  .T..  18032
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 7621503
+
+
+Query= Exon3
+
+Length=83
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4772410
+
+
+Query= Exon4
+
+Length=240
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 15812616
+
+
+Query= Exon5
+
+Length=182
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SOZL01001525.1 Naja naja isolate NN01 ScVE01q_1538;HRSCAF=1757, w...  170        5e-45
+
+
+
+Query_6  1      GTGCCGCTGCTGAGGTCAGCCCCACTCAACTTGCACAAGAGGAGGGGGTGCCAGGGTGGC  60
+0        18900  ......TG.......C..T......C.G.T....T...........T.............  18963
+                                     \                                      
+                                     |                                      
+                                  ATCC
+
+Query_6  61     CCTATCAGACCACTGTCCTCTCTGCACTGGGCATCGTGCTGCTCCTCGTGATCGCTGGCC  120
+0        18964  A.---.....TG.......G..CA.G...........C.........A.....AT.....  19020
+
+Query_6  121    TGCTGTGCTGGTGGAGGCCCCCCAGGAGACGCCGCCGGGCAGCCCTGTCCTCCGAGCAAC  180
+0        19021  .................A...........G......A..T.......A............  19088
+                                        \                                   
+                                        |                                   
+                                 CCCCCCTG
+
+Query_6  181    AG  182
+0        19089  ..  19090
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 11752785
+
+
+Query= Exon6
+
+Length=84
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4843640
+
+
+Query= 3_utr
+
+Length=154
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SOZL01001525.1 Naja naja isolate NN01 ScVE01q_1538;HRSCAF=1757, w...  52.7       3e-09
+
+
+
+Query_8  4      GAGGGAGGGGCGCAGAAGGAAACTGCGTCTTACGGATTCAGGAATGTCCTCCCAGCAACT  63
+0        19619  .....G..T..A..A..........G...C.T-...C..C.............TT.....  19677
+
+Query_8  64     ATGGCTCAGTTTTCCTGGCTCAGGCTCTGTTCTTATGGACCTTTTGGGttttttttCTAA  123
+0        19678  -----------------------..G...C.T............CACC.....C....G.  19714
+
+Query_8  124    CAAATAAAAGTATATTTTT  142
+0        19715  ........G....T.A...  19733
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 9758373
+
+
+Query= Intron1
+
+Length=86
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SOZL01001525.1 Naja naja isolate NN01 ScVE01q_1538;HRSCAF=1757, w...  58.1       3e-11
+
+
+
+Query_9  1      GTGAGGCGCGCCGGCCGCGCTCTCGGGAGCCCCGGGTGGGGGGAGGCGTCCGCGTCCCCT  60
+0        17811  .....A.A.C.....GA.C............T...............A...C...G....  17880
+                                                     \    \                 
+                                                     |    |                 
+                                              CGGAGCTG   AA
+
+Query_9  61     CCTGACCGCCGCTCT  75
+0        17881  ...............  17896
+                          \    
+                          |    
+                          T
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 4986100
+
+
+Query= Intron2
+
+Length=92
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 5413480
+
+
+Query= Intron3
+
+Length=464
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SOZL01001525.1 Naja naja isolate NN01 ScVE01q_1538;HRSCAF=1757, w...  95.1       8e-22
+
+
+
+Query_11  224    GGGGGAAGGGCCTTCAGGGGCTGCCAGCCCCACAGCCTGGGTGAGTCCCAGGCAAGAGGG  283
+0         18073  .....GG..A..........G......T.........CCT.CC..C..............  18133
+                                       \                                     
+                                       |                                     
+                                       A
+
+Query_11  284    CAGAGCCAGTTCTTGAGATGTTTCCAAAAGGACAGGAGACGTggggggtgggggTTGCCC  343
+0         18134  .........G....C.........TGG....G..---------------C....GCA...  18178
+
+Query_11  344    CTTCTCTGGGGAGAGAATGTTCCCCAACGCAGGGAAGGCTCTCTTCCCCGCCCCCCTTG  402
+0         18179  .......-......C...C........................CA....C..A...C..  18245
+                                         \   \        \                     
+                                         |   |        |                     
+                                    CAGGGG   G       GT
+0         13080                   .........------..C..C...........A......     13112
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 31767688
+
+
+Query= Intron4
+
+Length=71
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SOZL01001525.1 Naja naja isolate NN01 ScVE01q_1538;HRSCAF=1757, w...  68.9       1e-14
+
+
+
+Query_12  27     gggaggggcttatgggaagggcACTCACTCCTGGTCTGATGGCAG  71
+0         18852  ...........C........................C...T....  18896
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 3917650
+
+
+Query= Intron5
+
+Length=630
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SOZL01001525.1 Naja naja isolate NN01 ScVE01q_1538;HRSCAF=1757, w...  74.3       3e-15
+
+
+
+Query_13  367    CCCACTGGAGCTGGCCTGGGGCGGTCTCCCACCAGAGAAGCTGCCCTCCCTCGGAGGAGG  426
+0         19155                   .....T............................TT....C..  19198
+                                                                          \  
+                                                                          |  
+                                                                          C
+0         45206  ...........CT....-......C...                                  45180
+0         53842  ...........CT....-......C...                                  53816
+
+Query_13  427    CACACGGCCTGGCCAGCCCCTGGGTGGCGGAAGCGCTCCGAAGGGCACTCAGGCCCAGGG  486
+0         19199  .C.CT.....C..AT...-------...--T.CG....T......TG.....A.......  19250
+                         \                                                   
+                         |                                                   
+                         A
+
+Query_13  487    GGCTGGTCAGAGTTTGAAGGAGGGCGGACAGGGAATTTCAAGAATTCCAGGTGTGCCTTC  546
+0         19251  ..TG..C....A...C.....A...A.G......T...G....T...A...           19307
+                                     \         \                             
+                                     |         |                             
+                                 GGGAA         G
+0         19431                                                         .....  19435
+
+Query_13  547    CTcccctgccccccagcccctcccccTACACAATCGTCCCTAACGCTTCAGTCCATTGGA  606
+0         19436  ....T.CT....---.....C.....A.....GAA........T......A....G....  19500
+                                              \                          \   
+                                              |                          |   
+                                             GC                     CCATTC
+
+Query_13  607    GCTAATTCTGATTCTCCCTTTCAG  630
+0         19501  ..C.....C...............  19524
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 43519697
+
+
+  Database: SOZL01001525.1.fasta
+    Posted date:  Sep 17, 2024  12:27 PM
+  Number of letters in database: 71,246
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
