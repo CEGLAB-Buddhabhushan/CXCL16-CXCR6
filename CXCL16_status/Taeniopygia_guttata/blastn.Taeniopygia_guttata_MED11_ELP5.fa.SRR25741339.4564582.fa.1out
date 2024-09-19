@@ -1,0 +1,177 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: SRR25741339.4564582.fa
+           1 sequences; 27,258 total letters
+
+
+
+Query= XM_041712300.1:35-823 PREDICTED: Taeniopygia guttata elongator
+acetyltransferase complex subunit 5 (ELP5), transcript variant X3,
+mRNA
+
+Length=789
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR25741339.4564582 4564582 length=27258                              252        3e-69
+
+
+
+Query_1  1      ATGGCGGCGGCCATTTCCGCTCGTGACGTCATCGGGAGGCGCCGCGCGACGATGCTGGAG  60
+0        15157  .........-....A....TA....C......T.T...-.....................  15215
+                                        \                                   
+                                        |                                   
+                                        T
+
+Query_1  61     GCGCTGGGCCGCGGGGGGCTGCTGCTCGTCATTGACAATGTCGGGTCCGAGGGTCGGAGC  120
+0        15216  ......A.AG..--..T......C.......                               15244
+0        15599                                           ............C......  15617
+
+Query_1  121    CTCCTGAGGGCGATCGCCAGCGAGGCCGTGGCCAGGGCCGAGCAGGTTCTCGTGGTGCTC  180
+0        16216                                               ..G............  16230
+0        15618  .A........A............-....A.......                          15654
+                     \       \                                              
+                     |       |                                              
+                     G       T
+
+Query_1  181    CTGGAGGTGCCCCGGGAGCAGTTCCAGGAGGGGCTGAACCCCCACGTCAGGGAGAGGCTG  240
+0        17896                                                        ...A..  17901
+0        16231  ...T...........T.........T..........-.G.................      16287
+                                       \                         \          
+                                       |                         |          
+                                       C                         G
+
+Query_1  241    CAGTTCCAGGACCTTTTCggggaccccctgggctggctgggccgggcccccccaggcccg  300
+0        17902  .......G.............A..A...............-.....A....A.-......  17961
+                     \                \                                     
+                     |                |                                     
+                     T                C
+
+Query_1  301    ggggggatttttgggggggttttggggggTCTCCCCTCCCCCGCCCCGGTGCTGCTGTTG  360
+0        17962  ..................-................TC...........C...........  18022
+                                                               \            
+                                                               |            
+                                                              CC
+
+Query_1  361    GACTCGCTGAGTTGGGCGCTGCTGCGGGAGCCCCTCCCCCACCTCTGCCGCCGCCTCGGG  420
+0        18023  ...A........-....................T.........A.........-...-..  18080
+                  \                                                         
+                  |                                                         
+                  A
+
+Query_1  421    GCGCTGCTggggggggCACCCCGAAAAGATCCCCCTCCCCGAATTGTGGCGCTGCTGCAC  480
+0        18081  ..C.........................                                  18108
+0        19742                            ...G...................TC.........  19775
+
+Query_1  481    CAGGAGCTGCAccccccccACCTTTTGGGGGCTCTCGGGGGTCTCGCCCGGGCCCAGCTG  540
+0        19776  -....................A....T.......................C......-A.  19836
+                                   \                         \              
+                                   |                         |              
+                                   C                        CG
+
+Query_1  541    ATCCTgggggggccccccgagacccccggagccccccGGAGGCTGCGGCTGCTCCGGGAC  600
+0        19837  ..................A.A..........................T.........A..  19905
+                                  \            \         \ \       \        
+                                  |            |         | |       |        
+                              CCGAA            A         C T       T
+
+Query_1  601    CCCCAGAAAggggggggACCCCTCCAGGAGcgaccccgagccgccccccgaggacttcga  660
+0        22581                        ......T.......-......G................  22617
+0        19906  .....A......................                                  19939
+                 \       \          \                                       
+                 |       |          |                                       
+                CA      GT         CG
+
+Query_1  661    ggaccccgacgaggacctggagctgtgacccccccccGGAACCCCAAATTTGGGGGGAAA  720
+0        22618  ...................-.CA......AG.............A...............  22678
+                                          \          \                      
+                                          |          |                      
+                                          T          T
+0        22879                                             ........TTT......  22895
+
+Query_1  721    ATCCCCGAATTTGGGACCCCAATAAAGGAGCTGCTCCTCCCCCACCCTCCC  771
+0        22679  ......A...............................-............  22737
+                    \             \                                
+                    |             |                                
+                CGAGGG          TAA
+0        22896  ......-..G.....                                      22909
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 21002040
+
+
+Query= XM_041712301.1:70-423 PREDICTED: Taeniopygia guttata mediator
+complex subunit 11 (MED11), mRNA
+
+Length=354
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR25741339.4564582 4564582 length=27258                              209        1e-56
+
+
+
+Query_2  6     GGGGTTCGGGGTGGCCAACGAGCGGCTGCGGGCGCTGGAGGAGCTGGAGCGCGAAATCGG  65
+0        7969  ...............-.....A..CT..............-...................  8026
+
+Query_2  66    CGCGTCCCTGCAGAGCGCGGGGCTGGTGATCCTGGAGCTGTCCAAGGAGAAGCCTCAGGA  125
+0        8953                     .........................................  8994
+                                           \                               
+                                           |                               
+                                           G
+0        8027  .....-...............                                         8046
+
+Query_2  126   GCGGCACCTGGACCGTCAGTGCGCCCAGTTCGGGGCCGCCGTGGCCAAGGTGGAGGCGGA  185
+0        8995  .........................................................-..  9055
+                                                     \        \            
+                                                     |        |            
+                                                     T        C
+
+Query_2  186   GCTCTCGGCCCAGATCCGCTACCTGACCCAGGTGGCCACGGGGCAGCCCCACGAGGGCTC  245
+0        9056  .......................-..........                            9088
+0        9333                              ......-.........................  9363
+
+Query_2  246   GAGCTACGCGGCGCGCAAGAGCTGCCAACTGGCGCTGAACCGGCTCGACTACGCCCGGCG  305
+0        9364  ..........C.................................................  9429
+                                  \ \ \             \                  \   
+                                  | | |             |                  |   
+                                 GA A G             A                  G
+
+Query_2  306   GCGCCTGGCCGAGCTGGCACGCGCCTGCGAGCTGATGCTGGAGCC  350
+0        9430  ........-..............-..............-......  9471
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 9180217
+
+
+  Database: SRR25741339.4564582.fa
+    Posted date:  Sep 18, 2024  11:34 PM
+  Number of letters in database: 27,258
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2

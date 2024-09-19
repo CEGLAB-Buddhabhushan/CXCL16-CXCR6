@@ -1,0 +1,276 @@
+BLASTN 2.9.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: SRR25741339.4564582.fa
+           1 sequences; 27,258 total letters
+
+
+
+Query= Phalacrocorax_carbo_XM_064437657.1
+
+Length=804
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 21410640
+
+
+Query= Harpia_harpyja_XM_052775067.1
+
+Length=822
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 21900960
+
+
+Query= Accipiter_gentilis_XM_049792651.1
+
+Length=798
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 21247200
+
+
+Query= Struthio_camelus_recoved_using_toga-
+CXCL16_Phalacrocorax_carbo_as_ref
+
+Length=747
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19857960
+
+
+Query= Buteo_buteo_recoved_using_toga-CXCL16_Harpia_harpyja_as_ref
+
+Length=795
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 21165480
+
+
+Query= Calonectris_borealis_recoved_using_toga-
+CXCL16_Harpia_harpyja_as_ref_255_codon_has_1
+base_deletion_masked_with_NNN
+
+Length=720
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 19122480
+
+
+Query= Haliaeetus_albicilla_recoved_using_toga-
+CXCL16_Phalacrocorax_carbo_as_ref
+
+Length=819
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 21819240
+
+
+Query= Aquila_chrysaetos_recoved_using_toga-
+CXCL16_Harpia_harpyja_as_ref_176_codon_has_2_base_deletion_reconfirm
+ed_with_blast-no_support_for_2_base_deletion
+
+Length=822
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 21900960
+
+
+Query= Rhea_pennata_recoved_using_toga-
+CXCL16_Harpia_harpyja_as_ref_pilon1_Rhea_pennata-NC_084701.1-
+SRR27716236_1_base_deletion_not_supported_masked_with_NNN
+
+Length=777
+                                                                      Score        E
+Sequences producing significant alignments:                          (Bits)     Value
+
+SRR25741339.4564582 4564582 length=27258                              30.1       0.017
+
+
+
+Query_9  306   CCCTCCCACCAGCCCCACGGCGCTGGCAAGATCCCTGGGCAGCCCCACGGCGGGACACAG  365
+0        2540                                                     .........  2548
+0        8186  ...........T.....T...                                         8166
+
+Query_9  366   CCCCACGGCACC  377
+0        2549  ....T..A....  2560
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 20675160
+
+
+Query= Anas_platyrhynchos_recoved_using_toga-
+CXCL16_Harpia_harpyja_as_ref_pilon1_Anas_platyrhynchos-
+ERR12875150.3600316-ERR13493936_SRR23561719-
+38_2_base_deletion_at_255_codon_masked_with_NNN
+
+Length=642
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 16997760
+
+
+Query= *partial_Anser_cygnoides-NC_089903.1_recoved_using_toga-
+CXCL16Phalacrocorax_carbo_as_ref_2_base_deletion_masked_with_NNN_at_
+21_codon
+
+Length=663
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 17569800
+
+
+Query= Chelonia_mydas_recoved_using_toga-
+CXCL16_Caretta_caretta_as_ref_pilon_SRR25743026.493011-
+SRR12540953_SRR14517642_SRR14839290
+
+Length=1014
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 27131040
+
+
+  Database: SRR25741339.4564582.fa
+    Posted date:  Sep 18, 2024  11:34 PM
+  Number of letters in database: 27,258
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
