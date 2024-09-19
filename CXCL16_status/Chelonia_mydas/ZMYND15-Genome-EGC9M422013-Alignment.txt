@@ -1,0 +1,312 @@
+RID: EGC9M422013	
+Job Title:XM_048834056:PREDICTED: Caretta caretta zinc...				
+Program: BLASTN 
+Database: Genome (rCheMyd1.pri.v2) rCheMyd1.pri.v2 RefSeq assembly [GCF_015237465.2]
+Query #1: PREDICTED: Caretta caretta zinc finger MYND-type containing 15 (ZMYND15), mRNA Query ID: ref|XM_048834056.1 Length: 1948
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E    Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value  Ident  Len        Accession        
+Chelonia mydas isolate rCheMyd1 chromosome 28, rCheMyd1.pri.v2... Chelonia mydas  Green sea tu... 8469       408    1388  40%   3e-111 95.38  8033983    NC_051268.2      
+Chelonia mydas isolate rCheMyd1 chromosome 15, rCheMyd1.pri.v2... Chelonia mydas  Green sea tu... 8469       54.5   54.5  5%    3e-04  71.84  33324608   NC_057856.1      
+Chelonia mydas isolate rCheMyd1 chromosome 1, rCheMyd1.pri.v2,... Chelonia mydas  Green sea tu... 8469       54.5   106   1%    3e-04  96.88  348265484  NC_057849.1      
+Chelonia mydas isolate rCheMyd1 chromosome 2, rCheMyd1.pri.v2,... Chelonia mydas  Green sea tu... 8469       50.0   50.0  3%    0.004  80.95  262513884  NC_057850.1      
+Chelonia mydas isolate rCheMyd1 chromosome 20, rCheMyd1.pri.v2... Chelonia mydas  Green sea tu... 8469       50.0   50.0  2%    0.004  86.67  18906060   NC_051260.2      
+Chelonia mydas isolate rCheMyd1 chromosome 13, rCheMyd1.pri.v2... Chelonia mydas  Green sea tu... 8469       49.1   49.1  1%    0.013  91.18  42953438   NC_051253.2      
+Chelonia mydas isolate rCheMyd1 chromosome 27, rCheMyd1.pri.v2... Chelonia mydas  Green sea tu... 8469       49.1   49.1  2%    0.013  81.13  16135183   NC_057860.1      
+Chelonia mydas isolate rCheMyd1 chromosome 25, rCheMyd1.pri.v2... Chelonia mydas  Green sea tu... 8469       48.2   48.2  2%    0.013  83.33  16433863   NC_057858.1      
+Chelonia mydas isolate rCheMyd1 chromosome 4, rCheMyd1.pri.v2,... Chelonia mydas  Green sea tu... 8469       47.3   47.3  1%    0.045  86.84  142324156  NC_057852.1      
+Chelonia mydas isolate rCheMyd1 chromosome 3, rCheMyd1.pri.v2,... Chelonia mydas  Green sea tu... 8469       46.4   46.4  2%    0.045  85.00  204120564  NC_057851.1      
+Chelonia mydas isolate rCheMyd1 chromosome 10, rCheMyd1.pri.v2... Chelonia mydas  Green sea tu... 8469       46.4   46.4  3%    0.045  77.94  84054250   NC_051250.2      
+
+
+Alignments:
+
+>Chelonia mydas isolate rCheMyd1 chromosome 28, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_051268.2 Length: 8033983
+Range 1: 746247 to 746505
+
+Score:408 bits(452), Expect:3e-111, 
+Identities:248/260(95%),  Gaps:2/260(0%), Strand: Plus/Plus
+
+Query  1690    CCCTGGTACTCCAACGCCTTCATCTTCCACCTGCTGTACAAggggggggccgggggg-cc  1748
+               ||| ||||||||||||||||||||||||||||||||||||||||||||| ||||||| ||
+Sbjct  746247  CCCAGGTACTCCAACGCCTTCATCTTCCACCTGCTGTACAAGGGGGGGGGCGGGGGGGCC  746306
+
+Query  1749    gcggcagcccccggggccggccccgccccccgcccccagccccgcccacctggagcccgg  1808
+               |||||||||||||||||||||||||||||| ||||||||||||||||||| |||||||||
+Sbjct  746307  GCGGCAGCCCCCGGGGCCGGCCCCGCCCCCTGCCCCCAGCCCCGCCCACCCGGAGCCCGG  746366
+
+Query  1809    cccggcccgcgcccgccgcAAGGAGAAGCGGCAGAACCGTGGCGGCCGCCGCCGCAAATG  1868
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  746367  CCCGGCCCGCGCCCGCCGCAAGGAGAAGCGGCAGAACCGTGGCGGCCGCCGCCGCAAATG  746426
+
+Query  1869    AggggggtggcgggagggggggggCTAATAAACCCGCCCCGGCTAATGGAGCCTGCGCCT  1928
+               |||| || || | |  |||||||||||||||||||| |||||||||||||||||||||||
+Sbjct  746427  AGGGTGG-GGGGCGTCGGGGGGGGCTAATAAACCCGTCCCGGCTAATGGAGCCTGCGCCT  746485
+
+Query  1929    CGTTACTGTCCGACCCGGGG  1948
+               ||||||||||||||||||||
+Sbjct  746486  CGTTACTGTCCGACCCGGGG  746505
+
+
+
+
+Range 2: 745294 to 745463
+
+Score:303 bits(335), Expect:4e-79, 
+Identities:169/170(99%),  Gaps:0/170(0%), Strand: Plus/Plus
+
+Query  1527    CCTGCAGGCGCTCCGGGTCCCGGCCTACTTCACGGAGTGCAGCGAGTACAGCTGCGCGGT  1586
+               || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  745294  CCCGCAGGCGCTCCGGGTCCCGGCCTACTTCACGGAGTGCAGCGAGTACAGCTGCGCGGT  745353
+
+Query  1587    GGACGAGGCCACGGTCTCCATGGCGACGGGGGGCAGCACCGGCCCGCCCCACGTCAACCC  1646
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  745354  GGACGAGGCCACGGTCTCCATGGCGACGGGGGGCAGCACCGGCCCGCCCCACGTCAACCC  745413
+
+Query  1647    CTTCCGCTCGCCCTTCCGCCAGGCCGGCGTCGACAACGCCATGCCCTGGT  1696
+               ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  745414  CTTCCGCTCGCCCTTCCGCCAGGCCGGCGTCGACAACGCCATGCCCTGGT  745463
+
+
+
+
+Range 3: 744130 to 744262
+
+Score:219 bits(242), Expect:3e-54, 
+Identities:129/133(97%),  Gaps:1/133(0%), Strand: Plus/Plus
+
+Query  1344    GGAGACACAGGGGGTGCGCGTCTGGCCCGGCCCGGCCCCCAAGGCCAAgggggggcgggg  1403
+               |||||| |||||||||||||||||| ||||||||||||||||||||||||||||||||||
+Sbjct  744130  GGAGACGCAGGGGGTGCGCGTCTGGTCCGGCCCGGCCCCCAAGGCCAAGGGGGGGCGGGG  744189
+
+Query  1404    gggg-CTGCAGCTGAAATTCTGCGCCCAGCCCACCCCCCTGCTGCAGGGCCCCAGACCCG  1462
+               |||| ||||||||||||||||||||||||||||||||||||||||||||||||| |||||
+Sbjct  744190  GGGGGCTGCAGCTGAAATTCTGCGCCCAGCCCACCCCCCTGCTGCAGGGCCCCAAACCCG  744249
+
+Query  1463    ACCTGGTCATCGG  1475
+               |||||||||||||
+Sbjct  744250  ACCTGGTCATCGG  744262
+
+
+
+
+Range 4: 743935 to 744041
+
+Score:180 bits(199), Expect:3e-42, 
+Identities:104/107(97%),  Gaps:0/107(0%), Strand: Plus/Plus
+
+Query  1242    GGAGCTCTCCGTACTGCTGCCCCACGTGTGGCTGGAGCTCCTGTTTCTGGGGGGCGTCCT  1301
+               |||||| |||||||||||||||||||||| ||||||||||||||||||||||||||||||
+Sbjct  743935  GGAGCTGTCCGTACTGCTGCCCCACGTGTCGCTGGAGCTCCTGTTTCTGGGGGGCGTCCT  743994
+
+Query  1302    GCCCCCCGAGGCCGACGGGCAGCAGCTCCTGCTGCAGAGAACGGAGA  1348
+               |||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  743995  GCCCCCCGAGGCCGACGGGCAGCAGCTCCTGCTGCAGAGAACGGTGA  744041
+
+
+
+
+Range 5: 743562 to 743654
+
+Score:164 bits(181), Expect:2e-37, 
+Identities:92/93(99%),  Gaps:0/93(0%), Strand: Plus/Plus
+
+Query  1154    TCCCGGAGCTGAACATCCTGAACAAACAGTCGCTGAAGATTCACATCGTGGAGACGGGGA  1213
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  743562  TCCCGGAGCTGAACATCCTGAACAAACAGTCGCTGAAGATTCACATCGTGGAGACGGGGA  743621
+
+Query  1214    AGGAGTCGGACATGGCCCCCCTCTTCTGGGAGC  1246
+               |||||||||||||||||||||||||||||| ||
+Sbjct  743622  AGGAGTCGGACATGGCCCCCCTCTTCTGGGTGC  743654
+
+
+
+
+Range 6: 744693 to 744753
+
+Score:111 bits(122), Expect:1e-21, 
+Identities:61/61(100%),  Gaps:0/61(0%), Strand: Plus/Plus
+
+Query  1474    GGGTTCAATTCCGGCTTTGCACTGAAGGACACCTGGCTCAGTGCCCTGCCCCGCCTGCAG  1533
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  744693  GGGTTCAATTCCGGCTTTGCACTGAAGGACACCTGGCTCAGTGCCCTGCCCCGCCTGCAG  744752
+
+Query  1534    G  1534
+               |
+Sbjct  744753  G  744753
+
+
+
+
+>Chelonia mydas isolate rCheMyd1 chromosome 15, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_057856.1 Length: 33324608
+Range 1: 29995065 to 29995159
+
+Score:54.5 bits(59), Expect:3e-04, 
+Identities:74/103(72%),  Gaps:8/103(7%), Strand: Plus/Plus
+
+Query  1762      gggccggccccgccccccgcccccagccccgcccacctggagcccggcccggcccgcgcc  1821
+                 |||||||| |||| || ||  ||| |||  |||||      ||||||||| ||| |||||
+Sbjct  29995065  GGGCCGGCTCCGCTCCGCGGGCCCCGCC--GCCCA------GCCCGGCCCCGCCAGCGCC  29995116
+
+Query  1822      cgccgcAAGGAGAAGCGGCAGAACCGTGGCGGCCGCCGCCGCA  1864
+                  || ||| || ||  |  |||  | || ||| |||||||||||
+Sbjct  29995117  AGCAGCAGGGCGAGCCCCCAGCCCGGTCGCGCCCGCCGCCGCA  29995159
+
+
+
+
+>Chelonia mydas isolate rCheMyd1 chromosome 1, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_057849.1 Length: 348265484
+Range 1: 192649020 to 192649051
+
+Score:54.5 bits(59), Expect:3e-04, 
+Identities:31/32(97%),  Gaps:0/32(0%), Strand: Plus/Plus
+
+Query  1107       CCTGCCCCCCACCTCCCCAGAGCCCCCTGCAC  1138
+                  |||||||||||||||||||||||| |||||||
+Sbjct  192649020  CCTGCCCCCCACCTCCCCAGAGCCTCCTGCAC  192649051
+
+
+
+
+Range 2: 111410024 to 111410056
+
+Score:51.8 bits(56), Expect:0.001, 
+Identities:31/33(94%),  Gaps:0/33(0%), Strand: Plus/Minus
+
+Query  1111       CCCCCCACCTCCCCAGAGCCCCCTGCACCCAGG  1143
+                  |||||| ||||||||||||| ||||||||||||
+Sbjct  111410056  CCCCCCTCCTCCCCAGAGCCTCCTGCACCCAGG  111410024
+
+
+
+
+>Chelonia mydas isolate rCheMyd1 chromosome 2, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_057850.1 Length: 262513884
+Range 1: 261516143 to 261516203
+
+Score:50.0 bits(54), Expect:0.004, 
+Identities:51/63(81%),  Gaps:3/63(4%), Strand: Plus/Plus
+
+Query  485        TGGAGCAGCTGGCCCTGGAGCTGCTGGGCCGGAGCATggcctgcccgc-tgggggcgggg  543
+                  |||||| ||||| |||||  |||||||||||| ||  |||||| | || |||||||  ||
+Sbjct  261516143  TGGAGCTGCTGGGCCTGGCCCTGCTGGGCCGG-GC-CGGCCTGGCAGCTTGGGGGCCAGG  261516200
+
+Query  544        gag  546
+                  |||
+Sbjct  261516201  GAG  261516203
+
+
+
+
+>Chelonia mydas isolate rCheMyd1 chromosome 20, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_051260.2 Length: 18906060
+Range 1: 15883657 to 15883698
+
+Score:50.0 bits(54), Expect:0.004, 
+Identities:39/45(87%),  Gaps:4/45(8%), Strand: Plus/Minus
+
+Query  361       ACAGGCCAGGCCCTGGTGCATGTGCAGCACCTCCTGCTGG-TGAC  404
+                 || |||||||||||||||   |||||||||| |||||||| ||||
+Sbjct  15883698  ACGGGCCAGGCCCTGGTG---GTGCAGCACCCCCTGCTGGCTGAC  15883657
+
+
+
+
+>Chelonia mydas isolate rCheMyd1 chromosome 13, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_051253.2 Length: 42953438
+Range 1: 36225003 to 36225036
+
+Score:49.1 bits(53), Expect:0.013, 
+Identities:31/34(91%),  Gaps:0/34(0%), Strand: Plus/Plus
+
+Query  1107      CCTGCCCCCCACCTCCCCAGAGCCCCCTGCACCC  1140
+                 || |||||||||||||||||| ||||| ||||||
+Sbjct  36225003  CCAGCCCCCCACCTCCCCAGATCCCCCAGCACCC  36225036
+
+
+
+
+>Chelonia mydas isolate rCheMyd1 chromosome 27, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_057860.1 Length: 16135183
+Range 1: 15006504 to 15006556
+
+Score:49.1 bits(53), Expect:0.013, 
+Identities:43/53(81%),  Gaps:2/53(3%), Strand: Plus/Minus
+
+Query  708       CGTGTGCAAGAGGCACGGGTT--CCAGGGGCGGCTGGCGCCCTGCCAGCAGTG  758
+                 |||||||| | |||  ||| |  || ||||||||| |||||||||||||| ||
+Sbjct  15006556  CGTGTGCAGGGGGCTGGGGCTGCCCCGGGGCGGCTCGCGCCCTGCCAGCACTG  15006504
+
+
+
+
+>Chelonia mydas isolate rCheMyd1 chromosome 25, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_057858.1 Length: 16433863
+Range 1: 4366388 to 4366435
+
+Score:48.2 bits(52), Expect:0.013, 
+Identities:40/48(83%),  Gaps:1/48(2%), Strand: Plus/Minus
+
+Query  453      GGcccccccccAGCCGGCCGCGccccccccGCT-GGAGCAGCTGGCCC  499
+                |||||| ||||  || ||| ||||||||||||  || |||||||||||
+Sbjct  4366435  GGCCCCGCCCCGCCCCGCCCCGCCCCCCCCGCGCGGCGCAGCTGGCCC  4366388
+
+
+
+
+>Chelonia mydas isolate rCheMyd1 chromosome 4, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_057852.1 Length: 142324156
+Range 1: 124696362 to 124696399
+
+Score:47.3 bits(51), Expect:0.045, 
+Identities:33/38(87%),  Gaps:0/38(0%), Strand: Plus/Minus
+
+Query  474        GccccccccGCTGGAGCAGCTGGCCCTGGAGCTGCTGG  511
+                  ||| || ||||||| |||||||||||||| ||||| ||
+Sbjct  124696399  GCCGCCGCCGCTGGTGCAGCTGGCCCTGGGGCTGCCGG  124696362
+
+
+
+
+>Chelonia mydas isolate rCheMyd1 chromosome 3, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_057851.1 Length: 204120564
+Range 1: 194171745 to 194171784
+
+Score:46.4 bits(50), Expect:0.045, 
+Identities:34/40(85%),  Gaps:0/40(0%), Strand: Plus/Minus
+
+Query  1108       CTGCCCCCCACCTCCCCAGAGCCCCCTGCACCCAGGACCT  1147
+                  || |||| | ||||||||||||| ||||||| ||||| ||
+Sbjct  194171784  CTCCCCCTCCCCTCCCCAGAGCCTCCTGCACACAGGAGCT  194171745
+
+
+
+
+>Chelonia mydas isolate rCheMyd1 chromosome 10, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_051250.2 Length: 84054250
+Range 1: 75715422 to 75715487
+
+Score:46.4 bits(50), Expect:0.045, 
+Identities:53/68(78%),  Gaps:4/68(5%), Strand: Plus/Minus
+
+Query  1715      TCCACCTGCTGTACAAggggggggccggggggccgcg-gcagcccccggggccggc-ccc  1772
+                 ||||||||||| |   ||  ||||||  ||||||| | ||||||| ||| |||||| | |
+Sbjct  75715487  TCCACCTGCTGCAGCCGGCCGGGGCC--GGGGCCGGGAGCAGCCCGCGGCGCCGGCGCTC  75715430
+
+Query  1773      gccccccg  1780
+                 ||| ||||
+Sbjct  75715429  GCCGCCCG  75715422
+
+
+
+
+
+
+
+		
+
+

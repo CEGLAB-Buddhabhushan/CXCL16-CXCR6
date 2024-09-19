@@ -1,0 +1,70 @@
+RID: EGC7EAR7013	
+Job Title:XM_048834055:PREDICTED: Caretta caretta mediator...				
+Program: BLASTN 
+Database: Genome (rCheMyd1.pri.v2) rCheMyd1.pri.v2 RefSeq assembly [GCF_015237465.2]
+Query #1: PREDICTED: Caretta caretta mediator complex subunit 11 (MED11), mRNA Query ID: ref|XM_048834055.1 Length: 761
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+Chelonia mydas isolate rCheMyd1 chromosome 24, rCheMyd1.pri.v2... Chelonia mydas  Green sea tu... 8469       49.1   147   8%    0.005 78.57  19202859   NC_051264.2      
+
+
+Alignments:
+
+>Chelonia mydas isolate rCheMyd1 chromosome 24, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_051264.2 Length: 19202859
+Range 1: 14647902 to 14647971
+
+Score:49.1 bits(53), Expect:0.005, 
+Identities:55/70(79%),  Gaps:3/70(4%), Strand: Plus/Minus
+
+Query  486       GGAGcccccccccccccGCGGGAACACGCCAGGAGCACGGGAC-GGCGGCCGGGGGGAG-  543
+                 |||| ||  ||||| | ||||| || |   ||||||| ||||  ||||||||||||||| 
+Sbjct  14647971  GGAGGCCGGCCCCCACAGCGGGGACCCCGAAGGAGCAGGGGAAAGGCGGCCGGGGGGAGC  14647912
+
+Query  544       CGC-GGAGCC  552
+                 ||| ||||||
+Sbjct  14647911  CGCAGGAGCC  14647902
+
+
+
+
+Range 2: 14678301 to 14678370
+
+Score:49.1 bits(53), Expect:0.005, 
+Identities:55/70(79%),  Gaps:3/70(4%), Strand: Plus/Plus
+
+Query  486       GGAGcccccccccccccGCGGGAACACGCCAGGAGCACGGGAC-GGCGGCCGGGGGGAG-  543
+                 |||| ||  ||||| | ||||| || |   ||||||| ||||  ||||||||||||||| 
+Sbjct  14678301  GGAGGCCGGCCCCCACAGCGGGGACCCCGAAGGAGCAGGGGAAAGGCGGCCGGGGGGAGC  14678360
+
+Query  544       CGC-GGAGCC  552
+                 ||| ||||||
+Sbjct  14678361  CGCAGGAGCC  14678370
+
+
+
+
+Range 3: 14687236 to 14687305
+
+Score:49.1 bits(53), Expect:0.005, 
+Identities:55/70(79%),  Gaps:3/70(4%), Strand: Plus/Minus
+
+Query  486       GGAGcccccccccccccGCGGGAACACGCCAGGAGCACGGGAC-GGCGGCCGGGGGGAG-  543
+                 |||| ||  ||||| | ||||| || |   ||||||| ||||  ||||||||||||||| 
+Sbjct  14687305  GGAGGCCGGCCCCCACAGCGGGGACCCCGAAGGAGCAGGGGAAAGGCGGCCGGGGGGAGC  14687246
+
+Query  544       CGC-GGAGCC  552
+                 ||| ||||||
+Sbjct  14687245  CGCAGGAGCC  14687236
+
+
+
+
+
+
+
+		
+
+

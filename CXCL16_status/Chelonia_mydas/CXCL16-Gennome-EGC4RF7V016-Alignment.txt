@@ -1,0 +1,49 @@
+RID: EGC4RF7V016	
+Job Title:XM_048834045:PREDICTED: Caretta caretta C-X-C...				
+Program: BLASTN 
+Database: Genome (rCheMyd1.pri.v2) rCheMyd1.pri.v2 RefSeq assembly [GCF_015237465.2]
+Query #1: PREDICTED: Caretta caretta C-X-C motif chemokine 16-like (LOC125628750), mRNA Query ID: ref|XM_048834045.1 Length: 1229
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E   Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value Ident  Len        Accession        
+Chelonia mydas isolate rCheMyd1 chromosome 6, rCheMyd1.pri.v2,... Chelonia mydas  Green sea tu... 8469       48.2   48.2  3%    0.008 89.47  134428053  NC_051246.2      
+Chelonia mydas isolate rCheMyd1 chromosome 23, rCheMyd1.pri.v2... Chelonia mydas  Green sea tu... 8469       47.3   47.3  3%    0.028 82.61  19295284   NC_051263.2      
+
+
+Alignments:
+
+>Chelonia mydas isolate rCheMyd1 chromosome 6, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_051246.2 Length: 134428053
+Range 1: 644400 to 644437
+
+Score:48.2 bits(52), Expect:0.008, 
+Identities:34/38(89%),  Gaps:1/38(2%), Strand: Plus/Minus
+
+Query  542     CACGGACCCCCAGAGCCGC-ACGGCCCCCCAGAGCCCC  578
+               ||||| ||||||||||| | |||||||||| |||||||
+Sbjct  644437  CACGGCCCCCCAGAGCCCCCACGGCCCCCCGGAGCCCC  644400
+
+
+
+
+>Chelonia mydas isolate rCheMyd1 chromosome 23, rCheMyd1.pri.v2, whole genome shotgun sequence
+Sequence ID: NC_051263.2 Length: 19295284
+Range 1: 1823229 to 1823270
+
+Score:47.3 bits(51), Expect:0.028, 
+Identities:38/46(83%),  Gaps:4/46(8%), Strand: Plus/Plus
+
+Query  127      gctgctgctgctgGGCCCCCCGCCGGCCTGGGGGAACGAGGGGGGC  172
+                ||| ||||||||||||||||    |||||||||   ||||||||||
+Sbjct  1823229  GCTCCTGCTGCTGGGCCCCC----GGCCTGGGGAGCCGAGGGGGGC  1823270
+
+
+
+
+
+
+
+		
+
+
