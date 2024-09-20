@@ -9,7 +9,7 @@ Madhya Pradesh, India
 *Correspondence: nagarjun@iiserb.ac.in
 
 ## Graphical abstract
-![graphical_abstract](https://github.com/CEGLAB-Buddhabhushan/CXCL16-CXCR6/blob/53ae52eb3c1cac60ffba60027b703bfb9c525bfa/Main_figures/Fig_1.jpg)
+![graphical_abstract]([https://github.com/CEGLAB-Buddhabhushan/CXCL16-CXCR6/blob/53ae52eb3c1cac60ffba60027b703bfb9c525bfa/Main_figures/Fig_1.jpg](https://github.com/CEGLAB-Buddhabhushan/CXCL16-CXCR6/blob/main/Main_figures/Fig1.jpeg))
 
 **Folder Structure**
 - **Birds:** Contains the raw files for long read assembly verification, BLASTn results, Circos plot, Galliformes specific deletion, Passeriforme specific deletion, and TOGA output. **(Fig. 5-7)**
